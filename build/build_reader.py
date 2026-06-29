@@ -60,12 +60,39 @@ def esc(s):
     return html.escape(s).replace("\n", "<br>")
 
 
+# 직선 큰따옴표(") → 둥근 따옴표(“ ”). 데이터는 원문처럼 직선 유지, 번역 표시에서만 변환.
+_OPENERS = "([{<‘“‹«—–-\n\r\t "
+
+
+def _smart_quotes(text, prev):
+    """직선 " 를 앞 문자 맥락으로 여는/닫는 둥근따옴표로. (변환문, 마지막 문자) 반환(run 경계 넘어 상태 유지)."""
+    out = []
+    for ch in text:
+        if ch == '"':
+            opening = prev is None or prev.isspace() or prev in _OPENERS
+            ch = "“" if opening else "”"   # “ / ”
+        out.append(ch)
+        prev = ch
+    return "".join(out), prev
+
+
 def render_runs(runs):
+    out = []
+    prev = None
+    for r in runs:
+        t, prev = _smart_quotes(r["t"], prev)
+        t = esc(t)
+        iv = r.get("i")
+        out.append(f'<span class="{italic_class(iv)}">{t}</span>' if iv else t)
+    return "".join(out)
+
+
+def render_orig(runs):
+    """원문(영어) 렌더 — 원문의 이탤릭(run.i)을 <i> 로 반영."""
     out = []
     for r in runs:
         t = esc(r["t"])
-        iv = r.get("i")
-        out.append(f'<span class="{italic_class(iv)}">{t}</span>' if iv else t)
+        out.append(f"<i>{t}</i>" if r.get("i") else t)
     return "".join(out)
 
 
@@ -145,7 +172,7 @@ def seg_html(tr):
     ko_text = "".join(r["t"] for r in ko_runs)
     body = apply_marks(render_runs(ko_runs), ko_text)
     cls = {"right": "ta-right", "center": "ta-center"}.get(src["align"], "")
-    orig = esc(src["text"])
+    orig = render_orig(src["runs"])
     return (
         f'<p class="seg {cls}" id="{tr["id"]}" data-id="{tr["id"]}">'
         f'<button class="seg-handle" aria-label="문단 도구" tabindex="-1">⋮</button>'

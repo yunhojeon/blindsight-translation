@@ -2,6 +2,7 @@
    reader.css — 블라인드사이트 한국어 리더 스타일
    편집 후  `python3 build/build_reader.py`  로 재빌드(이 CSS 가 dist/preview.html 에 인라인됨).
    폰트: 본문 Noto Serif KR / 보조(신조어·통신) Noto Sans KR — reader.html 의 Google Fonts 링크.
+   밝기: data-theme=light|dark|system(또는 미설정→OS). 글자/줄간격: --fs/--lh(메뉴에서 조절).
    ============================================================================ */
 
 :root {
@@ -14,23 +15,34 @@
   --origbg: #f1ece2;
   --serif: "Noto Serif KR", serif;
   --sans: "Noto Sans KR", -apple-system, system-ui, sans-serif;
-
-  /* 이탤릭 목적별 */
   --i-thought: #8c877e;
-  /* 생각: 살짝 흐린 색 */
   --i-title: #2f6f6a;
-  /* 함선·작품 이름 */
   --i-comm-ink: #2c4a63;
-  /* 통신 글자 */
   --i-comm-bg: #e7eef4;
-  /* 통신 바탕 */
-
   --accent: #b4541a;
-  /* 링크/하이라이트 포인트 */
+  --fs: 16px;   /* 글자 크기(메뉴에서 조절) */
+  --lh: 1.8;    /* 줄 간격(메뉴에서 조절) */
+}
+
+/* 다크 팔레트(한 곳에서 관리하기 위해 동일 값을 수동 dark / 시스템 dark 양쪽에 적용) */
+:root[data-theme="dark"] {
+  --bg: #1a1916;
+  --ink: #e8e3d8;
+  --muted: #8a8478;
+  --coinage: #79c2bb;
+  --anno: #7a7066;
+  --rule: #322e28;
+  --origbg: #23211c;
+  --i-thought: #8f8a80;
+  --i-title: #79c2bb;
+  --i-comm-ink: #bcd4e6;
+  --i-comm-bg: #22303a;
+  --accent: #e58a4e;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  /* 미설정 또는 system → OS 따라 다크 (light/dark 명시 시 제외) */
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
     --bg: #1a1916;
     --ink: #e8e3d8;
     --muted: #8a8478;
@@ -55,8 +67,8 @@ body {
   color: var(--ink);
   margin: 0;
   font-family: var(--serif);
-  line-height: 1.9;
-  font-size: 16px;
+  line-height: var(--lh);
+  font-size: var(--fs);
 }
 
 .wrap {
@@ -65,6 +77,7 @@ body {
   padding: 48px 22px 120px;
 }
 
+/* ── 헤더 ────────────────────────────────────────────────────────── */
 header {
   position: sticky;
   top: 0;
@@ -109,23 +122,97 @@ header b {
 }
 
 .toggle.ico {
-  padding: 3px 9px;
+  padding: 3px 10px;
+  font-size: 15px;
+}
+
+/* ── 헤더 설정 메뉴(드롭다운) ─────────────────────────────────────── */
+#menu {
+  display: none;
+  position: fixed;
+  top: 46px;
+  right: 12px;
+  z-index: 35;
+  width: min(280px, 92vw);
+  padding: 6px;
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .18);
+  font-family: var(--sans);
   font-size: 13px;
 }
 
-@media (max-width:520px) {
-  header {
-    gap: 8px;
-    flex-wrap: wrap;
-  }
+#menu.show {
+  display: block;
+}
 
-  header b {
-    font-size: 14px;
-  }
+.mi {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  background: none;
+  color: var(--ink);
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
 
-  .pos {
-    font-size: 11px;
-  }
+.mi:hover {
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+}
+
+.mi .lbl {
+  flex: 1;
+}
+
+.mi.on .lbl::after {
+  content: " ✓";
+  color: var(--accent);
+}
+
+.mi-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+}
+
+.mi-row .lbl {
+  flex: 1;
+}
+
+.mi-step {
+  display: flex;
+  gap: 4px;
+}
+
+.mi-step button,
+.mi-theme {
+  cursor: pointer;
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  background: var(--bg);
+  color: var(--ink);
+  padding: 3px 10px;
+  font: inherit;
+  min-width: 32px;
+}
+
+.mi-step button:hover,
+.mi-theme:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.mi-sep {
+  height: 1px;
+  background: var(--rule);
+  margin: 5px 6px;
 }
 
 /* ── 문단·정렬·장면 ──────────────────────────────────────────────── */
@@ -147,7 +234,7 @@ header b {
   text-align: center;
 }
 
-/* 링크/목차/북마크로 이동 시 잠깐 비췄다 사라지는 하이라이트(:target 처럼 남지 않음) */
+/* 링크/목차/북마크로 이동 시 잠깐 비췄다 사라지는 하이라이트 */
 .seg.flash {
   background: color-mix(in srgb, var(--accent) 15%, transparent);
 }
@@ -181,20 +268,17 @@ body.hide-anno .anno {
   display: none;
 }
 
-/* ── 이탤릭 목적별 스타일 ─────────────────────────────────────────────
-   run.i: true(미분류) | thought | emphasis | foreign | title | comm | other */
+/* ── 이탤릭 목적별 스타일 ────────────────────────────────────────── */
 .ital {}
 
 .i-default {}
 
-/* 미분류 — 기울임만 */
 .i-thought {
   color: var(--i-thought);
 }
 
-/* 생각·독백·회상 — 흐린 색 */
 .i-emphasis {
-  /* 강조 — 방점(emphasis dot) */
+  /* 강조 — 방점(emphasis dot, 위쪽) */
   font-style: normal;
   -webkit-text-emphasis-style: dot;
   text-emphasis-style: dot;
@@ -207,14 +291,11 @@ body.hide-anno .anno {
   font-family: var(--sans);
 }
 
-/* 외국어·외계어·조어 */
 .i-title {
   color: var(--i-title);
 }
 
-/* 함선·천체·작품 이름 */
 .i-comm {
-  /* 통신·무전 — 바탕색 + 산세리프 */
   font-style: normal;
   font-family: var(--sans);
   color: var(--i-comm-ink);
@@ -225,9 +306,7 @@ body.hide-anno .anno {
 
 .i-other {}
 
-/* 기타 — 기울임만 */
-
-/* ── 문단 핸들(⋮) — 평소 흐림, 호버/탭 시 또렷 ─────────────────────── */
+/* ── 문단 핸들(⋮) ────────────────────────────────────────────────── */
 .seg-handle {
   position: absolute;
   left: -1.5em;
@@ -255,20 +334,14 @@ body.hide-anno .anno {
 }
 
 @media (hover:none) {
-
-  /* 모바일: 호버 없음 → 옅게 상시 */
   .seg-handle {
     opacity: .28;
     left: -1.1em;
     padding: .2em .4em;
   }
-
-  /* 탭 영역 확보 */
 }
 
 @media (max-width:520px) {
-
-  /* 좁은 화면: 여백 부족 → 본문 안쪽 */
   .wrap {
     padding-left: 30px;
   }
@@ -278,8 +351,7 @@ body.hide-anno .anno {
   }
 }
 
-/* ── 문단 액션 메뉴(핸들 클릭 시 문단 아래 인라인) ─────────────────── */
-/* 핸들(⋮) 위치에 떠서 본문 위에 겹치는 팝오버 */
+/* ── 문단 액션 팝오버(핸들 위치에 겹침) ──────────────────────────── */
 #pmenu {
   display: none;
   position: absolute;
@@ -317,7 +389,7 @@ body.hide-anno .anno {
   border-color: var(--accent);
 }
 
-/* ── 원문(영문) — 기본 숨김, 메뉴/전역 토글로만 표시 ───────────────── */
+/* ── 원문(영문) — 기본 숨김 ──────────────────────────────────────── */
 .orig {
   display: none;
   margin: .5em 0 .2em;
@@ -336,14 +408,11 @@ body.hide-anno .anno {
   display: block;
 }
 
-/* 문단별 토글 */
 body.show-orig .orig {
   display: block;
 }
 
-/* 전역 토글 */
-
-/* ── 사이드 패널(북마크·목차 공용) ────────────────────────────────── */
+/* ── 사이드 패널(북마크·목차·About 공용) ─────────────────────────── */
 .panel {
   display: none;
   position: fixed;
@@ -452,6 +521,27 @@ body.show-orig .orig {
   margin-right: 4px;
 }
 
+/* About 본문 */
+.about {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.about h4 {
+  margin: 16px 0 6px;
+  font-size: 13px;
+}
+
+.about p {
+  margin: 0 0 9px;
+  color: var(--muted);
+}
+
+.about a {
+  color: var(--accent);
+}
+
 #backdrop {
   display: none;
   position: fixed;
@@ -485,12 +575,4 @@ body.show-orig .orig {
 #toast.show {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
-}
-
-.note {
-  font-size: 12px;
-  color: var(--muted);
-  border-top: 1px solid var(--rule);
-  margin-top: 40px;
-  padding-top: 14px;
 }

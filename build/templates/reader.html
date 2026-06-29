@@ -19,25 +19,36 @@
     <header>
       <b>블라인드사이트</b>
       <span class="pos" id="pos" title="현재 위치">—</span>
-      <span class="toggle" id="t-orig">원문</span>
-      <span class="toggle on" id="t-anno">원어 병기</span>
-      <span class="toggle ico" id="t-toc" title="목차" aria-label="목차">☰</span>
-      <span class="toggle ico" id="t-bm" title="북마크" aria-label="북마크">🔖<span id="bm-count">0</span></span>
+      <span class="toggle ico" id="t-menu" title="메뉴" aria-label="메뉴">☰</span>
     </header>
 
     <!-- 번역 본문이 빌드 시 여기에 들어간다 -->
     {{BODY}}
-
-    <p class="note">
-      피터 와츠 『Blindsight』의 한국어 번역 · {{BUILT_INFO}}.
-      원작 © Peter Watts, CC BY-NC-SA. 본 번역도 동일 라이선스로 공유됩니다.
-      고유명사 첫 등장은 청록색, ⓘ/괄호는 첫 등장 원어·한자 병기입니다.
-      이탤릭은 목적별로 다르게 표시합니다(강조=방점, 생각=흐린 색, 외국어·통신=고딕체).
-      문단 왼쪽 <b>⋮</b> 를 누르면 원문 보기·링크 복사·북마크를 쓸 수 있습니다.
-    </p>
   </div>
 
-  <!-- 문단 액션 메뉴(JS 가 클릭된 문단의 핸들 위치로 옮겨 띄움). 아이콘 버튼. -->
+  <!-- 헤더 설정 메뉴(드롭다운) -->
+  <div id="menu">
+    <div class="mi-row"><span class="lbl">글자 크기</span>
+      <span class="mi-step"><button data-act="fs-" aria-label="작게">A−</button><button data-act="fs+"
+          aria-label="크게">A＋</button></span>
+    </div>
+    <div class="mi-row"><span class="lbl">줄 간격</span>
+      <span class="mi-step"><button data-act="lh-" aria-label="좁게">−</button><button data-act="lh+"
+          aria-label="넓게">＋</button></span>
+    </div>
+    <div class="mi-row"><span class="lbl">밝기</span>
+      <button class="mi-theme" data-act="theme"><span id="theme-val">시스템</span></button>
+    </div>
+    <div class="mi-sep"></div>
+    <button class="mi" data-act="orig"><span class="lbl">원문</span></button>
+    <button class="mi" data-act="anno"><span class="lbl">원어 병기</span></button>
+    <div class="mi-sep"></div>
+    <button class="mi" data-act="toc"><span class="lbl">목차</span></button>
+    <button class="mi" data-act="bm"><span class="lbl">북마크 <span id="bm-count">0</span></span></button>
+    <button class="mi" data-act="about"><span class="lbl">About</span></button>
+  </div>
+
+  <!-- 문단 액션 팝오버(JS 가 클릭된 문단의 핸들 위치로 옮겨 띄움) -->
   <div id="pmenu">
     <button data-act="orig" title="원문 보기" aria-label="원문 보기">🌐</button>
     <button data-act="link" title="링크 복사" aria-label="링크 복사">🔗</button>
@@ -56,6 +67,21 @@
   <aside id="toc-panel" class="panel" aria-label="목차">
     <h3>목차 <span class="x" data-close>✕</span></h3>
     <ul id="toc-list" class="navlist">{{TOC}}</ul>
+  </aside>
+
+  <aside id="about-panel" class="panel" aria-label="정보">
+    <h3>About <span class="x" data-close>✕</span></h3>
+    <div class="about">
+      <p>피터 와츠 『Blindsight』의 한국어 번역 · {{BUILT_INFO}}.</p>
+      <p>원작 © Peter Watts, <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/" target="_blank"
+          rel="noopener">CC BY-NC-SA 2.5</a>. 본 번역도 동일 라이선스로 공유됩니다.</p>
+      <h4>읽는 법</h4>
+      <p>· 고유명사 첫 등장은 <b>청록색</b>, ⓘ·괄호는 첫 등장 원어·한자 병기입니다.</p>
+      <p>· 이탤릭은 목적별로 다르게: 강조=방점, 생각=흐린 색, 외국어·통신=고딕체, 함선·작품명=청록색.</p>
+      <p>· 문단 왼쪽 <b>⋮</b> → 원문 보기 · 링크 복사 · 북마크.</p>
+      <p>· 상단 <b>☰</b> → 글자 크기 · 줄 간격 · 밝기 · 원문 · 원어 병기 · 목차 · 북마크.</p>
+      <p>· 스크롤하면 상단에 현재 위치가 표시되고 주소(URL)도 그 지점으로 갱신됩니다.</p>
+    </div>
   </aside>
 
   <div id="toast"></div>
