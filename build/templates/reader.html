@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>블라인드사이트 — 한국어 번역(프리뷰)</title>
+  <!-- reader.css 가 빌드 시 여기에 인라인된다 -->
+  <style>{{STYLES}}</style>
+</head>
+<body class="hide-anno">
+  <div class="wrap">
+    <header>
+      <b>블라인드사이트</b>
+      <span class="toggle" id="t-orig">원문</span>
+      <span class="toggle on" id="t-anno">원어 병기</span>
+    </header>
+
+    <!-- 번역 본문이 빌드 시 여기에 들어간다 -->
+    {{BODY}}
+
+    <p class="note">
+      피터 와츠 『Blindsight』의 한국어 번역 · {{BUILT_INFO}}.
+      원작 © Peter Watts, CC BY-NC-SA. 본 번역도 동일 라이선스로 공유됩니다.
+      고유명사 첫 등장은 청록색, ⓘ/괄호는 첫 등장 원어·한자 병기입니다.
+      이탤릭은 목적별로 색을 달리합니다(생각·강조·외국어·이름·통신 등).
+      문단에 마우스를 올리면 나타나는 › 를 누르면 그 부분 원문이 펼쳐집니다.
+    </p>
+  </div>
+
+  <!-- reader.js 가 빌드 시 여기에 인라인된다 -->
+  <script>{{SCRIPT}}</script>
+</body>
+</html>

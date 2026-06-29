@@ -1,0 +1,904 @@
+{
+  "chunk_id": "s1141-s1191",
+  "part": "Theseus",
+  "first": "s1141",
+  "last": "s1191",
+  "n_segments": 51,
+  "words": 1252,
+  "segments": [
+    {
+      "id": "s1141",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"If they attack us, what do we do?\" Michelle said.",
+      "runs": [
+        {
+          "t": "\"If they attack us, what do we do?\" Michelle said."
+        }
+      ]
+    },
+    {
+      "id": "s1142",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Learn what we can, while we can. Fight back. While we can.\"",
+      "runs": [
+        {
+          "t": "\"Learn what we can, while we can. Fight back. While we can.\""
+        }
+      ]
+    },
+    {
+      "id": "s1143",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"If we can. Look out there, Isaac. I don't care how embryonic that thing is. Tell me we're not hopelessly outmatched.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "If",
+          "i": true
+        },
+        {
+          "t": " we can. Look out there, Isaac. I don't care how "
+        },
+        {
+          "t": "embryonic",
+          "i": true
+        },
+        {
+          "t": " that thing is. Tell me we're not hopelessly outmatched.\""
+        }
+      ]
+    },
+    {
+      "id": "s1144",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Outmatched, for sure. Hopelessly, never.\"",
+      "runs": [
+        {
+          "t": "\"Outmatched, for sure. "
+        },
+        {
+          "t": "Hopelessly",
+          "i": true
+        },
+        {
+          "t": ", never.\""
+        }
+      ]
+    },
+    {
+      "id": "s1145",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"That's not what you said before.\"",
+      "runs": [
+        {
+          "t": "\"That's not what you said before.\""
+        }
+      ]
+    },
+    {
+      "id": "s1146",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Still. There's always a way to win.\"",
+      "runs": [
+        {
+          "t": "\"Still. There's always a way to win.\""
+        }
+      ]
+    },
+    {
+      "id": "s1147",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"If I said that, you'd call it wishful thinking.\"",
+      "runs": [
+        {
+          "t": "\"If I said that, you'd call it wishful thinking.\""
+        }
+      ]
+    },
+    {
+      "id": "s1148",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"If you said that, it would be. But I'm saying it, so it's game theory.\"",
+      "runs": [
+        {
+          "t": "\"If you said that, it would be. But I'm saying it, so it's game theory.\""
+        }
+      ]
+    },
+    {
+      "id": "s1149",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Game theory again. Jesus, Isaac.\"",
+      "runs": [
+        {
+          "t": "\"Game theory again. Jesus, Isaac.\""
+        }
+      ]
+    },
+    {
+      "id": "s1150",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"No, listen. You're thinking about the aliens like they were some kind of mammal. Something that cares, something that looks after its investments.\"",
+      "runs": [
+        {
+          "t": "\"No, listen. You're thinking about the aliens like they were some kind of mammal. Something that "
+        },
+        {
+          "t": "cares",
+          "i": true
+        },
+        {
+          "t": ", something that looks after its investments.\""
+        }
+      ]
+    },
+    {
+      "id": "s1151",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"How do you know they aren't?\"",
+      "runs": [
+        {
+          "t": "\"How do you know they aren't?\""
+        }
+      ]
+    },
+    {
+      "id": "s1152",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Because you can't protect your kids when they're lightyears away. They're on their own, and it's a big cold dangerous universe so most of them aren't going to make it, eh? The most you can do is crank out millions of kids, take cold comfort in knowing that a few always luck out through random chance. It's not a mammal mind-set, Meesh. You want an earthbound simile, think of dandelion seeds. Or, or herring.\"",
+      "runs": [
+        {
+          "t": "\"Because you can't protect your kids when they're lightyears away. They're on their own, and it's a big cold dangerous universe so most of them aren't going to make it, eh? The most you can do is crank out "
+        },
+        {
+          "t": "millions",
+          "i": true
+        },
+        {
+          "t": " of kids, take cold comfort in knowing that a few always luck out through random chance. It's not a mammal mind-set, Meesh. You want an earthbound simile, think of dandelion seeds. Or, or herring.\""
+        }
+      ]
+    },
+    {
+      "id": "s1153",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "A soft sigh. \"So they're interstellar herring. That hardly means they can't crush us.\"",
+      "runs": [
+        {
+          "t": "A soft sigh. \"So they're interstellar herring. That hardly means they can't crush us.\""
+        }
+      ]
+    },
+    {
+      "id": "s1154",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"But they don't know about us, not in advance. Dandelion seed doesn't know what it's up against before it sprouts. Maybe nothing. Maybe some spastic weed that goes over like straw in the wind. Or maybe something that kicks its ass halfway to the Magellanic Clouds. It doesn't know, and there's no such thing as a one-size-fits-all survival strategy. Something that aces against one player blows goats against a different one. So the best you can do is mix up your strategies based on the odds. It's a weighted dice roll and it gives you the best mean payoff over the whole game, but you're bound to crap out and choose the wrong strategy at least some of the time. Price of doing business. And that means—that means—that weak players not only can win against stronger ones, but they're statistically bound to in some cases.\"",
+      "runs": [
+        {
+          "t": "\"But they don't know about "
+        },
+        {
+          "t": "us",
+          "i": true
+        },
+        {
+          "t": ", not in advance. Dandelion seed doesn't know what it's up against before it sprouts. Maybe nothing. Maybe some spastic weed that goes over like straw in the wind. Or maybe something that kicks its ass halfway to the Magellanic Clouds. It doesn't "
+        },
+        {
+          "t": "know",
+          "i": true
+        },
+        {
+          "t": ", and there's no such thing as a one-size-fits-all survival strategy. Something that aces against one player blows goats against a different one. So the best you can do is mix up your strategies based on the odds. It's a weighted dice roll and it gives you the best mean payoff over the whole game, but you're bound to crap out and choose the wrong strategy at least some of the time. Price of doing business. And that means—"
+        },
+        {
+          "t": "that",
+          "i": true
+        },
+        {
+          "t": " means—that weak players not only "
+        },
+        {
+          "t": "can",
+          "i": true
+        },
+        {
+          "t": " win against stronger ones, but they're statistically "
+        },
+        {
+          "t": "bound",
+          "i": true
+        },
+        {
+          "t": " to in some cases.\""
+        }
+      ]
+    },
+    {
+      "id": "s1155",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Michelle snorted. \"That's your game theory? Rock Paper Scissors with statistics?\"",
+      "runs": [
+        {
+          "t": "Michelle snorted. \""
+        },
+        {
+          "t": "That's",
+          "i": true
+        },
+        {
+          "t": " your game theory? Rock Paper Scissors with statistics?\""
+        }
+      ]
+    },
+    {
+      "id": "s1156",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Maybe Szpindel didn't know the reference. He didn't speak, long enough to call up a subtitle; then he brayed like a horse. \"Rock Paper Scissors! Yes!\"",
+      "runs": [
+        {
+          "t": "Maybe Szpindel didn't know the reference. He didn't speak, long enough to call up a subtitle; then he brayed like a horse. \""
+        },
+        {
+          "t": "Rock Paper Scissors",
+          "i": true
+        },
+        {
+          "t": "! Yes!\""
+        }
+      ]
+    },
+    {
+      "id": "s1157",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Michelle digested that for a moment. \"You're sweet for trying, but that only works if the other side is just blindly playing the odds, and they don't have to do that if they know who they're going up against in advance. And my dear, they have so very much information about us...\"",
+      "runs": [
+        {
+          "t": "Michelle digested that for a moment. \"You're sweet for trying, but that only works if the other side is just blindly playing the odds, and they don't have to "
+        },
+        {
+          "t": "do",
+          "i": true
+        },
+        {
+          "t": " that if they know who they're going up against in advance. And my dear, they have so very much information about "
+        },
+        {
+          "t": "us",
+          "i": true
+        },
+        {
+          "t": "...\""
+        }
+      ]
+    },
+    {
+      "id": "s1158",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "They'd threatened Susan. By name.",
+      "runs": [
+        {
+          "t": "They'd threatened Susan. By name."
+        }
+      ]
+    },
+    {
+      "id": "s1159",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"They don't know everything,\" Szpindel insisted. \"And the principle works for any scenario involving incomplete information, not just the ignorant extreme.\"",
+      "runs": [
+        {
+          "t": "\"They don't know everything,\" Szpindel insisted. \"And the principle works for "
+        },
+        {
+          "t": "any",
+          "i": true
+        },
+        {
+          "t": " scenario involving incomplete information, not just the ignorant extreme.\""
+        }
+      ]
+    },
+    {
+      "id": "s1160",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Not as well.\"",
+      "runs": [
+        {
+          "t": "\"Not as well.\""
+        }
+      ]
+    },
+    {
+      "id": "s1161",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"But some, and that gives us a chance. Doesn't matter how good you are at poker when it comes to the deal, eh? Cards still deal out with the same odds.\"",
+      "runs": [
+        {
+          "t": "\"But "
+        },
+        {
+          "t": "some",
+          "i": true
+        },
+        {
+          "t": ", and that gives us a chance. Doesn't matter how good you are at poker when it comes to the deal, eh? Cards still deal out with the same odds.\""
+        }
+      ]
+    },
+    {
+      "id": "s1162",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"So that's what we're playing. Poker.\"",
+      "runs": [
+        {
+          "t": "\"So that's what we're playing. Poker.\""
+        }
+      ]
+    },
+    {
+      "id": "s1163",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Be thankful it's not chess. We wouldn't have a hope in hell.\"",
+      "runs": [
+        {
+          "t": "\"Be thankful it's not chess. We wouldn't have a hope in hell.\""
+        }
+      ]
+    },
+    {
+      "id": "s1164",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Hey. I'm supposed to be the optimist in this relationship.\"",
+      "runs": [
+        {
+          "t": "\"Hey. "
+        },
+        {
+          "t": "I'm",
+          "i": true
+        },
+        {
+          "t": " supposed to be the optimist in this relationship.\""
+        }
+      ]
+    },
+    {
+      "id": "s1165",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"You are. I'm just fatalistically cheerful. We all come into the story halfway through, we all catch up as best we can, and we're all gonna die before it ends.\"",
+      "runs": [
+        {
+          "t": "\"You are. I'm just fatalistically cheerful. We all come into the story halfway through, we all catch up as best we can, and we're all gonna die before it ends.\""
+        }
+      ]
+    },
+    {
+      "id": "s1166",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"That's my Isaac. Master of the no-win scenario.\"",
+      "runs": [
+        {
+          "t": "\"That's my Isaac. Master of the no-win scenario.\""
+        }
+      ]
+    },
+    {
+      "id": "s1167",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"You can win. Winner's the guy who makes the best guess on how it all comes out.\"",
+      "runs": [
+        {
+          "t": "\"You can win. Winner's the guy who makes the best guess on how it all comes out.\""
+        }
+      ]
+    },
+    {
+      "id": "s1168",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"So you are just guessing.\"",
+      "runs": [
+        {
+          "t": "\"So you "
+        },
+        {
+          "t": "are",
+          "i": true
+        },
+        {
+          "t": " just guessing.\""
+        }
+      ]
+    },
+    {
+      "id": "s1169",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Yup. And you can't make an informed guess without data, eh? And we could be the very first to find out what's gonna happen to the whole Human race. I'd say that puts us into the semifinals, easy.\"",
+      "runs": [
+        {
+          "t": "\"Yup. And you can't make an informed guess without data, eh? And we could be the very first to find out what's gonna happen to the whole Human race. I'd say that puts us into the semifinals, easy.\""
+        }
+      ]
+    },
+    {
+      "id": "s1170",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Michelle didn't answer for a very long time. When she did, I couldn't hear her words.",
+      "runs": [
+        {
+          "t": "Michelle didn't answer for a very long time. When she did, I couldn't hear her words."
+        }
+      ]
+    },
+    {
+      "id": "s1171",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Neither could Szpindel: \"Sorry?\"",
+      "runs": [
+        {
+          "t": "Neither could Szpindel: \"Sorry?\""
+        }
+      ]
+    },
+    {
+      "id": "s1172",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Covert to invulnerable, you said. Remember?\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Covert",
+          "i": true
+        },
+        {
+          "t": " to "
+        },
+        {
+          "t": "invulnerable",
+          "i": true
+        },
+        {
+          "t": ", you said. Remember?\""
+        }
+      ]
+    },
+    {
+      "id": "s1173",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Uh huh. Rorschach's Graduation Day. \"",
+      "runs": [
+        {
+          "t": "\"Uh huh. "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s Graduation Day. \""
+        }
+      ]
+    },
+    {
+      "id": "s1174",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"How soon, do you think?\"",
+      "runs": [
+        {
+          "t": "\"How soon, do you think?\""
+        }
+      ]
+    },
+    {
+      "id": "s1175",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"No idea. But I don't think it's the kind of thing that's gonna slip by unnoticed. And that's why I don't think it attacked us.\"",
+      "runs": [
+        {
+          "t": "\"No idea. But I don't think it's the kind of thing that's gonna slip by unnoticed. And that's why I don't think it attacked us.\""
+        }
+      ]
+    },
+    {
+      "id": "s1176",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "She must have looked a question.",
+      "runs": [
+        {
+          "t": "She must have looked a question."
+        }
+      ]
+    },
+    {
+      "id": "s1177",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Because when it does, it won't be some debatable candy-ass bitch slap,\" he told her. \"When that fucker rises up, we're gonna know.\"",
+      "runs": [
+        {
+          "t": "\"Because when it does, it won't be some debatable candy-ass bitch slap,\" he told her. \"When that fucker rises up, we're gonna "
+        },
+        {
+          "t": "know",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s1178",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "A sudden flicker from behind. I spun in the cramped passageway and bit down on a cry: something squirmed out of sight around the corner, something with arms, barely glimpsed, gone in an instant.",
+      "runs": [
+        {
+          "t": "A sudden flicker from behind. I spun in the cramped passageway and bit down on a cry: something squirmed out of sight around the corner, something with "
+        },
+        {
+          "t": "arms",
+          "i": true
+        },
+        {
+          "t": ", barely glimpsed, gone in an instant."
+        }
+      ]
+    },
+    {
+      "id": "s1179",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Never there. Couldn't be there. Impossible.",
+      "runs": [
+        {
+          "t": "Never there. Couldn't be there. Impossible."
+        }
+      ]
+    },
+    {
+      "id": "s1180",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Did you hear that?\" Szpindel asked, but I'd fled to stern before Michelle could answer him.",
+      "runs": [
+        {
+          "t": "\"Did you hear that?\" Szpindel asked, but I'd fled to stern before Michelle could answer him."
+        }
+      ]
+    },
+    {
+      "id": "s1181",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s1182",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "We'd fallen so far that the naked eye didn't see a disk, barely even saw curvature any more. We were falling towards a wall, a vast roiling expanse of dark thunderclouds that extended in all directions to some new, infinitely-distant horizon. Ben filled half the universe.",
+      "runs": [
+        {
+          "t": "We'd fallen so far that the naked eye didn't see a disk, barely even saw curvature"
+        },
+        {
+          "t": " ",
+          "i": true
+        },
+        {
+          "t": "any more. We were falling towards a "
+        },
+        {
+          "t": "wall",
+          "i": true
+        },
+        {
+          "t": ", a vast roiling expanse of dark thunderclouds that extended in all directions to some new, infinitely-distant horizon. Ben filled half the universe."
+        }
+      ]
+    },
+    {
+      "id": "s1183",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "And still we fell.",
+      "runs": [
+        {
+          "t": "And still we fell."
+        }
+      ]
+    },
+    {
+      "id": "s1184",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "Far below, Jack clung to Rorschach's ridged surface with bristly gecko-feet fenders and set up camp. It sent x-rays and ultrasound into the ground, tapped enquiring fingers and listened to the echos, planted tiny explosive charges and measured the resonance of their detonations. It shed seeds like pollen: tiny probes and sensors by the thousands, self-powered, near-sighted, stupid and expendable. The vast majority were sacrificial offerings to random chance; only one in a hundred lasted long enough to return usable telemetry.",
+      "runs": [
+        {
+          "t": "Far below, Jack clung to "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s ridged surface with bristly gecko-feet fenders and set up camp. It sent x-rays and ultrasound into the ground, tapped enquiring fingers and listened to the echos, planted tiny explosive charges and measured the resonance of their detonations. It shed seeds like pollen: tiny probes and sensors by the thousands, self-powered, near-sighted, stupid and expendable. The vast majority were sacrificial offerings to random chance; only one in a hundred lasted long enough to return usable telemetry."
+        }
+      ]
+    },
+    {
+      "id": "s1185",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "While our advance scout took measure of its local neighborhood, Theseus drew larger-scale birdseye maps from the closing sky. It spat out thousands of its own disposable probes, spread them across the heavens and collected stereoscopic data from a thousand simultaneous perspectives.",
+      "runs": [
+        {
+          "t": "While our advance scout took measure of its local neighborhood, "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " drew larger-scale birdseye maps from the closing sky. It spat out thousands of its own disposable probes, spread them across the heavens and collected stereoscopic data from a thousand simultaneous perspectives."
+        }
+      ]
+    },
+    {
+      "id": "s1186",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "Patchwork insights assembled in the drum. Rorschach's skin was sixty percent superconducting carbon nanotube. Rorschach's guts were largely hollow; at least some of those hollows appeared to contain an atmosphere. No earthly form of life would have lasted a second in there, though; intricate topographies of radiation and electromagnetic force seethed around the structure, seethed within it. In some places the radiation was intense enough to turn unshielded flesh to ash in an instant; calmer backwaters would merely kill in the same span of time. Charged particles raced around invisible racetracks at relativistic speeds, erupting from jagged openings, hugging curves of magnetic force strong enough for neutron stars, arcing through open space and plunging back into black mass. Occasional protuberances swelled and burst and released clouds of microparticulates, seeding the radiation belts like spores. Rorschach resembled nothing so much as a nest of half-naked cyclotrons, tangled one with another.",
+      "runs": [
+        {
+          "t": "Patchwork insights assembled in the drum. "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s skin was sixty percent superconducting carbon nanotube. "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s guts were largely hollow; at least some of those hollows appeared to contain an atmosphere. No earthly form of life would have lasted a second in there, though; intricate topographies of radiation and electromagnetic force seethed around the structure, seethed within it. In some places the radiation was intense enough to turn unshielded flesh to ash in an instant; calmer backwaters would merely kill in the same span of time. Charged particles raced around invisible racetracks at relativistic speeds, erupting from jagged openings, hugging curves of magnetic force strong enough for neutron stars, arcing through open space and plunging back into black mass. Occasional protuberances swelled and burst and released clouds of microparticulates, seeding the radiation belts like spores. "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " resembled nothing so much as a nest of half-naked cyclotrons, tangled one with another."
+        }
+      ]
+    },
+    {
+      "id": "s1187",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "Neither Jack below nor Theseus above could find any points of entry, beyond those impassable gaps that spat out streams of charged particles or swallowed them back down. No airlocks or hatches or viewports resolved with increasing proximity. The fact that we'd been threatened via laser beam implied some kind of optical antennae or tightcast array; we weren't even able to find that much.",
+      "runs": [
+        {
+          "t": "Neither Jack below nor "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " above could find any points of entry, beyond those impassable gaps that spat out streams of charged particles or swallowed them back down. No airlocks or hatches or viewports resolved with increasing proximity. The fact that we'd been threatened via laser beam implied some kind of optical antennae or tightcast array; we weren't even able to find that much."
+        }
+      ]
+    },
+    {
+      "id": "s1188",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "A central hallmark of von Neumann machines was self-replication. Whether Rorschach would meet that criterion—whether it would germinate, or divide, or give birth when it passed some critical threshold—whether it had done so already—remained an open question.",
+      "runs": [
+        {
+          "t": "A central hallmark of von Neumann machines was self-replication. Whether "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " would meet that criterion—whether it would germinate, or divide, or give birth when it passed some critical threshold—whether it had done so already—remained an open question."
+        }
+      ]
+    },
+    {
+      "id": "s1189",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "One of a thousand. At the end of it all—after all the measurements, the theorizing and deduction and outright guesswork—we settled into orbit with a million trivial details and no answers. In terms of the big questions, there was only one thing we knew for sure.",
+      "runs": [
+        {
+          "t": "One of a thousand. At the end of it all—after all the measurements, the theorizing and deduction and outright guesswork—we settled into orbit with a million trivial details and no answers. In terms of the big questions, there was only one thing we knew for sure."
+        }
+      ]
+    },
+    {
+      "id": "s1190",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 28,
+      "text": "So far, Rorschach was holding its fire.",
+      "runs": [
+        {
+          "t": "So far, "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " was holding its fire."
+        }
+      ]
+    },
+    {
+      "id": "s1191",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

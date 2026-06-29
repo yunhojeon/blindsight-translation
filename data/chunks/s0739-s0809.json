@@ -1,0 +1,1185 @@
+{
+  "chunk_id": "s0739-s0809",
+  "part": "Theseus",
+  "first": "s0739",
+  "last": "s0809",
+  "n_segments": 71,
+  "words": 1890,
+  "segments": [
+    {
+      "id": "s0739",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "Looking back, I can finally admit it: I envied Szpindel his way with the ladies. Spliced and diced, a gangly mass of tics and jitters that could barely feel his own skin, somehow he managed to be—",
+      "runs": [
+        {
+          "t": "Looking back, I can finally admit it: I envied Szpindel his way with the ladies. Spliced and diced, a gangly mass of tics and jitters that could barely feel his own skin, somehow he managed to be—"
+        }
+      ]
+    },
+    {
+      "id": "s0740",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "Charming. That's the word. Charming.",
+      "runs": [
+        {
+          "t": "Charming. That's the word. Charming."
+        }
+      ]
+    },
+    {
+      "id": "s0741",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "As a social necessity it was all but obsolete, fading into irrelevance along with two-party nonvirtual sex pairing. But even I'd tried one of those; and it would have been nice to have had Szpindel's self-deprecating skill set to call on.",
+      "runs": [
+        {
+          "t": "As a social necessity it was all but obsolete, fading into irrelevance along with two-party nonvirtual sex pairing. But even I'd tried one of those; and it would have been nice to have had Szpindel's self-deprecating skill set to call on."
+        }
+      ]
+    },
+    {
+      "id": "s0742",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "Especially when everything with Chelsea started falling apart.",
+      "runs": [
+        {
+          "t": "Especially when everything with Chelsea started falling apart."
+        }
+      ]
+    },
+    {
+      "id": "s0743",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "I had my own style, of course. I tried to be charming in my own peculiar way. Once, after one too many fights about honesty and emotional manipulation, I'd started to think maybe a touch of whimsy might smooth things over. I had come to suspect that Chelsea just didn't understand sexual politics. Sure she'd edited brains for a living, but maybe she'd just memorized all that circuitry without giving any thought to how it had arisen in the first place, to the ultimate rules of natural selection that had shaped it. Maybe she honestly didn't know that we were evolutionary enemies, that all relationships were doomed to failure. If I could slip that insight into her head— if I could charm my way past her defenses— maybe we'd be able to hold things together.",
+      "runs": [
+        {
+          "t": "I had my own style, of course. I tried to be charming in my own peculiar way. Once, after one too many fights about "
+        },
+        {
+          "t": "honesty ",
+          "i": true
+        },
+        {
+          "t": "and "
+        },
+        {
+          "t": "emotional manipulation",
+          "i": true
+        },
+        {
+          "t": ", I'd started to think maybe a touch of whimsy might smooth things over. I had come to suspect that Chelsea just didn't understand sexual politics. Sure she'd edited brains for a living, but maybe she'd just memorized all that circuitry without giving any thought to how it had arisen in the first place, to the ultimate rules of natural selection that had shaped it. Maybe she honestly didn't know that we were evolutionary enemies, that "
+        },
+        {
+          "t": "all",
+          "i": true
+        },
+        {
+          "t": " relationships were doomed to failure. If I could slip that insight into her head— if I could "
+        },
+        {
+          "t": "charm",
+          "i": true
+        },
+        {
+          "t": " my way past her defenses— maybe we'd be able to hold things together."
+        }
+      ]
+    },
+    {
+      "id": "s0744",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "So I thought about it, and I came up with the perfect way to raise her awareness. I wrote her a bedtime story, a disarming blend of humor and affection, and I called it",
+      "runs": [
+        {
+          "t": "So I thought about it, and I came up with the perfect way to raise her awareness. I wrote her a bedtime story, a disarming blend of humor and affection, and I called it"
+        }
+      ]
+    },
+    {
+      "id": "s0745",
+      "kind": "para",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "The Book of Oogenesis",
+      "runs": [
+        {
+          "t": "The Book of Oogenesis"
+        }
+      ]
+    },
+    {
+      "id": "s0746",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "In the beginning were the gametes. And though there was sex, lo, there was no gender, and life was in balance.",
+      "runs": [
+        {
+          "t": "In the beginning were the gametes. And though there was sex, lo, there was no gender, and life was in balance.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0747",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "And God said, \"Let there be Sperm\": and some seeds did shrivel in size and grow cheap to make, and they did flood the market.",
+      "runs": [
+        {
+          "t": "And God said, \"Let there be Sperm\": and some seeds did shrivel in size and grow cheap to make, and they did flood the market.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0748",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "And God said, \"Let there be Eggs\": and other seeds were afflicted by a plague of Sperm. And yea, few of them bore fruit, for Sperm brought no food for the zygote, and only the largest Eggs could make up the shortfall. And these grew yet larger in the fullness of time.",
+      "runs": [
+        {
+          "t": "And God said, \"Let there be Eggs\": and other seeds were afflicted by a plague of Sperm. And yea, few of them bore fruit, for Sperm brought no food for the zygote, and only the largest Eggs could make up the shortfall. And these grew yet larger in the fullness of time.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0749",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "And God put the Eggs into a womb, and said, \"Wait here: for thy bulk has made thee unwieldy, and Sperm must seek thee out in thy chambers. Henceforth shalt thou be fertilized internally.\" And it was so.",
+      "runs": [
+        {
+          "t": "And God put the Eggs into a womb, and said, \"Wait here: for thy bulk has made thee unwieldy, and Sperm must seek thee out in thy chambers. Henceforth shalt thou be fertilized internally.\" And it was so.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0750",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "And God said to the gametes, \"The fruit of thy fusion may abide in any place and take any shape. It may breathe air or water or the sulphurous muck of hydrothermal vents. But do not forget my one commandment unto you, which has not changed from the beginning of time: spread thy genes.\"",
+      "runs": [
+        {
+          "t": "And God said to the gametes, \"The fruit of thy fusion may abide in any place and take any shape. It may breathe air or water or the sulphurous muck of hydrothermal vents. But do not forget my one commandment unto you, which has not changed from the beginning of time: spread thy genes.\"",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0751",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "And thus did Sperm and Egg go into the world. And Sperm said, \"I am cheap and plentiful, and if sowed abundantly I will surely fulfill God's plan. I shall forever seek out new mates and then abandon them when they are with child, for there are many wombs and little time.\"",
+      "runs": [
+        {
+          "t": "And thus did Sperm and Egg go into the world. And Sperm said, \"I am cheap and plentiful, and if sowed abundantly I will surely fulfill God's plan. I shall forever seek out new mates and then abandon them when they are with child, for there are many wombs and little time.\"",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0752",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "But Egg said, \"Lo, the burden of procreation weighs heavily upon me. I must carry flesh that is but half mine, gestate and feed it even when it leaves my chamber\" (for by now many of Egg's bodies were warm of blood, and furry besides). \"I can have but few children, and must devote myself to those, and protect them at every turn. And I will make Sperm help me, for he got me into this. And though he doth struggle at my side, I shall not let him stray, nor lie with my competitors.\"",
+      "runs": [
+        {
+          "t": "But Egg said, \"Lo, the burden of procreation weighs heavily upon me. I must carry flesh that is but half mine, gestate and feed it even when it leaves my chamber\" (for by now many of Egg's bodies were warm of blood, and furry besides). \"I can have but few children, and must devote myself to those, and protect them at every turn. And I will make Sperm help me, for he got me into this. And though he doth struggle at my side, I shall not let him stray, nor lie with my competitors.\"",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0753",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "And Sperm liked this not. ",
+      "runs": [
+        {
+          "t": "And Sperm liked this not. ",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0754",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "And God smiled, for Its commandment had put Sperm and Egg at war with each other, even unto the day they made themselves obsolete.",
+      "runs": [
+        {
+          "t": "And God smiled, for Its commandment had put Sperm and Egg at war with each other, even unto the day they made themselves obsolete.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0755",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "I brought her flowers one dusky Tuesday evening when the light was perfect. I pointed out the irony of that romantic old tradition— the severed genitalia of another species, offered as a precopulatory bribe—and then I recited my story just as we were about to fuck.",
+      "runs": [
+        {
+          "t": "I brought her flowers one dusky Tuesday evening when the light was perfect. I pointed out the irony of that romantic old tradition— the severed genitalia of another species, offered as a precopulatory bribe—and then I recited my story just as we were about to fuck."
+        }
+      ]
+    },
+    {
+      "id": "s0756",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "To this day, I still don't know what went wrong.",
+      "runs": [
+        {
+          "t": "To this day, I still don't know what went wrong."
+        }
+      ]
+    },
+    {
+      "id": "s0757",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "\"The glass ceiling is in you. The glass ceiling is conscience.\"",
+      "runs": [
+        {
+          "t": "\"The glass ceiling is in "
+        },
+        {
+          "t": "you",
+          "i": true
+        },
+        {
+          "t": ". The glass ceiling is "
+        },
+        {
+          "t": "conscience",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s0758",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "—Jacob Holtzbrinck, The Keys to the Planet",
+      "runs": [
+        {
+          "t": "—Jacob Holtzbrinck, "
+        },
+        {
+          "t": "The Keys to the Planet",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0759",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "There were stories, before we left Earth, of a fourth wave: a fleet of deep-space dreadnoughts running silent in our wake, should the cannon fodder up front run into something nasty. Or, if the aliens were friendly, an ambassadorial frigate full of politicians and CEOs ready to elbow their way to the front of the line. Never mind that Earth had no deep-space dreadnoughts or ambassadorial spaceships; Theseus hadn't existed either, before Firefall. Nobody had told us of any such such contingent, but you never show the Big Picture to your front line. The less they know, the less they can betray.",
+      "runs": [
+        {
+          "t": "There were stories, before we left Earth, of a fourth wave: a fleet of deep-space dreadnoughts running silent in our wake, should the cannon fodder up front run into something nasty. Or, if the aliens were friendly, an ambassadorial frigate full of politicians and CEOs ready to elbow their way to the front of the line. Never mind that Earth had no deep-space dreadnoughts or ambassadorial spaceships; "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " hadn't existed either, before Firefall. Nobody had told us of any such such contingent, but you never show the Big Picture to your front line. The less they know, the less they can betray."
+        }
+      ]
+    },
+    {
+      "id": "s0760",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "I still don't know if the fourth wave ever existed. I never saw any evidence of one, for whatever that's worth. We might have left them floundering back at Burns-Caulfield. Or maybe they followed us all the way to Big Ben, crept just close enough to see what we were up against, and turned tail before things got ugly.",
+      "runs": [
+        {
+          "t": "I still don't know if the fourth wave ever existed. I never saw any evidence of one, for whatever that's worth. We might have left them floundering back at Burns-Caulfield. Or maybe they followed us all the way to Big Ben, crept just close enough to see what we were up against, and turned tail before things got ugly."
+        }
+      ]
+    },
+    {
+      "id": "s0761",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "I wonder if that's what happened. I wonder if they made it back home.",
+      "runs": [
+        {
+          "t": "I wonder if that's what happened. I wonder if they made it back home."
+        }
+      ]
+    },
+    {
+      "id": "s0762",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 19,
+      "text": "I look back now, and hope not.",
+      "runs": [
+        {
+          "t": "I look back now, and hope not."
+        }
+      ]
+    },
+    {
+      "id": "s0763",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s0764",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "A giant marshmallow kicked Theseus in the side. Down swung like a pendulum. Across the drum Szpindel yelped as if scalded; in the galley, cracking a bulb of hot coffee, I nearly was.",
+      "runs": [
+        {
+          "t": "A giant marshmallow kicked "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " in the side. "
+        },
+        {
+          "t": "Down",
+          "i": true
+        },
+        {
+          "t": " swung like a pendulum. Across the drum Szpindel yelped as if scalded; in the galley, cracking a bulb of hot coffee, I nearly "
+        },
+        {
+          "t": "was",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0765",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "This is it, I thought. We got too close. They're hitting back.",
+      "runs": [
+        {
+          "t": "This is it",
+          "i": true
+        },
+        {
+          "t": ", I thought. "
+        },
+        {
+          "t": "We got too close. They're hitting back.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0766",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"What the—\"",
+      "runs": [
+        {
+          "t": "\"What the—\""
+        }
+      ]
+    },
+    {
+      "id": "s0767",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "A flicker on the party line as Bates linked from the bridge. \"Main drive just kicked in. We're changing course.\"",
+      "runs": [
+        {
+          "t": "A flicker on the party line as Bates linked from the bridge. \"Main drive just kicked in. We're changing course.\""
+        }
+      ]
+    },
+    {
+      "id": "s0768",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"To what? Where? Whose orders?\"",
+      "runs": [
+        {
+          "t": "\"To what? Where? Whose orders?\""
+        }
+      ]
+    },
+    {
+      "id": "s0769",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Mine,\" Sarasti said, appearing above us.",
+      "runs": [
+        {
+          "t": "\"Mine,\" Sarasti said, appearing above us."
+        }
+      ]
+    },
+    {
+      "id": "s0770",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Nobody spoke. Drifting into the drum through the stern hatchway: the sound of something grinding. I pinged Theseus' resource-allocation stack. Fabrication was retooling itself for the mass production of doped ceramics.",
+      "runs": [
+        {
+          "t": "Nobody spoke. Drifting into the drum through the stern hatchway: the sound of something "
+        },
+        {
+          "t": "grinding",
+          "i": true
+        },
+        {
+          "t": ". I pinged "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' resource-allocation stack. Fabrication was retooling itself for the mass production of doped ceramics."
+        }
+      ]
+    },
+    {
+      "id": "s0771",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Radiation shielding. Solid stuff, bulky and primitive, not the controlled magnetic fields we usually relied on.",
+      "runs": [
+        {
+          "t": "Radiation shielding. Solid stuff, bulky and primitive, not the controlled magnetic fields we usually relied on."
+        }
+      ]
+    },
+    {
+      "id": "s0772",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "The Gang emerged sleepy-eyed from their tent, Sascha grumbling, \"What the fuck?\"",
+      "runs": [
+        {
+          "t": "The Gang emerged sleepy-eyed from their tent, Sascha grumbling, \"What the "
+        },
+        {
+          "t": "fuck",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s0773",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Watch.\" Sarasti took hold of ConSensus and shook it.",
+      "runs": [
+        {
+          "t": "\"Watch.\" Sarasti took hold of ConSensus and shook it."
+        }
+      ]
+    },
+    {
+      "id": "s0774",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "It was a blizzard, not a briefing: gravity wells and orbital trajectories, shear-stress simulations in thunderheads of ammonium and hydrogen, stereoscopic planetscapes buried under filters ranging from gamma to radio. I saw breakpoints and saddlepoints and unstable equilibria. I saw fold catastrophes plotted in five dimensions. My augments strained to rotate the information; my meaty half-brain struggled to understand the bottom line.",
+      "runs": [
+        {
+          "t": "It was a blizzard, not a briefing: gravity wells and orbital trajectories, shear-stress simulations in thunderheads of ammonium and hydrogen, stereoscopic planetscapes buried under filters ranging from gamma to radio. I saw breakpoints and saddlepoints and unstable equilibria. I saw fold catastrophes plotted in five dimensions. My augments strained to rotate the information; my meaty half-brain struggled to understand the bottom line."
+        }
+      ]
+    },
+    {
+      "id": "s0775",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Something was hiding down there, in plain sight.",
+      "runs": [
+        {
+          "t": "Something was hiding down there, in plain sight."
+        }
+      ]
+    },
+    {
+      "id": "s0776",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Ben's accretion belt still wasn't behaving. Its delinquency wasn't obvious; Sarasti hadn't had to plot every pebble and mountain and planetesimal to find the pattern, but he'd come close. And neither he nor the conjoined intelligence he shared with the Captain had been able to explain those trajectories as the mere aftermath of some past disturbance. The dust wasn't just settling; some of it marched downhill to the beat of something that even now reached out from the cloud-tops and pulled debris from orbit.",
+      "runs": [
+        {
+          "t": "Ben's accretion belt still wasn't behaving. Its delinquency wasn't obvious; Sarasti hadn't had to plot every pebble and mountain and planetesimal to find the pattern, but he'd come close. And neither he nor the conjoined intelligence he shared with the Captain had been able to explain those trajectories as the mere aftermath of some past disturbance. The dust wasn't just "
+        },
+        {
+          "t": "settling",
+          "i": true
+        },
+        {
+          "t": "; some of it marched downhill to the beat of something that even now reached out from the cloud-tops and pulled debris from orbit."
+        }
+      ]
+    },
+    {
+      "id": "s0777",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Not all that debris seemed to hit. Ben's equatorial regions flickered constantly with the light of meteorite impacts—much fainter than the bright wakes of the skimmers, and gone in the wink of an eye—but those frequency distributions didn't quite account for all the rocks that had fallen. It was almost as though, every now and then, some piece of incoming detritus simply vanished into a parallel universe.",
+      "runs": [
+        {
+          "t": "Not all that debris seemed to hit. Ben's equatorial regions flickered constantly with the light of meteorite impacts—much fainter than the bright wakes of the skimmers, and gone in the wink of an eye—but those frequency distributions didn't quite account for all the rocks that had fallen. It was almost as though, every now and then, some piece of incoming detritus simply vanished into a parallel universe."
+        }
+      ]
+    },
+    {
+      "id": "s0778",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Or got caught by something in this one. Something that circled Ben's equator every forty hours, almost low enough to graze the atmosphere. Something that didn't show up in visible light, or infrared, or radar. Something that might have remained pure hypothesis if a skimmer hadn't burned an incandescent trail across the atmosphere behind it when Theseus happened to be watching.",
+      "runs": [
+        {
+          "t": "Or got caught by something in "
+        },
+        {
+          "t": "this",
+          "i": true
+        },
+        {
+          "t": " one. Something that circled Ben's equator every forty hours, almost low enough to graze the atmosphere. Something that didn't show up in visible light, or infrared, or radar. Something that might have remained pure hypothesis if a skimmer hadn't burned an incandescent trail across the atmosphere "
+        },
+        {
+          "t": "behind",
+          "i": true
+        },
+        {
+          "t": " it when "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " happened to be watching."
+        }
+      ]
+    },
+    {
+      "id": "s0779",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Sarasti threw that one dead center: a bright contrail streaking diagonally across Ben's perpetual nightscape, stuttering partway a degree or two to the left, stuttering back just before it passed from sight. Freeze-frame showed a beam of light frozen solid, a segment snapped from its midsection and jiggled just a hair out of alignment.",
+      "runs": [
+        {
+          "t": "Sarasti threw that one dead center: a bright contrail streaking diagonally across Ben's perpetual nightscape, stuttering partway a degree or two to the left, stuttering back just before it passed from sight. Freeze-frame showed a beam of light frozen solid, a segment snapped from its midsection and jiggled just a hair out of alignment."
+        }
+      ]
+    },
+    {
+      "id": "s0780",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "A segment nine kilometers long.",
+      "runs": [
+        {
+          "t": "A segment nine kilometers long."
+        }
+      ]
+    },
+    {
+      "id": "s0781",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"It's cloaked,\" Sascha said, impressed.",
+      "runs": [
+        {
+          "t": "\"It's "
+        },
+        {
+          "t": "cloaked",
+          "i": true
+        },
+        {
+          "t": ",\" Sascha said, impressed."
+        }
+      ]
+    },
+    {
+      "id": "s0782",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Not very well.\" Bates emerged from the forward hatch and sailed spinward. \"Pretty obvious refractory artefact.\" She caught stairs halfway to the deck, used the torque of spin-against-spam to flip upright and plant her feet on the steps. \"Why didn't we catch that before?\"",
+      "runs": [
+        {
+          "t": "\"Not very well.\" Bates emerged from the forward hatch and sailed spinward. \"Pretty obvious refractory artefact.\" She caught stairs halfway to the deck, used the torque of spin-against-spam to flip upright and plant her feet on the steps. \"Why didn't we catch that before?\""
+        }
+      ]
+    },
+    {
+      "id": "s0783",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"No backlight,\" Szpindel suggested.",
+      "runs": [
+        {
+          "t": "\"No backlight,\" Szpindel suggested."
+        }
+      ]
+    },
+    {
+      "id": "s0784",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"It's not just the contrail. Look at the clouds.\" Sure enough, Ben's cloudy backdrop showed the same subtle dislocation. Bates stepped onto the deck and headed for the conference table. \"We should've seen this earlier.\"",
+      "runs": [
+        {
+          "t": "\"It's not just the contrail. Look at the clouds.\" Sure enough, Ben's cloudy backdrop showed the same subtle dislocation. Bates stepped onto the deck and headed for the conference table. \"We should've seen this earlier.\""
+        }
+      ]
+    },
+    {
+      "id": "s0785",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"The other probes see no such artefact,\" Sarasti said. \"This probe approaches from a wider angle. Twenty-seven degrees.\"",
+      "runs": [
+        {
+          "t": "\"The other probes see no such artefact,\" Sarasti said. \""
+        },
+        {
+          "t": "This ",
+          "i": true
+        },
+        {
+          "t": "probe approaches from a wider angle. Twenty-seven degrees.\""
+        }
+      ]
+    },
+    {
+      "id": "s0786",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Wider angle to what?\" Sascha said.",
+      "runs": [
+        {
+          "t": "\"Wider angle to what?\" Sascha said."
+        }
+      ]
+    },
+    {
+      "id": "s0787",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"To the line,\" Bates murmured. \"Between us and them.\"",
+      "runs": [
+        {
+          "t": "\"To the line,\" Bates murmured. \"Between us and them.\""
+        }
+      ]
+    },
+    {
+      "id": "s0788",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "It was all there on tactical: Theseus fell inwards along an obvious arc, but the probes we'd dispatched hadn't dicked around with Hohmann transfers: they'd burned straight down, their courses barely bending, all within a few degrees of the theoretical line connecting Ben to Theseus.",
+      "runs": [
+        {
+          "t": "It was all there on tactical: "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " fell inwards along an obvious arc, but the probes we'd dispatched hadn't dicked around with Hohmann transfers: they'd burned straight down, their courses barely bending, all within a few degrees of the theoretical line connecting Ben to "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0789",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Except this one. This one had come in wide, and seen the trickery.",
+      "runs": [
+        {
+          "t": "Except this one. This one had come in wide, and seen the trickery."
+        }
+      ]
+    },
+    {
+      "id": "s0790",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"The further from our bearing, the more obvious the discontinuity,\" Sarasti intoned. \"Think it's clearly visible on any approach perpendicular to ours.\"",
+      "runs": [
+        {
+          "t": "\"The further from our bearing, the more obvious the discontinuity,\" Sarasti intoned. \"Think it's clearly visible on any approach perpendicular to ours.\""
+        }
+      ]
+    },
+    {
+      "id": "s0791",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"So we're in a blind spot? We see it if we change course?\"",
+      "runs": [
+        {
+          "t": "\"So we're in a blind spot? We see it if we change course?\""
+        }
+      ]
+    },
+    {
+      "id": "s0792",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Bates shook her head. \"The blind spot's moving, Sascha. It's—\"",
+      "runs": [
+        {
+          "t": "Bates shook her head. \"The blind spot's "
+        },
+        {
+          "t": "moving",
+          "i": true
+        },
+        {
+          "t": ", Sascha. It's—\""
+        }
+      ]
+    },
+    {
+      "id": "s0793",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Tracking us.\" Sascha sucked breath between her teeth. \"Motherfucker.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Tracking",
+          "i": true
+        },
+        {
+          "t": " us.\" Sascha sucked breath between her teeth. \""
+        },
+        {
+          "t": "Motherfucker",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s0794",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Szpindel twitched. \"So what is it? Our skimmer factory?\"",
+      "runs": [
+        {
+          "t": "Szpindel twitched. \"So what is it? Our skimmer factory?\""
+        }
+      ]
+    },
+    {
+      "id": "s0795",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "The freeze-frame's pixels began to crawl. Something emerged, granular and indistinct, from the turbulent swirls and curlicues of Ben's atmosphere. There were curves, and spikes, and no smooth edges; I couldn't tell how much of the shape was real, and how much a fractal intrusion of underlying cloudscape. But the overall outline was that of a torus, or perhaps a collection of smaller jagged things piled together in a rough ring; and it was big. Those nine klicks of displaced contrail had merely grazed the perimeter, cut across an arc of forty or fifty degrees. This thing hiding in the shadow of ten Jupiters was almost thirty kilometers from side to side.",
+      "runs": [
+        {
+          "t": "The freeze-frame's pixels began to "
+        },
+        {
+          "t": "crawl",
+          "i": true
+        },
+        {
+          "t": ". Something emerged, granular and indistinct, from the turbulent swirls and curlicues of Ben's atmosphere. There were curves, and spikes, and no smooth edges; I couldn't tell how much of the shape was real, and how much a fractal intrusion of underlying cloudscape. But the overall outline was that of a torus, or perhaps a collection of smaller jagged things piled together in a rough ring; and it was "
+        },
+        {
+          "t": "big",
+          "i": true
+        },
+        {
+          "t": ". Those nine klicks of displaced contrail had merely grazed the perimeter, cut across an arc of forty or fifty degrees. This thing hiding in the shadow of ten Jupiters was almost thirty kilometers from side to side."
+        }
+      ]
+    },
+    {
+      "id": "s0796",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Sometime during Sarasti's executive summary we'd stopped accellerating. Down was back where it belonged. We weren't, though. Our hesitant maybe-maybe-not approach was a thing of the past: we vectored straight in now, and damn the torpedoes.",
+      "runs": [
+        {
+          "t": "Sometime during Sarasti's executive summary we'd stopped accellerating. "
+        },
+        {
+          "t": "Down",
+          "i": true
+        },
+        {
+          "t": " was back where it belonged. We weren't, though. Our hesitant maybe-maybe-not approach was a thing of the past: we vectored straight in now, and damn the torpedoes."
+        }
+      ]
+    },
+    {
+      "id": "s0797",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Er, that's thirty klicks across,\" Sascha pointed out. \"And it's invisible. Shouldn't we maybe be a little more cautious now?\"",
+      "runs": [
+        {
+          "t": "\"Er, that's thirty klicks across,\" Sascha pointed out. \"And it's "
+        },
+        {
+          "t": "invisible",
+          "i": true
+        },
+        {
+          "t": ". Shouldn't we maybe be a little "
+        },
+        {
+          "t": "more",
+          "i": true
+        },
+        {
+          "t": " cautious now?\""
+        }
+      ]
+    },
+    {
+      "id": "s0798",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Szpindel shrugged. \"We could second-guess vampires, we wouldn't need vampires, eh?\"",
+      "runs": [
+        {
+          "t": "Szpindel shrugged. \"We could second-guess vampires, we wouldn't "
+        },
+        {
+          "t": "need",
+          "i": true
+        },
+        {
+          "t": " vampires, eh?\""
+        }
+      ]
+    },
+    {
+      "id": "s0799",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "A new facet bloomed on the feed. Frequency histograms and harmonic spectra erupted from flatline into shifting mountainscapes, a chorus of visible light.",
+      "runs": [
+        {
+          "t": "A new facet bloomed on the feed. Frequency histograms and harmonic spectra erupted from flatline into shifting mountainscapes, a chorus of visible light."
+        }
+      ]
+    },
+    {
+      "id": "s0800",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Modulated laser,\" Bates reported.",
+      "runs": [
+        {
+          "t": "\"Modulated laser,\" Bates reported."
+        }
+      ]
+    },
+    {
+      "id": "s0801",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Szpindel looked up. \"From that?\"",
+      "runs": [
+        {
+          "t": "Szpindel looked up. \"From "
+        },
+        {
+          "t": "that",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s0802",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Bates nodded. \"Right after we blow its cover. Interesting timing.\"",
+      "runs": [
+        {
+          "t": "Bates nodded. \"Right after we blow its cover. Interesting timing.\""
+        }
+      ]
+    },
+    {
+      "id": "s0803",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Scary timing,\" Szpindel said. \"How'd it know?\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Scary",
+          "i": true
+        },
+        {
+          "t": " timing,\" Szpindel said. \"How'd it "
+        },
+        {
+          "t": "know",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s0804",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"We changed course. We're heading right for it.\"",
+      "runs": [
+        {
+          "t": "\"We changed course. We're heading right for it.\""
+        }
+      ]
+    },
+    {
+      "id": "s0805",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "The lightscape played on, knocking at the window.",
+      "runs": [
+        {
+          "t": "The lightscape played on, knocking at the window."
+        }
+      ]
+    },
+    {
+      "id": "s0806",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Whatever it is,\" Bates said, \"it's talking to us.\"",
+      "runs": [
+        {
+          "t": "\"Whatever it is,\" Bates said, \"it's talking to us.\""
+        }
+      ]
+    },
+    {
+      "id": "s0807",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "\"Well then,\" remarked a welcome voice. \"By all means let's say hello.\"",
+      "runs": [
+        {
+          "t": "\"Well then,\" remarked a welcome voice. \"By all means let's say hello.\""
+        }
+      ]
+    },
+    {
+      "id": "s0808",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 20,
+      "text": "Susan James was back in the driver's seat.",
+      "runs": [
+        {
+          "t": "Susan James was back in the driver's seat."
+        }
+      ]
+    },
+    {
+      "id": "s0809",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 21,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

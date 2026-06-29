@@ -1,0 +1,141 @@
+/* ============================================================================
+   reader.css — 블라인드사이트 한국어 리더 스타일
+   이 파일을 직접 편집한 뒤  `python3 build/build_reader.py`  로 다시 빌드한다.
+   (빌드가 이 CSS 를 dist/preview.html 안에 인라인으로 합쳐 넣는다.)
+   ============================================================================ */
+
+/* ── 색·치수 변수 (라이트) ────────────────────────────────────────────── */
+:root{
+  --bg:#faf8f4;
+  --ink:#23211d;
+  --muted:#9a9388;
+  --coinage:#2f6f6a;        /* 의역 고유명사(coinage) 첫 등장 색 */
+  --anno:#a99;              /* 원어/한자 병기 색 */
+  --rule:#e6e0d6;
+  --origbg:#f1ece2;         /* 원문 펼침 배경 */
+
+  /* 이탤릭 목적별 색 — 아래 '이탤릭 시스템' 참고 */
+  --i-thought:#6a6f86;      /* 내면 독백·생각·회상 (차분한 슬레이트) */
+  --i-emphasis:#b4541a;     /* 강조 (따뜻한 주황) */
+  --i-foreign:#7a4fa0;      /* 외국어·외계어·조어 (보라) */
+  --i-title:#2f6f6a;        /* 함선·책 등 이름 (청록) */
+  --i-comm:#3f74a8;         /* 통신·무전 (파랑) */
+}
+
+/* ── 색 변수 (다크) ───────────────────────────────────────────────────── */
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#1a1916;
+    --ink:#e8e3d8;
+    --muted:#8a8478;
+    --coinage:#79c2bb;
+    --anno:#7a7066;
+    --rule:#322e28;
+    --origbg:#23211c;
+
+    --i-thought:#9aa0bd;
+    --i-emphasis:#e58a4e;
+    --i-foreign:#b694d6;
+    --i-title:#79c2bb;
+    --i-comm:#7fb0e0;
+  }
+}
+
+/* ── 기본 레이아웃 ────────────────────────────────────────────────────── */
+*{ box-sizing:border-box; }
+body{
+  background:var(--bg); color:var(--ink); margin:0;
+  font-family:"Apple SD Gothic Neo","Noto Serif KR",-apple-system,system-ui,serif;
+  line-height:1.9; font-size:18px;
+}
+.wrap{ max-width:680px; margin:0 auto; padding:48px 22px 120px; }
+
+header{
+  position:sticky; top:0; z-index:5;
+  background:var(--bg); padding:10px 0; border-bottom:1px solid var(--rule);
+  display:flex; gap:14px; align-items:center;
+  font-size:13px; color:var(--muted);
+}
+header b{ color:var(--ink); font-size:15px; margin-right:auto; }
+
+.toggle{
+  cursor:pointer; user-select:none;
+  border:1px solid var(--rule); border-radius:14px; padding:3px 10px; color:var(--muted);
+}
+.toggle.on{ color:var(--bg); background:var(--ink); border-color:var(--ink); }
+
+/* ── 문단·정렬·장면 구분 ─────────────────────────────────────────────── */
+.seg{ position:relative; margin:0 0 1.05em; text-align:justify; }
+.ta-right{ text-align:right; color:var(--muted); font-style:normal; }
+.ta-center{ text-align:center; }
+
+hr.scene{ border:none; text-align:center; margin:2.1em 0; }
+hr.scene::before{ content:"✶"; color:var(--muted); font-size:.9em; }
+
+/* ── 고유명사(coinage) / 병기(anno) ──────────────────────────────────── */
+.coinage{ color:var(--coinage); border-bottom:1px dotted var(--coinage); }
+.anno{ color:var(--anno); font-size:.72em; margin-left:1px; cursor:help; }
+body.hide-anno .anno{ display:none; }
+
+/* ── 이탤릭 시스템: 원문 기울임의 '목적'별 스타일 ─────────────────────────
+   번역 데이터 run.i 값으로 종류를 지정한다(빌드가 클래스로 변환):
+       i:true         → .ital.i-default   (미분류: 일단 기울임만)
+       i:"thought"    → 내면 독백·생각·회상
+       i:"emphasis"   → 강조
+       i:"foreign"    → 외국어·외계어·조어
+       i:"title"      → 함선·책 등 작품/고유물 이름
+       i:"comm"       → 통신(무전 등)
+       i:"other"      → 기타
+   .ital 은 모든 종류 공통 베이스. 각 .i-* 에서 필요한 속성만 덮어쓴다.
+   (지금 번역 데이터는 전부 i:true → 모두 .i-default 로 보인다. 분류 작업 후 재빌드.)
+   ------------------------------------------------------------------------ */
+.ital{ font-style:italic; }                 /* 공통 베이스: 기울임 */
+
+.i-default{ }                                /* 미분류 — 베이스(기울임)만 */
+
+.i-thought{ color:var(--i-thought); }        /* 생각·독백·회상 */
+
+.i-emphasis{                                 /* 강조 — 기울임 대신 색+굵기 */
+  font-style:normal;
+  color:var(--i-emphasis);
+  font-weight:600;
+}
+
+.i-foreign{ color:var(--i-foreign); }        /* 외국어·외계어·조어 */
+
+.i-title{                                    /* 함선·책 등 이름 */
+  color:var(--i-title);
+}
+
+.i-comm{                                     /* 통신·무전 */
+  font-style:normal;
+  color:var(--i-comm);
+  font-family:"DejaVu Sans Mono",ui-monospace,monospace;
+  font-size:.94em;
+  letter-spacing:.01em;
+}
+
+.i-other{ }                                  /* 기타 — 베이스(기울임)만 */
+
+/* ── 원문 펼침 ───────────────────────────────────────────────────────── */
+.orig-toggle{
+  border:none; background:none; color:var(--muted); cursor:pointer;
+  font-size:.8em; opacity:0; transition:opacity .15s;
+  margin-left:6px; padding:0 4px; vertical-align:1px;
+}
+.seg:hover .orig-toggle{ opacity:.55; }
+.orig-toggle:hover{ opacity:1; }
+.orig{
+  display:block; margin:.5em 0 .2em; padding:.5em .8em;
+  background:var(--origbg); border-left:2px solid var(--rule); border-radius:4px;
+  color:var(--muted); font-size:.86em; line-height:1.6;
+  font-family:Georgia,serif; text-align:left;
+}
+body.show-orig .orig{ display:block!important; }
+body.show-orig .orig[hidden]{ display:block; }
+
+/* ── 푸터 주석 ───────────────────────────────────────────────────────── */
+.note{
+  font-size:12px; color:var(--muted);
+  border-top:1px solid var(--rule); margin-top:40px; padding-top:14px;
+}

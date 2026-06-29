@@ -1,0 +1,1559 @@
+{
+  "chunk_id": "s1455-s1547",
+  "part": "Rorschach",
+  "first": "s1455",
+  "last": "s1547",
+  "n_segments": 93,
+  "words": 1999,
+  "segments": [
+    {
+      "id": "s1455",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Sarasti stayed behind. He hadn't come with a backup.",
+      "runs": [
+        {
+          "t": "Sarasti stayed behind. He hadn't come with a backup."
+        }
+      ]
+    },
+    {
+      "id": "s1456",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "There were the rest of us, though, crammed into the shuttle, embedded in custom spacesuits so padded with shielding we might have been deep-sea divers from a previous century. It was a fine balance; too much shielding would have been worse than none at all, would split primary particles into secondary ones, just as lethal and twice as numerous. Sometimes you had to live with moderate exposure; the only alternative was to embed yourself like a bug in lead.",
+      "runs": [
+        {
+          "t": "There were the rest of us, though, crammed into the shuttle, embedded in custom spacesuits so padded with shielding we might have been deep-sea divers from a previous century. It was a fine balance; too much shielding would have been worse than none at all, would split primary particles into secondary ones, just as lethal and twice as numerous. Sometimes you had to live with moderate exposure; the only alternative was to embed yourself like a bug in lead."
+        }
+      ]
+    },
+    {
+      "id": "s1457",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "We launched six hours from perigee. Scylla raced on ahead like an eager child, leaving its parent behind. There was no eagerness in the systems around me, though. Except for one: the Gang of Four almost shimmered behind her faceplate.",
+      "runs": [
+        {
+          "t": "We launched six hours from perigee. "
+        },
+        {
+          "t": "Scylla",
+          "i": true
+        },
+        {
+          "t": " raced on ahead like an eager child, leaving its parent behind. There was no eagerness in the systems around me, though. Except for one: the Gang of Four almost "
+        },
+        {
+          "t": "shimmered",
+          "i": true
+        },
+        {
+          "t": " behind her faceplate."
+        }
+      ]
+    },
+    {
+      "id": "s1458",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"Excited?\" I asked.",
+      "runs": [
+        {
+          "t": "\"Excited?\" I asked."
+        }
+      ]
+    },
+    {
+      "id": "s1459",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Sascha answered: \"Fuckin' right. Field work, Keeton. First contact.\"",
+      "runs": [
+        {
+          "t": "Sascha answered: \"Fuckin' "
+        },
+        {
+          "t": "right",
+          "i": true
+        },
+        {
+          "t": ". "
+        },
+        {
+          "t": "Field ",
+          "i": true
+        },
+        {
+          "t": "work, Keeton. First contact.\""
+        }
+      ]
+    },
+    {
+      "id": "s1460",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"What if there's nobody there?\" What if there is, and they don't like us?",
+      "runs": [
+        {
+          "t": "\"What if there's nobody there?\" "
+        },
+        {
+          "t": "What if there is, and they don't like us?",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1461",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"Even better. We get a crack at their signs and cereal boxes without their traffic cops leaning over our shoulders.\"",
+      "runs": [
+        {
+          "t": "\"Even better. We get a crack at their signs and cereal boxes without their traffic cops leaning over our shoulders.\""
+        }
+      ]
+    },
+    {
+      "id": "s1462",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "I wondered if she spoke for the others. I was pretty sure she didn't speak for Michelle.",
+      "runs": [
+        {
+          "t": "I wondered if she spoke for the others. I was pretty sure she didn't speak for Michelle."
+        }
+      ]
+    },
+    {
+      "id": "s1463",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Scylla's ports had all been sealed. There was no outside view, nothing to see inside but bots and bodies and the tangled silhouette swelling on my helmet HUD. But I could feel the radiation slicing through our armor as if it were tissue paper. I could feel the knotted crests and troughs of Rorschach's magnetic field. I could feel Rorschach itself, drawing nearer: the charred canopy of some firestormed alien forest, more landscape than artefact. I imagined titanic bolts of electricity arcing between its branches. I imagined getting in the way.",
+      "runs": [
+        {
+          "t": "Scylla",
+          "i": true
+        },
+        {
+          "t": "'s ports had all been sealed. There was no outside view, nothing to see inside but bots and bodies and the tangled silhouette swelling on my helmet HUD. But I could feel the radiation slicing through our armor as if it were tissue paper. I could feel the knotted crests and troughs of "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s magnetic field. I could feel "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " itself, drawing nearer: the charred canopy of some firestormed alien forest, more landscape than artefact. I imagined titanic bolts of electricity arcing between its branches. I imagined getting in the way."
+        }
+      ]
+    },
+    {
+      "id": "s1464",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "What kind of creatures would choose to live in such a place?",
+      "runs": [
+        {
+          "t": "What kind of creatures would choose to live in such a place?"
+        }
+      ]
+    },
+    {
+      "id": "s1465",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"You really think we'll get along,\" I said.",
+      "runs": [
+        {
+          "t": "\"You really think we'll get along,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s1466",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "James' shrug was all but lost under the armor. \"Maybe not at first. We may have gotten off on the wrong foot, we might have to sort through all kinds of misunderstandings. But we'll figure each other out eventually.\"",
+      "runs": [
+        {
+          "t": "James' shrug was all but lost under the armor. \"Maybe not at first. We may have gotten off on the wrong foot, we might have to sort through all kinds of misunderstandings. But we'll figure each other out eventually.\""
+        }
+      ]
+    },
+    {
+      "id": "s1467",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Evidently she thought that had answered my question.",
+      "runs": [
+        {
+          "t": "Evidently she thought that had answered my question."
+        }
+      ]
+    },
+    {
+      "id": "s1468",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "The shuttle slewed; we bumped against each other like tenpins. Thirty seconds of micromaneuvers brought us to a solid stop. A cheery animation played across the HUD in greens and blues: the shuttle's docking seal, easing through the membrane that served as our entrance into Rorschach's inflatable vestibule. Even as a cartoon it looked vaguely pornographic.",
+      "runs": [
+        {
+          "t": "The shuttle slewed; we bumped against each other like tenpins. Thirty seconds of micromaneuvers brought us to a solid stop. A cheery animation played across the HUD in greens and blues: the shuttle's docking seal, easing through the membrane that served as our entrance into "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s inflatable vestibule. Even as a cartoon it looked vaguely pornographic."
+        }
+      ]
+    },
+    {
+      "id": "s1469",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Bates had been prepacked next to the airlock. She slid back the inner door. \"Everybody duck.\"",
+      "runs": [
+        {
+          "t": "Bates had been prepacked next to the airlock. She slid back the inner door. \"Everybody duck.\""
+        }
+      ]
+    },
+    {
+      "id": "s1470",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Not an easy maneuver, swaddled in life-support and ferroceramic. Helmets tilted and bumped. The grunts, flattened overhead like great lethal cockroaches, hummed to life and disengaged from the ceiling. They scraped past in the narrow headroom, bobbed cryptically to their mistress, and exited stage left.",
+      "runs": [
+        {
+          "t": "Not an easy maneuver, swaddled in life-support and ferroceramic. Helmets tilted and bumped. The grunts, flattened overhead like great lethal cockroaches, hummed to life and disengaged from the ceiling. They scraped past in the narrow headroom, bobbed cryptically to their mistress, and exited stage left."
+        }
+      ]
+    },
+    {
+      "id": "s1471",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Bates closed the inner hatch. The lock cycled, opened again on an empty chamber.",
+      "runs": [
+        {
+          "t": "Bates closed the inner hatch. The lock cycled, opened again on an empty chamber."
+        }
+      ]
+    },
+    {
+      "id": "s1472",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Everything nominal, according to the board. The drones waited patiently in the vestibule. Nothing had jumped out at them.",
+      "runs": [
+        {
+          "t": "Everything nominal, according to the board. The drones waited patiently in the vestibule. Nothing had jumped out at them."
+        }
+      ]
+    },
+    {
+      "id": "s1473",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Bates followed them through.",
+      "runs": [
+        {
+          "t": "Bates followed them through."
+        }
+      ]
+    },
+    {
+      "id": "s1474",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "We had to wait forever for the image. The baud rate was less than a trickle. Words moved back and forth easily enough—\"No surprises so far,\" Bates reported in distorted Jews-harp vibrato—but any picture was worth a million of them, and—",
+      "runs": [
+        {
+          "t": "We had to wait forever for the image. The baud rate was less than a trickle. Words moved back and forth easily enough—\"No surprises so far,\" Bates reported in distorted Jews-harp vibrato—but any picture was worth a million of them, and—"
+        }
+      ]
+    },
+    {
+      "id": "s1475",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "There: through the eyes of the grunt behind we saw the grunt ahead in motionless, grainy monochrome. It was a postcard from the past: sight turned to sound, thick clumsy vibrations of methane bumping against the hull. It took long seconds for each static-ridden image to accrete on the HUD: grunts descending into the pit; grunts emerging into Rorschach's duodenum; a cryptic, hostile cavescape in systematic increments. Down in the lower left-hand corner of each image, timestamps and Teslas ran down the clock.",
+      "runs": [
+        {
+          "t": "There: through the eyes of the grunt behind we saw the grunt ahead in motionless, grainy monochrome. It was a postcard from the past: sight turned to sound, thick clumsy vibrations of methane bumping against the hull. It took long seconds for each static-ridden image to accrete on the HUD: grunts descending into the pit; grunts emerging into "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s duodenum; a cryptic, hostile cavescape in systematic increments. Down in the lower left-hand corner of each image, timestamps and Teslas ran down the clock."
+        }
+      ]
+    },
+    {
+      "id": "s1476",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "You give up a lot when you don't trust the EM spectrum.",
+      "runs": [
+        {
+          "t": "You give up a lot when you don't trust the EM spectrum."
+        }
+      ]
+    },
+    {
+      "id": "s1477",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"Looks good,\" Bates reported. \"Going in.\"",
+      "runs": [
+        {
+          "t": "\"Looks good,\" Bates reported. \"Going in.\""
+        }
+      ]
+    },
+    {
+      "id": "s1478",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "In a friendlier universe machines would have cruised the boulevard, sending perfect images in crystal resolution. Szpindel and the Gang would be sipping coffee back in the drum, telling the grunts to take a sample of this or get a close-up of that. In a friendlier universe, I wouldn't even be here.",
+      "runs": [
+        {
+          "t": "In a friendlier universe machines would have cruised the boulevard, sending perfect images in crystal resolution. Szpindel and the Gang would be sipping coffee back in the drum, telling the grunts to take a sample of this or get a close-up of that. In a friendlier universe, I wouldn't even be here."
+        }
+      ]
+    },
+    {
+      "id": "s1479",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "Bates appeared in the next postcard, emerging from the fistula. In the next her back was to the camera, apparently panning the perimeter.",
+      "runs": [
+        {
+          "t": "Bates appeared in the next postcard, emerging from the fistula. In the next her back was to the camera, apparently panning the perimeter."
+        }
+      ]
+    },
+    {
+      "id": "s1480",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "In the one after that she was looking right at us.",
+      "runs": [
+        {
+          "t": "In the one after that she was looking right at us."
+        }
+      ]
+    },
+    {
+      "id": "s1481",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"Oh...okay,\" she said. \"Come on...down...\"",
+      "runs": [
+        {
+          "t": "\"Oh...okay,\" she said. \"Come on...down...\""
+        }
+      ]
+    },
+    {
+      "id": "s1482",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"Not so fast,\" Szpindel said. \"How are you feeling?\"",
+      "runs": [
+        {
+          "t": "\"Not so fast,\" Szpindel said. \"How are you feeling?\""
+        }
+      ]
+    },
+    {
+      "id": "s1483",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"Fine. A bit—odd, but...\"",
+      "runs": [
+        {
+          "t": "\"Fine. A bit—odd, but...\""
+        }
+      ]
+    },
+    {
+      "id": "s1484",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"Odd how?\" Radiation sickness announced itself with nausea, but unless we'd seriously erred in our calculations that wouldn't happen for another hour or two. Not until well after we'd all been lethally cooked.",
+      "runs": [
+        {
+          "t": "\"Odd how?\" Radiation sickness announced itself with nausea, but unless we'd seriously erred in our calculations that wouldn't happen for another hour or two. Not until well after we'd all been lethally cooked."
+        }
+      ]
+    },
+    {
+      "id": "s1485",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"Mild disorientation,\" Bates reported. \"It's a bit spooky in here, but—must be Grey Syndrome. It's tolerable.\"",
+      "runs": [
+        {
+          "t": "\"Mild disorientation,\" Bates reported. \"It's a bit spooky in here, but—must be Grey Syndrome. It's tolerable.\""
+        }
+      ]
+    },
+    {
+      "id": "s1486",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "I looked at the Gang. The Gang looked at Szpindel. Szpindel shrugged.",
+      "runs": [
+        {
+          "t": "I looked at the Gang. The Gang looked at Szpindel. Szpindel shrugged."
+        }
+      ]
+    },
+    {
+      "id": "s1487",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "\"It's not gonna get any better,\" Bates said from afar. \"The clock is... clock is ticking, people. Get down here.\"",
+      "runs": [
+        {
+          "t": "\"It's not gonna get any better,\" Bates said from afar. \"The clock is... clock is ticking, people. Get down here.\""
+        }
+      ]
+    },
+    {
+      "id": "s1488",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 3,
+      "text": "We got.",
+      "runs": [
+        {
+          "t": "We got."
+        }
+      ]
+    },
+    {
+      "id": "s1489",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s1490",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Not living, not by a long shot.",
+      "runs": [
+        {
+          "t": "Not living, not by a long shot."
+        }
+      ]
+    },
+    {
+      "id": "s1491",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Haunted.",
+      "runs": [
+        {
+          "t": "Haunted",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s1492",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Even when the walls didn't move, they did: always at the corner of the eye, that sense of crawling motion. Always at the back of the mind the sense of being watched, the dread certainty of malign and alien observers just out of sight. More than once I turned, expecting to catch one of those phantoms in the open. All I ever saw was a half-blind grunt floating down the passageway, or a wide-eyed and jittery crewmate returning my stare. And the walls of some glistening black lava tube with a hundred embedded eyes, all snapped shut just the instant before. Our lights pushed the darkness back perhaps twenty meters in either direction; beyond, mist and shadows seethed. And the sounds—Rorschach creaked around us like some ancient wooden hull trapped in pack ice. Electricity hissed like rattlesnakes.",
+      "runs": [
+        {
+          "t": "Even when the walls didn't move, they did: always at the corner of the eye, that sense of crawling motion. Always at the back of the mind the sense of being "
+        },
+        {
+          "t": "watched",
+          "i": true
+        },
+        {
+          "t": ", the dread certainty of malign and alien observers just out of sight. More than once I turned, expecting to catch one of those phantoms in the open. All I ever saw was a half-blind grunt floating down the passageway, or a wide-eyed and jittery crewmate returning my stare. And the walls of some glistening black lava tube with a hundred embedded eyes, all snapped shut just the instant before. Our lights pushed the darkness back perhaps twenty meters in either direction; beyond, mist and shadows seethed. And the "
+        },
+        {
+          "t": "sounds",
+          "i": true
+        },
+        {
+          "t": "—"
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " creaked around us like some ancient wooden hull trapped in pack ice. Electricity hissed like rattlesnakes."
+        }
+      ]
+    },
+    {
+      "id": "s1493",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "You tell yourself it's mostly in your head. You remind yourself it's well-documented, an inevitable consequence of meat and magnetism brought too close together. High-energy fields release the ghosts and the grays from your temporal lobe, dredge up paralyzing dread from the midbrain to saturate the conscious mind. They fuck with your motor nerves and make even dormant inlays sing like fine fragile crystal.",
+      "runs": [
+        {
+          "t": "You tell yourself it's mostly in your head. You remind yourself it's well-documented, an inevitable consequence of meat and magnetism brought too close together. High-energy fields release the ghosts and the grays from your temporal lobe, dredge up paralyzing dread from the midbrain to saturate the conscious mind. They fuck with your motor nerves and make even dormant inlays sing like fine fragile crystal."
+        }
+      ]
+    },
+    {
+      "id": "s1494",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Energy artefacts. That's all they are. You repeat that to yourself, you repeat it so often it loses any pretense of rationality and devolves into rote incantation, a spell to ward off evil spirits. They're not real, these whispering voices just outside your helmet, those half-seen creatures flickering at the edge of vision. They're tricks of the mind, the same neurological smoke-and-mirrors that convinced people throughout the ages that they were being haunted by ghosts, abducted by aliens, hunted by—",
+      "runs": [
+        {
+          "t": "Energy artefacts. That's all they are. You repeat that to yourself, you repeat it so often it loses any pretense of rationality and devolves into rote incantation, a spell to ward off evil spirits. They're not real, these whispering voices just outside your helmet, those half-seen creatures flickering at the edge of vision. They're tricks of the mind, the same neurological smoke-and-mirrors that convinced people throughout the ages that they were being haunted by ghosts, abducted by aliens, hunted by—"
+        }
+      ]
+    },
+    {
+      "id": "s1495",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "—vampires—",
+      "runs": [
+        {
+          "t": "—vampires—"
+        }
+      ]
+    },
+    {
+      "id": "s1496",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "—and you wonder whether Sarasti really stayed behind or if he was here all along, waiting for you...",
+      "runs": [
+        {
+          "t": "—and you wonder whether Sarasti really stayed behind or if he was here all along, waiting for you..."
+        }
+      ]
+    },
+    {
+      "id": "s1497",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Another spike,\" Bates warned as Tesla and Seiverts surged on my HUD. \"Hang on.\"",
+      "runs": [
+        {
+          "t": "\"Another spike,\" Bates warned as "
+        },
+        {
+          "t": "Tesla",
+          "i": true
+        },
+        {
+          "t": " and "
+        },
+        {
+          "t": "Seiverts",
+          "i": true
+        },
+        {
+          "t": " surged on my HUD. \"Hang on.\""
+        }
+      ]
+    },
+    {
+      "id": "s1498",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "I was installing the Faraday bell. Trying to. It should have been simple enough; I'd already run the main anchor line down from the vestibule to the flaccid sack floating in the middle of the passageway. I was—that's right, something about a spring line. To, to keep the bell centered. The wall glistened in my headlamp like wet clay. Satanic runes sparkled in my imagination.",
+      "runs": [
+        {
+          "t": "I was installing the Faraday bell. Trying to. It should have been simple enough; I'd already run the main anchor line down from the vestibule to the flaccid sack floating in the middle of the passageway. I was—that's right, something about a spring line. To, to keep the bell centered. The wall glistened in my headlamp like wet clay. Satanic runes sparkled in my imagination."
+        }
+      ]
+    },
+    {
+      "id": "s1499",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "I jammed the spring line's pad against the wall. I could have sworn the substrate flinched. I fired my thrust pistol, retreated back to the center of the passage.",
+      "runs": [
+        {
+          "t": "I jammed the spring line's pad against the wall. I could have sworn the substrate "
+        },
+        {
+          "t": "flinched",
+          "i": true
+        },
+        {
+          "t": ". I fired my thrust pistol, retreated back to the center of the passage."
+        }
+      ]
+    },
+    {
+      "id": "s1500",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"They're here,\" James whispered.",
+      "runs": [
+        {
+          "t": "\"They're here,\" James whispered."
+        }
+      ]
+    },
+    {
+      "id": "s1501",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Something was. I could feel it always behind me, no matter where I turned. I could feel some great roaring darkness swirling just out of sight, a ravenous mouth as wide as the tunnel itself. Any moment now it would lunge forward at impossible speed and engulf us all.",
+      "runs": [
+        {
+          "t": "Something ",
+          "i": true
+        },
+        {
+          "t": "was. I could feel it always behind me, no matter where I turned. I could feel some great roaring darkness swirling just out of sight, a ravenous "
+        },
+        {
+          "t": "mouth",
+          "i": true
+        },
+        {
+          "t": " as wide as the tunnel itself. Any moment now it would lunge forward at impossible speed and engulf us all."
+        }
+      ]
+    },
+    {
+      "id": "s1502",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"They're beautiful...\" James said. There was no fear in her voice at all. She sounded awestruck.",
+      "runs": [
+        {
+          "t": "\"They're "
+        },
+        {
+          "t": "beautiful",
+          "i": true
+        },
+        {
+          "t": "...\" James said. There was no fear in her voice at all. She sounded awestruck."
+        }
+      ]
+    },
+    {
+      "id": "s1503",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"What? Where?\" Bates never stopped turning, kept trying to keep the whole three-sixty in sight at once. The drones under her command wobbled restlessly to either side, armored parentheses pointing down the passageway in opposite directions. \"What do you see?\"",
+      "runs": [
+        {
+          "t": "\"What? Where?\" Bates never stopped turning, kept trying to keep the whole three-sixty in sight at once. The drones under her command wobbled restlessly to either side, armored parentheses pointing down the passageway in opposite directions. \"What do you see?\""
+        }
+      ]
+    },
+    {
+      "id": "s1504",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Not out there. In here. Everywhere. Can't you see it?\"",
+      "runs": [
+        {
+          "t": "\"Not out "
+        },
+        {
+          "t": "there",
+          "i": true
+        },
+        {
+          "t": ". In "
+        },
+        {
+          "t": "here",
+          "i": true
+        },
+        {
+          "t": ". "
+        },
+        {
+          "t": "Everywhere",
+          "i": true
+        },
+        {
+          "t": ". Can't you see it?\""
+        }
+      ]
+    },
+    {
+      "id": "s1505",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"I can't see anything,\" Szpindel said, his voice shaking.",
+      "runs": [
+        {
+          "t": "\"I can't see anything,\" Szpindel said, his voice shaking."
+        }
+      ]
+    },
+    {
+      "id": "s1506",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"It's in the EM fields,\" James said. \"That's how they communicate. The whole structure is full of language, it's—\"",
+      "runs": [
+        {
+          "t": "\"It's in the EM fields,\" James said. \""
+        },
+        {
+          "t": "That's",
+          "i": true
+        },
+        {
+          "t": " how they communicate. The whole structure is full of "
+        },
+        {
+          "t": "language",
+          "i": true
+        },
+        {
+          "t": ", it's—\""
+        }
+      ]
+    },
+    {
+      "id": "s1507",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"I can't see anything,\" Szpindel repeated. His breath echoed loud and fast over the link. \"I'm blind.\"",
+      "runs": [
+        {
+          "t": "\"I can't see "
+        },
+        {
+          "t": "anything",
+          "i": true
+        },
+        {
+          "t": ",\" Szpindel repeated. His breath echoed loud and fast over the link. \"I'm "
+        },
+        {
+          "t": "blind",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s1508",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Shit.\" Bates swung on Szpindel. \"How can that—the radiation—\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Shit.",
+          "i": true
+        },
+        {
+          "t": "\" Bates swung on Szpindel. \"How can that—the radiation—\""
+        }
+      ]
+    },
+    {
+      "id": "s1509",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"I d-don't think that's it..\"",
+      "runs": [
+        {
+          "t": "\"I d-don't think that's it..\""
+        }
+      ]
+    },
+    {
+      "id": "s1510",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Nine Tesla, and the ghosts were everywhere. I smelled asphalt and honeysuckle.",
+      "runs": [
+        {
+          "t": "Nine Tesla, and the ghosts were everywhere. I smelled asphalt and honeysuckle."
+        }
+      ]
+    },
+    {
+      "id": "s1511",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Keeton!\" Bates called. \"You with us?\"",
+      "runs": [
+        {
+          "t": "\"Keeton!\" Bates called. \"You with us?\""
+        }
+      ]
+    },
+    {
+      "id": "s1512",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Y-yeah.\" Barely. I was back at the bell, my hand on the ripcord. Trying to ignore whatever kept tapping me on the shoulder.",
+      "runs": [
+        {
+          "t": "\"Y-yeah.\" Barely. I was back at the bell, my hand on the ripcord. Trying to ignore whatever kept tapping me on the shoulder."
+        }
+      ]
+    },
+    {
+      "id": "s1513",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Leave that! Get him outside!\"",
+      "runs": [
+        {
+          "t": "\"Leave that! Get him outside!\""
+        }
+      ]
+    },
+    {
+      "id": "s1514",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"No!\" Szpindel floated helplessly in the passage, his pistol bouncing against its wrist tether. \"No, throw me something.\"",
+      "runs": [
+        {
+          "t": "\"No!\" Szpindel floated helplessly in the passage, his pistol bouncing against its wrist tether. \"No, throw me something.\""
+        }
+      ]
+    },
+    {
+      "id": "s1515",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"What?\"",
+      "runs": [
+        {
+          "t": "\"What?\""
+        }
+      ]
+    },
+    {
+      "id": "s1516",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "It's all in your head. It's all in your—",
+      "runs": [
+        {
+          "t": "It's all in your head. It's all in your—",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1517",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Throw something! Anything!\"",
+      "runs": [
+        {
+          "t": "\"Throw something! Anything!\""
+        }
+      ]
+    },
+    {
+      "id": "s1518",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Bates hesitated. \"You said you were bli—\"",
+      "runs": [
+        {
+          "t": "Bates hesitated. \"You said you were bli—\""
+        }
+      ]
+    },
+    {
+      "id": "s1519",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Just do it!\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Just do it!",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s1520",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Bates pulled a spare suit battery off her belt and lobbed it. Szpindel reached, fumbled. The battery slipped from his grasp and bounced off the wall.",
+      "runs": [
+        {
+          "t": "Bates pulled a spare suit battery off her belt and lobbed it. Szpindel reached, fumbled. The battery slipped from his grasp and bounced off the wall."
+        }
+      ]
+    },
+    {
+      "id": "s1521",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"I'll be okay,\" he gasped. \"Just get me into the tent.\"",
+      "runs": [
+        {
+          "t": "\"I'll be okay,\" he gasped. \"Just get me into the tent.\""
+        }
+      ]
+    },
+    {
+      "id": "s1522",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "I yanked the cord. The bell inflated like a great gunmetal marshmallow.",
+      "runs": [
+        {
+          "t": "I yanked the cord. The bell inflated like a great gunmetal marshmallow."
+        }
+      ]
+    },
+    {
+      "id": "s1523",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Everyone inside!\" Bates ran her pistol with one hand, grabbed Szpindel with the other. She handed him off to me and slapped a sensor pod onto the skin of the tent. I pulled back the shielded entrance flap as though pulling a scab from a wound. The single molecule beneath, infinitely long, endlessly folded against itself, swirled and glistened like a soap bubble.",
+      "runs": [
+        {
+          "t": "\"Everyone inside!\" Bates ran her pistol with one hand, grabbed Szpindel with the other. She handed him off to me and slapped a sensor pod onto the skin of the tent. I pulled back the shielded entrance flap as though pulling a scab from a wound. The single molecule beneath, infinitely long, endlessly folded against itself, swirled and glistened like a soap bubble."
+        }
+      ]
+    },
+    {
+      "id": "s1524",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Get him in. James! Get down here!\"",
+      "runs": [
+        {
+          "t": "\"Get him in. James! Get down here!\""
+        }
+      ]
+    },
+    {
+      "id": "s1525",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "I pushed Szpindel through the membrane. It split around him with airtight intimacy, hugged each tiny crack and contour as he passed through.",
+      "runs": [
+        {
+          "t": "I pushed Szpindel through the membrane. It split around him with airtight intimacy, hugged each tiny crack and contour as he passed through."
+        }
+      ]
+    },
+    {
+      "id": "s1526",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"James! Are you—\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "James",
+          "i": true
+        },
+        {
+          "t": "! Are you—\""
+        }
+      ]
+    },
+    {
+      "id": "s1527",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Get it off me!\" Harsh voice, raw and scared and scary, as male as female could sound. Cruncher in control. \"Get it off!\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Get it off me!",
+          "i": true
+        },
+        {
+          "t": "\" Harsh voice, raw and scared and scary, as male as female could sound. Cruncher in control. \""
+        },
+        {
+          "t": "Get it off!",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s1528",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "I looked back. Susan James' body tumbled slowly in the tunnel, grasping its right leg with both hands.",
+      "runs": [
+        {
+          "t": "I looked back. Susan James' body tumbled slowly in the tunnel, grasping its right leg with both hands."
+        }
+      ]
+    },
+    {
+      "id": "s1529",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"James!\" Bates sailed over to the other woman. \"Keeton! Help out!\" She took the Gang by the arm. \"Cruncher? What's the problem?\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "James!",
+          "i": true
+        },
+        {
+          "t": "\" Bates sailed over to the other woman. \"Keeton! Help out!\" She took the Gang by the arm. \"Cruncher? What's the problem?\""
+        }
+      ]
+    },
+    {
+      "id": "s1530",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"That! You blind?\" He wasn't just grasping at the limb, I realized as I joined them. He was tugging at it. He was trying to pull it off.",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "That!",
+          "i": true
+        },
+        {
+          "t": " You "
+        },
+        {
+          "t": "blind",
+          "i": true
+        },
+        {
+          "t": "?\" He wasn't just "
+        },
+        {
+          "t": "grasping",
+          "i": true
+        },
+        {
+          "t": " at the limb, I realized as I joined them. He was "
+        },
+        {
+          "t": "tugging",
+          "i": true
+        },
+        {
+          "t": " at it. "
+        },
+        {
+          "t": "He was trying to pull it off.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1531",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Something laughed hysterically, right inside my helmet.",
+      "runs": [
+        {
+          "t": "Something laughed hysterically, right inside my helmet."
+        }
+      ]
+    },
+    {
+      "id": "s1532",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Take his arm,\" Bates told me, taking his right one, trying to pry the fingers from their death grip on the Gang's leg. \"Cruncher, let go. Now.\"",
+      "runs": [
+        {
+          "t": "\"Take his arm,\" Bates told me, taking his right one, trying to pry the fingers from their death grip on the Gang's leg. \"Cruncher, "
+        },
+        {
+          "t": "let go",
+          "i": true
+        },
+        {
+          "t": ". "
+        },
+        {
+          "t": "Now.",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s1533",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Get it off me!\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Get it off me!",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s1534",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"It's your leg, Cruncher.\" We wrestled our way towards the diving bell.",
+      "runs": [
+        {
+          "t": "\"It's your leg, Cruncher.\" We wrestled our way towards the diving bell."
+        }
+      ]
+    },
+    {
+      "id": "s1535",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"It's not my leg! Just look at it, how could it—it's dead. It's stuck to me...\"",
+      "runs": [
+        {
+          "t": "\"It's "
+        },
+        {
+          "t": "not",
+          "i": true
+        },
+        {
+          "t": " my leg! Just "
+        },
+        {
+          "t": "look",
+          "i": true
+        },
+        {
+          "t": " at it, how could it—it's "
+        },
+        {
+          "t": "dead",
+          "i": true
+        },
+        {
+          "t": ". It's "
+        },
+        {
+          "t": "stuck",
+          "i": true
+        },
+        {
+          "t": " to me...\""
+        }
+      ]
+    },
+    {
+      "id": "s1536",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Almost there. \"Cruncher, listen,\" Bates snapped. \"Are you with m—\"",
+      "runs": [
+        {
+          "t": "Almost there. \"Cruncher, "
+        },
+        {
+          "t": "listen",
+          "i": true
+        },
+        {
+          "t": ",\" Bates snapped. \"Are you with m—\""
+        }
+      ]
+    },
+    {
+      "id": "s1537",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Get it off!\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Get it off!",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s1538",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "We stuffed the Gang into the tent. Bates moved aside as I dove in after them. Amazing, the way she held it together. Somehow she kept the demons at bay, herded us to shelter like a border collie in a thunderstorm. She was—",
+      "runs": [
+        {
+          "t": "We stuffed the Gang into the tent. Bates moved aside as I dove in after them. Amazing, the way she held it together. Somehow she kept the demons at bay, herded us to shelter like a border collie in a thunderstorm. She was—"
+        }
+      ]
+    },
+    {
+      "id": "s1539",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "She wasn't following us in. She wasn't even there. I turned to see her body floating outside the tent, one gloved hand grasping the edge of the flap; but even under all those layers of Kapton and Chromel and polycarbonate, even behind the distorted half-reflections on her faceplate, I could tell that something was missing. All her surfaces had just disappeared.",
+      "runs": [
+        {
+          "t": "She wasn't following us in. She wasn't even "
+        },
+        {
+          "t": "there",
+          "i": true
+        },
+        {
+          "t": ". I turned to see her body floating outside the tent, one gloved hand grasping the edge of the flap; but even under all those layers of Kapton and Chromel and polycarbonate, even behind the distorted half-reflections on her faceplate, I could tell that something was missing. All her surfaces had just "
+        },
+        {
+          "t": "disappeared.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1540",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "This couldn't be Amanda Bates. The thing before me had no more topology than a mannequin.",
+      "runs": [
+        {
+          "t": "This couldn't be Amanda Bates. The thing before me had no more topology than a mannequin."
+        }
+      ]
+    },
+    {
+      "id": "s1541",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Amanda?\" The Gang gibbered at my back, softly hysteric.",
+      "runs": [
+        {
+          "t": "\"Amanda?\" The Gang gibbered at my back, softly hysteric."
+        }
+      ]
+    },
+    {
+      "id": "s1542",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "Szpindel: \"What's happening?\"",
+      "runs": [
+        {
+          "t": "Szpindel: \"What's happening?\""
+        }
+      ]
+    },
+    {
+      "id": "s1543",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"I'll stay out here,\" Bates said. She had no affect whatsoever. \"I'm dead anyway.\"",
+      "runs": [
+        {
+          "t": "\"I'll stay out here,\" Bates said. She had no affect whatsoever. \"I'm dead anyway.\""
+        }
+      ]
+    },
+    {
+      "id": "s1544",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"Wha—\" Szpindel had lots. \"You will be, if you don't—\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Wha",
+          "i": true
+        },
+        {
+          "t": "—\" Szpindel had lots. \"You "
+        },
+        {
+          "t": "will",
+          "i": true
+        },
+        {
+          "t": " be, if you don't—\""
+        }
+      ]
+    },
+    {
+      "id": "s1545",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "\"You leave me here,\" Bates said. \"That's an order.\"",
+      "runs": [
+        {
+          "t": "\"You leave me here,\" Bates said. \"That's an order.\""
+        }
+      ]
+    },
+    {
+      "id": "s1546",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 4,
+      "text": "She sealed us in.",
+      "runs": [
+        {
+          "t": "She sealed us in."
+        }
+      ]
+    },
+    {
+      "id": "s1547",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 5,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

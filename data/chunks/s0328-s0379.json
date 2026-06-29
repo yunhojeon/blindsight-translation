@@ -1,0 +1,865 @@
+{
+  "chunk_id": "s0328-s0379",
+  "part": "Theseus",
+  "first": "s0328",
+  "last": "s0379",
+  "n_segments": 52,
+  "words": 1627,
+  "segments": [
+    {
+      "id": "s0328",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Theseus carried no regular crew—no navigators or engineers, no one to swab the decks, no meat wasted on tasks that machinery orders of mag smaller could perform orders of mag better. Let superfluous deckhands weigh down other ships, if the nonAscendent hordes needed to attach some pretense of usefulness to their lives. Let them infest vessels driven only by commercial priorities. The only reason we were here was because nobody had yet optimized software for First Contact. Bound past the edge of the solar system, already freighted with the fate of the world, Theseus wasted no mass on self-esteem.",
+      "runs": [
+        {
+          "t": "Theseus ",
+          "i": true
+        },
+        {
+          "t": "carried no regular crew—no navigators or engineers, no one to swab the decks, no meat wasted on tasks that machinery orders of mag smaller could perform orders of mag better. Let superfluous deckhands weigh down other ships, if the nonAscendent hordes needed to attach some pretense of usefulness to their lives. Let them infest vessels driven only by commercial priorities. The only reason "
+        },
+        {
+          "t": "we",
+          "i": true
+        },
+        {
+          "t": " were here was because nobody had yet optimized software for First Contact. Bound past the edge of the solar system, already freighted with the fate of the world, "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " wasted no mass on self-esteem."
+        }
+      ]
+    },
+    {
+      "id": "s0329",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "So here we were, rehydrated and squeaky-clean: Isaac Szpindel, to study the aliens. The Gang of Four—Susan James and her secondary personae— to talk to them. Major Amanda Bates was here to fight, if necessary. And Jukka Sarasti to command us all, to move us like chess pieces on some multidimensional game board that only vampires could see.",
+      "runs": [
+        {
+          "t": "So here we were, rehydrated and squeaky-clean: Isaac Szpindel, to study the aliens. The Gang of Four—Susan James and her secondary personae— to talk to them. Major Amanda Bates was here to fight, if necessary. And Jukka Sarasti to command us all, to move us like chess pieces on some multidimensional game board that only vampires could see."
+        }
+      ]
+    },
+    {
+      "id": "s0330",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "He'd arrayed us around a conference table that warped gently through the Commons, keeping a discreet and constant distance from the curved deck beneath. The whole drum was furnished in Early Concave, tricked unwary and hung-over brains into thinking they were looking at the world through fisheye lenses. In deference to the creakiness of the nouveaux undead it spun at a mere fifth of a gee, but it was just warming up. We'd be at half-grav in six hours, stuck there for eighteen out of every twenty-four until the ship decided we were fully recovered. For the next few days, free-fall would be a rare and blesséd thing.",
+      "runs": [
+        {
+          "t": "He'd arrayed us around a conference table that warped gently through the Commons, keeping a discreet and constant distance from the curved deck beneath. The whole drum was furnished in Early Concave, tricked unwary and hung-over brains into thinking they were looking at the world through fisheye lenses. In deference to the creakiness of the"
+        },
+        {
+          "t": " nouveaux undead",
+          "i": true
+        },
+        {
+          "t": " it spun at a mere fifth of a gee, but it was just warming up. We'd be at half-grav in six hours, stuck there for eighteen out of every twenty-four until the ship decided we were fully recovered. For the next few days, free-fall would be a rare and blesséd thing."
+        }
+      ]
+    },
+    {
+      "id": "s0331",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Light sculptures appeared on the tabletop. Sarasti could have fed the information directly to our inlays— the whole briefing could have gone through ConSensus, without the need to assemble physically in the same place— but if you want to be sure everyone's paying attention, you bring them together.",
+      "runs": [
+        {
+          "t": "Light sculptures appeared on the tabletop. Sarasti could have fed the information directly to our inlays— the whole briefing could have gone through ConSensus, without the need to assemble physically in the same place— but if you want to be sure everyone's paying attention, you bring them together."
+        }
+      ]
+    },
+    {
+      "id": "s0332",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Szpindel leaned in conspiratorially at my side. \"Or maybe the bloodsucker just gets off seeing all this meat in close quarters, eh?\"",
+      "runs": [
+        {
+          "t": "Szpindel leaned in conspiratorially at my side. \"Or maybe the bloodsucker just gets off seeing all this meat in close quarters, eh?\""
+        }
+      ]
+    },
+    {
+      "id": "s0333",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "If Sarasti heard he didn't show it, not even to me. He pointed to a dark heart at the center of the display, his eyes lost behind black glass. \"Oasa object. Infrared emitter, methane class.\"",
+      "runs": [
+        {
+          "t": "If Sarasti heard he didn't show it, not even to me. He pointed to a dark heart at the center of the display, his eyes lost behind black glass. \"Oasa object. Infrared emitter, methane class.\""
+        }
+      ]
+    },
+    {
+      "id": "s0334",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "On the display it was—nothing. Our apparent destination was a black disk, a round absence of stars. In real life it weighed in at over ten Jupiters and measured twenty percent wider at the belly. It was directly in our path: too small to burn, too remote for the reflection of distant sunlight, too heavy for a gas giant, too light for a brown dwarf.",
+      "runs": [
+        {
+          "t": "On the display it was—nothing. Our apparent destination was a black disk, a round absence of stars. In real life it weighed in at over ten Jupiters and measured twenty percent wider at the belly. It was directly in our path: too small to burn, too remote for the reflection of distant sunlight, too heavy for a gas giant, too light for a brown dwarf."
+        }
+      ]
+    },
+    {
+      "id": "s0335",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"When did that show up?\" Bates squeezed her rubber ball in one hand, the knuckles whitening.",
+      "runs": [
+        {
+          "t": "\"When did "
+        },
+        {
+          "t": "that",
+          "i": true
+        },
+        {
+          "t": " show up?\" Bates squeezed her rubber ball in one hand, the knuckles whitening."
+        }
+      ]
+    },
+    {
+      "id": "s0336",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"X-ray spike appears during the '76 microwave survey.\" Six years before Firefall. \"Never confirmed, never reacquired. Like a torsion flare from an L-class dwarf, but we should see anything big enough to generate that kind of effect and the sky's dark on that bearing. IAU calls it a statistical artefact.\"",
+      "runs": [
+        {
+          "t": "\"X-ray spike appears during the '76 microwave survey.\" Six years before Firefall. \"Never confirmed, never reacquired. Like a torsion flare from an L-class dwarf, but we should see anything big enough to generate that kind of effect and the sky's dark on that bearing. IAU calls it a statistical artefact.\""
+        }
+      ]
+    },
+    {
+      "id": "s0337",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Szpindel's eyebrows drew together like courting caterpillers. \"What changed?\"",
+      "runs": [
+        {
+          "t": "Szpindel's eyebrows drew together like courting caterpillers. \"What changed?\""
+        }
+      ]
+    },
+    {
+      "id": "s0338",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Sarasti smiled faintly, keeping his mouth closed. \"The metabase gets—crowded, after Firefall. Everyone skittish, looking for clues. After Burns-Caulfield explodes—\" He clicked at the back of his throat. \"Turns out the spike might arise from a subdwarf object after all, if the magnetosphere's torqued enough.\"",
+      "runs": [
+        {
+          "t": "Sarasti smiled faintly, keeping his mouth closed. \"The metabase gets—"
+        },
+        {
+          "t": "crowded",
+          "i": true
+        },
+        {
+          "t": ", after Firefall. Everyone "
+        },
+        {
+          "t": "skittish",
+          "i": true
+        },
+        {
+          "t": ", looking for clues. After Burns-Caulfield explodes—\" He clicked at the back of his throat. \"Turns out the spike might arise from a subdwarf object after all, if the magnetosphere's torqued enough.\""
+        }
+      ]
+    },
+    {
+      "id": "s0339",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Bates: \"Torqued by what?\"",
+      "runs": [
+        {
+          "t": "Bates: \"Torqued by what?\""
+        }
+      ]
+    },
+    {
+      "id": "s0340",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"Don't know.\"",
+      "runs": [
+        {
+          "t": "\"Don't know.\""
+        }
+      ]
+    },
+    {
+      "id": "s0341",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Layers of statistical inference piled up on the table while Sarasti sketched background: even with a solid bearing and half the world's attention, the object had hidden from all but the most intensive search. A thousand telescopic snapshots had been stacked one on another and squeezed through a dozen filters before something emerged from the static, just below the three-meter band and the threshold of certainty. For the longest time it hadn't even been real: just a probabilistic ghost until Theseus got close enough to collapse the waveform. A quantum particle, heavy as ten Jupiters.",
+      "runs": [
+        {
+          "t": "Layers of statistical inference piled up on the table while Sarasti sketched background: even with a solid bearing and half the world's attention, the object had hidden from all but the most intensive search. A thousand telescopic snapshots had been stacked one on another and squeezed through a dozen filters before something emerged from the static, just below the three-meter band and the threshold of certainty. For the longest time it hadn't even been real: just a probabilistic ghost until "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " got close enough to collapse the waveform. A quantum particle, heavy as ten Jupiters."
+        }
+      ]
+    },
+    {
+      "id": "s0342",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Earthbound cartographers were calling it Big Ben. Theseus had barely passed Saturn's orbit when it showed up in the residuals. That discovery would have been moot for anyone else; no other ship caught en route could have packed enough fuel for anything but the long dejected loop back home. But Theseus' thin, infinitely attenuate fuel line reached all the way back to the sun; she could turn on the proverbial dime. We'd changed course in our sleep and the Icarus stream tracked our moves like a cat after prey, feeding us at lightspeed.",
+      "runs": [
+        {
+          "t": "Earthbound cartographers were calling it "
+        },
+        {
+          "t": "Big Ben",
+          "i": true
+        },
+        {
+          "t": ". "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " had barely passed Saturn's orbit when it showed up in the residuals. That discovery would have been moot for anyone else; no other ship caught en route could have packed enough fuel for anything but the long dejected loop back home. But "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' thin, infinitely attenuate fuel line reached all the way back to the sun; she could turn on the proverbial dime. We'd changed course in our sleep and the Icarus stream tracked our moves like a cat after prey, feeding us at lightspeed."
+        }
+      ]
+    },
+    {
+      "id": "s0343",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "And here we were.",
+      "runs": [
+        {
+          "t": "And here we were."
+        }
+      ]
+    },
+    {
+      "id": "s0344",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"Talk about long shots,\" Szpindel grumbled.",
+      "runs": [
+        {
+          "t": "\"Talk about long shots,\" Szpindel grumbled."
+        }
+      ]
+    },
+    {
+      "id": "s0345",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Across the table, Bates flicked her wrist. Her ball sailed over my head; I heard it bounce off the deck (not the deck, something in me amended: handrail). \"We're assuming the comet was a deliberate decoy, then.\"",
+      "runs": [
+        {
+          "t": "Across the table, Bates flicked her wrist. Her ball sailed over my head; I heard it bounce off the deck ("
+        },
+        {
+          "t": "not the deck",
+          "i": true
+        },
+        {
+          "t": ", something in me amended: "
+        },
+        {
+          "t": "handrail",
+          "i": true
+        },
+        {
+          "t": "). \"We're assuming the comet was a deliberate decoy, then.\""
+        }
+      ]
+    },
+    {
+      "id": "s0346",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Sarasti nodded. The ball riccocheted back into my line of sight high overhead and disappeared briefly behind the spinal bundle, looping through some eccentric, counterintuitive parabola in the drum's feeble grav.",
+      "runs": [
+        {
+          "t": "Sarasti nodded. The ball riccocheted back into my line of sight high overhead and disappeared briefly behind the spinal bundle, looping through some eccentric, counterintuitive parabola in the drum's feeble grav."
+        }
+      ]
+    },
+    {
+      "id": "s0347",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"So they want to be left alone.\"",
+      "runs": [
+        {
+          "t": "\"So they want to be left alone.\""
+        }
+      ]
+    },
+    {
+      "id": "s0348",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Sarasti steepled his fingers and turned his face in her direction. \"That your recommendation?\"",
+      "runs": [
+        {
+          "t": "Sarasti steepled his fingers and turned his face in her direction. \"That your recommendation?\""
+        }
+      ]
+    },
+    {
+      "id": "s0349",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "She wished it was. \"No, sir. I'm just saying that Burns-Caulfield took a lot of resources and effort to set up. Whoever built it obviously values their anonymity and has the technology to protect it.\"",
+      "runs": [
+        {
+          "t": "She wished it was. \"No, sir. I'm just saying that Burns-Caulfield took a lot of resources and effort to set up. Whoever built it obviously values their anonymity and has the technology to protect it.\""
+        }
+      ]
+    },
+    {
+      "id": "s0350",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "The ball bounced one last time and wobbled back towards the Commons. Bates half-hopped from her seat (she floated briefly), barely catching it on its way past. There remained a new-born-animal awkwardness to her movements, half Coriolis, half residual rigor. Still: a big improvement in four hours. The rest of the Humans were barely past the walking stage.",
+      "runs": [
+        {
+          "t": "The ball bounced one last time and wobbled back towards the Commons. Bates half-hopped from her seat (she floated briefly), barely catching it on its way past. There remained a new-born-animal awkwardness to her movements, half Coriolis, half residual rigor. Still: a big improvement in four hours. The rest of the Humans were barely past the walking stage."
+        }
+      ]
+    },
+    {
+      "id": "s0351",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"Maybe it wasn't much trouble for them at all, eh?\" Szpindel was musing. \"Maybe it was dead easy.\"",
+      "runs": [
+        {
+          "t": "\"Maybe it wasn't much trouble for "
+        },
+        {
+          "t": "them",
+          "i": true
+        },
+        {
+          "t": " at all, eh?\" Szpindel was musing. \"Maybe it was dead easy.\""
+        }
+      ]
+    },
+    {
+      "id": "s0352",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"In which case they might or might not be as xenophobic, but they're even more advanced. We don't want to rush into this.\"",
+      "runs": [
+        {
+          "t": "\"In which case they might or might not be as xenophobic, but they're even more advanced. We don't want to rush into this.\""
+        }
+      ]
+    },
+    {
+      "id": "s0353",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Sarasti turned back to the simmering graphics. \"So?\"",
+      "runs": [
+        {
+          "t": "Sarasti turned back to the simmering graphics. \"So?\""
+        }
+      ]
+    },
+    {
+      "id": "s0354",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Bates kneaded the recovered ball with her fingertips. \"The second mouse gets the cheese. We may have blown our top-of-the-line recon in the Kuiper, but we don't have to go in blind. Send in our own drones along separate vectors. Hold off on a close approach until we at least know whether we're dealing with friendlies or hostiles.\"",
+      "runs": [
+        {
+          "t": "Bates kneaded the recovered ball with her fingertips. \"The second mouse gets the cheese. We may have blown our top-of-the-line recon in the Kuiper, but we don't have to go in blind. Send in our own drones along separate vectors. Hold off on a close approach until we at least know whether we're dealing with friendlies or hostiles.\""
+        }
+      ]
+    },
+    {
+      "id": "s0355",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "James shook her head. \"If they were hostile, they could have packed the Fireflies with antimatter. Or sent one big object instead of sixty thousand little ones, let the impact take us out.\"",
+      "runs": [
+        {
+          "t": "James shook her head. \"If they were hostile, they could have packed the Fireflies with antimatter. Or sent one big object instead of sixty thousand little ones, let the impact take us out.\""
+        }
+      ]
+    },
+    {
+      "id": "s0356",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"The Fireflies only imply an initial curiosity,\" Bates said. \"Who knows if they liked what they saw?\"",
+      "runs": [
+        {
+          "t": "\"The Fireflies only imply an initial curiosity,\" Bates said. \"Who knows if they liked what they saw?\""
+        }
+      ]
+    },
+    {
+      "id": "s0357",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"What if this whole diversion theory's just so much shit?\"",
+      "runs": [
+        {
+          "t": "\"What if this whole "
+        },
+        {
+          "t": "diversion",
+          "i": true
+        },
+        {
+          "t": " theory's just so much shit?\""
+        }
+      ]
+    },
+    {
+      "id": "s0358",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "I turned, briefly startled. James's mouth had made the words; Sascha had spoken them.",
+      "runs": [
+        {
+          "t": "I turned, briefly startled. James's mouth had made the words; "
+        },
+        {
+          "t": "Sascha",
+          "i": true
+        },
+        {
+          "t": " had spoken them."
+        }
+      ]
+    },
+    {
+      "id": "s0359",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"You wanna stay hidden, you don't light up the sky with fucking fireworks,\" she continued. \"You don't need a diversion if nobody's looking for you, and nobody's looking for you if you lie low. If they were so curious, they could've just snuck in a spycam.\"",
+      "runs": [
+        {
+          "t": "\"You wanna stay hidden, you don't light up the sky with fucking "
+        },
+        {
+          "t": "fireworks",
+          "i": true
+        },
+        {
+          "t": ",\" she continued. \"You don't need a diversion if nobody's looking for you, and nobody's looking for you if you lie low. If they were so "
+        },
+        {
+          "t": "curious",
+          "i": true
+        },
+        {
+          "t": ", they could've just snuck in a spycam.\""
+        }
+      ]
+    },
+    {
+      "id": "s0360",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"Risks detection,\" the vampire said mildly.",
+      "runs": [
+        {
+          "t": "\"Risks detection,\" the vampire said mildly."
+        }
+      ]
+    },
+    {
+      "id": "s0361",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"Hate to break it, Jukka, but the Fireflies didn't exactly slip under the rad—\"",
+      "runs": [
+        {
+          "t": "\"Hate to break it, Jukka, but the "
+        },
+        {
+          "t": "Fireflies",
+          "i": true
+        },
+        {
+          "t": " didn't exactly slip under the rad—\""
+        }
+      ]
+    },
+    {
+      "id": "s0362",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Sarasti opened his mouth, closed it again. Filed teeth, briefly visible, clicked audibly behind his face. Tabletop graphics reflected off his visor, a band of writhing polychrome distortions where eyes should be.",
+      "runs": [
+        {
+          "t": "Sarasti opened his mouth, closed it again. Filed teeth, briefly visible, clicked audibly behind his face. Tabletop graphics reflected off his visor, a band of writhing polychrome distortions where eyes should be."
+        }
+      ]
+    },
+    {
+      "id": "s0363",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Sascha shut up.",
+      "runs": [
+        {
+          "t": "Sascha shut up."
+        }
+      ]
+    },
+    {
+      "id": "s0364",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Sarasti continued. \"They trade stealth for speed. By the time you react, they already have what they want.\" He spoke quietly, patiently, a well-fed predator explaining the rules of the game to prey that really should know better: the longer it takes me to track you down, the more hope you have of escaping.",
+      "runs": [
+        {
+          "t": "Sarasti continued. \"They trade stealth for speed. By the time you react, they already have what they want.\" He spoke quietly, patiently, a well-fed predator explaining the rules of the game to prey that really should know better: "
+        },
+        {
+          "t": "the longer it takes me to track you down, the more hope you have of escaping",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0365",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "But Sascha had already fled. Her surfaces had scattered like a flock of panicked starlings, and the next time Susan James' mouth opened, it was Susan James who spoke through it. \"Sascha's aware of the current paradigm, Jukka. She's simply worried that it might be wrong.\"",
+      "runs": [
+        {
+          "t": "But Sascha had already fled. Her surfaces had scattered like a flock of panicked starlings, and the next time Susan James' mouth opened, it was Susan James who spoke through it. \"Sascha's aware of the current paradigm, Jukka. She's simply worried that it might be wrong.\""
+        }
+      ]
+    },
+    {
+      "id": "s0366",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"Got another we could trade it on?\" Szpindel wondered. \"More options? Longer warranty?\"",
+      "runs": [
+        {
+          "t": "\"Got another we could trade it on?\" Szpindel wondered. \"More options? Longer warranty?\""
+        }
+      ]
+    },
+    {
+      "id": "s0367",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"I don't know.\" James sighed. \"I guess not. It's just—odd, that they'd want to actively mislead us. I'd hoped they were merely— well.\" She spread her hands. \"Probably no big deal. I'm sure they'll still be willing to talk, if we handle the introductions right. We just need to be a little more cautious, perhaps...\"",
+      "runs": [
+        {
+          "t": "\"I don't know.\" James sighed. \"I guess not. It's just—"
+        },
+        {
+          "t": "odd",
+          "i": true
+        },
+        {
+          "t": ", that they'd want to actively mislead us. I'd hoped they were merely— well.\" She spread her hands. \"Probably no big deal. I'm sure they'll still be willing to talk, if we handle the introductions right. We just need to be a little more cautious, perhaps...\""
+        }
+      ]
+    },
+    {
+      "id": "s0368",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Sarasti unfolded himself from his chair and loomed over us. \"We go in. What we know weighs against further delay.\"",
+      "runs": [
+        {
+          "t": "Sarasti unfolded himself from his chair and loomed over us. \"We go in. What we know weighs against further delay.\""
+        }
+      ]
+    },
+    {
+      "id": "s0369",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Bates frowned and pitched her ball back into orbit. \"Sir, all we actually know is that an Oasa emitter's in our path. We don't even know if there's anyone there.\"",
+      "runs": [
+        {
+          "t": "Bates frowned and pitched her ball back into orbit. \"Sir, all we actually "
+        },
+        {
+          "t": "know",
+          "i": true
+        },
+        {
+          "t": " is that an Oasa emitter's in our path. We don't even know if there's anyone "
+        },
+        {
+          "t": "there",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s0370",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"There is,\" Sarasti said. \"They expect us.\"",
+      "runs": [
+        {
+          "t": "\"There is,\" Sarasti said. \"They expect us.\""
+        }
+      ]
+    },
+    {
+      "id": "s0371",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Nobody spoke for a few seconds. Someone's joints cracked in the silence.",
+      "runs": [
+        {
+          "t": "Nobody spoke for a few seconds. Someone's joints cracked in the silence."
+        }
+      ]
+    },
+    {
+      "id": "s0372",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "\"Er...\" Szpindel began.",
+      "runs": [
+        {
+          "t": "\"Er...\" Szpindel began."
+        }
+      ]
+    },
+    {
+      "id": "s0373",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Without looking, Sarasti flicked out his arm and snatched Bates' returning ball from the air. \"Ladar pings Theseus four hours forty-eight minutes ago. We respond with an identical signal. Nothing. Probe launches half-hour before we wake up. We don't go in blind, but we don't wait. They see us already. Longer we wait, greater risk of countermeasures.\"",
+      "runs": [
+        {
+          "t": "Without looking, Sarasti flicked out his arm and snatched Bates' returning ball from the air. \"Ladar pings "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " four hours forty-eight minutes ago. We respond with an identical signal. Nothing. Probe launches half-hour before we wake up. We don't go in blind, but we don't wait. They "
+        },
+        {
+          "t": "see",
+          "i": true
+        },
+        {
+          "t": " us already. Longer we wait, greater risk of countermeasures.\""
+        }
+      ]
+    },
+    {
+      "id": "s0374",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "I looked at the dark featureless placeholder on the table: bigger than Jupiter and we couldn't even see it yet. Something in the shadow of that mass had just reached out with casual, unimaginable precision and tapped us on the nose with a laser beam.",
+      "runs": [
+        {
+          "t": "I looked at the dark featureless placeholder on the table: bigger than Jupiter and we couldn't even see it yet. Something in the shadow of that mass had just reached out with casual, unimaginable precision and tapped us on the nose with a laser beam."
+        }
+      ]
+    },
+    {
+      "id": "s0375",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "This was not going to be an even match.",
+      "runs": [
+        {
+          "t": "This was not going to be an even match."
+        }
+      ]
+    },
+    {
+      "id": "s0376",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Szpindel spoke for all of us: \"You knew that all along? You're telling us now?\"",
+      "runs": [
+        {
+          "t": "Szpindel spoke for all of us: \"You knew that all along? You're telling us "
+        },
+        {
+          "t": "now",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s0377",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "This time Sarasti's smile was wide and toothy. It was as though a gash had opened in the lower half of his face.",
+      "runs": [
+        {
+          "t": "This time Sarasti's smile was wide and toothy. It was as though a gash had opened in the lower half of his face."
+        }
+      ]
+    },
+    {
+      "id": "s0378",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "Maybe it was a predator thing. He just couldn't help playing with his food.",
+      "runs": [
+        {
+          "t": "Maybe it was a predator thing. He just couldn't help playing with his food."
+        }
+      ]
+    },
+    {
+      "id": "s0379",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "chunk_id": "s0149-s0181",
+  "part": "Theseus",
+  "first": "s0149",
+  "last": "s0181",
+  "n_segments": 33,
+  "words": 1416,
+  "segments": [
+    {
+      "id": "s0149",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "Jim had his inhaler in hand as we emerged from the darkness. I hoped, without much hope, that he'd throw it into the garbage receptacle as we passed through the lobby. But he raised it to his mouth and took another hit of vassopressin, that he would never be tempted.",
+      "runs": [
+        {
+          "t": "Jim had his inhaler in hand as we emerged from the darkness. I hoped, without much hope, that he'd throw it into the garbage receptacle as we passed through the lobby. But he raised it to his mouth and took another hit of vassopressin, that he would never be tempted."
+        }
+      ]
+    },
+    {
+      "id": "s0150",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "Fidelity in an aerosol. \"You don't need that any more,\" I said.",
+      "runs": [
+        {
+          "t": "Fidelity in an aerosol. \"You don't need that any more,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s0151",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "\"Probably not,\" he agreed.",
+      "runs": [
+        {
+          "t": "\"Probably not,\" he agreed."
+        }
+      ]
+    },
+    {
+      "id": "s0152",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "\"It won't work anyway. You can't imprint on someone who isn't even there, no matter how many hormones you snort. It just—\"",
+      "runs": [
+        {
+          "t": "\"It won't work anyway. You can't imprint on someone who isn't even there, no matter how many hormones you snort. It just—\""
+        }
+      ]
+    },
+    {
+      "id": "s0153",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "Jim said nothing. We passed beneath the muzzles of sentries panning for infiltrating Realists.",
+      "runs": [
+        {
+          "t": "Jim said nothing. We passed beneath the muzzles of sentries panning for infiltrating Realists."
+        }
+      ]
+    },
+    {
+      "id": "s0154",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "\"She's gone,\" I blurted. \"She doesn't care if you find someone else. She'd be happy if you did.\" It would let her pretend the books had been balanced.",
+      "runs": [
+        {
+          "t": "\"She's "
+        },
+        {
+          "t": "gone",
+          "i": true
+        },
+        {
+          "t": ",\" I blurted. \"She doesn't care if you find someone else. She'd be happy if you did.\" "
+        },
+        {
+          "t": "It would let her pretend the books had been balanced.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0155",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "\"She's my wife,\" he told me.",
+      "runs": [
+        {
+          "t": "\"She's my wife,\" he told me."
+        }
+      ]
+    },
+    {
+      "id": "s0156",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "\"That doesn't mean what it used to. It never did.\"",
+      "runs": [
+        {
+          "t": "\"That doesn't mean what it used to. It never did.\""
+        }
+      ]
+    },
+    {
+      "id": "s0157",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "He smiled a bit at that. \"It's my life, son. I'm comfortable with it.\"",
+      "runs": [
+        {
+          "t": "He smiled a bit at that. \"It's my life, son. I'm comfortable with it.\""
+        }
+      ]
+    },
+    {
+      "id": "s0158",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "\"Dad—\"",
+      "runs": [
+        {
+          "t": "\"Dad—\""
+        }
+      ]
+    },
+    {
+      "id": "s0159",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "\"I don't blame her,\" he said. \"And neither should you.\"",
+      "runs": [
+        {
+          "t": "\"I don't blame her,\" he said. \"And neither should you.\""
+        }
+      ]
+    },
+    {
+      "id": "s0160",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "Easy for him to say. Easy even to accept the hurt she'd inflicted on him all these years. This cheerful façade here at the end hardly made up for the endless bitter complaints my father had endured throughout living memory. Do you think it's easy when you disappear for months on end? Do you think it's easy always wondering who you're with and what you're doing and if you're even alive? Do you think it's easy raising a child like that on your own?",
+      "runs": [
+        {
+          "t": "Easy for him to say. Easy even to accept the hurt she'd inflicted on him all these years. This cheerful façade here at the end hardly made up for the endless bitter complaints my father had endured throughout living memory. "
+        },
+        {
+          "t": "Do you think it's easy when you disappear for months on end? Do you think it's easy always wondering who you're with and what you're doing and if you're even alive? Do you think it's easy raising a child like ",
+          "i": true
+        },
+        {
+          "t": "that"
+        },
+        {
+          "t": " on your own?",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0161",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "She'd blamed him for everything, but he bore it gracefully because he knew it was all a lie. He knew he was only the pretense. She wasn't leaving because he was AWOL, or unfaithful. Her departure had nothing to do with him at all. It was me. Helen had left the world because she couldn't stand to look at the thing who'd replaced her son.",
+      "runs": [
+        {
+          "t": "She'd blamed him for everything, but he bore it gracefully because he knew it was all a lie. He knew he was only the pretense. She wasn't leaving because he was AWOL, or unfaithful. Her departure had nothing to do with him at all. It was me. Helen had left the world because she couldn't stand to look at the thing who'd replaced her son."
+        }
+      ]
+    },
+    {
+      "id": "s0162",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "I would have pursued it—would have tried yet again to make my father see—but by now we'd left the gates of Heaven for the streets of Purgatory, where pedestrians on all sides murmured in astonishment and stared open-mouthed at the sky. I followed their gaze to a strip of raw twilight between the towers, and gasped—",
+      "runs": [
+        {
+          "t": "I would have pursued it—would have tried yet again to make my father "
+        },
+        {
+          "t": "see",
+          "i": true
+        },
+        {
+          "t": "—but by now we'd left the gates of Heaven for the streets of Purgatory, where pedestrians on all sides murmured in astonishment and stared open-mouthed at the sky. I followed their gaze to a strip of raw twilight between the towers, and gasped—"
+        }
+      ]
+    },
+    {
+      "id": "s0163",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "The stars were falling.",
+      "runs": [
+        {
+          "t": "The stars were falling."
+        }
+      ]
+    },
+    {
+      "id": "s0164",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "The Zodiac had rearranged itself into a precise grid of bright points with luminous tails. It was as though the whole planet had been caught in some great closing net, the knots of its mesh aglow with St. Elmo's fire. It was beautiful. It was terrifying.",
+      "runs": [
+        {
+          "t": "The Zodiac had rearranged itself into a precise grid of bright points with luminous tails. It was as though the whole planet had been caught in some great closing net, the knots of its mesh aglow with St. Elmo's fire. It was beautiful. It was terrifying."
+        }
+      ]
+    },
+    {
+      "id": "s0165",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "I looked away to recalibrate my distance vision, to give this ill-behaved hallucination a chance to vanish gracefully before I set my empirical gaze to high-beam. I saw a vampire in that moment, a female, walking among us like the archetypal wolf in sheep's clothing. Vampires were uncommon creatures at street level. I'd never seen one in the flesh before.",
+      "runs": [
+        {
+          "t": "I looked away to recalibrate my distance vision, to give this ill-behaved hallucination a chance to vanish gracefully before I set my empirical gaze to high-beam. I saw a vampire in that moment, a female, walking among us like the archetypal wolf in sheep's clothing. Vampires were uncommon creatures at street level. I'd never seen one in the flesh before."
+        }
+      ]
+    },
+    {
+      "id": "s0166",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "She had just stepped onto the street from the building across the way. She stood a head taller than the rest of us, her eyes shining yellow and bright as a cat's in the deepening dark. She realized, as I watched, that something was amiss. She looked around, glanced at the sky—and continued on her way, totally indifferent to the cattle on all sides, to the heavenly portent that had transfixed them. Totally indifferent to the fact that the world had just turned inside-out.",
+      "runs": [
+        {
+          "t": "She had just stepped onto the street from the building across the way. She stood a head taller than the rest of us, her eyes shining yellow and bright as a cat's in the deepening dark. She realized, as I watched, that something was amiss. She looked around, glanced at the sky—and continued on her way, totally indifferent to the cattle on all sides, to the heavenly portent that had transfixed them. Totally indifferent to the fact that the world had just turned inside-out."
+        }
+      ]
+    },
+    {
+      "id": "s0167",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "It was 1035 Greenwich Mean Time, February 13, 2082.",
+      "runs": [
+        {
+          "t": "It was 1035 Greenwich Mean Time, February 13, 2082."
+        }
+      ]
+    },
+    {
+      "id": "s0168",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s0169",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "They clenched around the world like a fist, each black as the inside of an event horizon until those last bright moments when they all burned together. They screamed as they died. Every radio up to geostat groaned in unison, every infrared telescope went briefly snowblind. Ashes stained the sky for weeks afterwards; mesospheric clouds, high above the jet stream, turned to glowing rust with every sunrise. The objects, apparently, consisted largely of iron. Nobody ever knew what to make of that.",
+      "runs": [
+        {
+          "t": "They clenched around the world like a fist, each black as the inside of an event horizon until those last bright moments when they all burned together. They screamed as they died. Every radio up to geostat groaned in unison, every infrared telescope went briefly snowblind. Ashes stained the sky for weeks afterwards; mesospheric clouds, high above the jet stream, turned to glowing rust with every sunrise. The objects, apparently, consisted largely of iron. Nobody ever knew what to make of that."
+        }
+      ]
+    },
+    {
+      "id": "s0170",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "For perhaps the first time in history, the world knew before being told: if you'd seen the sky, you had the scoop. The usual arbiters of newsworthiness, stripped of their accustomed role in filtering reality, had to be content with merely labeling it. It took them ninety minutes to agree on Fireflies. A half hour after that, the first Fourier transforms appeared in the noosphere; to no one's great surprise, the Fireflies had not wasted their dying breaths on static. There was pattern embedded in that terminal chorus, some cryptic intelligence that resisted all earthly analysis. The experts, rigorously empirical, refused to speculate: they only admitted that the Fireflies had said something. They didn't know what.",
+      "runs": [
+        {
+          "t": "For perhaps the first time in history, the world "
+        },
+        {
+          "t": "knew",
+          "i": true
+        },
+        {
+          "t": " before being "
+        },
+        {
+          "t": "told",
+          "i": true
+        },
+        {
+          "t": ": if you'd seen the sky, you had the scoop. The usual arbiters of newsworthiness, stripped of their accustomed role in filtering reality, had to be content with merely labeling it. It took them ninety minutes to agree on "
+        },
+        {
+          "t": "Fireflies",
+          "i": true
+        },
+        {
+          "t": ". A half hour after that, the first Fourier transforms appeared in the noosphere; to no one's great surprise, the Fireflies had not wasted their dying breaths on static. There was pattern embedded in that terminal chorus, some cryptic intelligence that resisted all earthly analysis. The experts, rigorously empirical, refused to speculate: they only admitted that the Fireflies had said "
+        },
+        {
+          "t": "something",
+          "i": true
+        },
+        {
+          "t": ". They didn't know what."
+        }
+      ]
+    },
+    {
+      "id": "s0171",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "Everyone else did. How else would you explain 65,536 probes evenly dispersed along a lat-long grid that barely left any square meter of planetary surface unexposed? Obviously the Flies had taken our picture. The whole world had been caught with its pants down in panoramic composite freeze-frame. We'd been surveyed—whether as a prelude to formal introductions or outright invasion was anyone's guess.",
+      "runs": [
+        {
+          "t": "Everyone else did. How else would you explain 65,536 probes evenly dispersed along a lat-long grid that barely left any square meter of planetary surface unexposed? Obviously the Flies had taken our picture. The whole world had been caught with its pants down in panoramic composite freeze-frame. We'd been "
+        },
+        {
+          "t": "surveyed",
+          "i": true
+        },
+        {
+          "t": "—whether as a prelude to formal introductions or outright invasion was anyone's guess."
+        }
+      ]
+    },
+    {
+      "id": "s0172",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "My father might have known someone who might have known. But by then he'd long since disappeared, as he always did during times of hemispheric crisis. Whatever he knew or didn't, he left me to find my own answers with everyone else.",
+      "runs": [
+        {
+          "t": "My father might have known someone who might have known. But by then he'd long since disappeared, as he always did during times of hemispheric crisis. Whatever he knew or didn't, he left me to find my own answers with everyone else."
+        }
+      ]
+    },
+    {
+      "id": "s0173",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "There was no shortage of perspectives. The noosphere seethed with scenarios ranging from utopian to apocalyptic. The Fireflies had seeded lethal germs through the jet stream. The Fireflies had been on a nature safari. The Icarus Array was being retooled to power a doomsday weapon against the aliens. The Icarus Array had already been destroyed. We had decades to react; anything from another solar system would have to obey the lightspeed limit like everyone else. We had days to live; organic warships had just crossed the asteroid belt and would be fumigating the planet within a week.",
+      "runs": [
+        {
+          "t": "There was no shortage of perspectives. The noosphere seethed with scenarios ranging from utopian to apocalyptic. The Fireflies had seeded lethal germs through the jet stream. The Fireflies had been on a nature safari. The Icarus Array was being retooled to power a doomsday weapon against the aliens. The Icarus Array had already been destroyed. We had decades to react; anything from another solar system would have to obey the lightspeed limit like everyone else. We had days to live; organic warships had just crossed the asteroid belt and would be fumigating the planet within a week."
+        }
+      ]
+    },
+    {
+      "id": "s0174",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "Like everyone else, I bore witness to lurid speculations and talking heads. I visited blathernodes, soaked myself in other people's opinions. That was nothing new, as far as it went; I'd spent my whole life as a sort of alien ethologist in my own right, watching the world behave, gleaning patterns and protocols, learning the rules that allowed me to infiltrate human society. It had always worked before. Somehow, though, the presence of real aliens had changed the dynamics of the equation. Mere observation didn't satisfy any more. It was as though the presence of this new outgroup had forced me back into the clade whether I liked it or not; the distance between myself and the world suddenly seemed forced and faintly ridiculous.",
+      "runs": [
+        {
+          "t": "Like everyone else, I bore witness to lurid speculations and talking heads. I visited blathernodes, soaked myself in other people's opinions. That was nothing new, as far as it went; I'd spent my whole life as a sort of alien ethologist in my own right, watching the world behave, gleaning patterns and protocols, learning the rules that allowed me to infiltrate human society. It had always worked before. Somehow, though, the presence of "
+        },
+        {
+          "t": "real ",
+          "i": true
+        },
+        {
+          "t": "aliens had changed the dynamics of the equation. Mere observation didn't satisfy any more. It was as though the presence of this new outgroup had forced me back into the clade whether I liked it or not; the distance between myself and the world suddenly seemed forced and faintly ridiculous."
+        }
+      ]
+    },
+    {
+      "id": "s0175",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "Yet I couldn't, for my life, figure out how to let it go.",
+      "runs": [
+        {
+          "t": "Yet I couldn't, for my life, figure out how to let it go."
+        }
+      ]
+    },
+    {
+      "id": "s0176",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "Chelsea had always said that telepresence emptied the Humanity from Human interaction. \"They say it's indistinguishable,\" she told me once, \"just like having your family right there, snuggled up so you can see them and feel them and smell them next to you. But it's not. It's just shadows on the cave wall. I mean, sure, the shadows come in three-dee color with force-feedback tactile interactivity. They're good enough to fool the civilized brain. But your gut knows those aren't people, even if it can't put its finger on how it knows. They just don't feel real. Know what I mean?\"",
+      "runs": [
+        {
+          "t": "Chelsea had always said that telepresence emptied the Humanity from Human interaction. \"They say it's indistinguishable,\" she told me once, \"just like having your family right there, snuggled up so you can see them and feel them and smell them next to you. But it's not. It's just shadows on the cave wall. I mean, sure, the shadows come in three-dee color with force-feedback tactile interactivity. They're good enough to fool the civilized brain. But your gut knows those aren't "
+        },
+        {
+          "t": "people",
+          "i": true
+        },
+        {
+          "t": ", even if it can't put its finger on "
+        },
+        {
+          "t": "how",
+          "i": true
+        },
+        {
+          "t": " it knows. They just don't "
+        },
+        {
+          "t": "feel",
+          "i": true
+        },
+        {
+          "t": " real. Know what I mean?\""
+        }
+      ]
+    },
+    {
+      "id": "s0177",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "I didn't. Back then I'd had no clue what she was talking about. But now we were all cavemen again, huddling beneath some overhang while lightning split the heavens and vast formless monsters, barely glimpsed in bright strobe-frozen instants, roared and clashed in the darkness on all sides. There was no comfort in solitude. You couldn't get it from interactive shadows. You needed someone real at your side, someone to hold on to, someone to share your airspace along with your fear and hope and uncertainty.",
+      "runs": [
+        {
+          "t": "I didn't. Back then I'd had no clue what she was talking about. But now we were all cavemen again, huddling beneath some overhang while lightning split the heavens and vast formless monsters, barely glimpsed in bright strobe-frozen instants, roared and clashed in the darkness on all sides. There was no comfort in solitude. You couldn't get it from interactive shadows. You needed someone "
+        },
+        {
+          "t": "real",
+          "i": true
+        },
+        {
+          "t": " at your side, someone to hold on to, someone to share your airspace along with your fear and hope and uncertainty."
+        }
+      ]
+    },
+    {
+      "id": "s0178",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "I imagined the presence of companions who wouldn't vanish the moment I unplugged. But Chelsea was gone, and Pag in her wake. The few others I could have called— peers and former clients with whom my impersonations of rapport had been especially convincing—didn't seem worth the effort. Flesh and blood had its own relationship to reality: necessary, but not sufficient.",
+      "runs": [
+        {
+          "t": "I imagined the presence of companions who wouldn't vanish the moment I unplugged. But Chelsea was gone, and Pag in her wake. The few others I could have called— peers and former clients with whom my impersonations of rapport had been especially convincing—didn't seem worth the effort. Flesh and blood had its own relationship to reality: necessary, but not sufficient."
+        }
+      ]
+    },
+    {
+      "id": "s0179",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "Watching the world from a distance, it occurred to me at last: I knew exactly what Chelsea had meant, with her Luddite ramblings about desaturated Humanity and the colorless interactions of virtual space. I'd known all along.",
+      "runs": [
+        {
+          "t": "Watching the world from a distance, it occurred to me at last: I knew exactly what Chelsea had meant, with her Luddite ramblings about desaturated Humanity and the colorless interactions of virtual space. I'd known all along."
+        }
+      ]
+    },
+    {
+      "id": "s0180",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 6,
+      "text": "I'd just never been able to see how it was any different from real life.",
+      "runs": [
+        {
+          "t": "I'd just never been able to see how it was any different from real life."
+        }
+      ]
+    },
+    {
+      "id": "s0181",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "chunk_id": "s1818-s1857",
+  "part": "Rorschach",
+  "first": "s1818",
+  "last": "s1857",
+  "n_segments": 40,
+  "words": 1306,
+  "segments": [
+    {
+      "id": "s1818",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "Imagine you are a prisoner of war.",
+      "runs": [
+        {
+          "t": "Imagine you are a prisoner of war."
+        }
+      ]
+    },
+    {
+      "id": "s1819",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "You've got to admit you saw it coming. You've been crashing tech and seeding biosols for a solid eighteen months; that's a good run by anyone's standards. Realist saboteurs do not, as a rule, enjoy long careers. Everyone gets caught eventually.",
+      "runs": [
+        {
+          "t": "You've got to admit you saw it coming. You've been crashing tech and seeding biosols for a solid eighteen months; that's a good run by anyone's standards. Realist saboteurs do not, as a rule, enjoy long careers. Everyone gets caught eventually."
+        }
+      ]
+    },
+    {
+      "id": "s1820",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "It wasn't always thus. There was a day you might have even hoped for a peaceful retirement. But then they brought the vampires back from the Pleistocene and Great Grieving Ganga did that ever turn the balance of power upside down. Those fuckers are always ten steps ahead. It only makes sense; after all, hunting people is what bloodsuckers evolved to do.",
+      "runs": [
+        {
+          "t": "It wasn't always thus. There was a day you might have even hoped for a peaceful retirement. But then they brought the vampires back from the Pleistocene and Great Grieving Ganga did "
+        },
+        {
+          "t": "that",
+          "i": true
+        },
+        {
+          "t": " ever turn the balance of power upside down. Those fuckers are always ten steps ahead. It only makes sense; after all, hunting people is what bloodsuckers evolved to "
+        },
+        {
+          "t": "do",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s1821",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "There's this line from an early pop-dyn textbook, really old, maybe even TwenCen. It's something of a mantra—maybe prayer would be a better word—among those in your profession. Predators run for their dinner, it goes. Prey run for their lives. The moral is supposed to be that on average, the hunted escape the hunters because they're more motivated.",
+      "runs": [
+        {
+          "t": "There's this line from an early pop-dyn textbook, really old, maybe even TwenCen. It's something of a mantra—maybe "
+        },
+        {
+          "t": "prayer",
+          "i": true
+        },
+        {
+          "t": " would be a better word—among those in your profession. "
+        },
+        {
+          "t": "Predators run for their dinner",
+          "i": true
+        },
+        {
+          "t": ", it goes. "
+        },
+        {
+          "t": "Prey run for their lives.",
+          "i": true
+        },
+        {
+          "t": " The moral is supposed to be that on average, the hunted escape the hunters because they're more motivated."
+        }
+      ]
+    },
+    {
+      "id": "s1822",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "Maybe that was true when it all just came down to who ran faster. Doesn't seem to hold when the strategy involves tactical foresight and double-reverse mind fucks, though. The vampires win every time.",
+      "runs": [
+        {
+          "t": "Maybe that was true when it all just came down to who ran faster. Doesn't seem to hold when the strategy involves tactical foresight and double-reverse mind fucks, though. The vampires win every time."
+        }
+      ]
+    },
+    {
+      "id": "s1823",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "And now you're caught, and while it may have been vampires that set the trap, it was regular turncoat baseline humans who pulled the trigger. For six hours now you've been geckoed to the wall of some unnamed unlisted underground detention facility, watching as some of those selfsame humans played games with your boyfriend and co-conspirator. These are not your average games. They involve pliers, and glowing wires, and body parts that were not designed to detach. You wish, by now, that your lover were dead, like the two others in your cell whose parts are scattered about the room. But they're not letting that happen. They're having too much fun.",
+      "runs": [
+        {
+          "t": "And now you're caught, and while it may have been vampires that set the trap, it was regular turncoat baseline humans who pulled the trigger. For six hours now you've been geckoed to the wall of some unnamed unlisted underground detention facility, watching as some of those selfsame "
+        },
+        {
+          "t": "humans",
+          "i": true
+        },
+        {
+          "t": " played games with your boyfriend and co-conspirator. These are not your average games. They involve pliers, and glowing wires, and body parts that were not designed to detach. You wish, by now, that your lover were dead, like the two others in your cell whose parts are scattered about the room. But they're not letting that happen. They're having too much fun."
+        }
+      ]
+    },
+    {
+      "id": "s1824",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "That's what it all comes down to. This is not an interrogation; there are less invasive ways to get more reliable answers. These are simply a few more sadistic thugs with Authority, killing time and other things, and you can only cry and squeeze your eyes tight and whimper like an animal even though they haven't laid a hand on you yet. You can only wish they hadn't saved you for last, because you know what that means.",
+      "runs": [
+        {
+          "t": "That's what it all comes down to. This is not an interrogation; there are less invasive ways to get more reliable answers. These are simply a few more sadistic thugs with Authority, killing time and other things, and you can only cry and squeeze your eyes tight and whimper like an animal even though they haven't laid a hand on you yet. You can only wish they hadn't saved you for last, because you know what that means."
+        }
+      ]
+    },
+    {
+      "id": "s1825",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "But suddenly your tormentors stop in mid-game and cock their heads as if listening to some collective inner voice. Presumably it tells them to take you off the wall, bring you into the next room, and sit you down at one of two gel-padded chairs on opposite sides of a smart desk, because this is what they do—far more gently than you'd expect—before retiring. You can also assume that whoever has given these instructions is both powerful and displeased, because all the arrogant sadistic cockiness has drained from their faces in the space of a heartbeat.",
+      "runs": [
+        {
+          "t": "But suddenly your tormentors stop in mid-game and cock their heads as if listening to some collective inner voice. Presumably it tells them to take you off the wall, bring you into the next room, and sit you down at one of two gel-padded chairs on opposite sides of a smart desk, because this is what they do—far more gently than you'd expect—before retiring. You can also assume that whoever has given these instructions is both powerful and displeased, because all the arrogant sadistic cockiness has drained from their faces in the space of a heartbeat."
+        }
+      ]
+    },
+    {
+      "id": "s1826",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "You sit and wait. The table glows with soft, cryptic symbols that would be of no earthly interest to you even if you could understand them, even if they contained the very secret of the vampires themselves. Some small part of you wonders if this latest development might be cause for hope; the rest of you doesn't dare believe it. You hate yourself for caring about your own survival when chunks of your friends and allies are still warm on the other side of the wall.",
+      "runs": [
+        {
+          "t": "You sit and wait. The table glows with soft, cryptic symbols that would be of no earthly interest to you even if you could understand them, even if they contained the very secret of the vampires themselves. Some small part of you wonders if this latest development might be cause for hope; the rest of you doesn't dare believe it. You hate yourself for caring about your own survival when chunks of your friends and allies are still warm on the other side of the wall."
+        }
+      ]
+    },
+    {
+      "id": "s1827",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "A stocky Amerind woman appears in the room with you, clad in nondescript military weave. Her hair is buzzed short, her throat veined with the faint mesh of a sub-q antennae. Your brain stem sees that she is ten meters tall, even though some impertinent gelatinous overlay insists that she is of only average height.",
+      "runs": [
+        {
+          "t": "A stocky Amerind woman appears in the room with you, clad in nondescript military weave. Her hair is buzzed short, her throat veined with the faint mesh of a sub-q antennae. Your brain stem sees that she is ten meters tall, even though some impertinent gelatinous overlay insists that she is of only average height."
+        }
+      ]
+    },
+    {
+      "id": "s1828",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "The name tag on her left breast says Bates. You see no sign of rank.",
+      "runs": [
+        {
+          "t": "The name tag on her left breast says "
+        },
+        {
+          "t": "Bates",
+          "i": true
+        },
+        {
+          "t": ". You see no sign of rank."
+        }
+      ]
+    },
+    {
+      "id": "s1829",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "Bates extracts a weapon from its sheath on her thigh. You flinch, but she does not point it at you. She sets it on the desk, easily within your reach, and sits across from you.",
+      "runs": [
+        {
+          "t": "Bates ",
+          "i": true
+        },
+        {
+          "t": "extracts a weapon from its sheath on her thigh. You flinch, but she does not point it at you. She sets it on the desk, easily within your reach, and sits across from you."
+        }
+      ]
+    },
+    {
+      "id": "s1830",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "A microwave pistol. Fully charged, unlocked. On its lowest setting it causes sunburn and nausea. On its highest it flash-boils brains in the skull. At any setting between, it inflicts pain and injury in increments as fine as your imagination.",
+      "runs": [
+        {
+          "t": "A microwave pistol. Fully charged, unlocked. On its lowest setting it causes sunburn and nausea. On its highest it flash-boils brains in the skull. At any setting between, it inflicts pain and injury in increments as fine as your imagination."
+        }
+      ]
+    },
+    {
+      "id": "s1831",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "Your imagination has been retooled for great sensitivity along such scales. You stare numbly at the gun, trying to figure the trick.",
+      "runs": [
+        {
+          "t": "Your imagination has been retooled for great sensitivity along such scales. You stare numbly at the gun, trying to figure the trick."
+        }
+      ]
+    },
+    {
+      "id": "s1832",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"Two of your friends are dead,\" Bates says, as though you haven't just watched them die. \"Irrecoverably so.\"",
+      "runs": [
+        {
+          "t": "\"Two of your friends are dead,\" Bates says, as though you haven't just watched them die. \"Irrecoverably so.\""
+        }
+      ]
+    },
+    {
+      "id": "s1833",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "Irrecoverably dead. Good one.",
+      "runs": [
+        {
+          "t": "Irrecoverably dead. Good one."
+        }
+      ]
+    },
+    {
+      "id": "s1834",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"We could reconstitute the bodies, but the brain damage...\" Bates clears her throat as if uncomfortable, as if embarrassed. It's a surprisingly human gesture for a monster. \"We're trying to save the other one. No promises.",
+      "runs": [
+        {
+          "t": "\"We could reconstitute the bodies, but the brain damage...\" Bates clears her throat as if uncomfortable, as if embarrassed. It's a surprisingly human gesture for a monster. \"We're trying to save the other one. No promises."
+        }
+      ]
+    },
+    {
+      "id": "s1835",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"We need information,\" she says, cutting to the chase.",
+      "runs": [
+        {
+          "t": "\"We need information,\" she says, cutting to the chase."
+        }
+      ]
+    },
+    {
+      "id": "s1836",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "Of course. What came before was psychology, softening-up. Bates is the good cop.",
+      "runs": [
+        {
+          "t": "Of course. What came before was psychology, softening-up. Bates is the good cop."
+        }
+      ]
+    },
+    {
+      "id": "s1837",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"I've got nothing to tell you,\" you manage. It's ten percent defiance, ninety percent deduction: they wouldn't have been able to catch you in the first place unless they already knew everything.",
+      "runs": [
+        {
+          "t": "\"I've got nothing to tell you,\" you manage. It's ten percent defiance, ninety percent deduction: they wouldn't have been able to catch you in the first place unless they already knew everything."
+        }
+      ]
+    },
+    {
+      "id": "s1838",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"Then we need an arrangement,\" Bates says. \"We need to come to some kind of accommodation.\"",
+      "runs": [
+        {
+          "t": "\"Then we need an arrangement,\" Bates says. \"We need to come to some kind of accommodation.\""
+        }
+      ]
+    },
+    {
+      "id": "s1839",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "She has to be kidding.",
+      "runs": [
+        {
+          "t": "She has to be kidding."
+        }
+      ]
+    },
+    {
+      "id": "s1840",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "Your incredulity must be showing. Bates addresses it: \"I'm not completely unsympathetic. My gut doesn't much like the idea of swapping reality for simulation, and it doesn't buy that what-is-truth spin the Body Economic sells to get around it. Maybe there's reason to be scared. Not my problem, not my job, just my opinion and it could be wrong. But if we kill each other in the meantime, we don't find out either way. It's unproductive.\"",
+      "runs": [
+        {
+          "t": "Your incredulity must be showing. Bates addresses it: \"I'm not completely unsympathetic. My gut doesn't much like the idea of swapping reality for simulation, and it doesn't buy that what-is-truth spin the Body Economic sells to get around it. Maybe there's reason to be scared. Not my problem, not my job, just my opinion and it could be wrong. But if we kill each other in the meantime, we don't find out either way. It's unproductive.\""
+        }
+      ]
+    },
+    {
+      "id": "s1841",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "You see the dismembered bodies of your friends. You see pieces on the floor, still a little bit alive, and this cunt has the nerve to talk about productivity?",
+      "runs": [
+        {
+          "t": "You see the dismembered bodies of your friends. You see pieces on the floor, still a little bit alive, and this cunt has the nerve to talk about "
+        },
+        {
+          "t": "productivity",
+          "i": true
+        },
+        {
+          "t": "?"
+        }
+      ]
+    },
+    {
+      "id": "s1842",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"We didn't start it,\" you say.",
+      "runs": [
+        {
+          "t": "\"We didn't start it,\" you say."
+        }
+      ]
+    },
+    {
+      "id": "s1843",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"I don't know and I don't care. Like I said, it's not my job.\" Bates jerks a thumb over her shoulder at a door in the wall behind her, the door she must have entered through. \"In there,\" she says, \"are the ones who killed your friends. They've been disarmed. When you go through that door the room will go offline and remain unmonitored for a period of sixty seconds. Nobody besides yourself will ever hold you accountable for whatever happens in there during that time.\"",
+      "runs": [
+        {
+          "t": "\"I don't know and I don't care. Like I said, it's not my job.\" Bates jerks a thumb over her shoulder at a door in the wall behind her, the door she must have entered through. \"In there,\" she says, \"are the ones who killed your friends. They've been disarmed. When you go through that door the room will go offline and remain unmonitored for a period of sixty seconds. Nobody besides yourself will ever hold you accountable for whatever happens in there during that time.\""
+        }
+      ]
+    },
+    {
+      "id": "s1844",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "It's a trick. It has to be.",
+      "runs": [
+        {
+          "t": "It's a trick. It has to be."
+        }
+      ]
+    },
+    {
+      "id": "s1845",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"What do you have to lose?\" Bates wonders. \"We can already do anything we want to you. It's not like we need you to give us an excuse.\"",
+      "runs": [
+        {
+          "t": "\"What do you have to lose?\" Bates wonders. \"We can already do anything we want to you. It's not like we need you to give us an excuse.\""
+        }
+      ]
+    },
+    {
+      "id": "s1846",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "Hesitantly, you take the gun. Bates doesn't stop you.",
+      "runs": [
+        {
+          "t": "Hesitantly, you take the gun. Bates doesn't stop you."
+        }
+      ]
+    },
+    {
+      "id": "s1847",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "She's right, you realize. You have absolutely nothing to lose. You stand and, suddenly fearless, point the weapon at her face. \"Why go in there? I can kill you right here.\"",
+      "runs": [
+        {
+          "t": "She's right, you realize. You have absolutely nothing to lose. You stand and, suddenly fearless, point the weapon at her face. \"Why go in there? I can kill you right "
+        },
+        {
+          "t": "here",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s1848",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "She shrugs. \"You could try. Waste of an opportunity, if you ask me.\"",
+      "runs": [
+        {
+          "t": "She shrugs. \"You could try. Waste of an opportunity, if you ask me.\""
+        }
+      ]
+    },
+    {
+      "id": "s1849",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"So I go in there, and I come out in sixty seconds, and then what?\"",
+      "runs": [
+        {
+          "t": "\"So I go in there, and I come out in sixty seconds, and then what?\""
+        }
+      ]
+    },
+    {
+      "id": "s1850",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"Then we talk.\"",
+      "runs": [
+        {
+          "t": "\"Then we talk.\""
+        }
+      ]
+    },
+    {
+      "id": "s1851",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"We just—\"",
+      "runs": [
+        {
+          "t": "\"We just—\""
+        }
+      ]
+    },
+    {
+      "id": "s1852",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "\"Think of it as a gesture of good faith,\" she says. \"Restitution, even.\"",
+      "runs": [
+        {
+          "t": "\"Think of it as a gesture of good faith,\" she says. \"Restitution, even.\""
+        }
+      ]
+    },
+    {
+      "id": "s1853",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "The door opens at your approach, closes in your wake. And there they are, all four of them, spread up across the wall like a chorus line of Christs on crosses. There's no gleam in those eyes now. There's only a bright animal terror and the reflection of turned tables. Two of the Christs stain their pants when you look them in the eye.",
+      "runs": [
+        {
+          "t": "The door opens at your approach, closes in your wake. And there they are, all four of them, spread up across the wall like a chorus line of Christs on crosses. There's no gleam in those eyes "
+        },
+        {
+          "t": "now",
+          "i": true
+        },
+        {
+          "t": ". There's only a bright animal terror and the reflection of turned tables. Two of the Christs stain their pants when you look them in the eye."
+        }
+      ]
+    },
+    {
+      "id": "s1854",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "What's left? Maybe fifty seconds?",
+      "runs": [
+        {
+          "t": "What's left? Maybe fifty seconds?"
+        }
+      ]
+    },
+    {
+      "id": "s1855",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "It's not a lot. You could have done so much more with just a little extra time. But it's enough, and you don't want to impose on the good graces of this Bates woman.",
+      "runs": [
+        {
+          "t": "It's not a lot. You could have done so much more with just a little extra time. But it's enough, and you don't want to impose on the good graces of this Bates woman."
+        }
+      ]
+    },
+    {
+      "id": "s1856",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 9,
+      "text": "Because she may at last be someone you can deal with.",
+      "runs": [
+        {
+          "t": "Because she may at last be someone you can deal with."
+        }
+      ]
+    },
+    {
+      "id": "s1857",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

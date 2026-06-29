@@ -1,0 +1,1148 @@
+{
+  "chunk_id": "s1192-s1266",
+  "part": "Theseus",
+  "first": "s1192",
+  "last": "s1266",
+  "n_segments": 75,
+  "words": 1271,
+  "segments": [
+    {
+      "id": "s1192",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"It sounded to me like it knew what it was saying,\" I remarked.",
+      "runs": [
+        {
+          "t": "\"It sounded to "
+        },
+        {
+          "t": "me",
+          "i": true
+        },
+        {
+          "t": " like it knew what it was saying,\" I remarked."
+        }
+      ]
+    },
+    {
+      "id": "s1193",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I guess that's the whole point,\" Bates said. She had no one to confide in, partook of no intimate dialogs that could be overheard. With her, I used the direct approach.",
+      "runs": [
+        {
+          "t": "\"I guess that's the whole point,\" Bates said. She had no one to confide in, partook of no intimate dialogs that could be overheard. With her, I used the direct approach."
+        }
+      ]
+    },
+    {
+      "id": "s1194",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "Theseus was birthing a litter, two by two. They were nasty-looking things, armored, squashed egg-shapes, twice the size of a human torso and studded with gardening implements: antennae, optical ports, retractable threadsaws. Weapons muzzles.",
+      "runs": [
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " was birthing a litter, two by two. They were nasty-looking things, armored, squashed egg-shapes, twice the size of a human torso and studded with gardening implements: antennae, optical ports, retractable threadsaws. Weapons muzzles."
+        }
+      ]
+    },
+    {
+      "id": "s1195",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "Bates was summoning her troops. We floated before the primary fab port at the base of Theseus' spine. The plant could just as easily have disgorged the grunts directly into the hold beneath the carapace—that was where they'd be stored anyway, until called upon—but Bates was giving each a visual inspection before sending it through one of the airlocks a few meters up the passageway. Ritual, perhaps. Military tradition. Certainly there was nothing she could see with her eyes that wouldn't be glaringly obvious to the most basic diagnostic.",
+      "runs": [
+        {
+          "t": "Bates was summoning her troops. We floated before the primary fab port at the base of "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' spine. The plant could just as easily have disgorged the grunts directly into the hold beneath the carapace—that was where they'd be stored anyway, until called upon—but Bates was giving each a visual inspection before sending it through one of the airlocks a few meters up the passageway. Ritual, perhaps. Military tradition. Certainly there was nothing she could see with her eyes that wouldn't be glaringly obvious to the most basic diagnostic."
+        }
+      ]
+    },
+    {
+      "id": "s1196",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Would it be a problem?\" I asked. \"Running them without your interface?\"",
+      "runs": [
+        {
+          "t": "\"Would it be a problem?\" I asked. \"Running them without your interface?\""
+        }
+      ]
+    },
+    {
+      "id": "s1197",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Run themselves just fine. Response time actually improves without spam in the network. I'm more of a safety precaution.\"",
+      "runs": [
+        {
+          "t": "\"Run themselves just fine. Response time actually improves without spam in the network. I'm more of a safety precaution.\""
+        }
+      ]
+    },
+    {
+      "id": "s1198",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "Theseus growled, giving us more attitude. The plating trembled to stern; another piece of local debris, no longer in our path. We were angling towards an equatorial orbit just a few miniscule kilometers above the artefact; insanely, the approach curved right through the accretion belt.",
+      "runs": [
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " growled, giving us more attitude. The plating trembled to stern; another piece of local debris, no longer in our path. We were angling towards an equatorial orbit just a few miniscule kilometers above the artefact; insanely, the approach curved right through the accretion belt."
+        }
+      ]
+    },
+    {
+      "id": "s1199",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "It didn't bother the others. \"Like surviving traffic in a high speed lane,\" Sascha had said, disdainful of my misgivings. \"Try creeping across and you're road kill. Gotta speed up, go with the flow.\" But the flow was turbulent; we hadn't gone five minutes without a course correction since Rorschach had stopped talking to us.",
+      "runs": [
+        {
+          "t": "It didn't bother the others. \"Like surviving traffic in a high speed lane,\" Sascha had said, disdainful of my misgivings. \"Try creeping across and you're road kill. Gotta speed up, go with the flow.\" But the flow was turbulent; we hadn't gone five minutes without a course correction since "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " had stopped talking to us."
+        }
+      ]
+    },
+    {
+      "id": "s1200",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"So, do you buy it?\" I asked. \"Pattern-matching, empty threats? Nothing to worry about?\"",
+      "runs": [
+        {
+          "t": "\"So, do you buy it?\" I asked. \"Pattern-matching, empty threats? Nothing to worry about?\""
+        }
+      ]
+    },
+    {
+      "id": "s1201",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Nobody's fired on us yet,\" she said. Meaning: Not for a second.",
+      "runs": [
+        {
+          "t": "\"Nobody's fired on us yet,\" she said. Meaning: "
+        },
+        {
+          "t": "Not for a second",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s1202",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"What's your take on Susan's argument? Different niches, no reason for conflict?\"",
+      "runs": [
+        {
+          "t": "\"What's your take on Susan's argument? Different niches, no reason for conflict?\""
+        }
+      ]
+    },
+    {
+      "id": "s1203",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Makes sense, I guess.\" Utter bullshit.",
+      "runs": [
+        {
+          "t": "\"Makes sense, I guess.\" "
+        },
+        {
+          "t": "Utter bullshit",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s1204",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Can you think of any reason why something with such different needs would attack us?\"",
+      "runs": [
+        {
+          "t": "\"Can you think of any reason why something with such different needs "
+        },
+        {
+          "t": "would",
+          "i": true
+        },
+        {
+          "t": " attack us?\""
+        }
+      ]
+    },
+    {
+      "id": "s1205",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"That depends,\" she said, \"on whether the fact that we are different is reason enough.\"",
+      "runs": [
+        {
+          "t": "\"That depends,\" she said, \"on whether the fact that we "
+        },
+        {
+          "t": "are",
+          "i": true
+        },
+        {
+          "t": " different is reason enough.\""
+        }
+      ]
+    },
+    {
+      "id": "s1206",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "I saw playground battlefields reflected in her topology. I remembered my own, and wondered if there were any other kind.",
+      "runs": [
+        {
+          "t": "I saw playground battlefields reflected in her topology. I remembered my own, and wondered if there were any other kind."
+        }
+      ]
+    },
+    {
+      "id": "s1207",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "Then again, that only proved the point. Humans didn't really fight over skin tone or ideology; those were just handy cues for kin-selection purposes. Ultimately it always came down to bloodlines and limited resources.",
+      "runs": [
+        {
+          "t": "Then again, that only proved the point. Humans didn't "
+        },
+        {
+          "t": "really",
+          "i": true
+        },
+        {
+          "t": " fight over skin tone or ideology; those were just handy cues for kin-selection purposes. Ultimately it always came down to bloodlines and limited resources."
+        }
+      ]
+    },
+    {
+      "id": "s1208",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I think Isaac would say this is different,\" I said.",
+      "runs": [
+        {
+          "t": "\"I think Isaac would say this is different,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s1209",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I guess.\" Bates sent one grunt humming off to the hold; two more emerged in formation, spinelight glinting off their armor.",
+      "runs": [
+        {
+          "t": "\"I guess.\" Bates sent one grunt humming off to the hold; two more emerged in formation, spinelight glinting off their armor."
+        }
+      ]
+    },
+    {
+      "id": "s1210",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"How many of these are you making, anyway?\"",
+      "runs": [
+        {
+          "t": "\"How many of these are you making, anyway?\""
+        }
+      ]
+    },
+    {
+      "id": "s1211",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"We're breaking and entering, Siri. Not wise to leave our own house unguarded.\"",
+      "runs": [
+        {
+          "t": "\"We're breaking and entering, Siri. Not wise to leave our own house unguarded.\""
+        }
+      ]
+    },
+    {
+      "id": "s1212",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "I inspected her surfaces as she inspected theirs. Doubt and resentment simmered just beneath.",
+      "runs": [
+        {
+          "t": "I inspected her surfaces as she inspected theirs. Doubt and resentment simmered just beneath."
+        }
+      ]
+    },
+    {
+      "id": "s1213",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"You're in a tough spot,\" I remarked.",
+      "runs": [
+        {
+          "t": "\"You're in a tough spot,\" I remarked."
+        }
+      ]
+    },
+    {
+      "id": "s1214",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"We all are.\"",
+      "runs": [
+        {
+          "t": "\"We all are.\""
+        }
+      ]
+    },
+    {
+      "id": "s1215",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"But you're responsible for defending us, against something we don't know anything about. We're only guessing that—\"",
+      "runs": [
+        {
+          "t": "\"But you're responsible for defending us, against something we don't know anything about. We're only guessing that—\""
+        }
+      ]
+    },
+    {
+      "id": "s1216",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Sarasti doesn't guess,\" Bates said. \"The man's in charge for a reason. Doesn't make much sense to question his orders, given we're all about a hundred IQ points short of understanding the answer anyway.\"",
+      "runs": [
+        {
+          "t": "\"Sarasti doesn't "
+        },
+        {
+          "t": "guess",
+          "i": true
+        },
+        {
+          "t": ",\" Bates said. \"The man's in charge for a reason. Doesn't make much sense to question his orders, given we're all about a hundred IQ points short of understanding the answer anyway.\""
+        }
+      ]
+    },
+    {
+      "id": "s1217",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"And yet he's also got that whole predatory side nobody talks about,\" I remarked. \"It must be difficult for him, all that intellect coexisting with so much instinctive aggression. Making sure the right part wins.\"",
+      "runs": [
+        {
+          "t": "\"And yet he's also got that whole predatory side nobody talks about,\" I remarked. \"It must be difficult for him, all that intellect coexisting with so much instinctive aggression. Making sure the right part wins.\""
+        }
+      ]
+    },
+    {
+      "id": "s1218",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "She wondered in that instant whether Sarasti might be listening in. She decided in the next that it didn't matter: why should he care what the cattle thought, as long as they did what they were told?",
+      "runs": [
+        {
+          "t": "She wondered in that instant whether Sarasti might be listening in. She decided in the next that it didn't matter: why should he care what the cattle thought, as long as they did what they were told?"
+        }
+      ]
+    },
+    {
+      "id": "s1219",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "All she said was, \"I thought you jargonauts weren't supposed to have opinions.\"",
+      "runs": [
+        {
+          "t": "All she said was, \"I thought you jargonauts weren't supposed to have opinions.\""
+        }
+      ]
+    },
+    {
+      "id": "s1220",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"That wasn't mine.\"",
+      "runs": [
+        {
+          "t": "\"That wasn't mine.\""
+        }
+      ]
+    },
+    {
+      "id": "s1221",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "Bates paused. Returned to her inspection.",
+      "runs": [
+        {
+          "t": "Bates paused. Returned to her inspection."
+        }
+      ]
+    },
+    {
+      "id": "s1222",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"You do know what I do,\" I said.",
+      "runs": [
+        {
+          "t": "\"You do know what I do,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s1223",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Uh huh.\" The first of the current pair passed muster and hummed off up the spine. She turned to the second. \"You simplify things. So the folks back home can understand what the specialists are up to.\"",
+      "runs": [
+        {
+          "t": "\"Uh huh.\" The first of the current pair passed muster and hummed off up the spine. She turned to the second. \"You simplify things. So the folks back home can understand what the specialists are up to.\""
+        }
+      ]
+    },
+    {
+      "id": "s1224",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"That's part of it.\"",
+      "runs": [
+        {
+          "t": "\"That's part of it.\""
+        }
+      ]
+    },
+    {
+      "id": "s1225",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I don't need a translator, Siri. I'm just a consultant, assuming things go well. A bodyguard if they don't.\"",
+      "runs": [
+        {
+          "t": "\"I don't need a translator, Siri. I'm just a consultant, assuming things go well. A bodyguard if they don't.\""
+        }
+      ]
+    },
+    {
+      "id": "s1226",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"You're an officer and a military expert. I'd say that makes you more than qualified when it comes to assessing Rorschach's threat potential.\"",
+      "runs": [
+        {
+          "t": "\"You're an officer and a military expert. I'd say that makes you more than qualified when it comes to assessing "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s threat potential.\""
+        }
+      ]
+    },
+    {
+      "id": "s1227",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I'm muscle. Shouldn't you be simplifying Jukka or Isaac?\"",
+      "runs": [
+        {
+          "t": "\"I'm muscle. Shouldn't you be "
+        },
+        {
+          "t": "simplifying",
+          "i": true
+        },
+        {
+          "t": " Jukka or Isaac?\""
+        }
+      ]
+    },
+    {
+      "id": "s1228",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"That's exactly what I'm doing.\"",
+      "runs": [
+        {
+          "t": "\"That's exactly what I'm doing.\""
+        }
+      ]
+    },
+    {
+      "id": "s1229",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "She looked at me.",
+      "runs": [
+        {
+          "t": "She looked at me."
+        }
+      ]
+    },
+    {
+      "id": "s1230",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"You interact,\" I said. \"Every component of the system affects every other. Processing Sarasti without factoring you in would be like trying to calculate acceleration while ignoring mass.\"",
+      "runs": [
+        {
+          "t": "\"You "
+        },
+        {
+          "t": "interact",
+          "i": true
+        },
+        {
+          "t": ",\" I said. \"Every component of the system affects every other. Processing Sarasti without factoring you in would be like trying to calculate acceleration while ignoring mass.\""
+        }
+      ]
+    },
+    {
+      "id": "s1231",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "She turned back to her brood. Another robot passed muster.",
+      "runs": [
+        {
+          "t": "She turned back to her brood. Another robot passed muster."
+        }
+      ]
+    },
+    {
+      "id": "s1232",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "She didn't hate me. What she hated was what my presence implied.",
+      "runs": [
+        {
+          "t": "She didn't hate "
+        },
+        {
+          "t": "me",
+          "i": true
+        },
+        {
+          "t": ". What she hated was what my presence implied."
+        }
+      ]
+    },
+    {
+      "id": "s1233",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "They don't trust us to speak for ourselves, she wouldn't say. No matter how qualified we are, no matter how far ahead of the pack. Maybe even because of that. We're contaminated. We're subjective. So they send Siri Keeton to tell them what we really mean.",
+      "runs": [
+        {
+          "t": "They don't trust us to speak for ourselves",
+          "i": true
+        },
+        {
+          "t": ", she wouldn't say. "
+        },
+        {
+          "t": "No matter how qualified we are, no matter how far ahead of the pack. Maybe even ",
+          "i": true
+        },
+        {
+          "t": "because"
+        },
+        {
+          "t": " of that. We're contaminated. We're subjective. So they send Siri Keeton to tell them what we ",
+          "i": true
+        },
+        {
+          "t": "really"
+        },
+        {
+          "t": " mean.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1234",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I get it,\" I said after a moment.",
+      "runs": [
+        {
+          "t": "\"I get it,\" I said after a moment."
+        }
+      ]
+    },
+    {
+      "id": "s1235",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Do you.\"",
+      "runs": [
+        {
+          "t": "\"Do you.\""
+        }
+      ]
+    },
+    {
+      "id": "s1236",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"It's not about trust, Major. It's about location. Nobody gets a good view of a system from the inside, no matter who they are. The view's distorted.\"",
+      "runs": [
+        {
+          "t": "\"It's not about trust, Major. It's about "
+        },
+        {
+          "t": "location",
+          "i": true
+        },
+        {
+          "t": ". Nobody gets a good view of a system from the inside, no matter who they are. The view's distorted.\""
+        }
+      ]
+    },
+    {
+      "id": "s1237",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"And yours isn't.\"",
+      "runs": [
+        {
+          "t": "\"And yours isn't.\""
+        }
+      ]
+    },
+    {
+      "id": "s1238",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I'm outside the system.\"",
+      "runs": [
+        {
+          "t": "\"I'm outside the system.\""
+        }
+      ]
+    },
+    {
+      "id": "s1239",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"You're interacting with me now.\"",
+      "runs": [
+        {
+          "t": "\"You're interacting with me now.\""
+        }
+      ]
+    },
+    {
+      "id": "s1240",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"As an observer only. Perfection's unattainable but it isn't unapproachable, you know? I don't play a role in decision-making or research, I don't interfere in any aspect of the mission that I'm assigned to study. But of course I ask questions. The more information I have, the better my analysis.\"",
+      "runs": [
+        {
+          "t": "\"As an observer only. Perfection's unattainable but it isn't "
+        },
+        {
+          "t": "unapproachable",
+          "i": true
+        },
+        {
+          "t": ", you know? I don't play a role in decision-making or research, I don't interfere in any aspect of the mission that I'm assigned to study. But of course I ask questions. The more information I have, the better my analysis.\""
+        }
+      ]
+    },
+    {
+      "id": "s1241",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I thought you didn't have to ask. I thought you guys could just, read the signs or something.\"",
+      "runs": [
+        {
+          "t": "\"I thought you didn't have to "
+        },
+        {
+          "t": "ask",
+          "i": true
+        },
+        {
+          "t": ". I thought you guys could just, read the signs or something.\""
+        }
+      ]
+    },
+    {
+      "id": "s1242",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Every bit helps. It all goes into the mix.\"",
+      "runs": [
+        {
+          "t": "\"Every bit helps. It all goes into the mix.\""
+        }
+      ]
+    },
+    {
+      "id": "s1243",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"You doing it now? Synthesizing?\"",
+      "runs": [
+        {
+          "t": "\"You doing it now? "
+        },
+        {
+          "t": "Synthesizing",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s1244",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "I nodded.",
+      "runs": [
+        {
+          "t": "I nodded."
+        }
+      ]
+    },
+    {
+      "id": "s1245",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"And you do this without any specialized knowledge at all.\"",
+      "runs": [
+        {
+          "t": "\"And you do this without any specialized knowledge at all.\""
+        }
+      ]
+    },
+    {
+      "id": "s1246",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I'm as much of a specialist as you. I specialize in processing informational topologies.\"",
+      "runs": [
+        {
+          "t": "\"I'm as much of a specialist as you. I specialize in processing informational topologies.\""
+        }
+      ]
+    },
+    {
+      "id": "s1247",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Without understanding their content.\"",
+      "runs": [
+        {
+          "t": "\"Without understanding their content.\""
+        }
+      ]
+    },
+    {
+      "id": "s1248",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Understanding the shapes is enough.\"",
+      "runs": [
+        {
+          "t": "\"Understanding the shapes is enough.\""
+        }
+      ]
+    },
+    {
+      "id": "s1249",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "Bates seemed to find some small imperfection in the battlebot under scrutiny, scratched at its shell with a fingernail. \"Software couldn't do that without your help?\"",
+      "runs": [
+        {
+          "t": "Bates seemed to find some small imperfection in the battlebot under scrutiny, scratched at its shell with a fingernail. \"Software couldn't do that without your help?\""
+        }
+      ]
+    },
+    {
+      "id": "s1250",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Software can do a lot of things. We've chosen to do some for ourselves.\" I nodded at the grunt. \"Your visual inspections, for example.\"",
+      "runs": [
+        {
+          "t": "\"Software can do a lot of things. We've chosen to do some for ourselves.\" I nodded at the grunt. \"Your visual inspections, for example.\""
+        }
+      ]
+    },
+    {
+      "id": "s1251",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "She smiled faintly, conceding the point.",
+      "runs": [
+        {
+          "t": "She smiled faintly, conceding the point."
+        }
+      ]
+    },
+    {
+      "id": "s1252",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"So I'd encourage you to speak freely. You know I'm sworn to confidentiality.\"",
+      "runs": [
+        {
+          "t": "\"So I'd encourage you to speak freely. You know I'm sworn to confidentiality.\""
+        }
+      ]
+    },
+    {
+      "id": "s1253",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Thanks,\" she said, meaning On this ship, there's no such thing.",
+      "runs": [
+        {
+          "t": "\"Thanks,\" she said, meaning "
+        },
+        {
+          "t": "On this ship, there's no such thing.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1254",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "Theseus chimed. Sarasti spoke in its wake: \"Orbital insertion in fifteen minutes. Everyone to the drum in five.\"",
+      "runs": [
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " chimed. Sarasti spoke in its wake: \"Orbital insertion in fifteen minutes. Everyone to the drum in five.\""
+        }
+      ]
+    },
+    {
+      "id": "s1255",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Well,\" Bates said, sending one last grunt on its way. \"Here we go.\" She pushed off and sailed up the spine.",
+      "runs": [
+        {
+          "t": "\"Well,\" Bates said, sending one last grunt on its way. \"Here we go.\" She pushed off and sailed up the spine."
+        }
+      ]
+    },
+    {
+      "id": "s1256",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "The newborn killing machines clicked at me. They smelled like new cars.",
+      "runs": [
+        {
+          "t": "The newborn killing machines clicked at me. They smelled like new cars."
+        }
+      ]
+    },
+    {
+      "id": "s1257",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"By the way,\" Bates called over her shoulder, \"you missed the obvious one.\"",
+      "runs": [
+        {
+          "t": "\"By the way,\" Bates called over her shoulder, \"you missed the obvious one.\""
+        }
+      ]
+    },
+    {
+      "id": "s1258",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"Sorry?\"",
+      "runs": [
+        {
+          "t": "\"Sorry?\""
+        }
+      ]
+    },
+    {
+      "id": "s1259",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "She spun a hundred-eighty degrees at the end of the passageway, landed like an acrobat beside the drum hatch. \"The reason. Why something would attack us even if we didn't have anything it wanted.\"",
+      "runs": [
+        {
+          "t": "She spun a hundred-eighty degrees at the end of the passageway, landed like an acrobat beside the drum hatch. \"The reason. Why something would attack us even if we didn't have anything it wanted.\""
+        }
+      ]
+    },
+    {
+      "id": "s1260",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "I read it off her: \"If it wasn't attacking at all. If it was defending itself.\"",
+      "runs": [
+        {
+          "t": "I read it off her: \"If it wasn't attacking at all. If it was defending itself.\""
+        }
+      ]
+    },
+    {
+      "id": "s1261",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"You asked about Sarasti. Smart man. Strong Leader. Maybe could spend a little more time with the troops.\"",
+      "runs": [
+        {
+          "t": "\"You asked about Sarasti. Smart man. Strong Leader. Maybe could spend a little more time with the troops.\""
+        }
+      ]
+    },
+    {
+      "id": "s1262",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "Vampire doesn't respect his command. Doesn't listen to advice. Hides away half the time. ",
+      "runs": [
+        {
+          "t": "Vampire doesn't respect his command. Doesn't listen to advice. Hides away half the time. ",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1263",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "I remembered transient killer whales. \"Maybe he's being considerate.\"  He knows he makes us nervous.",
+      "runs": [
+        {
+          "t": "I remembered transient killer whales. \"Maybe he's being considerate.\" "
+        },
+        {
+          "t": " He knows he makes us nervous.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1264",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "\"I'm sure that's it,\" Bates said.",
+      "runs": [
+        {
+          "t": "\"I'm sure that's it,\" Bates said."
+        }
+      ]
+    },
+    {
+      "id": "s1265",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 29,
+      "text": "Vampire doesn't trust himself.",
+      "runs": [
+        {
+          "t": "Vampire doesn't trust himself.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1266",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 30,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

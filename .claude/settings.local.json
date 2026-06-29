@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(DEBUG=1 bash build/translate.sh s0149-s0181 2>&1)",
+      "Bash(ps -eo pid,etime,%cpu,rss,args)",
+      "Bash(kill 2785 2931 2758)",
+      "Bash(ps -eo pid,etime,args)",
+      "Bash(python3 *)",
+      "Bash(cd *)",
+      "Bash(ps -eo pid,etime,%cpu,rss,stat,args)",
+      "Bash(awk '{print $1,$2,$3\"%cpu\",$4\"kb\",$5}')",
+      "Bash(pkill -f \"claude -p\")"
+    ]
+  }
+}

@@ -1,0 +1,1610 @@
+{
+  "chunk_id": "s0182-s0291",
+  "part": "Theseus",
+  "first": "s0182",
+  "last": "s0291",
+  "n_segments": 110,
+  "words": 2053,
+  "segments": [
+    {
+      "id": "s0182",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "Imagine you are a machine.",
+      "runs": [
+        {
+          "t": "Imagine you are a machine."
+        }
+      ]
+    },
+    {
+      "id": "s0183",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "Yes, I know. But imagine you're a different kind of machine, one built from metal and plastic and designed not by blind, haphazard natural selection but by engineers and astrophysicists with their eyes fixed firmly on specific goals. Imagine that your purpose is not to replicate, or even to survive, but to gather information.",
+      "runs": [
+        {
+          "t": "Yes, I know. But imagine you're a different "
+        },
+        {
+          "t": "kind",
+          "i": true
+        },
+        {
+          "t": " of machine, one built from metal and plastic and designed not by blind, haphazard natural selection but by engineers and astrophysicists with their eyes fixed firmly on specific goals. Imagine that your purpose is not to replicate, or even to survive, but to gather information."
+        }
+      ]
+    },
+    {
+      "id": "s0184",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "I can imagine that easily. It is in fact a much simpler impersonation than the kind I'm usually called on to perform.",
+      "runs": [
+        {
+          "t": "I can imagine that easily. It is in fact a much simpler impersonation than the kind I'm usually called on to perform."
+        }
+      ]
+    },
+    {
+      "id": "s0185",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "I coast through the abyss on the colder side of Neptune's orbit. Most of the time I exist only as an absence, to any observer on the visible spectrum: a moving, asymmetrical silhouette blocking the stars. But occasionally, during my slow endless spin, I glint with dim hints of reflected starlight. If you catch me in those moments you might infer something of my true nature: a segmented creature with foil skin, bristling with joints and dishes and spindly antennae. Here and there a whisper of accumulated frost clings to a joint or seam, some frozen wisp of gas encountered in Jupiter space perhaps. Elsewhere I carry the microscopic corpses of Earthly bacteria who thrived with carefree abandon on the skins of space stations or the benign lunar surface—but who had gone to crystal at only half my present distance from the sun. Now, a breath away from Absolute Zero, they might shatter at a photon's touch.",
+      "runs": [
+        {
+          "t": "I coast through the abyss on the colder side of Neptune's orbit. Most of the time I exist only as an absence, to any observer on the visible spectrum: a moving, asymmetrical silhouette blocking the stars. But occasionally, during my slow endless spin, I glint with dim hints of reflected starlight. If you catch me in those moments you might infer something of my true nature: a segmented creature with foil skin, bristling with joints and dishes and spindly antennae. Here and there a whisper of accumulated frost clings to a joint or seam, some frozen wisp of gas encountered in Jupiter space perhaps. Elsewhere I carry the microscopic corpses of Earthly bacteria who thrived with carefree abandon on the skins of space stations or the benign lunar surface—but who had gone to crystal at only half my present distance from the sun. Now, a breath away from Absolute Zero, they might shatter at a photon's touch."
+        }
+      ]
+    },
+    {
+      "id": "s0186",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "My heart is warm, at least. A tiny nuclear fire burns in my thorax, leaves me indifferent to the cold outside. It won't go out for a thousand years, barring some catastrophic accident; for a thousand years, I will listen for faint voices from Mission Control and do everything they tell me to. So far they have told me to study comets. Every instruction I have ever received has been a precise and unambiguous elaboration on that one overriding reason for my existence.",
+      "runs": [
+        {
+          "t": "My heart is warm, at least. A tiny nuclear fire burns in my thorax, leaves me indifferent to the cold outside. It won't go out for a thousand years, barring some catastrophic accident; for a thousand years, I will listen for faint voices from Mission Control and do everything they tell me to. So far they have told me to study comets. Every instruction I have ever received has been a precise and unambiguous elaboration on that one overriding reason for my existence."
+        }
+      ]
+    },
+    {
+      "id": "s0187",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "Which is why these latest instructions are so puzzling, for they make no sense at all. The frequency is wrong. The signal strength is wrong. I cannot even understand the handshaking protocols. I request clarification.",
+      "runs": [
+        {
+          "t": "Which is why these latest instructions are so puzzling, for they make no sense at all. The frequency is wrong. The signal strength is wrong. I cannot even understand the handshaking protocols. I request clarification."
+        }
+      ]
+    },
+    {
+      "id": "s0188",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "The response arrives almost a thousand minutes later, and it is an unprecedented mix of orders and requests for information. I answer as best I can: yes, this is the bearing at which signal strength was greatest. No, it is not the usual bearing for Mission Control. Yes, I can retransmit: here it is, all over again. Yes, I will go into standby mode.",
+      "runs": [
+        {
+          "t": "The response arrives almost a thousand minutes later, and it is an unprecedented mix of orders and requests for information. I answer as best I can: yes, this is the bearing at which signal strength was greatest. No, it is not the usual bearing for Mission Control. Yes, I can retransmit: here it is, all over again. Yes, I will go into standby mode."
+        }
+      ]
+    },
+    {
+      "id": "s0189",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "I await further instructions. They arrive 839 minutes later, and they tell me to stop studying comets immediately.",
+      "runs": [
+        {
+          "t": "I await further instructions. They arrive 839 minutes later, and they tell me to stop studying comets immediately."
+        }
+      ]
+    },
+    {
+      "id": "s0190",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "I am to commence a controlled precessive tumble that sweeps my antennae through consecutive 5-arc increments along all three axes, with a period of 94 seconds. Upon encountering any transmission resembling the one which confused me, I am to fix upon the bearing of maximal signal strength and derive a series of parameter values. I am also instructed to retransmit the signal to Mission Control.",
+      "runs": [
+        {
+          "t": "I am to commence a controlled precessive tumble that sweeps my antennae through consecutive 5-arc increments along all three axes, with a period of 94 seconds. Upon encountering any transmission resembling the one which confused me, I am to fix upon the bearing of maximal signal strength and derive a series of parameter values. I am also instructed to retransmit the signal to Mission Control."
+        }
+      ]
+    },
+    {
+      "id": "s0191",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "I do as I'm told. For a long time I hear nothing, but I am infinitely patient and incapable of boredom. Eventually a fleeting, familiar signal brushes against my afferent array. I reacquire and track it to source, which I am well-equipped to describe: a trans-Neptunian comet in the Kuiper Belt, approximately two hundred kilometers in diameter. It is sweeping a 21-cm tightbeam radio wave across the heavens with a periodicity of 4.57 seconds. This beam does not intersect Mission Control's coordinates at any point. It appears to be directed at a different target entirely.",
+      "runs": [
+        {
+          "t": "I do as I'm told. For a long time I hear nothing, but I am infinitely patient and incapable of boredom. Eventually a fleeting, familiar signal brushes against my afferent array. I reacquire and track it to source, which I am well-equipped to describe: a trans-Neptunian comet in the Kuiper Belt, approximately two hundred kilometers in diameter. It is sweeping a 21-cm tightbeam radio wave across the heavens with a periodicity of 4.57 seconds. This beam does not intersect Mission Control's coordinates at any point. It appears to be directed at a different target entirely."
+        }
+      ]
+    },
+    {
+      "id": "s0192",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "It takes much longer than usual for Mission Control to respond to this information. When it does, it tells me to change course. Mission Control informs me that henceforth my new destination is to be referred to as Burns-Caulfield. Given current fuel and inertial constraints I will not reach it in less than thirty-nine years.",
+      "runs": [
+        {
+          "t": "It takes much longer than usual for Mission Control to respond to this information. When it does, it tells me to change course. Mission Control informs me that henceforth my new destination is to be referred to as "
+        },
+        {
+          "t": "Burns-Caulfield",
+          "i": true
+        },
+        {
+          "t": ". Given current fuel and inertial constraints I will not reach it in less than thirty-nine years."
+        }
+      ]
+    },
+    {
+      "id": "s0193",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 7,
+      "text": "I am to watch nothing else in the meantime.",
+      "runs": [
+        {
+          "t": "I am to watch nothing else in the meantime."
+        }
+      ]
+    },
+    {
+      "id": "s0194",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s0195",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "I'd been liaising for a team at the Kurzweil Institute, a fractured group of cutting-edge savants convinced they were on the verge of solving the quantum-glial paradox. That particular log-jam had stalled AI for decades; once broken, the experts promised we'd be eighteen months away from the first personality upload and only two years from reliable Human-consciousness emulation in a software environment. It would spell the end of corporeal history, usher in a Singularity that had been waiting impatiently in the wings for nigh on fifty years.",
+      "runs": [
+        {
+          "t": "I'd been liaising for a team at the Kurzweil Institute, a fractured group of cutting-edge savants convinced they were on the verge of solving the quantum-glial paradox. That particular log-jam had stalled AI for decades; once broken, the experts promised we'd be eighteen months away from the first personality upload and only two years from reliable Human-consciousness emulation in a software environment. It would spell the end of corporeal history, usher in a Singularity that had been waiting impatiently in the wings for nigh on fifty years."
+        }
+      ]
+    },
+    {
+      "id": "s0196",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Two months after Firefall, the Institute cancelled my contract.",
+      "runs": [
+        {
+          "t": "Two months after Firefall, the Institute cancelled my contract."
+        }
+      ]
+    },
+    {
+      "id": "s0197",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "I was actually surprised it had taken them so long. It had cost us so much, this overnight inversion of global priorities, these breakneck measures making up for lost initiative. Not even our shiny new post-scarcity economy could withstand such a seismic shift without lurching towards bankruptcy. Installations in deep space, long since imagined secure by virtue of their remoteness, were suddenly vulnerable for exactly the same reason. Lagrange habitats had to be refitted for defense against an unknown enemy. Commercial ships on the Martian Loop were conscripted, weaponised, and reassigned; some secured the high ground over Mars while others fell sunward to guard the Icarus Array.",
+      "runs": [
+        {
+          "t": "I was actually surprised it had taken them so long. It had cost us so much, this overnight inversion of global priorities, these breakneck measures making up for lost initiative. Not even our shiny new post-scarcity economy could withstand such a seismic shift without lurching towards bankruptcy. Installations in deep space, long since imagined secure by virtue of their remoteness, were suddenly vulnerable for exactly the same reason. Lagrange habitats had to be refitted for defense against an unknown enemy. Commercial ships on the Martian Loop were conscripted, weaponised, and reassigned; some secured the high ground over Mars while others fell sunward to guard the Icarus Array."
+        }
+      ]
+    },
+    {
+      "id": "s0198",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "It didn't matter that the Fireflies hadn't fired a shot at any of these targets. We simply couldn't afford the risk.",
+      "runs": [
+        {
+          "t": "It didn't matter that the Fireflies hadn't fired a shot at any of these targets. We simply couldn't afford the risk."
+        }
+      ]
+    },
+    {
+      "id": "s0199",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "We were all in it together, of course, desperate to regain some hypothetical upper hand by any means necessary. Kings and corporations scribbled IOUs on the backs of napkins and promised to sort everything out once the heat was off. In the meantime, the prospect of Utopia in two years took a back seat to the shadow of Armageddon reaching back from next Tuesday. The Kurzweil Institute, like everyone else, suddenly had other things to worry about.",
+      "runs": [
+        {
+          "t": "We were all in it together, of course, desperate to regain some hypothetical upper hand by any means necessary. Kings and corporations scribbled IOUs on the backs of napkins and promised to sort everything out once the heat was off. In the meantime, the prospect of Utopia in two years took a back seat to the shadow of Armageddon reaching back from next Tuesday. The Kurzweil Institute, like everyone else, suddenly had other things to worry about."
+        }
+      ]
+    },
+    {
+      "id": "s0200",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "So I returned to my apartment, split a bulb of Glenfiddich, and arrayed virtual windows like daisy petals in my head. Everyone Icons debated on all sides, serving up leftovers two weeks past their expiry date:",
+      "runs": [
+        {
+          "t": "So I returned to my apartment, split a bulb of Glenfiddich, and arrayed virtual windows like daisy petals in my head. Everyone Icons debated on all sides, serving up leftovers two weeks past their expiry date:"
+        }
+      ]
+    },
+    {
+      "id": "s0201",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Disgraceful breakdown of global security.",
+      "runs": [
+        {
+          "t": "Disgraceful breakdown of global security.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0202",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "No harm done.",
+      "runs": [
+        {
+          "t": "No harm done."
+        }
+      ]
+    },
+    {
+      "id": "s0203",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Comsats annihilated. Thousands dead.",
+      "runs": [
+        {
+          "t": "Comsats annihilated. Thousands dead.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0204",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Random collisions. Accidental deaths.",
+      "runs": [
+        {
+          "t": "Random",
+          "i": true
+        },
+        {
+          "t": " collisions. "
+        },
+        {
+          "t": "Accidental ",
+          "i": true
+        },
+        {
+          "t": "deaths."
+        }
+      ]
+    },
+    {
+      "id": "s0205",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "(who sent them?)",
+      "runs": [
+        {
+          "t": "(who sent them?)"
+        }
+      ]
+    },
+    {
+      "id": "s0206",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "We should have seen them coming. Why didn't we—",
+      "runs": [
+        {
+          "t": "We should have seen them coming. Why didn't we—",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0207",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Deep space. Inverse square. Do the math.",
+      "runs": [
+        {
+          "t": "Deep space. Inverse square. Do the math."
+        }
+      ]
+    },
+    {
+      "id": "s0208",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "They were stealthed!",
+      "runs": [
+        {
+          "t": "They were ",
+          "i": true
+        },
+        {
+          "t": "stealthed"
+        },
+        {
+          "t": "!",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0209",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "(what do they want?)",
+      "runs": [
+        {
+          "t": "(what do they "
+        },
+        {
+          "t": "want",
+          "i": true
+        },
+        {
+          "t": "?)"
+        }
+      ]
+    },
+    {
+      "id": "s0210",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "We were raped!",
+      "runs": [
+        {
+          "t": "We were raped!",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0211",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Jesus Christ. They just took our picture.",
+      "runs": [
+        {
+          "t": "Jesus Christ. They just took our "
+        },
+        {
+          "t": "picture",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0212",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Why the silence?",
+      "runs": [
+        {
+          "t": "Why the silence?",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0213",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Moon's fine. Mars's fine.",
+      "runs": [
+        {
+          "t": "Moon's fine. Mars's fine."
+        }
+      ]
+    },
+    {
+      "id": "s0214",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "(Where are they?)",
+      "runs": [
+        {
+          "t": "(Where are they?)"
+        }
+      ]
+    },
+    {
+      "id": "s0215",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Why haven't they made contact?",
+      "runs": [
+        {
+          "t": "Why haven't they made contact?",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0216",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Nothing's touched the O'Neills.",
+      "runs": [
+        {
+          "t": "Nothing's touched the O'Neills."
+        }
+      ]
+    },
+    {
+      "id": "s0217",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Technology Implies Belligerence!",
+      "runs": [
+        {
+          "t": "Technology Implies Belligerence!",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0218",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "(Are they coming back?)",
+      "runs": [
+        {
+          "t": "(Are they coming back?)"
+        }
+      ]
+    },
+    {
+      "id": "s0219",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Nothing attacked us.",
+      "runs": [
+        {
+          "t": "Nothing attacked us."
+        }
+      ]
+    },
+    {
+      "id": "s0220",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Yet",
+      "runs": [
+        {
+          "t": "Yet",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0221",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Nothing invaded.",
+      "runs": [
+        {
+          "t": "Nothing "
+        },
+        {
+          "t": "invaded",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0222",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "So far.",
+      "runs": [
+        {
+          "t": "So far.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0223",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "(But where are they?)",
+      "runs": [
+        {
+          "t": "(But where "
+        },
+        {
+          "t": "are",
+          "i": true
+        },
+        {
+          "t": " they?)"
+        }
+      ]
+    },
+    {
+      "id": "s0224",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "(Are they coming back?)",
+      "runs": [
+        {
+          "t": "(Are they coming "
+        },
+        {
+          "t": "back",
+          "i": true
+        },
+        {
+          "t": "?)"
+        }
+      ]
+    },
+    {
+      "id": "s0225",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "(Anyone?)",
+      "runs": [
+        {
+          "t": "(Anyone?)"
+        }
+      ]
+    },
+    {
+      "id": "s0226",
+      "kind": "para",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Jim Moore Voice Only",
+      "runs": [
+        {
+          "t": "Jim Moore Voice Only"
+        }
+      ]
+    },
+    {
+      "id": "s0227",
+      "kind": "para",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "encrypted",
+      "runs": [
+        {
+          "t": "encrypted"
+        }
+      ]
+    },
+    {
+      "id": "s0228",
+      "kind": "para",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Accept?",
+      "runs": [
+        {
+          "t": "Accept?"
+        }
+      ]
+    },
+    {
+      "id": "s0229",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "The text window blossomed directly in my line of sight, eclipsing the debate. I read it twice. I tried to remember the last time he'd called from the field, and couldn't.",
+      "runs": [
+        {
+          "t": "The text window blossomed directly in my line of sight, eclipsing the debate. I read it twice. I tried to remember the last time he'd called from the field, and couldn't."
+        }
+      ]
+    },
+    {
+      "id": "s0230",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "I muted the other windows. \"Dad?\"",
+      "runs": [
+        {
+          "t": "I muted the other windows. \"Dad?\""
+        }
+      ]
+    },
+    {
+      "id": "s0231",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Son,\" he replied after a moment. \"Are you well?\"",
+      "runs": [
+        {
+          "t": "\"Son,\" he replied after a moment. \"Are you well?\""
+        }
+      ]
+    },
+    {
+      "id": "s0232",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Like everyone else. Still wondering whether we should be celebrating or crapping our pants.\"",
+      "runs": [
+        {
+          "t": "\"Like everyone else. Still wondering whether we should be celebrating or crapping our pants.\""
+        }
+      ]
+    },
+    {
+      "id": "s0233",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "He didn't answer immediately. \"It's a big question, all right,\" he said at last.",
+      "runs": [
+        {
+          "t": "He didn't answer immediately. \"It's a big question, all right,\" he said at last."
+        }
+      ]
+    },
+    {
+      "id": "s0234",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"I don't suppose you could give me any advice? They're not telling us anything at ground level.\"",
+      "runs": [
+        {
+          "t": "\"I don't suppose you could give me any advice? They're not telling us anything at ground level.\""
+        }
+      ]
+    },
+    {
+      "id": "s0235",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "It was a rhetorical request. His silence was hardly necessary to make the point. \"I know,\" I added after a moment. \"Sorry. It's just, they're saying the Icarus Array went down, and—\"",
+      "runs": [
+        {
+          "t": "It was a rhetorical request. His silence was hardly necessary to make the point. \"I know,\" I added after a moment. \"Sorry. It's just, they're saying the Icarus Array went down, and—\""
+        }
+      ]
+    },
+    {
+      "id": "s0236",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"You know I can't—oh.\" My father paused. \"That's ridiculous. Icarus's fine.\"",
+      "runs": [
+        {
+          "t": "\"You know I can't—oh.\" My father paused. \"That's ridiculous. Icarus's fine.\""
+        }
+      ]
+    },
+    {
+      "id": "s0237",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"It is?\"",
+      "runs": [
+        {
+          "t": "\"It is?\""
+        }
+      ]
+    },
+    {
+      "id": "s0238",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "He seemed to be weighing his words. \"The Fireflies probably didn't even notice it. There's no particle trail as long as it stays offstream, and it would be buried in solar glare unless someone knew where to search.\"",
+      "runs": [
+        {
+          "t": "He seemed to be weighing his words. \"The Fireflies probably didn't even notice it. There's no particle trail as long as it stays offstream, and it would be buried in solar glare unless someone knew where to search.\""
+        }
+      ]
+    },
+    {
+      "id": "s0239",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "It was my turn to fall silent. This conversation felt suddenly wrong.",
+      "runs": [
+        {
+          "t": "It was my turn to fall silent. This conversation felt suddenly "
+        },
+        {
+          "t": "wrong",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0240",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Because when my father went on the job, he went dark. He never called his family.",
+      "runs": [
+        {
+          "t": "Because when my father went on the job, he went dark. He "
+        },
+        {
+          "t": "never",
+          "i": true
+        },
+        {
+          "t": " called his family."
+        }
+      ]
+    },
+    {
+      "id": "s0241",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Because even when my father came off the job, he never talked about it. It wouldn't matter whether the Icarus Array was still online or whether it had been shredded and thrown into the sun like a thousand kilometers of torn origami; he wouldn't tell either tale unless an official announcement had been made. Which—I refreshed an index window just to be sure— it hadn't.",
+      "runs": [
+        {
+          "t": "Because even when my father came "
+        },
+        {
+          "t": "off",
+          "i": true
+        },
+        {
+          "t": " the job, he never talked about it. It wouldn't matter whether the Icarus Array was still online or whether it had been shredded and thrown into the sun like a thousand kilometers of torn origami; he wouldn't tell either tale unless an official announcement had been made. Which—I refreshed an index window just to be sure— it hadn't."
+        }
+      ]
+    },
+    {
+      "id": "s0242",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Because while my father was a man of few words, he was not a man of frequent, indecisive pauses—and he had hesitated before each and every line he'd spoken in this exchange.",
+      "runs": [
+        {
+          "t": "Because while my father was a man of few words, he was "
+        },
+        {
+          "t": "not ",
+          "i": true
+        },
+        {
+          "t": "a man of frequent, indecisive pauses—and he had hesitated before each and every line he'd spoken in this exchange."
+        }
+      ]
+    },
+    {
+      "id": "s0243",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "I tugged ever-so-gently on the line—\"But they've sent ships.\"—and started counting.",
+      "runs": [
+        {
+          "t": "I tugged ever-so-gently on the line—\"But they've sent ships.\"—and started counting."
+        }
+      ]
+    },
+    {
+      "id": "s0244",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "One one-thousand, two one-thousand—",
+      "runs": [
+        {
+          "t": "One one-thousand, two one-thousand—",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0245",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Just a precaution. Icarus was overdue for a visit anyway. You don't swap out your whole grid without at least dropping in and kicking the new tires first.\"",
+      "runs": [
+        {
+          "t": "\"Just a precaution. Icarus was overdue for a visit anyway. You don't swap out your whole grid without at least dropping in and kicking the new tires first.\""
+        }
+      ]
+    },
+    {
+      "id": "s0246",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Nearly three seconds to respond.",
+      "runs": [
+        {
+          "t": "Nearly three seconds to respond."
+        }
+      ]
+    },
+    {
+      "id": "s0247",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"You're on the moon,\" I said.",
+      "runs": [
+        {
+          "t": "\"You're on the moon,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s0248",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Pause. \"Close enough.\"",
+      "runs": [
+        {
+          "t": "Pause. \"Close enough.\""
+        }
+      ]
+    },
+    {
+      "id": "s0249",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"What are you—Dad, why are you telling me this? Isn't this a security breach?\"",
+      "runs": [
+        {
+          "t": "\"What are you—Dad, why are you telling me this? Isn't this a security breach?\""
+        }
+      ]
+    },
+    {
+      "id": "s0250",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"You're going to get a call,\" he told me.",
+      "runs": [
+        {
+          "t": "\"You're going to get a call,\" he told me."
+        }
+      ]
+    },
+    {
+      "id": "s0251",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"From who? Why?\"",
+      "runs": [
+        {
+          "t": "\"From who? Why?\""
+        }
+      ]
+    },
+    {
+      "id": "s0252",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"They're assembling a team. The kind of—people you deal with.\" My father was too rational to dispute the contributions of the recons and hybrids in our midst, but he'd never been able to hide his mistrust of them.",
+      "runs": [
+        {
+          "t": "\"They're assembling a team. The kind of—people you deal with.\" My father was too rational to dispute the contributions of the recons and hybrids in our midst, but he'd never been able to hide his mistrust of them."
+        }
+      ]
+    },
+    {
+      "id": "s0253",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"They need a synthesist,\" he said.",
+      "runs": [
+        {
+          "t": "\"They need a synthesist,\" he said."
+        }
+      ]
+    },
+    {
+      "id": "s0254",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Isn't it lucky you've got one in the family.\"",
+      "runs": [
+        {
+          "t": "\"Isn't it lucky you've got one in the family.\""
+        }
+      ]
+    },
+    {
+      "id": "s0255",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Radio bounced back and forth. \"This isn't nepotism, Siri. I wanted very much for them to pick someone else.\"",
+      "runs": [
+        {
+          "t": "Radio bounced back and forth. \"This isn't nepotism, Siri. I wanted very much for them to pick someone else.\""
+        }
+      ]
+    },
+    {
+      "id": "s0256",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Thanks for the vote of conf—\"",
+      "runs": [
+        {
+          "t": "\"Thanks for the vote of conf—\""
+        }
+      ]
+    },
+    {
+      "id": "s0257",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "But he'd seen it coming, and preempted me before my words could cross the distance: \"It's not a slap at your abilities and you know it. You're simply the most qualified, and the work is vital.\"",
+      "runs": [
+        {
+          "t": "But he'd seen it coming, and preempted me before my words could cross the distance: \"It's not a slap at your abilities and you know it. You're simply the most qualified, and the work is vital.\""
+        }
+      ]
+    },
+    {
+      "id": "s0258",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"So why—\" I began, and stopped. He wouldn't want to keep me away from some theoretical gig in a WestHem lab.",
+      "runs": [
+        {
+          "t": "\"So why—\" I began, and stopped. He wouldn't want to keep me away from some theoretical gig in a WestHem lab."
+        }
+      ]
+    },
+    {
+      "id": "s0259",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"What's this about, Dad?\"",
+      "runs": [
+        {
+          "t": "\"What's this about, Dad?\""
+        }
+      ]
+    },
+    {
+      "id": "s0260",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"The Fireflies. They found something.\"",
+      "runs": [
+        {
+          "t": "\"The Fireflies. They found something.\""
+        }
+      ]
+    },
+    {
+      "id": "s0261",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"What?\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "What",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s0262",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"A radio signal. From the Kuiper. We traced the bearing.\"",
+      "runs": [
+        {
+          "t": "\"A radio signal. From the Kuiper. We traced the bearing.\""
+        }
+      ]
+    },
+    {
+      "id": "s0263",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"They're talking?\"",
+      "runs": [
+        {
+          "t": "\"They're "
+        },
+        {
+          "t": "talking",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s0264",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Not to us.\" He cleared his throat. \"It was something of a fluke that we even intercepted the transmission.\"",
+      "runs": [
+        {
+          "t": "\"Not to us.\" He cleared his throat. \"It was something of a fluke that we even intercepted the transmission.\""
+        }
+      ]
+    },
+    {
+      "id": "s0265",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Who are they talking to?\"",
+      "runs": [
+        {
+          "t": "\"Who are they talking to?\""
+        }
+      ]
+    },
+    {
+      "id": "s0266",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"We don't know.\"",
+      "runs": [
+        {
+          "t": "\"We don't know.\""
+        }
+      ]
+    },
+    {
+      "id": "s0267",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Friendly? Hostile?\"",
+      "runs": [
+        {
+          "t": "\"Friendly? Hostile?\""
+        }
+      ]
+    },
+    {
+      "id": "s0268",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Son, we don't know. The encryption seems similar, but we can't even be sure of that. All we have is the location.\"",
+      "runs": [
+        {
+          "t": "\"Son, we don't "
+        },
+        {
+          "t": "know",
+          "i": true
+        },
+        {
+          "t": ". The encryption seems similar, but we can't even be sure of that. All we have is the location.\""
+        }
+      ]
+    },
+    {
+      "id": "s0269",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"So you're sending a team.\" You're sending me. We'd never gone to the Kuiper before. It had been decades since we'd even sent robots. Not that we lacked the capacity. We just hadn't bothered; everything we needed was so much closer to home. The Interplanetary Age had stagnated at the asteroids.",
+      "runs": [
+        {
+          "t": "\"So you're sending a team.\" "
+        },
+        {
+          "t": "You're sending ",
+          "i": true
+        },
+        {
+          "t": "me. We'd never gone to the Kuiper before. It had been decades since we'd even sent robots. Not that we lacked the capacity. We just hadn't bothered; everything we needed was so much closer to home. The Interplanetary Age had stagnated at the asteroids."
+        }
+      ]
+    },
+    {
+      "id": "s0270",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "But now something lurked at the furthest edge of our backyard, calling into the void. Maybe it was talking to some other solar system. Maybe it was talking to something closer, something en route.",
+      "runs": [
+        {
+          "t": "But now something lurked at the furthest edge of our backyard, calling into the void. Maybe it was talking to some other solar system. Maybe it was talking to something closer, something "
+        },
+        {
+          "t": "en route",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0271",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"It's not the kind of situation we can safely ignore,\" my father said.",
+      "runs": [
+        {
+          "t": "\"It's not the kind of situation we can safely ignore,\" my father said."
+        }
+      ]
+    },
+    {
+      "id": "s0272",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"What about probes?\"",
+      "runs": [
+        {
+          "t": "\"What about probes?\""
+        }
+      ]
+    },
+    {
+      "id": "s0273",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Of course. But we can't wait for them to report back. The follow-up's been fast-tracked; updates can be sent en route.\"",
+      "runs": [
+        {
+          "t": "\"Of course. But we can't wait for them to report back. The follow-up's been fast-tracked; updates can be sent en route.\""
+        }
+      ]
+    },
+    {
+      "id": "s0274",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "He gave me a few extra seconds to digest that. When I still didn't speak, he said, \"You have to understand. Our only edge is that as far as we know, Burns-Caulfield doesn't know we're on to it. We have to get as much as we can in whatever window of opportunity that grants us.\"",
+      "runs": [
+        {
+          "t": "He gave me a few extra seconds to digest that. When I still didn't speak, he said, \"You have to understand. Our only edge is that as far as we know, Burns-Caulfield doesn't know we're on to it. We have to get as much as we can in whatever window of opportunity that grants us.\""
+        }
+      ]
+    },
+    {
+      "id": "s0275",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "But Burns-Caulfield had hidden itself. Burns-Caulfield might not welcome a forced introduction.",
+      "runs": [
+        {
+          "t": "But "
+        },
+        {
+          "t": "Burns-Caulfield",
+          "i": true
+        },
+        {
+          "t": " had hidden itself. "
+        },
+        {
+          "t": "Burns-Caulfield ",
+          "i": true
+        },
+        {
+          "t": "might not welcome a forced introduction."
+        }
+      ]
+    },
+    {
+      "id": "s0276",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"What if I refuse?\"",
+      "runs": [
+        {
+          "t": "\"What if I refuse?\""
+        }
+      ]
+    },
+    {
+      "id": "s0277",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "The timelag seemed to say Mars.",
+      "runs": [
+        {
+          "t": "The timelag seemed to say "
+        },
+        {
+          "t": "Mars",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0278",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"I know you, son. You won't.\"",
+      "runs": [
+        {
+          "t": "\"I know you, son. You won't.\""
+        }
+      ]
+    },
+    {
+      "id": "s0279",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"But if I did. If I'm the best qualified, if the job's so vital…\"",
+      "runs": [
+        {
+          "t": "\"But if I "
+        },
+        {
+          "t": "did",
+          "i": true
+        },
+        {
+          "t": ". If I'm the best qualified, if the job's so vital…\""
+        }
+      ]
+    },
+    {
+      "id": "s0280",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "He didn't have to answer. I didn't have to ask. At these kind of stakes, mission-critical elements didn't get the luxury of choice. I wouldn't even have the childish satisfaction of holding my breath and refusing to play—the will to resist is no less mechanical than the urge to breathe. Both can be subverted with the right neurochemical keys.",
+      "runs": [
+        {
+          "t": "He didn't have to answer. I didn't have to ask. At these kind of stakes, mission-critical elements didn't get the luxury of choice. I wouldn't even have the childish satisfaction of holding my breath and refusing to play—the will to resist is no less mechanical than the urge to breathe. Both can be subverted with the right neurochemical keys."
+        }
+      ]
+    },
+    {
+      "id": "s0281",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"You killed my Kurzweill contract,\" I realized.",
+      "runs": [
+        {
+          "t": "\"You killed my Kurzweill contract,\" I realized."
+        }
+      ]
+    },
+    {
+      "id": "s0282",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"That's the least of what we did.\"",
+      "runs": [
+        {
+          "t": "\"That's the least of what we did.\""
+        }
+      ]
+    },
+    {
+      "id": "s0283",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "We let the vacuum between us speak for a while.",
+      "runs": [
+        {
+          "t": "We let the vacuum between us speak for a while."
+        }
+      ]
+    },
+    {
+      "id": "s0284",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"If I could go back and undo the—the thing that made you what you are,\" Dad said after a while, \"I would. In a second.\"",
+      "runs": [
+        {
+          "t": "\"If I could go back and undo the—the thing that made you what you are,\" Dad said after a while, \"I would. In a second.\""
+        }
+      ]
+    },
+    {
+      "id": "s0285",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Yeah.\"",
+      "runs": [
+        {
+          "t": "\"Yeah.\""
+        }
+      ]
+    },
+    {
+      "id": "s0286",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"I have to go. I just wanted to give you the heads-up.\"",
+      "runs": [
+        {
+          "t": "\"I have to go. I just wanted to give you the heads-up.\""
+        }
+      ]
+    },
+    {
+      "id": "s0287",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Yeah. Thanks.\"",
+      "runs": [
+        {
+          "t": "\"Yeah. Thanks.\""
+        }
+      ]
+    },
+    {
+      "id": "s0288",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"I love you, son.\"",
+      "runs": [
+        {
+          "t": "\"I love you, son.\""
+        }
+      ]
+    },
+    {
+      "id": "s0289",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "Where are you? Are you coming back?",
+      "runs": [
+        {
+          "t": "Where are you? Are you coming back?",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0290",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 8,
+      "text": "\"Thanks,\" I said again. \"That's good to know.\"",
+      "runs": [
+        {
+          "t": "\"Thanks,\" I said again. \"That's good to know.\""
+        }
+      ]
+    },
+    {
+      "id": "s0291",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

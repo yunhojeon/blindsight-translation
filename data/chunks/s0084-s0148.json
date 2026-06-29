@@ -1,0 +1,1086 @@
+{
+  "chunk_id": "s0084-s0148",
+  "part": "Theseus",
+  "first": "s0084",
+  "last": "s0148",
+  "n_segments": 65,
+  "words": 2771,
+  "segments": [
+    {
+      "id": "s0084",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "He'd given us four hours to come back. It took more than three just to get me out of the crypt. By then my brain was at least firing on most of its synapses, although my body—still sucking fluids like a thirsty sponge— continued to ache with every movement. I swapped out drained electrolyte bags for fresh ones and headed aft.",
+      "runs": [
+        {
+          "t": "He'd given us four hours to come back. It took more than three just to get me out of the crypt. By then my brain was at least firing on most of its synapses, although my body—still sucking fluids like a thirsty sponge— continued to ache with every movement. I swapped out drained electrolyte bags for fresh ones and headed aft."
+        }
+      ]
+    },
+    {
+      "id": "s0085",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Fifteen minutes to spin-up. Fifty to the post-resurrection briefing. Just enough time for those who preferred gravity-bound sleep to haul their personal effects into the drum and stake out their allotted 4.4 square meters of floor space.",
+      "runs": [
+        {
+          "t": "Fifteen minutes to spin-up. Fifty to the post-resurrection briefing. Just enough time for those who preferred gravity-bound sleep to haul their personal effects into the drum and stake out their allotted 4.4 square meters of floor space."
+        }
+      ]
+    },
+    {
+      "id": "s0086",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Gravity—or any centripetal facsimile thereof—did not appeal to me. I set up my own tent in zero-gee and as far to stern as possible, nuzzling the forward wall of the starboard shuttle tube. The tent inflated like an abscess on Theseus' spine, a little climate-controlled bubble of atmosphere in the dark cavernous vacuum beneath the ship's carapace. My own effects were minimal; it took all of thirty seconds to stick them to the wall, and another thirty to program the tent's environment.",
+      "runs": [
+        {
+          "t": "Gravity—or any centripetal facsimile thereof—did not appeal to me. I set up my own tent in zero-gee and as far to stern as possible, nuzzling the forward wall of the starboard shuttle tube. The tent inflated like an abscess on "
+        },
+        {
+          "t": "Theseus'",
+          "i": true
+        },
+        {
+          "t": " spine, a little climate-controlled bubble of atmosphere in the dark cavernous vacuum beneath the ship's carapace. My own effects were minimal; it took all of thirty seconds to stick them to the wall, and another thirty to program the tent's environment."
+        }
+      ]
+    },
+    {
+      "id": "s0087",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Afterwards I went for a hike. After five years, I needed the exercise.",
+      "runs": [
+        {
+          "t": "Afterwards I went for a hike. After five years, I needed the exercise."
+        }
+      ]
+    },
+    {
+      "id": "s0088",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Stern was closest, so I started there: at the shielding that separated payload from propulsion. A single sealed hatch blistered the aft bulkhead dead center. Behind it, a service tunnel wormed back through machinery best left untouched by human hands. The fat superconducting torus of the ramscoop ring; the antennae fan behind it, unwound now into an indestructible soap-bubble big enough to shroud a city, its face turned sunward to catch the faint quantum sparkle of the Icarus antimatter stream. More shielding behind that; then the telematter reactor, where raw hydrogen and refined information conjured fire three hundred times hotter than the sun's. I knew the incantations, of course—antimatter cracking and deconstruction, the teleportation of quantum serial numbers—but it was still magic to me, how we'd come so far so fast. It would have been magic to anyone.",
+      "runs": [
+        {
+          "t": "Stern was closest, so I started there: at the shielding that separated payload from propulsion. A single sealed hatch blistered the aft bulkhead dead center. Behind it, a service tunnel wormed back through machinery best left untouched by human hands. The fat superconducting torus of the ramscoop ring; the antennae fan behind it, unwound now into an indestructible soap-bubble big enough to shroud a city, its face turned sunward to catch the faint quantum sparkle of the Icarus antimatter stream. More shielding behind that; then the telematter reactor, where raw hydrogen and refined information conjured fire three hundred times hotter than the sun's. I knew the incantations, of course—antimatter cracking and deconstruction, the teleportation of quantum serial numbers—but it was still magic to me, how we'd come so far so fast. It would have been magic to anyone."
+        }
+      ]
+    },
+    {
+      "id": "s0089",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Except Sarasti, maybe.",
+      "runs": [
+        {
+          "t": "Except Sarasti, maybe."
+        }
+      ]
+    },
+    {
+      "id": "s0090",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Around me, the same magic worked at cooler temperatures and to less volatile ends: a small riot of chutes and dispensers crowded the bulkhead on all sides. A few of those openings would choke on my fist: one or two could swallow me whole. Theseus' fabrication plant could build everything from cutlery to cockpits. Give it a big enough matter stockpile and it could have even been built another Theseus, albeit in many small pieces and over a very long time. Some wondered if it could build another crew as well, although we'd all been assured that was impossible. Not even these machines had fine enough fingers to reconstruct a few trillion synapses in the space of a human skull. Not yet, anyway.",
+      "runs": [
+        {
+          "t": "Around me, the same magic worked at cooler temperatures and to less volatile ends: a small riot of chutes and dispensers crowded the bulkhead on all sides. A few of those openings would choke on my fist: one or two could swallow me whole. "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' fabrication plant could build everything from cutlery to cockpits. Give it a big enough matter stockpile and it could have even been built another "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ", albeit in many small pieces and over a very long time. Some wondered if it could build another crew as well, although we'd all been assured that was impossible. Not even these machines had fine enough fingers to reconstruct a few trillion synapses in the space of a human skull. Not yet, anyway."
+        }
+      ]
+    },
+    {
+      "id": "s0091",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I believed it. They would never have shipped us out fully-assembled if there'd been a cheaper alternative.",
+      "runs": [
+        {
+          "t": "I believed it. They would never have shipped us out fully-assembled if there'd been a cheaper alternative."
+        }
+      ]
+    },
+    {
+      "id": "s0092",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I faced forward. Putting the back of my head against that sealed hatch I could see almost to Theseus' bow, an uninterrupted line-of-sight extending to a tiny dark bull's-eye thirty meters ahead. It was like staring at a great textured target in shades of white and gray: concentric circles, hatches centered within bulkheads one behind another, perfectly aligned. Every one stood open, in nonchalant defiance of a previous generation's safety codes. We could keep them closed if we wanted to, if it made us feel safer. That was all it would do, though; it wouldn't improve our empirical odds one whit. In the event of trouble those hatches would slam shut long milliseconds before Human senses could even make sense of an alarm. They weren't even computer-controlled. Theseus' body parts had reflexes.",
+      "runs": [
+        {
+          "t": "I faced forward. Putting the back of my head against that sealed hatch I could see almost to "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' bow, an uninterrupted line-of-sight extending to a tiny dark bull's-eye thirty meters ahead. It was like staring at a great textured target in shades of white and gray: concentric circles, hatches centered within bulkheads one behind another, perfectly aligned. Every one stood open, in nonchalant defiance of a previous generation's safety codes. We could keep them closed if we wanted to, if it made us feel safer. That was all it would do, though; it wouldn't improve our empirical odds one whit. In the event of trouble those hatches would slam shut long milliseconds before Human senses could even make sense of an alarm. They weren't even computer-controlled. "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' body parts had "
+        },
+        {
+          "t": "reflexes",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0093",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I pushed off against the stern plating—wincing at the tug and stretch of disused tendons—and coasted forward, leaving Fab behind. The shuttle-access hatches to Scylla and Charybdis briefly constricted my passage to either side. Past them the spine widened into a corrugated extensible cylinder two meters across and—at the moment—maybe fifteen long. A pair of ladders ran opposite each other along its length; raised portholes the size of manhole covers stippled the bulkhead to either side. Most of those just looked into the hold. A couple served as general-purpose airlocks, should anyone want to take a stroll beneath the carapace. One opened into my tent. Another, four meters further forward, opened into Bates'.",
+      "runs": [
+        {
+          "t": "I pushed off against the stern plating—wincing at the tug and stretch of disused tendons—and coasted forward, leaving Fab behind. The shuttle-access hatches to "
+        },
+        {
+          "t": "Scylla",
+          "i": true
+        },
+        {
+          "t": " and "
+        },
+        {
+          "t": "Charybdis",
+          "i": true
+        },
+        {
+          "t": " briefly constricted my passage to either side. Past them the spine widened into a corrugated extensible cylinder two meters across and—at the moment—maybe fifteen long. A pair of ladders ran opposite each other along its length; raised portholes the size of manhole covers stippled the bulkhead to either side. Most of those just looked into the hold. A couple served as general-purpose airlocks, should anyone want to take a stroll beneath the carapace. One opened into my tent. Another, four meters further forward, opened into Bates'."
+        }
+      ]
+    },
+    {
+      "id": "s0094",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "From a third, just short of the forward bulkhead, Jukka Sarasti climbed into view like a long white spider.",
+      "runs": [
+        {
+          "t": "From a third, just short of the forward bulkhead, Jukka Sarasti climbed into view like a long white spider."
+        }
+      ]
+    },
+    {
+      "id": "s0095",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "If he'd been Human I'd have known instantly what I saw there, I'd have smelled murderer all over his topology. And I wouldn't have been able to even guess at the number of his victims, because his affect was so utterly without remorse. The killing of a hundred would leave no more stain on Sarasti's surfaces than the swatting of an insect; guilt beaded and rolled off this creature like water on wax.",
+      "runs": [
+        {
+          "t": "If he'd been Human I'd have known instantly what I saw there, I'd have smelled "
+        },
+        {
+          "t": "murderer",
+          "i": true
+        },
+        {
+          "t": " all over his topology. And I wouldn't have been able to even guess at the number of his victims, because his affect was so utterly without remorse. The killing of a hundred would leave no more stain on Sarasti's surfaces than the swatting of an insect; guilt beaded and rolled off this creature like water on wax."
+        }
+      ]
+    },
+    {
+      "id": "s0096",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "But Sarasti wasn't human. Sarasti was a whole different animal, and coming from him all those homicidal refractions meant nothing more than predator. He had the inclination, was born to it; whether he had ever acted on it was between him and Mission Control.",
+      "runs": [
+        {
+          "t": "But Sarasti wasn't human. Sarasti was a whole different animal, and coming from him all those homicidal refractions meant nothing more than "
+        },
+        {
+          "t": "predator",
+          "i": true
+        },
+        {
+          "t": ". He had the inclination, was born to it; whether he had ever acted on it was between him and Mission Control."
+        }
+      ]
+    },
+    {
+      "id": "s0097",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Maybe they cut you some slack, I didn't say to him. Maybe it's just a cost of doing business. You're mission-critical, after all. For all I know you cut a deal. You're so very smart, you know we wouldn't have brought you back in the first place if we hadn't needed you. From the day they cracked the vat you knew you had leverage.",
+      "runs": [
+        {
+          "t": "Maybe they cut you some slack",
+          "i": true
+        },
+        {
+          "t": ", I didn't say to him. "
+        },
+        {
+          "t": "Maybe it's just a cost of doing business. You're mission-critical, after all. For all I know you cut a deal. You're so very smart, you know we wouldn't have brought you back in the first place if we hadn't ",
+          "i": true
+        },
+        {
+          "t": "needed"
+        },
+        {
+          "t": " you. From the day they cracked the vat you knew you had leverage.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0098",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Is that how it works, Jukka? You save the world, and the folks who hold your leash agree to look the other way?",
+      "runs": [
+        {
+          "t": "Is that how it works, Jukka? You save the world, and the folks who hold your leash agree to look the other way?",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0099",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "As a child I'd read tales about jungle predators transfixing their prey with a stare. Only after I'd met Jukka Sarasti did I know how it felt. But he wasn't looking at me now. He was focused on installing his own tent, and even if he had looked me in the eye there'd have been nothing to see but the dark wraparound visor he wore in deference to Human skittishness. He ignored me as I grabbed a nearby rung and squeezed past.",
+      "runs": [
+        {
+          "t": "As a child I'd read tales about jungle predators transfixing their prey with a stare. Only after I'd met Jukka Sarasti did I know how it felt. But he wasn't looking at me now. He was focused on installing his own tent, and even if he "
+        },
+        {
+          "t": "had",
+          "i": true
+        },
+        {
+          "t": " looked me in the eye there'd have been nothing to see but the dark wraparound visor he wore in deference to Human skittishness. He ignored me as I grabbed a nearby rung and squeezed past."
+        }
+      ]
+    },
+    {
+      "id": "s0100",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I could have sworn I smelled raw meat on his breath.",
+      "runs": [
+        {
+          "t": "I could have sworn I smelled raw meat on his breath."
+        }
+      ]
+    },
+    {
+      "id": "s0101",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Into the drum (drums, technically; the BioMed hoop at the back spun on its own bearings). I flew through the center of a cylinder sixteen meters across. Theseus' spinal nerves ran along its axis, the exposed plexii and piping bundled against the ladders on either side. Past them, Szpindel's and James' freshly-erected tents rose from nooks on opposite sides of the world. Szpindel himself floated off my shoulder, still naked but for his gloves, and I could tell from the way his fingers moved that his favorite color was green. He anchored himself to one of three stairways to nowhere arrayed around the drum: steep narrow steps rising five vertical meters from the deck into empty air.",
+      "runs": [
+        {
+          "t": "Into the drum ("
+        },
+        {
+          "t": "drums",
+          "i": true
+        },
+        {
+          "t": ", technically; the BioMed hoop at the back spun on its own bearings). I flew through the center of a cylinder sixteen meters across. "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' spinal nerves ran along its axis, the exposed plexii and piping bundled against the ladders on either side. Past them, Szpindel's and James' freshly-erected tents rose from nooks on opposite sides of the world. Szpindel himself floated off my shoulder, still naked but for his gloves, and I could tell from the way his fingers moved that his favorite color was green. He anchored himself to one of three stairways to nowhere arrayed around the drum: steep narrow steps rising five vertical meters from the deck into empty air."
+        }
+      ]
+    },
+    {
+      "id": "s0102",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "The next hatch gaped dead-center of the drum's forward wall; pipes and conduits plunged into the bulkhead to each side. I grabbed a convenient rung to slow myself—biting down once more on the pain—and floated through.",
+      "runs": [
+        {
+          "t": "The next hatch gaped dead-center of the drum's forward wall; pipes and conduits plunged into the bulkhead to each side. I grabbed a convenient rung to slow myself—biting down once more on the pain—and floated through."
+        }
+      ]
+    },
+    {
+      "id": "s0103",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "T-junction. The spinal corridor continued forward, a smaller diverticulum branched off to an EVA cubby and the forward airlock. I stayed the course and found myself back in the crypt, mirror-bright and less than two meters deep. Empty pods gaped to the left; sealed ones huddled to the right. We were so irreplaceable we'd come with replacements. They slept on, oblivious. I'd met three of them back in training. Hopefully none of us would be getting reacquainted any time soon.",
+      "runs": [
+        {
+          "t": "T-junction. The spinal corridor continued forward, a smaller diverticulum branched off to an EVA cubby and the forward airlock. I stayed the course and found myself back in the crypt, mirror-bright and less than two meters deep. Empty pods gaped to the left; sealed ones huddled to the right. We were so irreplaceable we'd come with replacements. They slept on, oblivious. I'd met three of them back in training. Hopefully none of us would be getting reacquainted any time soon."
+        }
+      ]
+    },
+    {
+      "id": "s0104",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Only four pods to starboard, though. No backup for Sarasti.",
+      "runs": [
+        {
+          "t": "Only four pods to starboard, though. No backup for Sarasti."
+        }
+      ]
+    },
+    {
+      "id": "s0105",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Another hatchway. Smaller this time. I squeezed through into the bridge. Dim light there, a silent shifting mosaic of icons and alphanumerics iterating across dark glassy surfaces. Not so much bridge as cockpit, and a cramped one at that. I'd emerged between two acceleration couches, each surrounded by a horseshoe array of controls and readouts. Nobody expected to ever use this compartment. Theseus was perfectly capable of running herself, and if she wasn't we were capable of running her from our inlays, and if we weren't the odds were overwhelming that we were all dead anyway. Still, against that astronomically off-the-wall chance, this was where one or two intrepid survivors could pilot the ship home again after everything else had failed.",
+      "runs": [
+        {
+          "t": "Another hatchway. Smaller this time. I squeezed through into the bridge. Dim light there, a silent shifting mosaic of icons and alphanumerics iterating across dark glassy surfaces. Not so much bridge as cockpit, and a cramped one at that. I'd emerged between two acceleration couches, each surrounded by a horseshoe array of controls and readouts. Nobody expected to ever "
+        },
+        {
+          "t": "use ",
+          "i": true
+        },
+        {
+          "t": "this compartment. "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " was perfectly capable of running herself, and if she wasn't we were capable of running her from our inlays, and if we weren't the odds were overwhelming that we were all dead anyway. Still, against that astronomically off-the-wall chance, this was where one or two intrepid survivors could pilot the ship home again after everything else had failed."
+        }
+      ]
+    },
+    {
+      "id": "s0106",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Between the footwells the engineers had crammed one last hatch and one last passageway: to the observation blister on Theseus' prow. I hunched my shoulders (tendons cracked and complained) and pushed through—",
+      "runs": [
+        {
+          "t": "Between the footwells the engineers had crammed one last hatch and one last passageway: to the observation blister on "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' prow. I hunched my shoulders (tendons cracked and complained) and pushed through—"
+        }
+      ]
+    },
+    {
+      "id": "s0107",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "—into darkness. Clamshell shielding covered the outside of the dome like a pair of eyelids squeezed tight. A single icon glowed softly from a touchpad to my left; faint stray light followed me through from the spine, brushed dim fingers across the concave enclosure. The dome resolved in faint shades of blue and gray as my eyes adjusted. A stale draft stirred the webbing floating from the rear bulkhead, mixed oil and machinery at the back of my throat. Buckles clicked faintly in the breeze like impoverished wind chimes.",
+      "runs": [
+        {
+          "t": "—into darkness. Clamshell shielding covered the outside of the dome like a pair of eyelids squeezed tight. A single icon glowed softly from a touchpad to my left; faint stray light followed me through from the spine, brushed dim fingers across the concave enclosure. The dome resolved in faint shades of blue and gray as my eyes adjusted. A stale draft stirred the webbing floating from the rear bulkhead, mixed oil and machinery at the back of my throat. Buckles clicked faintly in the breeze like impoverished wind chimes."
+        }
+      ]
+    },
+    {
+      "id": "s0108",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I reached out and touched the crystal: the innermost layer of two, warm air piped through the gap between to cut the cold. Not completely, though. My fingertips chilled instantly.",
+      "runs": [
+        {
+          "t": "I reached out and touched the crystal: the innermost layer of two, warm air piped through the gap between to cut the cold. Not completely, though. My fingertips chilled instantly."
+        }
+      ]
+    },
+    {
+      "id": "s0109",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Space out there.",
+      "runs": [
+        {
+          "t": "Space out there."
+        }
+      ]
+    },
+    {
+      "id": "s0110",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Perhaps, en route to our original destination, Theseus had seen something that scared her clear out of the solar system. More likely she hadn't been running away from anything but to something else, something that hadn't been discovered until we'd already died and gone from Heaven. In which case...",
+      "runs": [
+        {
+          "t": "Perhaps, en route to our original destination, "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " had seen something that scared her clear out of the solar system. More likely she hadn't been running away from anything but "
+        },
+        {
+          "t": "to",
+          "i": true
+        },
+        {
+          "t": " something else, something that hadn't been discovered until we'd already died and gone from Heaven. In which case..."
+        }
+      ]
+    },
+    {
+      "id": "s0111",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I reached back and tapped the touchpad. I half-expected nothing to happen; Theseus' windows could be as easily locked as her comm logs. But the dome split instantly before me, a crack then a crescent then a wide-eyed lidless stare as the shielding slid smoothly back into the hull. My fingers clenched reflexively into a fistful of webbing. The sudden void stretched empty and unforgiving in all directions, and there was nothing to cling to but a metal disk barely four meters across.",
+      "runs": [
+        {
+          "t": "I reached back and tapped the touchpad. I half-expected nothing to happen; "
+        },
+        {
+          "t": "Theseus'",
+          "i": true
+        },
+        {
+          "t": " windows could be as easily locked as her comm logs. But the dome split instantly before me, a crack then a crescent then a wide-eyed lidless stare as the shielding slid smoothly back into the hull. My fingers clenched reflexively into a fistful of webbing. The sudden void stretched empty and unforgiving in all directions, and there was nothing to cling to but a metal disk barely four meters across."
+        }
+      ]
+    },
+    {
+      "id": "s0112",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Stars, everywhere. So many stars that I could not for the life me understand how the sky could contain them all yet be so black. Stars, and—",
+      "runs": [
+        {
+          "t": "Stars, everywhere. So many stars that I could not for the life me understand how the sky could contain them all yet be so black. Stars, and—"
+        }
+      ]
+    },
+    {
+      "id": "s0113",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "—nothing else.",
+      "runs": [
+        {
+          "t": "—nothing else."
+        }
+      ]
+    },
+    {
+      "id": "s0114",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "What did you expect? I chided myself. An alien mothership hanging off the starboard bow?",
+      "runs": [
+        {
+          "t": "What did you expect? ",
+          "i": true
+        },
+        {
+          "t": "I chided myself. "
+        },
+        {
+          "t": "An alien mothership hanging off the starboard bow?",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0115",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Well, why not? We were out here for something.",
+      "runs": [
+        {
+          "t": "Well, why not? We were out here for "
+        },
+        {
+          "t": "something",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0116",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "The others were, anyway. They'd be essential no matter where we'd ended up. But my own situation was a bit different, I realized. My usefulness degraded with distance.",
+      "runs": [
+        {
+          "t": "The others were, anyway. They'd be essential no matter where we'd ended up. But my own situation was a bit different, I realized. "
+        },
+        {
+          "t": "My",
+          "i": true
+        },
+        {
+          "t": " usefulness degraded with distance."
+        }
+      ]
+    },
+    {
+      "id": "s0117",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "And we were over half a light year from home.",
+      "runs": [
+        {
+          "t": "And we were over half a light year from home."
+        }
+      ]
+    },
+    {
+      "id": "s0118",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"When it is dark enough, you can see the stars.\"",
+      "runs": [
+        {
+          "t": "\"When it is dark enough, you can see the stars.\""
+        }
+      ]
+    },
+    {
+      "id": "s0119",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "—Emerson",
+      "runs": [
+        {
+          "t": "—Emerson"
+        }
+      ]
+    },
+    {
+      "id": "s0120",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Where was I when the lights came down?",
+      "runs": [
+        {
+          "t": "Where was I when the lights came down?"
+        }
+      ]
+    },
+    {
+      "id": "s0121",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I was emerging from the gates of Heaven, mourning a father who was—to his own mind, at least—still alive.",
+      "runs": [
+        {
+          "t": "I was emerging from the gates of Heaven, mourning a father who was—to his own mind, at least—still alive."
+        }
+      ]
+    },
+    {
+      "id": "s0122",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "It had been scarcely two months since Helen had disappeared under the cowl. Two months by our reckoning, at least. From her perspective it could have been a day or a decade; the Virtually Omnipotent set their subjective clocks along with everything else.",
+      "runs": [
+        {
+          "t": "It had been scarcely two months since Helen had disappeared under the cowl. Two months by our reckoning, at least. From her perspective it could have been a day or a decade; the Virtually Omnipotent set their subjective clocks along with everything else."
+        }
+      ]
+    },
+    {
+      "id": "s0123",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "She wasn't coming back. She would only deign to see her husband under conditions that amounted to a slap in the face. He didn't complain. He visited as often as she would allow: twice a week, then once. Then every two. Their marriage decayed with the exponential determinism of a radioactive isotope and still he sought her out, and accepted her conditions.",
+      "runs": [
+        {
+          "t": "She wasn't coming back. She would only deign to see her husband under conditions that amounted to a slap in the face. He didn't complain. He visited as often as she would allow: twice a week, then once. Then every two. Their marriage decayed with the exponential determinism of a radioactive isotope and still he sought her out, and accepted her conditions."
+        }
+      ]
+    },
+    {
+      "id": "s0124",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "On the day the lights came down, I had joined him at my mother's side. It was a special occasion, the last time we would ever see her in the flesh. For two months her body had lain in state along with five hundred other new ascendants on the ward, open for viewing by the next of kin. The interface was no more real than it would ever be, of course; the body could not talk to us. But at least it was there, its flesh warm, the sheets clean and straight. Helen's lower face was still visible below the cowl, though eyes and ears were helmeted. We could touch her. My father often did. Perhaps some distant part of her still felt it.",
+      "runs": [
+        {
+          "t": "On the day the lights came down, I had joined him at my mother's side. It was a special occasion, the last time we would ever see her in the flesh. For two months her body had lain in state along with five hundred other new ascendants on the ward, open for viewing by the next of kin. The interface was no more real than it would ever be, of course; the body could not talk to us. But at least it was "
+        },
+        {
+          "t": "there",
+          "i": true
+        },
+        {
+          "t": ", its flesh warm, the sheets clean and straight. Helen's lower face was still visible below the cowl, though eyes and ears were helmeted. We could touch her. My father often did. Perhaps some distant part of her still felt it."
+        }
+      ]
+    },
+    {
+      "id": "s0125",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "But eventually someone has to close the casket and dispose of the remains. Room must be made for the new arrivals—and so we came to this last day at my mother's side. Jim took her hand one more time. She would still be available in her world, on her terms, but later this day the body would be packed into storage facilities crowded far too efficiently for flesh and blood visitors. We had been assured that the body would remain intact—the muscles electrically exercised, the body flexed and fed, the corpus kept ready to return to active duty should Heaven experience some inconceivable and catastrophic meltdown. Everything was reversible, we were told. And yet—there were so many who had ascended, and not even the deepest catacombs go on forever. There were rumors of dismemberment, of nonessential body parts hewn away over time according to some optimum-packing algorithm. Perhaps Helen would be a torso this time next year, a disembodied head the year after. Perhaps her chassis would be stripped down to the brain before we'd even left the building, awaiting only that final technological breakthrough that would herald the arrival of the Great Digital Upload.",
+      "runs": [
+        {
+          "t": "But eventually someone has to close the casket and dispose of the remains. Room must be made for the new arrivals—and so we came to this last day at my mother's side. Jim took her hand one more time. She would still be available in her world, on her terms, but later this day the body would be packed into storage facilities crowded far too efficiently for flesh and blood visitors. We had been assured that the body would remain intact—the muscles electrically exercised, the body flexed and fed, the corpus kept ready to return to active duty should Heaven experience some inconceivable and catastrophic meltdown. Everything was reversible, we were told. And yet—there were so many who had ascended, and not even the deepest catacombs go on forever. There were rumors of dismemberment, of nonessential body parts hewn away over time according to some optimum-packing algorithm. Perhaps Helen would be a torso this time next year, a disembodied head the year after. Perhaps her chassis would be stripped down to the brain before we'd even left the building, awaiting only that final technological breakthrough that would herald the arrival of the Great Digital Upload."
+        }
+      ]
+    },
+    {
+      "id": "s0126",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Rumors, as I say. I personally didn't know of anyone who'd come back after ascending, but then why would anyone want to? Not even Lucifer left Heaven until he was pushed.",
+      "runs": [
+        {
+          "t": "Rumors, as I say. I personally didn't know of anyone who'd come back after ascending, but then why would anyone want to? Not even Lucifer left Heaven until he was pushed."
+        }
+      ]
+    },
+    {
+      "id": "s0127",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Dad might have known for sure—Dad knew more than most people, about the things most people weren't supposed to know—but he never told tales out of turn. Whatever he knew, he'd obviously decided its disclosure wouldn't have changed Helen's mind. That would have been enough for him.",
+      "runs": [
+        {
+          "t": "Dad might have known for sure—Dad knew more than most people, about the things most people weren't supposed to know—but he never told tales out of turn. Whatever he knew, he'd obviously decided its disclosure wouldn't have changed Helen's mind. That would have been enough for him."
+        }
+      ]
+    },
+    {
+      "id": "s0128",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "We donned the hoods that served as day passes for the Unwired, and we met my mother in the spartan visiting room she imagined for these visits. She'd built no windows into the world she occupied, no hint of whatever utopian environment she'd constructed for herself. She hadn't even opted for one of the prefab visiting environments designed to minimize dissonance among visitors. We found ourselves in a featureless beige sphere five meters across. There was nothing in there but her.",
+      "runs": [
+        {
+          "t": "We donned the hoods that served as day passes for the Unwired, and we met my mother in the spartan visiting room she imagined for these visits. She'd built no windows into the world she occupied, no hint of whatever utopian environment she'd constructed for herself. She hadn't even opted for one of the prefab visiting environments designed to minimize dissonance among visitors. We found ourselves in a featureless beige sphere five meters across. There was nothing in there but her."
+        }
+      ]
+    },
+    {
+      "id": "s0129",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Maybe not so far removed from her vision of utopia after all, I thought.",
+      "runs": [
+        {
+          "t": "Maybe not so far removed from her vision of utopia after all",
+          "i": true
+        },
+        {
+          "t": ", I thought."
+        }
+      ]
+    },
+    {
+      "id": "s0130",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "My father smiled. \"Helen.\"",
+      "runs": [
+        {
+          "t": "My father smiled. \"Helen.\""
+        }
+      ]
+    },
+    {
+      "id": "s0131",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"Jim.\" She was twenty years younger than the thing on the bed, and still she made my skin crawl. \"Siri! You came!\"",
+      "runs": [
+        {
+          "t": "\"Jim.\" She was twenty years younger than the thing on the bed, and still she made my skin crawl. \"Siri! You came!\""
+        }
+      ]
+    },
+    {
+      "id": "s0132",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "She always used my name. I don't think she ever called me son.",
+      "runs": [
+        {
+          "t": "She always used my name. I don't think she ever called me "
+        },
+        {
+          "t": "son",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0133",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"You're still happy here?\" my father asked.",
+      "runs": [
+        {
+          "t": "\"You're still happy here?\" my father asked."
+        }
+      ]
+    },
+    {
+      "id": "s0134",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"Wonderful. I do wish you could join us.\"",
+      "runs": [
+        {
+          "t": "\"Wonderful. I do wish you could join us.\""
+        }
+      ]
+    },
+    {
+      "id": "s0135",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "Jim smiled. \"Someone has to keep the lights on.\"",
+      "runs": [
+        {
+          "t": "Jim smiled. \"Someone has to keep the lights on.\""
+        }
+      ]
+    },
+    {
+      "id": "s0136",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"Now you know this isn't goodbye,\" she said. \"You can visit whenever you like.\"",
+      "runs": [
+        {
+          "t": "\"Now you "
+        },
+        {
+          "t": "know",
+          "i": true
+        },
+        {
+          "t": " this isn't goodbye,\" she said. \"You can visit whenever you like.\""
+        }
+      ]
+    },
+    {
+      "id": "s0137",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"Only if you do something about the scenery.\" Not just a joke, but a lie; Jim would have come at her call even if the gauntlet involved bare feet and broken glass.",
+      "runs": [
+        {
+          "t": "\"Only if you do something about the scenery.\" Not just a joke, but a lie; Jim would have come at her call even if the gauntlet involved bare feet and broken glass."
+        }
+      ]
+    },
+    {
+      "id": "s0138",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"And Chelsea, too,\" Helen continued. \"It would be so nice to finally meet her after all this time.\"",
+      "runs": [
+        {
+          "t": "\"And Chelsea, too,\" Helen continued. \"It would be so nice to finally meet her after all this time.\""
+        }
+      ]
+    },
+    {
+      "id": "s0139",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"Chelsea's gone, Helen,\" I said.",
+      "runs": [
+        {
+          "t": "\"Chelsea's "
+        },
+        {
+          "t": "gone",
+          "i": true
+        },
+        {
+          "t": ", Helen,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s0140",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"Oh yes but I know you stay in touch. I know she was special to you. Just because you're not together any more doesn't mean she can't—\"",
+      "runs": [
+        {
+          "t": "\"Oh yes but I know you stay in touch. I know she was special to you. Just because you're not "
+        },
+        {
+          "t": "together",
+          "i": true
+        },
+        {
+          "t": " any more doesn't mean she can't—\""
+        }
+      ]
+    },
+    {
+      "id": "s0141",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"You know she—\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "You know she",
+          "i": true
+        },
+        {
+          "t": "—\""
+        }
+      ]
+    },
+    {
+      "id": "s0142",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "A startling possibility stopped me in mid-sentence: maybe I hadn't actually told them.",
+      "runs": [
+        {
+          "t": "A startling possibility stopped me in mid-sentence: maybe I hadn't actually told them."
+        }
+      ]
+    },
+    {
+      "id": "s0143",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "\"Son,\" Jim said quietly. \"Maybe you could give us a moment.\"",
+      "runs": [
+        {
+          "t": "\"Son,\" Jim said quietly. \"Maybe you could give us a moment.\""
+        }
+      ]
+    },
+    {
+      "id": "s0144",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I would have given them a fucking lifetime. I unplugged myself back to the ward, looked from the corpse on the bed to my blind and catatonic father in his couch, murmuring sweet nothings into the datastream. Let them perform for each other. Let them formalize and finalize their so-called relationship in whatever way they saw fit. Maybe, just once, they could even bring themselves to be honest, there in that other world where everything else was a lie. Maybe.",
+      "runs": [
+        {
+          "t": "I would have given them a fucking lifetime. I unplugged myself back to the ward, looked from the corpse on the bed to my blind and catatonic father in his couch, murmuring sweet nothings into the datastream. Let them perform for each other. Let them formalize and finalize their so-called relationship in whatever way they saw fit. Maybe, just once, they could even bring themselves to be honest, there in that other world where everything else was a lie. Maybe."
+        }
+      ]
+    },
+    {
+      "id": "s0145",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I felt no desire to bear witness either way.",
+      "runs": [
+        {
+          "t": "I felt no desire to bear witness either way."
+        }
+      ]
+    },
+    {
+      "id": "s0146",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "But of course I had to go back in for my own formalities. I adopted my role in the familial set-piece one last time, partook of the usual lies. We all agreed that this wasn't going to change anything, and nobody deviated enough from the script to call anyone else a liar on that account. And finally—careful to say until next time rather than goodbye—we took our leave of my mother.",
+      "runs": [
+        {
+          "t": "But of course I had to go back in for my own formalities. I adopted my role in the familial set-piece one last time, partook of the usual lies. We all agreed that this wasn't going to change anything, and nobody deviated enough from the script to call anyone else a liar on that account. And finally—careful to say "
+        },
+        {
+          "t": "until next time",
+          "i": true
+        },
+        {
+          "t": " rather than "
+        },
+        {
+          "t": "goodbye",
+          "i": true
+        },
+        {
+          "t": "—we took our leave of my mother."
+        }
+      ]
+    },
+    {
+      "id": "s0147",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "I even suppressed my gag reflex long enough to give her a hug.",
+      "runs": [
+        {
+          "t": "I even suppressed my gag reflex long enough to give her a hug."
+        }
+      ]
+    },
+    {
+      "id": "s0148",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 5,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "chunk_id": "s1267-s1295",
+  "part": "Theseus",
+  "first": "s1267",
+  "last": "s1295",
+  "n_segments": 29,
+  "words": 991,
+  "segments": [
+    {
+      "id": "s1267",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 30,
+      "text": "It wasn't just Sarasti. They all hid from us, even when they had the upper hand. They always stayed just the other side of myth.",
+      "runs": [
+        {
+          "t": "It wasn't just Sarasti. They "
+        },
+        {
+          "t": "all",
+          "i": true
+        },
+        {
+          "t": " hid from us, even when they had the upper hand. They always stayed just the other side of myth."
+        }
+      ]
+    },
+    {
+      "id": "s1268",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 30,
+      "text": "It started pretty much the same way it did for anything else; vampires were far from the first to learn the virtues of energy conservation. Shrews and hummingbirds, saddled with tiny bodies and overclocked metabolic engines, would have starved to death overnight if not for the torpor that overtook them at sundown. Comatose elephant seals lurked breathless at the bottom of the sea, rousing only for passing prey or redline lactate levels. Bears and chipmunks cut costs by sleeping away the impoverished winter months, and lungfish—Devonian black belts in the art of estivation—could curl up and die for years, waiting for the rains.",
+      "runs": [
+        {
+          "t": "It started pretty much the same way it did for anything else; vampires were far from the first to learn the virtues of energy conservation. Shrews and hummingbirds, saddled with tiny bodies and overclocked metabolic engines, would have starved to death overnight if not for the torpor that overtook them at sundown. Comatose elephant seals lurked breathless at the bottom of the sea, rousing only for passing prey or redline lactate levels. Bears and chipmunks cut costs by sleeping away the impoverished winter months, and lungfish—Devonian black belts in the art of estivation—could curl up and die for years, waiting for the rains."
+        }
+      ]
+    },
+    {
+      "id": "s1269",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 30,
+      "text": "With vampires it was a little different. It wasn't shortness of breath, or metabolic overdrive, or some blanket of snow that locked the pantry every winter. The problem wasn't so much a lack of prey as a lack of difference from it; vampires were such a recent split from the ancestral baseline that the reproductive rates hadn't diverged. This was no woodland-variety lynx-hare dynamic, where prey outnumbered predators a hundred to one. Vampires fed on things that bred barely faster than they did. They would have wiped out their own food supply in no time if they hadn't learned how to ease off on the throttle.",
+      "runs": [
+        {
+          "t": "With vampires it was a little different. It wasn't shortness of breath, or metabolic overdrive, or some blanket of snow that locked the pantry every winter. The problem wasn't so much a lack of prey as a lack of "
+        },
+        {
+          "t": "difference",
+          "i": true
+        },
+        {
+          "t": " from it; vampires were such a recent split from the ancestral baseline that the reproductive rates hadn't diverged. This was no woodland-variety lynx-hare dynamic, where prey outnumbered predators a hundred to one. Vampires fed on things that bred barely faster than they did. They would have wiped out their own food supply in no time if they hadn't learned how to ease off on the throttle."
+        }
+      ]
+    },
+    {
+      "id": "s1270",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 30,
+      "text": "By the time they went extinct they'd learned to shut down for decades.",
+      "runs": [
+        {
+          "t": "By the time they went extinct they'd learned to shut down for "
+        },
+        {
+          "t": "decades",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s1271",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 30,
+      "text": "It made two kinds of sense. It not only slashed their metabolic needs while prey bred itself back to harvestable levels, it gave us time to forget that we were prey. We were so smart by the Pleistocene, smart enough for easy skepticism; if you haven't seen any night-stalking demons in all your years on the savannah, why should you believe some senile campfire ramblings passed down by your mother's mother?",
+      "runs": [
+        {
+          "t": "It made two kinds of sense. It not only slashed their metabolic needs while prey bred itself back to harvestable levels, it gave us time to forget that we "
+        },
+        {
+          "t": "were",
+          "i": true
+        },
+        {
+          "t": " prey. We were so smart by the Pleistocene, smart enough for easy skepticism; if you haven't seen any night-stalking demons in all your years on the savannah, why should you believe some senile campfire ramblings passed down by your mother's mother?"
+        }
+      ]
+    },
+    {
+      "id": "s1272",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 30,
+      "text": "It was murder on our ancestors, even if those same enemy genes—co-opted now—served us so well when we left the sun a half-million years later. But it was almost—heartening, I guess—to think that maybe Sarasti felt the tug of other genes, some aversion to prolonged visibility shaped by generations of natural selection. Maybe he spent every moment in our company fighting voices that urged him to hide, hide, let them forget. Maybe he retreated when they got too loud, maybe we made him as uneasy as he made us.",
+      "runs": [
+        {
+          "t": "It was murder on our ancestors, even if those same enemy genes—co-opted now—served us so well when we left the sun a half-million years later. But it was almost—heartening, I guess—to think that maybe Sarasti felt the tug of other genes, some aversion to prolonged visibility shaped by generations of natural selection. Maybe he spent every moment in our company fighting voices that urged him to "
+        },
+        {
+          "t": "hide, hide, let them forget",
+          "i": true
+        },
+        {
+          "t": ". Maybe he retreated when they got too loud, maybe we made him as uneasy as he made us."
+        }
+      ]
+    },
+    {
+      "id": "s1273",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 30,
+      "text": "We could always hope.",
+      "runs": [
+        {
+          "t": "We could always hope."
+        }
+      ]
+    },
+    {
+      "id": "s1274",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s1275",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "Our final orbit combined discretion and valor in equal measure.",
+      "runs": [
+        {
+          "t": "Our final orbit combined discretion and valor in equal measure."
+        }
+      ]
+    },
+    {
+      "id": "s1276",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "Rorschach described a perfect equatorial circle 87,900 km from Big Ben's center of gravity. Sarasti was unwilling to let it out of sight, and you didn't have to be a vampire to mistrust relay sats when swinging through a radiation-soaked blizzard of rock and machinery. The obvious alternative was to match orbits.",
+      "runs": [
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " described a perfect equatorial circle 87,900 km from Big Ben's center of gravity. Sarasti was unwilling to let it out of sight, and you didn't have to be a vampire to mistrust relay sats when swinging through a radiation-soaked blizzard of rock and machinery. The obvious alternative was to match orbits."
+        }
+      ]
+    },
+    {
+      "id": "s1277",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "At the same time, all the debate over whether or not Rorschach had meant—or even understood—the threats it had made was a bit beside the point. Counterintrusion measures were a distinct possibility either way, and ongoing proximity only increased the risk. So Sarasti had derived some optimum compromise, a mildly eccentric orbit that nearly brushed the artefact at perigee but kept a discreet distance the rest of the time. It was a longer trajectory than Rorschach's, and higher—we had to burn on the descending arc to keep in synch—but the end result was continuously line-of-sight, and only brought us within striking distance for three hours either side of bottoming out.",
+      "runs": [
+        {
+          "t": "At the same time, all the debate over whether or not "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " had meant—or even understood—the threats it had made was a bit beside the point. Counterintrusion measures were a distinct possibility either way, and ongoing proximity only increased the risk. So Sarasti had derived some optimum compromise, a mildly eccentric orbit that nearly brushed the artefact at perigee but kept a discreet distance the rest of the time. It was a longer trajectory than "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s, and higher—we"
+        },
+        {
+          "t": " ",
+          "i": true
+        },
+        {
+          "t": "had to burn on the descending arc to keep in synch—but the end result was continuously line-of-sight, and only brought us within striking distance for three hours either side of bottoming out."
+        }
+      ]
+    },
+    {
+      "id": "s1278",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "Our striking distance, that is. For all we knew Rorschach could have reached out and swatted us from the sky before we'd even left the solar system.",
+      "runs": [
+        {
+          "t": "Our",
+          "i": true
+        },
+        {
+          "t": " striking distance, that is. For all we knew "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " could have reached out and swatted us from the sky before we'd even left the solar system."
+        }
+      ]
+    },
+    {
+      "id": "s1279",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "Sarasti gave the command from his tent. ConSensus carried his voice into the drum as Theseus coasted to apogee: \"Now.\"",
+      "runs": [
+        {
+          "t": "Sarasti gave the command from his tent. ConSensus carried his voice into the drum as "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " coasted to apogee: \"Now.\""
+        }
+      ]
+    },
+    {
+      "id": "s1280",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "Jack had erected a tent about itself, a blister glued to Rorschach's hull and blown semi-taut against vacuum with the merest whiff of nitrogen. Now it brought lasers to bear and started digging; if we'd read the vibrations right, the ground should be only thirty-four centimeters deep beneath its feet. The beams stuttered as they cut, despite six millimeters of doped shielding.",
+      "runs": [
+        {
+          "t": "Jack had erected a tent about itself, a blister glued to "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s hull and blown semi-taut against vacuum with the merest whiff of nitrogen. Now it brought lasers to bear and started digging; if we'd read the vibrations right, the ground should be only thirty-four centimeters deep beneath its feet. The beams stuttered as they cut, despite six millimeters of doped shielding."
+        }
+      ]
+    },
+    {
+      "id": "s1281",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "\"Son of a bitch,\" Szpindel murmured. \"It's working.\"",
+      "runs": [
+        {
+          "t": "\"Son of a bitch,\" Szpindel murmured. \"It's "
+        },
+        {
+          "t": "working",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s1282",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "We burned through tough fibrous epidermis. We burned through veins of insulation that might have been some sort of programmable asbestos. We burned through alternating layers of superconducting mesh, and the strata of flaking carbon separating them.",
+      "runs": [
+        {
+          "t": "We burned through tough fibrous epidermis. We burned through veins of insulation that might have been some sort of programmable asbestos. We burned through alternating layers of superconducting mesh, and the strata of flaking carbon separating them."
+        }
+      ]
+    },
+    {
+      "id": "s1283",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "We burned through.",
+      "runs": [
+        {
+          "t": "We burned "
+        },
+        {
+          "t": "through",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s1284",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "The lasers shut down instantly. Within seconds Rorschach's intestinal gases had blown taut the skin of the tent. Black carbon smoke swirled and danced in sudden thick atmosphere.",
+      "runs": [
+        {
+          "t": "The lasers shut down instantly. Within seconds "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s intestinal gases had blown taut the skin of the tent. Black carbon smoke swirled and danced in sudden thick atmosphere."
+        }
+      ]
+    },
+    {
+      "id": "s1285",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "Nothing shot back at us. Nothing reacted. Partial pressures piled up on ConSensus: methane, ammonia, hydrogen. Lots of water vapor, freezing as fast as it registered.",
+      "runs": [
+        {
+          "t": "Nothing shot back at us. Nothing reacted. Partial pressures piled up on ConSensus: methane, ammonia, hydrogen. Lots of water vapor, freezing as fast as it registered."
+        }
+      ]
+    },
+    {
+      "id": "s1286",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "Szpindel grunted. \"Reducing atmosphere. Pre-Snowball.\" He sounded disappointed.",
+      "runs": [
+        {
+          "t": "Szpindel grunted. \"Reducing atmosphere. Pre-Snowball.\" He sounded disappointed."
+        }
+      ]
+    },
+    {
+      "id": "s1287",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "\"Maybe it's a work in progress,\" James suggested. \"Like the structure itself.\"",
+      "runs": [
+        {
+          "t": "\"Maybe it's a work in progress,\" James suggested. \"Like the structure itself.\""
+        }
+      ]
+    },
+    {
+      "id": "s1288",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "\"Maybe.\"",
+      "runs": [
+        {
+          "t": "\"Maybe.\""
+        }
+      ]
+    },
+    {
+      "id": "s1289",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "Jack stuck out its tongue, a giant mechanical sperm with a myo-optical tail. Its head was a thick-skinned lozenge, at least half ceramic shielding by cross-section; the tiny payload of sensors at its core was rudimentary, but small enough for the whole assembly to thread through the pencil-thin hole the laser had cut. It unspooled down the hole, rimming Rorschach's newly-torn orifice.",
+      "runs": [
+        {
+          "t": "Jack stuck out its tongue, a giant mechanical sperm with a myo-optical tail. Its head was a thick-skinned lozenge, at least half ceramic shielding by cross-section; the tiny payload of sensors at its core was rudimentary, but small enough for the whole assembly to thread through the pencil-thin hole the laser had cut. It unspooled down the hole, rimming "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s newly-torn orifice."
+        }
+      ]
+    },
+    {
+      "id": "s1290",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "\"Dark down there,\" James observed.",
+      "runs": [
+        {
+          "t": "\"Dark down there,\" James observed."
+        }
+      ]
+    },
+    {
+      "id": "s1291",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "Bates: \"But warm.\" 281K. Above freezing.",
+      "runs": [
+        {
+          "t": "Bates: \"But warm.\" 281K. Above freezing."
+        }
+      ]
+    },
+    {
+      "id": "s1292",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "The endoscope emerged into darkness. Infrared served up a grainy grayscale of a — a tunnel, it looked like, replete with mist and exotic rock formations. The walls curved like honeycomb, like the insides of fossilized intestine. Cul-de-sacs and branches proliferated down the passage. The basic substrate appeared to be a dense pastry of carbon-fiber leaves. Some of the gaps between those layers were barely thick as fingernails; others looked wide enough to stack bodies.",
+      "runs": [
+        {
+          "t": "The endoscope emerged into darkness. Infrared served up a grainy grayscale of a — a tunnel, it looked like, replete with mist and exotic rock formations. The walls curved like honeycomb, like the insides of fossilized intestine. Cul-de-sacs and branches proliferated down the passage. The basic substrate appeared to be a dense pastry of carbon-fiber leaves. Some of the gaps between those layers were barely thick as fingernails; others looked wide enough to stack bodies."
+        }
+      ]
+    },
+    {
+      "id": "s1293",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "\"Ladies and gentlemen,\" Szpindel said softly, \"The Devil's Baklava.\"",
+      "runs": [
+        {
+          "t": "\"Ladies and gentlemen,\" Szpindel said softly, \"The Devil's Baklava.\""
+        }
+      ]
+    },
+    {
+      "id": "s1294",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "I could have sworn I saw something move. I could have sworn it looked familiar.",
+      "runs": [
+        {
+          "t": "I could have sworn I saw something move. I could have sworn it looked familiar."
+        }
+      ]
+    },
+    {
+      "id": "s1295",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 31,
+      "text": "The camera died.",
+      "runs": [
+        {
+          "t": "The camera died."
+        }
+      ]
+    }
+  ]
+}

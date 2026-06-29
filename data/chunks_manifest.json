@@ -1,0 +1,308 @@
+[
+  {
+    "chunk_id": "s0001-s0047",
+    "part": "Prologue",
+    "n_segments": 47,
+    "words": 1594
+  },
+  {
+    "chunk_id": "s0048-s0083",
+    "part": "Theseus",
+    "n_segments": 36,
+    "words": 1465
+  },
+  {
+    "chunk_id": "s0084-s0148",
+    "part": "Theseus",
+    "n_segments": 65,
+    "words": 2771
+  },
+  {
+    "chunk_id": "s0149-s0181",
+    "part": "Theseus",
+    "n_segments": 33,
+    "words": 1416
+  },
+  {
+    "chunk_id": "s0182-s0291",
+    "part": "Theseus",
+    "n_segments": 110,
+    "words": 2053
+  },
+  {
+    "chunk_id": "s0292-s0327",
+    "part": "Theseus",
+    "n_segments": 36,
+    "words": 1511
+  },
+  {
+    "chunk_id": "s0328-s0379",
+    "part": "Theseus",
+    "n_segments": 52,
+    "words": 1627
+  },
+  {
+    "chunk_id": "s0380-s0527",
+    "part": "Theseus",
+    "n_segments": 148,
+    "words": 3023
+  },
+  {
+    "chunk_id": "s0528-s0584",
+    "part": "Theseus",
+    "n_segments": 57,
+    "words": 1657
+  },
+  {
+    "chunk_id": "s0585-s0636",
+    "part": "Theseus",
+    "n_segments": 52,
+    "words": 1790
+  },
+  {
+    "chunk_id": "s0637-s0738",
+    "part": "Theseus",
+    "n_segments": 102,
+    "words": 1848
+  },
+  {
+    "chunk_id": "s0739-s0809",
+    "part": "Theseus",
+    "n_segments": 71,
+    "words": 1890
+  },
+  {
+    "chunk_id": "s0810-s0920",
+    "part": "Theseus",
+    "n_segments": 111,
+    "words": 2418
+  },
+  {
+    "chunk_id": "s0921-s1007",
+    "part": "Theseus",
+    "n_segments": 87,
+    "words": 2387
+  },
+  {
+    "chunk_id": "s1008-s1140",
+    "part": "Theseus",
+    "n_segments": 133,
+    "words": 3000
+  },
+  {
+    "chunk_id": "s1141-s1191",
+    "part": "Theseus",
+    "n_segments": 51,
+    "words": 1252
+  },
+  {
+    "chunk_id": "s1192-s1266",
+    "part": "Theseus",
+    "n_segments": 75,
+    "words": 1271
+  },
+  {
+    "chunk_id": "s1267-s1295",
+    "part": "Theseus",
+    "n_segments": 29,
+    "words": 991
+  },
+  {
+    "chunk_id": "s1296-s1349",
+    "part": "Rorschach",
+    "n_segments": 54,
+    "words": 1460
+  },
+  {
+    "chunk_id": "s1350-s1454",
+    "part": "Rorschach",
+    "n_segments": 105,
+    "words": 2493
+  },
+  {
+    "chunk_id": "s1455-s1547",
+    "part": "Rorschach",
+    "n_segments": 93,
+    "words": 1999
+  },
+  {
+    "chunk_id": "s1548-s1597",
+    "part": "Rorschach",
+    "n_segments": 50,
+    "words": 1257
+  },
+  {
+    "chunk_id": "s1598-s1697",
+    "part": "Rorschach",
+    "n_segments": 100,
+    "words": 1249
+  },
+  {
+    "chunk_id": "s1698-s1817",
+    "part": "Rorschach",
+    "n_segments": 120,
+    "words": 2517
+  },
+  {
+    "chunk_id": "s1818-s1857",
+    "part": "Rorschach",
+    "n_segments": 40,
+    "words": 1306
+  },
+  {
+    "chunk_id": "s1858-s1882",
+    "part": "Rorschach",
+    "n_segments": 25,
+    "words": 1329
+  },
+  {
+    "chunk_id": "s1883-s1934",
+    "part": "Rorschach",
+    "n_segments": 52,
+    "words": 1884
+  },
+  {
+    "chunk_id": "s1935-s2004",
+    "part": "Rorschach",
+    "n_segments": 70,
+    "words": 1657
+  },
+  {
+    "chunk_id": "s2005-s2087",
+    "part": "Rorschach",
+    "n_segments": 83,
+    "words": 2446
+  },
+  {
+    "chunk_id": "s2088-s2164",
+    "part": "Rorschach",
+    "n_segments": 77,
+    "words": 2617
+  },
+  {
+    "chunk_id": "s2165-s2298",
+    "part": "Rorschach",
+    "n_segments": 134,
+    "words": 3033
+  },
+  {
+    "chunk_id": "s2299-s2371",
+    "part": "Rorschach",
+    "n_segments": 73,
+    "words": 2517
+  },
+  {
+    "chunk_id": "s2372-s2428",
+    "part": "Rorschach",
+    "n_segments": 57,
+    "words": 1934
+  },
+  {
+    "chunk_id": "s2429-s2496",
+    "part": "Rorschach",
+    "n_segments": 68,
+    "words": 1221
+  },
+  {
+    "chunk_id": "s2497-s2552",
+    "part": "Rorschach",
+    "n_segments": 56,
+    "words": 1566
+  },
+  {
+    "chunk_id": "s2553-s2621",
+    "part": "Rorschach",
+    "n_segments": 69,
+    "words": 1667
+  },
+  {
+    "chunk_id": "s2622-s2712",
+    "part": "Rorschach",
+    "n_segments": 91,
+    "words": 2034
+  },
+  {
+    "chunk_id": "s2713-s2761",
+    "part": "Rorschach",
+    "n_segments": 49,
+    "words": 1719
+  },
+  {
+    "chunk_id": "s2762-s2832",
+    "part": "Rorschach",
+    "n_segments": 71,
+    "words": 2106
+  },
+  {
+    "chunk_id": "s2833-s2904",
+    "part": "Rorschach",
+    "n_segments": 72,
+    "words": 1667
+  },
+  {
+    "chunk_id": "s2905-s2956",
+    "part": "Rorschach",
+    "n_segments": 52,
+    "words": 1284
+  },
+  {
+    "chunk_id": "s2957-s3009",
+    "part": "Rorschach",
+    "n_segments": 53,
+    "words": 1407
+  },
+  {
+    "chunk_id": "s3010-s3073",
+    "part": "Rorschach",
+    "n_segments": 64,
+    "words": 2003
+  },
+  {
+    "chunk_id": "s3074-s3120",
+    "part": "Rorschach",
+    "n_segments": 47,
+    "words": 1442
+  },
+  {
+    "chunk_id": "s3121-s3198",
+    "part": "Rorschach",
+    "n_segments": 78,
+    "words": 1834
+  },
+  {
+    "chunk_id": "s3199-s3278",
+    "part": "Rorschach",
+    "n_segments": 80,
+    "words": 1441
+  },
+  {
+    "chunk_id": "s3279-s3324",
+    "part": "Rorschach",
+    "n_segments": 46,
+    "words": 1317
+  },
+  {
+    "chunk_id": "s3325-s3389",
+    "part": "Rorschach",
+    "n_segments": 65,
+    "words": 2119
+  },
+  {
+    "chunk_id": "s3390-s3476",
+    "part": "Rorschach",
+    "n_segments": 87,
+    "words": 1613
+  },
+  {
+    "chunk_id": "s3477-s3623",
+    "part": "Rorschach",
+    "n_segments": 147,
+    "words": 3121
+  },
+  {
+    "chunk_id": "s3624-s3667",
+    "part": "Charybdis",
+    "n_segments": 44,
+    "words": 1871
+  }
+]

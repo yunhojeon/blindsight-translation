@@ -1,0 +1,2404 @@
+{
+  "chunk_id": "s1008-s1140",
+  "part": "Theseus",
+  "first": "s1008",
+  "last": "s1140",
+  "n_segments": 133,
+  "words": 3000,
+  "segments": [
+    {
+      "id": "s1008",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "A lull in the background chatter brought me back. Sascha had stopped talking. Darkened facets hung around her like a thundercloud. I pulled back the last thing she had sent: \"We usually find our nephews with telescopes. They are hard as Hobblinites.\"",
+      "runs": [
+        {
+          "t": "A lull in the background chatter brought me back. Sascha had stopped talking. Darkened facets hung around her like a thundercloud. I pulled back the last thing she had sent: \"We usually find our nephews with telescopes. They are hard as Hobblinites.\""
+        }
+      ]
+    },
+    {
+      "id": "s1009",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "More calculated ambiguity. And Hobblinites wasn't even a word.",
+      "runs": [
+        {
+          "t": "More calculated ambiguity. And "
+        },
+        {
+          "t": "Hobblinites",
+          "i": true
+        },
+        {
+          "t": " wasn't even a "
+        },
+        {
+          "t": "word",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s1010",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "Imminent decisions reflected in her eyes. Sascha was poised at the edge of a precipice, gauging the depth of dark waters below.",
+      "runs": [
+        {
+          "t": "Imminent decisions reflected in her eyes. Sascha was poised at the edge of a precipice, gauging the depth of dark waters below."
+        }
+      ]
+    },
+    {
+      "id": "s1011",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"You haven't mentioned your father at all,\" Rorschach remarked.",
+      "runs": [
+        {
+          "t": "\"You haven't mentioned your father at all,\" "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " remarked."
+        }
+      ]
+    },
+    {
+      "id": "s1012",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"That's true, Rorschach,\" Sascha admitted softly, taking a breath—",
+      "runs": [
+        {
+          "t": "\"That's true, "
+        },
+        {
+          "t": "Rorschach,",
+          "i": true
+        },
+        {
+          "t": "\" Sascha admitted softly, taking a breath—"
+        }
+      ]
+    },
+    {
+      "id": "s1013",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "And stepping forward.",
+      "runs": [
+        {
+          "t": "And stepping forward."
+        }
+      ]
+    },
+    {
+      "id": "s1014",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"So why don't you just suck my big fat hairy dick?\"",
+      "runs": [
+        {
+          "t": "\"So why don't you just "
+        },
+        {
+          "t": "suck my big fat hairy dick",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s1015",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "The drum fell instantly silent. Bates and Szpindel stared, open-mouthed. Sascha killed the channel and turned to face us, grinning so widely I thought the top of her head would fall off.",
+      "runs": [
+        {
+          "t": "The drum fell instantly silent. Bates and Szpindel stared, open-mouthed. Sascha killed the channel and turned to face us, grinning so widely I thought the top of her head would fall off."
+        }
+      ]
+    },
+    {
+      "id": "s1016",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"Sascha,\" Bates breathed. \"Are you crazy?\"",
+      "runs": [
+        {
+          "t": "\"Sascha,\" Bates breathed. \"Are you "
+        },
+        {
+          "t": "crazy",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s1017",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"So what if I am? Doesn't matter to that thing. It doesn't have a clue what I'm saying.\"",
+      "runs": [
+        {
+          "t": "\"So what if I am? Doesn't matter to that thing. It doesn't have a "
+        },
+        {
+          "t": "clue",
+          "i": true
+        },
+        {
+          "t": " what I'm saying.\""
+        }
+      ]
+    },
+    {
+      "id": "s1018",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"What?\"",
+      "runs": [
+        {
+          "t": "\"What?\""
+        }
+      ]
+    },
+    {
+      "id": "s1019",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"It doesn't even have a clue what it's saying back,\" she added.",
+      "runs": [
+        {
+          "t": "\"It doesn't even have a clue what it's saying "
+        },
+        {
+          "t": "back",
+          "i": true
+        },
+        {
+          "t": ",\" she added."
+        }
+      ]
+    },
+    {
+      "id": "s1020",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"Wait a minute. You said—Susan said they weren't parrots. They knew the rules.\"",
+      "runs": [
+        {
+          "t": "\"Wait a minute. You said—"
+        },
+        {
+          "t": "Susan",
+          "i": true
+        },
+        {
+          "t": " said they weren't parrots. They knew the rules.\""
+        }
+      ]
+    },
+    {
+      "id": "s1021",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "And there Susan was, melting to the fore: \"I did, and they do. But pattern-matching doesn't equal comprehension.\"",
+      "runs": [
+        {
+          "t": "And there Susan was, melting to the fore: \"I did, and they do. But pattern-matching doesn't equal comprehension.\""
+        }
+      ]
+    },
+    {
+      "id": "s1022",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "Bates shook her head. \"You're saying whatever we're talking to—it's not even intelligent?\"",
+      "runs": [
+        {
+          "t": "Bates shook her head. \"You're saying whatever we're talking to—it's not even intelligent?\""
+        }
+      ]
+    },
+    {
+      "id": "s1023",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"Oh, it could be intelligent, certainly. But we're not talking to it in any meaningful sense.\"",
+      "runs": [
+        {
+          "t": "\"Oh, it could be intelligent, certainly. But we're not "
+        },
+        {
+          "t": "talking",
+          "i": true
+        },
+        {
+          "t": " to it in any meaningful sense.\""
+        }
+      ]
+    },
+    {
+      "id": "s1024",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"So what is it? Voicemail?\"",
+      "runs": [
+        {
+          "t": "\"So what is it? Voicemail?\""
+        }
+      ]
+    },
+    {
+      "id": "s1025",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "\"Actually,\" Szpindel said slowly, \"I think they call it a Chinese Room...\"",
+      "runs": [
+        {
+          "t": "\"Actually,\" Szpindel said slowly, \"I think they call it a "
+        },
+        {
+          "t": "Chinese Room",
+          "i": true
+        },
+        {
+          "t": "...\""
+        }
+      ]
+    },
+    {
+      "id": "s1026",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 25,
+      "text": "About bloody time, I thought.",
+      "runs": [
+        {
+          "t": "About bloody time",
+          "i": true
+        },
+        {
+          "t": ", I thought."
+        }
+      ]
+    },
+    {
+      "id": "s1027",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s1028",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "I knew all about Chinese Rooms. I was one. I didn't even keep it a secret, I told anyone who was interested enough to ask.",
+      "runs": [
+        {
+          "t": "I knew all about Chinese Rooms. I was one. I didn't even keep it a secret, I told anyone who was interested enough to ask."
+        }
+      ]
+    },
+    {
+      "id": "s1029",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "In hindsight, sometimes that was a mistake.",
+      "runs": [
+        {
+          "t": "In hindsight, sometimes that was a mistake."
+        }
+      ]
+    },
+    {
+      "id": "s1030",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"How can you possibly tell the rest of us what your bleeding edge is up to if you don't understand it yourself?\" Chelsea demanded back when things were good between us. Before she got to know me.",
+      "runs": [
+        {
+          "t": "\"How can you possibly tell the rest of us what your bleeding edge is up to if you don't understand it yourself?\" Chelsea demanded back when things were good between us. Before she got to know me."
+        }
+      ]
+    },
+    {
+      "id": "s1031",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "I shrugged. \"It's not my job to understand them. If I could, they wouldn't be very bleeding-edge in the first place. I'm just a, you know, a conduit.\"",
+      "runs": [
+        {
+          "t": "I shrugged. \"It's not my "
+        },
+        {
+          "t": "job",
+          "i": true
+        },
+        {
+          "t": " to understand them. If I could, they wouldn't be very bleeding-edge in the first place. I'm just a, you know, a conduit.\""
+        }
+      ]
+    },
+    {
+      "id": "s1032",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"Yeah, but how can you translate something if you don't understand it?\"",
+      "runs": [
+        {
+          "t": "\"Yeah, but how can you translate something if you "
+        },
+        {
+          "t": "don't",
+          "i": true
+        },
+        {
+          "t": " understand it?\""
+        }
+      ]
+    },
+    {
+      "id": "s1033",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "A common cry, outside the field. People simply can't accept that patterns carry their own intelligence, quite apart from the semantic content that clings to their surfaces; if you manipulate the topology correctly, that content just—comes along for the ride.",
+      "runs": [
+        {
+          "t": "A common cry, outside the field. People simply can't accept that patterns carry their own intelligence, quite apart from the semantic content that clings to their surfaces; if you manipulate the topology correctly, that content just—comes along for the ride."
+        }
+      ]
+    },
+    {
+      "id": "s1034",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"You ever hear of the Chinese Room?\" I asked.",
+      "runs": [
+        {
+          "t": "\"You ever hear of the Chinese Room?\" I asked."
+        }
+      ]
+    },
+    {
+      "id": "s1035",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "She shook her head. \"Only vaguely. Really old, right?\"",
+      "runs": [
+        {
+          "t": "She shook her head. \"Only vaguely. Really old, right?\""
+        }
+      ]
+    },
+    {
+      "id": "s1036",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"Hundred years at least. It's a fallacy really, it's an argument that supposedly puts the lie to Turing tests. You stick some guy in a closed room. Sheets with strange squiggles come in through a slot in the wall. He's got access to this huge database of squiggles just like it, and a bunch of rules to tell him how to put those squiggles together.\"",
+      "runs": [
+        {
+          "t": "\"Hundred years at least. It's a fallacy really, it's an argument that supposedly puts the lie to Turing tests. You stick some guy in a closed room. Sheets with strange squiggles come in through a slot in the wall. He's got access to this huge database of squiggles just like it, and a bunch of rules to tell him how to put those squiggles together.\""
+        }
+      ]
+    },
+    {
+      "id": "s1037",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"Grammar,\" Chelsea said. \"Syntax.\"",
+      "runs": [
+        {
+          "t": "\"Grammar,\" Chelsea said. \"Syntax.\""
+        }
+      ]
+    },
+    {
+      "id": "s1038",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "I nodded. \"The point is, though, he doesn't have any idea what the squiggles are, or what information they might contain. He only knows that when he encounters squiggle delta, say, he's supposed to extract the fifth and sixth squiggles from file theta and put them together with another squiggle from gamma. So he builds this response string, puts it on the sheet, slides it back out the slot and takes a nap until the next iteration. Repeat until the remains of the horse are well and thoroughly beaten.\"",
+      "runs": [
+        {
+          "t": "I nodded. \"The point is, though, he doesn't have any idea what the squiggles "
+        },
+        {
+          "t": "are",
+          "i": true
+        },
+        {
+          "t": ", or what information they might contain. He only knows that when he encounters squiggle "
+        },
+        {
+          "t": "delta",
+          "i": true
+        },
+        {
+          "t": ", say, he's supposed to extract the fifth and sixth squiggles from file "
+        },
+        {
+          "t": "theta",
+          "i": true
+        },
+        {
+          "t": " and put them together with another squiggle from "
+        },
+        {
+          "t": "gamma",
+          "i": true
+        },
+        {
+          "t": ". So he builds this response string, puts it on the sheet, slides it back out the slot and takes a nap until the next iteration. Repeat until the remains of the horse are well and thoroughly beaten.\""
+        }
+      ]
+    },
+    {
+      "id": "s1039",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"So he's carrying on a conversation,\" Chelsea said. \"In Chinese, I assume, or they would have called it the Spanish Inquisition.\"",
+      "runs": [
+        {
+          "t": "\"So he's carrying on a conversation,\" Chelsea said. \"In Chinese, I assume, or they would have called it the Spanish Inquisition.\""
+        }
+      ]
+    },
+    {
+      "id": "s1040",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"Exactly. Point being you can use basic pattern-matching algorithms to participate in a conversation without having any idea what you're saying. Depending on how good your rules are, you can pass a Turing test. You can be a wit and raconteur in a language you don't even speak.\"",
+      "runs": [
+        {
+          "t": "\"Exactly. Point being you can use basic pattern-matching algorithms to participate in a conversation "
+        },
+        {
+          "t": "without having any idea what you're saying",
+          "i": true
+        },
+        {
+          "t": ". Depending on how good your rules are, you can pass a Turing test. You can be a wit and raconteur in a language you don't even speak.\""
+        }
+      ]
+    },
+    {
+      "id": "s1041",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"That's synthesis?\"",
+      "runs": [
+        {
+          "t": "\"That's synthesis?\""
+        }
+      ]
+    },
+    {
+      "id": "s1042",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"Only the part that involves downscaling semiotic protocols. And only in principle. And I'm actually getting my input in Cantonese and replying in German, because I'm more of a conduit than a conversant. But you get the idea.\"",
+      "runs": [
+        {
+          "t": "\"Only the part that involves downscaling semiotic protocols. And only in principle. And I'm actually getting my input in Cantonese and replying in German, because I'm more of a conduit than a conversant. But you get the idea.\""
+        }
+      ]
+    },
+    {
+      "id": "s1043",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"How do you keep all the rules and protocols straight? There must be millions of them.\"",
+      "runs": [
+        {
+          "t": "\"How do you keep all the rules and protocols straight? There must be millions of them.\""
+        }
+      ]
+    },
+    {
+      "id": "s1044",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"It's like anything else. Once you learn the rules, you do it unconsciously. Like riding a bike, or pinging the noosphere. You don't actively think about the protocols at all, you just—imagine how your targets behave.\"",
+      "runs": [
+        {
+          "t": "\"It's like anything else. Once you learn the rules, you do it unconsciously. Like riding a bike, or pinging the noosphere. You don't actively think about the protocols at all, you just—"
+        },
+        {
+          "t": "imagine",
+          "i": true
+        },
+        {
+          "t": " how your targets behave.\""
+        }
+      ]
+    },
+    {
+      "id": "s1045",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"Mmm.\" A subtle half-smile played at the corner of her mouth. \"But—the argument's not really a fallacy then, is it? It's spot-on: you really don't understand Cantonese or German.\"",
+      "runs": [
+        {
+          "t": "\"Mmm.\" A subtle half-smile played at the corner of her mouth. \"But—the argument's not really a fallacy then, is it? It's spot-on: you really "
+        },
+        {
+          "t": "don't",
+          "i": true
+        },
+        {
+          "t": " understand Cantonese or German.\""
+        }
+      ]
+    },
+    {
+      "id": "s1046",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"The system understands. The whole Room, with all its parts. The guy who does the scribbling is just one component. You wouldn't expect a single neuron in your head to understand English, would you?\"",
+      "runs": [
+        {
+          "t": "\"The "
+        },
+        {
+          "t": "system",
+          "i": true
+        },
+        {
+          "t": " understands. The whole Room, with all its parts. The guy who does the scribbling is just one component. You wouldn't expect a single neuron in your head to understand English, would you?\""
+        }
+      ]
+    },
+    {
+      "id": "s1047",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"Sometimes one's all I can spare.\" Chelsea shook her head. She wasn't going to let it go. I could see her sorting questions in order of priority; I could see them getting increasingly—personal…",
+      "runs": [
+        {
+          "t": "\"Sometimes one's all I can spare.\" Chelsea shook her head. She wasn't going to let it go. I could see her sorting questions in order of priority; I could see them getting increasingly—personal…"
+        }
+      ]
+    },
+    {
+      "id": "s1048",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "\"To get back to the matter at hand,\" I said, preempting them all, \"you were going to show me how to do that thing with the fingers…\"",
+      "runs": [
+        {
+          "t": "\"To get back to the matter at hand,\" I said, preempting them all, \"you were going to show me how to do that thing with the fingers…\""
+        }
+      ]
+    },
+    {
+      "id": "s1049",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "A wicked grin wiped the questions right off her face. \"Oooh, that's right…\"",
+      "runs": [
+        {
+          "t": "A wicked grin wiped the questions right off her face. \"Oooh, that's "
+        },
+        {
+          "t": "right",
+          "i": true
+        },
+        {
+          "t": "…\""
+        }
+      ]
+    },
+    {
+      "id": "s1050",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "It's risky, getting involved. Too many confounds. Every tool in the shed goes dull and rusty the moment you get entangled with the system you're observing.",
+      "runs": [
+        {
+          "t": "It's risky, getting involved. Too many confounds. Every tool in the shed goes dull and rusty the moment you get entangled with the system you're observing."
+        }
+      ]
+    },
+    {
+      "id": "s1051",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 26,
+      "text": "Still serviceable in a pinch, though.",
+      "runs": [
+        {
+          "t": "Still serviceable in a pinch, though."
+        }
+      ]
+    },
+    {
+      "id": "s1052",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s1053",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"It hides now,\" Sarasti said. \"It's vulnerable now.",
+      "runs": [
+        {
+          "t": "\"It hides now,\" Sarasti said. \"It's vulnerable now."
+        }
+      ]
+    },
+    {
+      "id": "s1054",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Now we go in.\"",
+      "runs": [
+        {
+          "t": "\"Now we go in.\""
+        }
+      ]
+    },
+    {
+      "id": "s1055",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "It wasn't news so much as review: we'd been straight-lining towards Ben for days now. But perhaps the Chinese Room Hypothesis had strengthened his resolve. At any rate, with Rorschach in eclipse once more, we prepared to take intrusiveness to the next level.",
+      "runs": [
+        {
+          "t": "It wasn't news so much as review: we'd been straight-lining towards Ben for days now. But perhaps the Chinese Room Hypothesis had strengthened his resolve. At any rate, with "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " in eclipse once more, we prepared to take intrusiveness to the next level."
+        }
+      ]
+    },
+    {
+      "id": "s1056",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Theseus was perpetually gravid; a generic probe incubated in her fabrication plant, its development arrested just short of birth in anticipation of unforeseen mission requirements. Sometime between briefings the Captain had brought it to parturition, customized for close contact and ground work. It burned down the well at high gee a good ten hours before Rorschach's next scheduled appearance, inserted itself into the rock stream, and went to sleep. If our calculations were in order, it would not be smashed by some errant piece of debris before it woke up again. If all went well, an intelligence that had precisely orchestrated a cast of millions would not notice one extra dancer on the floor. If we were just plain lucky, the myriad high-divers that happened to be line-of-sight at the time were not programmed as tattletales.",
+      "runs": [
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " was perpetually gravid; a generic probe incubated in her fabrication plant, its development arrested just short of birth in anticipation of unforeseen mission requirements. Sometime between briefings the Captain had brought it to parturition, customized for close contact and ground work. It burned down the well at high gee a good ten hours before "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s next scheduled appearance, inserted itself into the rock stream, and went to sleep. If our calculations were in order, it would not be smashed by some errant piece of debris before it woke up again. If all went well, an intelligence that had precisely orchestrated a cast of millions would not notice one extra dancer on the floor. If we were just plain lucky, the myriad high-divers that happened to be line-of-sight at the time were not programmed as tattletales."
+        }
+      ]
+    },
+    {
+      "id": "s1057",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Acceptable risks. If we hadn't been up for them, we might as well have stayed home.",
+      "runs": [
+        {
+          "t": "Acceptable risks. If we hadn't been up for them, we might as well have stayed home."
+        }
+      ]
+    },
+    {
+      "id": "s1058",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "And so we waited: four optimized hybrids somewhere past the threshold of mere humanity, one extinct predator who'd opted to command us instead of eating us alive. We waited for Rorschach to come back around the bend. The probe fell smoothly around the well, an ambassador to the unwilling—or, if the Gang was right, maybe just a back-door artist set to B&E an empty condo. Szpindel had named it Jack-in-the-box, after some antique child's toy that didn't even rate a listing in ConSensus; we fell in its wake, nearly ballistic now, momentum and inertia carefully precalculated to thread us through the chaotic minefield of Ben's accretion belt.",
+      "runs": [
+        {
+          "t": "And so we waited: four optimized hybrids somewhere past the threshold of mere humanity, one extinct predator who'd opted to command us instead of eating us alive. We waited for "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " to come back around the bend. The probe fell smoothly around the well, an ambassador to the unwilling—or, if the Gang was right, maybe just a back-door artist set to B&E an empty condo. Szpindel had named it "
+        },
+        {
+          "t": "Jack-in-the-box",
+          "i": true
+        },
+        {
+          "t": ", after some antique child's toy that didn't even rate a listing in ConSensus; we fell in its wake, nearly ballistic now, momentum and inertia carefully precalculated to thread us through the chaotic minefield of Ben's accretion belt."
+        }
+      ]
+    },
+    {
+      "id": "s1059",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Kepler couldn't do it all, though; Theseus grumbled briefly now and then, the intermittent firing of her attitude jets rumbling softly up the spine as the Captain tweaked our descent into the Maelstrom.",
+      "runs": [
+        {
+          "t": "Kepler couldn't do it all, though; "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " grumbled briefly now and then, the intermittent firing of her attitude jets rumbling softly up the spine as the Captain tweaked our descent into the Maelstrom."
+        }
+      ]
+    },
+    {
+      "id": "s1060",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "No plan ever survives contact with the enemy I remembered, but I didn't know from where.",
+      "runs": [
+        {
+          "t": "No plan ever survives contact with the enemy",
+          "i": true
+        },
+        {
+          "t": " I remembered, but I didn't know from where."
+        }
+      ]
+    },
+    {
+      "id": "s1061",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Got it,\" Bates said. A speck appeared at Ben's edge; the display zoomed instantly to closeup. \"Proximity boot.\"",
+      "runs": [
+        {
+          "t": "\"Got it,\" Bates said. A speck appeared at Ben's edge; the display zoomed instantly to closeup. \"Proximity boot.\""
+        }
+      ]
+    },
+    {
+      "id": "s1062",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Rorschach remained invisible to Theseus, close as we were, close as we were coming. But parallax stripped at least some of the scales from the probe's eyes; it woke to spikes and spirals of smoky glass flickering in and out of view, Ben's flat endless horizon semivisible through the intervening translucence. The view trembled; waveforms rippled across ConSensus.",
+      "runs": [
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " remained invisible to "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ", close as we were, close as we were coming. But parallax stripped at least some of the scales from the probe's eyes; it woke to spikes and spirals of smoky glass flickering in and out of view, Ben's flat endless horizon semivisible through the intervening translucence. The view trembled; waveforms rippled across ConSensus."
+        }
+      ]
+    },
+    {
+      "id": "s1063",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Quite the magnetic field,\" Szpindel remarked.",
+      "runs": [
+        {
+          "t": "\"Quite the magnetic field,\" Szpindel remarked."
+        }
+      ]
+    },
+    {
+      "id": "s1064",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Braking,\" Bates reported. Jack turned smoothly retrograde and fired its torch. On Tactical, delta-vee swung to red.",
+      "runs": [
+        {
+          "t": "\"Braking,\" Bates reported. Jack turned smoothly retrograde and fired its torch. On Tactical, delta-vee swung to red."
+        }
+      ]
+    },
+    {
+      "id": "s1065",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Sascha was driving the Gang's body this shift. \"Incoming signal,\" she reported. \"Same format.\"",
+      "runs": [
+        {
+          "t": "Sascha was driving the Gang's body this shift. \"Incoming signal,\" she reported. \"Same format.\""
+        }
+      ]
+    },
+    {
+      "id": "s1066",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Sarasti clicked. \"Pipe it.\"",
+      "runs": [
+        {
+          "t": "Sarasti clicked. \"Pipe it.\""
+        }
+      ]
+    },
+    {
+      "id": "s1067",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Rorschach to Theseus. Hello again, Theseus.\" The voice was female this time, and middle-aged.",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " to "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ". Hello again, "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ".\" The voice was female this time, and middle-aged."
+        }
+      ]
+    },
+    {
+      "id": "s1068",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Sascha grinned \"See? She's not offended at all. Big hairy dick notwithstanding.\"",
+      "runs": [
+        {
+          "t": "Sascha grinned \"See? She's not offended at all. Big hairy dick notwithstanding.\""
+        }
+      ]
+    },
+    {
+      "id": "s1069",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Don't answer,\" Sarasti said.",
+      "runs": [
+        {
+          "t": "\"Don't answer,\" Sarasti said."
+        }
+      ]
+    },
+    {
+      "id": "s1070",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Burn complete,\" Bates reported.",
+      "runs": [
+        {
+          "t": "\"Burn complete,\" Bates reported."
+        }
+      ]
+    },
+    {
+      "id": "s1071",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Coasting now, Jack—sneezed. Silver chaff shot into the void towards the target: millions of compass needles, brilliantly reflective, fast enough to make Theseus seem slow. They were gone in an instant. The probe watched them flee, swept laser eyes across every degree of arc, scanned its sky twice a second and took careful note of each and every reflective flash. Only at first did those needles shoot along anything approaching a straight line: then they swept abruptly into Lorentz spirals, twisted into sudden arcs and corkscrews, shot away along new and intricate trajectories bordering on the relativistic. The contours of Rorschach's magnetic field resolved in ConSensus, at first glance like the nested layers of a glass onion.",
+      "runs": [
+        {
+          "t": "Coasting now, Jack—"
+        },
+        {
+          "t": "sneezed",
+          "i": true
+        },
+        {
+          "t": ". Silver chaff shot into the void towards the target: millions of compass needles, brilliantly reflective, fast enough to make "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " seem slow. They were gone in an instant. The probe watched them flee, swept laser eyes across every degree of arc, scanned its sky twice a second and took careful note of each and every reflective flash. Only at first did those needles shoot along anything approaching a straight line: then they swept abruptly into Lorentz spirals, twisted into sudden arcs and corkscrews, shot away along new and intricate trajectories bordering on the relativistic. The contours of "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s magnetic field resolved in ConSensus, at first glance like the nested layers of a glass onion."
+        }
+      ]
+    },
+    {
+      "id": "s1072",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Sproinnnng,\" Szpindel said.",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Sproinnnng",
+          "i": true
+        },
+        {
+          "t": ",\" Szpindel said."
+        }
+      ]
+    },
+    {
+      "id": "s1073",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "At second glance the onion grew wormy. Invaginations appeared, long snaking tunnels of energy proliferating fractally at every scale.",
+      "runs": [
+        {
+          "t": "At second glance the onion grew wormy. Invaginations appeared, long snaking tunnels of energy proliferating fractally at every scale."
+        }
+      ]
+    },
+    {
+      "id": "s1074",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Rorschach to Theseus. Hello, Theseus. You there?\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " to "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ". Hello, "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ". You there?\""
+        }
+      ]
+    },
+    {
+      "id": "s1075",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "A holographic inset beside the main display plotted the points of a triangle in flux: Theseus at the apex, Rorschach and Jack defining the narrow base.",
+      "runs": [
+        {
+          "t": "A holographic inset beside the main display plotted the points of a triangle in flux: "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " at the apex, "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " and Jack defining the narrow base."
+        }
+      ]
+    },
+    {
+      "id": "s1076",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Rorschach to Theseus. I seeee you....\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " to "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ". I "
+        },
+        {
+          "t": "seeee",
+          "i": true
+        },
+        {
+          "t": " you....\""
+        }
+      ]
+    },
+    {
+      "id": "s1077",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"She's got a more casual affect than he ever did.\" Sascha glanced up at Sarasti, and did not add You sure about this? She was starting to wonder herself, though. Starting to dwell on the potential consequences of being wrong, now that we were committed. As far as sober second thought was concerned it was too little too late; but for Sascha, that was progress.",
+      "runs": [
+        {
+          "t": "\"She's got a more casual affect than "
+        },
+        {
+          "t": "he",
+          "i": true
+        },
+        {
+          "t": " ever did.\" Sascha glanced up at Sarasti, and did not add "
+        },
+        {
+          "t": "You sure about this?",
+          "i": true
+        },
+        {
+          "t": " She was starting to wonder herself, though. Starting to dwell on the potential consequences of being "
+        },
+        {
+          "t": "wrong",
+          "i": true
+        },
+        {
+          "t": ", now that we were committed. As far as sober second thought was concerned it was too little too late; but for Sascha, that was progress."
+        }
+      ]
+    },
+    {
+      "id": "s1078",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Besides, it had been Sarasti's decision.",
+      "runs": [
+        {
+          "t": "Besides, it had been Sarasti's decision."
+        }
+      ]
+    },
+    {
+      "id": "s1079",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Great hoops were resolving in Rorschach's magnetosphere. Invisible to human eyes, their outlines were vanishingly faint even on Tactical; the chaff had scattered so thinly across the sky that even the Captain was resorting to guesswork. The new macrostructures hovered in the magnetosphere like the nested gimbals of some great phantom gyroscope.",
+      "runs": [
+        {
+          "t": "Great hoops were resolving in "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s magnetosphere. Invisible to human eyes, their outlines were vanishingly faint even on Tactical; the chaff had scattered so thinly across the sky that even the Captain was resorting to guesswork. The new macrostructures hovered in the magnetosphere like the nested gimbals of some great phantom gyroscope."
+        }
+      ]
+    },
+    {
+      "id": "s1080",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"I see you haven't changed your vector,\" Rorschach remarked. \"We really wouldn't advise continuing your approach. Seriously. For your own safety.\"",
+      "runs": [
+        {
+          "t": "\"I see you haven't changed your vector,\" "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " remarked. \"We really wouldn't advise continuing your approach. Seriously. For your own safety.\""
+        }
+      ]
+    },
+    {
+      "id": "s1081",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Szpindel shook his head. \"Hey, Mandy. Rorschach talking to Jack at all?\"",
+      "runs": [
+        {
+          "t": "Szpindel shook his head. \"Hey, Mandy. "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " talking to Jack at all?\""
+        }
+      ]
+    },
+    {
+      "id": "s1082",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"If it is, I'm not seeing it. No incident light, no directed EM of any kind.\" She smiled grimly. \"Seems to have snuck in under the radar. And don't call me Mandy.\"",
+      "runs": [
+        {
+          "t": "\"If it is, I'm not seeing it. No incident light, no directed EM of any kind.\" She smiled grimly. \"Seems to have snuck in under the radar. And don't call me Mandy.\""
+        }
+      ]
+    },
+    {
+      "id": "s1083",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Theseus groaned, twisting. I staggered in the low pseudograv, reached out to steady myself. \"Course correction,\" Bates reported. \"Unplotted rock.\"",
+      "runs": [
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " groaned, twisting. I staggered in the low pseudograv, reached out to steady myself. \"Course correction,\" Bates reported. \"Unplotted rock.\""
+        }
+      ]
+    },
+    {
+      "id": "s1084",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Rorschach to Theseus. Please respond. Your current heading is unacceptable, repeat, your current heading is unacceptable. Strongly advise you change course.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " to "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ". Please respond. Your current heading is unacceptable, repeat, your current heading is "
+        },
+        {
+          "t": "unacceptable",
+          "i": true
+        },
+        {
+          "t": ". "
+        },
+        {
+          "t": "Strongly",
+          "i": true
+        },
+        {
+          "t": " advise you change course.\""
+        }
+      ]
+    },
+    {
+      "id": "s1085",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "By now the probe coasted just a few kilometers off Rorschach's leading edge. That close it served up way more than magnetic fields: it presented Rorschach itself in bright, tactical color codes. Invisible curves and spikes iridesced in ConSensus across any number of on-demand pigment schemes: gravity, reflectivity, blackbody emissions. Massive electrical bolts erupting from the tips of thorns rendered in lemon pastels. User-friendly graphics had turned Rorschach into a cartoon.",
+      "runs": [
+        {
+          "t": "By now the probe coasted just a few kilometers off "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s leading edge. That close it served up way more than magnetic fields: it presented "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " itself in bright, tactical color codes. Invisible curves and spikes iridesced in ConSensus across any number of on-demand pigment schemes: gravity, reflectivity, blackbody emissions. Massive electrical bolts erupting from the tips of thorns rendered in lemon pastels. User-friendly graphics had turned "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " into a cartoon."
+        }
+      ]
+    },
+    {
+      "id": "s1086",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Rorschach to Theseus. Please respond.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " to "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ". Please respond.\""
+        }
+      ]
+    },
+    {
+      "id": "s1087",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Theseus growled to stern, fishtailing. On tactical, another just-plotted piece of debris swept by a discreet six thousand meters to port.",
+      "runs": [
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " growled to stern, fishtailing. On tactical, another just-plotted piece of debris swept by a discreet six thousand meters to port."
+        }
+      ]
+    },
+    {
+      "id": "s1088",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Rorschach to Theseus. If you are unable to respond, please—holy shit!\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " to "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ". If you are unable to respond, please—"
+        },
+        {
+          "t": "holy shit!",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s1089",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "The cartoon flickered and died.",
+      "runs": [
+        {
+          "t": "The cartoon flickered and died."
+        }
+      ]
+    },
+    {
+      "id": "s1090",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "I'd seen what had happened in that last instant, though: Jack passing near one of those great phantom hoops; a tongue of energy flicking out, quick as a frog's; a dead feed.",
+      "runs": [
+        {
+          "t": "I'd seen what had happened in that last instant, though: Jack passing near one of those great phantom hoops; a tongue of energy flicking out, quick as a frog's; a dead feed."
+        }
+      ]
+    },
+    {
+      "id": "s1091",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"I see what you're up to now, you cocksuckers. Do you think we're fucking blind down here?\"",
+      "runs": [
+        {
+          "t": "\"I see what you're up to "
+        },
+        {
+          "t": "now",
+          "i": true
+        },
+        {
+          "t": ", you "
+        },
+        {
+          "t": "cocksuckers",
+          "i": true
+        },
+        {
+          "t": ". Do you think we're fucking "
+        },
+        {
+          "t": "blind",
+          "i": true
+        },
+        {
+          "t": " down here?\""
+        }
+      ]
+    },
+    {
+      "id": "s1092",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Sascha clenched her teeth. \"We—\"",
+      "runs": [
+        {
+          "t": "Sascha clenched her teeth. \"We—\""
+        }
+      ]
+    },
+    {
+      "id": "s1093",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"No,\" Sarasti said.",
+      "runs": [
+        {
+          "t": "\"No,\" Sarasti said."
+        }
+      ]
+    },
+    {
+      "id": "s1094",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"But it fi—\"",
+      "runs": [
+        {
+          "t": "\"But it "
+        },
+        {
+          "t": "fi",
+          "i": true
+        },
+        {
+          "t": "—\""
+        }
+      ]
+    },
+    {
+      "id": "s1095",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Sarasti hissed, from somewhere in the back of his throat. I had never heard a mammal make a noise quite like that before. Sascha fell immediately silent.",
+      "runs": [
+        {
+          "t": "Sarasti "
+        },
+        {
+          "t": "hissed",
+          "i": true
+        },
+        {
+          "t": ", from somewhere in the back of his throat. I had never heard a mammal make a noise quite like that before. Sascha fell immediately silent."
+        }
+      ]
+    },
+    {
+      "id": "s1096",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Bates negotiated with her controls. \"I've still got—just a sec—\"",
+      "runs": [
+        {
+          "t": "Bates negotiated with her controls. \"I've still got—just a sec—\""
+        }
+      ]
+    },
+    {
+      "id": "s1097",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"You pull that thing back right fucking now, you hear us? Right fucking now.\"",
+      "runs": [
+        {
+          "t": "\"You pull that thing back "
+        },
+        {
+          "t": "right fucking now",
+          "i": true
+        },
+        {
+          "t": ", you hear us? "
+        },
+        {
+          "t": "Right fucking now.",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s1098",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Got it.\" Bates gritted as the feed came back up. \"Just had to reacquire the laser.\" The probe had been kicked wildly off-course—as if someone fording a river had been caught in sudden undertow and thrown over a waterfall—but it was still talking, and still mobile.",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Got it",
+          "i": true
+        },
+        {
+          "t": ".\" Bates gritted as the feed came back up. \"Just had to reacquire the laser.\" The probe had been kicked wildly off-course—as if someone fording a river had been caught in sudden undertow and thrown over a waterfall—but it was still talking, and still mobile."
+        }
+      ]
+    },
+    {
+      "id": "s1099",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Barely. Bates struggled to stay the course. Jack staggered and wobbled uncontrollably though the tightly-wound folds of Rorschach's magnetosphere. The artefact loomed huge in its eye. The feed strobed.",
+      "runs": [
+        {
+          "t": "Barely. Bates struggled to stay the course. Jack staggered and wobbled uncontrollably though the tightly-wound folds of "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s magnetosphere. The artefact loomed huge in its eye. The feed strobed."
+        }
+      ]
+    },
+    {
+      "id": "s1100",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Maintain approach,\" Sarasti said calmly.",
+      "runs": [
+        {
+          "t": "\"Maintain approach,\" Sarasti said calmly."
+        }
+      ]
+    },
+    {
+      "id": "s1101",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Love to,\" Bates gritted. \"Trying.\"",
+      "runs": [
+        {
+          "t": "\"Love to,\" Bates gritted. \"Trying.\""
+        }
+      ]
+    },
+    {
+      "id": "s1102",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Theseus skidded again, corkscrewing. I could have sworn I heard the bearings in the drum grind for a moment. Another rock sailed past on Tactical.",
+      "runs": [
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " skidded again, corkscrewing. I could have sworn I heard the bearings in the drum "
+        },
+        {
+          "t": "grind",
+          "i": true
+        },
+        {
+          "t": " for a moment. Another rock sailed past on Tactical."
+        }
+      ]
+    },
+    {
+      "id": "s1103",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"I thought you'd plotted those things,\" Szpindel grumbled.",
+      "runs": [
+        {
+          "t": "\"I thought you'd "
+        },
+        {
+          "t": "plotted",
+          "i": true
+        },
+        {
+          "t": " those things,\" Szpindel grumbled."
+        }
+      ]
+    },
+    {
+      "id": "s1104",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"You want to start a war, Theseus? Is that what you're trying to do? You think you're up for it?\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "You want to start a war, Theseus",
+          "i": true
+        },
+        {
+          "t": "? Is that what you're trying to do? You think you're up for it?\""
+        }
+      ]
+    },
+    {
+      "id": "s1105",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"It doesn't attack,\" Sarasti said.",
+      "runs": [
+        {
+          "t": "\"It doesn't attack,\" Sarasti said."
+        }
+      ]
+    },
+    {
+      "id": "s1106",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Maybe it does.\" Bates kept her voice low; I could see the effort it took. \"If Rorschach can control the trajectories of these—\"",
+      "runs": [
+        {
+          "t": "\"Maybe it does.\" Bates kept her voice low; I could see the effort it took. \"If "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " can control the trajectories of these—\""
+        }
+      ]
+    },
+    {
+      "id": "s1107",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Normal distribution. Insignificant corrections.\" He must have meant statistically: the torque and grind of the ship's hull felt pretty significant to the others.",
+      "runs": [
+        {
+          "t": "\"Normal distribution. Insignificant corrections.\" He must have meant statistically: the torque and grind of the ship's hull felt pretty significant to the others."
+        }
+      ]
+    },
+    {
+      "id": "s1108",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Oh, right,\" Rorschach said suddenly. \"We get it now. You don't think there's anyone here, do you? You've got some high-priced consultant telling you there's nothing to worry about.\"",
+      "runs": [
+        {
+          "t": "\"Oh, right,\" "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " said suddenly. \"We get it "
+        },
+        {
+          "t": "now",
+          "i": true
+        },
+        {
+          "t": ". You don't think there's anyone here, do you? You've got some high-priced consultant telling you there's nothing to worry about.\""
+        }
+      ]
+    },
+    {
+      "id": "s1109",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Jack was deep in the forest. We'd lost most of the tactical overlays to reduced baud. In dim visible light Rorschach's great ridged spines, each the size of a skyscraper, hashed a nightmare view on all sides. The feed stuttered as Bates struggled to keep the beam aligned. ConSensus painted walls and airspace with arcane telemetry. I had no idea what any of it meant.",
+      "runs": [
+        {
+          "t": "Jack was deep in the forest. We'd lost most of the tactical overlays to reduced baud. In dim visible light "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s great ridged spines, each the size of a skyscraper, hashed a nightmare view on all sides. The feed stuttered as Bates struggled to keep the beam aligned. ConSensus painted walls and airspace with arcane telemetry. I had no idea what any of it meant."
+        }
+      ]
+    },
+    {
+      "id": "s1110",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"You think we're nothing but a Chinese Room,\" Rorschach sneered.",
+      "runs": [
+        {
+          "t": "\"You think we're nothing but a "
+        },
+        {
+          "t": "Chinese Room",
+          "i": true
+        },
+        {
+          "t": ",\" "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " sneered."
+        }
+      ]
+    },
+    {
+      "id": "s1111",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Jack stumbled towards collision, grasping for something to hang on to.",
+      "runs": [
+        {
+          "t": "Jack stumbled towards collision, grasping for something to hang on to."
+        }
+      ]
+    },
+    {
+      "id": "s1112",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Your mistake, Theseus.\"",
+      "runs": [
+        {
+          "t": "\"Your mistake, "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s1113",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "It hit something. It stuck.",
+      "runs": [
+        {
+          "t": "It hit something. It stuck."
+        }
+      ]
+    },
+    {
+      "id": "s1114",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "And suddenly Rorschach snapped into view—no refractory composites, no profiles or simulations in false color. There it was at last, naked even to Human eyes.",
+      "runs": [
+        {
+          "t": "And suddenly "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " snapped into view—no refractory composites, no profiles or simulations in false color. There it was at last, naked even to Human eyes."
+        }
+      ]
+    },
+    {
+      "id": "s1115",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Imagine a crown of thorns, twisted, dark and unreflective, grown too thickly tangled to ever rest on any human head. Put it in orbit around a failed star whose own reflected half-light does little more than throw its satellites into silhouette. Occasional bloody highlights glinted like dim embers from its twists and crannies; they only emphasized the darkness everywhere else.",
+      "runs": [
+        {
+          "t": "Imagine a crown of thorns, twisted, dark and unreflective, grown too thickly tangled to ever rest on any human head. Put it in orbit around a failed star whose own reflected half-light does little more than throw its satellites into silhouette. Occasional bloody highlights glinted like dim embers from its twists and crannies; they only emphasized the darkness everywhere else."
+        }
+      ]
+    },
+    {
+      "id": "s1116",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Imagine an artefact that embodies the very notion of torture, something so wrenched and disfigured that even across uncounted lightyears and unimaginable differences in biology and outlook, you can't help but feel that somehow, the structure itself is in pain.",
+      "runs": [
+        {
+          "t": "Imagine an artefact that embodies the very notion of torture, something so wrenched and disfigured that even across uncounted lightyears and unimaginable differences in biology and outlook, you can't help but feel that somehow, the structure itself is in pain."
+        }
+      ]
+    },
+    {
+      "id": "s1117",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Now make it the size of a city.",
+      "runs": [
+        {
+          "t": "Now make it the size of a city."
+        }
+      ]
+    },
+    {
+      "id": "s1118",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "It flickered as we watched. Lightning arced from recurved spines a thousand meters long. ConSensus showed us a strobe-lit hellscape, huge and dark and twisted. The composites had lied. It was not the least bit beautiful.",
+      "runs": [
+        {
+          "t": "It flickered as we watched. Lightning arced from recurved spines a thousand meters long. ConSensus showed us a strobe-lit hellscape, huge and dark and twisted. The composites had lied. It was not the least bit beautiful."
+        }
+      ]
+    },
+    {
+      "id": "s1119",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Now it's too late,\" something said from deep inside. \"Now every last one of you is dead. And Susan? You there, Susan?",
+      "runs": [
+        {
+          "t": "\"Now it's too late,\" something said from deep inside. \"Now every last one of you is dead. And Susan? You there, Susan?"
+        }
+      ]
+    },
+    {
+      "id": "s1120",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"We're taking you first.\"",
+      "runs": [
+        {
+          "t": "\"We're taking you "
+        },
+        {
+          "t": "first.",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s1121",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Life's too short for chess.\"",
+      "runs": [
+        {
+          "t": "\"Life's too short for chess.\""
+        }
+      ]
+    },
+    {
+      "id": "s1122",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "— Byron",
+      "runs": [
+        {
+          "t": "— Byron"
+        }
+      ]
+    },
+    {
+      "id": "s1123",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "They never sealed the hatch behind them. It was too easy to get lost up there in the dome, naked infinite space stretching a hundred eighty degrees on every axis. They needed all that emptiness but they needed an anchor in its midst: soft stray light from astern, a gentle draft from the drum, the sounds of people and machinery close by. They needed to have it both ways.",
+      "runs": [
+        {
+          "t": "They never sealed the hatch behind them. It was too easy to get lost up there in the dome, naked infinite space stretching a hundred eighty degrees on every axis. They needed all that emptiness but they needed an anchor in its midst: soft stray light from astern, a gentle draft from the drum, the sounds of people and machinery close by. They needed to have it both ways."
+        }
+      ]
+    },
+    {
+      "id": "s1124",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "I lay in wait. Reading a dozen blatant cues in their behavior, I was already squirreled away in the forward airlock when they passed. I gave them a few minutes and crept forward to the darkened bridge.",
+      "runs": [
+        {
+          "t": "I lay in wait. Reading a dozen blatant cues in their behavior, I was already squirreled away in the forward airlock when they passed. I gave them a few minutes and crept forward to the darkened bridge."
+        }
+      ]
+    },
+    {
+      "id": "s1125",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Of course they called her by name,\" Szpindel was saying. \"That was the only name they had. She told them, remember?\"",
+      "runs": [
+        {
+          "t": "\"Of course they called her by name,\" Szpindel was saying. \"That was the only name they had. She "
+        },
+        {
+          "t": "told",
+          "i": true
+        },
+        {
+          "t": " them, remember?\""
+        }
+      ]
+    },
+    {
+      "id": "s1126",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Yes.\" Michelle didn't seem reassured.",
+      "runs": [
+        {
+          "t": "\"Yes.\" Michelle didn't seem reassured."
+        }
+      ]
+    },
+    {
+      "id": "s1127",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Hey, it was you guys said we were talking to a Chinese Room. You saying you were wrong?\"",
+      "runs": [
+        {
+          "t": "\"Hey, it was "
+        },
+        {
+          "t": "you",
+          "i": true
+        },
+        {
+          "t": " guys said we were talking to a Chinese Room. You saying you were wrong?\""
+        }
+      ]
+    },
+    {
+      "id": "s1128",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"We—no. Of course not.\"",
+      "runs": [
+        {
+          "t": "\"We—no. Of course not.\""
+        }
+      ]
+    },
+    {
+      "id": "s1129",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Then it wasn't really threatening Suze at all, was it? It wasn't threatening any of us. It had no idea what it was saying.\"",
+      "runs": [
+        {
+          "t": "\"Then it wasn't really threatening Suze at all, was it? It wasn't threatening any of us. It had no idea what it was saying.\""
+        }
+      ]
+    },
+    {
+      "id": "s1130",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"It's rule-based, Isaac. It was following some kind of flowchart it drew up by observing Human languages in action. And somehow those rules told it to respond with threats of violence.\"",
+      "runs": [
+        {
+          "t": "\"It's "
+        },
+        {
+          "t": "rule-based",
+          "i": true
+        },
+        {
+          "t": ", Isaac. It was following some kind of flowchart it drew up by observing Human languages in action. And somehow those rules told it to respond with threats of violence.\""
+        }
+      ]
+    },
+    {
+      "id": "s1131",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"But if it doesn't even know what it was saying—\"",
+      "runs": [
+        {
+          "t": "\"But if it doesn't even know what it was saying—\""
+        }
+      ]
+    },
+    {
+      "id": "s1132",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"It doesn't. It can't. We parsed the phrasing nineteen different ways, tried out conceptual units of every different length...\" A long, deep breath. \"But it attacked the probe, Isaac.\"",
+      "runs": [
+        {
+          "t": "\"It doesn't. It can't. We parsed the phrasing nineteen different ways, tried out conceptual units of every different length...\" A long, deep breath. \"But it attacked the probe, Isaac.\""
+        }
+      ]
+    },
+    {
+      "id": "s1133",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Jack just got too close to one of those electrode thingies is all. It just arced.\"",
+      "runs": [
+        {
+          "t": "\"Jack just got too close to one of those electrode thingies is all. It just arced.\""
+        }
+      ]
+    },
+    {
+      "id": "s1134",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"So you don't think Rorschach is hostile?\"",
+      "runs": [
+        {
+          "t": "\"So you don't think "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " is hostile?\""
+        }
+      ]
+    },
+    {
+      "id": "s1135",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Long silence—long enough to make me wonder if I'd been detected.",
+      "runs": [
+        {
+          "t": "Long silence—long enough to make me wonder if I'd been detected."
+        }
+      ]
+    },
+    {
+      "id": "s1136",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"Hostile,\" Szpindel said at last. \"Friendly. We learned those words for life on Earth, eh? I don't know if they even apply out here.\" His lips smacked faintly. \"But I think it might be something like hostile.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Hostile",
+          "i": true
+        },
+        {
+          "t": ",\" Szpindel said at last. \""
+        },
+        {
+          "t": "Friendly",
+          "i": true
+        },
+        {
+          "t": ". We learned those words for life on Earth, eh? I don't know if they even apply out here.\" His lips smacked faintly. \"But I think it might be something "
+        },
+        {
+          "t": "like",
+          "i": true
+        },
+        {
+          "t": " hostile.\""
+        }
+      ]
+    },
+    {
+      "id": "s1137",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "Michelle sighed. \"Isaac, there's no reason for—I mean, it just doesn't make sense that it would be. We can't have anything it wants.\"",
+      "runs": [
+        {
+          "t": "Michelle sighed. \"Isaac, there's no "
+        },
+        {
+          "t": "reason",
+          "i": true
+        },
+        {
+          "t": " for—I mean, it just doesn't make "
+        },
+        {
+          "t": "sense",
+          "i": true
+        },
+        {
+          "t": " that it would be. We can't have anything it wants.\""
+        }
+      ]
+    },
+    {
+      "id": "s1138",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"It says it wants to be left alone,\" Szpindel said. \"Even if it doesn't mean it.\"",
+      "runs": [
+        {
+          "t": "\"It says it wants to be left alone,\" Szpindel said. \"Even if it doesn't mean it.\""
+        }
+      ]
+    },
+    {
+      "id": "s1139",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "They floated quietly for a while, up there past the bulkhead.",
+      "runs": [
+        {
+          "t": "They floated quietly for a while, up there past the bulkhead."
+        }
+      ]
+    },
+    {
+      "id": "s1140",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 27,
+      "text": "\"At least the shielding held,\" Szpindel said finally. \"That's something.\" He wasn't just talking about Jack; our own carapace was coated with the same stuff now. It had depleted our substrate stockpiles by two thirds, but no one wanted to rely on the ship's usual magnetics in the face of anything that could play so easily with the electromagnetic spectrum.",
+      "runs": [
+        {
+          "t": "\"At least the shielding held,\" Szpindel said finally. \"That's something.\" He wasn't just talking about Jack; our own carapace was coated with the same stuff now. It had depleted our substrate stockpiles by two thirds, but no one wanted to rely on the ship's usual magnetics in the face of anything that could play so easily with the electromagnetic spectrum."
+        }
+      ]
+    }
+  ]
+}

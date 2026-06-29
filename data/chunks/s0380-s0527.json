@@ -1,0 +1,2273 @@
+{
+  "chunk_id": "s0380-s0527",
+  "part": "Theseus",
+  "first": "s0380",
+  "last": "s0527",
+  "n_segments": 148,
+  "words": 3023,
+  "segments": [
+    {
+      "id": "s0380",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "It wasn't so much the way they looked. The elongate limbs, the pale skin, the canines and the extended mandible—noticeable, yes, even alien, but not disturbing, not frightening. Not even the eyes, really. The eyes of dogs and cats shine in the darkness; we don't shiver at the sight.",
+      "runs": [
+        {
+          "t": "It wasn't so much the way they looked. The elongate limbs, the pale skin, the canines and the extended mandible—noticeable, yes, even alien, but not disturbing, not "
+        },
+        {
+          "t": "frightening",
+          "i": true
+        },
+        {
+          "t": ". Not even the eyes, really. The eyes of dogs and cats shine in the darkness; we don't shiver at the sight."
+        }
+      ]
+    },
+    {
+      "id": "s0381",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "Not the way they looked. The way they moved.",
+      "runs": [
+        {
+          "t": "Not the way they looked. The way they "
+        },
+        {
+          "t": "moved",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0382",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "Something in the reflexes, maybe. The way they held their limbs: like mantis limbs, long jointed things you just knew could reach out and snatch you from right across the room, any time they felt like it. When Sarasti looked at me—really looked, naked-eyed, unfiltered by the visor— a half-million years just melted away. The fact that he was extinct meant nothing. The fact that we'd come so far, grown strong enough to resurrect our own nightmares to serve us...meant nothing. The genes aren't fooled. They know what to fear.",
+      "runs": [
+        {
+          "t": "Something in the reflexes, maybe. The way they held their limbs: like mantis limbs, long jointed things you just "
+        },
+        {
+          "t": "knew ",
+          "i": true
+        },
+        {
+          "t": "could reach out and snatch you from right across the room, any time they felt like it. When Sarasti looked at me—really "
+        },
+        {
+          "t": "looked",
+          "i": true
+        },
+        {
+          "t": ", naked-eyed, unfiltered by the visor— a half-million years just melted away. The fact that he was extinct meant nothing. The fact that we'd come so far, grown strong enough to resurrect our own nightmares to serve us...meant nothing. The genes aren't fooled. They know what to fear."
+        }
+      ]
+    },
+    {
+      "id": "s0383",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "Of course, you had to experience it in person. Robert Paglini knew the theory of vampires down the molecules, but even with all those technical specs in his head he never really got it.",
+      "runs": [
+        {
+          "t": "Of course, you had to experience it in person. Robert Paglini knew the theory of vampires down the molecules, but even with all those technical specs in his head he never really "
+        },
+        {
+          "t": "got",
+          "i": true
+        },
+        {
+          "t": " it."
+        }
+      ]
+    },
+    {
+      "id": "s0384",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "He called me, before we left. I hadn't been expecting it; ever since the roster had been announced our watches had blocked calls from anyone not explicitly contact-listed. I'd forgotten that Pag had been. We hadn't spoken since Chelsea. I'd given up on ever hearing from him again.",
+      "runs": [
+        {
+          "t": "He called me, before we left. I hadn't been expecting it; ever since the roster had been announced our watches had blocked calls from anyone not explicitly contact-listed. I'd forgotten that Pag had been. We hadn't spoken since Chelsea. I'd given up on ever hearing from him again."
+        }
+      ]
+    },
+    {
+      "id": "s0385",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "But there he was. \"Pod-man.\" He smiled, a tentative overture.",
+      "runs": [
+        {
+          "t": "But there he was. \"Pod-man.\" He smiled, a tentative overture."
+        }
+      ]
+    },
+    {
+      "id": "s0386",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"It's good to see you,\" I said, because that's what people said in similar situations.",
+      "runs": [
+        {
+          "t": "\"It's good to see you,\" I said, because that's what people said in similar situations."
+        }
+      ]
+    },
+    {
+      "id": "s0387",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Yeah, well I saw your name in the noose. You've made it big, for a baseline.\"",
+      "runs": [
+        {
+          "t": "\"Yeah, well I saw your name in the noose. You've made it big, for a baseline.\""
+        }
+      ]
+    },
+    {
+      "id": "s0388",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Not so big.\"",
+      "runs": [
+        {
+          "t": "\"Not so big.\""
+        }
+      ]
+    },
+    {
+      "id": "s0389",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Crap. You're the vanguard of the Human Race. You're our first, last, and only hope against the unknown. Man, you showed them.\" He held his fist up and shook it, vicariously triumphant.",
+      "runs": [
+        {
+          "t": "\"Crap. You're the vanguard of the Human Race. You're our first, last, and only hope against the unknown. Man, you "
+        },
+        {
+          "t": "showed",
+          "i": true
+        },
+        {
+          "t": " them.\" He held his fist up and shook it, vicariously triumphant."
+        }
+      ]
+    },
+    {
+      "id": "s0390",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "Showing them had become a cornerstone of Robert Paglino's life. He'd really made it work for him, too, overcome the handicap of a natural birth with retrofits and enhancements and sheer bloody-mindedness. In a world in which Humanity had become redundant in unprecedented numbers, we'd both retained the status of another age: working professional.",
+      "runs": [
+        {
+          "t": "Showing them",
+          "i": true
+        },
+        {
+          "t": " had become a cornerstone of Robert Paglino's life. He'd really made it work for him, too, overcome the handicap of a natural birth with retrofits and enhancements and sheer bloody-mindedness. In a world in which Humanity had become redundant in unprecedented numbers, we'd both retained the status of another age: "
+        },
+        {
+          "t": "working professional",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0391",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"So you're taking orders from a vamp,\" he said now. \"Talk about fighting fire with fire.\"",
+      "runs": [
+        {
+          "t": "\"So you're taking orders from a vamp,\" he said now. \"Talk about fighting fire with fire.\""
+        }
+      ]
+    },
+    {
+      "id": "s0392",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"I guess it's practice. Until we run up against the real thing.\"",
+      "runs": [
+        {
+          "t": "\"I guess it's practice. Until we run up against the real thing.\""
+        }
+      ]
+    },
+    {
+      "id": "s0393",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "He laughed. I couldn't imagine why. But I smiled back anyway.",
+      "runs": [
+        {
+          "t": "He laughed. I couldn't imagine why. But I smiled back anyway."
+        }
+      ]
+    },
+    {
+      "id": "s0394",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "It was good to see him.",
+      "runs": [
+        {
+          "t": "It "
+        },
+        {
+          "t": "was",
+          "i": true
+        },
+        {
+          "t": " good to see him."
+        }
+      ]
+    },
+    {
+      "id": "s0395",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"So, what are they like?\" Pag asked.",
+      "runs": [
+        {
+          "t": "\"So, what are they like?\" Pag asked."
+        }
+      ]
+    },
+    {
+      "id": "s0396",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Vampires? I don't know. Just met my first one yesterday.\"",
+      "runs": [
+        {
+          "t": "\"Vampires? I don't know. Just met my first one yesterday.\""
+        }
+      ]
+    },
+    {
+      "id": "s0397",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"And?\"",
+      "runs": [
+        {
+          "t": "\"And?\""
+        }
+      ]
+    },
+    {
+      "id": "s0398",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Hard to read. Didn't even seem to be aware of his surroundings sometimes, he seemed to be... off in his own little world.\"",
+      "runs": [
+        {
+          "t": "\"Hard to read. Didn't even seem to be aware of his surroundings sometimes, he seemed to be... off in his own little world.\""
+        }
+      ]
+    },
+    {
+      "id": "s0399",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"He's aware all right. Those things are so fast it's scary. You know they can hold both aspects of a Necker cube in their heads at the same time?\"",
+      "runs": [
+        {
+          "t": "\"He's aware all right. Those things are so fast it's scary. You know they can hold both aspects of a Necker cube in their heads at the same time?\""
+        }
+      ]
+    },
+    {
+      "id": "s0400",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "The term rang a bell. I subtitled, and saw the thumbnail of a familiar wireframe box:",
+      "runs": [
+        {
+          "t": "The term rang a bell. I subtitled, and saw the thumbnail of a familiar wireframe box:"
+        }
+      ]
+    },
+    {
+      "id": "s0401",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "Now I remembered: classic ambiguous illusion. Sometimes the shaded panel seemed to be in front, sometimes behind. The perspective flipped back and forth as you watched.",
+      "runs": [
+        {
+          "t": "Now I remembered: classic ambiguous illusion. Sometimes the shaded panel seemed to be in front, sometimes behind. The perspective flipped back and forth as you watched."
+        }
+      ]
+    },
+    {
+      "id": "s0402",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"You or I, we can only see it one way or the other,\" Pag was saying. \"Vamps see it both ways at once. Do you have any idea what kind of an edge that gives 'em?\"",
+      "runs": [
+        {
+          "t": "\"You or I, we can only see it one way or the other,\" Pag was saying. \"Vamps see it both ways "
+        },
+        {
+          "t": "at once",
+          "i": true
+        },
+        {
+          "t": ". Do you have any "
+        },
+        {
+          "t": "idea",
+          "i": true
+        },
+        {
+          "t": " what kind of an edge that gives 'em?\""
+        }
+      ]
+    },
+    {
+      "id": "s0403",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Not enough of one.\"",
+      "runs": [
+        {
+          "t": "\"Not enough of one.\""
+        }
+      ]
+    },
+    {
+      "id": "s0404",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Touché. But hey, not their fault neutral traits get fixed in small populations.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Touché",
+          "i": true
+        },
+        {
+          "t": ". But hey, not their fault neutral traits get fixed in small populations.\""
+        }
+      ]
+    },
+    {
+      "id": "s0405",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"I don't know if I'd call the Crucifix glitch neutral.\"",
+      "runs": [
+        {
+          "t": "\"I don't know if I'd call the Crucifix glitch "
+        },
+        {
+          "t": "neutral",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s0406",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"It was at first. How many intersecting right angles do you see in nature?\" He waved one dismissive hand. \"Anyway, that's not the point. The point is they can do something that's neurologically impossible for us Humans. They can hold simultaneous multiple worldviews, Pod-man. They just see things we have to work out step-by-step, they don't have to think about it. You know, there isn't a single baseline human who could just tell you, just off the top of their heads, every prime number between one and a billion? In the old days, only a few autistics could do shit like that.\"",
+      "runs": [
+        {
+          "t": "\"It was at first. How many intersecting right angles do you see in nature?\" He waved one dismissive hand. \"Anyway, that's not the point. The point is they can do something that's neurologically impossible for us Humans. They can hold "
+        },
+        {
+          "t": "simultaneous multiple worldviews",
+          "i": true
+        },
+        {
+          "t": ", Pod-man. They just "
+        },
+        {
+          "t": "see",
+          "i": true
+        },
+        {
+          "t": " things we have to work out step-by-step, they don't have to "
+        },
+        {
+          "t": "think",
+          "i": true
+        },
+        {
+          "t": " about it. You know, there isn't a single baseline human who could just tell you, just off the top of their heads, every prime number between one and a billion? In the old days, only a few autistics could do shit like that.\""
+        }
+      ]
+    },
+    {
+      "id": "s0407",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"He never uses the past tense,\" I murmered.",
+      "runs": [
+        {
+          "t": "\"He never uses the past tense,\" I murmered."
+        }
+      ]
+    },
+    {
+      "id": "s0408",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Huh? Oh, that.\" Pag nodded. \"They never experience the past tense. It's just another thread to them. They don't remember stuff, they relive it.\"",
+      "runs": [
+        {
+          "t": "\"Huh? Oh, that.\" Pag nodded. \"They never "
+        },
+        {
+          "t": "experience",
+          "i": true
+        },
+        {
+          "t": " the past tense. It's just another thread to them. They don't remember stuff, they "
+        },
+        {
+          "t": "relive",
+          "i": true
+        },
+        {
+          "t": " it.\""
+        }
+      ]
+    },
+    {
+      "id": "s0409",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"What, like a post-traumatic flashback?\"",
+      "runs": [
+        {
+          "t": "\"What, like a post-traumatic flashback?\""
+        }
+      ]
+    },
+    {
+      "id": "s0410",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Not so traumatic.\" He grimaced. \"Not for them, at least.\"",
+      "runs": [
+        {
+          "t": "\"Not so traumatic.\" He grimaced. \"Not for "
+        },
+        {
+          "t": "them",
+          "i": true
+        },
+        {
+          "t": ", at least.\""
+        }
+      ]
+    },
+    {
+      "id": "s0411",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"So this is obviously your current hot spot? Vampires?\"",
+      "runs": [
+        {
+          "t": "\"So this is obviously your current hot spot? Vampires?\""
+        }
+      ]
+    },
+    {
+      "id": "s0412",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Pod, vampires are the capital-Hot spot for anyone with a 'neuro' in their c.v. I'm just doing a couple of histology papers. Pattern-matching receptors, Mexican-hat arrays, reward/irrelevance filters. The eyes, basically.\"",
+      "runs": [
+        {
+          "t": "\"Pod, vampires are the capital-Hot spot for "
+        },
+        {
+          "t": "anyone",
+          "i": true
+        },
+        {
+          "t": " with a 'neuro' in their c.v. I'm just doing a couple of histology papers. Pattern-matching receptors, Mexican-hat arrays, reward/irrelevance filters. The eyes, basically.\""
+        }
+      ]
+    },
+    {
+      "id": "s0413",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Right.\" I hesitated. \"Those kind of throw you.\"",
+      "runs": [
+        {
+          "t": "\"Right.\" I hesitated. \"Those kind of throw you.\""
+        }
+      ]
+    },
+    {
+      "id": "s0414",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"No shit.\" Pag nodded knowingly. \"That tap lucidum of theirs, that shine. Scary.\" He shook his head, impressed all over again at the recollection.",
+      "runs": [
+        {
+          "t": "\"No "
+        },
+        {
+          "t": "shit",
+          "i": true
+        },
+        {
+          "t": ".\" Pag nodded knowingly. \"That tap lucidum of theirs, that "
+        },
+        {
+          "t": "shine",
+          "i": true
+        },
+        {
+          "t": ". Scary.\" He shook his head, impressed all over again at the recollection."
+        }
+      ]
+    },
+    {
+      "id": "s0415",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"You've never met one,\" I surmised.",
+      "runs": [
+        {
+          "t": "\"You've never met one,\" I surmised."
+        }
+      ]
+    },
+    {
+      "id": "s0416",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"What, in the flesh? I'd give my left ball. Why?\"",
+      "runs": [
+        {
+          "t": "\"What, in the flesh? I'd give my left ball. Why?\""
+        }
+      ]
+    },
+    {
+      "id": "s0417",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"It's not the shine. It's the—\" I groped for a word that fit— \"The attitude, maybe.\"",
+      "runs": [
+        {
+          "t": "\"It's not the shine. It's the—\" I groped for a word that fit— \"The "
+        },
+        {
+          "t": "attitude",
+          "i": true
+        },
+        {
+          "t": ", maybe.\""
+        }
+      ]
+    },
+    {
+      "id": "s0418",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Yeah,\" he said after a bit. \"I guess sometimes you've just gotta be there, huh? Which is why I envy you, Pod-man.\"",
+      "runs": [
+        {
+          "t": "\"Yeah,\" he said after a bit. \"I guess sometimes you've just gotta be there, huh? Which is why I envy you, Pod-man.\""
+        }
+      ]
+    },
+    {
+      "id": "s0419",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"You shouldn't.\"",
+      "runs": [
+        {
+          "t": "\"You shouldn't.\""
+        }
+      ]
+    },
+    {
+      "id": "s0420",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"I should. Even if you never meet whoever sent the 'Flies, you're in for one Christly research opportunity with that—Sarasti, is it?\"",
+      "runs": [
+        {
+          "t": "\"I should. Even if you never meet whoever sent the 'Flies, you're in for one Christly research opportunity with that—Sarasti, is it?\""
+        }
+      ]
+    },
+    {
+      "id": "s0421",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Wasted on me. The only neuro in my file's under medical history.\"",
+      "runs": [
+        {
+          "t": "\"Wasted on me. The only neuro in "
+        },
+        {
+          "t": "my",
+          "i": true
+        },
+        {
+          "t": " file's under medical history.\""
+        }
+      ]
+    },
+    {
+      "id": "s0422",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "He laughed. \"Anyway, like I said, I just saw your name in the headlines and I figured, hey, the man's leaving in a couple of months, I should probably stop waiting around for him to call.\"",
+      "runs": [
+        {
+          "t": "He laughed. \"Anyway, like I said, I just saw your name in the headlines and I figured, hey, the man's leaving in a couple of months, I should probably stop waiting around for "
+        },
+        {
+          "t": "him",
+          "i": true
+        },
+        {
+          "t": " to call.\""
+        }
+      ]
+    },
+    {
+      "id": "s0423",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "It had been over two years. \"I didn't think I'd get through. I thought you'd shitlisted me.\"",
+      "runs": [
+        {
+          "t": "It had been over two years. \"I didn't think I'd get through. I thought you'd shitlisted me.\""
+        }
+      ]
+    },
+    {
+      "id": "s0424",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Nah. Never.\" He looked down, though, and fell silent.",
+      "runs": [
+        {
+          "t": "\"Nah. Never.\" He looked down, though, and fell silent."
+        }
+      ]
+    },
+    {
+      "id": "s0425",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"But you should have called her,\" he said at last.",
+      "runs": [
+        {
+          "t": "\"But you should have called her,\" he said at last."
+        }
+      ]
+    },
+    {
+      "id": "s0426",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"I know.\"",
+      "runs": [
+        {
+          "t": "\"I know.\""
+        }
+      ]
+    },
+    {
+      "id": "s0427",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"She was dying. You should've—\"",
+      "runs": [
+        {
+          "t": "\"She was "
+        },
+        {
+          "t": "dying",
+          "i": true
+        },
+        {
+          "t": ". You should've—\""
+        }
+      ]
+    },
+    {
+      "id": "s0428",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"There wasn't time.\"",
+      "runs": [
+        {
+          "t": "\"There wasn't time.\""
+        }
+      ]
+    },
+    {
+      "id": "s0429",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "He let the lie sit there for a while.",
+      "runs": [
+        {
+          "t": "He let the lie sit there for a while."
+        }
+      ]
+    },
+    {
+      "id": "s0430",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Anyway,\" he said at last. \"I just wanted to wish you luck.\" Which wasn't exactly true either.",
+      "runs": [
+        {
+          "t": "\"Anyway,\" he said at last. \"I just wanted to wish you luck.\" Which wasn't exactly true either."
+        }
+      ]
+    },
+    {
+      "id": "s0431",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Thanks. I appreciate that.\"",
+      "runs": [
+        {
+          "t": "\"Thanks. I appreciate that.\""
+        }
+      ]
+    },
+    {
+      "id": "s0432",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Kick their alien asses. If aliens have asses.\"",
+      "runs": [
+        {
+          "t": "\"Kick their alien asses. If aliens have asses.\""
+        }
+      ]
+    },
+    {
+      "id": "s0433",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"There's five of us, Pag. Nine if you count the backups. We're not exactly an army.\"",
+      "runs": [
+        {
+          "t": "\"There's five of us, Pag. Nine if you count the backups. We're not exactly an army.\""
+        }
+      ]
+    },
+    {
+      "id": "s0434",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Just an expression, fellow mammal. Bury the hatchet. Damn the torpedoes. Soothe the serpent.\"",
+      "runs": [
+        {
+          "t": "\"Just an expression, fellow mammal. Bury the hatchet. Damn the torpedoes. Soothe the serpent.\""
+        }
+      ]
+    },
+    {
+      "id": "s0435",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "Raise the white flag, I thought.",
+      "runs": [
+        {
+          "t": "Raise the white flag",
+          "i": true
+        },
+        {
+          "t": ", I thought."
+        }
+      ]
+    },
+    {
+      "id": "s0436",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"I guess you're busy,\" he said, \"I'll—\"",
+      "runs": [
+        {
+          "t": "\"I guess you're busy,\" he said, \"I'll—\""
+        }
+      ]
+    },
+    {
+      "id": "s0437",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Look, you want to get together? In airspace? I haven't been to QuBit's in a while.\"",
+      "runs": [
+        {
+          "t": "\"Look, you want to get together? In airspace? I haven't been to QuBit's in a while.\""
+        }
+      ]
+    },
+    {
+      "id": "s0438",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Love to, Pod. Unfortunately I'm in Mankoya. Splice'n'dice workshop.\"",
+      "runs": [
+        {
+          "t": "\"Love to, Pod. Unfortunately I'm in Mankoya. Splice'n'dice workshop.\""
+        }
+      ]
+    },
+    {
+      "id": "s0439",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"What, you mean physically?\"",
+      "runs": [
+        {
+          "t": "\"What, you mean "
+        },
+        {
+          "t": "physically",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s0440",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Cutting-edge research. Old-school habits.\"",
+      "runs": [
+        {
+          "t": "\"Cutting-edge research. Old-school habits.\""
+        }
+      ]
+    },
+    {
+      "id": "s0441",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Too bad.\"",
+      "runs": [
+        {
+          "t": "\"Too bad.\""
+        }
+      ]
+    },
+    {
+      "id": "s0442",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Anyway, I'll let you go. Just wanted, you know—\"",
+      "runs": [
+        {
+          "t": "\"Anyway, I'll let you go. Just wanted, you know—\""
+        }
+      ]
+    },
+    {
+      "id": "s0443",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"Thanks,\" I said again.",
+      "runs": [
+        {
+          "t": "\"Thanks,\" I said again."
+        }
+      ]
+    },
+    {
+      "id": "s0444",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "\"So, you know. Bye,\" Robert Paglino told me. Which was, when you got down to it, the reason he'd called.",
+      "runs": [
+        {
+          "t": "\"So, you know. Bye,\" Robert Paglino told me. Which was, when you got down to it, the reason he'd called."
+        }
+      ]
+    },
+    {
+      "id": "s0445",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 12,
+      "text": "He wasn't expecting another chance.",
+      "runs": [
+        {
+          "t": "He wasn't expecting another chance."
+        }
+      ]
+    },
+    {
+      "id": "s0446",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s0447",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Pag blamed me for the way it had ended with Chelsea. Fair enough. I blamed him for the way it began.",
+      "runs": [
+        {
+          "t": "Pag blamed me for the way it had ended with Chelsea. Fair enough. I blamed him for the way it began."
+        }
+      ]
+    },
+    {
+      "id": "s0448",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "He'd gone into neuroeconomics at least partly because his childhood buddy had turned into a pod person before his eyes. I'd ended up in Synthesis for roughly the same reason. Our paths had diverged, and we didn't see each other in the flesh all that often; but two decades after I'd brutalized a handful of children on his behalf, Robert Paglino was still my best and only friend.",
+      "runs": [
+        {
+          "t": "He'd gone into neuroeconomics at least partly because his childhood buddy had turned into a pod person before his eyes. I'd ended up in Synthesis for roughly the same reason. Our paths had diverged, and we didn't see each other in the flesh all that often; but two decades after I'd brutalized a handful of children on his behalf, Robert Paglino was still my best and only friend."
+        }
+      ]
+    },
+    {
+      "id": "s0449",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"You need to seriously thaw out,\" he told me, \"And I know just the lady to handle the oven mitts.\"",
+      "runs": [
+        {
+          "t": "\"You need to seriously thaw out,\" he told me, \"And I know just the lady to handle the oven mitts.\""
+        }
+      ]
+    },
+    {
+      "id": "s0450",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"That is perhaps the worst use of metaphor in the history of human language,\" I said.",
+      "runs": [
+        {
+          "t": "\"That is perhaps the worst use of metaphor in the history of human language,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s0451",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Seriously, Pod. She'll be good for you. A, a counterbalance—ease you a bit closer to the comfy mean, you know?\"",
+      "runs": [
+        {
+          "t": "\"Seriously, Pod. She'll be good for you. A, a "
+        },
+        {
+          "t": "counterbalance",
+          "i": true
+        },
+        {
+          "t": "—ease you a bit closer to the comfy mean, you know?\""
+        }
+      ]
+    },
+    {
+      "id": "s0452",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"No, Pag, I don't. What is she, another neuroeconomist?\"",
+      "runs": [
+        {
+          "t": "\"No, Pag, I don't. What is she, another neuroeconomist?\""
+        }
+      ]
+    },
+    {
+      "id": "s0453",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Neuroaestheticist,\" he said.",
+      "runs": [
+        {
+          "t": "\"Neuroaestheticist,\" he said."
+        }
+      ]
+    },
+    {
+      "id": "s0454",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"There's still a market for those?\" I couldn't imagine how; why pay to tweak your compatibility with some significant other, when significant others themselves were so out of fashion?",
+      "runs": [
+        {
+          "t": "\"There's still a market for those?\" I couldn't imagine how; why pay to tweak your compatibility with some significant other, when significant others themselves were so out of fashion?"
+        }
+      ]
+    },
+    {
+      "id": "s0455",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Not much of one,\" Pag admitted. \"Fact is, she's pretty much retired. But she's still got the tools, my man. Very thigmotactic. Likes all her relationships face-to-face and in the flesh.\"",
+      "runs": [
+        {
+          "t": "\"Not much of one,\" Pag admitted. \"Fact is, she's pretty much retired. But she's still got the tools, my man. Very thigmotactic. Likes all her relationships face-to-face and in the flesh.\""
+        }
+      ]
+    },
+    {
+      "id": "s0456",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"I dunno, Pag. Sounds like work.\"",
+      "runs": [
+        {
+          "t": "\"I dunno, Pag. Sounds like work.\""
+        }
+      ]
+    },
+    {
+      "id": "s0457",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Not like your work. She's got to be easier than the bleeding composites you front for. She's smart, she's sexy, and she's nicely inside the standard deev except for the personal contact thing. Which is not so much outright perversion as charming fetish. In your case it could even be therapeutic.\"",
+      "runs": [
+        {
+          "t": "\"Not like "
+        },
+        {
+          "t": "your",
+          "i": true
+        },
+        {
+          "t": " work. She's got to be easier than the bleeding composites you front for. She's smart, she's sexy, and she's nicely inside the standard deev except for the personal contact thing. Which is not so much outright perversion as charming fetish. In your case it could even be therapeutic.\""
+        }
+      ]
+    },
+    {
+      "id": "s0458",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"If I wanted therapy I'd see a therapist.\"",
+      "runs": [
+        {
+          "t": "\"If I wanted therapy I'd see a therapist.\""
+        }
+      ]
+    },
+    {
+      "id": "s0459",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"She does a bit of that too, actually.\"",
+      "runs": [
+        {
+          "t": "\"She does a bit of that too, actually.\""
+        }
+      ]
+    },
+    {
+      "id": "s0460",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Yeah?\" And then, despite myself, \"Any good?\"",
+      "runs": [
+        {
+          "t": "\"Yeah?\" And then, despite myself, \"Any good?\""
+        }
+      ]
+    },
+    {
+      "id": "s0461",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "He looked me up and down. \"No one's that good. That's not what this is. I just figured you two would click. Chelse is one of the few who might not be completely put off by your intimacy issues.\"",
+      "runs": [
+        {
+          "t": "He looked me up and down. \"No one's "
+        },
+        {
+          "t": "that",
+          "i": true
+        },
+        {
+          "t": " good. That's not what this is. I just figured you two would click. Chelse is one of the few who might not be completely put off by your intimacy issues.\""
+        }
+      ]
+    },
+    {
+      "id": "s0462",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Everyone's got intimacy issues these days, in case you hadn't noticed.\" He must have; the population had been dropping for decades.",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Everyone",
+          "i": true
+        },
+        {
+          "t": "'s got intimacy issues these days, in case you hadn't noticed.\" He must have; the population had been dropping for decades."
+        }
+      ]
+    },
+    {
+      "id": "s0463",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"I was being euphemistic. I meant your aversion to general Human contact.\"",
+      "runs": [
+        {
+          "t": "\"I was being euphemistic. I meant your aversion to general Human contact.\""
+        }
+      ]
+    },
+    {
+      "id": "s0464",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Making it euphemistic to call you Human?\"",
+      "runs": [
+        {
+          "t": "\"Making it euphemistic to call you Human?\""
+        }
+      ]
+    },
+    {
+      "id": "s0465",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "He grinned. \"Different deal. We got history.\"",
+      "runs": [
+        {
+          "t": "He grinned. \"Different deal. We got history.\""
+        }
+      ]
+    },
+    {
+      "id": "s0466",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"No thanks.\"",
+      "runs": [
+        {
+          "t": "\"No thanks.\""
+        }
+      ]
+    },
+    {
+      "id": "s0467",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Too late. She's already en route to the appointed place.\"",
+      "runs": [
+        {
+          "t": "\"Too late. She's already en route to the appointed place.\""
+        }
+      ]
+    },
+    {
+      "id": "s0468",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Appoin—you're an asshole, Pag.\"",
+      "runs": [
+        {
+          "t": "\"Appoin—you're an asshole, Pag.\""
+        }
+      ]
+    },
+    {
+      "id": "s0469",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"The tightest.\"",
+      "runs": [
+        {
+          "t": "\"The tightest.\""
+        }
+      ]
+    },
+    {
+      "id": "s0470",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Which was how I found myself intrusively face-to-face in an airspace lounge south of Beth and Bear. The lighting was low and indirect, creeping from under seats and the edges of tables; the chromatics, this afternoon at least, were defiantly longwave. It was a place where baselines could pretend to see in infrared.",
+      "runs": [
+        {
+          "t": "Which was how I found myself intrusively face-to-face in an airspace lounge south of Beth and Bear. The lighting was low and indirect, creeping from under seats and the edges of tables; the chromatics, this afternoon at least, were defiantly longwave. It was a place where baselines could pretend to see in infrared."
+        }
+      ]
+    },
+    {
+      "id": "s0471",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "So I pretended for a moment, assessing the woman in the corner booth: gangly and glorious, half-a-dozen ethnicities coexisting peacefully with no single voice dominant. Something glowed on her cheek, a faint emerald staccato against the ambient red shift. Her hair floated in a diffuse ebony cloud about her head; as I neared I caught occasional glints of metal within that nimbus, the threads of a static generator purveying the illusion of weightlessness. In normal light her blood-red skin would doubtless shift down to the fashionable butterscotch of the unrepentant mongrel.",
+      "runs": [
+        {
+          "t": "So I pretended for a moment, assessing the woman in the corner booth: gangly and glorious, half-a-dozen ethnicities coexisting peacefully with no single voice dominant. Something glowed on her cheek, a faint emerald staccato against the ambient red shift. Her hair floated in a diffuse ebony cloud about her head; as I neared I caught occasional glints of metal within that nimbus, the threads of a static generator purveying the illusion of weightlessness. In normal light her blood-red skin would doubtless shift down to the fashionable butterscotch of the unrepentant mongrel."
+        }
+      ]
+    },
+    {
+      "id": "s0472",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "She was attractive, but so was everyone in this kind of light; the longer the wavelength, the softer the focus. There's a reason fuckcubbies don't come with fluorescent lights.",
+      "runs": [
+        {
+          "t": "She "
+        },
+        {
+          "t": "was",
+          "i": true
+        },
+        {
+          "t": " attractive, but so was everyone in this kind of light; the longer the wavelength, the softer the focus. There's a reason fuckcubbies don't come with fluorescent lights."
+        }
+      ]
+    },
+    {
+      "id": "s0473",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "You will not fall for this, I told myself.",
+      "runs": [
+        {
+          "t": "You will not fall for this",
+          "i": true
+        },
+        {
+          "t": ", I told myself."
+        }
+      ]
+    },
+    {
+      "id": "s0474",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Chelsea,\" she said. Her little finger rested on one of the table's inset trickle-chargers. \"Former neuroaestheticist, presently a parasite on the Body Economic thanks to genes and machines on the cutting edge.\"",
+      "runs": [
+        {
+          "t": "\"Chelsea,\" she said. Her little finger rested on one of the table's inset trickle-chargers. \"Former neuroaestheticist, presently a parasite on the Body Economic thanks to genes and machines on the cutting edge.\""
+        }
+      ]
+    },
+    {
+      "id": "s0475",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "The glow on her cheek flapped bright lazy wings: a tattoo, a bioluminescent butterfly.",
+      "runs": [
+        {
+          "t": "The glow on her cheek flapped bright lazy wings: a tattoo, a bioluminescent butterfly."
+        }
+      ]
+    },
+    {
+      "id": "s0476",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Siri,\" I said. \"Freelance synthesist, indentured servant to the genes and machines that turned you into a parasite.\"",
+      "runs": [
+        {
+          "t": "\"Siri,\" I said. \"Freelance synthesist, indentured servant to the genes and machines that turned you into a parasite.\""
+        }
+      ]
+    },
+    {
+      "id": "s0477",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "She waved at the empty seat. I took it, assessing the system before me, sizing up the best approach for a fast yet diplomatic disconnect. The set of her shoulders told me she enjoyed lightscapes, and was embarrassed to admit it. Monahan was her favorite artist. She thought herself a natural girl because she'd stayed on chemical libidinals all these years, even though a synaptic edit would have been simpler. She revelled in her own inconsistency: a woman whose professional machinery edited thought itself, yet mistrustful of the dehumanising impact of telephones. Innately affectionate, and innately afraid of unreturned affection, and indomitably unwilling to let any of that stop her.",
+      "runs": [
+        {
+          "t": "She waved at the empty seat. I took it, assessing the system before me, sizing up the best approach for a fast yet diplomatic disconnect. The set of her shoulders told me she enjoyed lightscapes, and was embarrassed to admit it. Monahan was her favorite artist. She thought herself a natural girl because she'd stayed on chemical libidinals all these years, even though a synaptic edit would have been simpler. She revelled in her own inconsistency: a woman whose professional machinery edited thought itself, yet mistrustful of the dehumanising impact of telephones. Innately affectionate, and innately afraid of unreturned affection, and indomitably unwilling to let any of that stop her."
+        }
+      ]
+    },
+    {
+      "id": "s0478",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "She liked what she saw when looked at me. She was a little afraid of that, too.",
+      "runs": [
+        {
+          "t": "She liked what she saw when looked at me. She was a little afraid of that, too."
+        }
+      ]
+    },
+    {
+      "id": "s0479",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Chelsea gestured at my side of the table. The touchpads there glowed soft, dissonant sapphire in the bloody light, like a set of splayed fingerprints. \"Good dope here. Extra hydroxyl on the ring, or something.\"",
+      "runs": [
+        {
+          "t": "Chelsea gestured at my side of the table. The touchpads there glowed soft, dissonant sapphire in the bloody light, like a set of splayed fingerprints. \"Good dope here. Extra hydroxyl on the ring, or something.\""
+        }
+      ]
+    },
+    {
+      "id": "s0480",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Assembly-line neuropharm doesn't do much for me; it's optimized for people with more meat in their heads. I fingered one of the pads for appearances, and barely felt the tingle.",
+      "runs": [
+        {
+          "t": "Assembly-line neuropharm doesn't do much for me; it's optimized for people with more meat in their heads. I fingered one of the pads for appearances, and barely felt the tingle."
+        }
+      ]
+    },
+    {
+      "id": "s0481",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"So. A Synthesist. Explaining the Incomprehensible to the Indifferent.\"",
+      "runs": [
+        {
+          "t": "\"So. A Synthesist. Explaining the Incomprehensible to the Indifferent.\""
+        }
+      ]
+    },
+    {
+      "id": "s0482",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "I smiled on cue. \"More like bridging the gap between the people who make the breakthroughs and the people who take the credit for them.\"",
+      "runs": [
+        {
+          "t": "I smiled on cue. \"More like bridging the gap between the people who make the breakthroughs and the people who take the credit for them.\""
+        }
+      ]
+    },
+    {
+      "id": "s0483",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "She smiled back. \"So how do you do it? All those optimized frontal lobes and refits—I mean, if they're incomprehensible, how do you comprehend them?\"",
+      "runs": [
+        {
+          "t": "She smiled back. \"So how do you do it? All those optimized frontal lobes and refits—I mean, if they're incomprehensible, how do you comprehend them?\""
+        }
+      ]
+    },
+    {
+      "id": "s0484",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"It helps to find pretty much everyone else incomprehensible too. Provides experience.\" There. That should force a bit of distance.",
+      "runs": [
+        {
+          "t": "\"It helps to find pretty much everyone else incomprehensible too. Provides experience.\" There. That should force a bit of distance."
+        }
+      ]
+    },
+    {
+      "id": "s0485",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "It didn't. She thought I was joking. I could see her lining up to push for more details, to ask questions about what I did, which would lead to questions about me, which would lead—",
+      "runs": [
+        {
+          "t": "It didn't. She thought I was joking. I could see her lining up to push for more details, to ask questions about what I did, which would lead to questions about "
+        },
+        {
+          "t": "me",
+          "i": true
+        },
+        {
+          "t": ", which would lead—"
+        }
+      ]
+    },
+    {
+      "id": "s0486",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Tell me what it's like,\" I said smoothly, \"rewiring people's heads for a living.\"",
+      "runs": [
+        {
+          "t": "\"Tell me what it's like,\" I said smoothly, \"rewiring people's heads for a living.\""
+        }
+      ]
+    },
+    {
+      "id": "s0487",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Chelsea grimaced; the butterfly on her cheek fluttered nervously at the motion, wings brightening. \"God, you make it sound like we turn them into zombies or something. They're just tweaks, mainly. Changing taste in music or cuisine, you know, optimizing mate compatibility. It's all completely reversible.\"",
+      "runs": [
+        {
+          "t": "Chelsea grimaced; the butterfly on her cheek fluttered nervously at the motion, wings brightening. \"God, you make it sound like we turn them into zombies or something. They're just tweaks, mainly. Changing taste in music or cuisine, you know, optimizing mate compatibility. It's all completely reversible.\""
+        }
+      ]
+    },
+    {
+      "id": "s0488",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"There aren't drugs for that?\"",
+      "runs": [
+        {
+          "t": "\"There aren't drugs for that?\""
+        }
+      ]
+    },
+    {
+      "id": "s0489",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Nah. Too much developmental variation between brains; our targeting is really fine-scale. But it's not all microsurgery and fried synapses, you know. You'd be surprised how much rewiring can be done noninvasively. You can start all sorts of cascades just by playing certain sounds in the right order, or showing images with the right balance of geometry and emotion.\"",
+      "runs": [
+        {
+          "t": "\"Nah. Too much developmental variation between brains; our targeting is "
+        },
+        {
+          "t": "really",
+          "i": true
+        },
+        {
+          "t": " fine-scale. But it's not all microsurgery and fried synapses, you know. You'd be surprised how much rewiring can be done noninvasively. You can start all sorts of cascades just by playing certain sounds in the right order, or showing images with the right balance of geometry and emotion.\""
+        }
+      ]
+    },
+    {
+      "id": "s0490",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"I assume those are new techniques.\"",
+      "runs": [
+        {
+          "t": "\"I assume those are new techniques.\""
+        }
+      ]
+    },
+    {
+      "id": "s0491",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Not really. Rhythm and music hang their hats on the same basic principle. We just turned art into science.\"",
+      "runs": [
+        {
+          "t": "\"Not really. Rhythm and music hang their hats on the same basic principle. We just turned art into science.\""
+        }
+      ]
+    },
+    {
+      "id": "s0492",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Yeah, but when?\" The recent past, certainly. Sometime within the past twenty years or so—",
+      "runs": [
+        {
+          "t": "\"Yeah, but when?\" The recent past, certainly. Sometime within the past twenty years or so—"
+        }
+      ]
+    },
+    {
+      "id": "s0493",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Her voice grew suddenly quiet. \"Robert told me about your operation. Some kind of viral epilepsy, right? Back when you were just a tyke.\"",
+      "runs": [
+        {
+          "t": "Her voice grew suddenly quiet. \"Robert told me about your operation. Some kind of viral epilepsy, right? Back when you were just a tyke.\""
+        }
+      ]
+    },
+    {
+      "id": "s0494",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "I'd never explicitly asked him to keep it a secret. What was the difference anyway? I'd made a full recovery.",
+      "runs": [
+        {
+          "t": "I'd never explicitly asked him to keep it a secret. What was the difference anyway? I'd made a full recovery."
+        }
+      ]
+    },
+    {
+      "id": "s0495",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Besides, Pag still thought that had happened to someone else.",
+      "runs": [
+        {
+          "t": "Besides, Pag still thought that had happened to someone "
+        },
+        {
+          "t": "else",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0496",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"I don't know your specifics,\" Chelsea continued gently. \"But from the sound of it, noninvasive techniques wouldn't have helped. I'm sure they only did what they had to.\"",
+      "runs": [
+        {
+          "t": "\"I don't know your specifics,\" Chelsea continued gently. \"But from the sound of it, noninvasive techniques wouldn't have helped. I'm sure they only did what they had to.\""
+        }
+      ]
+    },
+    {
+      "id": "s0497",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "I tried to suppress the thought, and couldn't: I like this woman.",
+      "runs": [
+        {
+          "t": "I tried to suppress the thought, and couldn't: "
+        },
+        {
+          "t": "I like this woman.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0498",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "I felt something then, a strange, unfamiliar sensation that somehow loosened my vertebrae. The chair felt subtly, indefinably more comfortable at my back.",
+      "runs": [
+        {
+          "t": "I felt something then, a strange, unfamiliar sensation that somehow loosened my vertebrae. The chair felt subtly, indefinably more comfortable at my back."
+        }
+      ]
+    },
+    {
+      "id": "s0499",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Anyway.\" My silence had thrown her off-stride. \"Haven't done it much since the bottom dropped out of the market. But it did leave me with a fondness for face-to-face encounters, if you know what I mean.\"",
+      "runs": [
+        {
+          "t": "\"Anyway.\" My silence had thrown her off-stride. \"Haven't done it much since the bottom dropped out of the market. But it "
+        },
+        {
+          "t": "did",
+          "i": true
+        },
+        {
+          "t": " leave me with a fondness for face-to-face encounters, if you know what I mean.\""
+        }
+      ]
+    },
+    {
+      "id": "s0500",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Yeah. Pag said you took your sex in the first-person.\"",
+      "runs": [
+        {
+          "t": "\"Yeah. Pag said you took your sex in the first-person.\""
+        }
+      ]
+    },
+    {
+      "id": "s0501",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "She nodded. \"I'm very old-school. You okay with that?\"",
+      "runs": [
+        {
+          "t": "She nodded. \"I'm very old-school. You okay with that?\""
+        }
+      ]
+    },
+    {
+      "id": "s0502",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "I wasn't certain. I was a virgin in the real world, one of the few things I still had in common with the rest of civilized society. \"In principle, I guess. It just seems—a lot of effort for not as much payoff, you know?\"",
+      "runs": [
+        {
+          "t": "I wasn't certain. I was a virgin in the real world, one of the few things I still had in common with the rest of civilized society. \"In principle, I guess. It just seems—a lot of effort for not as much payoff, you know?\""
+        }
+      ]
+    },
+    {
+      "id": "s0503",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Don't I.\" She smiled. \"Real fuckbuddies aren't airbrushed. Got all these needs and demands that you can't edit out. How can you blame anyone for saying no thanks to all that, now there's a choice? You gotta wonder how our parents ever stayed together sometimes.\"",
+      "runs": [
+        {
+          "t": "\"Don't I.\" She smiled. \"Real fuckbuddies aren't airbrushed. Got all these "
+        },
+        {
+          "t": "needs",
+          "i": true
+        },
+        {
+          "t": " and "
+        },
+        {
+          "t": "demands",
+          "i": true
+        },
+        {
+          "t": " that you can't edit out. How can you blame anyone for saying "
+        },
+        {
+          "t": "no thanks",
+          "i": true
+        },
+        {
+          "t": " to all that, now there's a choice? You gotta wonder how our parents ever stayed together sometimes.\""
+        }
+      ]
+    },
+    {
+      "id": "s0504",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "You gotta wonder why they did. I felt myself sinking deeper into the chair, wondered again at this strange new sensation. Chelsea had said the dopamine was tweaked. That was probably it.",
+      "runs": [
+        {
+          "t": "You gotta wonder ",
+          "i": true
+        },
+        {
+          "t": "why"
+        },
+        {
+          "t": " they did",
+          "i": true
+        },
+        {
+          "t": ". I felt myself sinking deeper into the chair, wondered again at this strange new sensation. Chelsea had said the dopamine was tweaked. That was probably it."
+        }
+      ]
+    },
+    {
+      "id": "s0505",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "She leaned forward, not coy, not coquettish, not breaking eye contact for an instant in the longwave gloom. I could smell the lemony tang of pheromones and synthetics mingling on her skin. \"But there are advantages too, once you learn the moves,\" she said. \"The body's got a long memory. And you do realize that there's no trickler under your left finger there, don't you, Siri?\"",
+      "runs": [
+        {
+          "t": "She leaned forward, not coy, not coquettish, not breaking eye contact for an instant in the longwave gloom. I could smell the lemony tang of pheromones and synthetics mingling on her skin. \"But there are advantages too, once you learn the moves,\" she said. \"The body's got a long memory. And you "
+        },
+        {
+          "t": "do",
+          "i": true
+        },
+        {
+          "t": " realize that there's no trickler under your left finger there, don't you, Siri?\""
+        }
+      ]
+    },
+    {
+      "id": "s0506",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "I looked. My left arm was slightly extended, index finger touching one of the trickle pads; and my right had mirrored the motion while I wasn't watching, its own finger tapping uselessly on blank tabletop.",
+      "runs": [
+        {
+          "t": "I looked. My left arm was slightly extended, index finger touching one of the trickle pads; and my right had mirrored the motion while I wasn't watching, its own finger tapping uselessly on blank tabletop."
+        }
+      ]
+    },
+    {
+      "id": "s0507",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "I pulled it back. \"Bit of a bilateral twitch,\" I admitted. \"The body creeps into symmetrical poses when I'm not looking.\"",
+      "runs": [
+        {
+          "t": "I pulled it back. \"Bit of a bilateral twitch,\" I admitted. \"The body creeps into symmetrical poses when I'm not looking.\""
+        }
+      ]
+    },
+    {
+      "id": "s0508",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "I waited for a joke, or at least a raised eyebrow. Chelsea just nodded and resumed her thread. \"So if you're game for this, so am I. I've never been entangled with a synthesist before.\"",
+      "runs": [
+        {
+          "t": "I waited for a joke, or at least a raised eyebrow. Chelsea just nodded and resumed her thread. \"So if you're game for this, so am I. I've never been entangled with a synthesist before.\""
+        }
+      ]
+    },
+    {
+      "id": "s0509",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Jargonaut's fine. I'm not proud.\"",
+      "runs": [
+        {
+          "t": "\"Jargonaut's fine. I'm not proud.\""
+        }
+      ]
+    },
+    {
+      "id": "s0510",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Don't you just always know just exactly what to say.\" She cocked her head at me. \"So, your name. What's it mean?\"",
+      "runs": [
+        {
+          "t": "\"Don't you just always know just exactly what to say.\" She cocked her head at me. \"So, your name. What's it mean?\""
+        }
+      ]
+    },
+    {
+      "id": "s0511",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Relaxed. That was it. I felt relaxed.",
+      "runs": [
+        {
+          "t": "Relaxed. That was it. I felt "
+        },
+        {
+          "t": "relaxed",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0512",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"I don't know. It's just a name.\"",
+      "runs": [
+        {
+          "t": "\"I don't know. It's just a name.\""
+        }
+      ]
+    },
+    {
+      "id": "s0513",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Well, it's not good enough. If we're gonna to be swapping spit for any length of time you've gotta get a name that means something.\"",
+      "runs": [
+        {
+          "t": "\"Well, it's not good enough. If we're gonna to be swapping spit for any length of time you've gotta get a name that "
+        },
+        {
+          "t": "means",
+          "i": true
+        },
+        {
+          "t": " something.\""
+        }
+      ]
+    },
+    {
+      "id": "s0514",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "And we were, I realized. Chelsea had decided while I wasn't looking. I could have stopped her right there, told her what a bad idea this was, apologized for any misunderstanding. But then there'd be wounded looks and hurt feelings and guilt because after all, if I wasn't interested why the hell had I even shown up?",
+      "runs": [
+        {
+          "t": "And we were, I realized. Chelsea had decided while I wasn't looking. I could have stopped her right there, told her what a bad idea this was, apologized for any misunderstanding. But then there'd be wounded looks and hurt feelings and guilt because after all, if I wasn't interested why the hell had I even shown up?"
+        }
+      ]
+    },
+    {
+      "id": "s0515",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "She seemed nice. I didn't want to hurt her.",
+      "runs": [
+        {
+          "t": "She seemed nice. I didn't want to hurt her."
+        }
+      ]
+    },
+    {
+      "id": "s0516",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Just for a while, I told myself. It'll be an experience.",
+      "runs": [
+        {
+          "t": "Just for a while",
+          "i": true
+        },
+        {
+          "t": ", I told myself. "
+        },
+        {
+          "t": "It'll be an experience",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0517",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"I think I'll call you Cygnus,\" Chelsea said.",
+      "runs": [
+        {
+          "t": "\"I think I'll call you Cygnus,\" Chelsea said."
+        }
+      ]
+    },
+    {
+      "id": "s0518",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"The swan?\" I said. A bit precious, but it could have been worse.",
+      "runs": [
+        {
+          "t": "\"The swan?\" I said. A bit precious, but it could have been worse."
+        }
+      ]
+    },
+    {
+      "id": "s0519",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "She shook her head. \"Black hole. Cygnus X-1.\"",
+      "runs": [
+        {
+          "t": "She shook her head. \"Black hole. Cygnus X-1.\""
+        }
+      ]
+    },
+    {
+      "id": "s0520",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "I furrowed my brow at her, but I knew exactly what she meant: a dark, dense object that sucks up the light and destroys everything in its path.",
+      "runs": [
+        {
+          "t": "I furrowed my brow at her, but I knew exactly what she meant: a dark, dense object that sucks up the light and destroys everything in its path."
+        }
+      ]
+    },
+    {
+      "id": "s0521",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Thanks a whole fucking lot. Why?\"",
+      "runs": [
+        {
+          "t": "\"Thanks a whole fucking lot. Why?\""
+        }
+      ]
+    },
+    {
+      "id": "s0522",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"I'm not sure. Something dark about you.\" She shrugged, and gave me a great toothy grin. \"But it's not unattractive. And let me give you a tweak or two, I bet you'd grow right out of it.\"",
+      "runs": [
+        {
+          "t": "\"I'm not sure. Something dark about you.\" She shrugged, and gave me a great toothy grin. \"But it's not unattractive. And let me give you a tweak or two, I bet you'd grow right out of it.\""
+        }
+      ]
+    },
+    {
+      "id": "s0523",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Pag admitted afterward, a bit sheepishly, that maybe I should have read that as a warning sign. Live and learn.",
+      "runs": [
+        {
+          "t": "Pag admitted afterward, a bit sheepishly, that maybe I should have read that as a warning sign. Live and learn."
+        }
+      ]
+    },
+    {
+      "id": "s0524",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "\"Leaders are visionaries with a poorly developed sense of fear",
+      "runs": [
+        {
+          "t": "\"Leaders are visionaries with a poorly developed sense of fear"
+        }
+      ]
+    },
+    {
+      "id": "s0525",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "and no concept of the odds against them.\"",
+      "runs": [
+        {
+          "t": "and no concept of the odds against them.\""
+        }
+      ]
+    },
+    {
+      "id": "s0526",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "—Robert Jarvik",
+      "runs": [
+        {
+          "t": "—Robert Jarvik"
+        }
+      ]
+    },
+    {
+      "id": "s0527",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 13,
+      "text": "Our scout fell towards orbit, watching Ben. We fell days behind, watching the scout. And that was all we did: sit in Theseus' belly while the system streamed telemetry to our inlays. Essential, irreplaceable, mission-critical—we might as well have been ballast during that first approach.",
+      "runs": [
+        {
+          "t": "Our scout fell towards orbit, watching Ben. We fell days behind, watching the scout. And that was "
+        },
+        {
+          "t": "all",
+          "i": true
+        },
+        {
+          "t": " we did: sit in "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' belly while the system streamed telemetry to our inlays. Essential, irreplaceable, mission-critical—we might as well have been ballast during that first approach."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,895 @@
+{
+  "chunk_id": "s1296-s1349",
+  "part": "Rorschach",
+  "first": "s1296",
+  "last": "s1349",
+  "n_segments": 54,
+  "words": 1460,
+  "segments": [
+    {
+      "id": "s1296",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Mothers are fonder than fathers of their children because they are more certain they are their own.\"",
+      "runs": [
+        {
+          "t": "\"Mothers are fonder than fathers of their children because they are more certain they are their own.\""
+        }
+      ]
+    },
+    {
+      "id": "s1297",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "—Aristotle",
+      "runs": [
+        {
+          "t": "—Aristotle"
+        }
+      ]
+    },
+    {
+      "id": "s1298",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "I couldn't say goodbye to Dad. I didn't even know where he was.",
+      "runs": [
+        {
+          "t": "I couldn't say goodbye to Dad. I didn't even know where he was."
+        }
+      ]
+    },
+    {
+      "id": "s1299",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "I didn't want to say goodbye to Helen. I didn't want to go back there. That was the problem: I didn't have to. There was nowhere left in the world where the mountain couldn't simply pick up and move to Mohammed. Heaven was merely a suburb of the global village, and the global village left me no excuse.",
+      "runs": [
+        {
+          "t": "I didn't "
+        },
+        {
+          "t": "want",
+          "i": true
+        },
+        {
+          "t": " to say goodbye to Helen. I didn't want to go back there. That was the problem: I didn't have to. There was nowhere left in the world where the mountain couldn't simply pick up and move to Mohammed. Heaven was merely a suburb of the global village, and the global village left me no excuse."
+        }
+      ]
+    },
+    {
+      "id": "s1300",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "I linked from my own apartment. My new inlays—mission-specific, slid into my head just the week before—shook hands with the noosphere and knocked upon the Pearly Gates. Some tame spirit, more plausible than Saint Peter if no less ethereal, took a message and disappeared.",
+      "runs": [
+        {
+          "t": "I linked from my own apartment. My new inlays—mission-specific, slid into my head just the week before—shook hands with the noosphere and knocked upon the Pearly Gates. Some tame spirit, more plausible than Saint Peter if no less ethereal, took a message and disappeared."
+        }
+      ]
+    },
+    {
+      "id": "s1301",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "And I was inside.",
+      "runs": [
+        {
+          "t": "And I was "
+        },
+        {
+          "t": "inside",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s1302",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "This was no antechamber, no visiting room. Heaven was not intended for the casual visitor; any paradise in which the flesh-constrained would feel at home would have been intolerably pedestrian to the disembodied souls who lived there. Of course, there was no reason why visitor and resident had to share the same view. I could have pulled any conventional worldview off the shelf if I'd wanted, seen this place rendered in any style I chose. Except for the Ascended themselves, of course. That was one of the perks of the Afterlife: only they got to choose the face we saw.",
+      "runs": [
+        {
+          "t": "This was no antechamber, no visiting room. Heaven was not intended for the casual visitor; any paradise in which the flesh-constrained would feel at home would have been intolerably pedestrian to the disembodied souls who lived there. Of course, there was no reason why visitor and resident had to share the same view. I could have pulled any conventional worldview off the shelf if I'd wanted, seen this place rendered in any style I chose. Except for the Ascended themselves, of course. That was one of the perks of the Afterlife: only "
+        },
+        {
+          "t": "they",
+          "i": true
+        },
+        {
+          "t": " got to choose the face we saw."
+        }
+      ]
+    },
+    {
+      "id": "s1303",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "But the thing my mother had become had no face, and I was damned if she was going to see me hide behind some mask.",
+      "runs": [
+        {
+          "t": "But the thing my mother had become "
+        },
+        {
+          "t": "had ",
+          "i": true
+        },
+        {
+          "t": "no face, and I was damned if she was going to see me hide behind some mask."
+        }
+      ]
+    },
+    {
+      "id": "s1304",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Hello, Helen.\"",
+      "runs": [
+        {
+          "t": "\"Hello, Helen.\""
+        }
+      ]
+    },
+    {
+      "id": "s1305",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Siri! What a wonderful surprise!\"",
+      "runs": [
+        {
+          "t": "\"Siri! What a wonderful surprise!\""
+        }
+      ]
+    },
+    {
+      "id": "s1306",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "She was an abstraction in an abstraction: an impossible intersection of dozens of bright panes, as if the disassembled tiles of a stained-glass window had each been set aglow and animated. She swirled before me like a school of fish. Her world echoed her body: lights and angles and three-dimensional Escher impossibilities, piled like bright thunderheads. And yet, somehow I would have recognised her anywhere. Heaven was a dream; only upon waking do you realize that the characters you encountered looked nothing like they do in real life.",
+      "runs": [
+        {
+          "t": "She was an abstraction in an abstraction: an impossible intersection of dozens of bright panes, as if the disassembled tiles of a stained-glass window had each been set aglow and animated. She swirled before me like a school of fish. Her world echoed her body: lights and angles and three-dimensional Escher impossibilities, piled like bright thunderheads. And yet, somehow I would have recognised her anywhere. Heaven was a dream; only upon waking do you realize that the characters you encountered looked nothing like they do in real life."
+        }
+      ]
+    },
+    {
+      "id": "s1307",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "There was only one familiar landmark anywhere in the whole sensorium. My mother's heaven smelled of cinnamon.",
+      "runs": [
+        {
+          "t": "There was only one familiar landmark anywhere in the whole sensorium. My mother's heaven smelled of cinnamon."
+        }
+      ]
+    },
+    {
+      "id": "s1308",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "I beheld her luminous avatar and imagined the corpus soaking in a tank of nutrients, deep underground. \"How are you doing?\"",
+      "runs": [
+        {
+          "t": "I beheld her luminous avatar and imagined the corpus soaking in a tank of nutrients, deep underground. \"How are you doing?\""
+        }
+      ]
+    },
+    {
+      "id": "s1309",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Very well. Very well. Of course, it takes a little getting used to, knowing your mind isn't quite yours any more.\" Heaven didn't just feed the brains of its residents; it fed off  them, used the surplus power of idle synapses to run its own infrastructure. \"You have to move in here, sooner better than later. You'll never leave.\"",
+      "runs": [
+        {
+          "t": "\"Very well. "
+        },
+        {
+          "t": "Very",
+          "i": true
+        },
+        {
+          "t": " well. Of course, it takes a little getting used to, knowing your mind isn't quite "
+        },
+        {
+          "t": "yours",
+          "i": true
+        },
+        {
+          "t": " any more.\" Heaven didn't just feed the brains of its residents; it fed "
+        },
+        {
+          "t": "off ",
+          "i": true
+        },
+        {
+          "t": " them, used the surplus power of idle synapses to run its own infrastructure. \"You "
+        },
+        {
+          "t": "have",
+          "i": true
+        },
+        {
+          "t": " to move in here, sooner better than later. You'll never leave.\""
+        }
+      ]
+    },
+    {
+      "id": "s1310",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Actually, I am leaving,\" I said. \"We're shipping out tomorrow.\"",
+      "runs": [
+        {
+          "t": "\"Actually, I "
+        },
+        {
+          "t": "am",
+          "i": true
+        },
+        {
+          "t": " leaving,\" I said. \"We're shipping out tomorrow.\""
+        }
+      ]
+    },
+    {
+      "id": "s1311",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Shipping out?\"",
+      "runs": [
+        {
+          "t": "\"Shipping out?\""
+        }
+      ]
+    },
+    {
+      "id": "s1312",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"The Kuiper. You know. The Fireflies?\"",
+      "runs": [
+        {
+          "t": "\"The Kuiper. You know. The Fireflies?\""
+        }
+      ]
+    },
+    {
+      "id": "s1313",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Oh yes. I think I heard something about that. We don't get much news from the outside world, you know.\"",
+      "runs": [
+        {
+          "t": "\"Oh yes. I think I heard something about that. We don't get much news from the outside world, you know.\""
+        }
+      ]
+    },
+    {
+      "id": "s1314",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Anyway, just thought I'd call in and say goodbye.\"",
+      "runs": [
+        {
+          "t": "\"Anyway, just thought I'd call in and say goodbye.\""
+        }
+      ]
+    },
+    {
+      "id": "s1315",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"I'm glad you did. I've been hoping to see you without, you know.\"",
+      "runs": [
+        {
+          "t": "\"I'm glad you did. I've been hoping to see you without, you know.\""
+        }
+      ]
+    },
+    {
+      "id": "s1316",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Without what?\"",
+      "runs": [
+        {
+          "t": "\"Without what?\""
+        }
+      ]
+    },
+    {
+      "id": "s1317",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"You know. Without your father listening in.\"",
+      "runs": [
+        {
+          "t": "\"You know. Without your father listening in.\""
+        }
+      ]
+    },
+    {
+      "id": "s1318",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "Not again.",
+      "runs": [
+        {
+          "t": "Not again."
+        }
+      ]
+    },
+    {
+      "id": "s1319",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Dad's in the field, Helen. Interplanetary crisis. You might have heard something.\"",
+      "runs": [
+        {
+          "t": "\"Dad's in the field, Helen. Interplanetary crisis. You might have heard something.\""
+        }
+      ]
+    },
+    {
+      "id": "s1320",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"I certainly have. You know, I haven't always been happy about your father's—extended assignments, but maybe it was really a blessing in disguise. The less he was around, the less he could do.\"",
+      "runs": [
+        {
+          "t": "\"I certainly have. You know, I haven't always been happy about your father's—extended assignments, but maybe it was really a blessing in disguise. The less he was around, the less he could do.\""
+        }
+      ]
+    },
+    {
+      "id": "s1321",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Do?\"",
+      "runs": [
+        {
+          "t": "\"Do?\""
+        }
+      ]
+    },
+    {
+      "id": "s1322",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"To you.\" The apparition stilled for a few moments, feigning hesitation. \"I've never told you this before, but—no. I shouldn't.\"",
+      "runs": [
+        {
+          "t": "\"To you.\" The apparition stilled for a few moments, feigning hesitation. \"I've never told you this before, but—no. I shouldn't.\""
+        }
+      ]
+    },
+    {
+      "id": "s1323",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Shouldn't what?\"",
+      "runs": [
+        {
+          "t": "\"Shouldn't what?\""
+        }
+      ]
+    },
+    {
+      "id": "s1324",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Bring up, well, old hurts.\"",
+      "runs": [
+        {
+          "t": "\"Bring up, well, old hurts.\""
+        }
+      ]
+    },
+    {
+      "id": "s1325",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"What old hurts?\" Right on cue. I couldn't help myself, the training went too deep. I always barked on command.",
+      "runs": [
+        {
+          "t": "\"What old hurts?\" Right on cue. I couldn't help myself, the training went too deep. I always barked on command."
+        }
+      ]
+    },
+    {
+      "id": "s1326",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Well,\" she began, \"sometimes you'd come back—you were so very young—and your face would be so set and hard, and I'd wonder why are you so angry, little boy? What can someone so young have to be so angry about?\"",
+      "runs": [
+        {
+          "t": "\"Well,\" she began, \"sometimes you'd come back—you were so very young—and your face would be so set and hard, and I'd wonder why are you so "
+        },
+        {
+          "t": "angry",
+          "i": true
+        },
+        {
+          "t": ", little boy? What can someone so young have to be so angry about?\""
+        }
+      ]
+    },
+    {
+      "id": "s1327",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Helen, what are you talking about? Back from where?\"",
+      "runs": [
+        {
+          "t": "\"Helen, what are you talking about? Back from where?\""
+        }
+      ]
+    },
+    {
+      "id": "s1328",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Just from the places he'd take you.\" Something like a shiver passed across her facets. \"He was still around back then. He wasn't so important, he was just an accountant with a karate fetish, going on about forensics and game theory and astronomy until he put everyone to sleep.\"",
+      "runs": [
+        {
+          "t": "\"Just from the places he'd take you.\" Something like a shiver passed across her facets. \"He was still around back then. He wasn't so "
+        },
+        {
+          "t": "important",
+          "i": true
+        },
+        {
+          "t": ", he was just an accountant with a karate fetish, going on about forensics and game theory and astronomy until he put everyone to sleep.\""
+        }
+      ]
+    },
+    {
+      "id": "s1329",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "I tried to imagine it: my father, the chatterbox. \"That doesn't sound like Dad.\"",
+      "runs": [
+        {
+          "t": "I tried to imagine it: my father, the chatterbox. \"That doesn't sound like Dad.\""
+        }
+      ]
+    },
+    {
+      "id": "s1330",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"Well of course not. You were too young to remember, but he was just a little man, then. He still is, really, under all the secret missions and classified briefings. I've never understood why people never saw that. But even back then he liked to—well, it wasn't his fault, I suppose. He had a very difficult childhood, and he never learned to deal with problems like an adult. He, well, he'd throw his weight around, I guess you'd say. Of course I didn't know that before we married. If I had, I—but I made a commitment. I made a commitment, and I never broke it.\"",
+      "runs": [
+        {
+          "t": "\"Well of course not. You were too young to remember, but he was just a little man, then. He still is, really, under all the secret missions and classified briefings. I've never understood why people never saw that. But even back then he liked to—well, it wasn't his fault, I suppose. He had a very difficult childhood, and he never learned to deal with problems like an adult. He, well, he'd throw his weight around, I guess you'd say. Of course I didn't know that before we married. If I had, I—but I made a commitment. I made a commitment, and I never broke it.\""
+        }
+      ]
+    },
+    {
+      "id": "s1331",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"What, are you saying you were abused?\" Back from the places he'd take you. \"Are—are you saying I was?\"",
+      "runs": [
+        {
+          "t": "\"What, are you saying you were abused?\" "
+        },
+        {
+          "t": "Back from the places he'd take you",
+          "i": true
+        },
+        {
+          "t": ". \"Are—are you saying "
+        },
+        {
+          "t": "I",
+          "i": true
+        },
+        {
+          "t": " was?\""
+        }
+      ]
+    },
+    {
+      "id": "s1332",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"There are all kinds of abuse, Siri. Words can hurt more than bullets, sometimes. And child abandonment—\"",
+      "runs": [
+        {
+          "t": "\"There are all kinds of abuse, Siri. Words can hurt more than bullets, sometimes. And child abandonment—\""
+        }
+      ]
+    },
+    {
+      "id": "s1333",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"He didn't abandon me.\" He left me with you.",
+      "runs": [
+        {
+          "t": "\"He didn't abandon me.\" "
+        },
+        {
+          "t": "He left me with ",
+          "i": true
+        },
+        {
+          "t": "you"
+        },
+        {
+          "t": ".",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1334",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"He abandoned us, Siri. Sometimes for months at a time, and I—and we never knew if he was coming back And he chose to do that to us, Siri. He didn't need that job, there were so many other things he was qualified to do. Things that had been redundant for years.\"",
+      "runs": [
+        {
+          "t": "\"He abandoned "
+        },
+        {
+          "t": "us",
+          "i": true
+        },
+        {
+          "t": ", Siri. Sometimes for months at a time, and I—and we never knew if he was coming back And he "
+        },
+        {
+          "t": "chose",
+          "i": true
+        },
+        {
+          "t": " to do that to us, Siri. He didn't "
+        },
+        {
+          "t": "need",
+          "i": true
+        },
+        {
+          "t": " that job, there were so many other things he was qualified to do. Things that had been redundant for years.\""
+        }
+      ]
+    },
+    {
+      "id": "s1335",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "I shook my head, incredulous, unable to say it aloud: she hated him because he hadn't had the good grace to grow unnecessary?",
+      "runs": [
+        {
+          "t": "I shook my head, incredulous, unable to say it aloud: she hated him because he hadn't had the good grace to grow "
+        },
+        {
+          "t": "unnecessary",
+          "i": true
+        },
+        {
+          "t": "?"
+        }
+      ]
+    },
+    {
+      "id": "s1336",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"It's not Dad's fault that planetary security is still an essential service,\" I said.",
+      "runs": [
+        {
+          "t": "\"It's not Dad's fault that planetary security is still an essential service,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s1337",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "She continued as if she hadn't heard. \"Now there was a time when it was unavoidable, when people our age had to work just to make ends meet. But even back then people wanted to spend time with their families. Even if they couldn't afford to. To, to choose to stay working when it isn't even necessary, that's—\" She shattered and reassembled at my shoulder. \"Yes, Siri. I believe that's a kind of abuse. And if your father had been half as loyal to me as I've been to him all these years...\"",
+      "runs": [
+        {
+          "t": "She continued as if she hadn't heard. \"Now there was a time when it was unavoidable, when people our age "
+        },
+        {
+          "t": "had",
+          "i": true
+        },
+        {
+          "t": " to work just to make ends meet. But even back then people "
+        },
+        {
+          "t": "wanted",
+          "i": true
+        },
+        {
+          "t": " to spend time with their families. Even if they couldn't afford to. To, to "
+        },
+        {
+          "t": "choose",
+          "i": true
+        },
+        {
+          "t": " to stay working when it isn't even "
+        },
+        {
+          "t": "necessary",
+          "i": true
+        },
+        {
+          "t": ", that's—\" She shattered and reassembled at my shoulder. \"Yes, Siri. I believe that's a kind of abuse. And if your father had been half as loyal to me as I've been to him all these years...\""
+        }
+      ]
+    },
+    {
+      "id": "s1338",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "I remembered Jim, the last time I'd seen him: snorting vassopressin under the restless eyes of robot sentries. \"I don't think Dad's been disloyal to either of us.\"",
+      "runs": [
+        {
+          "t": "I remembered Jim, the last time I'd seen him: snorting vassopressin under the restless eyes of robot sentries. \"I don't think Dad's been disloyal to either of us.\""
+        }
+      ]
+    },
+    {
+      "id": "s1339",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "Helen sighed. \"I don't really expect you to understand. I'm not completely stupid, I've seen how it played out. I pretty much had to raise you myself all these years. I always had to play the heavy, always had to be the one to hand out the discipline because your father was off on some secret assignment. And then he'd come home for a week or two and he was the golden-haired boy just because he'd seen fit to drop in. I don't really blame you for that any more than I blame him. Blame doesn't solve anything at this stage. I just thought—well, really, I thought you ought to know. Take it for what it's worth.\"",
+      "runs": [
+        {
+          "t": "Helen sighed. \"I don't really expect you to understand. I'm not completely stupid, I've seen how it played out. I pretty much had to raise you myself all these years. I always had to play the heavy, always had to be the one to hand out the discipline because your father was off on some "
+        },
+        {
+          "t": "secret assignment",
+          "i": true
+        },
+        {
+          "t": ". And then he'd come home for a week or two and he was the golden-haired boy just because he'd seen fit to drop in. I don't really blame you for that any more than I blame him. Blame doesn't solve anything at this stage. I just thought—well, really, I thought you ought to know. Take it for what it's worth.\""
+        }
+      ]
+    },
+    {
+      "id": "s1340",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "A memory, unbidden: called into Helen's bed when I was nine, her hand stroking my scar, her stale sweet breath stirring against my cheek. You're the man of the house now Siri. We can't count on your father any more. It's just you and me...",
+      "runs": [
+        {
+          "t": "A memory, unbidden: called into Helen's bed when I was nine, her hand stroking my scar, her stale sweet breath stirring against my cheek. "
+        },
+        {
+          "t": "You're the man of the house now Siri. We can't count on your father any more. It's just you and me...",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1341",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "I didn't say anything for a while. Finally: \"Didn't it help at all?\"",
+      "runs": [
+        {
+          "t": "I didn't say anything for a while. Finally: \"Didn't it help at all?\""
+        }
+      ]
+    },
+    {
+      "id": "s1342",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "\"What do you mean?\"",
+      "runs": [
+        {
+          "t": "\"What do you mean?\""
+        }
+      ]
+    },
+    {
+      "id": "s1343",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "I glanced around at all that customized abstraction: internal feedback, lucidly dreamed. \"You're omnipotent in here. Desire anything, imagine anything; there it is. I'd thought it would have changed you more.\"",
+      "runs": [
+        {
+          "t": "I glanced around at all that customized abstraction: internal feedback, lucidly dreamed. \"You're omnipotent in here. Desire anything, imagine anything; there it is. I'd thought it would have "
+        },
+        {
+          "t": "changed",
+          "i": true
+        },
+        {
+          "t": " you more.\""
+        }
+      ]
+    },
+    {
+      "id": "s1344",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "Rainbow tiles danced, and forced a laugh. \"This isn't enough of a change for you?\"",
+      "runs": [
+        {
+          "t": "Rainbow tiles danced, and forced a laugh. \"This isn't enough of a "
+        },
+        {
+          "t": "change",
+          "i": true
+        },
+        {
+          "t": " for you?\""
+        }
+      ]
+    },
+    {
+      "id": "s1345",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "Not nearly.",
+      "runs": [
+        {
+          "t": "Not nearly."
+        }
+      ]
+    },
+    {
+      "id": "s1346",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "Because Heaven had a catch. No matter how many constructs and avatars Helen built in there, no matter how many empty vessels sang her praises or commiserated over the injustices she'd suffered, when it came right down to it she was only talking to herself. There were other realities over which she had no control, other people who didn't play by her rules—and if they thought of Helen at all, they thought as they damn well pleased.",
+      "runs": [
+        {
+          "t": "Because Heaven had a catch. No matter how many constructs and avatars Helen built in there, no matter how many empty vessels sang her praises or commiserated over the injustices she'd suffered, when it came right down to it she was only talking to herself. There were other realities over which she had no control, other people who didn't play by her rules—and if they thought of Helen at all, they thought as they damn well pleased."
+        }
+      ]
+    },
+    {
+      "id": "s1347",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "She could go the rest of her life without ever meeting any of them. But she knew they were out there, and it drove her crazy. Taking my leave of Heaven, it occurred to me that omnipotent though she was, there was only one way my mother would ever be truly happy in her own personal creation.",
+      "runs": [
+        {
+          "t": "She could go the rest of her life without ever meeting any of them. But she knew they were out there, and it drove her crazy. Taking my leave of Heaven, it occurred to me that omnipotent though she was, there was only one way my mother would ever be truly happy in her own personal creation."
+        }
+      ]
+    },
+    {
+      "id": "s1348",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 1,
+      "text": "The rest of creation would have to go.",
+      "runs": [
+        {
+          "t": "The rest of creation would have to go."
+        }
+      ]
+    },
+    {
+      "id": "s1349",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 2,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

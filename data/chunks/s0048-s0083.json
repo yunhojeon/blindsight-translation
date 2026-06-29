@@ -1,0 +1,590 @@
+{
+  "chunk_id": "s0048-s0083",
+  "part": "Theseus",
+  "first": "s0048",
+  "last": "s0083",
+  "n_segments": 36,
+  "words": 1465,
+  "segments": [
+    {
+      "id": "s0048",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "\"Blood makes noise.\" —Susanne Vega",
+      "runs": [
+        {
+          "t": "\"Blood makes noise.\" —Susanne Vega"
+        }
+      ]
+    },
+    {
+      "id": "s0049",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "Imagine you are Siri Keeton:",
+      "runs": [
+        {
+          "t": "Imagine you are Siri Keeton:"
+        }
+      ]
+    },
+    {
+      "id": "s0050",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "You wake in an agony of resurrection, gasping after a record-shattering bout of sleep apnea spanning one hundred forty days. You can feel your blood, syrupy with dobutamine and leuenkephalin, forcing its way through arteries shriveled by months on standby. The body inflates in painful increments: blood vessels dilate; flesh peels apart from flesh; ribs crack in your ears with sudden unaccustomed flexion. Your joints have seized up through disuse. You're a stick-man, frozen in some perverse rigor vitae.",
+      "runs": [
+        {
+          "t": "You wake in an agony of resurrection, gasping after a record-shattering bout of sleep apnea spanning one hundred forty days. You can feel your blood, syrupy with dobutamine and leuenkephalin, forcing its way through arteries shriveled by months on standby. The body "
+        },
+        {
+          "t": "inflates",
+          "i": true
+        },
+        {
+          "t": " in painful increments: blood vessels dilate; flesh peels apart from flesh; ribs crack in your ears with sudden unaccustomed flexion. Your joints have seized up through disuse. You're a stick-man, frozen in some perverse "
+        },
+        {
+          "t": "rigor vitae",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0051",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "You'd scream if you had the breath.",
+      "runs": [
+        {
+          "t": "You'd scream if you had the breath."
+        }
+      ]
+    },
+    {
+      "id": "s0052",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "Vampires did this all the time, you remember. It was normal for them, it was their own unique take on resource conservation. They could have taught your kind a few things about restraint, if that absurd aversion to right-angles hadn't done them in at the dawn of civilization. Maybe they still can. They're back now, after all— raised from the grave with the voodoo of paleogenetics, stitched together from junk genes and fossil marrow steeped in the blood of sociopaths and high-functioning autistics. One of them commands this very mission. A handful of his genes live on in your own body so it too can rise from the dead, here at the edge of interstellar space. Nobody gets past Jupiter without becoming part vampire.",
+      "runs": [
+        {
+          "t": "Vampires did this all the time, you remember. It was "
+        },
+        {
+          "t": "normal",
+          "i": true
+        },
+        {
+          "t": " for them, it was their own unique take on resource conservation. They could have taught your kind a few things about restraint, if that absurd aversion to right-angles hadn't done them in at the dawn of civilization. Maybe they still can. They're back now, after all— raised from the grave with the voodoo of paleogenetics, stitched together from junk genes and fossil marrow steeped in the blood of sociopaths and high-functioning autistics. One of them commands this very mission. A handful of his genes live on in your own body so it too can rise from the dead, here at the edge of interstellar space. Nobody gets past Jupiter without becoming part vampire."
+        }
+      ]
+    },
+    {
+      "id": "s0053",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "The pain begins, just slightly, to recede. You fire up your inlays and access your own vitals: it'll be long minutes before your body responds fully to motor commands, hours before it stops hurting. The pain's an unavoidable side effect. That's just what happens when you splice vampire subroutines into Human code. You asked about painkillers once, but nerve blocks of any kind compromise metabolic reactivation. Suck it up, soldier.",
+      "runs": [
+        {
+          "t": "The pain begins, just slightly, to recede. You fire up your inlays and access your own vitals: it'll be long minutes before your body responds fully to motor commands, hours before it stops hurting. The pain's an unavoidable side effect. That's just what happens when you splice vampire subroutines into Human code. You asked about painkillers once, but nerve blocks of any kind "
+        },
+        {
+          "t": "compromise metabolic reactivation",
+          "i": true
+        },
+        {
+          "t": ". Suck it up, soldier."
+        }
+      ]
+    },
+    {
+      "id": "s0054",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "You wonder if this was how it felt for Chelsea, before the end. But that evokes a whole other kind of pain, so you block it out and concentrate on the life pushing its way back into your extremities. Suffering in silence, you check the logs for fresh telemetry.",
+      "runs": [
+        {
+          "t": "You wonder if this was how it felt for Chelsea, before the end. But that evokes a whole other kind of pain, so you block it out and concentrate on the life pushing its way back into your extremities. Suffering in silence, you check the logs for fresh telemetry."
+        }
+      ]
+    },
+    {
+      "id": "s0055",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "You think: That can't be right.",
+      "runs": [
+        {
+          "t": "You think: "
+        },
+        {
+          "t": "That can't be right",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0056",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "Because if it is, you're in the wrong part of the universe. You're not in the Kuiper Belt where you belong: you're high above the ecliptic and deep into the Oort, the realm of long-period comets that only grace the sun every million years or so. You've gone interstellar, which means (you bring up the system clock) you've been undead for eighteen hundred days.",
+      "runs": [
+        {
+          "t": "Because if it is, you're in the wrong part of the universe. You're not in the Kuiper Belt where you belong: you're high above the ecliptic and deep into the Oort, the realm of long-period comets that only grace the sun every million years or so. You've gone "
+        },
+        {
+          "t": "interstellar",
+          "i": true
+        },
+        {
+          "t": ", which means (you bring up the system clock) you've been undead for eighteen hundred days."
+        }
+      ]
+    },
+    {
+      "id": "s0057",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "You've overslept by almost five years.",
+      "runs": [
+        {
+          "t": "You've overslept by almost five years."
+        }
+      ]
+    },
+    {
+      "id": "s0058",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "The lid of your coffin slides away. Your own cadaverous body reflects from the mirrored bulkhead opposite, a desiccated lungfish waiting for the rains. Bladders of isotonic saline cling to its limbs like engorged antiparasites, like the opposite of leeches. You remember the needles going in just before you shut down, way back when your veins were more than dry twisted filaments of beef jerky.",
+      "runs": [
+        {
+          "t": "The lid of your coffin slides away. Your own cadaverous body reflects from the mirrored bulkhead opposite, a desiccated lungfish waiting for the rains. Bladders of isotonic saline cling to its limbs like engorged antiparasites, like the opposite of leeches. You remember the needles going in just before you shut down, way back when your veins were more than dry twisted filaments of beef jerky."
+        }
+      ]
+    },
+    {
+      "id": "s0059",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "Szpindel's reflection stares back from his own pod to your immediate right. His face is as bloodless and skeletal as yours. His wide sunken eyes jiggle in their sockets as he reacquires his own links, sensory interfaces so massive that your own off-the-shelf inlays amount to shadow-puppetry in comparison.",
+      "runs": [
+        {
+          "t": "Szpindel's reflection stares back from his own pod to your immediate right. His face is as bloodless and skeletal as yours. His wide sunken eyes jiggle in their sockets as he reacquires his own links, sensory interfaces so massive that your own off-the-shelf inlays amount to shadow-puppetry in comparison."
+        }
+      ]
+    },
+    {
+      "id": "s0060",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "You hear coughing and the rustling of limbs just past line-of-sight, catch glimpses of reflected motion where the others stir at the edge of vision.",
+      "runs": [
+        {
+          "t": "You hear coughing and the rustling of limbs just past line-of-sight, catch glimpses of reflected motion where the others stir at the edge of vision."
+        }
+      ]
+    },
+    {
+      "id": "s0061",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "\"Wha—\" Your voice is barely more than a hoarse whisper. \"…happ…?\"",
+      "runs": [
+        {
+          "t": "\"Wha—\" Your voice is barely more than a hoarse whisper. \"…happ…?\""
+        }
+      ]
+    },
+    {
+      "id": "s0062",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "Szpindel works his jaw. Bone cracks audibly.",
+      "runs": [
+        {
+          "t": "Szpindel works his jaw. Bone cracks audibly."
+        }
+      ]
+    },
+    {
+      "id": "s0063",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "\"…Sssuckered,\" he hisses.",
+      "runs": [
+        {
+          "t": "\"…Sssuckered,\" he hisses."
+        }
+      ]
+    },
+    {
+      "id": "s0064",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 1,
+      "text": "You haven't even met the aliens yet, and already they're running rings around you.",
+      "runs": [
+        {
+          "t": "You haven't even met the aliens yet, and already they're running rings around you."
+        }
+      ]
+    },
+    {
+      "id": "s0065",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s0066",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "So we dragged ourselves back from the dead: five part-time cadavers, naked, emaciated, barely able to move even in zero gee. We emerged from our coffins like premature moths ripped from their cocoons, still half-grub. We were alone and off course and utterly helpless, and it took a conscious effort to remember: they would never have risked our lives if we hadn't been essential.",
+      "runs": [
+        {
+          "t": "So we dragged ourselves back from the dead: five part-time cadavers, naked, emaciated, barely able to move even in zero gee. We emerged from our coffins like premature moths ripped from their cocoons, still half-grub. We were alone and off course and utterly helpless, and it took a conscious effort to remember: they would never have risked our lives if we hadn't been essential."
+        }
+      ]
+    },
+    {
+      "id": "s0067",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "\"Morning, commissar.\" Isaac Szpindel reached one trembling, insensate hand for the feedback gloves at the base of his pod. Just past him, Susan James was curled into a loose fetal ball, murmuring to herselves. Only Amanda Bates, already dressed and cycling through a sequence of bone-cracking isometrics, possessed anything approaching mobility. Every now and then she tried bouncing a rubber ball off the bulkhead; but not even she was up to catching it on the rebound yet.",
+      "runs": [
+        {
+          "t": "\"Morning, commissar.\" Isaac Szpindel reached one trembling, insensate hand for the feedback gloves at the base of his pod. Just past him, Susan James was curled into a loose fetal ball, murmuring to herselves. Only Amanda Bates, already dressed and cycling through a sequence of bone-cracking isometrics, possessed anything approaching mobility. Every now and then she tried bouncing a rubber ball off the bulkhead; but not even she was up to catching it on the rebound yet."
+        }
+      ]
+    },
+    {
+      "id": "s0068",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "The journey had melted us down to a common archetype. James' round cheeks and hips, Szpindel's high forehead and lumpy, lanky chassis—even the enhanced carboplatinum brick shit-house that Bates used for a body— all had shriveled to the same desiccated collection of sticks and bones. Even our hair seemed to have become strangely discolored during the voyage, although I knew that was impossible. More likely it was just filtering the pallor of the skin beneath. Still. The pre-dead James had been dirty blond, Szpindel's hair had been almost dark enough to call black— but the stuff floating from their scalps looked the same dull kelpy brown to me now. Bates kept her head shaved, but even her eyebrows weren't as rusty as I remembered them.",
+      "runs": [
+        {
+          "t": "The journey had melted us down to a common archetype. James' round cheeks and hips, Szpindel's high forehead and lumpy, lanky chassis—even the enhanced carboplatinum brick shit-house that Bates used for a body— all had shriveled to the same desiccated collection of sticks and bones. Even our hair seemed to have become strangely discolored during the voyage, although I knew that was impossible. More likely it was just filtering the pallor of the skin beneath. Still. The pre-dead James had been dirty blond, Szpindel's hair had been almost dark enough to call "
+        },
+        {
+          "t": "black",
+          "i": true
+        },
+        {
+          "t": "— but the stuff floating from their scalps looked the same dull kelpy brown to me now. Bates kept her head shaved, but even her eyebrows weren't as rusty as I remembered them."
+        }
+      ]
+    },
+    {
+      "id": "s0069",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "We'd revert to our old selves soon enough. Just add water. For now, though, the old slur was freshly relevant: the Undead really did all look the same, if you didn't know how to look.",
+      "runs": [
+        {
+          "t": "We'd revert to our old selves soon enough. Just add water. For now, though, the old slur was freshly relevant: the Undead really did all look the same, if you didn't know how to look."
+        }
+      ]
+    },
+    {
+      "id": "s0070",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "If you did, of course—if you forgot appearance and watched for motion, ignored meat and studied topology—you'd never mistake one for another. Every facial tic was a data point, every conversational pause spoke volumes more than the words to either side. I could see James' personae shatter and coalesce in the flutter of an eyelash. Szpindel's unspoken distrust of Amanda Bates shouted from the corner of his smile. Every twitch of the phenotype cried aloud to anyone who knew the language.",
+      "runs": [
+        {
+          "t": "If you did, of course—if you forgot appearance and watched for motion, ignored meat and studied "
+        },
+        {
+          "t": "topology",
+          "i": true
+        },
+        {
+          "t": "—you'd never mistake one for another. Every facial tic was a data point, every conversational pause spoke volumes more than the words to either side. I could see James' personae shatter and coalesce in the flutter of an eyelash. Szpindel's unspoken distrust of Amanda Bates shouted from the corner of his smile. Every twitch of the phenotype cried aloud to anyone who knew the language."
+        }
+      ]
+    },
+    {
+      "id": "s0071",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "\"Where's—\" James croaked, coughed, waved one spindly arm at Sarasti's empty coffin gaping at the end of the row.",
+      "runs": [
+        {
+          "t": "\"Where's—\" James croaked, coughed, waved one spindly arm at Sarasti's empty coffin gaping at the end of the row."
+        }
+      ]
+    },
+    {
+      "id": "s0072",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "Szpindel's lips cracked in a small rictus. \"Gone back to Fab, eh? Getting the ship to build some dirt to lie on.\"",
+      "runs": [
+        {
+          "t": "Szpindel's lips cracked in a small rictus. \"Gone back to Fab, eh? Getting the ship to build some dirt to lie on.\""
+        }
+      ]
+    },
+    {
+      "id": "s0073",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "\"Probably communing with the Captain.\" Bates breathed louder than she spoke, a dry rustle from pipes still getting reacquainted with the idea of respiration.",
+      "runs": [
+        {
+          "t": "\"Probably communing with the Captain.\" Bates breathed louder than she spoke, a dry rustle from pipes still getting reacquainted with the idea of respiration."
+        }
+      ]
+    },
+    {
+      "id": "s0074",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "James again: \"Could do that up here.\"",
+      "runs": [
+        {
+          "t": "James again: \"Could do that up here.\""
+        }
+      ]
+    },
+    {
+      "id": "s0075",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "\"Could take a dump up here, too,\" Szpindel rasped. \"Some things you do by yourself, eh?\"",
+      "runs": [
+        {
+          "t": "\"Could take a dump up here, too,\" Szpindel rasped. \"Some things you do by yourself, eh?\""
+        }
+      ]
+    },
+    {
+      "id": "s0076",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "And some things you kept to yourself. Not many baselines felt comfortable locking stares with a vampire—Sarasti, ever courteous, tended to avoid eye contact for exactly that reason—but there were other surfaces to his topology, just as mammalian and just as readable. If he had withdrawn from public view, maybe I was the reason. Maybe he was keeping secrets.",
+      "runs": [
+        {
+          "t": "And some things you kept "
+        },
+        {
+          "t": "to",
+          "i": true
+        },
+        {
+          "t": " yourself. Not many baselines felt comfortable locking stares with a vampire—Sarasti, ever courteous, tended to avoid eye contact for exactly that reason—but there were other surfaces to his topology, just as mammalian and just as readable. If he had withdrawn from public view, maybe I was the reason. Maybe he was keeping secrets."
+        }
+      ]
+    },
+    {
+      "id": "s0077",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 2,
+      "text": "After all, Theseus damn well was.",
+      "runs": [
+        {
+          "t": "After all, "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " damn well was."
+        }
+      ]
+    },
+    {
+      "id": "s0078",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 3,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s0079",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 3,
+      "text": "She'd taken us a good fifteen AUs towards our destination before something scared her off course. Then she'd skidded north like a startled cat and started climbing: a wild high three-gee burn off the ecliptic, thirteen hundred tonnes of momentum bucking against Newton's First. She'd emptied her Penn tanks, bled dry her substrate mass, squandered a hundred forty days' of fuel in hours. Then a long cold coast through the abyss, years of stingy accounting, the thrust of every antiproton weighed against the drag of sieving it from the void. Teleportation isn't magic: the Icarus stream couldn't send us the actual antimatter it made, only the quantum specs. Theseus had to filterfeed the raw material from space, one ion at a time. For long dark years she'd made do on pure inertia, hoarding every swallowed atom. Then a flip; ionizing lasers strafing the space ahead; a ramscoop thrown wide in a hard brake. The weight of a trillion trillion protons slowed her down and refilled her gut and flattened us all over again. Theseus had burned relentless until almost the moment of our resurrection.",
+      "runs": [
+        {
+          "t": "She'd taken us a good fifteen AUs towards our destination before something scared her off course. Then she'd skidded north like a startled cat and started climbing: a wild high three-gee burn off the ecliptic, thirteen hundred tonnes of momentum bucking against Newton's First. She'd emptied her Penn tanks, bled dry her substrate mass, squandered a hundred forty days' of fuel in hours. Then a long cold coast through the abyss, years of stingy accounting, the thrust of every antiproton weighed against the drag of sieving it from the void. Teleportation isn't magic: the Icarus stream couldn't send us the actual antimatter it made, only the quantum specs. "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " had to filterfeed the raw material from space, one ion at a time. For long dark years she'd made do on pure inertia, hoarding every swallowed atom. Then a flip; ionizing lasers strafing the space ahead; a ramscoop thrown wide in a hard brake. The weight of a trillion trillion protons slowed"
+        },
+        {
+          "t": " ",
+          "i": true
+        },
+        {
+          "t": "her down and refilled her gut and flattened us all over again. "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " had burned relentless until almost the moment of our resurrection."
+        }
+      ]
+    },
+    {
+      "id": "s0080",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 3,
+      "text": "It was easy enough to retrace those steps; our course was there in ConSensus for anyone to see. Exactly why the ship had blazed that trail was another matter. Doubtless it would all come out during the post-rez briefing. We were hardly the first vessel to travel under the cloak of sealed orders, and if there'd been a pressing need to know by now we'd have known by now. Still, I wondered who had locked out the Comm logs. Mission Control, maybe. Or Sarasti. Or Theseus herself, for that matter. It was easy to forget the Quantical AI at the heart of our ship. It stayed so discreetly in the background, nurtured and carried us and permeated our existence like an unobtrusive God; but like God, it never took your calls.",
+      "runs": [
+        {
+          "t": "It was easy enough to retrace those steps; our course was there in ConSensus for anyone to see. Exactly why the ship had blazed that trail was another matter. Doubtless it would all come out during the post-rez briefing. We were hardly the first vessel to travel under the cloak of "
+        },
+        {
+          "t": "sealed orders",
+          "i": true
+        },
+        {
+          "t": ", and if there'd been a pressing need to know by now we'd have known by now. Still, I wondered who had locked out the Comm logs. Mission Control, maybe. Or Sarasti. Or "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " herself, for that matter. It was easy to forget the Quantical AI at the heart of our ship. It stayed so discreetly in the background, nurtured and carried us and permeated our existence like an unobtrusive God; but like God, it never took your calls."
+        }
+      ]
+    },
+    {
+      "id": "s0081",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 3,
+      "text": "Sarasti was the official intermediary. When the ship did speak, it spoke to him— and Sarasti called it Captain.",
+      "runs": [
+        {
+          "t": "Sarasti was the official intermediary. When the ship did speak, it spoke to him— and Sarasti called it "
+        },
+        {
+          "t": "Captain",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0082",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 3,
+      "text": "So did we all.",
+      "runs": [
+        {
+          "t": "So did we all."
+        }
+      ]
+    },
+    {
+      "id": "s0083",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 4,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

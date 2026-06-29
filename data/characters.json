@@ -1,0 +1,182 @@
+{
+  "_note": "방향성 존댓말 매트릭스 시드. register: 존댓말/반말/혼합. basis=근거. 모든 항목은 번역가 검토 대상(review).",
+  "characters": {
+    "Siri": {
+      "ko": "시리 키튼",
+      "role": "화자·종합가",
+      "narration_style": "1인칭 평어체(과거 서술). 감정 절제, 관찰자 시점."
+    },
+    "Sarasti": {
+      "ko": "주카 사라스티",
+      "role": "선장·흡혈귀",
+      "narration_style": "냉담하고 단정적. 인간을 내려다보는 화법."
+    },
+    "Bates": {
+      "ko": "어맨다 베이츠",
+      "role": "전투 담당(소령)",
+      "narration_style": "절제된 군인 말투."
+    },
+    "Szpindel": {
+      "ko": "아이작 스핀델",
+      "role": "생물학자·군의관",
+      "narration_style": "따뜻하고 농담 섞인 구어체."
+    },
+    "Cunningham": {
+      "ko": "로버트 커닝햄",
+      "role": "생물학자(스핀델의 대체)",
+      "narration_style": "퉁명스럽고 건조함."
+    },
+    "James": {
+      "ko": "수잔 제임스(4인방)",
+      "role": "언어학자·다중인격",
+      "narration_style": "인격별로 말투 상이(수잔=차분, 사샤=거침, 미셸=부드러움, 계산가=무뚝뚝)."
+    },
+    "Chelsea": {
+      "ko": "첼시",
+      "role": "시리의 옛 연인(회상)",
+      "narration_style": "장난스럽고 다정함."
+    },
+    "Helen": {
+      "ko": "헬렌",
+      "role": "시리의 어머니(회상)",
+      "narration_style": "거리감 있는."
+    },
+    "JimMoore": {
+      "ko": "짐 무어",
+      "role": "시리의 아버지·군인(회상)",
+      "narration_style": "권위적·간결."
+    },
+    "Pag": {
+      "ko": "팩(로버트 파글리노)",
+      "role": "시리의 어린 시절 친구(회상)",
+      "narration_style": "허물없는 또래."
+    }
+  },
+  "register_matrix": {
+    "Siri->Sarasti": {
+      "register": "존댓말",
+      "basis": "선장-부하"
+    },
+    "Sarasti->Siri": {
+      "register": "반말",
+      "basis": "선장, 우월적 화법"
+    },
+    "Bates->Sarasti": {
+      "register": "존댓말",
+      "basis": "지휘 체계(내적 반발은 있으나 표면상 존대)"
+    },
+    "Sarasti->Bates": {
+      "register": "반말",
+      "basis": "선장"
+    },
+    "Szpindel->Sarasti": {
+      "register": "존댓말",
+      "basis": "지휘 체계"
+    },
+    "Sarasti->Szpindel": {
+      "register": "반말",
+      "basis": "선장"
+    },
+    "James->Sarasti": {
+      "register": "존댓말",
+      "basis": "지휘 체계"
+    },
+    "Sarasti->James": {
+      "register": "반말",
+      "basis": "선장"
+    },
+    "Siri->Szpindel": {
+      "register": "존댓말",
+      "basis": "연장자 동료, 시리는 거리를 둠"
+    },
+    "Szpindel->Siri": {
+      "register": "반말",
+      "basis": "연장자·친근한 동료"
+    },
+    "Siri->Bates": {
+      "register": "존댓말",
+      "basis": "동료, 상호 존대"
+    },
+    "Bates->Siri": {
+      "register": "존댓말",
+      "basis": "동료, 상호 존대"
+    },
+    "Siri->James": {
+      "register": "존댓말",
+      "basis": "동료, 상호 존대"
+    },
+    "James->Siri": {
+      "register": "존댓말",
+      "basis": "동료, 상호 존대"
+    },
+    "Siri->Cunningham": {
+      "register": "존댓말",
+      "basis": "동료"
+    },
+    "Cunningham->Siri": {
+      "register": "반말",
+      "basis": "퉁명스러운 연장자"
+    },
+    "Bates->Szpindel": {
+      "register": "존댓말",
+      "basis": "동료"
+    },
+    "Szpindel->Bates": {
+      "register": "존댓말",
+      "basis": "동료(가벼운 농담은 혼합)"
+    },
+    "Siri->Chelsea": {
+      "register": "반말",
+      "basis": "연인(관계 형성 후)"
+    },
+    "Chelsea->Siri": {
+      "register": "반말",
+      "basis": "연인"
+    },
+    "Siri->Helen": {
+      "register": "존댓말",
+      "basis": "자식-부모"
+    },
+    "Helen->Siri": {
+      "register": "반말",
+      "basis": "부모-자식"
+    },
+    "Siri->JimMoore": {
+      "register": "존댓말",
+      "basis": "자식-부모"
+    },
+    "JimMoore->Siri": {
+      "register": "반말",
+      "basis": "부모-자식"
+    },
+    "Siri->Pag": {
+      "register": "반말",
+      "basis": "어린 시절 친구"
+    },
+    "Pag->Siri": {
+      "register": "반말",
+      "basis": "어린 시절 친구"
+    }
+  },
+  "register_events": [
+    {
+      "after": "s0476",
+      "pair": "Siri<->Chelsea",
+      "change": "존댓말→반말",
+      "reason": "첫 만남(s0474·s0476)은 초면이라 양방향 존댓말. s0484부터 친근한 반말로 정착. 매트릭스 기본값(반말)은 관계 형성 후 기준."
+    },
+    {
+      "segments": ["s2894", "s2896", "s2898", "s2900", "s2902"],
+      "pair": "James(Sascha)->Siri",
+      "register": "반말",
+      "reason": "공격적 인격 사샤가 시리를 몰아붙이는 장면. James 기본(수잔=차분, 존댓말)에서 인격별 이탈 — 의도된 반말. 매트릭스는 화자를 'James'로만 구분하므로 validate 가 계속 경고하나 검토 완료."
+    },
+    {
+      "segments": ["s3167", "s3169"],
+      "pair": "Siri->Cunningham",
+      "register": "반말(격식 이탈)",
+      "reason": "시리가 격분해 격식을 깨는 순간('씨발, 그만 좀 해'). 기본 존댓말에서 일시 이탈 — 의도됨."
+    }
+  ],
+  "review": true
+}

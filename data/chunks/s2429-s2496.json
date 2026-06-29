@@ -1,0 +1,1115 @@
+{
+  "chunk_id": "s2429-s2496",
+  "part": "Rorschach",
+  "first": "s2429",
+  "last": "s2496",
+  "n_segments": 68,
+  "words": 1221,
+  "segments": [
+    {
+      "id": "s2429",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "He stood at his post in BioMed, though his empty chair was barely a meter away. The ubiquitous cigarette hung from between the fingers of one hand, burned down and burned out. His other hand played with itself, fingers tapping against thumb in sequence, little to index, index to little. Windows crawled with intelligence in front of him; he wasn't watching.",
+      "runs": [
+        {
+          "t": "He stood at his post in BioMed, though his empty chair was barely a meter away. The ubiquitous cigarette hung from between the fingers of one hand, burned down and burned out. His other hand played with itself, fingers tapping against thumb in sequence, little to index, index to little. Windows crawled with intelligence in front of him; he wasn't watching."
+        }
+      ]
+    },
+    {
+      "id": "s2430",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "I approached from behind. I watched his surfaces in motion. I heard the soft syllables rising from his throat:",
+      "runs": [
+        {
+          "t": "I approached from behind. I watched his surfaces in motion. I heard the soft syllables rising from his throat:"
+        }
+      ]
+    },
+    {
+      "id": "s2431",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Yit-barah v'yish-tabah v'yit-pa-ar v'yit-romam...\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Yit-barah v'yish-tabah v'yit-pa-ar v'yit-romam...",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s2432",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "Not his usual litany. Not even his usual language; Hebrew, ConSensus said.",
+      "runs": [
+        {
+          "t": "Not his usual litany. Not even his usual language; Hebrew, ConSensus said."
+        }
+      ]
+    },
+    {
+      "id": "s2433",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "It sounded almost like a prayer...",
+      "runs": [
+        {
+          "t": "It sounded almost like a "
+        },
+        {
+          "t": "prayer",
+          "i": true
+        },
+        {
+          "t": "..."
+        }
+      ]
+    },
+    {
+      "id": "s2434",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "He must have heard me. His topology went flat and hard and almost impossible to decipher. It was increasingly difficult getting a fix on anyone these days, but even through those topological cataracts Cunningham— as always— was a tougher read than most.",
+      "runs": [
+        {
+          "t": "He must have heard me. His topology went flat and hard and almost impossible to decipher. It was increasingly difficult getting a fix on anyone these days, but even through those topological cataracts Cunningham— as always— was a tougher read than most."
+        }
+      ]
+    },
+    {
+      "id": "s2435",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Keeton,\" he said without turning.",
+      "runs": [
+        {
+          "t": "\"Keeton,\" he said without turning."
+        }
+      ]
+    },
+    {
+      "id": "s2436",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"You're not Jewish,\" I said.",
+      "runs": [
+        {
+          "t": "\"You're not Jewish,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s2437",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"It was.\" Szpindel, I realized after a moment. Cunningham didn't do gender pronouns.",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "It",
+          "i": true
+        },
+        {
+          "t": " was.\" "
+        },
+        {
+          "t": "Szpindel",
+          "i": true
+        },
+        {
+          "t": ", I realized after a moment. Cunningham didn't do gender pronouns."
+        }
+      ]
+    },
+    {
+      "id": "s2438",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "But Isaac Szpindel had been an atheist. All of us were. We'd all started out that way, at least.",
+      "runs": [
+        {
+          "t": "But Isaac Szpindel had been an atheist. All of us were. We'd all started out that way, at least."
+        }
+      ]
+    },
+    {
+      "id": "s2439",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"I didn't know you knew him,\" I said. It certainly wasn't policy.",
+      "runs": [
+        {
+          "t": "\"I didn't know you knew him,\" I said. It certainly wasn't policy."
+        }
+      ]
+    },
+    {
+      "id": "s2440",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "Cunningham sank into his chair without looking at me. In his head, and in mine, a new window opened within a frame marked Electrophoresis.",
+      "runs": [
+        {
+          "t": "Cunningham sank into his chair without looking at me. In his head, and in mine, a new window opened within a frame marked "
+        },
+        {
+          "t": "Electrophoresis",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s2441",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "I tried again. \"I'm sorry. I didn't mean to intru—\"",
+      "runs": [
+        {
+          "t": "I tried again. \"I'm sorry. I didn't mean to intru—\""
+        }
+      ]
+    },
+    {
+      "id": "s2442",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"What can I do for you, Siri?\"",
+      "runs": [
+        {
+          "t": "\"What can I do for you, Siri?\""
+        }
+      ]
+    },
+    {
+      "id": "s2443",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"I was hoping you could bring me up to speed on your findings.\"",
+      "runs": [
+        {
+          "t": "\"I was hoping you could bring me up to speed on your findings.\""
+        }
+      ]
+    },
+    {
+      "id": "s2444",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "A periodic chart of alien elements scrolled through the feed. Cunningham logged it and started another sample. \"I've documented everything. It's all in ConSensus.\"",
+      "runs": [
+        {
+          "t": "A periodic chart of alien elements scrolled through the feed. Cunningham logged it and started another sample. \"I've documented everything. It's all in ConSensus.\""
+        }
+      ]
+    },
+    {
+      "id": "s2445",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "I made a play for ego: \"It would really help to know how you'd thumbnail it, though. What you think is important can be just as vital as the data themselves.\"",
+      "runs": [
+        {
+          "t": "I made a play for ego: \"It would really help to know how "
+        },
+        {
+          "t": "you'd",
+          "i": true
+        },
+        {
+          "t": " thumbnail it, though. What you think is important can be just as vital as the data themselves.\""
+        }
+      ]
+    },
+    {
+      "id": "s2446",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "He looked at me a moment. He muttered something, repetitive and irrelevant.",
+      "runs": [
+        {
+          "t": "He looked at me a moment. He muttered something, repetitive and irrelevant."
+        }
+      ]
+    },
+    {
+      "id": "s2447",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"What's important is what's missing,\" he said after a moment. \"I've got good samples now and I still can't find the genes. Protein synthesis is almost prionic—reconformation instead of the usual transcription pathways—but I can't figure out how those bricks get slotted into the wall once they're made.\"",
+      "runs": [
+        {
+          "t": "\"What's important is what's "
+        },
+        {
+          "t": "missing",
+          "i": true
+        },
+        {
+          "t": ",\" he said after a moment. \"I've got good samples now and I still can't find the genes. Protein synthesis is almost prionic—reconformation instead of the usual transcription pathways—but I can't figure out how those bricks get slotted into the wall once they're made.\""
+        }
+      ]
+    },
+    {
+      "id": "s2448",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Any progress on the energy front?\" I asked.",
+      "runs": [
+        {
+          "t": "\"Any progress on the energy front?\" I asked."
+        }
+      ]
+    },
+    {
+      "id": "s2449",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Energy?\"",
+      "runs": [
+        {
+          "t": "\"Energy?\""
+        }
+      ]
+    },
+    {
+      "id": "s2450",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Aerobic metabolism on an anaerobe budget, remember? You said they had too much ATP.\"",
+      "runs": [
+        {
+          "t": "\"Aerobic metabolism on an anaerobe budget, remember? You said they had too much ATP.\""
+        }
+      ]
+    },
+    {
+      "id": "s2451",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"That I solved.\" He puffed smoke; far to stern a fleck of alien tissue liquefied and banded into chemical strata. \"They're sprinting.\"",
+      "runs": [
+        {
+          "t": "\"That I solved.\" He puffed smoke; far to stern a fleck of alien tissue liquefied and banded into chemical strata. \"They're sprinting.\""
+        }
+      ]
+    },
+    {
+      "id": "s2452",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "Rotate that if you can.",
+      "runs": [
+        {
+          "t": "Rotate ",
+          "i": true
+        },
+        {
+          "t": "that"
+        },
+        {
+          "t": " if you can",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s2453",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "I couldn't. \"How do you mean?\"",
+      "runs": [
+        {
+          "t": "I couldn't. \"How do you mean?\""
+        }
+      ]
+    },
+    {
+      "id": "s2454",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "He sighed. \"Biochemistry is a tradeoff. The faster you synthesize ATP, the more expensive each molecule becomes. It turns out scramblers are a lot more energy-efficient at making it than we are. They're just extremely slow at it, which might not be a big drawback for something that spends most of its time inactive. Rorschach—whatever Rorschach started out as— could have drifted for millennia before it washed up here. That's a lot of time to build up an energy reserve for bouts of high activity, and once you've laid the groundwork glycolysis is explosive. Two-thousand-fold boost, and no oxygen demand.\"",
+      "runs": [
+        {
+          "t": "He sighed. \"Biochemistry is a tradeoff. The faster you synthesize ATP, the more expensive each molecule becomes. It turns out scramblers are a lot more energy-efficient at making it than we are. They're just extremely slow at it, which might not be a big drawback for something that spends most of its time inactive. "
+        },
+        {
+          "t": "Rorschach—",
+          "i": true
+        },
+        {
+          "t": "whatever "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " started out as— could have drifted for millennia before it washed up here. That's a lot of time to build up an energy reserve for bouts of high activity, and once you've laid the groundwork glycolysis is "
+        },
+        {
+          "t": "explosive",
+          "i": true
+        },
+        {
+          "t": ". Two-thousand-fold boost, and no oxygen demand.\""
+        }
+      ]
+    },
+    {
+      "id": "s2455",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Scramblers sprint. Their whole lives.\"",
+      "runs": [
+        {
+          "t": "\"Scramblers "
+        },
+        {
+          "t": "sprint",
+          "i": true
+        },
+        {
+          "t": ". Their whole lives.\""
+        }
+      ]
+    },
+    {
+      "id": "s2456",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"They may come preloaded with ATP and burn it off throughout their lifespan.\"",
+      "runs": [
+        {
+          "t": "\"They may come preloaded with ATP and burn it off throughout their lifespan.\""
+        }
+      ]
+    },
+    {
+      "id": "s2457",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"How long would that be?\"",
+      "runs": [
+        {
+          "t": "\"How long would that be?\""
+        }
+      ]
+    },
+    {
+      "id": "s2458",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Good question,\" he admitted. \"Live fast, die young. If they ration it out, stay dormant most of the time—who knows?\"",
+      "runs": [
+        {
+          "t": "\"Good question,\" he admitted. \"Live fast, die young. If they ration it out, stay dormant most of the time—who knows?\""
+        }
+      ]
+    },
+    {
+      "id": "s2459",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Huh.\" The free-floating scrambler had drifted away from the center of its pen. One extended arm held a wall at bay; the others continued their hypnotic swaying.",
+      "runs": [
+        {
+          "t": "\"Huh.\" The free-floating scrambler had drifted away from the center of its pen. One extended arm held a wall at bay; the others continued their hypnotic swaying."
+        }
+      ]
+    },
+    {
+      "id": "s2460",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "I remembered other arms, their motion not so gentle.",
+      "runs": [
+        {
+          "t": "I remembered other arms, their motion not so gentle."
+        }
+      ]
+    },
+    {
+      "id": "s2461",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Amanda and I chased one into a crowd. It—\"",
+      "runs": [
+        {
+          "t": "\"Amanda and I chased one into a crowd. It—\""
+        }
+      ]
+    },
+    {
+      "id": "s2462",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "Cunningham was back at his samples. \"I saw the record.\"",
+      "runs": [
+        {
+          "t": "Cunningham was back at his samples. \"I saw the record.\""
+        }
+      ]
+    },
+    {
+      "id": "s2463",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"They tore it to pieces.\"",
+      "runs": [
+        {
+          "t": "\"They tore it to pieces.\""
+        }
+      ]
+    },
+    {
+      "id": "s2464",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Uh huh.\"",
+      "runs": [
+        {
+          "t": "\"Uh huh.\""
+        }
+      ]
+    },
+    {
+      "id": "s2465",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Any idea why?\"",
+      "runs": [
+        {
+          "t": "\"Any idea why?\""
+        }
+      ]
+    },
+    {
+      "id": "s2466",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "He shrugged. \"Bates thought there might be some kind of civil war going on down there.\"",
+      "runs": [
+        {
+          "t": "He shrugged. \"Bates thought there might be some kind of civil war going on down there.\""
+        }
+      ]
+    },
+    {
+      "id": "s2467",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"What do you think?\"",
+      "runs": [
+        {
+          "t": "\"What do you think?\""
+        }
+      ]
+    },
+    {
+      "id": "s2468",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"I don't know. Maybe it's right, or maybe scramblers are ritual cannibals, or—they're aliens, Keeton. What do you want from me?\"",
+      "runs": [
+        {
+          "t": "\"I don't know. Maybe it's right, or maybe scramblers are ritual cannibals, or—they're "
+        },
+        {
+          "t": "aliens",
+          "i": true
+        },
+        {
+          "t": ", Keeton. What do you want from me?\""
+        }
+      ]
+    },
+    {
+      "id": "s2469",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"But they're not really aliens. At least not intelligent ones. War implies intelligence.\"",
+      "runs": [
+        {
+          "t": "\"But they're not "
+        },
+        {
+          "t": "really",
+          "i": true
+        },
+        {
+          "t": " aliens. At least not intelligent ones. "
+        },
+        {
+          "t": "War",
+          "i": true
+        },
+        {
+          "t": " implies intelligence.\""
+        }
+      ]
+    },
+    {
+      "id": "s2470",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Ants wage war all the time. Proves nothing except that they're alive.\"",
+      "runs": [
+        {
+          "t": "\"Ants wage war all the time. Proves nothing except that they're alive.\""
+        }
+      ]
+    },
+    {
+      "id": "s2471",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Are scramblers even alive?\" I asked.",
+      "runs": [
+        {
+          "t": "\"Are "
+        },
+        {
+          "t": "scramblers",
+          "i": true
+        },
+        {
+          "t": " even alive?\" I asked."
+        }
+      ]
+    },
+    {
+      "id": "s2472",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"What kind of question is that?\"",
+      "runs": [
+        {
+          "t": "\"What kind of question is that?\""
+        }
+      ]
+    },
+    {
+      "id": "s2473",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"You think Rorschach grows them on some kind of assembly line. You can't find any genes. Maybe they're just biomechanical machines.\"",
+      "runs": [
+        {
+          "t": "\"You think "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " grows them on some kind of assembly line. You can't find any genes. Maybe they're just biomechanical machines.\""
+        }
+      ]
+    },
+    {
+      "id": "s2474",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"That's what life is, Keeton. That's what you are.\" Another hit of nicotine, another storm of numbers, another sample. \"Life isn't either/or. It's a matter of degree.\"",
+      "runs": [
+        {
+          "t": "\"That's what life "
+        },
+        {
+          "t": "is",
+          "i": true
+        },
+        {
+          "t": ", Keeton. That's what "
+        },
+        {
+          "t": "you",
+          "i": true
+        },
+        {
+          "t": " are.\" Another hit of nicotine, another storm of numbers, another sample. \"Life isn't either/or. It's a matter of degree.\""
+        }
+      ]
+    },
+    {
+      "id": "s2475",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"What I'm asking is, are they natural? Could they be constructs?\"",
+      "runs": [
+        {
+          "t": "\"What I'm asking is, are they "
+        },
+        {
+          "t": "natural",
+          "i": true
+        },
+        {
+          "t": "? Could they be constructs?\""
+        }
+      ]
+    },
+    {
+      "id": "s2476",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Is a termite mound a construct? Beaver dam? Space ship? Of course. Were they built by naturally-evolved organisms, acting naturally? They were. So tell me how anything in the whole deep multiverse can ever be anything but natural?\"",
+      "runs": [
+        {
+          "t": "\"Is a termite mound a construct? Beaver dam? Space ship? Of course. Were they built by naturally-evolved organisms, acting naturally? They were. So tell me how anything in the whole deep multiverse can ever be anything "
+        },
+        {
+          "t": "but ",
+          "i": true
+        },
+        {
+          "t": "natural?\""
+        }
+      ]
+    },
+    {
+      "id": "s2477",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "I tried to keep the irritation out of my voice. \"You know what I mean.\"",
+      "runs": [
+        {
+          "t": "I tried to keep the irritation out of my voice. \"You know what I mean.\""
+        }
+      ]
+    },
+    {
+      "id": "s2478",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"It's a meaningless question. Get your head out of the Twentieth Century.\"",
+      "runs": [
+        {
+          "t": "\"It's a meaningless question. Get your head out of the Twentieth Century.\""
+        }
+      ]
+    },
+    {
+      "id": "s2479",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "I gave up. After a few seconds Cunningham seemed to notice the silence. He withdrew his consciousness from the machinery and looked around with fleshly eyes, as if searching for some mosquito that had mysteriously stopped whining.",
+      "runs": [
+        {
+          "t": "I gave up. After a few seconds Cunningham seemed to notice the silence. He withdrew his consciousness from the machinery and looked around with fleshly eyes, as if searching for some mosquito that had mysteriously stopped whining."
+        }
+      ]
+    },
+    {
+      "id": "s2480",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"What's your problem with me?\" I asked. Stupid question, obvious question. Unworthy of any synthesist to be so, so direct.",
+      "runs": [
+        {
+          "t": "\"What's your problem with me?\" I asked. Stupid question, obvious question. Unworthy of any synthesist to be so, so "
+        },
+        {
+          "t": "direct",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s2481",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "His eyes glittered in that dead face. \"Processing without comprehension. That's what you do, isn't it?\"",
+      "runs": [
+        {
+          "t": "His eyes glittered in that dead face. \"Processing without comprehension. That's what you do, isn't it?\""
+        }
+      ]
+    },
+    {
+      "id": "s2482",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"That's a colossal oversimplification.\"",
+      "runs": [
+        {
+          "t": "\"That's a colossal oversimplification.\""
+        }
+      ]
+    },
+    {
+      "id": "s2483",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Mmm.\" Cunningham nodded. \"Then why can't you seem to comprehend how pointless it is to keep peeking over our shoulders and writing home to our masters?\"",
+      "runs": [
+        {
+          "t": "\"Mmm.\" Cunningham nodded. \"Then why can't you seem to "
+        },
+        {
+          "t": "comprehend",
+          "i": true
+        },
+        {
+          "t": " how pointless it is to keep peeking over our shoulders and writing home to our masters?\""
+        }
+      ]
+    },
+    {
+      "id": "s2484",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Someone has to keep Earth in the loop.\"",
+      "runs": [
+        {
+          "t": "\"Someone has to keep Earth in the loop.\""
+        }
+      ]
+    },
+    {
+      "id": "s2485",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Seven months each way. Long loop.\"",
+      "runs": [
+        {
+          "t": "\"Seven months each way. Long loop.\""
+        }
+      ]
+    },
+    {
+      "id": "s2486",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Still.\"",
+      "runs": [
+        {
+          "t": "\"Still.\""
+        }
+      ]
+    },
+    {
+      "id": "s2487",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"We're on our own out here, Keeton. You're on your own. The game's going to be long over before our masters even know it's started.\" He sucked smoke. \"Or perhaps not. Perhaps you're talking to someone closer, hmm? That it? Is the Fourth Wave telling you what to do?\"",
+      "runs": [
+        {
+          "t": "\"We're on our own out here, Keeton. "
+        },
+        {
+          "t": "You're",
+          "i": true
+        },
+        {
+          "t": " on your own. The game's going to be long over before our masters even know it's started.\" He sucked smoke. \"Or perhaps not. Perhaps you're talking to someone closer, hmm? That it? Is the Fourth Wave telling you what to do?\""
+        }
+      ]
+    },
+    {
+      "id": "s2488",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"There is no Fourth Wave. Not that anyone's told me, anyway.\"",
+      "runs": [
+        {
+          "t": "\"There is no Fourth Wave. Not that anyone's told me, anyway.\""
+        }
+      ]
+    },
+    {
+      "id": "s2489",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"Probably not. They'd never risk their lives out here, would they? Too dangerous even to hang back and watch from a distance. That's why they built us.\"",
+      "runs": [
+        {
+          "t": "\"Probably not. They'd never risk "
+        },
+        {
+          "t": "their",
+          "i": true
+        },
+        {
+          "t": " lives out here, would they? Too dangerous even to hang back and watch from a distance. That's why they built "
+        },
+        {
+          "t": "us",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2490",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"We're all self-made. Nobody forced you to get the rewire.\"",
+      "runs": [
+        {
+          "t": "\"We're all self-made. Nobody forced you to get the rewire.\""
+        }
+      ]
+    },
+    {
+      "id": "s2491",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"No, nobody forced me to get the rewire. I could have just let them cut out my brain and pack it into Heaven, couldn't I? That's the choice we have. We can be utterly useless, or we can try and compete against the vampires and the constructs and the AIs. And perhaps you could tell me how to do that without turning into a—an utter freak.\"",
+      "runs": [
+        {
+          "t": "\"No, nobody "
+        },
+        {
+          "t": "forced",
+          "i": true
+        },
+        {
+          "t": " me to get the rewire. I could have just let them cut out my brain and pack it into Heaven, couldn't I? That's the "
+        },
+        {
+          "t": "choice",
+          "i": true
+        },
+        {
+          "t": " we have. We can be utterly useless, or we can try and compete against the vampires and the constructs and the AIs. And perhaps "
+        },
+        {
+          "t": "you",
+          "i": true
+        },
+        {
+          "t": " could tell me how to do that without turning into a—an utter freak.\""
+        }
+      ]
+    },
+    {
+      "id": "s2492",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "So much in the voice. Nothing at all on the face. I said nothing.",
+      "runs": [
+        {
+          "t": "So much in the voice. Nothing at all on the face. I said nothing."
+        }
+      ]
+    },
+    {
+      "id": "s2493",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"See what I mean? No comprehension.\" He managed a tight smile. \"So I'll answer your questions. I'll delay my own work and hold your hand because Sarasti's told us to. I guess that superior vampire mind sees some legitimate reason to indulge your constant ankle-nipping, and it's in charge so I'll play along. But I'm not nearly that smart, so you'll forgive me if it all seems a bit naff.\"",
+      "runs": [
+        {
+          "t": "\"See what I mean? No comprehension.\" He managed a tight smile. \"So I'll answer your questions. I'll delay my own work and hold your hand because Sarasti's told us to. I guess that superior vampire mind sees some legitimate reason to indulge your constant ankle-nipping, and it's in charge so I'll play along. But I'm not nearly that smart, so you'll forgive me if it all seems a bit naff.\""
+        }
+      ]
+    },
+    {
+      "id": "s2494",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"I'm just—\"",
+      "runs": [
+        {
+          "t": "\"I'm just—\""
+        }
+      ]
+    },
+    {
+      "id": "s2495",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 21,
+      "text": "\"You're just doing your job. I know. But I don't like being played, Keeton. And that's what your job is.\"",
+      "runs": [
+        {
+          "t": "\"You're just doing your job. I know. But I don't like being "
+        },
+        {
+          "t": "played",
+          "i": true
+        },
+        {
+          "t": ", Keeton. And that's what your job "
+        },
+        {
+          "t": "is",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2496",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

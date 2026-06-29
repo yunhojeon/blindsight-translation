@@ -1,0 +1,1287 @@
+{
+  "chunk_id": "s2762-s2832",
+  "part": "Rorschach",
+  "first": "s2762",
+  "last": "s2832",
+  "n_segments": 71,
+  "words": 2106,
+  "segments": [
+    {
+      "id": "s2762",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "Cunningham didn't like to be played.",
+      "runs": [
+        {
+          "t": "Cunningham didn't like to be "
+        },
+        {
+          "t": "played",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s2763",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "No one does. But most people don't think that's what I'm doing. They don't know how much their bodies betray when they close their mouths. When they speak aloud, it's because they want to confide; when they don't, they think they're keeping their opinions to themselves. I watch them so closely, customize each word so that no system ever feels used— and yet for some reason, that didn't work with Robert Cunningham.",
+      "runs": [
+        {
+          "t": "No one does. But most people don't think that's what I'm doing. They don't know how much their bodies betray when they close their mouths. When they speak aloud, it's because they want to confide; when they don't, they think they're keeping their opinions to themselves. I watch them so closely, customize each word so that no system ever feels "
+        },
+        {
+          "t": "used",
+          "i": true
+        },
+        {
+          "t": "— and yet for some reason, that didn't work with Robert Cunningham."
+        }
+      ]
+    },
+    {
+      "id": "s2764",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "I think I was modeling the wrong system.",
+      "runs": [
+        {
+          "t": "I think I was modeling the wrong system."
+        }
+      ]
+    },
+    {
+      "id": "s2765",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "Imagine you are a synthesist. You deal in the behavior of systems at their surfaces, infer the machinery beneath from its reflections above. That is the secret of your success: you understand the system by understanding the boundaries that contain it.",
+      "runs": [
+        {
+          "t": "Imagine you are a synthesist. You deal in the behavior of systems at their surfaces, infer the machinery "
+        },
+        {
+          "t": "beneath",
+          "i": true
+        },
+        {
+          "t": " from its reflections "
+        },
+        {
+          "t": "above",
+          "i": true
+        },
+        {
+          "t": ". That is the secret of your success: you understand the system by understanding the boundaries that contain it."
+        }
+      ]
+    },
+    {
+      "id": "s2766",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "Now imagine you encounter someone who has ripped a hole in those boundaries and bled beyond them.",
+      "runs": [
+        {
+          "t": "Now imagine you encounter someone who has ripped a hole in those boundaries and bled beyond them."
+        }
+      ]
+    },
+    {
+      "id": "s2767",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "Robert Cunningham's flesh could not contain him. His duties pulled him beyond the meat sack; here in the Oort, his topology rambled all over the ship. That was true of all of us, to some extent; Bates and her drones, Sarasti and his limbic link—even the ConSensus inlays in our heads diffused us a bit, spread us just slightly beyond the confines of our own bodies. But Bates only ran her drones; she never inhabited them. The Gang of Four may have run multiple systems on a single motherboard, but each had its own distinct topology and they only surfaced one at a time. And Sarasti—",
+      "runs": [
+        {
+          "t": "Robert Cunningham's flesh could not contain him. His duties pulled him beyond the meat sack; here in the Oort, his topology rambled all over the ship. That was true of all of us, to some extent; Bates and her drones, Sarasti and his limbic link—even the ConSensus inlays in our heads "
+        },
+        {
+          "t": "diffused",
+          "i": true
+        },
+        {
+          "t": " us a bit, spread us just slightly beyond the confines of our own bodies. But Bates only ran her drones; she never "
+        },
+        {
+          "t": "inhabited",
+          "i": true
+        },
+        {
+          "t": " them. The Gang of Four may have run multiple systems on a single motherboard, but each had its own distinct topology and they only surfaced one at a time. And Sarasti—"
+        }
+      ]
+    },
+    {
+      "id": "s2768",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "Well, Sarasti was a whole different story, as it turned out.",
+      "runs": [
+        {
+          "t": "Well, Sarasti was a whole different story, as it turned out."
+        }
+      ]
+    },
+    {
+      "id": "s2769",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "Cunningham didn't just operate his remotes; he escaped into them, wore them like a secret identity to hide the feeble Human baseline within. He had sacrificed half of his neocortex for the chance to see x-rays and taste the shapes hiding in cell membranes, he had butchered one body to become a fleeting tenant of many. Pieces of him hid in the sensors and manipulators that lined the scrambler's cages; I might have gleaned vital cues from every piece of equipment in the subdrum if I'd ever thought to look. Cunningham was a topological jigsaw like everyone else, but half his pieces were hidden in machinery. My model was incomplete.",
+      "runs": [
+        {
+          "t": "Cunningham didn't just operate his remotes; he "
+        },
+        {
+          "t": "escaped",
+          "i": true
+        },
+        {
+          "t": " into them, wore them like a secret identity to hide the feeble Human baseline within. He had sacrificed half of his neocortex for the chance to see x-rays and taste the shapes hiding in cell membranes, he had butchered one body to become a fleeting tenant of many. Pieces of him hid in the sensors and manipulators that lined the scrambler's cages; I might have gleaned vital cues from every piece of equipment in the subdrum if I'd ever thought to look. Cunningham was a topological jigsaw like everyone else, but half his pieces were hidden in machinery. My model was incomplete."
+        }
+      ]
+    },
+    {
+      "id": "s2770",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "I don't think he ever aspired to such a state. Looking back, I see radiant self-loathing on every remembered surface. But there in the waning years of the twenty-first century, the only alternative he could see was the life of a parasite. Cunningham merely chose the lesser evil.",
+      "runs": [
+        {
+          "t": "I don't think he ever aspired to such a state. Looking back, I see radiant self-loathing on every remembered surface. But there in the waning years of the twenty-first century, the only alternative he could see was the life of a parasite. Cunningham merely chose the lesser evil."
+        }
+      ]
+    },
+    {
+      "id": "s2771",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "Now, even that was denied him. Sarasti's orders had severed him from his own sensorium. He no longer felt the data in his gut; he had to interpret it, step by laborious step, through screens and graphs that reduced perception to flat empty shorthand. Here was a system traumatized by multiple amputations. Here was a system with its eyes and ears and tongue cut out, forced to stumble and feel its way around things it had once inhabited, right down in the bone. Suddenly there was nowhere else to hide, and all those far-flung pieces of Robert Cunningham tumbled back into his flesh where I could see them at last.",
+      "runs": [
+        {
+          "t": "Now, even that was denied him. Sarasti's orders had severed him from his own sensorium. He no longer "
+        },
+        {
+          "t": "felt",
+          "i": true
+        },
+        {
+          "t": " the data in his gut; he had to "
+        },
+        {
+          "t": "interpret",
+          "i": true
+        },
+        {
+          "t": " it, step by laborious step, through screens and graphs that reduced perception to flat empty shorthand. Here was a system traumatized by multiple amputations. Here was a system with its eyes and ears and tongue cut out, forced to stumble and feel its way around things it had once "
+        },
+        {
+          "t": "inhabited",
+          "i": true
+        },
+        {
+          "t": ", right down in the bone. Suddenly there was nowhere else to hide, and all those far-flung pieces of Robert Cunningham tumbled back into his flesh where I could see them at last."
+        }
+      ]
+    },
+    {
+      "id": "s2772",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "It had been my mistake, all along. I'd been so focused on modelling other systems that I'd forgotten about the one doing the modelling. Bad eyes are only one bane of clear vision: bad assumptions can be just as blinding, and it wasn't enough to imagine I was Robert Cunningham.",
+      "runs": [
+        {
+          "t": "It had been my mistake, all along. I'd been so focused on modelling other systems that I'd forgotten about the one doing the modelling. Bad eyes are only one bane of clear vision: bad assumptions can be just as blinding, and it wasn't enough to imagine I was Robert Cunningham."
+        }
+      ]
+    },
+    {
+      "id": "s2773",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 28,
+      "text": "I had to imagine I was Siri Keeton as well.",
+      "runs": [
+        {
+          "t": "I had to imagine I was Siri Keeton as well."
+        }
+      ]
+    },
+    {
+      "id": "s2774",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s2775",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Of course, that only raises another question. If my guess about Cunningham was right, why did my tricks work on Isaac Szpindel? He was every bit as discontinuous as his replacement.",
+      "runs": [
+        {
+          "t": "Of course, that only raises another question. If my guess about Cunningham was right, why did my tricks work on Isaac Szpindel? He was every bit as discontinuous as his replacement."
+        }
+      ]
+    },
+    {
+      "id": "s2776",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "I didn't think about it much at the time. Szpindel was gone but the thing that had killed him was still there, hanging right off the bow, a vast swelling enigma that might choose to squash us at any instant. I was more than a little preoccupied.",
+      "runs": [
+        {
+          "t": "I didn't think about it much at the time. Szpindel was gone but the thing that had killed him was still there, hanging right off the bow, a vast swelling enigma that might choose to squash us at any instant. I was more than a little preoccupied."
+        }
+      ]
+    },
+    {
+      "id": "s2777",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Now, though—far too late to do anything about it—I think I might know the answer.",
+      "runs": [
+        {
+          "t": "Now, though—far too late to do anything about it—I think I might know the answer."
+        }
+      ]
+    },
+    {
+      "id": "s2778",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Maybe my tricks didn't work on Isaac either, not really. Maybe he saw through my manipulations as easily as Cunningham did. But maybe he just didn't care. Maybe I could read him because he let me. Which would mean— I can't find another explanation that fits— that he just liked me, regardless.",
+      "runs": [
+        {
+          "t": "Maybe my tricks didn't work on Isaac either, not really. Maybe he saw through my manipulations as easily as Cunningham did. But maybe he just didn't care. Maybe I could read him because he "
+        },
+        {
+          "t": "let",
+          "i": true
+        },
+        {
+          "t": " me. Which would mean— I can't find another explanation that fits— that he just "
+        },
+        {
+          "t": "liked",
+          "i": true
+        },
+        {
+          "t": " me, regardless."
+        }
+      ]
+    },
+    {
+      "id": "s2779",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "I think that might have made him a friend.",
+      "runs": [
+        {
+          "t": "I think that might have made him a friend."
+        }
+      ]
+    },
+    {
+      "id": "s2780",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"If I can but make the words awake the feeling\"",
+      "runs": [
+        {
+          "t": "\"If I can but make the words awake the feeling\""
+        }
+      ]
+    },
+    {
+      "id": "s2781",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "—Ian Anderson, Stand Up",
+      "runs": [
+        {
+          "t": "—Ian Anderson, "
+        },
+        {
+          "t": "Stand Up",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s2782",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Night shift. Not a creature was stirring.",
+      "runs": [
+        {
+          "t": "Night shift. Not a creature was stirring."
+        }
+      ]
+    },
+    {
+      "id": "s2783",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Not in Theseus, anyway. The Gang hid in their tent. The transient lurked weightless and silent below the surface. Bates was in the bridge­— she more or less lived up there now, vigilant and conscientious, nested in camera angles and tactical overlays. There was nowhere she could turn without seeing some aspect of the cipher off our starboard bow. She did what good she could, for the good it would do.",
+      "runs": [
+        {
+          "t": "Not in "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": ", anyway. The Gang hid in their tent. The transient lurked weightless and silent below the surface. Bates was in the bridge­— she more or less lived up there now, vigilant and conscientious, nested in camera angles and tactical overlays. There was nowhere she could turn without seeing some aspect of the cipher off our starboard bow. She did what good she could, for the good it would do."
+        }
+      ]
+    },
+    {
+      "id": "s2784",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "The drum turned quietly, lights dimmed in deference to a diel cycle that a hundred years of tweaks and retrofits hadn't been able to weed from the genes. I sat alone in the galley, squinting from the inside of a system whose outlines grew increasingly hazy, trying to compile my latest—how had Isaac put it?— postcard to posterity. Cunningham worked upside-down on the other side of the world.",
+      "runs": [
+        {
+          "t": "The drum turned quietly, lights dimmed in deference to a diel cycle that a hundred years of tweaks and retrofits hadn't been able to weed from the genes. I sat alone in the galley, squinting from the inside of a system whose outlines grew increasingly hazy, trying to compile my latest—how had Isaac put it?— "
+        },
+        {
+          "t": "postcard to posterity",
+          "i": true
+        },
+        {
+          "t": ". Cunningham worked upside-down on the other side of the world."
+        }
+      ]
+    },
+    {
+      "id": "s2785",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Except Cunningham wasn't working. He hadn't even moved for at least four minutes. I'd assumed he was reciting the Kaddish for Szpindel—ConSensus said he'd be doing it twice daily for the next year, if we lived that long—but now, leaning to see around the spinal bundles in the core, I could read his surfaces as clearly as if I'd been sitting beside him. He wasn't bored, or distracted, or even deep in thought.",
+      "runs": [
+        {
+          "t": "Except Cunningham wasn't working. He hadn't even moved for at least four minutes. I'd assumed he was reciting the Kaddish for Szpindel—ConSensus said he'd be doing it twice daily for the next year, if we lived that long—but now, leaning to see around the spinal bundles in the core, I could read his surfaces as clearly as if I'd been sitting beside him. He wasn't bored, or distracted, or even deep in thought."
+        }
+      ]
+    },
+    {
+      "id": "s2786",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Robert Cunningham was petrified.",
+      "runs": [
+        {
+          "t": "Robert Cunningham was petrified."
+        }
+      ]
+    },
+    {
+      "id": "s2787",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "I stood and paced the drum. Ceiling turned into wall; wall into floor. I was close enough to hear his incessant soft muttering, a single indistinct syllable repeated over and over; then I was close enough to hear what he was saying—",
+      "runs": [
+        {
+          "t": "I stood and paced the drum. Ceiling turned into wall; wall into floor. I was close enough to hear his incessant soft muttering, a single indistinct syllable repeated over and over; then I was close enough to hear what he was saying—"
+        }
+      ]
+    },
+    {
+      "id": "s2788",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"fuck fuck fuck fuck...\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "fuck fuck fuck fuck...",
+          "i": true
+        },
+        {
+          "t": "\""
+        }
+      ]
+    },
+    {
+      "id": "s2789",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "—and still Cunningham didn't move, although I'd made no attempt to mask my approach.",
+      "runs": [
+        {
+          "t": "—and still Cunningham didn't move, although I'd made no attempt to mask my approach."
+        }
+      ]
+    },
+    {
+      "id": "s2790",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Finally, when I was almost at his shoulder, he fell silent.",
+      "runs": [
+        {
+          "t": "Finally, when I was almost at his shoulder, he fell silent."
+        }
+      ]
+    },
+    {
+      "id": "s2791",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"You're blind,\" he said without turning. \"Did you know that?\"",
+      "runs": [
+        {
+          "t": "\"You're blind,\" he said without turning. \"Did you know that?\""
+        }
+      ]
+    },
+    {
+      "id": "s2792",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"I didn't.\"",
+      "runs": [
+        {
+          "t": "\"I didn't.\""
+        }
+      ]
+    },
+    {
+      "id": "s2793",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"You. Me. Everyone.\" He interlocked his fingers and clenched as if in prayer, hard enough to whiten the knuckles. Only then did I notice: no cigarette.",
+      "runs": [
+        {
+          "t": "\"You. Me. Everyone.\" He interlocked his fingers and "
+        },
+        {
+          "t": "clenched",
+          "i": true
+        },
+        {
+          "t": " as if in prayer, hard enough to whiten the knuckles. Only then did I notice: no cigarette."
+        }
+      ]
+    },
+    {
+      "id": "s2794",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Vision's mostly a lie anyway,\" he continued. \"We don't really see anything except a few hi-res degrees where the eye focuses. Everything else is just peripheral blur, just— light and motion. Motion draws the focus. And your eyes jiggle all the time, did you know that, Keeton? Saccades, they're called. Blurs the image, the movement's way too fast for the brain to integrate so your eye just—shuts down between pauses. It only grabs these isolated freeze-frames, but your brain edits out the blanks and stitches an — an illusion of continuity into your head.\"",
+      "runs": [
+        {
+          "t": "\"Vision's mostly a lie anyway,\" he continued. \"We don't really see anything except a few hi-res degrees where the eye focuses. Everything else is just peripheral blur, just— light and motion. Motion draws the focus. And your eyes "
+        },
+        {
+          "t": "jiggle",
+          "i": true
+        },
+        {
+          "t": " all the time, did you know that, Keeton? "
+        },
+        {
+          "t": "Saccades",
+          "i": true
+        },
+        {
+          "t": ", they're called. Blurs the image, the movement's way too fast for the brain to integrate so your eye just—shuts down between pauses. It only grabs these isolated freeze-frames, but your brain edits out the blanks and stitches an — an illusion of continuity into your head.\""
+        }
+      ]
+    },
+    {
+      "id": "s2795",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "He turned to face me. \"And you know what's really amazing? If something only moves during the gaps, your brain just—ignores it. It's invisible.\"",
+      "runs": [
+        {
+          "t": "He turned to face me. \"And you know what's "
+        },
+        {
+          "t": "really",
+          "i": true
+        },
+        {
+          "t": " amazing? If something only moves during the gaps, your brain just—ignores it. It's invisible.\""
+        }
+      ]
+    },
+    {
+      "id": "s2796",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "I glanced at his workspace. The usual splitscreen glowed to one side—realtime images of the scramblers in their pens—but Histology, ten thousand times larger than life, took center stage. The paradoxical neural architecture of Stretch & Clench glistened on the main window, flensed and labeled and overlaid by circuit diagrams a dozen layers thick. A dense, annotated forest of alien trunks and brambles. It looked a little like Rorschach itself.",
+      "runs": [
+        {
+          "t": "I glanced at his workspace. The usual splitscreen glowed to one side—realtime images of the scramblers in their pens—but Histology, ten thousand times larger than life, took center stage. The paradoxical neural architecture of "
+        },
+        {
+          "t": "Stretch & Clench",
+          "i": true
+        },
+        {
+          "t": " glistened on the main window, flensed and labeled and overlaid by circuit diagrams a dozen layers thick. A dense, annotated forest of alien trunks and brambles. It looked a little like "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " itself."
+        }
+      ]
+    },
+    {
+      "id": "s2797",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "I couldn't parse any of it.",
+      "runs": [
+        {
+          "t": "I couldn't parse any of it."
+        }
+      ]
+    },
+    {
+      "id": "s2798",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Are you listening, Keeton? Do you know what I'm saying?\"",
+      "runs": [
+        {
+          "t": "\"Are you listening, Keeton? Do you know what I'm saying?\""
+        }
+      ]
+    },
+    {
+      "id": "s2799",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"You've figured out why I couldn't—you're saying these things can somehow tell when our eyes are offline, and...\"",
+      "runs": [
+        {
+          "t": "\"You've figured out why I couldn't—you're saying these things can somehow tell when our eyes are offline, and...\""
+        }
+      ]
+    },
+    {
+      "id": "s2800",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "I didn't finish. It just didn't seem possible.",
+      "runs": [
+        {
+          "t": "I didn't finish. It just didn't seem possible."
+        }
+      ]
+    },
+    {
+      "id": "s2801",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Cunningham shook his head. Something that sounded disturbingly like a giggle escaped his mouth. \"I'm saying these things can see your nerves firing from across the room, and integrate that into a crypsis strategy, and then send motor commands to act on that strategy, and then send other commands to stop the motion before your eyes come back online. All in the time it would take a mammalian nerve impulse to make it halfway from your shoulder to your elbow. These things are fast, Keeton. Way faster than we could have guessed even from that high-speed whisper line they were using. They're bloody superconductors.\"",
+      "runs": [
+        {
+          "t": "Cunningham shook his head. Something that sounded disturbingly like a giggle escaped his mouth. \"I'm saying these things can see your nerves firing from across the room, and integrate that into a crypsis strategy, and then send motor commands to "
+        },
+        {
+          "t": "act",
+          "i": true
+        },
+        {
+          "t": " on that strategy, and then send other commands to "
+        },
+        {
+          "t": "stop",
+          "i": true
+        },
+        {
+          "t": " the motion before your eyes come back online. All in the time it would take a mammalian nerve impulse to make it halfway from your shoulder to your elbow. These things are "
+        },
+        {
+          "t": "fast",
+          "i": true
+        },
+        {
+          "t": ", Keeton. Way faster than we could have guessed even from that high-speed whisper line they were using. They're bloody "
+        },
+        {
+          "t": "superconductors",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2802",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "It took a conscious effort to keep from frowning. \"Is that even possible?\"",
+      "runs": [
+        {
+          "t": "It took a conscious effort to keep from frowning. \"Is that even possible?\""
+        }
+      ]
+    },
+    {
+      "id": "s2803",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Every nerve impulse generates an electromagnetic field. That makes it detectable.\"",
+      "runs": [
+        {
+          "t": "\"Every nerve impulse generates an electromagnetic field. That makes it detectable.\""
+        }
+      ]
+    },
+    {
+      "id": "s2804",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"But Rorschach's EM fields are so—I mean, reading the firing of a single optic nerve through all that interference—\"",
+      "runs": [
+        {
+          "t": "\"But "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s EM fields are so—I mean, reading the firing of a single optic nerve through all that interference—\""
+        }
+      ]
+    },
+    {
+      "id": "s2805",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"It's not interference. The fields are part of them, remember? That's probably how they do it.\"",
+      "runs": [
+        {
+          "t": "\"It's not "
+        },
+        {
+          "t": "interference",
+          "i": true
+        },
+        {
+          "t": ". The fields are "
+        },
+        {
+          "t": "part",
+          "i": true
+        },
+        {
+          "t": " of them, remember? That's probably how they "
+        },
+        {
+          "t": "do ",
+          "i": true
+        },
+        {
+          "t": "it.\""
+        }
+      ]
+    },
+    {
+      "id": "s2806",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"So they couldn't do that here.\"",
+      "runs": [
+        {
+          "t": "\"So they couldn't do that here.\""
+        }
+      ]
+    },
+    {
+      "id": "s2807",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"You're not listening. The trap you set wouldn't have caught anything like that, not unless it wanted to be caught. We didn't grab specimens at all. We grabbed spies.\"",
+      "runs": [
+        {
+          "t": "\"You're not "
+        },
+        {
+          "t": "listening",
+          "i": true
+        },
+        {
+          "t": ". The trap you set wouldn't have caught anything like that, not unless it "
+        },
+        {
+          "t": "wanted",
+          "i": true
+        },
+        {
+          "t": " to be caught. We didn't grab specimens at all. We grabbed "
+        },
+        {
+          "t": "spies",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2808",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Stretch and Clench floated in splitscreen before us, arms swaying like undulating backbones. Cryptic patterns played slowly across their cuticles.",
+      "runs": [
+        {
+          "t": "Stretch and Clench floated in splitscreen before us, arms swaying like undulating backbones. Cryptic patterns played slowly across their cuticles."
+        }
+      ]
+    },
+    {
+      "id": "s2809",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Supposing it's just— instinct,\" I suggested. \"Flounders hide against their background pretty well, but they don't think about it.\"",
+      "runs": [
+        {
+          "t": "\"Supposing it's just— instinct,\" I suggested. \"Flounders hide against their background pretty well, but they don't "
+        },
+        {
+          "t": "think",
+          "i": true
+        },
+        {
+          "t": " about it.\""
+        }
+      ]
+    },
+    {
+      "id": "s2810",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Where are they going to get that instinct from, Keeton? How is it going to evolve? Saccades are an accidental glitch in mammalian vision. Where would scramblers have encountered them before now?\" Cunningham shook his head. \"That thing, that thing Amanda's robot fried— it developed that strategy on its own, on the spot. It improvised.\"",
+      "runs": [
+        {
+          "t": "\"Where are they going to get that instinct "
+        },
+        {
+          "t": "from",
+          "i": true
+        },
+        {
+          "t": ", Keeton? How is it going to evolve? Saccades are an accidental glitch in mammalian vision. Where would scramblers have encountered them before now?\" Cunningham shook his head. \"That thing, that thing Amanda's robot fried— it developed that strategy on its own, "
+        },
+        {
+          "t": "on the spot",
+          "i": true
+        },
+        {
+          "t": ". It "
+        },
+        {
+          "t": "improvised",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2811",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "The word intelligent barely encompassed that kind of improvisation. But there was something else in Cunningham's face, some deeper distress nested inside what he'd already told me.",
+      "runs": [
+        {
+          "t": "The word "
+        },
+        {
+          "t": "intelligent",
+          "i": true
+        },
+        {
+          "t": " barely encompassed that kind of improvisation. But there was something else in Cunningham's face, some deeper distress nested inside what he'd already told me."
+        }
+      ]
+    },
+    {
+      "id": "s2812",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"What?\" I asked.",
+      "runs": [
+        {
+          "t": "\"What?\" I asked."
+        }
+      ]
+    },
+    {
+      "id": "s2813",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"It was stupid,\" he said. \"The things these creatures can do, it was just dumb.\"",
+      "runs": [
+        {
+          "t": "\"It was "
+        },
+        {
+          "t": "stupid",
+          "i": true
+        },
+        {
+          "t": ",\" he said. \"The things these creatures can do, it was just "
+        },
+        {
+          "t": "dumb",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2814",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"How do you mean?\"",
+      "runs": [
+        {
+          "t": "\"How do you mean?\""
+        }
+      ]
+    },
+    {
+      "id": "s2815",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Well it didn't work, did it? Couldn't keep it up in front of more than one or two of us.\"",
+      "runs": [
+        {
+          "t": "\"Well it didn't work, did it? Couldn't keep it up in front of more than one or two of us.\""
+        }
+      ]
+    },
+    {
+      "id": "s2816",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Because people's eyes don't flicker in synch, I realized. Too many witnesses stripped it of cover.",
+      "runs": [
+        {
+          "t": "Because people's eyes don't flicker in synch, I realized. Too many witnesses stripped it of cover."
+        }
+      ]
+    },
+    {
+      "id": "s2817",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"—many other things it could have done,\" Cunningham was saying. \"They could've induced Anton's or, or an agnosia: then we could have tripped over a whole herd of scramblers and it wouldn't even register in our conscious minds. Agnosias happen by accident, for God's sake. If you've got the senses and reflexes to hide between someone's saccades, why stop there? Why not do something that really works?\"",
+      "runs": [
+        {
+          "t": "\"—many "
+        },
+        {
+          "t": "other",
+          "i": true
+        },
+        {
+          "t": " things it could have done,\" Cunningham was saying. \"They could've induced Anton's or, or an agnosia: then we could have tripped over a whole herd of scramblers and it wouldn't even register in our conscious minds. Agnosias happen by "
+        },
+        {
+          "t": "accident",
+          "i": true
+        },
+        {
+          "t": ", for God's sake. If you've got the senses and reflexes to hide between someone's saccades, why stop there? Why not do something that "
+        },
+        {
+          "t": "really",
+          "i": true
+        },
+        {
+          "t": " works?\""
+        }
+      ]
+    },
+    {
+      "id": "s2818",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Why do you think?\" I asked, reflexively nondirective.",
+      "runs": [
+        {
+          "t": "\"Why do you think?\" I asked, reflexively nondirective."
+        }
+      ]
+    },
+    {
+      "id": "s2819",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"I think that first one was—you know it was a juvenile, right? Maybe it was just inexperienced. Maybe it was stupid, and it made a bad decision. I think we're dealing with a species so far beyond us that even their retarded children can rewire our brains on the fly, and I can't tell you how fucking scared that should make you.\"",
+      "runs": [
+        {
+          "t": "\"I think that first one was—you know it was a juvenile, right? Maybe it was just inexperienced. Maybe it was "
+        },
+        {
+          "t": "stupid",
+          "i": true
+        },
+        {
+          "t": ", and it made a bad decision. I think we're dealing with a species so far beyond us that even their retarded "
+        },
+        {
+          "t": "children",
+          "i": true
+        },
+        {
+          "t": " can rewire our brains on the fly, and I can't tell you how fucking scared that should make you.\""
+        }
+      ]
+    },
+    {
+      "id": "s2820",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "I could see it in his topology. I could hear it in his voice. His nerveless face remained as calm as a corpse.",
+      "runs": [
+        {
+          "t": "I could see it in his topology. I could hear it in his voice. His nerveless face remained as calm as a corpse."
+        }
+      ]
+    },
+    {
+      "id": "s2821",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"We should just kill them now,\" he said.",
+      "runs": [
+        {
+          "t": "\"We should just kill them now,\" he said."
+        }
+      ]
+    },
+    {
+      "id": "s2822",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Well, if they're spies, they can't have learned much. They've been in those cages the whole time, except—\" for the way up. They'd been right next to us the whole trip back…",
+      "runs": [
+        {
+          "t": "\"Well, if they're spies, they can't have learned much. They've been in those cages the whole time, except—\" "
+        },
+        {
+          "t": "for the way up",
+          "i": true
+        },
+        {
+          "t": ". They'd been right next to us the whole trip back…"
+        }
+      ]
+    },
+    {
+      "id": "s2823",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"These things live and breath EM. Even stunted, even isolated, who knows how much of our tech they could have just read through the walls?\"",
+      "runs": [
+        {
+          "t": "\"These things live and breath EM. Even stunted, even isolated, who knows how much of our tech they could have just read through the "
+        },
+        {
+          "t": "walls",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s2824",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"You've got to tell Sarasti,\" I said.",
+      "runs": [
+        {
+          "t": "\"You've got to tell Sarasti,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s2825",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Oh, Sarasti knows. Why do you think he wouldn't let them go?\"",
+      "runs": [
+        {
+          "t": "\"Oh, Sarasti knows. Why do you think he wouldn't let them go?\""
+        }
+      ]
+    },
+    {
+      "id": "s2826",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"He never said anything about—\"",
+      "runs": [
+        {
+          "t": "\"He never said anything about—\""
+        }
+      ]
+    },
+    {
+      "id": "s2827",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"He'd be crazy to fill us in. He keeps sending you down there, remember? Do you think for a second he'd tell you what he knows and then set you loose in a labyrinth full of mind-reading minotaurs? He knows, and he's already got it factored a thousand ways to Sunday.\" Cunningham's eyes were bright manic points blazing in an expressionless mask. He raised them to the center of the drum, and didn't raise his voice a decibel. \"Isn't that right, Jukka?\"",
+      "runs": [
+        {
+          "t": "\"He'd be "
+        },
+        {
+          "t": "crazy",
+          "i": true
+        },
+        {
+          "t": " to fill us in. He keeps sending you "
+        },
+        {
+          "t": "down",
+          "i": true
+        },
+        {
+          "t": " there, remember? Do you think for a second he'd tell you what he knows and then set you loose in a labyrinth full of mind-reading minotaurs? He knows, and he's already got it factored a thousand ways to Sunday.\" Cunningham's eyes were bright manic points blazing in an expressionless mask. He raised them to the center of the drum, and didn't raise his voice a decibel. \"Isn't that right, Jukka?\""
+        }
+      ]
+    },
+    {
+      "id": "s2828",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "I checked ConSensus for active channels. \"I don't think he's listening, Robert.\"",
+      "runs": [
+        {
+          "t": "I checked ConSensus for active channels. \"I don't think he's listening, Robert.\""
+        }
+      ]
+    },
+    {
+      "id": "s2829",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Cunningham's mouth moved in something that would have been a pitying smile if the rest of his face had been able to join in. \"He doesn't have to listen, Keeton. He doesn't have to spy on us. He just knows.\"",
+      "runs": [
+        {
+          "t": "Cunningham's mouth moved in something that would have been a pitying smile if the rest of his face had been able to join in. \"He doesn't have to "
+        },
+        {
+          "t": "listen",
+          "i": true
+        },
+        {
+          "t": ", Keeton. He doesn't have to spy on us. He just "
+        },
+        {
+          "t": "knows",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2830",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "Ventilators, breathing. The almost-subliminal hum of bearings in motion. Then Sarasti's disembodied voice rang forth through the drum.",
+      "runs": [
+        {
+          "t": "Ventilators, breathing. The almost-subliminal hum of bearings in motion. Then Sarasti's disembodied voice rang forth through the drum."
+        }
+      ]
+    },
+    {
+      "id": "s2831",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 29,
+      "text": "\"Everyone to Commons. Robert wants to share.\"",
+      "runs": [
+        {
+          "t": "\"Everyone to Commons. Robert wants to share.\""
+        }
+      ]
+    },
+    {
+      "id": "s2832",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

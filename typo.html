@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Korean Italic Alternative Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gowun+Dodum&family=Hahmlet:wght@100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            /* font-family: "Noto Sans", sans-serif; */
+            font-family: "Noto Serif", serif;
+            font-size: 14px;
+            line-height: 1.95;
+            max-width: 760px;
+            margin: 48px auto;
+            color: #222;
+            word-break: keep-all;
+        }
+
+        p {
+            margin: 0 0 1.1em;
+        }
+
+        /* 원문 italic의 기본 대응 */
+        .italic {
+            font-family: "Hahmlet", serif;
+            font-style: normal;
+        }
+
+        /* 내면 독백 */
+        .thought {
+            /* font-family: "Hahmlet", serif; */
+            color: #666;
+            font-style: normal;
+        }
+
+        /* 내면 독백이 한 문단 전체일 때 */
+        p.thought {
+            font-family: "Noto Serif", serif;
+            /* font-family: "Hahmlet", serif; */
+            margin-left: 1.2em;
+        }
+
+        /* 강세 emphasis */
+        .stress {
+            /* font-weight: 700; */
+            text-emphasis: dot;
+        }
+
+        /* 신조어/명칭 */
+        .term {
+            font-family: "Noto Sans", sans-serif;
+            text-emphasis: dot;
+
+            /* font-family: "Hahmlet", serif; */
+            /* font-weight: 700; */
+        }
+
+        .orig {
+            font-size: 0.9em;
+            color: #555;
+            margin-left: 0.1em;
+        }
+
+        /* 화면/시스템 메시지 */
+        .screen {
+            font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+            font-size: 0.92em;
+            background: #f5f5f5;
+            padding: 0.6em 0.8em;
+            margin: 1em 0 1.2em 1em;
+            white-space: pre-wrap;
+        }
+
+        .label {
+            font-size: 14px;
+            color: #777;
+            margin-top: 2em;
+            border-top: 1px solid #ddd;
+            padding-top: 1em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p class="label">본문: Nanum Gothic / 원문 italic 대응: Nanum Myeongjo</p>
+
+    <p>
+        탐사정의 잡음 신호가 아르고시호를 깨웠다.
+    </p>
+
+    <p>
+        영상 속 외계 선체는 자기 자신의 형태를 기억하려는 생각처럼 접혔다가 펼쳐졌다.
+        최초 보고서는 그것을
+        <span class="term">스크램블러<span class="orig">(Scrambler)</span></span>라고 불렀다.
+    </p>
+
+    <p class="thought">
+        이름 붙이지 마.
+    </p>
+
+    <p class="thought">
+        이름은 사물을 작게 만든다.
+    </p>
+
+    <p>
+        제일런이 콘솔 위로 몸을 기울였다.
+        “저건 우리 쪽으로 움직이는 게 아니야. 우리를 통과해서 움직이고 있어.”
+    </p>
+
+    <p>
+        “그건 <span class="stress">전혀</span> 쓸모 있는 구분이 아니야.” 마라가 말했다.
+    </p>
+
+    <div class="screen">COHERENCE LOST — LOCAL FRAME UNSTABLE</div>
+
+    <p>
+        누군가 항해일지에 <span class="italic">스크램블러</span>라고 썼다가,
+        그 말을 지우고 <span class="italic">방문자</span>라고 고쳐놓았다.
+        마라는 그쪽이 더 싫었다.
+        ‘방문자’라는 말에는 예의라는 것이 딸려 있었으니까.
+    </p>
+
+    <p>
+        선장은 《비의도적 행위성에 관한 예비 노트》 파일을 열고 첫 줄을 두 번 읽었다.
+    </p>
+
+    <p class="thought">
+        우리는 그것을 묘사할 때에만, 그것은 우리를 본다.
+    </p>
+
+</body>
+
+</html>

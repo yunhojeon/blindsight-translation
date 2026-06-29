@@ -1,0 +1,431 @@
+{
+  "chunk_id": "s1858-s1882",
+  "part": "Rorschach",
+  "first": "s1858",
+  "last": "s1882",
+  "n_segments": 25,
+  "words": 1329,
+  "segments": [
+    {
+      "id": "s1858",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "Under other circumstances, Lieutenant Amanda Bates would have been court-martialed and executed within the month. No matter that the four who'd died had been guilty of multiple counts of rape, torture, and homicide; that's just what people did in wartime. It's what they'd always done. There was nothing polite about war, no honorable code beyond the chain of command and the circling of wagons. Deal with indiscretions if you must; punish the guilty if you have to, for appearance if nothing else. But for God's sake close the doors first. Never give your enemy the satisfaction of seeing discord in the ranks, show them nothing but unity and flinty-eyed resolve. There may be murderers and rapists in our midst, but by God they're our murderers and rapists.",
+      "runs": [
+        {
+          "t": "Under other circumstances, Lieutenant Amanda Bates would have been court-martialed and executed within the month. No matter that the four who'd died had been guilty of multiple counts of rape, torture, and homicide; that's just what people "
+        },
+        {
+          "t": "did",
+          "i": true
+        },
+        {
+          "t": " in wartime. It's what they'd always done. There was nothing "
+        },
+        {
+          "t": "polite",
+          "i": true
+        },
+        {
+          "t": " about war, no honorable code beyond the chain of command and the circling of wagons. Deal with indiscretions if you must; punish the guilty if you have to, for appearance if nothing else. But for God's sake close the doors first. Never give your enemy the satisfaction of seeing discord in the ranks, show them nothing but unity and flinty-eyed resolve. There may be murderers and rapists in our midst, but by God they're "
+        },
+        {
+          "t": "our",
+          "i": true
+        },
+        {
+          "t": " murderers and rapists."
+        }
+      ]
+    },
+    {
+      "id": "s1859",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "You certainly don't give right of revenge to some terrorist twat with over a hundred friendly scalps on her belt.",
+      "runs": [
+        {
+          "t": "You certainly don't give right of revenge to some terrorist twat with over a hundred friendly scalps on her belt."
+        }
+      ]
+    },
+    {
+      "id": "s1860",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "Still, it was hard to argue with results: a negotiated ceasefire with the third-largest Realist franchise in the hemisphere. An immediate forty-six percent decline in terrorist activities throughout the affected territories. The unconditional cancellation of several in-progress campaigns which could have seriously compromised three major catacombs and taken out the Duluth Staging Grounds entirely. All because Lieutenant Amanda Bates, feeling her way through her first field command, had gambled on empathy as a military strategy.",
+      "runs": [
+        {
+          "t": "Still, it was hard to argue with results: a negotiated ceasefire with the third-largest Realist franchise in the hemisphere. An immediate forty-six percent decline in terrorist activities throughout the affected territories. The unconditional cancellation of several in-progress campaigns which could have seriously compromised three major catacombs and taken out the Duluth Staging Grounds entirely. All because Lieutenant Amanda Bates, feeling her way through her first field command, had gambled on "
+        },
+        {
+          "t": "empathy",
+          "i": true
+        },
+        {
+          "t": " as a military strategy."
+        }
+      ]
+    },
+    {
+      "id": "s1861",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "It was collaborating with the enemy, it was treason, it was betrayal of the rank and file. Diplomats and politicians were supposed to do those things, not soldiers.",
+      "runs": [
+        {
+          "t": "It was collaborating with the enemy, it was treason, it was betrayal of the rank and file. Diplomats and politicians were supposed to do those things, not soldiers."
+        }
+      ]
+    },
+    {
+      "id": "s1862",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "Still. Results.",
+      "runs": [
+        {
+          "t": "Still. Results."
+        }
+      ]
+    },
+    {
+      "id": "s1863",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "It was all there in the record: initiative, creativity, a willingness to succeed by whatever means necessary and at whatever cost. Perhaps those inclinations needed to be punished, perhaps only tempered. The debate might have gone on forever if the story hadn't leaked—but it had, and suddenly the generals had a hero on their hands.",
+      "runs": [
+        {
+          "t": "It was all there in the record: initiative, creativity, a willingness to succeed by whatever means necessary and at whatever cost. Perhaps those inclinations needed to be punished, perhaps only tempered. The debate might have gone on forever if the story hadn't leaked—but it had, and suddenly the generals had a hero on their hands."
+        }
+      ]
+    },
+    {
+      "id": "s1864",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "Sometime during her court-martial, Bates's death sentence turned into a rehabilitation; the only question was whether it would take place in the stockade or Officer's College. As it turned out, Leavenworth had both; it took her to its bosom and squeezed hard enough to virtually guarantee promotion, if it didn't kill her first. Three years later Major Bates was bound for the stars, where she was heard to say",
+      "runs": [
+        {
+          "t": "Sometime during her court-martial, Bates's death sentence turned into a rehabilitation; the only question was whether it would take place in the stockade or Officer's College. As it turned out, Leavenworth had both; it took her to its bosom and squeezed hard enough to virtually guarantee promotion, if it didn't kill her first. Three years later Major Bates was bound for the stars, where she was heard to say"
+        }
+      ]
+    },
+    {
+      "id": "s1865",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "We're breaking and entering, Siri...",
+      "runs": [
+        {
+          "t": "We're breaking and entering, Siri...",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1866",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "Szpindel was not the first to register doubts. Others had wondered whether her assignment owed as much to superior qualifications as it did to the resolution of inconvenient PR. I, of course, had no opinion one way or the other; but I could see how she might strike some as a double-edged sword.",
+      "runs": [
+        {
+          "t": "Szpindel was not the first to register doubts. Others had wondered whether her assignment owed as much to superior qualifications as it did to the resolution of inconvenient PR. I, of course, had no opinion one way or the other; but I could see how she might strike some as a double-edged sword."
+        }
+      ]
+    },
+    {
+      "id": "s1867",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "When the fate of the world hangs in the balance, you want to keep an eye on anyone whose career-defining moment involves consorting with the enemy.",
+      "runs": [
+        {
+          "t": "When the fate of the world hangs in the balance, you want to keep an eye on anyone whose career-defining moment involves consorting with the enemy."
+        }
+      ]
+    },
+    {
+      "id": "s1868",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "\"If you can see it, chances are it doesn't exist.\"",
+      "runs": [
+        {
+          "t": "\"If you can see it, chances are it doesn't exist.\""
+        }
+      ]
+    },
+    {
+      "id": "s1869",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "—Kate Keogh, Grounds for Suicide",
+      "runs": [
+        {
+          "t": "—Kate Keogh, "
+        },
+        {
+          "t": "Grounds for Suicide",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s1870",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "Five times we did it. Over five consecutive orbits we threw ourselves between the monster's jaws, let it chew at us with a trillion microscopic teeth until Theseus reeled us in and stitched us back together. We crept through Rorschach's belly in fits and starts, focusing as best we could on the tasks at hand, trying to ignore the ghosts that tickled our midbrains. Sometimes the walls flexed subtly around us. Sometimes we only thought they did. Sometimes we took refuge in our diving bell while waves of charge and magnetism spiraled languidly past, like boluses of ectoplasm coursing down the intestine of some poltergeist god.",
+      "runs": [
+        {
+          "t": "Five times we did it. Over five consecutive orbits we threw ourselves between the monster's jaws, let it chew at us with a trillion microscopic teeth until "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " reeled us in and stitched us back together. We crept through "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s belly in fits and starts, focusing as best we could on the tasks at hand, trying to ignore the ghosts that tickled our midbrains. Sometimes the walls flexed subtly around us. Sometimes we only thought they did. Sometimes we took refuge in our diving bell while waves of charge and magnetism spiraled languidly past, like boluses of ectoplasm coursing down the intestine of some poltergeist god."
+        }
+      ]
+    },
+    {
+      "id": "s1871",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "Sometimes we got caught in the open. The Gang would squabble amongst itself, uncertain which persona was which. Once I fell into a kind of waking paralysis while alien hands dragged me away down the hall; fortunately other hands brought me home, and voices that claimed to be real told me I'd made the whole thing up. Twice Amanda Bates found God, saw the fucker right there in front of her, knew beyond any shadow of a doubt that the creator not only existed but spoke to her, and her alone. Both times she lost her faith once we got her into the bell, but it was touch and go for a while; her warrior drones, drunk on power but still under line-of-sight control, staggered from their perimeters and pointed their weapons along bearings too close for comfort.",
+      "runs": [
+        {
+          "t": "Sometimes we got caught in the open. The Gang would squabble amongst itself, uncertain which persona was which. Once I fell into a kind of waking paralysis while alien hands dragged me away down the hall; fortunately other hands brought me home, and voices that claimed to be real told me I'd made the whole thing up. Twice Amanda Bates found God, "
+        },
+        {
+          "t": "saw",
+          "i": true
+        },
+        {
+          "t": " the fucker right there in front of her, knew beyond any shadow of a doubt that the creator not only existed but "
+        },
+        {
+          "t": "spoke",
+          "i": true
+        },
+        {
+          "t": " to her, and her alone. Both times she lost her faith once we got her into the bell, but it was touch and go for a while; her warrior drones, drunk on power but still under line-of-sight control, staggered from their perimeters and pointed their weapons along bearings too close for comfort."
+        }
+      ]
+    },
+    {
+      "id": "s1872",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "The grunts died fast. Some barely lasted a single foray; a few died in minutes. The longest-lived were the slowest on the draw, half-blind, thick-witted, every command and response bottlenecked by raw high-frequency sound buzzing across their shielded eardrums. Sometimes we backed them up with others that spoke optically: faster but nervous, and even more vulnerable. Together they guarded against an opposition that had not yet shown its face.",
+      "runs": [
+        {
+          "t": "The grunts died fast. Some barely lasted a single foray; a few died in minutes. The longest-lived were the slowest on the draw, half-blind, thick-witted, every command and response bottlenecked by raw high-frequency sound buzzing across their shielded eardrums. Sometimes we backed them up with others that spoke optically: faster but nervous, and even more vulnerable. Together they guarded against an opposition that had not yet shown its face."
+        }
+      ]
+    },
+    {
+      "id": "s1873",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "It hardly had to. Our troops fell even in the absence of enemy fire.",
+      "runs": [
+        {
+          "t": "It hardly had to. Our troops fell even in the absence of enemy fire."
+        }
+      ]
+    },
+    {
+      "id": "s1874",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "We worked through it all, through fits and hallucinations and occasional convulsions. We tried to watch each others' backs while magnetic tendrils tugged our inner ears and made us seasick. Sometimes we vomited into our helmets; then we'd just hang on, white-faced, sucking sour air through clenched teeth while the recyclers filtered chunks and blobs from our headspace. And we'd give silent thanks for the small mercy of nonstick, static-repellent faceplates.",
+      "runs": [
+        {
+          "t": "We worked through it all, through fits and hallucinations and occasional convulsions. We tried to watch each others' backs while magnetic tendrils tugged our inner ears and made us seasick. Sometimes we vomited into our helmets; then we'd just hang on, white-faced, sucking sour air through clenched teeth while the recyclers filtered chunks and blobs from our headspace. And we'd give silent thanks for the small mercy of nonstick, static-repellent faceplates."
+        }
+      ]
+    },
+    {
+      "id": "s1875",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "It rapidly became obvious that my presence served as more than cannon fodder. It didn't matter that I lacked the Gang's linguistic skills or Szpindel's expertise in biology; I was another set of hands, in a place where anyone could be laid out at a moment's notice. The more people Sarasti kept in the field, the greater the odds that at least one of them would be halfway functional at any given moment. Even so, we were in barely any condition to accomplish anything. Every incursion was an exercise in reckless endangerment.",
+      "runs": [
+        {
+          "t": "It rapidly became obvious that my presence served as more than cannon fodder. It didn't matter that I lacked the Gang's linguistic skills or Szpindel's expertise in biology; I was another set of hands, in a place where anyone could be laid out at a moment's notice. The more people Sarasti kept in the field, the greater the odds that at least one of them would be halfway functional at any given moment. Even so, we were in barely any condition to accomplish anything. Every incursion was an exercise in reckless endangerment."
+        }
+      ]
+    },
+    {
+      "id": "s1876",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "We did it anyway. It was that or go home.",
+      "runs": [
+        {
+          "t": "We did it anyway. It was that or go home."
+        }
+      ]
+    },
+    {
+      "id": "s1877",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "The work proceeded in infinitesimal increments, hamstrung on every front. The Gang wasn't finding any evidence of signage or speech to decipher, but the gross mechanics of this thing were easy enough to observe. Sometimes Rorschach partitioned itself, extruded ridges around its passageways like the cartilaginous hoops encircling a human trachea. Over hours some of them might develop into contracting irises, into complete septa, lazy as warm candle wax. We seemed to be witnessing the growth of the structure in discrete segments. Rorschach grew mainly from the tips of its thorns; we'd made our incursion hundreds of meters from the nearest, but evidently the process extended at least this far back.",
+      "runs": [
+        {
+          "t": "The work proceeded in infinitesimal increments, hamstrung on every front. The Gang wasn't finding any evidence of signage or speech to decipher, but the gross mechanics of this thing were easy enough to observe. Sometimes "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " partitioned itself, extruded ridges around its passageways like the cartilaginous hoops encircling a human trachea. Over hours some of them might develop into contracting irises, into complete septa, lazy as warm candle wax. We seemed to be witnessing the growth of the structure in discrete segments. "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " grew mainly from the tips of its thorns; we'd made our incursion hundreds of meters from the nearest, but evidently the process extended at least this far back."
+        }
+      ]
+    },
+    {
+      "id": "s1878",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "If it was part of the normal growth process, though, it was a feeble echo of what must have been going on in the heart of the apical zones. We couldn't observe those directly, not from inside; barely a hundred meters towards the thorn the tube grew too lethal even for suicidal flesh. But over those five orbits Rorschach grew by another eight percent, as mindless and mechanical as a growing crystal.",
+      "runs": [
+        {
+          "t": "If it "
+        },
+        {
+          "t": "was",
+          "i": true
+        },
+        {
+          "t": " part of the normal growth process, though, it was a feeble echo of what must have been going on in the heart of the apical zones. We couldn't observe those directly, not from inside; barely a hundred meters towards the thorn the tube grew too lethal even for suicidal flesh. But over those five orbits "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " grew by another eight percent, as mindless and mechanical as a growing crystal."
+        }
+      ]
+    },
+    {
+      "id": "s1879",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "Through it all I tried to do my job. I compiled and collated, massaged data I would never understand. I watched the systems around me as best I could, factored each tic and trait into the mix. One part of my mind produced synopses and syntheses while another watched, incredulous and uncomprehending. Neither part could trace where those insights had come from.",
+      "runs": [
+        {
+          "t": "Through it all I tried to do my job. I compiled and collated, massaged data I would never understand. I watched the systems around me as best I could, factored each tic and trait into the mix. One part of my mind produced synopses and syntheses while another watched, incredulous and uncomprehending. Neither part could trace where those insights had come from."
+        }
+      ]
+    },
+    {
+      "id": "s1880",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "It was difficult, though. Sarasti wouldn't let me back outside the system. Every observation was contaminated by my own confounding presence in the mix. I did my best. I made no suggestions that might affect critical decisions. In the field I did what I was told to, and no more. I tried to be like one of Bates's drones, a simple tool with no initiative and no influence on the group dynamic. I think I pulled it off, for the most part.",
+      "runs": [
+        {
+          "t": "It was difficult, though. Sarasti wouldn't let me back outside the system. Every observation was contaminated by my own confounding presence in the mix. I did my best. I made no suggestions that might affect critical decisions. In the field I did what I was told to, and no more. I tried to be like one of Bates's drones, a simple tool with no initiative and no influence on the group dynamic. I think I pulled it off, for the most part."
+        }
+      ]
+    },
+    {
+      "id": "s1881",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 10,
+      "text": "My nonsights accumulated on schedule and piled up in Theseus's transmission stack, unsent. There was too much local interference to get a signal through to Earth.",
+      "runs": [
+        {
+          "t": "My nonsights accumulated on schedule and piled up in "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "'s transmission stack, unsent. There was too much local interference to get a signal through to Earth."
+        }
+      ]
+    },
+    {
+      "id": "s1882",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 11,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

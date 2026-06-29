@@ -1,0 +1,743 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>블라인드사이트 용어집 (스포일러 주의!)</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+/* Override strong tags inside headings to maintain consistent weight */
+h1 strong,
+h2 strong,
+h3 strong {
+	font-weight: 600;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+
+	table.collection-content {
+		width: 100%;
+		table-layout: fixed;
+	}
+
+	table.collection-content th,
+	table.collection-content td {
+		overflow-wrap: anywhere;
+	}
+
+	table.collection-content td > .user,
+	table.collection-content td > time {
+		white-space: pre-wrap;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content-wrapper {
+	overflow-x: auto;
+}
+
+@media only print {
+	.collection-content-wrapper {
+		overflow-x: visible;
+	}
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.collection-content td {
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+
+.column-list {
+	display: flex;
+	gap: 46px;
+}
+
+.column {
+	min-width: 0;
+	overflow: hidden;
+}
+
+.column > *:first-child {
+	margin-top: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+table {
+	border-collapse: collapse;
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol.numbered-list.numbered-list-digits-2 {
+	padding-inline-start: 2em;
+}
+
+ol.numbered-list.numbered-list-digits-3plus {
+	padding-inline-start: 2.4em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.callout img.notion-static-icon {
+	width: 1em;
+	height: 1em;
+}
+
+.callout p {
+	margin: 0;
+}
+
+.callout h1,
+.callout h2,
+.callout h3 {
+	margin: 0 0 0.6rem;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+blockquote.quote-large {
+	font-size: 1.25em;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.highlight-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.highlight-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.highlight-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.highlight-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.highlight-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.highlight-default_background {
+	color: rgba(44, 44, 43, 1);
+}
+.highlight-gray_background {
+	background: rgba(42, 28, 0, 0.07);
+}
+.highlight-brown_background {
+	background: rgba(139, 46, 0, 0.086);
+}
+.highlight-orange_background {
+	background: rgba(224, 101, 1, 0.129);
+}
+.highlight-yellow_background {
+	background: rgba(211, 168, 0, 0.137);
+}
+.highlight-teal_background {
+	background: rgba(0, 100, 45, 0.09);
+}
+.highlight-blue_background {
+	background: rgba(0, 124, 215, 0.094);
+}
+.highlight-purple_background {
+	background: rgba(102, 0, 178, 0.078);
+}
+.highlight-pink_background {
+	background: rgba(197, 0, 93, 0.086);
+}
+.highlight-red_background {
+	background: rgba(223, 22, 0, 0.094);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(125, 122, 117, 1);
+	fill: rgba(125, 122, 117, 1);
+}
+.block-color-brown {
+	color: rgba(159, 118, 90, 1);
+	fill: rgba(159, 118, 90, 1);
+}
+.block-color-orange {
+	color: rgba(210, 123, 45, 1);
+	fill: rgba(210, 123, 45, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 148, 52, 1);
+	fill: rgba(203, 148, 52, 1);
+}
+.block-color-teal {
+	color: rgba(80, 148, 110, 1);
+	fill: rgba(80, 148, 110, 1);
+}
+.block-color-blue {
+	color: rgba(56, 125, 201, 1);
+	fill: rgba(56, 125, 201, 1);
+}
+.block-color-purple {
+	color: rgba(154, 107, 180, 1);
+	fill: rgba(154, 107, 180, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(207, 81, 72, 1);
+	fill: rgba(207, 81, 72, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(240, 239, 237, 1);
+}
+.block-color-brown_background {
+	background: rgba(245, 237, 233, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 235, 222, 1);
+}
+.block-color-yellow_background {
+	background: rgba(249, 243, 220, 1);
+}
+.block-color-teal_background {
+	background: rgba(232, 241, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(229, 242, 252, 1);
+}
+.block-color-purple_background {
+	background: rgba(243, 235, 249, 1);
+}
+.block-color-pink_background {
+	background: rgba(250, 233, 241, 1);
+}
+.block-color-red_background {
+	background: rgba(252, 233, 231, 1);
+}
+.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
+.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
+.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
+.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
+.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
+.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
+.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
+.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
+.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
+.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="d82ec810-9dfc-4c25-8c5c-28a6a3179ab1" class="page sans"><header><h1 class="page-title" dir="auto">블라인드사이트 용어집 (스포일러 주의!)</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div class="collection-content-wrapper"><table class="collection-content"><colgroup><col style="width:16.049382716049383%"/><col style="width:12.698412698412698%"/><col style="width:12.345679012345679%"/><col style="width:32.451499118165785%"/><col style="width:8.818342151675484%"/><col style="width:17.636684303350975%"/></colgroup><thead><tr><th><span class="icon property-icon"><img src="https://app.notion.com/icons/font_gray.svg" style="width:14px;height:14px;display:block"/></span>이름</th><th><span class="icon property-icon"><img src="https://app.notion.com/icons/description_gray.svg" style="width:14px;height:14px;display:block"/></span>영문이름</th><th><span class="icon property-icon"><img src="https://app.notion.com/icons/arrow-circle-down_gray.svg" style="width:14px;height:14px;display:block"/></span>종류</th><th><span class="icon property-icon"><img src="https://app.notion.com/icons/description_gray.svg" style="width:14px;height:14px;display:block"/></span>설명</th><th><span class="icon property-icon"><img src="https://app.notion.com/icons/hashtag_gray.svg" style="width:14px;height:14px;display:block"/></span>처음 등장 페이지</th><th><span class="icon property-icon"><img src="https://app.notion.com/icons/description_gray.svg" style="width:14px;height:14px;display:block"/></span>페이지: 자세한 설명이 등장하는 부분</th></tr></thead><tbody><tr id="08777fd9-ab20-44f4-be83-6850cc28c783"><td class="cell-title"><a href="https://app.notion.com/p/08777fd9ab2044f4be836850cc28c783?pvs=21">훼방꾼</a></td><td class="cell-xY&lt;L">Scrambler</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">로르샤흐 내부의 외계생명체. 지적 생명체는 아님</td><td class="cell-pg&gt;g">308</td><td class="cell-oyBi"></td></tr><tr id="6931c55a-b14d-48fd-ac66-99f879b42f5b"><td class="cell-title"><a href="https://app.notion.com/p/6931c55ab14d48fdac6699f879b42f5b?pvs=21">시리 키튼</a></td><td class="cell-xY&lt;L">Siri Keeton</td><td class="cell-I{DY"><span class="selected-value select-value-color-green">주인공</span></td><td class="cell-Rjg=">작중 화자. 종합가 (임무 관찰자). 발작 때문에 뇌의 절반을 기계로 대체하여 감정이 없다. 실제로 간질발작의 치료를 위해 좌뇌와 우뇌의 연결 부위를 끊는 ‘분리뇌 수술’이 행해진 적 있음을 반영한듯. ‘시리’는 ‘시그너스’의 약칭</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="e6fd2934-cced-4006-9899-5583df7149e5"><td class="cell-title"><a href="https://app.notion.com/p/e6fd2934cced400698995583df7149e5?pvs=21">위상</a></td><td class="cell-xY&lt;L">topology</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">작품에서는 시리가 상대로부터 읽을 수 있는 비언어적 신호를 의미하는 듯?<br/><em>rotational topology of information</em></td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="6b8248a0-2e76-4bb0-9555-93ca62c6027c"><td class="cell-title"><a href="https://app.notion.com/p/6b8248a02e764bb0955593ca62c6027c?pvs=21">교감</a></td><td class="cell-xY&lt;L">ConSensus</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">테세우스 내 무선통신망. 승무원들이 머릿속에서 직접 액세스 가능함</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="e67cab69-698a-4d9e-aab4-d3bbaad4c5f7"><td class="cell-title"><a href="https://app.notion.com/p/e67cab69698a4d9eaab4d3bbaad4c5f7?pvs=21">카이퍼 벨트</a></td><td class="cell-xY&lt;L">Kuiper Belt</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">해왕성 궤도 밖 소행성대</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="8dedd505-6c27-4d9c-8455-5da7a1b0e32b"><td class="cell-title"><a href="https://app.notion.com/p/8dedd5056c274d9c84555da7a1b0e32b?pvs=21">표현형</a></td><td class="cell-xY&lt;L">phenotype</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">개체의 물리적 특성, 행동 등 밖으로 드러나는 특성. 유전형 (genotype)에 대비되는 말. 작품속에서는 육체를 의미<br/>p.379 “의식적으로 만들어두었던 표현형이 사라져 버렸다”  (his extended phenotype had been amputated.) → “그의 확장된 신체(로봇팔)가 절단되어 버렸다”의 오역</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="7c61ab29-3b90-409d-8554-49c8d184ad68"><td class="cell-title"><a href="https://app.notion.com/p/7c61ab293b90409d855449c8d184ad68?pvs=21">개똥벌레</a></td><td class="cell-xY&lt;L">Fireflies</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">갑자기 대기권에 나타났다가 수십초만에 사라진 65,536개의 외계 물체</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="ea3a8e5a-c35c-4613-98ee-6540a70252ad"><td class="cell-title"><a href="https://app.notion.com/p/ea3a8e5ac35c461398ee6540a70252ad?pvs=21">이카루스</a></td><td class="cell-xY&lt;L">Icarus Array</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">태양 에너지를 이용하여 반물질 스트림을 만들어내는 시설</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="5402e612-321e-4e82-8650-c7fa78c39844"><td class="cell-title"><a href="https://app.notion.com/p/5402e612321e4e828650c7fa78c39844?pvs=21">번스-카우필드</a></td><td class="cell-xY&lt;L">Burns-Caufield</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">카이퍼 벨트에서 다가오는 혜성</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="445eff5e-1a53-4e4c-8756-86872b53625d"><td class="cell-title"><a href="https://app.notion.com/p/445eff5e1a534e4c875686872b53625d?pvs=21">제목 없음</a></td><td class="cell-xY&lt;L">nonAscendent</td><td class="cell-I{DY"></td><td class="cell-Rjg="></td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="b0f6ffcf-314b-4640-8273-d5c2ab8c32d7"><td class="cell-title"><a href="https://app.notion.com/p/b0f6ffcf314b46408273d5c2ab8c32d7?pvs=21">아이작 스핀델</a></td><td class="cell-xY&lt;L">Isaac Szpindel</td><td class="cell-I{DY"><span class="selected-value select-value-color-green">주인공</span></td><td class="cell-Rjg=">생물학자, 의사. 외계인 연구 임무</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="b94f630b-1735-4c25-9137-32a04d5028a7"><td class="cell-title"><a href="https://app.notion.com/p/4-b94f630b17354c25913732a04d5028a7?pvs=21">4인방 (수잔 제임스, 미쉘, 사샤, 계산가)</a></td><td class="cell-xY&lt;L">The Gang of Four</td><td class="cell-I{DY"><span class="selected-value select-value-color-green">주인공</span></td><td class="cell-Rjg=">다중 인격체. 언어학자. 외계인과 커뮤니케이션 임무</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="84467a76-f9ad-4468-8f81-824ab05f84f3"><td class="cell-title"><a href="https://app.notion.com/p/84467a76f9ad44688f81824ab05f84f3?pvs=21">어맨더 베이츠</a></td><td class="cell-xY&lt;L">amanda Bates</td><td class="cell-I{DY"><span class="selected-value select-value-color-green">주인공</span></td><td class="cell-Rjg=">전투 담당</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi">245~253</td></tr><tr id="243d3326-7336-48ee-b9a9-b9a42592e410"><td class="cell-title"><a href="https://app.notion.com/p/243d3326733648eeb9a9b9a42592e410?pvs=21">주카 사라스티</a></td><td class="cell-xY&lt;L">Jukka Sarasti</td><td class="cell-I{DY"><span class="selected-value select-value-color-green">주인공</span></td><td class="cell-Rjg=">흡혈귀. 대장.</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="76f878ae-4a46-48a5-baed-be9d21995bb5"><td class="cell-title"><a href="https://app.notion.com/p/76f878ae4a4648a5baedbe9d21995bb5?pvs=21">빅벤</a></td><td class="cell-xY&lt;L">Big Ben</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">0.5광년 거리 오르트 성운에서 지구로 다가오는 목성 10배 크기의 천체. “Oasa Emitter”로도 불림. Yumiko Oasa가 발견한 적외선 방출 천체 (sub-brown dwarf).<br/><a href="https://www.deviantart.com/eschatondreadwyrm/art/Big-Ben-1-845490219">그림, 설명</a> </td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="bf8ce8ab-610f-46fa-96a5-1abd28cbc8b6"><td class="cell-title"><a href="https://app.notion.com/p/bf8ce8ab610f46fa96a51abd28cbc8b6?pvs=21">기본형 (인간), 표준형</a></td><td class="cell-xY&lt;L">baseline</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">흡혈귀, 하이브리드(?) 등을 제외한 일반인간</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="5348966d-ae0e-416c-8bbb-88509c4d124d"><td class="cell-title"><a href="https://app.notion.com/p/TAT-5348966dae0e416c8bbb88509c4d124d?pvs=21">TAT (일시적 태도 조정 시술)</a></td><td class="cell-xY&lt;L">Transient Attitudinal Tweak</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">첼시가 시리에게 가하는 뇌 시술로 일시적으로는 TMS(경두개 자기 자극)으로, 영구적으로는 의료시설에서 행함. 첼시는 행복감을 느끼게 해주는 시술로 설명한다. 안 좋은 기억을 삭제할 수 있음</td><td class="cell-pg&gt;g">218</td><td class="cell-oyBi"></td></tr><tr id="c6e81b77-7a0c-49c1-aa90-b2e676d59e32"><td class="cell-title"><a href="https://app.notion.com/p/c6e81b777a0c49c1aa90b2e676d59e32?pvs=21">맹시</a></td><td class="cell-xY&lt;L">blindsight</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">뇌의 시각 영역(V1) 이상으로 생기는 시각 장애. 맹시 환자는 보이지 않는다고 지속적으로 보고하며, 이는 일반적인 시각장애와 동일하다. 하지만 맹시 환자는 편도체로 통하는, 의식은 없지만 빠른 전달 통로(SC)로 시각 정보를 받는다. 이로서 이들은 보이지 않는다고 지속적으로 보고하는 와중에도 물체를 빠르게 받거나,  방향을 판별할 수 있다.</td><td class="cell-pg&gt;g">227</td><td class="cell-oyBi"></td></tr><tr id="702f6cd1-9b08-4332-a8d3-4b7522b750cf"><td class="cell-title"><a href="https://app.notion.com/p/702f6cd19b084332a8d34b7522b750cf?pvs=21">클뤼버 기본형</a></td><td class="cell-xY&lt;L">Klüver constant</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">환각 상태에서 보인다는 시각적 패턴</td><td class="cell-pg&gt;g">236</td><td class="cell-oyBi"></td></tr><tr id="ce900137-71c5-4b18-9a6f-48b6d5f1ca17"><td class="cell-title"><a href="https://app.notion.com/p/ce90013771c54b189a6f48b6d5f1ca17?pvs=21">로르샤흐 검사</a></td><td class="cell-xY&lt;L"></td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">대칭인 얼룩을 보여주고 연상되는 것을 말하게 해 진단하는 정신의학 진단법</td><td class="cell-pg&gt;g">240</td><td class="cell-oyBi"></td></tr><tr id="dd3bd34a-c6c6-4402-8364-bd92b168e5e4"><td class="cell-title"><a href="https://app.notion.com/p/TMS-dd3bd34ac6c644028364bd92b168e5e4?pvs=21">TMS(경두개 자기 자극술)</a></td><td class="cell-xY&lt;L"><a href="https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://www.snubh.org/dh/main/index.do%3FDP_CD%3DNP%26MENU_ID%3D008041&amp;ved=2ahUKEwj_7Pb4n774AhWSqFYBHWweDuIQFnoECBUQAQ&amp;usg=AOvVaw1yzTON-4qNzWmxGCYJtwba">Transcranial magnetic stimulation</a></td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">머리의 한 부분에 강한 자기장을 발사해 일시적으로 뇌 부분의 기능을 정지시키는 장비. 비침습적이며, 일반적으로 안전하다고 알려짐</td><td class="cell-pg&gt;g">218</td><td class="cell-oyBi"></td></tr><tr id="1ab482af-6d3e-49ad-b72c-fa42c51262a5"><td class="cell-title"><a href="https://app.notion.com/p/1ab482af6d3e49adb72cfa42c51262a5?pvs=21">인지불능증</a></td><td class="cell-xY&lt;L">agnosia</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">뇌의 시각영역 중 v1및 where pathway는 온존하나, what pathway의 손실로  물체의 의미나 종류에 대한 정보를 인출하지 못하는 인지장애. 물체를 잡거나 위치 인식은 가능함. ‘아내를 모자로 착각한 남자’로 유명. 책의 주석엔 “손가락 등 신체 일부가 없다고 착각’이라고 되어 있으나 틀린 설명임</td><td class="cell-pg&gt;g">259</td><td class="cell-oyBi"></td></tr><tr id="4651928a-e184-49b5-a102-7f9415551895"><td class="cell-title"><a href="https://app.notion.com/p/4651928ae18449b5a1027f9415551895?pvs=21">편측공간무시</a></td><td class="cell-xY&lt;L">neglect</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">좌우반구 중 한쪽의 시각영억이 파괴된 환자의 증상. 물체의 반쪽에 주의를 집중하지 못해 완전히 무시한다. 시계를 그리라고 하면, 시계의 절반만 그린다.</td><td class="cell-pg&gt;g">259</td><td class="cell-oyBi"></td></tr><tr id="c85e3073-2649-4962-882b-50a3b4263f03"><td class="cell-title"><a href="https://app.notion.com/p/c85e307326494962882b50a3b4263f03?pvs=21">물질전송</a></td><td class="cell-xY&lt;L">telematter</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">반물질의 정보(specs)를 전송해 연료의 기초(template)로 사용하는 방식</td><td class="cell-pg&gt;g">24</td><td class="cell-oyBi"></td></tr><tr id="b7ac2326-5e5f-4c5f-b808-9c7076187e16"><td class="cell-title"><a href="https://app.notion.com/p/b7ac23265e5f4c5fb8089c7076187e16?pvs=21">충전패드</a></td><td class="cell-xY&lt;L">trickle pad</td><td class="cell-I{DY"></td><td class="cell-Rjg="></td><td class="cell-pg&gt;g">84</td><td class="cell-oyBi"></td></tr><tr id="d6ed081f-61e1-4e00-b126-9cb587c2b52c"><td class="cell-title"><a href="https://app.notion.com/p/d6ed081f61e14e00b1269cb587c2b52c?pvs=21">부주의 맹시</a></td><td class="cell-xY&lt;L">inattentional blindness</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">주의를 기울이지 않은 시각 자극의 어떤 feature (색깔 등)의 변화를 전혀 알아차릴 수 없는 증상. 일반인에게도 일어나는 착시의 일종임. ‘보이지 않는 고릴라’로 유명</td><td class="cell-pg&gt;g">260</td><td class="cell-oyBi"></td></tr><tr id="94cab836-e5bb-47c6-86b2-2a4feef32268"><td class="cell-title"><a href="https://app.notion.com/p/94cab836e5bb47c686b22a4feef32268?pvs=21">수영선수</a></td><td class="cell-xY&lt;L">skimmer</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">빅 벤을 공전하는 우주선들</td><td class="cell-pg&gt;g">93</td><td class="cell-oyBi"></td></tr><tr id="287de6b0-772f-49dc-bf64-6329fd8dc6eb"><td class="cell-title"><a href="https://app.notion.com/p/287de6b0772f49dcbf646329fd8dc6eb?pvs=21">종합가</a></td><td class="cell-xY&lt;L"></td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">주인공 시리 키튼의 임무 및 직업. 1. 이해하지 않고 작업한다. 2. 지구에 주기적으로 보고해야 함. 3. 4. … 같이 일하는 사람들은 종합가의 역할이 쥐새끼같이 윗사람에게 보고하는 것이라 싫어함</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="ae161e04-2a0d-411b-a30b-a7044f3e8bcb"><td class="cell-title"><a href="https://app.notion.com/p/ae161e042a0d411ba30ba7044f3e8bcb?pvs=21">중국어 방</a></td><td class="cell-xY&lt;L">Chinese room</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">철학자 존 설이 튜링 테스트에 반대하며 내놓은 가설. 튜링 테스트는, 인공지능이 사람과 구분할 수 없을 정도로 대화를 잘 하게 된다면, 인공지능에 지능이 있음을 인정해야 한다고 주장한다. 이에 존 설은, 중국어로 된 대화 리스트를 받은, 중국어에 대해 모르는 사람이라도 정해진 절차에 따라 중국어 대화에 대응해 중국어 단어들을 나열한다면 지능 없이도 튜링 테스트에 통과할 수 있을 것이라 지적한다. 작중 ‘종합가’와 비슷한 면이 있음</td><td class="cell-pg&gt;g"></td><td class="cell-oyBi"></td></tr><tr id="21093169-ce75-46c8-924c-63e62ab8bd5f"><td class="cell-title"><a href="https://app.notion.com/p/21093169ce7546c8924c63e62ab8bd5f?pvs=21">십자가 거부증/결함</a></td><td class="cell-xY&lt;L">Crucifix glitch</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">직각을 보면 발작을 일으키는 흡혈귀의 유전적 결함</td><td class="cell-pg&gt;g">139</td><td class="cell-oyBi"></td></tr><tr id="b505f21d-6db5-4928-963c-27673a893944"><td class="cell-title"><a href="https://app.notion.com/p/b505f21d6db54928963c27673a893944?pvs=21">시각령</a></td><td class="cell-xY&lt;L">visual cortex</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">시각 피질</td><td class="cell-pg&gt;g">139</td><td class="cell-oyBi"></td></tr><tr id="8f5f6942-74bb-480a-88f0-8bb7009891a7"><td class="cell-title"><a href="https://app.notion.com/p/8f5f694274bb480a88f08bb7009891a7?pvs=21">전방향 천재성</a></td><td class="cell-xY&lt;L">omnisavantism</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">전방향(omnidirectional)은 오역. 네커 큐브의 경우처럼, 여러가지를 동시에 생각할 수 있는 천재성을 의미하는 듯</td><td class="cell-pg&gt;g">139</td><td class="cell-oyBi"></td></tr><tr id="5b6c15f1-f862-4570-a506-2f8d5d486654"><td class="cell-title"><a href="https://app.notion.com/p/5b6c15f1f8624570a5062f8d5d486654?pvs=21">인지권</a></td><td class="cell-xY&lt;L">noosphere</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">인지권, <a href="https://ko.wikipedia.org/wiki/%EC%A0%95%EC%8B%A0%EA%B6%8C">정신권</a>: 인간의 생각 권역. 인간의 지적 활동 전체. 작품에서는 ‘(인간의 지적 활동 전체를 담고 있는) 인터넷’의 의미로 사용</td><td class="cell-pg&gt;g">39</td><td class="cell-oyBi"></td></tr><tr id="e7dcfe1e-9e48-4034-829f-b6efcb93f9a0"><td class="cell-title"><a href="https://app.notion.com/p/e7dcfe1e9e484034829fb6efcb93f9a0?pvs=21">잭</a></td><td class="cell-xY&lt;L">Jack</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">“깜짝쇼 잭” (Jack in the box); 테세우스의 제작공장이 만들어낸 소형 탐사선</td><td class="cell-pg&gt;g">156</td><td class="cell-oyBi"></td></tr><tr id="b91ef621-4523-41d1-8966-c6f6551229fd"><td class="cell-title"><a href="https://app.notion.com/p/b91ef621452341d18966c6f6551229fd?pvs=21">폰 노이만식 기계</a></td><td class="cell-xY&lt;L">von Neumann machine</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">1. 폰 노이만 아키텍쳐의 컴퓨터<br/>2. (이 작품에서의 의미) 자기복제 가능한 기계 (Von Neumann Probe)</td><td class="cell-pg&gt;g">172</td><td class="cell-oyBi"></td></tr><tr id="6b38ede3-2880-44ba-aa69-f63a83352686"><td class="cell-title"><a href="https://app.notion.com/p/6b38ede3288044baaa69f63a83352686?pvs=21">다른 자아</a></td><td class="cell-xY&lt;L">alter</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">4인방의 수잔을 제외한 다른 자아</td><td class="cell-pg&gt;g">200</td><td class="cell-oyBi"></td></tr><tr id="b9f8dff2-7dd3-4321-8b05-ff769dd489e8"><td class="cell-title"><a href="https://app.notion.com/p/b9f8dff27dd343218b05ff769dd489e8?pvs=21">회색 영아 증후군</a></td><td class="cell-xY&lt;L">Grey Syndrome</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">클로람페니클(항생제)를 과다 복용했을 때 발생. 식용 부진, 구토, 피부의 잿빛 회색, 저혈압 등.</td><td class="cell-pg&gt;g">210</td><td class="cell-oyBi"></td></tr><tr id="82cad676-3cec-45bd-bdd2-68ebe8ba2eb8"><td class="cell-title"><a href="https://app.notion.com/p/82cad6763cec45bdbdd268ebe8ba2eb8?pvs=21">공감각</a></td><td class="cell-xY&lt;L">synesthesia</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">인간의 오감 중 한 영역의 감관에 자극이 주어졌을 때 그 자극이 다른 영역의 자극을 불러일으키는 일종의 신경이상증. 공감각을 느끼는 사람은 소리를 들을때 색깔을 느끼거나, 글자에서 색깔이나 냄새가 느꺼지거나 한다.</td><td class="cell-pg&gt;g">239</td><td class="cell-oyBi"></td></tr><tr id="6d3ca133-d481-40f7-9d4c-b776d3fac80e"><td class="cell-title"><a href="https://app.notion.com/p/6d3ca133d48140f79d4cb776d3fac80e?pvs=21">로버트 커닝햄</a></td><td class="cell-xY&lt;L">Robert Cunningham</td><td class="cell-I{DY"><span class="selected-value select-value-color-green">주인공</span></td><td class="cell-Rjg=">아이작 스핀들의 대체</td><td class="cell-pg&gt;g">269</td><td class="cell-oyBi"></td></tr><tr id="dddaa4c9-9f6b-4da1-9862-40a75f803b3a"><td class="cell-title"><a href="https://app.notion.com/p/dddaa4c99f6b4da1986240a75f803b3a?pvs=21">단섬유</a></td><td class="cell-xY&lt;L">monofilament</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">한 가닥으로 이뤄진 합성섬유</td><td class="cell-pg&gt;g">321</td><td class="cell-oyBi"></td></tr><tr id="a79ce48a-f416-41b0-bd3d-4416042328f6"><td class="cell-title"><a href="https://app.notion.com/p/a79ce48af41641b0bd3d4416042328f6?pvs=21">튜링 발생 요소</a></td><td class="cell-xY&lt;L">Turing Morphogen</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">튜링 모르포겐. <a href="https://www.dna.caltech.edu/courses/cs191/paperscs191/turing.pdf">튜링의 논문 “The chemical basis of morphogenesis”</a> 에서 인용된 개념. 세포의 증식, 분화를 제어하여 일정한 형태를 이루게 하는 요소.</td><td class="cell-pg&gt;g">363</td><td class="cell-oyBi"></td></tr><tr id="ba6b41d8-e711-4b3f-955b-944703073cfe"><td class="cell-title"><a href="https://app.notion.com/p/ba6b41d8e7114b3f955b944703073cfe?pvs=21">반유클리드 장치; 비유클리드 기관</a></td><td class="cell-xY&lt;L">antiEuclidean</td><td class="cell-I{DY"><span class="selected-value select-value-color-gray">작품속 고유명사</span></td><td class="cell-Rjg=">흡혈귀가 직각을 견딜 수 있게 해주는 장치(?) 또는 약물</td><td class="cell-pg&gt;g">139</td><td class="cell-oyBi"></td></tr><tr id="65637ea3-be68-4efd-b112-bfaf550b1486"><td class="cell-title"><a href="https://app.notion.com/p/65637ea3be684efdb112bfaf550b1486?pvs=21">단속운동</a></td><td class="cell-xY&lt;L">saccade</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">시점의 변화와 동시에 일어나는 두 눈의 일련의 불수의적인, 급격하고 빠른 운동 또는 경련. 우리가 눈동자를 움직이는 방식은 주로 이 단속운동으로 주로 이루어진다. 우리의 눈동자는 부드럽게 움직이지 않고, 한 점에서 다른 점으로 급격하게 이동한다.</td><td class="cell-pg&gt;g">385</td><td class="cell-oyBi"></td></tr><tr id="e9a2f6b0-f86e-47e3-a380-2133469532e2"><td class="cell-title"><a href="https://app.notion.com/p/e9a2f6b0f86e47e3a3802133469532e2?pvs=21">특질</a></td><td class="cell-xY&lt;L">qualia</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">감각질(感覺質). 어떤 것을 지각하면서 느끼게 되는 기분, 떠오르는 심상 따위로서, 말로 표현하기 어려운 특질을 가리킨다. 일인칭 시점이기에 주관적인 특징이 있으며 객관적인 관찰이 어렵다.</td><td class="cell-pg&gt;g">429</td><td class="cell-oyBi"></td></tr><tr id="e1c77056-c743-47d0-8ec7-9dc7f5ea2552"><td class="cell-title"><a href="https://app.notion.com/p/e1c77056c74347d08ec79dc7f5ea2552?pvs=21">고유수용성 다발신경병증</a></td><td class="cell-xY&lt;L">Proprioreceptive polyneuropathy</td><td class="cell-I{DY"><span class="selected-value select-value-color-orange">과학용어</span></td><td class="cell-Rjg=">고유수용감각(proprioception)을 저자가 오기(proprio<span style="border-bottom:0.05em solid">r</span>eceptive)한 것으로 보임. <br/>다발성 신경병증 (polyneuropathy, 말초신경이 손상되어 발생하는 신경학적 장애)에 의해 고유수용감각(자신의 힘, 신체의 위치를 아는 감각)을 잃는 증상을 말하는 듯. 작품에서는 무의식적 감각과 행동을 못하게 되어 모든 행동을 의식적으로 하는 상황으로 설명</td><td class="cell-pg&gt;g">447</td><td class="cell-oyBi"></td></tr></tbody></table></div><br/><br/></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

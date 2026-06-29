@@ -1,0 +1,922 @@
+{
+  "chunk_id": "s0585-s0636",
+  "part": "Theseus",
+  "first": "s0585",
+  "last": "s0636",
+  "n_segments": 52,
+  "words": 1790,
+  "segments": [
+    {
+      "id": "s0585",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "Szpindel's findings were front and center at our next get-together.",
+      "runs": [
+        {
+          "t": "Szpindel's findings were front and center at our next get-together."
+        }
+      ]
+    },
+    {
+      "id": "s0586",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "The vampire summed it up for us, visual aids dancing on the table: \"Von Neumann self-replicating r-selector. Seed washes up and sprouts skimmers, skimmers harvest raw materials from the accretion belt. Some perturbations in those orbits; belt's still unsettled.\"",
+      "runs": [
+        {
+          "t": "The vampire summed it up for us, visual aids dancing on the table: \"Von Neumann self-replicating r-selector. Seed washes up and sprouts skimmers, skimmers harvest raw materials from the accretion belt. Some perturbations in those orbits; belt's still unsettled.\""
+        }
+      ]
+    },
+    {
+      "id": "s0587",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Haven't seen any of the herd giving birth,\" Szpindel remarked. \"Any sign of a factory?\"",
+      "runs": [
+        {
+          "t": "\"Haven't seen any of the herd giving birth,\" Szpindel remarked. \"Any sign of a factory?\""
+        }
+      ]
+    },
+    {
+      "id": "s0588",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "Sarasti shook his head. \"Discarded, maybe. Decompiled. Or the herd stops breeding at optimal N.\"",
+      "runs": [
+        {
+          "t": "Sarasti shook his head. \"Discarded, maybe. Decompiled. Or the herd stops breeding at optimal N.\""
+        }
+      ]
+    },
+    {
+      "id": "s0589",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"These are only the bulldozers,\" Bates pointed out. \"There'll be tenants.\"",
+      "runs": [
+        {
+          "t": "\"These are only the bulldozers,\" Bates pointed out. \"There'll be tenants.\""
+        }
+      ]
+    },
+    {
+      "id": "s0590",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"A lot of 'em, eh?\" Szpindel added. \"Outnumber us by orders of mag.\"",
+      "runs": [
+        {
+          "t": "\"A "
+        },
+        {
+          "t": "lot",
+          "i": true
+        },
+        {
+          "t": " of 'em, eh?\" Szpindel added. \"Outnumber us by orders of mag.\""
+        }
+      ]
+    },
+    {
+      "id": "s0591",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "James: \"But they might not show up for centuries.\"",
+      "runs": [
+        {
+          "t": "James: \"But they might not show up for centuries.\""
+        }
+      ]
+    },
+    {
+      "id": "s0592",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "Sarasti clicked. \"Do these skimmers build Fireflies? Burns-Caulfield?\"",
+      "runs": [
+        {
+          "t": "Sarasti clicked. \"Do these skimmers build Fireflies? Burns-Caulfield?\""
+        }
+      ]
+    },
+    {
+      "id": "s0593",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "It was a rhetorical question. Szpindel answered anyway: \"Don't see how.\"",
+      "runs": [
+        {
+          "t": "It was a rhetorical question. Szpindel answered anyway: \"Don't see how.\""
+        }
+      ]
+    },
+    {
+      "id": "s0594",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Something else does, then. Something already local.\"",
+      "runs": [
+        {
+          "t": "\"Something else does, then. Something already local.\""
+        }
+      ]
+    },
+    {
+      "id": "s0595",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "Nobody spoke for a moment. James' topology shifted and shuffled in the silence; when she opened her mouth again, someone indefinably younger was on top.",
+      "runs": [
+        {
+          "t": "Nobody spoke for a moment. James' topology shifted and shuffled in the silence; when she opened her mouth again, someone indefinably "
+        },
+        {
+          "t": "younger",
+          "i": true
+        },
+        {
+          "t": " was on top."
+        }
+      ]
+    },
+    {
+      "id": "s0596",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Their habitat isn't anything like ours, if they're building a home way out here. That's hopeful.\"",
+      "runs": [
+        {
+          "t": "\"Their habitat isn't anything like ours, if they're building a home way out here. That's hopeful.\""
+        }
+      ]
+    },
+    {
+      "id": "s0597",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "Michelle. The synesthete.",
+      "runs": [
+        {
+          "t": "Michelle. The synesthete."
+        }
+      ]
+    },
+    {
+      "id": "s0598",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Proteins.\" Sarasti's eyes were unreadable behind the visor. Comparable biochemistries. They might eat us.",
+      "runs": [
+        {
+          "t": "\"Proteins.\" Sarasti's eyes were unreadable behind the visor. "
+        },
+        {
+          "t": "Comparable biochemistries. They might eat us",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0599",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Whoever these beings are, they don't even live in sunlight. No territorial overlap, no resource overlap, no basis for conflict. There's no reason we shouldn't get along just fine.\"",
+      "runs": [
+        {
+          "t": "\"Whoever these beings are, they don't even live in "
+        },
+        {
+          "t": "sunlight",
+          "i": true
+        },
+        {
+          "t": ". No territorial overlap, no resource overlap, no basis for conflict. There's no reason we shouldn't get along just fine.\""
+        }
+      ]
+    },
+    {
+      "id": "s0600",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"On the other hand,\" Szpindel said, \"Technology implies belligerence.\"",
+      "runs": [
+        {
+          "t": "\"On the other hand,\" Szpindel said, \"Technology implies belligerence.\""
+        }
+      ]
+    },
+    {
+      "id": "s0601",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "Michelle snorted softly. \"According to a coterie of theoretical historians who've never actually met an alien, yes. Maybe now we get to prove them wrong.\" And in the next instant she was just gone, her affect scattered like leaves in a dust-devil, and Susan James was back in her place saying:",
+      "runs": [
+        {
+          "t": "Michelle snorted softly. \"According to a coterie of theoretical historians who've never actually met an alien, yes. Maybe now we get to prove them wrong.\" And in the next instant she was just "
+        },
+        {
+          "t": "gone",
+          "i": true
+        },
+        {
+          "t": ", her affect scattered like leaves in a dust-devil, and Susan James was back in her place saying:"
+        }
+      ]
+    },
+    {
+      "id": "s0602",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Why don't we just ask them?\"",
+      "runs": [
+        {
+          "t": "\"Why don't we just "
+        },
+        {
+          "t": "ask",
+          "i": true
+        },
+        {
+          "t": " them?\""
+        }
+      ]
+    },
+    {
+      "id": "s0603",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Ask?\" Bates said.",
+      "runs": [
+        {
+          "t": "\"Ask?\" Bates said."
+        }
+      ]
+    },
+    {
+      "id": "s0604",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"There are four hundred thousand machines out there. How do we know they can't talk?\"",
+      "runs": [
+        {
+          "t": "\"There are four hundred thousand machines out there. How do we know they can't talk?\""
+        }
+      ]
+    },
+    {
+      "id": "s0605",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"We'd have heard.,\" Szpindel said. \"They're drones.\"",
+      "runs": [
+        {
+          "t": "\"We'd have heard.,\" Szpindel said. \"They're drones.\""
+        }
+      ]
+    },
+    {
+      "id": "s0606",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Can't hurt to ping them, just to make sure.\"",
+      "runs": [
+        {
+          "t": "\"Can't hurt to ping them, just to make sure.\""
+        }
+      ]
+    },
+    {
+      "id": "s0607",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"There's no reason they should talk even if they are smart. Language and intelligence aren't all that strongly correlated even on Ear—\"",
+      "runs": [
+        {
+          "t": "\"There's no reason they should talk even if they "
+        },
+        {
+          "t": "are ",
+          "i": true
+        },
+        {
+          "t": "smart. Language and intelligence aren't all that strongly correlated even on Ear—\""
+        }
+      ]
+    },
+    {
+      "id": "s0608",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "James rolled her eyes. \"Why not try, at least? It's what we're here for. It's what I'm here for. Just send a bloody signal.\"",
+      "runs": [
+        {
+          "t": "James rolled her eyes. \"Why not "
+        },
+        {
+          "t": "try",
+          "i": true
+        },
+        {
+          "t": ", at least? It's what we're here for. It's what "
+        },
+        {
+          "t": "I'm",
+          "i": true
+        },
+        {
+          "t": " here for. Just "
+        },
+        {
+          "t": "send a bloody signal",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s0609",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "After a moment Bates picked up the ball. \"Bad game theory, Suze.\"",
+      "runs": [
+        {
+          "t": "After a moment Bates picked up the ball. \"Bad game theory, Suze.\""
+        }
+      ]
+    },
+    {
+      "id": "s0610",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Game theory.\" She made it sound like a curse.",
+      "runs": [
+        {
+          "t": "\"Game theory.\" She made it sound like a curse."
+        }
+      ]
+    },
+    {
+      "id": "s0611",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"Tit-for-tat's the best strategy. They pinged us, we pinged back. Ball's in their court now; we send another signal, we may give away too much.\"",
+      "runs": [
+        {
+          "t": "\"Tit-for-tat's the best strategy. They pinged us, we pinged back. Ball's in their court now; we send another signal, we may give away too much.\""
+        }
+      ]
+    },
+    {
+      "id": "s0612",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"I know the rules, Amanda. They say if the other party never takes the initiative again, we ignore each other for the rest of the mission because game theory says you don't want to look needy.\"",
+      "runs": [
+        {
+          "t": "\"I know the rules, Amanda. They say if the other party never takes the initiative again, we ignore each other for the rest of the mission because game theory says you don't want to look "
+        },
+        {
+          "t": "needy",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s0613",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "\"The rule only applies when you're going up against an unknown player, \" the Major explained. \"We'll have more options the more we learn.\"",
+      "runs": [
+        {
+          "t": "\"The rule only applies when you're going up against an unknown player, \" the Major explained. \"We'll have more options the more we learn.\""
+        }
+      ]
+    },
+    {
+      "id": "s0614",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "James sighed. \"It's just—you all seem to be going into this assuming they'll be hostile. As if a simple hailing signal is going to bring them down on us.\"",
+      "runs": [
+        {
+          "t": "James sighed. \"It's just—you all seem to be going into this "
+        },
+        {
+          "t": "assuming",
+          "i": true
+        },
+        {
+          "t": " they'll be hostile. As if a simple hailing signal is going to bring them down on us.\""
+        }
+      ]
+    },
+    {
+      "id": "s0615",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "Bates shrugged. \"It only makes sense to be cautious. I may be a jarhead but I'm not eager to piss off anything that hops between stars and terraforms superJovians for a living. I don't have to remind anyone here that Theseus is no warship.\"",
+      "runs": [
+        {
+          "t": "Bates shrugged. \"It only makes sense to be cautious. I may be a jarhead but I'm not eager to piss off "
+        },
+        {
+          "t": "anything",
+          "i": true
+        },
+        {
+          "t": " that hops between stars and terraforms superJovians for a living. I don't have to remind anyone here that "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " is no warship.\""
+        }
+      ]
+    },
+    {
+      "id": "s0616",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "She'd said anyone; she'd meant Sarasti. And Sarasti, focused on his own horizon, didn't answer. Not out loud, at least; but his surfaces spoke in a different tongue entirely.",
+      "runs": [
+        {
+          "t": "She'd said "
+        },
+        {
+          "t": "anyone",
+          "i": true
+        },
+        {
+          "t": "; she'd meant "
+        },
+        {
+          "t": "Sarasti",
+          "i": true
+        },
+        {
+          "t": ". And Sarasti, focused on his own horizon, didn't answer. Not out loud, at least; but his surfaces spoke in a different tongue entirely."
+        }
+      ]
+    },
+    {
+      "id": "s0617",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 15,
+      "text": "Not yet, they said.",
+      "runs": [
+        {
+          "t": "Not yet",
+          "i": true
+        },
+        {
+          "t": ", they said."
+        }
+      ]
+    },
+    {
+      "id": "s0618",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s0619",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "Bates was right, by the way. Theseus was officially tricked out for exploration, not combat. No doubt our masters would have preferred to load her up with nukes and particle cannons as well as her scientific payload, but not even a telemattered fuel stream can change the laws of inertia. A weaponized prototype would have taken longer to build; a more massive one, laden with heavy artillery, would take longer to accelerate. Time, our masters had decided, was of greater essence than armament. In a pinch our fabrication facilities could build most anything we needed, given time. It might take a while to build a particle-beam cannon from scratch, and we might have to scavenge a local asteroid for the raw material, but we could do it. Assuming our enemies would be willing to wait, in the interests of fair play.",
+      "runs": [
+        {
+          "t": "Bates was right, by the way. "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": " was officially tricked out for exploration, not combat. No doubt our masters would have preferred to load her up with nukes and particle cannons as well as her scientific payload, but not even a telemattered fuel stream can change the laws of inertia. A weaponized prototype would have taken longer to build; a more massive one, laden with heavy artillery, would take longer to accelerate. Time, our masters had decided, was of greater essence than armament. In a pinch our fabrication facilities could build most anything we needed, given time. It might take a while to build a particle-beam cannon from scratch, and we might have to scavenge a local asteroid for the raw material, but we could do it. Assuming our enemies would be willing to wait, in the interests of fair play."
+        }
+      ]
+    },
+    {
+      "id": "s0620",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "But what were the odds that even our best weapons would prove effective against the intelligence that had pulled off the Firefall? If the unknown was hostile, we were probably doomed no matter what we did. The Unknown was technologically advanced—and there were some who claimed that that made them hostile by definition. Technology Implies Belligerence, they said.",
+      "runs": [
+        {
+          "t": "But what were the odds that even our best weapons would prove effective against the intelligence that had pulled off the Firefall? If the unknown was hostile, we were probably doomed no matter what we did. The Unknown "
+        },
+        {
+          "t": "was",
+          "i": true
+        },
+        {
+          "t": " technologically advanced—and there were some who claimed that that made them hostile by definition. "
+        },
+        {
+          "t": "Technology Implies Belligerence",
+          "i": true
+        },
+        {
+          "t": ", they said."
+        }
+      ]
+    },
+    {
+      "id": "s0621",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "I suppose I should explain that, now that it's completely irrelevant. You've probably forgotten after all this time.",
+      "runs": [
+        {
+          "t": "I suppose I should explain that, now that it's completely irrelevant. You've probably forgotten after all this time."
+        }
+      ]
+    },
+    {
+      "id": "s0622",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "Once there were three tribes. The Optimists, whose patron saints were Drake and Sagan, believed in a universe crawling with gentle intelligence—spiritual brethren vaster and more enlightened than we, a great galactic siblinghood into whose ranks we would someday ascend. Surely, said the Optimists,  space travel implies enlightenment, for it requires the control of great destructive energies. Any race which can't rise above its own brutal instincts will wipe itself out long before it learns to bridge the interstellar gulf.",
+      "runs": [
+        {
+          "t": "Once there were three tribes. The Optimists, whose patron saints were Drake and Sagan, believed in a universe crawling with gentle intelligence—spiritual brethren vaster and more enlightened than we, a great galactic siblinghood into whose ranks we would someday ascend. "
+        },
+        {
+          "t": "Surely, ",
+          "i": true
+        },
+        {
+          "t": "said the Optimists, "
+        },
+        {
+          "t": " space travel implies enlightenment, for it requires the control of great destructive energies. Any race which can't rise above its own brutal instincts will wipe itself out long before it learns to bridge the interstellar gulf.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0623",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "Across from the Optimists sat the Pessimists, who genuflected before graven images of Saint Fermi and a host of lesser lightweights. The Pessimists envisioned a lonely universe full of dead rocks and prokaryotic slime. The odds are just too low, they insisted. Too many rogues, too much radiation, too much eccentricity in too many orbits. It is a surpassing miracle that even one Earth exists; to hope for many is to abandon reason and embrace religious mania. After all, the universe is fourteen billion years old: if the galaxy were alive with intelligence, wouldn't it be here by now? ",
+      "runs": [
+        {
+          "t": "Across from the Optimists sat the Pessimists, who genuflected before graven images of Saint Fermi and a host of lesser lightweights. The Pessimists envisioned a lonely universe full of dead rocks and prokaryotic slime. "
+        },
+        {
+          "t": "The odds are just too low",
+          "i": true
+        },
+        {
+          "t": ", they insisted. "
+        },
+        {
+          "t": "Too many rogues, too much radiation, too much eccentricity in too many orbits. It is a surpassing miracle that even ",
+          "i": true
+        },
+        {
+          "t": "one"
+        },
+        {
+          "t": " Earth exists; to hope for ",
+          "i": true
+        },
+        {
+          "t": "many"
+        },
+        {
+          "t": " is to abandon reason and embrace religious mania. After all, the universe is fourteen billion years old: if the galaxy were alive with intelligence, wouldn't it be here by now? ",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0624",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "Equidistant to the other two tribes sat the Historians. They didn't have too many thoughts on the probable prevalence of intelligent, spacefaring extraterrestrials— but if there are any, they said, they're not just going to be smart. They're going to be mean.",
+      "runs": [
+        {
+          "t": "Equidistant to the other two tribes sat the Historians. They didn't have too many thoughts on the probable prevalence of intelligent, spacefaring extraterrestrials— "
+        },
+        {
+          "t": "but if there ",
+          "i": true
+        },
+        {
+          "t": "are"
+        },
+        {
+          "t": " any",
+          "i": true
+        },
+        {
+          "t": ", they said, "
+        },
+        {
+          "t": "they're not just going to be smart. They're going to be ",
+          "i": true
+        },
+        {
+          "t": "mean."
+        }
+      ]
+    },
+    {
+      "id": "s0625",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "It might seem almost too obvious a conclusion. What is Human history, if not an ongoing succession of greater technologies grinding lesser ones beneath their boots? But the subject wasn't merely Human history, or the unfair advantage that tools gave to any given side; the oppressed snatch up advanced weaponry as readily as the oppressor, given half a chance. No, the real issue was how those tools got there in the first place. The real issue was what tools are for.",
+      "runs": [
+        {
+          "t": "It might seem almost too obvious a conclusion. What is Human history, if not an ongoing succession of greater technologies grinding lesser ones beneath their boots? But the subject wasn't merely "
+        },
+        {
+          "t": "Human",
+          "i": true
+        },
+        {
+          "t": " history, or the unfair advantage that tools gave to any given side; the oppressed snatch up advanced weaponry as readily as the oppressor, given half a chance. No, the real issue was how those tools got there in the first place. The real issue was what tools are "
+        },
+        {
+          "t": "for",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0626",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "To the Historians, tools existed for only one reason: to force the universe into unnatural shapes. They treated nature as an enemy, they were by definition a rebellion against the way things were. Technology is a stunted thing in benign environments, it never thrived in any culture gripped by belief in natural harmony. Why invent fusion reactors if your climate is comfortable, if your food is abundant? Why build fortresses if you have no enemies? Why force change upon a world which poses no threat?",
+      "runs": [
+        {
+          "t": "To the Historians, tools existed for only one reason: to force the universe into unnatural shapes. They treated nature as an enemy, they were by definition a rebellion against the way things were. Technology is a stunted thing in benign environments, it never thrived in any culture gripped by belief in natural harmony. Why invent fusion reactors if your climate is comfortable, if your food is abundant? Why build fortresses if you have no enemies? Why force change upon a world which poses no threat?"
+        }
+      ]
+    },
+    {
+      "id": "s0627",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "Human civilization had a lot of branches, not so long ago. Even into the twenty-first century, a few isolated tribes had barely developed stone tools. Some settled down with agriculture. Others weren't content until they had ended nature itself, still others until they'd built cities in space.",
+      "runs": [
+        {
+          "t": "Human civilization had a lot of branches, not so long ago. Even into the twenty-first century, a few isolated tribes had barely developed stone tools. Some settled down with agriculture. Others weren't content until they had ended nature itself, still others until they'd built cities in space."
+        }
+      ]
+    },
+    {
+      "id": "s0628",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "We all rested eventually, though. Each new technology trampled lesser ones, climbed to some complacent asymptote, and stopped—until my own mother packed herself away like a larva in honeycomb, softened by machinery, robbed of incentive by her own contentment.",
+      "runs": [
+        {
+          "t": "We all rested eventually, though. Each new technology trampled lesser ones, climbed to some complacent asymptote, and stopped—until my own mother packed herself away like a larva in honeycomb, softened by machinery, robbed of incentive by her own contentment."
+        }
+      ]
+    },
+    {
+      "id": "s0629",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "But history never said that everyone had to stop where we did. It only suggested that those who had stopped no longer struggled for existence. There could be other, more hellish worlds where the best Human technology would crumble, where the environment was still the enemy, where the only survivors were those who fought back with sharper tools and stronger empires. The threats contained in those environments would not be simple ones. Harsh weather and natural disasters either kill you or they don't, and once conquered—or adapted to— they lose their relevance. No, the only environmental factors that continued to matter were those that fought back, that countered new strategies with newer ones, that forced their enemies to scale ever-greater heights just to stay alive. Ultimately, the only enemy that mattered was an intelligent one.",
+      "runs": [
+        {
+          "t": "But history never said that everyone had to stop where we did. It only suggested that those who "
+        },
+        {
+          "t": "had",
+          "i": true
+        },
+        {
+          "t": " stopped no longer struggled for existence. There could be other, more hellish worlds where the best Human technology would crumble, where the environment was still the enemy, where the only survivors were those who fought back with sharper tools and stronger empires. The threats contained in those environments would not be simple ones. Harsh weather and natural disasters either kill you or they don't, and once conquered—or adapted to— they lose their relevance. No, the only environmental factors that continued to matter were those that fought back, that countered new strategies with newer ones, that forced their enemies to scale ever-greater heights just to stay alive. Ultimately, the only enemy that mattered was an "
+        },
+        {
+          "t": "intelligent",
+          "i": true
+        },
+        {
+          "t": " one."
+        }
+      ]
+    },
+    {
+      "id": "s0630",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "And if the best toys do end up in the hands of those who've never forgotten that life itself is an act of war against intelligent opponents, what does that say about a race whose machines travel between the stars?",
+      "runs": [
+        {
+          "t": "And if the best toys do end up in the hands of those who've never forgotten that life itself is an act of war against intelligent opponents, what does that say about a race whose machines travel between the stars?"
+        }
+      ]
+    },
+    {
+      "id": "s0631",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "The argument was straightforward enough. It might even have been enough to carry the Historians to victory—if such debates were ever settled on the basic of logic, and if a bored population hadn't already awarded the game to Fermi on points. But the Historian paradigm was just too ugly, too Darwinian, for most people, and besides, no one really cared any more. Not even the Cassidy Survey's late-breaking discoveries changed much. So what if some dirtball at Ursae Majoris Eridani had an oxygen atmosphere? It was forty-three lightyears away, and it wasn't talking; and if you wanted flying chandeliers and alien messiahs, you could build them to order in Heaven. If you wanted testosterone and target practice you could choose an afterlife chock-full of nasty alien monsters with really bad aim. If the mere thought of an alien intelligence threatened your worldview, you could explore a virtual galaxy of empty real estate, ripe and waiting for any God-fearing earthly pilgrims who chanced by.",
+      "runs": [
+        {
+          "t": "The argument was straightforward enough. It might even have been enough to carry the Historians to victory—if such debates were ever settled on the basic of logic, and if a bored population hadn't already awarded the game to Fermi on points. But the Historian paradigm was just too ugly, too "
+        },
+        {
+          "t": "Darwinian",
+          "i": true
+        },
+        {
+          "t": ", for most people, and besides, no one really cared any more. Not even the Cassidy Survey's late-breaking discoveries changed much. So what if some dirtball at Ursae Majoris Eridani had an oxygen atmosphere? It was forty-three lightyears away, and it wasn't talking; and if you wanted flying chandeliers and alien messiahs, you could build them to order in Heaven. If you wanted testosterone and target practice you could choose an afterlife chock-full of nasty alien monsters with really bad aim. If the mere thought of an alien intelligence threatened your worldview, you could explore a virtual galaxy of empty real estate, ripe and waiting for any God-fearing earthly pilgrims who chanced by."
+        }
+      ]
+    },
+    {
+      "id": "s0632",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "It was all there, just the other side of a fifteen-minute splice job and a cervical socket. Why endure the cramped and smelly confines of real-life space travel to go visit pond scum on Europa?",
+      "runs": [
+        {
+          "t": "It was all there, just the other side of a fifteen-minute splice job and a cervical socket. Why endure the cramped and smelly confines of real-life space travel to go visit pond scum on Europa?"
+        }
+      ]
+    },
+    {
+      "id": "s0633",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "And so, inevitably, a fourth Tribe arose, a Heavenly host that triumphed over all: the Tribe that Just Didn't Give A Shit. They didn't know what to do when the Fireflies showed up.",
+      "runs": [
+        {
+          "t": "And so, inevitably, a fourth Tribe arose, a Heavenly host that triumphed over all: the Tribe that Just Didn't Give A Shit. They didn't know "
+        },
+        {
+          "t": "what",
+          "i": true
+        },
+        {
+          "t": " to do when the Fireflies showed up."
+        }
+      ]
+    },
+    {
+      "id": "s0634",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "So they sent us, and—in belated honor of the Historian mantra—they sent along a warrior, just in case. It was doubtful in the extreme that any child of Earth would be a match for a race with interstellar technology, should they prove unfriendly. Still, I could tell that Bates' presence was a comfort, to the Human members of the crew at least. If you have to go up unarmed against an angry T-rex with a four-digit IQ, it can't hurt to have a trained combat specialist at your side.",
+      "runs": [
+        {
+          "t": "So they sent us, and—in belated honor of the Historian mantra—they sent along a warrior, just in case. It was doubtful in the extreme that any child of Earth would be a match for a race with interstellar technology, should they prove unfriendly. Still, I could tell that Bates' presence was a comfort, to the Human members of the crew at least. If you have to go up unarmed against an angry T-rex with a four-digit IQ, it can't hurt to have a trained combat specialist at your side."
+        }
+      ]
+    },
+    {
+      "id": "s0635",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 16,
+      "text": "At the very least, she might be able to fashion a pointy stick from the branch of some convenient tree.",
+      "runs": [
+        {
+          "t": "At the very least, she might be able to fashion a pointy stick from the branch of some convenient tree."
+        }
+      ]
+    },
+    {
+      "id": "s0636",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 17,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

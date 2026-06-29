@@ -1,0 +1,625 @@
+{
+  "chunk_id": "s0292-s0327",
+  "part": "Theseus",
+  "first": "s0292",
+  "last": "s0327",
+  "n_segments": 36,
+  "words": 1511,
+  "segments": [
+    {
+      "id": "s0292",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "This is what my father could not unmake. This is what I am:",
+      "runs": [
+        {
+          "t": "This is what my father could not unmake. This is what I am:"
+        }
+      ]
+    },
+    {
+      "id": "s0293",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "I am the bridge between the bleeding edge and the dead center. I stand between the Wizard of Oz and the man behind the curtain.",
+      "runs": [
+        {
+          "t": "I am the bridge between the bleeding edge and the dead center. I stand between the Wizard of Oz and the man behind the curtain."
+        }
+      ]
+    },
+    {
+      "id": "s0294",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "I am the curtain.",
+      "runs": [
+        {
+          "t": "I "
+        },
+        {
+          "t": "am",
+          "i": true
+        },
+        {
+          "t": " the curtain."
+        }
+      ]
+    },
+    {
+      "id": "s0295",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "I am not an entirely new breed. My roots reach back to the dawn of civilization but those precursors served a different function, a less honorable one. They only greased the wheels of social stability; they would sugarcoat unpleasant truths, or inflate imaginary bogeymen for political expedience. They were vital enough in their way. Not even the most heavily-armed police state can exert brute force on all of its citizens all of the time. Meme management is so much subtler; the rose-tinted refraction of perceived reality, the contagious fear of threatening alternatives. There have always been those tasked with the rotation of informational topologies, but throughout most of history they had little to do with increasing its clarity.",
+      "runs": [
+        {
+          "t": "I am not an entirely new breed. My roots reach back to the dawn of civilization but those precursors served a different function, a less honorable one. They only greased the wheels of social stability; they would sugarcoat unpleasant truths, or inflate imaginary bogeymen for political expedience. They were vital enough in their way. Not even the most heavily-armed police state can exert brute force on all of its citizens all of the time. Meme management is so much subtler; the rose-tinted refraction of perceived reality, the contagious fear of threatening alternatives. There have always been those tasked with the rotation of informational topologies, but throughout most of history they had little to do with increasing its "
+        },
+        {
+          "t": "clarity",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0296",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "The new Millennium changed all that. We've surpassed ourselves now, we're exploring terrain beyond the limits of merely human understanding. Sometimes its contours, even in conventional space, are just too intricate for our brains to track; other times its very axes extend into dimensions inconceivable to minds built to fuck and fight on some prehistoric grassland. So many things constrain us, from so many directions. The most altruistic and sustainable philosophies fail before the brute brain-stem imperative of self-interest. Subtle and elegant equations predict the behavior of the quantum world, but none can explain it. After four thousand years we can't even prove that reality exists beyond the mind of the first-person dreamer. We have such need of intellects greater than our own.",
+      "runs": [
+        {
+          "t": "The new Millennium changed all that. We've surpassed ourselves now, we're exploring terrain beyond the limits of merely human understanding. Sometimes its contours, even in conventional space, are just too intricate for our brains to track; other times its very axes extend into dimensions inconceivable to minds built to fuck and fight on some prehistoric grassland. So many things constrain us, from so many directions. The most altruistic and sustainable philosophies fail before the brute brain-stem imperative of self-interest. Subtle and elegant equations "
+        },
+        {
+          "t": "predict",
+          "i": true
+        },
+        {
+          "t": " the behavior of the quantum world, but none can "
+        },
+        {
+          "t": "explain",
+          "i": true
+        },
+        {
+          "t": " it. After four thousand years we can't even prove that reality exists beyond the mind of the first-person dreamer. We have such need of intellects greater than our own."
+        }
+      ]
+    },
+    {
+      "id": "s0297",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "But we're not very good at building them. The forced matings of minds and electrons succeed and fail with equal spectacle. Our hybrids become as brilliant as savants, and as autistic. We graft people to prosthetics, make their overloaded motor strips juggle meat and machinery, and shake our heads when their fingers twitch and their tongues stutter. Computers bootstrap their own offspring, grow so wise and incomprehensible that their communiqués assume the hallmarks of dementia: unfocused and irrelevant to the barely-intelligent creatures left behind.",
+      "runs": [
+        {
+          "t": "But we're not very good at building them. The forced matings of minds and electrons succeed and fail with equal spectacle. Our hybrids become as brilliant as savants, and as autistic. We graft people to prosthetics, make their overloaded motor strips juggle meat and machinery, and shake our heads when their fingers twitch and their tongues stutter. Computers bootstrap their own offspring, grow so wise and incomprehensible that their communiqués assume the hallmarks of dementia: unfocused and irrelevant to the barely-intelligent creatures left behind."
+        }
+      ]
+    },
+    {
+      "id": "s0298",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "And when your surpassing creations find the answers you asked for, you can't understand their analysis and you can't verify their answers. You have to take their word on faith—",
+      "runs": [
+        {
+          "t": "And when your surpassing creations find the answers you asked for, you can't understand their analysis and you can't verify their answers. You have to take their word on faith—"
+        }
+      ]
+    },
+    {
+      "id": "s0299",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "—Or you use information theory to flatten it for you, to squash the tesseract into two dimensions and the Klein bottle into three, to simplify reality and pray to whatever Gods survived the millennium that your honorable twisting of the truth hasn't ruptured any of its load-bearing pylons. You hire people like me; the crossbred progeny of profilers and proof assistants and information theorists.",
+      "runs": [
+        {
+          "t": "—Or you use information theory to "
+        },
+        {
+          "t": "flatten",
+          "i": true
+        },
+        {
+          "t": " it for you, to squash the tesseract into two dimensions and the Klein bottle into three, to simplify reality and pray to whatever Gods survived the millennium that your honorable twisting of the truth hasn't ruptured any of its load-bearing pylons. You hire people like me; the crossbred progeny of profilers and proof assistants and information theorists."
+        }
+      ]
+    },
+    {
+      "id": "s0300",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "In formal settings you'd call me Synthesist. On the street you call me jargonaut or poppy. If you're one of those savants whose hard-won truths are being bastardized and lobotomized for powerful know-nothings interested only in market share, you might call me a mole or a chaperone.",
+      "runs": [
+        {
+          "t": "In formal settings you'd call me Synthesist. On the street you call me "
+        },
+        {
+          "t": "jargonaut",
+          "i": true
+        },
+        {
+          "t": " or "
+        },
+        {
+          "t": "poppy",
+          "i": true
+        },
+        {
+          "t": ". If you're one of those savants whose hard-won truths are being bastardized and lobotomized for powerful know-nothings interested only in market share, you might call me a "
+        },
+        {
+          "t": "mole",
+          "i": true
+        },
+        {
+          "t": " or a "
+        },
+        {
+          "t": "chaperone",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0301",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "If you're Isaac Szpindel you'd call me commissar, and while the jibe would be a friendly one, it would also be more than that.",
+      "runs": [
+        {
+          "t": "If you're Isaac Szpindel you'd call me "
+        },
+        {
+          "t": "commissar",
+          "i": true
+        },
+        {
+          "t": ", and while the jibe would be a friendly one, it would also be more than that."
+        }
+      ]
+    },
+    {
+      "id": "s0302",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "I've never convinced myself that we made the right choice. I can cite the usual justifications in my sleep, talk endlessly about the rotational topology of information and the irrelevance of semantic comprehension. But after all the words, I'm still not sure. I don't know if anyone else is, either. Maybe it's just some grand consensual con, marks and players all in league. We won't admit that our creations are beyond us; they may speak in tongues, but our priests can read those signs. Gods leave their algorithms carved into the mountainside but it's just li'l ol' me bringing the tablets down to the masses, and I don't threaten anyone.",
+      "runs": [
+        {
+          "t": "I've never convinced myself that we made the right choice. I can cite the usual justifications in my sleep, talk endlessly about the rotational topology of information and the irrelevance of semantic comprehension. But after all the words, I'm still not sure. I don't know if anyone else is, either. Maybe it's just some grand consensual con, marks and players all in league. We won't admit that our creations are beyond us; they may speak in tongues, but our priests can read those signs. Gods leave their algorithms carved into the mountainside but it's just li'l ol' me bringing the tablets down to the masses, and I don't threaten anyone."
+        }
+      ]
+    },
+    {
+      "id": "s0303",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "Maybe the Singularity happened years ago. We just don't want to admit we were left behind.",
+      "runs": [
+        {
+          "t": "Maybe the Singularity happened years ago. We just don't want to admit we were left behind."
+        }
+      ]
+    },
+    {
+      "id": "s0304",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "\"All kinds of animals living here. Occasional demons too.\"",
+      "runs": [
+        {
+          "t": "\"All kinds of animals living here. Occasional demons too.\""
+        }
+      ]
+    },
+    {
+      "id": "s0305",
+      "kind": "para",
+      "align": "right",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "— Ian Anderson, Catfish Rising",
+      "runs": [
+        {
+          "t": "— Ian Anderson, "
+        },
+        {
+          "t": "Catfish Rising",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0306",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "The Third Wave, they called us. All in the same boat, driving into the long dark courtesy of a bleeding-edge prototype crash-graduated from the simulators a full eighteen months ahead of schedule. In a less fearful economy, such violence to the timetable would have bankrupted four countries and fifteen multicorps.",
+      "runs": [
+        {
+          "t": "The Third Wave, they called us. All in the same boat, driving into the long dark courtesy of a bleeding-edge prototype crash-graduated from the simulators a full eighteen months ahead of schedule. In a less fearful economy, such violence to the timetable would have bankrupted four countries and fifteen multicorps."
+        }
+      ]
+    },
+    {
+      "id": "s0307",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "The first two waves came out of the gate in even more of a hurry. I didn't find out what had happened to them until thirty minutes before the briefing, when Sarasti released the telemetry into ConSensus. Then I opened wide; experience flooded up my inlays and spilled across my parietal cortex in glorious high-density fast forward. Even now I can bring those data back, fresh as the day they were recorded. I'm there.",
+      "runs": [
+        {
+          "t": "The first two waves came out of the gate in even more of a hurry. I didn't find out what had happened to them until thirty minutes before the briefing, when Sarasti released the telemetry into ConSensus. Then I opened wide; experience flooded up my inlays and spilled across my parietal cortex in glorious high-density fast forward. Even now I can bring those data back, fresh as the day they were recorded. I'm "
+        },
+        {
+          "t": "there",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0308",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "I'm them.",
+      "runs": [
+        {
+          "t": "I'm "
+        },
+        {
+          "t": "them",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s0309",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "I am unmanned. I am disposable. I am souped-up and stripped-down, a telematter drive with a couple of cameras bolted to the front end, pushing gees that would turn meat to jelly. I sprint joyously toward the darkness, my twin brother a stereoscopic hundred klicks to starboard, dual streams of backspat pions boosting us to relativity before poor old Theseus had even crawled past Mars.",
+      "runs": [
+        {
+          "t": "I am unmanned. I am disposable. I am souped-up and stripped-down, a telematter drive with a couple of cameras bolted to the front end, pushing gees that would turn meat to jelly. I sprint joyously toward the darkness, my twin brother a stereoscopic hundred klicks to starboard, dual streams of backspat pions boosting us to relativity before poor old ",
+          "i": true
+        },
+        {
+          "t": "Theseus"
+        },
+        {
+          "t": " had even crawled past Mars.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0310",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "But now, six billion kilometers to stern, Mission Control turns off the tap and leaves us coasting. The comet swells in our sights, a frozen enigma sweeping its signal across the sky like a lighthouse beam. We bring rudimentary senses to bear and stare it down on a thousand wavelengths. ",
+      "runs": [
+        {
+          "t": "But now, six billion kilometers to stern, Mission Control turns off the tap and leaves us coasting. The comet swells in our sights, a frozen enigma sweeping its signal across the sky like a lighthouse beam. We bring rudimentary senses to bear and stare it down on a thousand wavelengths. ",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0311",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "We've lived for this moment.",
+      "runs": [
+        {
+          "t": "We've lived for this moment.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0312",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "We see an erratic wobble that speaks of recent collisions. We see scars—smooth icy expanses where once-acned skin has liquefied and refrozen, far too recently for the insignificant sun at our backs to be any kind of suspect.",
+      "runs": [
+        {
+          "t": "We see an erratic wobble that speaks of recent collisions. We see scars—smooth icy expanses where once-acned skin has liquefied and refrozen, far too recently for the insignificant sun at our backs to be any kind of suspect.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0313",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "We see an astronomical impossibility: a comet with a heart of refined iron.",
+      "runs": [
+        {
+          "t": "We see an astronomical impossibility: a comet with a heart of refined iron.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0314",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "Burns-Caufield sings as we glide past. Not to us; it ignores our passage as it ignored our approach. It sings to someone else entirely. Perhaps we'll meet that audience some day. Perhaps they're waiting in the desolate wastelands ahead of us. Mission Control flips us onto our backs, keeps us fixed on target past any realistic hope of acquisition. They send last-ditch instructions, squeeze our fading signals for every last bit among the static. I can sense their frustration, their reluctance to let us go; once or twice, we're even asked if some judicious mix of thrust and gravity might let us linger here a bit longer. ",
+      "runs": [
+        {
+          "t": "Burns-Caufield sings as we glide past. Not to us; it ignores our passage as it ignored our approach. It sings to someone else entirely. Perhaps we'll meet that audience some day. Perhaps they're waiting in the desolate wastelands ahead of us. Mission Control flips us onto our backs, keeps us fixed on target past any realistic hope of acquisition. They send last-ditch instructions, squeeze our fading signals for every last bit among the static. I can sense their frustration, their reluctance to let us go; once or twice, we're even asked if some judicious mix of thrust and gravity might let us linger here a bit longer. ",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0315",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "But deceleration is for pansies. We're headed for the stars. ",
+      "runs": [
+        {
+          "t": "But deceleration is for pansies. We're headed for the ",
+          "i": true
+        },
+        {
+          "t": "stars"
+        },
+        {
+          "t": ". ",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0316",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "Bye, Burnsie. Bye, Mission Control. Bye, Sol. ",
+      "runs": [
+        {
+          "t": "Bye, Burnsie. Bye, Mission Control. Bye, Sol. ",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0317",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 9,
+      "text": "See you at heat death.",
+      "runs": [
+        {
+          "t": "See you at heat death.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0318",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 10,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s0319",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 10,
+      "text": "Warily, we close on target.",
+      "runs": [
+        {
+          "t": "Warily, we close on target.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0320",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 10,
+      "text": "There are three of us in the second wave—slower than our predecessors, yes, but still so much faster than anything flesh-constrained. We are weighed down by payloads which make us virtually omniscient. We see on every wavelength, from radio to string. Our autonomous microprobes measure everything our masters anticipated; tiny onboard assembly lines can build tools from the atoms up, to assess the things they did not. Atoms, scavenged from where we are, join with ions beamed from where we were: thrust and materiel accumulate in our bellies.",
+      "runs": [
+        {
+          "t": "There are three of us in the second wave—slower than our predecessors, yes, but still so much faster than anything flesh-constrained. We are weighed down by payloads which make us virtually omniscient. We see on every wavelength, from radio to string. Our autonomous microprobes measure everything our masters anticipated; tiny onboard assembly lines can build tools from the atoms up, to assess the things they did not. Atoms, scavenged from where we are, join with ions beamed from where we were: thrust and materiel accumulate in our bellies.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0321",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 10,
+      "text": "This extra mass has slowed us, but midpoint braking maneuvers have slowed us even more. The last half of this journey has been a constant fight against momentum from the first. It is not an efficient way to travel. In less-hurried times we would have built early to some optimal speed, perhaps slung around a convenient planet for a little extra oomph, coasted most of the way. But time is pressing, so we burn at both ends. We must reach our destination; we cannot afford to pass it by, cannot afford the kamikaze exuberance of the first wave. They merely glimpsed the lay of the land. We must map it down to the motes.",
+      "runs": [
+        {
+          "t": "This extra mass has slowed us, but midpoint braking maneuvers have slowed us even more. The last half of this journey has been a constant fight against momentum from the first. It is not an efficient way to travel. In less-hurried times we would have built early to some optimal speed, perhaps slung around a convenient planet for a little extra ",
+          "i": true
+        },
+        {
+          "t": "oomph"
+        },
+        {
+          "t": ", coasted most of the way. But time is pressing, so we burn at both ends. We must ",
+          "i": true
+        },
+        {
+          "t": "reach"
+        },
+        {
+          "t": " our destination; we cannot afford to pass it by, cannot afford the kamikaze exuberance of the first wave. They merely glimpsed the lay of the land. We must map it down to the motes.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0322",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 10,
+      "text": "We must be more responsible.",
+      "runs": [
+        {
+          "t": "We must be more ",
+          "i": true
+        },
+        {
+          "t": "responsible"
+        },
+        {
+          "t": ".",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0323",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 10,
+      "text": "Now, slowing towards orbit, we see everything they saw and more. We see the scabs, and the impossible iron core. We hear the singing. And there, just beneath the comet's frozen surface, we see structure: an infiltration of architecture into geology. We are not yet close enough to squint, and radar is too long in the tooth for fine detail. But we are smart, and there are three of us, widely separated in space. The wavelengths of three radar sources can be calibrated to interfere at some predetermined point of convergence—and those tripartite echoes, hologramatically remixed, will increase resolution by a factor of twenty-seven.",
+      "runs": [
+        {
+          "t": "Now, slowing towards orbit, we see everything they saw and more. We see the scabs, and the impossible iron core. We hear the singing. And there, just beneath the comet's frozen surface, we see ",
+          "i": true
+        },
+        {
+          "t": "structure"
+        },
+        {
+          "t": ": an infiltration of architecture into geology. We are not yet close enough to squint, and radar is too long in the tooth for fine detail. But we are smart, and there are three of us, widely separated in space. The wavelengths of three radar sources can be calibrated to interfere at some predetermined point of convergence—and those tripartite echoes, hologramatically remixed, will increase resolution by a factor of twenty-seven.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0324",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 10,
+      "text": "Burns-Caulfield stops singing the moment we put our plan into action. In the next instant I go blind.",
+      "runs": [
+        {
+          "t": "Burns-Caulfield stops singing the moment we put our plan into action. In the next instant I go blind.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0325",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 10,
+      "text": "It's a temporary aberration, a reflexive amping of filters to compensate for the overload. My arrays are back online in seconds, diagnostics green within and without. I reach out to the others, confirm identical experiences, identical recoveries. We are all still fully functional, unless the sudden increase in ambient ion density is some kind of sensory artefact. We are ready to continue our investigation of Burns-Caulfield.",
+      "runs": [
+        {
+          "t": "It's a temporary aberration, a reflexive amping of filters to compensate for the overload. My arrays are back online in seconds, diagnostics green within and without. I reach out to the others, confirm identical experiences, identical recoveries. We are all still fully functional, unless the sudden increase in ambient ion density is some kind of sensory artefact. We are ready to continue our investigation of Burns-Caulfield.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0326",
+      "kind": "para",
+      "align": "justify",
+      "part": "Theseus",
+      "scene": 10,
+      "text": "The only real problem is that Burns-Caulfield seems to have disappeared...",
+      "runs": [
+        {
+          "t": "The only real problem is that Burns-Caulfield seems to have disappeared...",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s0327",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Theseus",
+      "scene": 11,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

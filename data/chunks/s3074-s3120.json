@@ -1,0 +1,806 @@
+{
+  "chunk_id": "s3074-s3120",
+  "part": "Rorschach",
+  "first": "s3074",
+  "last": "s3120",
+  "n_segments": 47,
+  "words": 1442,
+  "segments": [
+    {
+      "id": "s3074",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "The universe was closed and concentric.",
+      "runs": [
+        {
+          "t": "The universe was closed and concentric."
+        }
+      ]
+    },
+    {
+      "id": "s3075",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "My tiny refuge lay in its center. Outside that shell was another, ruled by a monster, patrolled by his lackeys. Beyond that was another still, containing something even more monstrous and incomprehensible, something that might soon devour us all.",
+      "runs": [
+        {
+          "t": "My tiny refuge lay in its center. Outside that shell was another, ruled by a monster, patrolled by his lackeys. Beyond that was another still, containing something even more monstrous and incomprehensible, something that might soon devour us all."
+        }
+      ]
+    },
+    {
+      "id": "s3076",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "There was nothing else. Earth was a vague hypothesis, irrelevant to this pocket cosmos. I saw no place into which it might fit.",
+      "runs": [
+        {
+          "t": "There was nothing else. Earth was a vague hypothesis, irrelevant to this pocket cosmos. I saw no place into which it might fit."
+        }
+      ]
+    },
+    {
+      "id": "s3077",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "I stayed in the center of the universe for a long time, hiding. I kept the lights off. I didn't eat. I crept from my tent only to piss or shit in the cramped head down at Fab, and only when the spine was deserted. A field of painful blisters rose across my flash-burned back, as densely packed as kernels on a corncob. The slightest abrasion tore them open.",
+      "runs": [
+        {
+          "t": "I stayed in the center of the universe for a long time, hiding. I kept the lights off. I didn't eat. I crept from my tent only to piss or shit in the cramped head down at Fab, and only when the spine was deserted. A field of painful blisters rose across my flash-burned back, as densely packed as kernels on a corncob. The slightest abrasion tore them open."
+        }
+      ]
+    },
+    {
+      "id": "s3078",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "Nobody tapped at my door, nobody called my name through ConSensus. I wouldn't have answered if they had. Maybe they knew that, somehow. Maybe they kept their distance out of respect for my privacy and my disgrace.",
+      "runs": [
+        {
+          "t": "Nobody tapped at my door, nobody called my name through ConSensus. I wouldn't have answered if they had. Maybe they knew that, somehow. Maybe they kept their distance out of respect for my privacy and my disgrace."
+        }
+      ]
+    },
+    {
+      "id": "s3079",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "Maybe they just didn't give a shit.",
+      "runs": [
+        {
+          "t": "Maybe they just didn't give a shit."
+        }
+      ]
+    },
+    {
+      "id": "s3080",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "I peeked outside now and then, kept an eye on Tactical. I saw Scylla and Charybdis climb into the accretion belt and return towing captured reaction mass in a great distended mesh between them. I watched our ampsat reach its destination in the middle of nowhere, saw antimatter's quantum blueprints stream down into Theseus's buffers. Mass and specs combined in Fab, topped up our reserves, forged the tools that Jukka Sarasti needed for his master plan, whatever that was.",
+      "runs": [
+        {
+          "t": "I peeked outside now and then, kept an eye on Tactical. I saw "
+        },
+        {
+          "t": "Scylla",
+          "i": true
+        },
+        {
+          "t": " and "
+        },
+        {
+          "t": "Charybdis",
+          "i": true
+        },
+        {
+          "t": " climb into the accretion belt and return towing captured reaction mass in a great distended mesh between them. I watched our ampsat reach its destination in the middle of nowhere, saw antimatter's quantum blueprints stream down into "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "'s buffers. Mass and specs combined in Fab, topped up our reserves, forged the tools that Jukka Sarasti needed for his master plan, whatever that was."
+        }
+      ]
+    },
+    {
+      "id": "s3081",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "Maybe he'd lose. Maybe Rorschach would kill us all, but not before it had played with Sarasti the way Sarasti had played with me. That would almost make it worthwhile. Or maybe Bates' mutiny would come first, and succeed. Maybe she would slay the monster, and commandeer the ship, and take us all to safety.",
+      "runs": [
+        {
+          "t": "Maybe he'd lose. Maybe "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " would kill us all, but not before it had played with Sarasti the way Sarasti had played with me. That would almost make it worthwhile. Or maybe Bates' mutiny would come first, and succeed. Maybe she would slay the monster, and commandeer the ship, and take us all to safety."
+        }
+      ]
+    },
+    {
+      "id": "s3082",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "But then I remembered: the universe was closed, and so very small. There was really nowhere else to go.",
+      "runs": [
+        {
+          "t": "But then I remembered: the universe was closed, and so very small. There was really nowhere else to go."
+        }
+      ]
+    },
+    {
+      "id": "s3083",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "I put my ear to feeds throughout the ship. I heard routine instructions from the predator, murmured conversations among the prey. I took in only sound, never sight; a video feed would have spilled light into my tent, left me naked and exposed. So I listened in the darkness as the others spoke among themselves. It didn't happen often any more. Perhaps too much had been said already, perhaps there was nothing left to do but mind the countdown. Sometimes hours would pass with no more than a cough or a grunt.",
+      "runs": [
+        {
+          "t": "I put my ear to feeds throughout the ship. I heard routine instructions from the predator, murmured conversations among the prey. I took in only sound, never sight; a video feed would have spilled light into my tent, left me naked and exposed. So I listened in the darkness as the others spoke among themselves. It didn't happen often any more. Perhaps too much had been said already, perhaps there was nothing left to do but mind the countdown. Sometimes hours would pass with no more than a cough or a grunt."
+        }
+      ]
+    },
+    {
+      "id": "s3084",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "When they did speak, they never mentioned my name. Only once did I hear any of them even hint at my existence.",
+      "runs": [
+        {
+          "t": "When they did speak, they never mentioned my name. Only once did I hear any of them even hint at my existence."
+        }
+      ]
+    },
+    {
+      "id": "s3085",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "That was Cunningham, talking to Sascha about zombies. I heard them in the galley over breakfast, unusually talkative. Sascha hadn't been let out for a while, and was making up for lost time. Cunningham let her, for reasons of his own. Maybe his fears had been soothed somehow, maybe Sarasti had revealed his master plan. Or maybe Cunningham simply craved distraction from the imminence of the enemy.",
+      "runs": [
+        {
+          "t": "That was Cunningham, talking to Sascha about zombies. I heard them in the galley over breakfast, unusually talkative. Sascha hadn't been let out for a while, and was making up for lost time. Cunningham let her, for reasons of his own. Maybe his fears had been soothed somehow, maybe Sarasti had revealed his master plan. Or maybe Cunningham simply craved distraction from the imminence of the enemy."
+        }
+      ]
+    },
+    {
+      "id": "s3086",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"It doesn't bug you?\" Sascha was saying. \"Thinking that your mind, the very thing that makes you you, is nothing but some kind of parasite?\"",
+      "runs": [
+        {
+          "t": "\"It doesn't "
+        },
+        {
+          "t": "bug",
+          "i": true
+        },
+        {
+          "t": " you?\" Sascha was saying. \"Thinking that your mind, the very thing that makes you "
+        },
+        {
+          "t": "you",
+          "i": true
+        },
+        {
+          "t": ", is nothing but some kind of parasite?\""
+        }
+      ]
+    },
+    {
+      "id": "s3087",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Forget about minds,\" he told her. \"Say you've got a device designed to monitor—oh, cosmic rays, say. What happens when you turn its sensor around so it's not pointing at the sky anymore, but at its own guts?\" He answered himself before she could: \"It does what it's built to. It measures cosmic rays, even though it's not looking at them any more. It parses its own circuitry in terms of cosmic-ray metaphors, because those feel right, because they feel natural, because it can't look at things any other way. But it's the wrong metaphor. So the system misunderstands everything about itself. Maybe that's not a grand and glorious evolutionary leap after all. Maybe it's just a design flaw.\"",
+      "runs": [
+        {
+          "t": "\"Forget about "
+        },
+        {
+          "t": "minds",
+          "i": true
+        },
+        {
+          "t": ",\" he told her. \"Say you've got a device designed to monitor—oh, cosmic rays, say. What happens when you turn its sensor around so it's not pointing at the sky anymore, but at its own guts?\" He answered himself before she could: \"It does what it's built to. It measures cosmic rays, even though it's not looking at them any more. It parses its own circuitry in terms of cosmic-ray metaphors, because those "
+        },
+        {
+          "t": "feel",
+          "i": true
+        },
+        {
+          "t": " right, because they feel natural, because it can't look at things any other way. But it's the "
+        },
+        {
+          "t": "wrong metaphor",
+          "i": true
+        },
+        {
+          "t": ". So the system misunderstands everything about itself. Maybe that's not a grand and glorious evolutionary leap after all. Maybe it's just a design flaw.\""
+        }
+      ]
+    },
+    {
+      "id": "s3088",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"But you're the biologist. You know Mom was right better'n anyone. Brain's a big glucose hog. Everything it does costs through the nose.\"",
+      "runs": [
+        {
+          "t": "\"But "
+        },
+        {
+          "t": "you're",
+          "i": true
+        },
+        {
+          "t": " the biologist. You know Mom was right better'n anyone. Brain's a big glucose hog. Everything it does costs through the nose.\""
+        }
+      ]
+    },
+    {
+      "id": "s3089",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"True enough,\" Cunningham admitted.",
+      "runs": [
+        {
+          "t": "\"True enough,\" Cunningham admitted."
+        }
+      ]
+    },
+    {
+      "id": "s3090",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"So sentience has gotta be good for something, then. Because it's expensive, and if it sucks up energy without doing anything useful then evolution's gonna weed it out just like that.\"",
+      "runs": [
+        {
+          "t": "\"So sentience has gotta be "
+        },
+        {
+          "t": "good",
+          "i": true
+        },
+        {
+          "t": " for something, then. Because it's "
+        },
+        {
+          "t": "expensive",
+          "i": true
+        },
+        {
+          "t": ", and if it sucks up energy without doing anything useful then evolution's gonna weed it out just like "
+        },
+        {
+          "t": "that",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s3091",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Maybe it did.\" He paused long enough to chew food or suck smoke. \"Chimpanzees are smarter than Orangutans, did you know that? Higher encephalisation quotient. Yet they can't always recognize themselves in a mirror. Orangs can.\"",
+      "runs": [
+        {
+          "t": "\"Maybe it did.\" He paused long enough to chew food or suck smoke. \"Chimpanzees are smarter than Orangutans, did you know that? Higher encephalisation quotient. Yet they can't always recognize themselves in a mirror. Orangs can.\""
+        }
+      ]
+    },
+    {
+      "id": "s3092",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"So what's your point? Smarter animal, less self-awareness? Chimpanzees are becoming nonsentient?\"",
+      "runs": [
+        {
+          "t": "\"So what's your point? Smarter animal, less self-awareness? Chimpanzees are becoming nonsentient?\""
+        }
+      ]
+    },
+    {
+      "id": "s3093",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Or they were, before we stopped everything in its tracks.\"",
+      "runs": [
+        {
+          "t": "\"Or they were, before we stopped everything in its tracks.\""
+        }
+      ]
+    },
+    {
+      "id": "s3094",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"So why didn't that happen to us?\"",
+      "runs": [
+        {
+          "t": "\"So why didn't that happen to us?\""
+        }
+      ]
+    },
+    {
+      "id": "s3095",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"What makes you think it didn't?\"",
+      "runs": [
+        {
+          "t": "\"What makes you think it didn't?\""
+        }
+      ]
+    },
+    {
+      "id": "s3096",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "It was such an obviously stupid question that Sascha didn't have an answer for it. I could imagine her gaping in the silence.",
+      "runs": [
+        {
+          "t": "It was such an obviously stupid question that Sascha didn't have an answer for it. I could imagine her gaping in the silence."
+        }
+      ]
+    },
+    {
+      "id": "s3097",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"You're not thinking this through,\" Cunningham said. \"We're not talking about some kind of zombie lurching around with its arms stretched out, spouting mathematical theorems. A smart automaton would blend in. It would observe those around it, mimic their behavior, act just like everyone else. All the while completely unaware of what it was doing. Unaware even of its own existence.\"",
+      "runs": [
+        {
+          "t": "\"You're not thinking this through,\" Cunningham said. \"We're not talking about some kind of zombie lurching around with its arms stretched out, spouting mathematical theorems. A smart automaton would "
+        },
+        {
+          "t": "blend in",
+          "i": true
+        },
+        {
+          "t": ". It would observe those around it, mimic their behavior, act just like everyone else. All the while completely unaware of what it was doing. Unaware even of its own existence.\""
+        }
+      ]
+    },
+    {
+      "id": "s3098",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Why would it bother? What would motivate it?\"",
+      "runs": [
+        {
+          "t": "\"Why would it bother? What would motivate it?\""
+        }
+      ]
+    },
+    {
+      "id": "s3099",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"As long as you pull your hand away from an open flame, who cares whether you do it because it hurts or because some feedback algorithm says withdraw if heat flux exceeds critical T? Natural selection doesn't care about motives. If impersonating something increases fitness, then nature will select good impersonators over bad ones. Keep it up long enough and no conscious being would be able to pick your zombie out of a crowd.\" Another silence; I could hear him chewing through it. \"It'll even be able to participate in a conversation like this one. It could write letters home, impersonate real human feelings, without having the slightest awareness of its own existence.\"",
+      "runs": [
+        {
+          "t": "\"As long as you pull your hand away from an open flame, who cares whether you do it because it "
+        },
+        {
+          "t": "hurts",
+          "i": true
+        },
+        {
+          "t": " or because some feedback algorithm says "
+        },
+        {
+          "t": "withdraw if heat flux exceeds critical T",
+          "i": true
+        },
+        {
+          "t": "? Natural selection doesn't care about "
+        },
+        {
+          "t": "motives",
+          "i": true
+        },
+        {
+          "t": ". If impersonating something increases fitness, then nature will select good impersonators over bad ones. Keep it up long enough and no conscious being would be able to pick your zombie out of a crowd.\" Another silence; I could hear him chewing through it. \"It'll even be able to participate in a conversation like this one. It could write letters home, impersonate real human feelings, without having the slightest awareness of its own existence.\""
+        }
+      ]
+    },
+    {
+      "id": "s3100",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"I dunno, Rob. It just seems—\"",
+      "runs": [
+        {
+          "t": "\"I dunno, Rob. It just seems—\""
+        }
+      ]
+    },
+    {
+      "id": "s3101",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Oh, it might not be perfect. It might be a bit redundant, or resort to the occasional expository infodump. But even real people do that, don't they?\"",
+      "runs": [
+        {
+          "t": "\"Oh, it might not be perfect. It might be a bit redundant, or resort to the occasional expository infodump. But even "
+        },
+        {
+          "t": "real",
+          "i": true
+        },
+        {
+          "t": " people do that, don't they?\""
+        }
+      ]
+    },
+    {
+      "id": "s3102",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"And eventually, there aren't any real people left. Just robots pretending to give a shit.\"",
+      "runs": [
+        {
+          "t": "\"And eventually, there aren't any real people left. Just robots pretending to give a shit.\""
+        }
+      ]
+    },
+    {
+      "id": "s3103",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Perhaps. Depends on the population dynamics, among other things. But I'd guess that at least one thing an automaton lacks is empathy; if you can't feel, you can't really relate to something that does, even if you act as though you do. Which makes it interesting to note how many sociopaths show up in the world's upper echelons, hmm? How ruthlessness and bottom-line self-interest are so lauded up in the stratosphere, while anyone showing those traits at ground level gets carted off into detention with the Realists. Almost as if society itself is being reshaped from the inside out.\"",
+      "runs": [
+        {
+          "t": "\"Perhaps. Depends on the population dynamics, among other things. But I'd guess that at least one thing an automaton lacks is empathy; if you can't feel, you can't really relate to something that does, even if you "
+        },
+        {
+          "t": "act",
+          "i": true
+        },
+        {
+          "t": " as though you do. Which makes it interesting to note how many sociopaths show up in the world's upper echelons, hmm? How ruthlessness and bottom-line self-interest are so lauded up in the stratosphere, while anyone showing those traits at ground level gets carted off into detention with the Realists. Almost as if society itself is being reshaped from the inside out.\""
+        }
+      ]
+    },
+    {
+      "id": "s3104",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Oh, come on. Society was always pretty— wait, you're saying the world's corporate elite are nonsentient?\"",
+      "runs": [
+        {
+          "t": "\"Oh, come on. Society was "
+        },
+        {
+          "t": "always",
+          "i": true
+        },
+        {
+          "t": " pretty— wait, you're saying the world's corporate elite are "
+        },
+        {
+          "t": "nonsentient",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s3105",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"God, no. Not nearly. Maybe they're just starting down that road. Like chimpanzees.\"",
+      "runs": [
+        {
+          "t": "\"God, no. Not nearly. Maybe they're just starting down that road. Like chimpanzees.\""
+        }
+      ]
+    },
+    {
+      "id": "s3106",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Yeah, but sociopaths don't blend in well.\"",
+      "runs": [
+        {
+          "t": "\"Yeah, but sociopaths don't blend in well.\""
+        }
+      ]
+    },
+    {
+      "id": "s3107",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Maybe the ones that get diagnosed don't, but by definition they're the bottom of the class. The others are too smart to get caught, and real automatons would do even better. Besides, when you get powerful enough, you don't need to act like other people. Other people start acting like you.\"",
+      "runs": [
+        {
+          "t": "\"Maybe the ones that get diagnosed don't, but by definition they're the bottom of the class. The others are too smart to get caught, and "
+        },
+        {
+          "t": "real",
+          "i": true
+        },
+        {
+          "t": " automatons would do even better. Besides, when you get powerful enough, you don't need to act like other people. Other people start acting like you.\""
+        }
+      ]
+    },
+    {
+      "id": "s3108",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "Sascha whistled. \"Wow. Perfect play-actor.\"",
+      "runs": [
+        {
+          "t": "Sascha whistled. \"Wow. Perfect play-actor.\""
+        }
+      ]
+    },
+    {
+      "id": "s3109",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "\"Or not so perfect. Sound like anyone we know?\"",
+      "runs": [
+        {
+          "t": "\"Or not so perfect. Sound like anyone we know?\""
+        }
+      ]
+    },
+    {
+      "id": "s3110",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "They may have been talking about someone else entirely, I suppose. But that was as close to a direct reference to Siri Keeton that I heard in all my hours on the grapevine. Nobody else mentioned me, even in passing. That was statistically unlikely, given what I'd just endured in front of them all; someone should have said something. Perhaps Sarasti had ordered them not to discuss it. I didn't know why. But it was obvious by now that the vampire had been orchestrating their interactions with me for some time. Now I was in hiding, but he knew I'd listen in at some point. Maybe, for some reason, he didn't want my surveillance—contaminated…",
+      "runs": [
+        {
+          "t": "They may have been talking about someone else entirely, I suppose. But that was as close to a direct reference to Siri Keeton that I heard in all my hours on the grapevine. Nobody else mentioned me, even in passing. That was statistically unlikely, given what I'd just endured in front of them all; someone should have said "
+        },
+        {
+          "t": "something",
+          "i": true
+        },
+        {
+          "t": ". Perhaps Sarasti had ordered them not to discuss it. I didn't know why. But it was obvious by now that the vampire had been orchestrating their interactions with me for some time. Now I was in hiding, but he knew I'd listen in at some point. Maybe, for some reason, he didn't want my surveillance—contaminated…"
+        }
+      ]
+    },
+    {
+      "id": "s3111",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "He could have simply locked me out of ConSensus. He hadn't. Which meant he still wanted me in the loop.",
+      "runs": [
+        {
+          "t": "He could have simply locked me out of ConSensus. He hadn't. Which meant he still wanted me in the loop."
+        }
+      ]
+    },
+    {
+      "id": "s3112",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "Zombies. Automatons. Fucking sentience.",
+      "runs": [
+        {
+          "t": "Zombies. Automatons. Fucking sentience."
+        }
+      ]
+    },
+    {
+      "id": "s3113",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "For once in your goddamned life, understand something.",
+      "runs": [
+        {
+          "t": "For once in your goddamned life, ",
+          "i": true
+        },
+        {
+          "t": "understand"
+        },
+        {
+          "t": " something.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3114",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "He'd said that to me. Or something had. During the assault.",
+      "runs": [
+        {
+          "t": "He'd said that to me. Or something had. During the assault."
+        }
+      ]
+    },
+    {
+      "id": "s3115",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "Understand that your life depends on it.",
+      "runs": [
+        {
+          "t": "Understand that your life depends on it.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3116",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "Almost as if he were doing me a favor.",
+      "runs": [
+        {
+          "t": "Almost as if he were doing me a "
+        },
+        {
+          "t": "favor",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s3117",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "Then he'd left me alone. And had evidently told the others to do the same.",
+      "runs": [
+        {
+          "t": "Then he'd left me alone. And had evidently told the others to do the same."
+        }
+      ]
+    },
+    {
+      "id": "s3118",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "Are you listening, Keeton?",
+      "runs": [
+        {
+          "t": "Are you ",
+          "i": true
+        },
+        {
+          "t": "listening"
+        },
+        {
+          "t": ", Keeton?",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3119",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "And he hadn't locked me out of ConSensus.",
+      "runs": [
+        {
+          "t": "And he hadn't locked me out of ConSensus."
+        }
+      ]
+    },
+    {
+      "id": "s3120",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 38,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

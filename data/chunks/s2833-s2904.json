@@ -1,0 +1,1384 @@
+{
+  "chunk_id": "s2833-s2904",
+  "part": "Rorschach",
+  "first": "s2833",
+  "last": "s2904",
+  "n_segments": 72,
+  "words": 1667,
+  "segments": [
+    {
+      "id": "s2833",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Cunningham sat to my right, his plastic face lit from beneath by the conference table. He stared down into that light, rocking slightly. His lips went through the ongoing motions of some inaudible incantation. The Gang sat across from us. To my left Bates kept one eye on the proceedings and another on intelligence from the front lines.",
+      "runs": [
+        {
+          "t": "Cunningham sat to my right, his plastic face lit from beneath by the conference table. He stared down into that light, rocking slightly. His lips went through the ongoing motions of some inaudible incantation. The Gang sat across from us. To my left Bates kept one eye on the proceedings and another on intelligence from the front lines."
+        }
+      ]
+    },
+    {
+      "id": "s2834",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Sarasti was with us only in spirit. His place at the head of the table remained empty. \"Tell them,\" he said.",
+      "runs": [
+        {
+          "t": "Sarasti was with us only in spirit. His place at the head of the table remained empty. \"Tell them,\" he said."
+        }
+      ]
+    },
+    {
+      "id": "s2835",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"We have to get out of h—\"",
+      "runs": [
+        {
+          "t": "\"We have to get out of h—\""
+        }
+      ]
+    },
+    {
+      "id": "s2836",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"From the beginning.\"",
+      "runs": [
+        {
+          "t": "\"From the "
+        },
+        {
+          "t": "beginning",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2837",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Cunningham swallowed and started again. \"Those frayed motor nerves I couldn't figure out, those pointless cross-connections—they're logic gates. Scramblers time-share. Their sensory and motor plexii double as associative neurons during idle time, so every part of the system can be used for cognition when it isn't otherwise engaged. Nothing like it ever evolved on Earth. It means they can do a great deal of processing without a lot of dedicated associative mass, even for an individual.\"",
+      "runs": [
+        {
+          "t": "Cunningham swallowed and started again. \"Those frayed motor nerves I couldn't figure out, those pointless cross-connections—they're logic gates. Scramblers "
+        },
+        {
+          "t": "time-share",
+          "i": true
+        },
+        {
+          "t": ". Their sensory and motor plexii double as associative neurons during idle time, so every part of the system can be used for cognition when it isn't otherwise engaged. Nothing like it ever evolved on Earth. It means they can do a great deal of processing without a lot of dedicated associative mass, even for an individual.\""
+        }
+      ]
+    },
+    {
+      "id": "s2838",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"So peripheral nerves can think?\" Bates frowned. \"Can they remember?\"",
+      "runs": [
+        {
+          "t": "\"So peripheral nerves can think?\" Bates frowned. \"Can they "
+        },
+        {
+          "t": "remember",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s2839",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Certainly. At least, I don't see why not.\" Cunningham pulled a cigarette from his pocket.",
+      "runs": [
+        {
+          "t": "\"Certainly. At least, I don't see why not.\" Cunningham pulled a cigarette from his pocket."
+        }
+      ]
+    },
+    {
+      "id": "s2840",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"So when they tore that scrambler apart—\"",
+      "runs": [
+        {
+          "t": "\"So when they tore that scrambler apart—\""
+        }
+      ]
+    },
+    {
+      "id": "s2841",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Not civil war. Data dump. Passing information about us, most likely.\"",
+      "runs": [
+        {
+          "t": "\"Not civil war. Data dump. Passing information about "
+        },
+        {
+          "t": "us",
+          "i": true
+        },
+        {
+          "t": ", most likely.\""
+        }
+      ]
+    },
+    {
+      "id": "s2842",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Pretty radical way to carry on a conversation,\" Bates remarked.",
+      "runs": [
+        {
+          "t": "\"Pretty radical way to carry on a conversation,\" Bates remarked."
+        }
+      ]
+    },
+    {
+      "id": "s2843",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"It wouldn't be their first choice. I think each scrambler acts as a node in a distributed network, when they're in Rorschach at least. But those fields would be configured down to the Angstrom, and when we go in with our tech and our shielding and blowing holes in their conductors—we bollocks up the network. Jam the local signal. So they resort to a sneakernet.\"",
+      "runs": [
+        {
+          "t": "\"It wouldn't be their first choice. I think each scrambler acts as a node in a distributed network, when they're in "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " at least. But those fields would be configured down to the Angstrom, and when we go in with our tech and our shielding and blowing "
+        },
+        {
+          "t": "holes",
+          "i": true
+        },
+        {
+          "t": " in their conductors—we bollocks up the network. Jam the local signal. So they resort to a sneakernet.\""
+        }
+      ]
+    },
+    {
+      "id": "s2844",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "He had not lit his cigarette. He rolled the filtered end between thumb and forefinger. His tongue flickered between his lips like a worm behind a mask.",
+      "runs": [
+        {
+          "t": "He had not lit his cigarette. He rolled the filtered end between thumb and forefinger. His tongue flickered between his lips like a worm behind a mask."
+        }
+      ]
+    },
+    {
+      "id": "s2845",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Hidden in his tent, Sarasti took up the slack. \"Scramblers also use Rorschach's EM for metabolic processes. Some pathways achieve proton transfer via heavy-atom tunneling. Perhaps the ambient radiation acts as a catalyst.\"",
+      "runs": [
+        {
+          "t": "Hidden in his tent, Sarasti took up the slack. \"Scramblers also use "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "'s EM for metabolic processes. Some pathways achieve proton transfer via heavy-atom tunneling. Perhaps the ambient radiation acts as a catalyst.\""
+        }
+      ]
+    },
+    {
+      "id": "s2846",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Tunneling?\" Susan said. \"As in quantum?\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Tunneling",
+          "i": true
+        },
+        {
+          "t": "?\" Susan said. \"As in "
+        },
+        {
+          "t": "quantum",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s2847",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Cunningham nodded. \"Which also explains your shielding problems. Partly, at least.\"",
+      "runs": [
+        {
+          "t": "Cunningham nodded. \"Which also explains your shielding problems. Partly, at least.\""
+        }
+      ]
+    },
+    {
+      "id": "s2848",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"But is that even possible? I mean, I thought those kind of effects only showed up under cryonic—\"",
+      "runs": [
+        {
+          "t": "\"But is that even "
+        },
+        {
+          "t": "possible",
+          "i": true
+        },
+        {
+          "t": "? I mean, I thought those kind of effects only showed up under cryonic—\""
+        }
+      ]
+    },
+    {
+      "id": "s2849",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Forget this,\" Cunningham blurted. \"We can debate the biochemistry later, if we're still alive.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Forget",
+          "i": true
+        },
+        {
+          "t": " this,\" Cunningham blurted. \"We can debate the biochemistry later, if we're still alive.\""
+        }
+      ]
+    },
+    {
+      "id": "s2850",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"What do we debate instead, Robert?\" Sarasti said smoothly.",
+      "runs": [
+        {
+          "t": "\"What do we debate instead, Robert?\" Sarasti said smoothly."
+        }
+      ]
+    },
+    {
+      "id": "s2851",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"For starters, the dumbest of these things can look into your head and see what parts of your visual cortex are lighting up. And if there's a difference between that and mind-reading, it's not much of one.\"",
+      "runs": [
+        {
+          "t": "\"For starters, the "
+        },
+        {
+          "t": "dumbest ",
+          "i": true
+        },
+        {
+          "t": "of these things can look into your head and see what parts of your visual cortex are lighting up. And if there's a difference between that and mind-reading, it's not much of one.\""
+        }
+      ]
+    },
+    {
+      "id": "s2852",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"As long as we stay out of Rorschach—\"",
+      "runs": [
+        {
+          "t": "\"As long as we stay out of "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": "—\""
+        }
+      ]
+    },
+    {
+      "id": "s2853",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"That ship has sailed. You people have already been there. Repeatedly. Who knows what you already did down there for no better reason than because Rorschach made you?\"",
+      "runs": [
+        {
+          "t": "\"That ship has "
+        },
+        {
+          "t": "sailed",
+          "i": true
+        },
+        {
+          "t": ". You people have already "
+        },
+        {
+          "t": "been",
+          "i": true
+        },
+        {
+          "t": " there. Repeatedly. Who knows what you already did down there for no better reason than because "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " "
+        },
+        {
+          "t": "made",
+          "i": true
+        },
+        {
+          "t": " you?\""
+        }
+      ]
+    },
+    {
+      "id": "s2854",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Wait a second,\" Bates objected. \"None of us were puppets down there. We hallucinated and we went blind and—and crazy even, but we were never possessed.\"",
+      "runs": [
+        {
+          "t": "\"Wait a second,\" Bates objected. \"None of us were "
+        },
+        {
+          "t": "puppets",
+          "i": true
+        },
+        {
+          "t": " down there. We hallucinated and we went blind and—and crazy even, but we were never "
+        },
+        {
+          "t": "possessed",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2855",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Cunningham looked at her and snorted. \"You think you'd be able to fight the strings? You think you'd even feel them? I could apply a transcranial magnet to your head right now and you'd raise your middle finger or wiggle your toes or kick Siri here in the sack and then swear on your sainted mother's grave that you only did it because you wanted to. You'd dance like a puppet and all the time swear you were doing it of your own free will, and that's just me, that's just some borderline OCD with a couple of magnets and an MRI helmet.\" He waved at the vast unknowable void beyond the bulkhead. Shreds of mangled cigarette floated sideways in front of him. \"Do you want to guess what that can do? For all we know we've already given them Theseus' technical specs, warned them about the Icarus array, and then just decided of our own free will to forget it all.\"",
+      "runs": [
+        {
+          "t": "Cunningham looked at her and snorted. \"You think you'd be able to fight the strings? You think you'd even "
+        },
+        {
+          "t": "feel",
+          "i": true
+        },
+        {
+          "t": " them? I could apply a transcranial magnet to your head right now and you'd raise your middle finger or wiggle your toes or kick Siri here in the sack and then swear on your sainted mother's grave that you only did it because you "
+        },
+        {
+          "t": "wanted",
+          "i": true
+        },
+        {
+          "t": " to. You'd dance like a puppet and all the time swear you were doing it of your own free will, and that's just "
+        },
+        {
+          "t": "me",
+          "i": true
+        },
+        {
+          "t": ", that's just some borderline OCD with a couple of magnets and an MRI helmet.\" He waved at the vast unknowable void beyond the bulkhead. Shreds of mangled cigarette floated sideways in front of him. \"Do you want to guess what "
+        },
+        {
+          "t": "that",
+          "i": true
+        },
+        {
+          "t": " can do? For all we know we've already given them "
+        },
+        {
+          "t": "Theseus",
+          "i": true
+        },
+        {
+          "t": "' technical specs, warned them about the Icarus array, and then just decided "
+        },
+        {
+          "t": "of our own free will",
+          "i": true
+        },
+        {
+          "t": " to forget it all.\""
+        }
+      ]
+    },
+    {
+      "id": "s2856",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"We can cause those effects,\" Sarasti said coolly. \"As you say. Strokes cause them. Tumors. Random accidents.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "We",
+          "i": true
+        },
+        {
+          "t": " can cause those effects,\" Sarasti said coolly. \"As you say. Strokes cause them. Tumors. Random accidents.\""
+        }
+      ]
+    },
+    {
+      "id": "s2857",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Random? Those were experiments, people! That was vivisection! They let you in so they could take you apart and see what made you tick and you never even knew it.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Random?",
+          "i": true
+        },
+        {
+          "t": " Those were "
+        },
+        {
+          "t": "experiments",
+          "i": true
+        },
+        {
+          "t": ", people! That was "
+        },
+        {
+          "t": "vivisection",
+          "i": true
+        },
+        {
+          "t": "! They let you in so they could take you apart and see what made you tick and you never even "
+        },
+        {
+          "t": "knew",
+          "i": true
+        },
+        {
+          "t": " it.\""
+        }
+      ]
+    },
+    {
+      "id": "s2858",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"So what?\" the vampire snapped invisibly. Something cold and hungry had edged into his voice. Human topologies shivered around the table, skittish.",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "So what",
+          "i": true
+        },
+        {
+          "t": "?\" the vampire snapped invisibly. Something cold and hungry had edged into his voice. Human topologies shivered around the table, skittish."
+        }
+      ]
+    },
+    {
+      "id": "s2859",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"There's a blind spot in the center of your visual field,\" Sarasti pointed out. \"You can't see it. You can't see the saccades in your visual timestream. Just two of the tricks you know about. Many others.\"",
+      "runs": [
+        {
+          "t": "\"There's a blind spot in the center of your visual field,\" Sarasti pointed out. \"You can't see it. You can't see the saccades in your visual timestream. Just two of the tricks you "
+        },
+        {
+          "t": "know",
+          "i": true
+        },
+        {
+          "t": " about. Many others.\""
+        }
+      ]
+    },
+    {
+      "id": "s2860",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Cunningham was nodding. \"That's my whole point. Rorschach could be—\"",
+      "runs": [
+        {
+          "t": "Cunningham was nodding. \"That's my whole "
+        },
+        {
+          "t": "point",
+          "i": true
+        },
+        {
+          "t": ". "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " could be—\""
+        }
+      ]
+    },
+    {
+      "id": "s2861",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Not talking about case studies. Brains are survival engines, not truth detectors. If self-deception promotes fitness, the brain lies. Stops noticing— irrelevant things. Truth never matters. Only fitness. By now you don't experience the world as it exists at all. You experience a simulation built from assumptions. Shortcuts. Lies. Whole species is agnosiac by default. Rorschach does nothing to you that you don't already do to yourselves.\"",
+      "runs": [
+        {
+          "t": "\"Not talking about case studies. Brains are survival engines, not truth detectors. If self-deception promotes fitness, the brain lies. Stops noticing— irrelevant things. Truth never matters. Only fitness. By now you don't experience the world as it exists at all. You experience a simulation built from assumptions. Shortcuts. "
+        },
+        {
+          "t": "Lies",
+          "i": true
+        },
+        {
+          "t": ". Whole "
+        },
+        {
+          "t": "species",
+          "i": true
+        },
+        {
+          "t": " is agnosiac by default. "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " does nothing to you that you don't already do to yourselves.\""
+        }
+      ]
+    },
+    {
+      "id": "s2862",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Nobody spoke. It was several silent seconds before I realized what had happened.",
+      "runs": [
+        {
+          "t": "Nobody spoke. It was several silent seconds before I realized what had happened."
+        }
+      ]
+    },
+    {
+      "id": "s2863",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Jukka Sarasti had just given us a pep talk.",
+      "runs": [
+        {
+          "t": "Jukka Sarasti had just given us a pep talk."
+        }
+      ]
+    },
+    {
+      "id": "s2864",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "He could have shut down Cunningham's tirade—could have probably shut down a full-scale mutiny—by just sailing into our midst and baring his teeth. By looking at us. But he wasn't trying to frighten us into submission, we were already nervous enough. And he wasn't trying to educate us either, fight fear with fact; the more facts any sane person gathered about Rorschach, the more fearful they'd become. Sarasti was only trying to keep us functional, lost in space on the edge of our lives, facing down this monstrous enigma that might destroy us at any instant for any reason. Sarasti was trying to calm us down:  good meat, nice meat. He was trying to keep us from falling apart. There there.",
+      "runs": [
+        {
+          "t": "He could have shut down Cunningham's tirade—could have probably shut down a full-scale mutiny—by just sailing into our midst and baring his teeth. By "
+        },
+        {
+          "t": "looking",
+          "i": true
+        },
+        {
+          "t": " at us. But he wasn't trying to frighten us into submission, we were already nervous enough. And he wasn't trying to educate us either, fight fear with fact; the more "
+        },
+        {
+          "t": "facts",
+          "i": true
+        },
+        {
+          "t": " any sane person gathered about "
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": ", the more fearful they'd become. Sarasti was only trying to keep us "
+        },
+        {
+          "t": "functional",
+          "i": true
+        },
+        {
+          "t": ", lost in space on the edge of our lives, facing down this monstrous enigma that might destroy us at any instant for any reason. Sarasti was trying to calm us down: "
+        },
+        {
+          "t": " good meat, nice meat",
+          "i": true
+        },
+        {
+          "t": ". He was trying to keep us from falling apart. "
+        },
+        {
+          "t": "There there.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s2865",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Sarasti was practicing psychology.",
+      "runs": [
+        {
+          "t": "Sarasti was practicing "
+        },
+        {
+          "t": "psychology",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s2866",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "I looked around the table. Bates and Cunningham and the Gang sat still and bloodless.",
+      "runs": [
+        {
+          "t": "I looked around the table. Bates and Cunningham and the Gang sat still and bloodless."
+        }
+      ]
+    },
+    {
+      "id": "s2867",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Sarasti sucked at it.",
+      "runs": [
+        {
+          "t": "Sarasti sucked at it."
+        }
+      ]
+    },
+    {
+      "id": "s2868",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"We have to get out of here,\" Cunningham said. \"These things are way beyond us.\"",
+      "runs": [
+        {
+          "t": "\"We have to get out of here,\" Cunningham said. \"These things are way beyond us.\""
+        }
+      ]
+    },
+    {
+      "id": "s2869",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"We've shown more aggression than they have,\" James said, but there was no confidence in her voice.",
+      "runs": [
+        {
+          "t": "\"We've shown more aggression than they have,\" James said, but there was no confidence in her voice."
+        }
+      ]
+    },
+    {
+      "id": "s2870",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Rorschach plays those rocks like marbles. We're sitting in the middle of a shooting gallery. Any time it feels like—\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "Rorschach",
+          "i": true
+        },
+        {
+          "t": " plays those rocks like marbles. We're sitting in the middle of a shooting gallery. Any time it feels like—\""
+        }
+      ]
+    },
+    {
+      "id": "s2871",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"It's still growing. It's not finished.\"",
+      "runs": [
+        {
+          "t": "\"It's still growing. It's not finished.\""
+        }
+      ]
+    },
+    {
+      "id": "s2872",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"That's supposed to reassure me?\"",
+      "runs": [
+        {
+          "t": "\"That's supposed to "
+        },
+        {
+          "t": "reassure",
+          "i": true
+        },
+        {
+          "t": " me?\""
+        }
+      ]
+    },
+    {
+      "id": "s2873",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"All I'm saying is, we don't know,\" James said. \"We could have years yet. Centuries.\"",
+      "runs": [
+        {
+          "t": "\"All I'm saying is, we don't "
+        },
+        {
+          "t": "know",
+          "i": true
+        },
+        {
+          "t": ",\" James said. \"We could have years yet. Centuries.\""
+        }
+      ]
+    },
+    {
+      "id": "s2874",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"We have fifteen days,\" Sarasti announced.",
+      "runs": [
+        {
+          "t": "\"We have fifteen days,\" Sarasti announced."
+        }
+      ]
+    },
+    {
+      "id": "s2875",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "\"Oh shit,\" someone said. Cunningham, probably. Maybe Sascha.",
+      "runs": [
+        {
+          "t": "\"Oh "
+        },
+        {
+          "t": "shit",
+          "i": true
+        },
+        {
+          "t": ",\" someone said. Cunningham, probably. Maybe Sascha."
+        }
+      ]
+    },
+    {
+      "id": "s2876",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "For some reason everyone was looking at me.",
+      "runs": [
+        {
+          "t": "For some reason everyone was looking at me."
+        }
+      ]
+    },
+    {
+      "id": "s2877",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "Fifteen days. Who knows what had gone into that number? None of us asked aloud. Maybe Sarasti, in another fit of inept psychology, had made it up on the spur of the moment. Or maybe he'd derived it before we'd even reached orbit, held it back against the possibility—only now expired— that he might yet send us back into the labyrinth. I'd been half blind for half the mission; I didn't know.",
+      "runs": [
+        {
+          "t": "Fifteen days. Who knows what had gone into that number? None of us asked aloud. Maybe Sarasti, in another fit of inept psychology, had made it up on the spur of the moment. Or maybe he'd derived it before we'd even reached orbit, held it back against the possibility—only now expired— that he might yet send us back into the labyrinth. I'd been half blind for half the mission; I didn't know."
+        }
+      ]
+    },
+    {
+      "id": "s2878",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 30,
+      "text": "But one way or another, we had our Graduation Day.",
+      "runs": [
+        {
+          "t": "But one way or another, we had our Graduation Day."
+        }
+      ]
+    },
+    {
+      "id": "s2879",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s2880",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "The coffins lay against the rear bulkhead of the crypt—on what would be the floor during those moments when up and down held any meaning. We'd slept for years on the way out. We'd had no awareness of time's passage—undead metabolism is far too sluggish even to support dreams—but somehow the body knew when it needed a change. Not one of us had chosen to sleep in our pods once we'd arrived. The only times we'd done so had been on pain of death.",
+      "runs": [
+        {
+          "t": "The coffins lay against the rear bulkhead of the crypt—on what would be the floor during those moments when "
+        },
+        {
+          "t": "up",
+          "i": true
+        },
+        {
+          "t": " and "
+        },
+        {
+          "t": "down",
+          "i": true
+        },
+        {
+          "t": " held any meaning. We'd slept for years on the way out. We'd had no awareness of time's passage—undead metabolism is far too sluggish even to support dreams—but somehow the body knew when it needed a change. Not one of us had chosen to sleep in our pods once we'd arrived. The only times we'd done so had been on pain of death."
+        }
+      ]
+    },
+    {
+      "id": "s2881",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "But the Gang had taken to coming here ever since Szpindel had died.",
+      "runs": [
+        {
+          "t": "But the Gang had taken to coming here ever since Szpindel had died."
+        }
+      ]
+    },
+    {
+      "id": "s2882",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "His body rested in the pod next to mine. I coasted into the compartment and turned left without thinking. Five coffins: four open and emptied, one sealed. The mirrored bulkhead opposite doubled their number and the depth of the compartment.",
+      "runs": [
+        {
+          "t": "His body rested in the pod next to mine. I coasted into the compartment and turned left without thinking. Five coffins: four open and emptied, one sealed. The mirrored bulkhead opposite doubled their number and the depth of the compartment."
+        }
+      ]
+    },
+    {
+      "id": "s2883",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "But the Gang wasn't there.",
+      "runs": [
+        {
+          "t": "But the Gang wasn't there."
+        }
+      ]
+    },
+    {
+      "id": "s2884",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "I turned right. The body of Susan James floated back-to-back with her own reflection, staring at an inverse tableau: three sealed sarcophagi, one open. The ebony plaque set into the retracted lid was dark; the others shone with identical sparse mosaics of blue and green stars. None of them changed. There were no scrolling ECGs, no luminous peak-and-valley tracings marked cardio or cns. We could wait here for hours, days, and none of those diodes would so much as twinkle. When you're undead, the emphasis is on the second syllable.",
+      "runs": [
+        {
+          "t": "I turned right. The body of Susan James floated back-to-back with her own reflection, staring at an inverse tableau: three sealed sarcophagi, one open. The ebony plaque set into the retracted lid was dark; the others shone with identical sparse mosaics of blue and green stars. None of them changed. There were no scrolling ECGs, no luminous peak-and-valley tracings marked cardio or cns. We could wait here for hours, days, and none of those diodes would so much as twinkle. When you're undead, the emphasis is on the second syllable."
+        }
+      ]
+    },
+    {
+      "id": "s2885",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "The Gang's topology had said Michelle when I'd first arrived, but it was Susan who spoke now, without turning. \"I never met her.\"",
+      "runs": [
+        {
+          "t": "The Gang's topology had said "
+        },
+        {
+          "t": "Michelle",
+          "i": true
+        },
+        {
+          "t": " when I'd first arrived, but it was "
+        },
+        {
+          "t": "Susan",
+          "i": true
+        },
+        {
+          "t": " who spoke now, without turning. \"I never met her.\""
+        }
+      ]
+    },
+    {
+      "id": "s2886",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "I followed her gaze to the name tag one of the sealed pods: Takamatsu. The other linguist, the other multiple.",
+      "runs": [
+        {
+          "t": "I followed her gaze to the name tag one of the sealed pods: "
+        },
+        {
+          "t": "Takamatsu",
+          "i": true
+        },
+        {
+          "t": ". The other linguist, the other multiple."
+        }
+      ]
+    },
+    {
+      "id": "s2887",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"I met everyone else,\" Susan continued. \"Trained with them. But I never met my own replacement.\"",
+      "runs": [
+        {
+          "t": "\"I met everyone else,\" Susan continued. \"Trained with them. But I never met my own replacement.\""
+        }
+      ]
+    },
+    {
+      "id": "s2888",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "They discouraged it. What would have been the point?",
+      "runs": [
+        {
+          "t": "They discouraged it. What would have been the point?"
+        }
+      ]
+    },
+    {
+      "id": "s2889",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"If you want to—\" I began.",
+      "runs": [
+        {
+          "t": "\"If you want to—\" I began."
+        }
+      ]
+    },
+    {
+      "id": "s2890",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "She shook her head. \"Thanks anyway.\"",
+      "runs": [
+        {
+          "t": "She shook her head. \"Thanks anyway.\""
+        }
+      ]
+    },
+    {
+      "id": "s2891",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"Or any of the others—I can only imagine what Michelle—\"",
+      "runs": [
+        {
+          "t": "\"Or any of the others—I can only imagine what Michelle—\""
+        }
+      ]
+    },
+    {
+      "id": "s2892",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "Susan smiled, but there was something cold about it. \"Michelle doesn't really want to talk to you right now, Siri.\"",
+      "runs": [
+        {
+          "t": "Susan smiled, but there was something cold about it. \"Michelle doesn't really want to talk to you right now, Siri.\""
+        }
+      ]
+    },
+    {
+      "id": "s2893",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"Ah.\" I hesitated for a moment, to give anyone else a chance to speak up. When nobody did, I pushed myself back towards the hatch. \"Well, if any of you change—\"",
+      "runs": [
+        {
+          "t": "\"Ah.\" I hesitated for a moment, to give anyone else a chance to speak up. When nobody did, I pushed myself back towards the hatch. \"Well, if any of you change—\""
+        }
+      ]
+    },
+    {
+      "id": "s2894",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"No. None of us. Ever.\"",
+      "runs": [
+        {
+          "t": "\"No. None of us. "
+        },
+        {
+          "t": "Ever",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2895",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "Cruncher.",
+      "runs": [
+        {
+          "t": "Cruncher."
+        }
+      ]
+    },
+    {
+      "id": "s2896",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"You lie,\" he continued. \"I see it. We all do.\"",
+      "runs": [
+        {
+          "t": "\"You "
+        },
+        {
+          "t": "lie",
+          "i": true
+        },
+        {
+          "t": ",\" he continued. \"I see it. We all do.\""
+        }
+      ]
+    },
+    {
+      "id": "s2897",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "I blinked. \"Lie? No, I—\"",
+      "runs": [
+        {
+          "t": "I blinked. \"Lie? No, I—\""
+        }
+      ]
+    },
+    {
+      "id": "s2898",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"You don't talk. You listen. You don't care about Michelle. Don't care about anyone. You just want what we know. For your reports.\"",
+      "runs": [
+        {
+          "t": "\"You don't "
+        },
+        {
+          "t": "talk.",
+          "i": true
+        },
+        {
+          "t": " You "
+        },
+        {
+          "t": "listen",
+          "i": true
+        },
+        {
+          "t": ". You don't care about Michelle. Don't care about anyone. You just want what we "
+        },
+        {
+          "t": "know",
+          "i": true
+        },
+        {
+          "t": ". For your "
+        },
+        {
+          "t": "reports",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2899",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"That's not entirely true, Cruncher. I do care. I know Michelle must—\"",
+      "runs": [
+        {
+          "t": "\"That's not entirely true, Cruncher. I do care. I know Michelle must—\""
+        }
+      ]
+    },
+    {
+      "id": "s2900",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"You don't know shit. Go away.\"",
+      "runs": [
+        {
+          "t": "\"You don't know "
+        },
+        {
+          "t": "shit",
+          "i": true
+        },
+        {
+          "t": ". Go away.\""
+        }
+      ]
+    },
+    {
+      "id": "s2901",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"I'm sorry I upset you.\" I rolled on my axis and braced against the mirror.",
+      "runs": [
+        {
+          "t": "\"I'm sorry I upset you.\" I rolled on my axis and braced against the mirror."
+        }
+      ]
+    },
+    {
+      "id": "s2902",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"You can't know Meesh,\" he growled as I pushed off. \"You never lost anyone. You never had anyone.",
+      "runs": [
+        {
+          "t": "\"You "
+        },
+        {
+          "t": "can't",
+          "i": true
+        },
+        {
+          "t": " know Meesh,\" he growled as I pushed off. \"You never "
+        },
+        {
+          "t": "lost",
+          "i": true
+        },
+        {
+          "t": " anyone. You never "
+        },
+        {
+          "t": "had",
+          "i": true
+        },
+        {
+          "t": " anyone."
+        }
+      ]
+    },
+    {
+      "id": "s2903",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 31,
+      "text": "\"You leave her alone.\"",
+      "runs": [
+        {
+          "t": "\"You leave her alone.\""
+        }
+      ]
+    },
+    {
+      "id": "s2904",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 32,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

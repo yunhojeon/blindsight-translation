@@ -1,0 +1,1228 @@
+{
+  "chunk_id": "s3010-s3073",
+  "part": "Rorschach",
+  "first": "s3010",
+  "last": "s3073",
+  "n_segments": 64,
+  "words": 2003,
+  "segments": [
+    {
+      "id": "s3010",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "You invest so much in it, don't you? It's what elevates you above the beasts of the field, it's what makes you special. Homo sapiens, you call yourself. Wise Man. Do you even know what it is, this consciousness you cite in your own exaltation? Do you even know what it's for?",
+      "runs": [
+        {
+          "t": "You invest so much in it, don't you? It's what elevates you above the beasts of the field, it's what makes you "
+        },
+        {
+          "t": "special",
+          "i": true
+        },
+        {
+          "t": ". Homo "
+        },
+        {
+          "t": "sapiens",
+          "i": true
+        },
+        {
+          "t": ", you call yourself. Wise Man. Do you even know what it "
+        },
+        {
+          "t": "is",
+          "i": true
+        },
+        {
+          "t": ", this "
+        },
+        {
+          "t": "consciousness",
+          "i": true
+        },
+        {
+          "t": " you cite in your own exaltation? Do you even know what it's "
+        },
+        {
+          "t": "for",
+          "i": true
+        },
+        {
+          "t": "?"
+        }
+      ]
+    },
+    {
+      "id": "s3011",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "Maybe you think it gives you free will. Maybe you've forgotten that sleepwalkers converse, drive vehicles, commit crimes and clean up afterwards, unconscious the whole time. Maybe nobody's told you that even waking souls are only slaves in denial.",
+      "runs": [
+        {
+          "t": "Maybe you think it gives you free will. Maybe you've forgotten that sleepwalkers converse, drive vehicles, commit crimes and clean up afterwards, unconscious the whole time. Maybe nobody's told you that even "
+        },
+        {
+          "t": "waking",
+          "i": true
+        },
+        {
+          "t": " souls are only slaves in denial."
+        }
+      ]
+    },
+    {
+      "id": "s3012",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "Make a conscious choice. Decide to move your index finger. Too late! The electricity's already halfway down your arm. Your body began to act a full half-second before your conscious self 'chose' to, for the self chose nothing; something else set your body in motion, sent an executive summary—almost an afterthought— to the homunculus behind your eyes. That little man, that arrogant subroutine that thinks of itself as the person, mistakes correlation for causality: it reads the summary and it sees the hand move, and it thinks that one drove the other.",
+      "runs": [
+        {
+          "t": "Make a conscious choice. "
+        },
+        {
+          "t": "Decide",
+          "i": true
+        },
+        {
+          "t": " to move your index finger. Too late! The electricity's already halfway down your arm. Your body began to act a full half-second before your conscious self 'chose' to, for the self chose nothing; something "
+        },
+        {
+          "t": "else",
+          "i": true
+        },
+        {
+          "t": " set your body in motion, sent an executive summary—almost an afterthought— to the homunculus behind your eyes. That little man, that arrogant subroutine that thinks of itself as "
+        },
+        {
+          "t": "the",
+          "i": true
+        },
+        {
+          "t": " person, mistakes correlation for causality: it reads the summary and it sees the hand move, and it thinks that one drove the other."
+        }
+      ]
+    },
+    {
+      "id": "s3013",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "But it's not in charge. You're not in charge. If free will even exists, it doesn't share living space with the likes of you.",
+      "runs": [
+        {
+          "t": "But it's not in charge. "
+        },
+        {
+          "t": "You're",
+          "i": true
+        },
+        {
+          "t": " not in charge. If free will even exists, it doesn't share living space with the likes of you."
+        }
+      ]
+    },
+    {
+      "id": "s3014",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "Insight, then. Wisdom. The quest for knowledge, the derivation of theorems, science and technology and all those exclusively human pursuits that must surely rest on a conscious foundation. Maybe that's what sentience would be for— if scientific breakthroughs didn't spring fully-formed from the subconscious mind, manifest themselves in dreams, as full-blown insights after a deep night's sleep. It's the most basic rule of the stymied researcher: stop thinking about the problem. Do something else. It will come to you if you just stop being conscious of it.",
+      "runs": [
+        {
+          "t": "Insight, then. Wisdom. The quest for knowledge, the derivation of theorems, science and technology and all those exclusively "
+        },
+        {
+          "t": "human",
+          "i": true
+        },
+        {
+          "t": " pursuits that must surely rest on a conscious foundation. Maybe "
+        },
+        {
+          "t": "that",
+          "i": true
+        },
+        {
+          "t": "'s what sentience would be for— if scientific breakthroughs didn't spring fully-formed from the "
+        },
+        {
+          "t": "sub",
+          "i": true
+        },
+        {
+          "t": "conscious mind, manifest themselves in dreams, as full-blown insights after a deep night's sleep. It's the most basic rule of the stymied researcher: "
+        },
+        {
+          "t": "stop thinking about the problem",
+          "i": true
+        },
+        {
+          "t": ". Do something else. It will come to you if you just stop being "
+        },
+        {
+          "t": "conscious",
+          "i": true
+        },
+        {
+          "t": " of it."
+        }
+      ]
+    },
+    {
+      "id": "s3015",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "Every concert pianist knows that the surest way to ruin a performance is to be aware of what the fingers are doing. Every dancer and acrobat knows enough to let the mind go, let the body run itself. Every driver of any manual vehicle arrives at destinations with no recollection of the stops and turns and roads traveled in getting there. You are all sleepwalkers, whether climbing creative peaks or slogging through some mundane routine for the thousandth time. You are all sleepwalkers.",
+      "runs": [
+        {
+          "t": "Every concert pianist knows that the surest way to ruin a performance is to be aware of what the fingers are doing. Every dancer and acrobat knows enough to let the mind "
+        },
+        {
+          "t": "go",
+          "i": true
+        },
+        {
+          "t": ", let the body run itself. Every driver of any manual vehicle arrives at destinations with no recollection of the stops and turns and roads traveled in getting there. You are all sleepwalkers, whether climbing creative peaks or slogging through some mundane routine for the thousandth time. You are all sleepwalkers."
+        }
+      ]
+    },
+    {
+      "id": "s3016",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "Don't even try to talk about the learning curve. Don't bother citing the months of deliberate practice that precede the unconscious performance, or the years of study and experiment leading up to the gift-wrapped Eureka moment. So what if your lessons are all learned consciously? Do you think that proves there's no other way? Heuristic software's been learning from experience for over a hundred years. Machines master chess, cars learn to drive themselves, statistical programs face problems and design the experiments to solve them and you think that the only path to learning leads through sentience? You're Stone-age nomads, eking out some marginal existence on the veldt—denying even the possibility of agriculture, because hunting and gathering was good enough for your parents.",
+      "runs": [
+        {
+          "t": "Don't even "
+        },
+        {
+          "t": "try",
+          "i": true
+        },
+        {
+          "t": " to talk about the learning curve. Don't bother citing the months of deliberate practice that precede the unconscious performance, or the years of study and experiment leading up to the gift-wrapped Eureka moment. So what if "
+        },
+        {
+          "t": "your",
+          "i": true
+        },
+        {
+          "t": " lessons are all learned consciously? Do you think that proves there's no other way? Heuristic software's been learning from experience for over a hundred years. Machines master chess, cars learn to drive themselves, statistical programs face problems and design the experiments to solve them and you think that the only path to learning leads through "
+        },
+        {
+          "t": "sentience",
+          "i": true
+        },
+        {
+          "t": "? You're Stone-age nomads, eking out some marginal existence on the veldt—denying even the possibility of agriculture, because hunting and gathering was good enough for your parents."
+        }
+      ]
+    },
+    {
+      "id": "s3017",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "Do you want to know what consciousness is for? Do you want to know the only real purpose it serves? Training wheels. You can't see both aspects of the Necker Cube at once, so it lets you focus on one and dismiss the other. That's a pretty half-assed way to parse reality. You're always better off looking at more than one side of anything. Go on, try. Defocus. It's the next logical step.",
+      "runs": [
+        {
+          "t": "Do you want to know what consciousness is for? Do you want to know the only "
+        },
+        {
+          "t": "real",
+          "i": true
+        },
+        {
+          "t": " purpose it serves? Training wheels. You can't see both aspects of the Necker Cube at once, so it lets you focus on one and dismiss the other. That's a pretty half-assed way to parse reality. You're always better off looking at more than one side of "
+        },
+        {
+          "t": "anything",
+          "i": true
+        },
+        {
+          "t": ". Go on, try. Defocus. It's the next logical step."
+        }
+      ]
+    },
+    {
+      "id": "s3018",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "Oh, but you can't. There's something in the way.",
+      "runs": [
+        {
+          "t": "Oh, but you can't. There's something in the way."
+        }
+      ]
+    },
+    {
+      "id": "s3019",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 34,
+      "text": "And it's fighting back.",
+      "runs": [
+        {
+          "t": "And it's fighting back."
+        }
+      ]
+    },
+    {
+      "id": "s3020",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 35,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s3021",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 35,
+      "text": "Evolution has no foresight. Complex machinery develops its own agendas. Brains—cheat. Feedback loops evolve to promote stable heartbeats and then stumble upon the temptation of rhythm and music. The rush evoked by fractal imagery, the algorithms used for habitat selection, metastasize into art. Thrills that once had to be earned in increments of fitness can now be had from pointless introspection. Aesthetics rise unbidden from a trillion dopamine receptors, and the system moves beyond modeling the organism. It begins to model the very process of modeling. It consumes ever-more computational resources, bogs itself down with endless recursion and irrelevant simulations. Like the parasitic DNA that accretes in every natural genome, it persists and proliferates and produces nothing but itself. Metaprocesses bloom like cancer, and awaken, and call themselves I.",
+      "runs": [
+        {
+          "t": "Evolution has no foresight. Complex machinery develops its own agendas. Brains—cheat. Feedback loops evolve to promote stable heartbeats and then stumble upon the temptation of rhythm and music. The rush evoked by fractal imagery, the algorithms used for habitat selection, metastasize into art. Thrills that once had to be "
+        },
+        {
+          "t": "earned",
+          "i": true
+        },
+        {
+          "t": " in increments of fitness can now be had from pointless introspection. Aesthetics rise unbidden from a trillion dopamine receptors, and the system moves beyond modeling the organism. It begins to model the very "
+        },
+        {
+          "t": "process",
+          "i": true
+        },
+        {
+          "t": " of modeling. It consumes ever-more computational resources, bogs itself down with endless recursion and irrelevant simulations. Like the parasitic DNA that accretes in every natural genome, it persists and proliferates and produces nothing but itself. Metaprocesses bloom like cancer, and awaken, and call themselves "
+        },
+        {
+          "t": "I",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s3022",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    },
+    {
+      "id": "s3023",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "The system weakens, slows. It takes so much longer now to perceive—to assess the input, mull it over, decide in the manner of cognitive beings. But when the flash flood crosses your path, when the lion leaps at you from the grasses, advanced self-awareness is an unaffordable indulgence. The brain stem does its best. It sees the danger, hijacks the body, reacts a hundred times faster than that fat old man sitting in the CEO's office upstairs; but every generation it gets harder to work around this— this creaking neurological bureaucracy.",
+      "runs": [
+        {
+          "t": "The system weakens, slows. It takes so much longer now to "
+        },
+        {
+          "t": "perceive",
+          "i": true
+        },
+        {
+          "t": "—to assess the input, mull it over, "
+        },
+        {
+          "t": "decide",
+          "i": true
+        },
+        {
+          "t": " in the manner of cognitive beings. But when the flash flood crosses your path, when the lion leaps at you from the grasses, advanced self-awareness is an unaffordable indulgence. The brain stem does its best. It sees the danger, hijacks the body, reacts a hundred times faster than that fat old man sitting in the CEO's office upstairs; but every generation it gets harder to work around this— this creaking neurological bureaucracy."
+        }
+      ]
+    },
+    {
+      "id": "s3024",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I wastes energy and processing power, self-obsesses to the point of psychosis. Scramblers have no need of it, scramblers are more parsimonious. With simpler biochemistries, with smaller brains—deprived of tools, of their ship, even of parts of their own metabolism—they think rings around you. They hide their language in plain sight, even when you know what they're saying. They turn your own cognition against itself. They travel between the stars. This is what intelligence can do, unhampered by self-awareness.",
+      "runs": [
+        {
+          "t": "I",
+          "i": true
+        },
+        {
+          "t": " wastes energy and processing power, self-obsesses to the point of psychosis. Scramblers have no need of it, scramblers are more parsimonious. With simpler biochemistries, with smaller brains—deprived of tools, of their ship, even of parts of their own metabolism—they think rings around you. They hide their language in plain sight, even when you know what they're saying. They turn your own cognition against itself. "
+        },
+        {
+          "t": "They travel between the stars",
+          "i": true
+        },
+        {
+          "t": ". This is what intelligence can do, unhampered by self-awareness."
+        }
+      ]
+    },
+    {
+      "id": "s3025",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I is not the working mind, you see. For Amanda Bates to say \"I do not exist\" would be nonsense; but when the processes beneath say the same thing, they are merely reporting that the parasites have died. They are only saying that they are free.",
+      "runs": [
+        {
+          "t": "I",
+          "i": true
+        },
+        {
+          "t": " is not the working mind, you see. For Amanda Bates to say \"I do not exist\" would be nonsense; but when the processes beneath say the same thing, they are merely reporting that the parasites have died. They are only saying that they are free."
+        }
+      ]
+    },
+    {
+      "id": "s3026",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "If the human brain were so simple that we could understand it,",
+      "runs": [
+        {
+          "t": "If the human brain were so simple that we could understand it,"
+        }
+      ]
+    },
+    {
+      "id": "s3027",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "we would be so simple that we couldn't.\"",
+      "runs": [
+        {
+          "t": "we would be so simple that we couldn't.\""
+        }
+      ]
+    },
+    {
+      "id": "s3028",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "—Emerson M. Pugh",
+      "runs": [
+        {
+          "t": "—Emerson M. Pugh"
+        }
+      ]
+    },
+    {
+      "id": "s3029",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "Sarasti, you bloodsucker. ",
+      "runs": [
+        {
+          "t": "Sarasti, you bloodsucker. ",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3030",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "My knees pressed against my forehead. I hugged my folded legs as though clinging to a branch over a chasm.",
+      "runs": [
+        {
+          "t": "My knees pressed against my forehead. I hugged my folded legs as though clinging to a branch over a chasm."
+        }
+      ]
+    },
+    {
+      "id": "s3031",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "You vicious asshole. You foul sadistic monster.",
+      "runs": [
+        {
+          "t": "You vicious asshole. You foul sadistic monster.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3032",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "My breath rasped loud and mechanical. It nearly drowned out the blood roaring in my ears.",
+      "runs": [
+        {
+          "t": "My breath rasped loud and mechanical. It nearly drowned out the blood roaring in my ears."
+        }
+      ]
+    },
+    {
+      "id": "s3033",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "You tore me apart, you made me piss and shit myself and I cried like some gutted baby and you stripped me naked, you fucking thing, you night crawler, you broke my tools, you took away anything I ever had that let me touch anyone and you didn't have to you babyfucker, it wasn't necessary but you knew that didn't you? You just wanted to play. I've seen your kind at it before, cats toying with mice, catch and release, a taste of freedom and then pouncing again, biting, not hard enough to kill— not just yet—before you let them loose again and they're hobbling now, maybe a leg snapped or a gash in the belly but they're still trying, still running or crawling or dragging themselves as fast as they can until you're on them again, and again because it's fun, because it gives you pleasure you sadistic piece of shit. You send us into the arms of that hellish thing and it plays with us too, and maybe you're even working together because it let me escape just like you do, it let me run right back into your arms and then you strip me down to some raw half-brained defenseless animal, I can't rotate or transform I can't even talk and you—",
+      "runs": [
+        {
+          "t": "You tore me apart, you made me piss and shit myself and I cried like some gutted baby and you stripped me naked, you fucking",
+          "i": true
+        },
+        {
+          "t": " thing, "
+        },
+        {
+          "t": "you night crawler, you broke my tools, you took away anything I ever had that let me touch",
+          "i": true
+        },
+        {
+          "t": " anyone "
+        },
+        {
+          "t": "and",
+          "i": true
+        },
+        {
+          "t": " you didn't have to"
+        },
+        {
+          "t": " you babyfucker, it wasn't necessary but you knew that didn't you? You just wanted to play. I've seen your kind at it before, cats toying with mice, catch and release, a taste of freedom and then pouncing again, biting, not hard enough to kill— not just yet—before you let them loose again and they're hobbling now, maybe a leg snapped or a gash in the belly but they're still ",
+          "i": true
+        },
+        {
+          "t": "trying"
+        },
+        {
+          "t": ", still running or crawling or dragging themselves as fast as they can until you're on them ",
+          "i": true
+        },
+        {
+          "t": "again"
+        },
+        {
+          "t": ", and",
+          "i": true
+        },
+        {
+          "t": " again "
+        },
+        {
+          "t": "because it's",
+          "i": true
+        },
+        {
+          "t": " fun,"
+        },
+        {
+          "t": " because it gives you",
+          "i": true
+        },
+        {
+          "t": " pleasure "
+        },
+        {
+          "t": "you sadistic piece of shit. You send us into the arms of that hellish thing and it plays with us too, and maybe you're even working together because it let me escape just like you do, it let me run right back into your arms and then you strip me down to some raw half-brained defenseless ",
+          "i": true
+        },
+        {
+          "t": "animal"
+        },
+        {
+          "t": ", I can't rotate or transform I can't even",
+          "i": true
+        },
+        {
+          "t": " talk "
+        },
+        {
+          "t": "and you—",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3034",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "You—",
+      "runs": [
+        {
+          "t": "You—",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3035",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "It wasn't even personal, was it? You don't even hate me. You were just sick of keeping it all in, sick of restraining yourself with all this meat, and nobody else could be spared from their jobs. This was my job, wasn't it? Not synthesist, not conduit. Not even cannon fodder or decoy duty. I'm just something disposable to sharpen your claws on.",
+      "runs": [
+        {
+          "t": "It wasn't even personal, was it? You don't even hate me. You were just sick of keeping it all in, sick of",
+          "i": true
+        },
+        {
+          "t": " restraining"
+        },
+        {
+          "t": " yourself with all this meat, and nobody else could be spared from their jobs. This was ",
+          "i": true
+        },
+        {
+          "t": "my"
+        },
+        {
+          "t": " job, wasn't it? Not synthesist, not conduit. Not even cannon fodder or decoy duty. I'm just something disposable to sharpen your claws on.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3036",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I hurt so much. It hurt just to breathe.",
+      "runs": [
+        {
+          "t": "I hurt so much. It hurt just to breathe."
+        }
+      ]
+    },
+    {
+      "id": "s3037",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I was so alone.",
+      "runs": [
+        {
+          "t": "I was so "
+        },
+        {
+          "t": "alone",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s3038",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "Webbing pressed against the curve of my back, bounced me forward gently as a breeze, caught me again. I was back in my tent. My right hand itched. I tried to flex the fingers, but they were embedded in amber. Left hand reached for right, and found a plastic carapace extending to the elbow.",
+      "runs": [
+        {
+          "t": "Webbing pressed against the curve of my back, bounced me forward gently as a breeze, caught me again. I was back in my tent. My right hand itched. I tried to flex the fingers, but they were embedded in amber. Left hand reached for right, and found a plastic carapace extending to the elbow."
+        }
+      ]
+    },
+    {
+      "id": "s3039",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I opened my eyes. Darkness. Meaningless numbers and a red LED twinkled from somewhere along my forearm.",
+      "runs": [
+        {
+          "t": "I opened my eyes. Darkness. Meaningless numbers and a red LED twinkled from somewhere along my forearm."
+        }
+      ]
+    },
+    {
+      "id": "s3040",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I didn't remember coming here. I didn't remember anyone fixing me.",
+      "runs": [
+        {
+          "t": "I didn't remember coming here. I didn't remember anyone fixing me."
+        }
+      ]
+    },
+    {
+      "id": "s3041",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "Breaking. Being broken. That's what I remembered. I wanted to die. I wanted to just stay curled up until I withered away.",
+      "runs": [
+        {
+          "t": "Breaking. Being broken. That's what I remembered. I wanted to die. I wanted to just stay curled up until I withered away."
+        }
+      ]
+    },
+    {
+      "id": "s3042",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "After an age, I forced myself to uncoil. I steadied myself, let some miniscule inertia bump me against the taut insulated fabric of my tent. I waited for my breathing to steady. It seemed to take hours.",
+      "runs": [
+        {
+          "t": "After an age, I forced myself to uncoil. I steadied myself, let some miniscule inertia bump me against the taut insulated fabric of my tent. I waited for my breathing to steady. It seemed to take hours."
+        }
+      ]
+    },
+    {
+      "id": "s3043",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I called ConSensus to the wall, and a feed from the drum. Soft voices, harsh light flaring against the wall: hurting my eyes, peeling them raw. I killed visual, and listened to words in the darkness.",
+      "runs": [
+        {
+          "t": "I called ConSensus to the wall, and a feed from the drum. Soft voices, harsh light flaring against the wall: hurting my eyes, peeling them raw. I killed visual, and listened to words in the darkness."
+        }
+      ]
+    },
+    {
+      "id": "s3044",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"—a phase?\" someone asked.",
+      "runs": [
+        {
+          "t": "\"—a phase?\" someone asked."
+        }
+      ]
+    },
+    {
+      "id": "s3045",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "Susan James, her personhood restored. I knew her again: not a meat sack, no longer a thing.",
+      "runs": [
+        {
+          "t": "Susan James, her personhood restored. I knew her again: not a meat sack, no longer a "
+        },
+        {
+          "t": "thing",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s3046",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"We have been over this.\" That was Cunningham. I knew him too. I knew them all. Whatever Sarasti had done to me, however far he'd yanked me from my room, I'd somehow fallen back inside.",
+      "runs": [
+        {
+          "t": "\"We "
+        },
+        {
+          "t": "have",
+          "i": true
+        },
+        {
+          "t": " been over this.\" That was Cunningham. I knew him too. I knew them all. Whatever Sarasti had done to me, however far he'd yanked me from my room, I'd somehow fallen back inside."
+        }
+      ]
+    },
+    {
+      "id": "s3047",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "It should have mattered more.",
+      "runs": [
+        {
+          "t": "It should have mattered more."
+        }
+      ]
+    },
+    {
+      "id": "s3048",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"—because for one thing, if it were really so pernicious, natural selection would have weeded it out,\" James was saying.",
+      "runs": [
+        {
+          "t": "\"—because for one thing, if it were really so pernicious, natural selection would have weeded it out,\" James was saying."
+        }
+      ]
+    },
+    {
+      "id": "s3049",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"You have a naïve understanding of evolutionary processes. There's no such thing as survival of the fittest. Survival of the most adequate, maybe. It doesn't matter whether a solution's optimal. All that matters is whether it beats the alternatives.\"",
+      "runs": [
+        {
+          "t": "\"You have a naïve understanding of evolutionary processes. There's no such thing as "
+        },
+        {
+          "t": "survival of the fittest",
+          "i": true
+        },
+        {
+          "t": ". "
+        },
+        {
+          "t": "Survival of the most adequate",
+          "i": true
+        },
+        {
+          "t": ", maybe. It doesn't matter whether a solution's optimal. All that matters is whether it beats the alternatives.\""
+        }
+      ]
+    },
+    {
+      "id": "s3050",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I knew that voice too. It belonged to a demon.",
+      "runs": [
+        {
+          "t": "I knew that voice too. It belonged to a demon."
+        }
+      ]
+    },
+    {
+      "id": "s3051",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"Well, we damn well beat the alternatives.\" Some subtle overdubbed harmonic in James' voice suggested a chorus: the whole Gang, rising as one in opposition.",
+      "runs": [
+        {
+          "t": "\"Well, "
+        },
+        {
+          "t": "we",
+          "i": true
+        },
+        {
+          "t": " damn well "
+        },
+        {
+          "t": "beat the alternatives",
+          "i": true
+        },
+        {
+          "t": ".\" Some subtle overdubbed harmonic in James' voice suggested a chorus: the whole Gang, rising as one in opposition."
+        }
+      ]
+    },
+    {
+      "id": "s3052",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I couldn't believe it. I'd just been mutilated, beaten before their eyes—and they were talking about biology?",
+      "runs": [
+        {
+          "t": "I couldn't believe it. I'd just been mutilated, beaten before their eyes—and they were talking about "
+        },
+        {
+          "t": "biology",
+          "i": true
+        },
+        {
+          "t": "?"
+        }
+      ]
+    },
+    {
+      "id": "s3053",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "Maybe she's afraid to talk about anything else, I thought. Maybe she's afraid she might be next.",
+      "runs": [
+        {
+          "t": "Maybe she's afraid to talk about anything else",
+          "i": true
+        },
+        {
+          "t": ", I thought. "
+        },
+        {
+          "t": "Maybe she's afraid she might be next.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3054",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "Or maybe she just couldn't care less what happens to me.",
+      "runs": [
+        {
+          "t": "Or maybe she just couldn't care less what happens to me.",
+          "i": true
+        }
+      ]
+    },
+    {
+      "id": "s3055",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"It's true,\" Sarasti told her, \"that your intellect makes up for your self-awareness to some extent. But you're flightless birds on a remote island. You're not so much successful as isolated from any real competition.\"",
+      "runs": [
+        {
+          "t": "\"It's true,\" Sarasti told her, \"that your intellect makes up for your self-awareness to some extent. But you're flightless birds on a remote island. You're not so much successful as "
+        },
+        {
+          "t": "isolated",
+          "i": true
+        },
+        {
+          "t": " from any real competition.\""
+        }
+      ]
+    },
+    {
+      "id": "s3056",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "No more clipped speech patterns. No more terse phrasing. The transient had made his kill, found his release. Now he didn't care who knew he was around.",
+      "runs": [
+        {
+          "t": "No more clipped speech patterns. No more terse phrasing. The transient had made his kill, found his release. Now he didn't care "
+        },
+        {
+          "t": "who ",
+          "i": true
+        },
+        {
+          "t": "knew he was around."
+        }
+      ]
+    },
+    {
+      "id": "s3057",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"You?\" Michelle whispered. \"Not we?\"",
+      "runs": [
+        {
+          "t": "\"You?\" Michelle whispered. \"Not "
+        },
+        {
+          "t": "we",
+          "i": true
+        },
+        {
+          "t": "?\""
+        }
+      ]
+    },
+    {
+      "id": "s3058",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"We stop racing long ago,\" the demon said at last. \"It's not our fault you don't leave it at that.\"",
+      "runs": [
+        {
+          "t": "\""
+        },
+        {
+          "t": "We",
+          "i": true
+        },
+        {
+          "t": " stop racing long ago,\" the demon said at last. \"It's not our fault you don't leave it at that.\""
+        }
+      ]
+    },
+    {
+      "id": "s3059",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"Ah.\" Cunningham again. \"Welcome back. Did you look in on Ke—\"",
+      "runs": [
+        {
+          "t": "\"Ah.\" Cunningham again. \"Welcome back. Did you look in on Ke—\""
+        }
+      ]
+    },
+    {
+      "id": "s3060",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"No.\" Bates said.",
+      "runs": [
+        {
+          "t": "\"No.\" Bates said."
+        }
+      ]
+    },
+    {
+      "id": "s3061",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"Satisfied?\" the demon asked.",
+      "runs": [
+        {
+          "t": "\"Satisfied?\" the demon asked."
+        }
+      ]
+    },
+    {
+      "id": "s3062",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"If you mean the grunts, I'm satisfied you're out of them,\" Bates said. \"If you mean— it was completely unwarranted, Jukka.\"",
+      "runs": [
+        {
+          "t": "\"If you mean the grunts, I'm satisfied you're out of them,\" Bates said. \"If you mean— it was completely unwarranted, Jukka.\""
+        }
+      ]
+    },
+    {
+      "id": "s3063",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"It isn't.\"",
+      "runs": [
+        {
+          "t": "\"It isn't.\""
+        }
+      ]
+    },
+    {
+      "id": "s3064",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"You assaulted a crewmember. If we had a brig you'd be in it for the rest of the trip.\"",
+      "runs": [
+        {
+          "t": "\"You assaulted a crewmember. If we had a brig you'd be in it for the rest of the trip.\""
+        }
+      ]
+    },
+    {
+      "id": "s3065",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"This isn't a military vessel, Major. You're not in charge.\"",
+      "runs": [
+        {
+          "t": "\"This isn't a military vessel, Major. You're not in charge.\""
+        }
+      ]
+    },
+    {
+      "id": "s3066",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "I didn't need a visual feed to know what Bates thought of that. But there was something else in her silence, something that made me bring the drum camera back online. I squinted against the corrosive light, brought down the brightness until all that remained was a faint whisper of pastels.",
+      "runs": [
+        {
+          "t": "I didn't need a visual feed to know what Bates thought of that. But there was something else in her silence, something that made me bring the drum camera back online. I squinted against the corrosive light, brought down the brightness until all that remained was a faint whisper of pastels."
+        }
+      ]
+    },
+    {
+      "id": "s3067",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "Yes. Bates. Stepping off the stairway onto the deck",
+      "runs": [
+        {
+          "t": "Yes. Bates. Stepping off the stairway onto the deck"
+        }
+      ]
+    },
+    {
+      "id": "s3068",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"Grab a chair,\" Cunningham said from his seat in the Commons. \"It's golden oldies time.\"",
+      "runs": [
+        {
+          "t": "\"Grab a chair,\" Cunningham said from his seat in the Commons. \"It's golden oldies time.\""
+        }
+      ]
+    },
+    {
+      "id": "s3069",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "There was something about her.",
+      "runs": [
+        {
+          "t": "There was something about her."
+        }
+      ]
+    },
+    {
+      "id": "s3070",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "\"I'm sick of that song,\" Bates said. \"We've played it to death.\"",
+      "runs": [
+        {
+          "t": "\"I'm sick of that song,\" Bates said. \"We've played it to death.\""
+        }
+      ]
+    },
+    {
+      "id": "s3071",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "Even now, my tools chipped and battered, my perceptions barely more than baseline, I could see the change. This torture of prisoners, this assault upon crew, had crossed a line in her head. The others wouldn't see it. The lid on her affect was tight as a boilerplate. But even through the dim shadows of my window the topology glowed around her like neon.",
+      "runs": [
+        {
+          "t": "Even now, my tools chipped and battered, my perceptions barely more than baseline, I could see the change. This torture of prisoners, this assault upon crew, had crossed a line in her head. The others wouldn't see it. The lid on her affect was tight as a boilerplate. But even through the dim shadows of my window the topology glowed around her like neon."
+        }
+      ]
+    },
+    {
+      "id": "s3072",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 36,
+      "text": "Amanda Bates was no longer merely considering a change of command. Now it was only a matter of when.",
+      "runs": [
+        {
+          "t": "Amanda Bates was no longer merely "
+        },
+        {
+          "t": "considering",
+          "i": true
+        },
+        {
+          "t": " a change of command. Now it was only a matter of when."
+        }
+      ]
+    },
+    {
+      "id": "s3073",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 37,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

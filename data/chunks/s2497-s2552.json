@@ -1,0 +1,956 @@
+{
+  "chunk_id": "s2497-s2552",
+  "part": "Rorschach",
+  "first": "s2497",
+  "last": "s2552",
+  "n_segments": 56,
+  "words": 1566,
+  "segments": [
+    {
+      "id": "s2497",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "Even back on Earth, Robert Cunningham had barely disguised his opinion of the ship's commissar. It had been obvious even to the topologically blind.",
+      "runs": [
+        {
+          "t": "Even back on Earth, Robert Cunningham had barely disguised his opinion of the ship's "
+        },
+        {
+          "t": "commissar",
+          "i": true
+        },
+        {
+          "t": ". It had been obvious even to the topologically blind."
+        }
+      ]
+    },
+    {
+      "id": "s2498",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I'd always had a hard time imagining the man. It wasn't just his expressionless face. Sometimes, not even the subtler things behind would show up in his topology. Perhaps he repressed them deliberately, resenting the presence of this mole among the crew.",
+      "runs": [
+        {
+          "t": "I'd always had a hard time imagining the man. It wasn't just his expressionless face. Sometimes, not even the subtler things behind would show up in his topology. Perhaps he repressed them deliberately, resenting the presence of this mole among the crew."
+        }
+      ]
+    },
+    {
+      "id": "s2499",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "It would hardly have been the first time I'd encountered such a reaction. Everyone resented me to some extent. Oh, they liked me well enough, or thought they did. They tolerated my intrusions, and cooperated, and gave away far more than they thought they did.",
+      "runs": [
+        {
+          "t": "It would hardly have been the first time I'd encountered such a reaction. Everyone resented me to some extent. Oh, they liked me well enough, or thought they did. They tolerated my intrusions, and cooperated, and gave away far more than they thought they did."
+        }
+      ]
+    },
+    {
+      "id": "s2500",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "But beneath Szpindel's gruff camaraderie, beneath James's patient explanations—there was no real respect. How could there be? These people were the bleeding edge, the incandescent apex of hominid achievement. They were trusted with the fate of the world. I was just a tattletale for small minds back home. Not even that much, when home receded too deeply into the distance. Superfluous mass. Couldn't be helped. No use getting bothered over it.",
+      "runs": [
+        {
+          "t": "But beneath Szpindel's gruff camaraderie, beneath James's patient explanations—there was no real respect. How could there be? These people were the bleeding edge, the incandescent apex of hominid achievement. They were trusted with the fate of the world. I was just a tattletale for small minds back home. Not even that much, when home receded too deeply into the distance. Superfluous mass. Couldn't be helped. No use getting bothered over it."
+        }
+      ]
+    },
+    {
+      "id": "s2501",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "Still, Szpindel had only coined commissar half-jokingly. Cunningham believed it, and didn't laugh. And while I'd encountered many others like him over the years, those had only tried to hide themselves from sight. Cunningham was the first who seemed to succeed.",
+      "runs": [
+        {
+          "t": "Still, Szpindel had only coined "
+        },
+        {
+          "t": "commissar",
+          "i": true
+        },
+        {
+          "t": " half-jokingly. Cunningham "
+        },
+        {
+          "t": "believed",
+          "i": true
+        },
+        {
+          "t": " it, and didn't laugh. And while I'd encountered many others like him over the years, those had only "
+        },
+        {
+          "t": "tried",
+          "i": true
+        },
+        {
+          "t": " to hide themselves from sight. Cunningham was the first who seemed to succeed."
+        }
+      ]
+    },
+    {
+      "id": "s2502",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I tried to build the relationship all the way through training, tried to find the missing pieces. I watched him working the simulator's teleops one day, exercising the shiny new interfaces that spread him through walls and wires. He was practicing his surgical skills on some hypothetical alien the computer had conjured up to test his technique. Sensors and jointed teleops sprouted like the legs of an enormous spider crab from an overhead mount. Spirit-possessed, they dipped and weaved around some semiplausible holographic creature. Cunningham's own body merely trembled slightly, a cigarette jiggling at the corner of its mouth.",
+      "runs": [
+        {
+          "t": "I tried to build the relationship all the way through training, tried to find the missing pieces. I watched him working the simulator's teleops one day, exercising the shiny new interfaces that spread him through walls and wires. He was practicing his surgical skills on some hypothetical alien the computer had conjured up to test his technique. Sensors and jointed teleops sprouted like the legs of an enormous spider crab from an overhead mount. Spirit-possessed, they dipped and weaved around some semiplausible holographic creature. Cunningham's own body merely trembled slightly, a cigarette jiggling at the corner of its mouth."
+        }
+      ]
+    },
+    {
+      "id": "s2503",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I waited for him to take a break. Eventually the tension ebbed from his shoulders. His vicarious limbs relaxed.",
+      "runs": [
+        {
+          "t": "I waited for him to take a break. Eventually the tension ebbed from his shoulders. His vicarious limbs relaxed."
+        }
+      ]
+    },
+    {
+      "id": "s2504",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"So.\" I tapped my temple. \"Why'd you do it?\"",
+      "runs": [
+        {
+          "t": "\"So.\" I tapped my temple. \"Why'd "
+        },
+        {
+          "t": "you",
+          "i": true
+        },
+        {
+          "t": " do it?\""
+        }
+      ]
+    },
+    {
+      "id": "s2505",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "He didn't turn. Above the dissection, sensors swiveled and stared back like dismembered eyestalks. That was the center of Cunningham's awareness right now, not this nicotine-stained body in front of me. Those were his eyes, or his tongue, or whatever unimaginable bastard-senses he used to parse what the machines sent him. Those clusters aimed back at me, at us—and if Robert Cunningham still possessed anything that might be called vision, he was watching himself from eyes two meters outside his own skull.",
+      "runs": [
+        {
+          "t": "He didn't turn. Above the dissection, sensors swiveled and stared back like dismembered eyestalks. "
+        },
+        {
+          "t": "That",
+          "i": true
+        },
+        {
+          "t": " was the center of Cunningham's awareness right now, not this nicotine-stained body in front of me. "
+        },
+        {
+          "t": "Those ",
+          "i": true
+        },
+        {
+          "t": "were his eyes, or his tongue, or whatever unimaginable bastard-senses he used to parse what the machines sent him. Those clusters aimed back at me, at "
+        },
+        {
+          "t": "us",
+          "i": true
+        },
+        {
+          "t": "—and if Robert Cunningham still possessed anything that might be called vision, he was watching himself from eyes two meters outside his own skull."
+        }
+      ]
+    },
+    {
+      "id": "s2506",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Do what, exactly?\" he said at last. \"The enhancements?\"",
+      "runs": [
+        {
+          "t": "\"Do what, exactly?\" he said at last. \"The enhancements?\""
+        }
+      ]
+    },
+    {
+      "id": "s2507",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "Enhancements. As though he'd upgraded his wardrobe instead of ripping out his senses and grafting new ones into the wounds.",
+      "runs": [
+        {
+          "t": "Enhancements",
+          "i": true
+        },
+        {
+          "t": ". As though he'd upgraded his wardrobe instead of ripping out his senses and grafting new ones into the wounds."
+        }
+      ]
+    },
+    {
+      "id": "s2508",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I nodded.",
+      "runs": [
+        {
+          "t": "I nodded."
+        }
+      ]
+    },
+    {
+      "id": "s2509",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"It's vital to keep current,\" he said. \"If you don't reconfigure you can't retrain. If you don’t retrain you're obsolete inside a month, and then you're not much good for anything except Heaven or dictation.\"",
+      "runs": [
+        {
+          "t": "\"It's vital to keep current,\" he said. \"If you don't reconfigure you can't retrain. If you don’t retrain you're obsolete inside a month, and then you're not much good for anything except Heaven or dictation.\""
+        }
+      ]
+    },
+    {
+      "id": "s2510",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I ignored the jibe. \"Pretty radical transformation, though.\"",
+      "runs": [
+        {
+          "t": "I ignored the jibe. \"Pretty radical transformation, though.\""
+        }
+      ]
+    },
+    {
+      "id": "s2511",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Not these days.\"",
+      "runs": [
+        {
+          "t": "\"Not these days.\""
+        }
+      ]
+    },
+    {
+      "id": "s2512",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Didn't it change you?\"",
+      "runs": [
+        {
+          "t": "\"Didn't it "
+        },
+        {
+          "t": "change",
+          "i": true
+        },
+        {
+          "t": " you?\""
+        }
+      ]
+    },
+    {
+      "id": "s2513",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "His body dragged on the cigarette. Targeted ventilation sucked away the smoke before it reached me. \"That's the whole point.\"",
+      "runs": [
+        {
+          "t": "His body dragged on the cigarette. Targeted ventilation sucked away the smoke before it reached me. \"That's the whole point.\""
+        }
+      ]
+    },
+    {
+      "id": "s2514",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Surely you were affected personally, though. Surely—\"",
+      "runs": [
+        {
+          "t": "\"Surely you were affected personally, though. Surely—\""
+        }
+      ]
+    },
+    {
+      "id": "s2515",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Ah.\" He nodded; at the far end of shared motor nerves, teleops jiggled in sympathy. \"Change the eyes that look at the world, change the me does the looking?\"",
+      "runs": [
+        {
+          "t": "\"Ah.\" He nodded; at the far end of shared motor nerves, teleops jiggled in sympathy. \"Change the eyes that look at the world, change the "
+        },
+        {
+          "t": "me",
+          "i": true
+        },
+        {
+          "t": " does the looking?\""
+        }
+      ]
+    },
+    {
+      "id": "s2516",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Something like that.\"",
+      "runs": [
+        {
+          "t": "\"Something like that.\""
+        }
+      ]
+    },
+    {
+      "id": "s2517",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "Now he was watching me with fleshly eyes. Across the membrane those snakes and eyestalks returned to their work on the virtual carcass, as if deciding they'd wasted enough time on pointless distractions. I wondered which body he was in now.",
+      "runs": [
+        {
+          "t": "Now he was watching me with fleshly eyes. Across the membrane those snakes and eyestalks returned to their work on the virtual carcass, as if deciding they'd wasted enough time on pointless distractions. I wondered which body he was in now."
+        }
+      ]
+    },
+    {
+      "id": "s2518",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"I'm surprised you'd have to ask,\" the meat one said. \"Doesn't my body language tell you everything? Aren't jargonauts supposed to read minds?\"",
+      "runs": [
+        {
+          "t": "\"I'm surprised you'd have to ask,\" the meat one said. \"Doesn't my body language tell you everything? Aren't jargonauts supposed to read minds?\""
+        }
+      ]
+    },
+    {
+      "id": "s2519",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "He was right, of course. I wasn't interested in Cunningham's words; those were just the carrier wave. He couldn't hear the real conversation we were having. All his angles and surfaces spoke volumes, and although their voices were strangely fuzzed with feedback and distortion I knew I'd be able to understand them eventually. I only had to keep him talking.",
+      "runs": [
+        {
+          "t": "He was right, of course. I wasn't interested in Cunningham's "
+        },
+        {
+          "t": "words",
+          "i": true
+        },
+        {
+          "t": "; those were just the carrier wave. He couldn't hear the "
+        },
+        {
+          "t": "real",
+          "i": true
+        },
+        {
+          "t": " conversation we were having. All his angles and surfaces spoke volumes, and although their voices were strangely fuzzed with feedback and distortion I knew I'd be able to understand them eventually. I only had to keep him talking."
+        }
+      ]
+    },
+    {
+      "id": "s2520",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "But Jukka Sarasti chose that moment to wander past and surgically trash my best-laid plans.",
+      "runs": [
+        {
+          "t": "But Jukka Sarasti chose that moment to wander past and surgically trash my best-laid plans."
+        }
+      ]
+    },
+    {
+      "id": "s2521",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Siri's best in his field,\" he remarked. \"But not when it gets too close to home.\"",
+      "runs": [
+        {
+          "t": "\"Siri's best in his field,\" he remarked. \"But not when it gets too close to home.\""
+        }
+      ]
+    },
+    {
+      "id": "s2522",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "Why should man expect his prayer for mercy to be heard by What is above him when he shows no mercy to what is under him?",
+      "runs": [
+        {
+          "t": "Why should man expect his prayer for mercy to be heard by What is above him when he shows no mercy to what is under him?"
+        }
+      ]
+    },
+    {
+      "id": "s2523",
+      "kind": "para",
+      "align": "right",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "—Pierre Troubetzkoy",
+      "runs": [
+        {
+          "t": "—Pierre Troubetzkoy"
+        }
+      ]
+    },
+    {
+      "id": "s2524",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"The thing is,\" Chelsea said, \"this whole first-person thing takes effort. You have to care enough to try, you know? I've been working my ass off on this relationship, I've been working so hard, but you just don't seem to care...\"",
+      "runs": [
+        {
+          "t": "\"The thing is,\" Chelsea said, \"this whole first-person thing takes "
+        },
+        {
+          "t": "effort",
+          "i": true
+        },
+        {
+          "t": ". You have to care enough to "
+        },
+        {
+          "t": "try",
+          "i": true
+        },
+        {
+          "t": ", you know? I've been working my ass off on this relationship, I've been working so hard, but you just don't seem to "
+        },
+        {
+          "t": "care",
+          "i": true
+        },
+        {
+          "t": "...\""
+        }
+      ]
+    },
+    {
+      "id": "s2525",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "She thought she was breaking the news. She thought I hadn't seen it coming, because I hadn't said anything. I'd probably seen it before she had. I hadn't said anything because I'd been scared of giving her an opening.",
+      "runs": [
+        {
+          "t": "She thought she was breaking the news. She thought I hadn't seen it coming, because I hadn't said anything. I'd probably seen it before she had. I hadn't said anything because I'd been scared of giving her an opening."
+        }
+      ]
+    },
+    {
+      "id": "s2526",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I felt sick to my stomach.",
+      "runs": [
+        {
+          "t": "I felt sick to my stomach."
+        }
+      ]
+    },
+    {
+      "id": "s2527",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"I care about you,\" I said.",
+      "runs": [
+        {
+          "t": "\"I care about you,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s2528",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"As much as you could care about anything,\" she admitted. \"But you—I mean, sometimes you're fine, Cygnus, sometimes you're wonderful to be around but whenever anything gets the least bit intense you just go away and leave this, this battle computer running your body and I just can't deal with it any more...\"",
+      "runs": [
+        {
+          "t": "\"As much as you could care about anything,\" she admitted. \"But you—I mean, sometimes you're fine, Cygnus, sometimes you're wonderful to be around but whenever anything gets the least bit intense you just go away and leave this, this "
+        },
+        {
+          "t": "battle computer",
+          "i": true
+        },
+        {
+          "t": " running your body and I just can't "
+        },
+        {
+          "t": "deal",
+          "i": true
+        },
+        {
+          "t": " with it any more...\""
+        }
+      ]
+    },
+    {
+      "id": "s2529",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I stared at the butterfly on the back of her hand. Its wings flexed and folded, lazy and iridescent. I wondered how many of those tattoos she had; I'd seen five of them on different body parts, albeit only one at a time. I thought about asking her, but this didn't seem like the right moment.",
+      "runs": [
+        {
+          "t": "I stared at the butterfly on the back of her hand. Its wings flexed and folded, lazy and iridescent. I wondered how many of those tattoos she had; I'd seen five of them on different body parts, albeit only one at a time. I thought about asking her, but this didn't seem like the right moment."
+        }
+      ]
+    },
+    {
+      "id": "s2530",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"You can be so—so brutal sometimes,\" she was saying. \"I know you don't mean to be, but... I don't know. Maybe I'm your pressure-release valve, or something. Maybe you have to submerge yourself so much on the job that everything just, just builds up and you need some kind of punching bag. Maybe that's why you say the things you do.\"",
+      "runs": [
+        {
+          "t": "\"You can be so—so brutal sometimes,\" she was saying. \"I know you don't mean to be, but... I don't know. Maybe I'm your pressure-release valve, or something. Maybe you have to submerge yourself so much on the job that everything just, just builds up and you need some kind of punching bag. Maybe that's why you say the things you do.\""
+        }
+      ]
+    },
+    {
+      "id": "s2531",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "She was waiting for me to say something now. \"I've been honest,\" I said.",
+      "runs": [
+        {
+          "t": "She was waiting for me to say something now. \"I've been honest,\" I said."
+        }
+      ]
+    },
+    {
+      "id": "s2532",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Yeah. Pathologically. Have you ever had a negative thought that you haven't said out loud?\" Her voice trembled but her eyes—for once— stayed dry. \"I guess it's as much my fault as yours. Maybe more. I could tell you were—disconnected, from the day we met. I guess on some level I always saw it coming.\"",
+      "runs": [
+        {
+          "t": "\"Yeah. Pathologically. Have you ever had a negative thought that you "
+        },
+        {
+          "t": "haven't",
+          "i": true
+        },
+        {
+          "t": " said out loud?\" Her voice trembled but her eyes—for once— stayed dry. \"I guess it's as much my fault as yours. Maybe more. I could tell you were—disconnected, from the day we met. I guess on some level I always saw it coming.\""
+        }
+      ]
+    },
+    {
+      "id": "s2533",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Why even try, then? If you knew we were just going to crash and burn like this?\"",
+      "runs": [
+        {
+          "t": "\"Why even try, then? If you knew we were just going to crash and burn like this?\""
+        }
+      ]
+    },
+    {
+      "id": "s2534",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Oh, Cygnus. Aren't you the one who says that everyone crashes and burns eventually? Aren't you the one who says it never lasts?\"",
+      "runs": [
+        {
+          "t": "\"Oh, Cygnus. Aren't you the one who says that "
+        },
+        {
+          "t": "everyone",
+          "i": true
+        },
+        {
+          "t": " crashes and burns eventually? Aren't you the one who says it "
+        },
+        {
+          "t": "never",
+          "i": true
+        },
+        {
+          "t": " lasts?\""
+        }
+      ]
+    },
+    {
+      "id": "s2535",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "Mom and Dad lasted. Longer than this, anyway.",
+      "runs": [
+        {
+          "t": "Mom and Dad lasted",
+          "i": true
+        },
+        {
+          "t": ". "
+        },
+        {
+          "t": "Longer than this, anyway",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s2536",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I frowned, astonished that I'd even let the thought form in my head. Chelse read the silence as a wounded one. \"I guess—maybe I thought I could help, you know? Help fix whatever made you so—so angry all the time.\"",
+      "runs": [
+        {
+          "t": "I frowned, astonished that I'd even let the thought form in my head. Chelse read the silence as a wounded one. \"I guess—maybe I thought I could help, you know? Help fix whatever made you so—so "
+        },
+        {
+          "t": "angry",
+          "i": true
+        },
+        {
+          "t": " all the time.\""
+        }
+      ]
+    },
+    {
+      "id": "s2537",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "The butterfly was starting to fade. I'd never seen that happen before.",
+      "runs": [
+        {
+          "t": "The butterfly was starting to fade. I'd never seen that happen before."
+        }
+      ]
+    },
+    {
+      "id": "s2538",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Do you understand what I'm saying?\" she asked.",
+      "runs": [
+        {
+          "t": "\"Do you understand what I'm saying?\" she asked."
+        }
+      ]
+    },
+    {
+      "id": "s2539",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Sure. I'm a fixer-upper.\"",
+      "runs": [
+        {
+          "t": "\"Sure. I'm a fixer-upper.\""
+        }
+      ]
+    },
+    {
+      "id": "s2540",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"Siri, you wouldn't even get a tweak when I offered. You were so scared of being manipulated you wouldn't even try a basic cascade. You're the one guy I've met who might be truly, eternally unfixable. I dunno. Maybe that's even something to be proud of.\"",
+      "runs": [
+        {
+          "t": "\"Siri, you wouldn't even get a tweak when I offered. You were so scared of being "
+        },
+        {
+          "t": "manipulated",
+          "i": true
+        },
+        {
+          "t": " you wouldn't even try a basic cascade. You're the one guy I've met who might be truly, eternally unfixable. I dunno. Maybe that's even something to be proud of.\""
+        }
+      ]
+    },
+    {
+      "id": "s2541",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I opened my mouth, and closed it.",
+      "runs": [
+        {
+          "t": "I opened my mouth, and closed it."
+        }
+      ]
+    },
+    {
+      "id": "s2542",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "She gave me a sad smile. \"Nothing, Siri? Nothing at all? There was a time you always knew exactly what to say.\" She looked back at some earlier version of me. \"Now I wonder if you ever actually meant any of it.\"",
+      "runs": [
+        {
+          "t": "She gave me a sad smile. \"Nothing, Siri? Nothing at all? There was a time you always knew exactly what to say.\" She looked back at some earlier version of me. \"Now I wonder if you ever actually meant any of it.\""
+        }
+      ]
+    },
+    {
+      "id": "s2543",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"That's not fair.\"",
+      "runs": [
+        {
+          "t": "\"That's not fair.\""
+        }
+      ]
+    },
+    {
+      "id": "s2544",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"No.\" She pursed her lips. \"No, it isn't. That's not really what I'm trying to say. I guess...it's not so much that you don't mean any of it. It's more like you don't know what any of it means.\"",
+      "runs": [
+        {
+          "t": "\"No.\" She pursed her lips. \"No, it isn't. That's not really what I'm trying to say. I guess...it's not so much that you don't "
+        },
+        {
+          "t": "mean",
+          "i": true
+        },
+        {
+          "t": " any of it. It's more like you don't know what any of it "
+        },
+        {
+          "t": "means",
+          "i": true
+        },
+        {
+          "t": ".\""
+        }
+      ]
+    },
+    {
+      "id": "s2545",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "The color was gone from the wings. The butterfly was a delicate charcoal dusting, almost motionless.",
+      "runs": [
+        {
+          "t": "The color was gone from the wings. The butterfly was a delicate charcoal dusting, almost motionless."
+        }
+      ]
+    },
+    {
+      "id": "s2546",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"I'll do it now,\" I said. \"I'll get the tweaks. If it's that important to you. I'll do it now.\"",
+      "runs": [
+        {
+          "t": "\"I'll do it now,\" I said. \"I'll get the tweaks. If it's that important to you. I'll do it now.\""
+        }
+      ]
+    },
+    {
+      "id": "s2547",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "\"It's too late, Siri. I'm used up.\"",
+      "runs": [
+        {
+          "t": "\"It's too late, Siri. I'm used up.\""
+        }
+      ]
+    },
+    {
+      "id": "s2548",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "Maybe she wanted me to call her back. All these words ending in question marks, all these significant silences. Maybe she was giving me the opportunity to plead my case, to beg for another chance. Maybe she wanted a reason to change her mind.",
+      "runs": [
+        {
+          "t": "Maybe she wanted me to call her back. All these words ending in question marks, all these significant silences. Maybe she was giving me the opportunity to plead my case, to beg for another chance. Maybe she wanted a reason to change her mind."
+        }
+      ]
+    },
+    {
+      "id": "s2549",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I could have tried. Please don't, I could have said. I'm begging you. I never meant to drive you away completely, just a little, just to a safer distance. Please. In thirty long years the only time I haven't felt worthless was when we were together.",
+      "runs": [
+        {
+          "t": "I could have tried. "
+        },
+        {
+          "t": "Please don't",
+          "i": true
+        },
+        {
+          "t": ", I could have said. "
+        },
+        {
+          "t": "I'm begging you",
+          "i": true
+        },
+        {
+          "t": ". "
+        },
+        {
+          "t": "I never meant to drive you away ",
+          "i": true
+        },
+        {
+          "t": "completely"
+        },
+        {
+          "t": ", just a little, just to a safer distance. Please. In thirty long years the only time I haven't felt worthless was when we were together",
+          "i": true
+        },
+        {
+          "t": "."
+        }
+      ]
+    },
+    {
+      "id": "s2550",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "But when I looked up again the butterfly was gone and so was she, taking all baggage with her. She carried doubt, and guilt for having led me on. She left believing that our incompatibility was no one's fault, that she'd tried as hard as she could, even that I had under the tragic weight of all my issues. She left, and maybe she didn't even blame me, and I never even knew who'd made that final decision.",
+      "runs": [
+        {
+          "t": "But when I looked up again the butterfly was gone and so was she, taking all baggage with her. She carried doubt, and guilt for having led me on. She left believing that our incompatibility was no one's fault, that she'd tried as hard as she could, even that "
+        },
+        {
+          "t": "I",
+          "i": true
+        },
+        {
+          "t": " had under the tragic weight of all my issues. She left, and maybe she didn't even blame me, and I never even knew who'd made that final decision."
+        }
+      ]
+    },
+    {
+      "id": "s2551",
+      "kind": "para",
+      "align": "justify",
+      "part": "Rorschach",
+      "scene": 22,
+      "text": "I was good at what I did. I was so damned good, I did it without even meaning to.",
+      "runs": [
+        {
+          "t": "I was good at what I did. I was so damned good, I did it without even meaning to."
+        }
+      ]
+    },
+    {
+      "id": "s2552",
+      "kind": "scene-break",
+      "align": "center",
+      "part": "Rorschach",
+      "scene": 23,
+      "text": "*",
+      "runs": [
+        {
+          "t": "*"
+        }
+      ]
+    }
+  ]
+}

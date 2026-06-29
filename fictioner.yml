@@ -1,0 +1,13 @@
+# Fictioner sample config file
+title: blindsight-translation
+
+# List .md files. Files will be included in the order specified here. 
+# Wildcards can be used and matched files will included in alphabetical order.     
+contents:
+  - contents/*.md
+
+# Change following command line to your taste.
+# Refer to https://pandoc.org/MANUAL.html for pandoc's command line options
+compile: >
+  pandoc -o "blindsight-translation.docx"
+  -N --top-level-division=chapter -V fontsize=11pt -V papersize:"a4paper" -V geometry:margin=1in
