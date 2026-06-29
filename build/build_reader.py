@@ -69,43 +69,71 @@ def render_runs(runs):
     return "".join(out)
 
 
-# first_mark/coinage 적용 대상: ko 가 있고 first_mark 또는 coinage 인 항목
-marks = []
+def _build_anno(en, e):
+    fm = e.get("first_mark")
+    anno = ""
+    if fm:
+        bits = []
+        if fm.get("hanja"):
+            bits.append(fm["hanja"])
+        if fm.get("en"):
+            bits.append(en)
+        if bits:
+            anno = f'<span class="anno" data-anno>({", ".join(html.escape(b) for b in bits)})</span>'
+        if fm.get("title_link"):
+            anno += '<span class="anno" data-anno title="이 작품의 제목 · 국내 통용 \'블라인드사이트\'">ⓘ</span>'
+    return anno
+
+
+# first_mark/coinage 적용 대상: ko 가 있고 first_mark 또는 coinage 인 항목.
+# 같은 ko 가 여러 en 에 걸리면(예: vampire/Vampire, inlays/inlay) 1개만 병기(중복 방지).
+# locked 항목을 우선 채택.
+_by_ko = {}
 for en, e in gl.items():
-    if not e.get("ko"):
+    if not e.get("ko") or not (e.get("first_mark") or e.get("coinage")):
         continue
-    fm, coin = e.get("first_mark"), e.get("coinage")
-    if fm or coin:
-        anno = ""
-        if fm:
-            bits = []
-            if fm.get("hanja"):
-                bits.append(fm["hanja"])
-            if fm.get("en"):
-                bits.append(en)
-            if bits:
-                anno = f'<span class="anno" data-anno>({", ".join(html.escape(b) for b in bits)})</span>'
-            if fm.get("title_link"):
-                anno += '<span class="anno" data-anno title="이 작품의 제목 · 국내 통용 \'블라인드사이트\'">ⓘ</span>'
-        marks.append({"ko": e["ko"], "anno": anno, "coin": bool(coin), "done": False})
-# 긴 ko 부터 처리(부분문자열 충돌 방지)
+    ko = e["ko"]
+    prev = _by_ko.get(ko)
+    if prev is None or (e.get("locked") and not prev[1]):
+        _by_ko[ko] = ({"ko": ko, "anno": _build_anno(en, e),
+                       "coin": bool(e.get("coinage")), "done": False}, bool(e.get("locked")))
+marks = [v[0] for v in _by_ko.values()]
+# 긴 ko 부터(짧은 ko 가 긴 ko 안에 잘못 박히는 것 방지: '벤'⊂'빅 벤' 등)
 marks.sort(key=lambda m: len(m["ko"]), reverse=True)
 
 
+def _in_tag(s, idx):
+    """idx 위치가 HTML 태그(<...>) 내부이면 True(병기 삽입 금지)."""
+    return s.rfind("<", 0, idx) > s.rfind(">", 0, idx)
+
+
 def apply_marks(html_str, ko_text):
-    """이 segment 의 렌더 HTML 에 첫 등장 병기/coinage 를 1회씩 적용."""
+    """이 segment 의 렌더 HTML 에 첫 등장 병기/coinage 를 1회씩 적용.
+    겹침·태그 내부를 피하고, 같은 ko 는 marks 단계에서 이미 1개로 합쳐져 중복되지 않는다."""
+    claimed = []   # 이번 segment 에서 이미 병기한 (start,end) 구간(원본 html_str 좌표)
+    placements = []
     for m in marks:
         if m["done"] or m["ko"] not in ko_text:
             continue
-        # 렌더 HTML 에서 ko 의 첫 등장을 찾아 치환(태그 경계는 단순 가정)
-        idx = html_str.find(m["ko"])
-        if idx == -1:
-            continue
         term = m["ko"]
-        rep = f'<span class="coinage">{term}</span>' if m["coin"] else term
-        rep += m["anno"]
-        html_str = html_str[:idx] + rep + html_str[idx + len(term):]
-        m["done"] = True
+        start = 0
+        while True:
+            idx = html_str.find(term, start)
+            if idx == -1:
+                break
+            end = idx + len(term)
+            overlap = any(not (end <= cs or idx >= ce) for cs, ce in claimed)
+            if overlap or _in_tag(html_str, idx):
+                start = idx + 1
+                continue
+            rep = (f'<span class="coinage">{term}</span>' if m["coin"] else term) + m["anno"]
+            placements.append((idx, end, rep))
+            claimed.append((idx, end))
+            m["done"] = True
+            break
+    # 오른쪽부터 적용(앞쪽 인덱스 보존)
+    for s, e, rep in sorted(placements, reverse=True):
+        html_str = html_str[:s] + rep + html_str[e:]
     return html_str
 
 
@@ -120,14 +148,14 @@ def seg_html(tr):
     orig = esc(src["text"])
     return (
         f'<p class="seg {cls}" id="{tr["id"]}" data-id="{tr["id"]}">'
+        f'<button class="seg-handle" aria-label="문단 도구" tabindex="-1">⋮</button>'
         f'<span class="ko">{body}</span>'
-        f'<button class="orig-toggle" title="원문 보기" aria-label="원문">›</button>'
-        f'<span class="orig" hidden>{orig}</span></p>'
+        f'<span class="orig">{orig}</span></p>'
     )
 
 
 def build_body(cids):
-    parts = []
+    parts, snips = [], {}
     for cid in cids:
         f = TR / f"{cid}.jsonl"
         if not f.exists():
@@ -136,8 +164,31 @@ def build_body(cids):
         parts.append(f'<section data-chunk="{cid}">')
         for tr in trs:
             parts.append(seg_html(tr))
+            if segs[tr["id"]]["kind"] != "scene-break":
+                snips[tr["id"]] = "".join(r["t"] for r in tr.get("runs", [])).strip()
         parts.append('</section>')
-    return "\n".join(parts)
+    return "\n".join(parts), snips
+
+
+def build_toc(snips):
+    """파트(헤더) + 장면(첫 문장 스니펫) 목차. 앵커는 실제 문단 id(scene-break 제외)."""
+    items = []
+    cur_part = cur_scene = None
+    scene_no = 0
+    for sid, s in segs.items():
+        if s["kind"] == "scene-break" or sid not in snips:
+            continue
+        part, scene = s.get("part"), s.get("scene")
+        if part != cur_part:
+            cur_part, cur_scene, scene_no = part, scene, 1
+            items.append(f'<li class="toc-part"><a href="#{sid}">{html.escape(str(part))}</a></li>')
+        elif scene != cur_scene:
+            cur_scene = scene
+            scene_no += 1
+            snip = html.escape(snips.get(sid, "")[:24])
+            items.append(f'<li class="toc-scene"><a href="#{sid}">'
+                         f'<span class="toc-n">{scene_no}</span>{snip}…</a></li>')
+    return "\n".join(items)
 
 
 def main():
@@ -148,12 +199,16 @@ def main():
     styles = (TPL / "reader.css").read_text(encoding="utf-8")
     script = (TPL / "reader.js").read_text(encoding="utf-8")
 
-    body = build_body(cids)
+    body, snips = build_body(cids)
+    toc = build_toc(snips)
     built_info = f"{len(cids)}개 청크"
+    # CSS/JS 는 HTML 주석 마커로 인라인(에디터 포매터가 <style>{{..}}</style> 를 깨뜨리는 것 방지)
     out_html = (template
-                .replace("{{STYLES}}", styles)
-                .replace("{{SCRIPT}}", script)
+                .replace("<!--{{STYLES}}-->", f"<style>\n{styles}\n</style>")
+                .replace("<!--{{SCRIPT}}-->", f"<script>\n{script}\n</script>")
                 .replace("{{BUILT_INFO}}", built_info)
+                .replace("{{TOTAL}}", str(len(segs)))
+                .replace("{{TOC}}", toc)
                 .replace("{{BODY}}", body))  # BODY 마지막: 본문에 {{...}} 가 있어도 안전
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(out_html, encoding="utf-8")

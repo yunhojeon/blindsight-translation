@@ -1,141 +1,496 @@
 /* ============================================================================
    reader.css — 블라인드사이트 한국어 리더 스타일
-   이 파일을 직접 편집한 뒤  `python3 build/build_reader.py`  로 다시 빌드한다.
-   (빌드가 이 CSS 를 dist/preview.html 안에 인라인으로 합쳐 넣는다.)
+   편집 후  `python3 build/build_reader.py`  로 재빌드(이 CSS 가 dist/preview.html 에 인라인됨).
+   폰트: 본문 Noto Serif KR / 보조(신조어·통신) Noto Sans KR — reader.html 의 Google Fonts 링크.
    ============================================================================ */
 
-/* ── 색·치수 변수 (라이트) ────────────────────────────────────────────── */
-:root{
-  --bg:#faf8f4;
-  --ink:#23211d;
-  --muted:#9a9388;
-  --coinage:#2f6f6a;        /* 의역 고유명사(coinage) 첫 등장 색 */
-  --anno:#a99;              /* 원어/한자 병기 색 */
-  --rule:#e6e0d6;
-  --origbg:#f1ece2;         /* 원문 펼침 배경 */
+:root {
+  --bg: #faf8f4;
+  --ink: #23211d;
+  --muted: #9a9388;
+  --coinage: #2f6f6a;
+  --anno: #a99;
+  --rule: #e6e0d6;
+  --origbg: #f1ece2;
+  --serif: "Noto Serif KR", serif;
+  --sans: "Noto Sans KR", -apple-system, system-ui, sans-serif;
 
-  /* 이탤릭 목적별 색 — 아래 '이탤릭 시스템' 참고 */
-  --i-thought:#6a6f86;      /* 내면 독백·생각·회상 (차분한 슬레이트) */
-  --i-emphasis:#b4541a;     /* 강조 (따뜻한 주황) */
-  --i-foreign:#7a4fa0;      /* 외국어·외계어·조어 (보라) */
-  --i-title:#2f6f6a;        /* 함선·책 등 이름 (청록) */
-  --i-comm:#3f74a8;         /* 통신·무전 (파랑) */
+  /* 이탤릭 목적별 */
+  --i-thought: #8c877e;
+  /* 생각: 살짝 흐린 색 */
+  --i-title: #2f6f6a;
+  /* 함선·작품 이름 */
+  --i-comm-ink: #2c4a63;
+  /* 통신 글자 */
+  --i-comm-bg: #e7eef4;
+  /* 통신 바탕 */
+
+  --accent: #b4541a;
+  /* 링크/하이라이트 포인트 */
 }
 
-/* ── 색 변수 (다크) ───────────────────────────────────────────────────── */
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg:#1a1916;
-    --ink:#e8e3d8;
-    --muted:#8a8478;
-    --coinage:#79c2bb;
-    --anno:#7a7066;
-    --rule:#322e28;
-    --origbg:#23211c;
-
-    --i-thought:#9aa0bd;
-    --i-emphasis:#e58a4e;
-    --i-foreign:#b694d6;
-    --i-title:#79c2bb;
-    --i-comm:#7fb0e0;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1916;
+    --ink: #e8e3d8;
+    --muted: #8a8478;
+    --coinage: #79c2bb;
+    --anno: #7a7066;
+    --rule: #322e28;
+    --origbg: #23211c;
+    --i-thought: #8f8a80;
+    --i-title: #79c2bb;
+    --i-comm-ink: #bcd4e6;
+    --i-comm-bg: #22303a;
+    --accent: #e58a4e;
   }
 }
 
-/* ── 기본 레이아웃 ────────────────────────────────────────────────────── */
-*{ box-sizing:border-box; }
-body{
-  background:var(--bg); color:var(--ink); margin:0;
-  font-family:"Apple SD Gothic Neo","Noto Serif KR",-apple-system,system-ui,serif;
-  line-height:1.9; font-size:18px;
-}
-.wrap{ max-width:680px; margin:0 auto; padding:48px 22px 120px; }
-
-header{
-  position:sticky; top:0; z-index:5;
-  background:var(--bg); padding:10px 0; border-bottom:1px solid var(--rule);
-  display:flex; gap:14px; align-items:center;
-  font-size:13px; color:var(--muted);
-}
-header b{ color:var(--ink); font-size:15px; margin-right:auto; }
-
-.toggle{
-  cursor:pointer; user-select:none;
-  border:1px solid var(--rule); border-radius:14px; padding:3px 10px; color:var(--muted);
-}
-.toggle.on{ color:var(--bg); background:var(--ink); border-color:var(--ink); }
-
-/* ── 문단·정렬·장면 구분 ─────────────────────────────────────────────── */
-.seg{ position:relative; margin:0 0 1.05em; text-align:justify; }
-.ta-right{ text-align:right; color:var(--muted); font-style:normal; }
-.ta-center{ text-align:center; }
-
-hr.scene{ border:none; text-align:center; margin:2.1em 0; }
-hr.scene::before{ content:"✶"; color:var(--muted); font-size:.9em; }
-
-/* ── 고유명사(coinage) / 병기(anno) ──────────────────────────────────── */
-.coinage{ color:var(--coinage); border-bottom:1px dotted var(--coinage); }
-.anno{ color:var(--anno); font-size:.72em; margin-left:1px; cursor:help; }
-body.hide-anno .anno{ display:none; }
-
-/* ── 이탤릭 시스템: 원문 기울임의 '목적'별 스타일 ─────────────────────────
-   번역 데이터 run.i 값으로 종류를 지정한다(빌드가 클래스로 변환):
-       i:true         → .ital.i-default   (미분류: 일단 기울임만)
-       i:"thought"    → 내면 독백·생각·회상
-       i:"emphasis"   → 강조
-       i:"foreign"    → 외국어·외계어·조어
-       i:"title"      → 함선·책 등 작품/고유물 이름
-       i:"comm"       → 통신(무전 등)
-       i:"other"      → 기타
-   .ital 은 모든 종류 공통 베이스. 각 .i-* 에서 필요한 속성만 덮어쓴다.
-   (지금 번역 데이터는 전부 i:true → 모두 .i-default 로 보인다. 분류 작업 후 재빌드.)
-   ------------------------------------------------------------------------ */
-.ital{ font-style:italic; }                 /* 공통 베이스: 기울임 */
-
-.i-default{ }                                /* 미분류 — 베이스(기울임)만 */
-
-.i-thought{ color:var(--i-thought); }        /* 생각·독백·회상 */
-
-.i-emphasis{                                 /* 강조 — 기울임 대신 색+굵기 */
-  font-style:normal;
-  color:var(--i-emphasis);
-  font-weight:600;
+* {
+  box-sizing: border-box;
 }
 
-.i-foreign{ color:var(--i-foreign); }        /* 외국어·외계어·조어 */
-
-.i-title{                                    /* 함선·책 등 이름 */
-  color:var(--i-title);
+body {
+  background: var(--bg);
+  color: var(--ink);
+  margin: 0;
+  font-family: var(--serif);
+  line-height: 1.9;
+  font-size: 16px;
 }
 
-.i-comm{                                     /* 통신·무전 */
-  font-style:normal;
-  color:var(--i-comm);
-  font-family:"DejaVu Sans Mono",ui-monospace,monospace;
-  font-size:.94em;
-  letter-spacing:.01em;
+.wrap {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 48px 22px 120px;
 }
 
-.i-other{ }                                  /* 기타 — 베이스(기울임)만 */
-
-/* ── 원문 펼침 ───────────────────────────────────────────────────────── */
-.orig-toggle{
-  border:none; background:none; color:var(--muted); cursor:pointer;
-  font-size:.8em; opacity:0; transition:opacity .15s;
-  margin-left:6px; padding:0 4px; vertical-align:1px;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--bg);
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--muted);
 }
-.seg:hover .orig-toggle{ opacity:.55; }
-.orig-toggle:hover{ opacity:1; }
-.orig{
-  display:block; margin:.5em 0 .2em; padding:.5em .8em;
-  background:var(--origbg); border-left:2px solid var(--rule); border-radius:4px;
-  color:var(--muted); font-size:.86em; line-height:1.6;
-  font-family:Georgia,serif; text-align:left;
-}
-body.show-orig .orig{ display:block!important; }
-body.show-orig .orig[hidden]{ display:block; }
 
-/* ── 푸터 주석 ───────────────────────────────────────────────────────── */
-.note{
-  font-size:12px; color:var(--muted);
-  border-top:1px solid var(--rule); margin-top:40px; padding-top:14px;
+header b {
+  color: var(--ink);
+  font-size: 15px;
+}
+
+.pos {
+  margin-right: auto;
+  padding-left: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.toggle {
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  padding: 3px 10px;
+  color: var(--muted);
+}
+
+.toggle.on {
+  color: var(--bg);
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.toggle.ico {
+  padding: 3px 9px;
+  font-size: 13px;
+}
+
+@media (max-width:520px) {
+  header {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  header b {
+    font-size: 14px;
+  }
+
+  .pos {
+    font-size: 11px;
+  }
+}
+
+/* ── 문단·정렬·장면 ──────────────────────────────────────────────── */
+.seg {
+  position: relative;
+  margin: 0 0 1.05em;
+  text-align: justify;
+  border-radius: 4px;
+  transition: background-color .6s ease;
+}
+
+.ta-right {
+  text-align: right;
+  color: var(--muted);
+  font-style: normal;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+/* 링크/목차/북마크로 이동 시 잠깐 비췄다 사라지는 하이라이트(:target 처럼 남지 않음) */
+.seg.flash {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+hr.scene {
+  border: none;
+  text-align: center;
+  margin: 2.1em 0;
+}
+
+hr.scene::before {
+  content: "✶";
+  color: var(--muted);
+  font-size: .9em;
+}
+
+/* ── 고유명사(coinage) / 병기(anno) ──────────────────────────────── */
+.coinage {
+  color: var(--coinage);
+  border-bottom: 1px dotted var(--coinage);
+}
+
+.anno {
+  color: var(--anno);
+  font-size: .72em;
+  margin-left: 1px;
+  cursor: help;
+}
+
+body.hide-anno .anno {
+  display: none;
+}
+
+/* ── 이탤릭 목적별 스타일 ─────────────────────────────────────────────
+   run.i: true(미분류) | thought | emphasis | foreign | title | comm | other */
+.ital {}
+
+.i-default {}
+
+/* 미분류 — 기울임만 */
+.i-thought {
+  color: var(--i-thought);
+}
+
+/* 생각·독백·회상 — 흐린 색 */
+.i-emphasis {
+  /* 강조 — 방점(emphasis dot) */
+  font-style: normal;
+  -webkit-text-emphasis-style: dot;
+  text-emphasis-style: dot;
+  -webkit-text-emphasis-position: over right;
+  text-emphasis-position: over right;
+}
+
+.i-foreign {
+  font-style: normal;
+  font-family: var(--sans);
+}
+
+/* 외국어·외계어·조어 */
+.i-title {
+  color: var(--i-title);
+}
+
+/* 함선·천체·작품 이름 */
+.i-comm {
+  /* 통신·무전 — 바탕색 + 산세리프 */
+  font-style: normal;
+  font-family: var(--sans);
+  color: var(--i-comm-ink);
+  background: var(--i-comm-bg);
+  border-radius: 3px;
+  padding: .02em .3em;
+}
+
+.i-other {}
+
+/* 기타 — 기울임만 */
+
+/* ── 문단 핸들(⋮) — 평소 흐림, 호버/탭 시 또렷 ─────────────────────── */
+.seg-handle {
+  position: absolute;
+  left: -1.5em;
+  top: .15em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--muted);
+  opacity: .16;
+  transition: opacity .15s;
+  font-size: 1em;
+  line-height: 1.4;
+  padding: 0 .35em;
+  font-family: var(--sans);
+}
+
+.seg:hover>.seg-handle {
+  opacity: .5;
+}
+
+.seg-handle:hover,
+.seg.menu-open>.seg-handle {
+  opacity: 1;
+  color: var(--accent);
+}
+
+@media (hover:none) {
+
+  /* 모바일: 호버 없음 → 옅게 상시 */
+  .seg-handle {
+    opacity: .28;
+    left: -1.1em;
+    padding: .2em .4em;
+  }
+
+  /* 탭 영역 확보 */
+}
+
+@media (max-width:520px) {
+
+  /* 좁은 화면: 여백 부족 → 본문 안쪽 */
+  .wrap {
+    padding-left: 30px;
+  }
+
+  .seg-handle {
+    left: -26px;
+  }
+}
+
+/* ── 문단 액션 메뉴(핸들 클릭 시 문단 아래 인라인) ─────────────────── */
+/* 핸들(⋮) 위치에 떠서 본문 위에 겹치는 팝오버 */
+#pmenu {
+  display: none;
+  position: absolute;
+  z-index: 15;
+  gap: 4px;
+  padding: 4px;
+  font-family: var(--sans);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .16);
+}
+
+#pmenu.show {
+  display: flex;
+}
+
+#pmenu button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background: none;
+  color: var(--ink);
+  padding: 4px 8px;
+  font-size: 16px;
+  line-height: 1;
+}
+
+#pmenu button:hover {
+  border-color: var(--rule);
+}
+
+#pmenu button.on {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ── 원문(영문) — 기본 숨김, 메뉴/전역 토글로만 표시 ───────────────── */
+.orig {
+  display: none;
+  margin: .5em 0 .2em;
+  padding: .5em .8em;
+  background: var(--origbg);
+  border-left: 2px solid var(--rule);
+  border-radius: 4px;
+  color: var(--muted);
+  font-size: .86em;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+  text-align: left;
+}
+
+.orig.open {
+  display: block;
+}
+
+/* 문단별 토글 */
+body.show-orig .orig {
+  display: block;
+}
+
+/* 전역 토글 */
+
+/* ── 사이드 패널(북마크·목차 공용) ────────────────────────────────── */
+.panel {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 30;
+  width: min(360px, 88vw);
+  height: 100%;
+  overflow: auto;
+  background: var(--bg);
+  border-left: 1px solid var(--rule);
+  box-shadow: -8px 0 24px rgba(0, 0, 0, .12);
+  padding: 18px 16px;
+  font-family: var(--sans);
+}
+
+.panel.show {
+  display: block;
+}
+
+.panel h3 {
+  font-size: 14px;
+  margin: 0 0 12px;
+  color: var(--ink);
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+}
+
+.panel h3 .x {
+  margin-left: auto;
+  cursor: pointer;
+  color: var(--muted);
+  padding: 0 4px;
+}
+
+.navlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.navlist li {
+  display: flex;
+  gap: 8px;
+}
+
+.navlist a {
+  color: var(--ink);
+  text-decoration: none;
+  flex: 1;
+  line-height: 1.5;
+}
+
+.navlist a:hover {
+  color: var(--accent);
+}
+
+#bm-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+#bm-list .rm {
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.empty {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* 목차 */
+#toc-list .toc-part {
+  margin-top: 14px;
+}
+
+#toc-list .toc-part a {
+  font-weight: 700;
+  color: var(--ink);
+  font-size: 14px;
+}
+
+#toc-list .toc-scene {
+  padding: 3px 0 3px 12px;
+  color: var(--muted);
+}
+
+#toc-list .toc-scene a {
+  color: var(--muted);
+}
+
+#toc-list .toc-scene a:hover {
+  color: var(--accent);
+}
+
+#toc-list .toc-n {
+  display: inline-block;
+  min-width: 1.6em;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  opacity: .7;
+  margin-right: 4px;
+}
+
+#backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 29;
+  background: rgba(0, 0, 0, .25);
+}
+
+#backdrop.show {
+  display: block;
+}
+
+/* ── 토스트 ─────────────────────────────────────────────────────── */
+#toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--ink);
+  color: var(--bg);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: var(--sans);
+  font-size: 13px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s, transform .2s;
+  z-index: 40;
+}
+
+#toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.note {
+  font-size: 12px;
+  color: var(--muted);
+  border-top: 1px solid var(--rule);
+  margin-top: 40px;
+  padding-top: 14px;
 }

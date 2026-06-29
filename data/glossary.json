@@ -1676,19 +1676,6 @@
     "locked": false,
     "review": true
   },
-  "Robert Paglini": {
-    "ko": "로버트 파글리노",
-    "strategy": "transliterate",
-    "type": "proper",
-    "first_mark": {
-      "en": true
-    },
-    "note": "시리의 어린 시절 친구 팩의 본명. characters.json에는 '팩(로버트 파글리노)'으로 등재되어 있으나 glossary에는 없음. 음차 기준은 characters.json 따름.",
-    "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
   "noose": {
     "ko": "노스",
     "strategy": "transliterate",
@@ -2205,19 +2192,6 @@
     },
     "note": "태양풍 자기장이 태양 자전으로 인해 나선형으로 감기는 구조. 물리학자 유진 파커의 이름에서.",
     "note_level": "science",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
-  "Ben": {
-    "ko": "벤",
-    "strategy": "transliterate",
-    "type": "proper",
-    "first_mark": {
-      "en": true
-    },
-    "note": "Big Ben(빅 벤)의 비공식 축약 호칭. 본문에서 반복 등장하는 약칭으로 glossary의 '빅 벤'과 동일 지시체.",
-    "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
     "review": true

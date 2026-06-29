@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>블라인드사이트 — 한국어 번역(프리뷰)</title>
-  <!-- reader.css 가 빌드 시 여기에 인라인된다 -->
-  <style>{{STYLES}}</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@400;600&display=swap"
+    rel="stylesheet">
+  <!-- 빌드가 reader.css 를 <style> 로 인라인(아래 마커 치환). HTML 주석이라 포매터가 건드리지 않음. -->
+  <!--{{STYLES}}-->
 </head>
-<body class="hide-anno">
+
+<body class="hide-anno" data-total="{{TOTAL}}">
   <div class="wrap">
     <header>
       <b>블라인드사이트</b>
+      <span class="pos" id="pos" title="현재 위치">—</span>
       <span class="toggle" id="t-orig">원문</span>
       <span class="toggle on" id="t-anno">원어 병기</span>
+      <span class="toggle ico" id="t-toc" title="목차" aria-label="목차">☰</span>
+      <span class="toggle ico" id="t-bm" title="북마크" aria-label="북마크">🔖<span id="bm-count">0</span></span>
     </header>
 
     <!-- 번역 본문이 빌드 시 여기에 들어간다 -->
@@ -22,12 +32,36 @@
       피터 와츠 『Blindsight』의 한국어 번역 · {{BUILT_INFO}}.
       원작 © Peter Watts, CC BY-NC-SA. 본 번역도 동일 라이선스로 공유됩니다.
       고유명사 첫 등장은 청록색, ⓘ/괄호는 첫 등장 원어·한자 병기입니다.
-      이탤릭은 목적별로 색을 달리합니다(생각·강조·외국어·이름·통신 등).
-      문단에 마우스를 올리면 나타나는 › 를 누르면 그 부분 원문이 펼쳐집니다.
+      이탤릭은 목적별로 다르게 표시합니다(강조=방점, 생각=흐린 색, 외국어·통신=고딕체).
+      문단 왼쪽 <b>⋮</b> 를 누르면 원문 보기·링크 복사·북마크를 쓸 수 있습니다.
     </p>
   </div>
 
-  <!-- reader.js 가 빌드 시 여기에 인라인된다 -->
-  <script>{{SCRIPT}}</script>
+  <!-- 문단 액션 메뉴(JS 가 클릭된 문단의 핸들 위치로 옮겨 띄움). 아이콘 버튼. -->
+  <div id="pmenu">
+    <button data-act="orig" title="원문 보기" aria-label="원문 보기">🌐</button>
+    <button data-act="link" title="링크 복사" aria-label="링크 복사">🔗</button>
+    <button data-act="bm" title="북마크" aria-label="북마크">🔖</button>
+  </div>
+
+  <!-- 공유 백드롭 + 패널들 -->
+  <div id="backdrop"></div>
+
+  <aside id="bm-panel" class="panel" aria-label="북마크">
+    <h3>북마크 <span class="x" data-close>✕</span></h3>
+    <ul id="bm-list" class="navlist"></ul>
+    <p id="bm-empty" class="empty">아직 북마크가 없습니다. 문단의 ⋮ → 🔖.</p>
+  </aside>
+
+  <aside id="toc-panel" class="panel" aria-label="목차">
+    <h3>목차 <span class="x" data-close>✕</span></h3>
+    <ul id="toc-list" class="navlist">{{TOC}}</ul>
+  </aside>
+
+  <div id="toast"></div>
+
+  <!-- 빌드가 reader.js 를 <script> 로 인라인(아래 마커 치환). -->
+  <!--{{SCRIPT}}-->
 </body>
+
 </html>
