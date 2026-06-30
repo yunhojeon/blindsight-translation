@@ -9,7 +9,8 @@
       "Bash(cd *)",
       "Bash(ps -eo pid,etime,%cpu,rss,stat,args)",
       "Bash(awk '{print $1,$2,$3\"%cpu\",$4\"kb\",$5}')",
-      "Bash(pkill -f \"claude -p\")"
+      "Bash(pkill -f \"claude -p\")",
+      "Bash(python3 build/build_reader.py)"
     ]
   }
 }

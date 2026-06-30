@@ -1,6 +1,6 @@
 // ============================================================================
 // reader.js — 블라인드사이트 리더 동작
-//   · 헤더 현재 위치(첫 완전노출 문단 / 전체) + URL 동기화(replaceState)
+//   · 헤더 현재 위치(첫 완전노출 문단 / 전체) — 표시만, 주소(URL)는 건드리지 않음
 //   · 헤더 ☰ 설정 메뉴: 글자 크기 / 줄 간격 / 밝기(시스템·밝게·어둡게) / 원문 / 원어 병기 / 목차 / 북마크 / About
 //   · 문단 핸들(⋮) 팝오버: 원문 보기 · 링크 복사 · 북마크
 //   · 패널(목차·북마크·About) 공용 백드롭
@@ -31,13 +31,15 @@
   function applyTheme() { root.setAttribute('data-theme', theme); $('theme-val').textContent = THEME_LBL[theme]; }
   applyFs(); applyLh(); applyTheme();
 
-  // ── 원문 / 원어 병기 토글(상태) ──────────────────────────────
+  // ── 원문 / 원어 병기 / 용어 해설 토글(상태) ──────────────────
   var showOrig = localStorage.getItem('bs_orig') === '1';
   var showAnno = localStorage.getItem('bs_anno') !== '0';
+  var showGloss = localStorage.getItem('bs_gloss') !== '0';
   function miEl(act) { return document.querySelector('#menu .mi[data-act="' + act + '"]'); }
   function applyOrig() { b.classList.toggle('show-orig', showOrig); var e = miEl('orig'); if (e) e.classList.toggle('on', showOrig); }
   function applyAnno() { b.classList.toggle('hide-anno', !showAnno); var e = miEl('anno'); if (e) e.classList.toggle('on', showAnno); }
-  applyOrig(); applyAnno();
+  function applyGloss() { b.classList.toggle('gloss-off', !showGloss); var e = miEl('gloss'); if (e) e.classList.toggle('on', showGloss); }
+  applyOrig(); applyAnno(); applyGloss();
 
   // ── 설정 메뉴 열고닫기 ───────────────────────────────────────
   var menu = $('menu');
@@ -57,7 +59,9 @@
     else if (act === 'theme') { theme = THEME_NEXT[theme]; localStorage.setItem('bs_theme', theme); applyTheme(); }
     else if (act === 'orig') { showOrig = !showOrig; localStorage.setItem('bs_orig', showOrig ? '1' : '0'); applyOrig(); }
     else if (act === 'anno') { showAnno = !showAnno; localStorage.setItem('bs_anno', showAnno ? '1' : '0'); applyAnno(); }
+    else if (act === 'gloss') { showGloss = !showGloss; localStorage.setItem('bs_gloss', showGloss ? '1' : '0'); applyGloss(); if (!showGloss) closeGnote(); }
     else if (act === 'toc') { closeMenu(); openPanel('toc-panel'); }
+    else if (act === 'glossary') { closeMenu(); renderGloss(); openPanel('gl-panel'); }
     else if (act === 'bm') { closeMenu(); renderBM(); openPanel('bm-panel'); }
     else if (act === 'about') { closeMenu(); openPanel('about-panel'); }
   });
@@ -65,12 +69,25 @@
   // ── 현재 위치 + URL 동기화 ───────────────────────────────────
   var header = document.querySelector('header'), posEl = $('pos');
   function num(id) { return parseInt((id || '').replace(/\D/g, ''), 10) || 0; }
-  var visible = new Set(), posPending = false, lastPosId = null, urlTimer;
+  var visible = new Set(), posPending = false, lastPosId = null;
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) visible.add(e.target); else visible.delete(e.target); });
     schedulePos();
   }, { threshold: 0 });
   document.querySelectorAll('.seg').forEach(function (s) { io.observe(s); });
+
+  // ── 용어 해설 밑줄: 스크롤하는 동안 노출 → 멈추면 fade out ────
+  var REVEAL_IDLE_MS = 2200;   // 스크롤이 멈춘 뒤 밑줄 유지 시간
+  var reduceMo = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var revealTimer;
+  function pokeReveal() {
+    if (reduceMo || b.classList.contains('gloss-off')) return;   // 모션최소화는 CSS 상시 옅은 밑줄로 대체
+    b.classList.add('gl-reveal');
+    clearTimeout(revealTimer);
+    revealTimer = setTimeout(function () { b.classList.remove('gl-reveal'); }, REVEAL_IDLE_MS);
+  }
+  window.addEventListener('scroll', pokeReveal, { passive: true });
+  setTimeout(pokeReveal, 300);   // 초기 로드 때도 한 번 보여줌
   function schedulePos() { if (!posPending) { posPending = true; requestAnimationFrame(function () { posPending = false; updatePos(); }); } }
   function updatePos() {
     if (!visible.size) return;
@@ -80,8 +97,6 @@
     if (!best || best.id === lastPosId) return;
     lastPosId = best.id;
     posEl.textContent = num(best.id) + ' / ' + TOTAL;
-    clearTimeout(urlTimer);
-    urlTimer = setTimeout(function () { try { history.replaceState(history.state, '', '#' + lastPosId); } catch (e) {} }, 220);
   }
   window.addEventListener('scroll', schedulePos, { passive: true });
 
@@ -126,6 +141,68 @@
       toast(added ? '북마크 추가' : '북마크 해제');
     }
   });
+
+  // ── 용어 해설 팝오버(#gnote) ───────────────────────────────
+  var GL = window.__GL__ || {};
+  var TY_LBL = { science: '과학용어', proper: '고유명사', neologism: '작중 조어' };
+  var gnote = $('gnote'), gOpen = null;
+  function closeGnote() { gnote.classList.remove('show'); gOpen = null; }
+  function openGnote(span) {
+    if (b.classList.contains('gloss-off')) return;
+    var g = GL[span.dataset.g], seg = span.closest('.seg');
+    if (!g || !seg) return;
+    gnote.querySelector('.gn-en').textContent = g.en;
+    gnote.querySelector('.gn-tag').textContent = TY_LBL[g.ty] ? ', ' + TY_LBL[g.ty] : '';
+    gnote.querySelector('.gn-note').textContent = g.note || '';
+    seg.appendChild(gnote); gnote.classList.add('show'); gOpen = span;
+    var left = Math.max(0, Math.min(span.offsetLeft, seg.clientWidth - gnote.offsetWidth));
+    gnote.style.left = left + 'px';
+    var r = span.getBoundingClientRect(), above = r.bottom + gnote.offsetHeight + 8 > window.innerHeight;
+    gnote.style.top = (above ? span.offsetTop - gnote.offsetHeight - 4 : span.offsetTop + span.offsetHeight + 4) + 'px';
+  }
+  document.addEventListener('click', function (e) {
+    var gl = e.target.closest && e.target.closest('.gl');
+    if (gl && gl.dataset.g && !b.classList.contains('gloss-off')) {
+      e.preventDefault();
+      if (gOpen === gl) { closeGnote(); } else { openGnote(gl); }
+      return;
+    }
+    if (!e.target.closest('#gnote')) closeGnote();
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeGnote(); });
+  window.addEventListener('scroll', function () { if (gOpen) closeGnote(); }, { passive: true });
+
+  // ── 용어집 패널(전체 용어 — __GL__ 로 클라이언트 렌더) ───────
+  var glBuilt = false;
+  function renderGloss() {
+    if (glBuilt) return;
+    var ul = $('gl-list');
+    var arr = Object.keys(GL).map(function (id) { return GL[id]; })
+      .sort(function (a, c) { return a.ko.localeCompare(c.ko, 'ko'); });
+    var frag = document.createDocumentFragment();
+    arr.forEach(function (g) {
+      var li = document.createElement('li');
+      li.dataset.k = (g.ko + ' ' + g.en).toLowerCase();
+      var a = document.createElement('a');
+      a.href = g.fs ? '#' + g.fs : 'javascript:void(0)';
+      a.innerHTML = '<span class="gl-ko"></span><span class="gl-en"></span><span class="gl-tag"></span><span class="gl-note"></span>';
+      a.querySelector('.gl-ko').textContent = g.ko;
+      a.querySelector('.gl-en').textContent = g.en;
+      a.querySelector('.gl-tag').textContent = TY_LBL[g.ty] || '';
+      a.querySelector('.gl-note').textContent = g.note || '';
+      li.appendChild(a); frag.appendChild(li);
+    });
+    ul.appendChild(frag); glBuilt = true;
+  }
+  (function () {
+    var s = $('gl-search'); if (!s) return;
+    s.addEventListener('input', function () {
+      var q = this.value.trim().toLowerCase();
+      $('gl-list').querySelectorAll('li').forEach(function (li) {
+        li.style.display = (!q || li.dataset.k.indexOf(q) !== -1) ? '' : 'none';
+      });
+    });
+  })();
 
   // ── 패널(목차·북마크·About) 공용 ───────────────────────────
   var backdrop = $('backdrop');

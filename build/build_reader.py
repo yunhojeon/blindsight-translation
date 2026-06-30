@@ -112,21 +112,91 @@ def _build_anno(en, e):
     return anno
 
 
-# first_mark/coinage 적용 대상: ko 가 있고 first_mark 또는 coinage 인 항목.
-# 같은 ko 가 여러 en 에 걸리면(예: vampire/Vampire, inlays/inlay) 1개만 병기(중복 방지).
-# locked 항목을 우선 채택.
-_by_ko = {}
+# ── glossary 해설 오버레이 (영어 게이팅 → 한국어 매칭) ──────────────────
+# 세그먼트 단위로 원문 영어에 표제어/별칭이 있을 때만(게이트), 그 세그먼트 번역문에서
+# 한국어 ko 를 찾아 span.gl 로 감싼다. 첫 등장엔 기존 first_mark 병기(.anno)도 합쳐 붙인다.
+_HANGUL = lambda c: "가" <= c <= "힣"
+_LATIN_RE = re.compile(r"[A-Za-z]")
+_PAREN_RE = re.compile(r"\s*\([^)]*\)")
+
+
+def _has_latin(s):
+    return bool(_LATIN_RE.search(s))
+
+
+def _has_hangul(s):
+    return any(_HANGUL(c) for c in s)
+
+
+def _strip_paren(s):
+    return _PAREN_RE.sub("", s).strip()
+
+
+# 영어·한국어 양쪽이 흔한 단어라 의미 자동판별이 불가능 → 자동 밑줄 제외(첫 병기·용어집에만 노출)
+OVERLAY_SKIP = {"창문", "기둥", "기동"}
+
+# note 보유 항목을 ko 로 dedup(locked 우선). 같은 ko 의 영어 표면형(별칭 포함)은 합집합.
+_gloss = {}
 for en, e in gl.items():
-    if not e.get("ko") or not (e.get("first_mark") or e.get("coinage")):
+    ko, note = e.get("ko"), e.get("note")
+    if not ko or not note:
         continue
-    ko = e["ko"]
-    prev = _by_ko.get(ko)
-    if prev is None or (e.get("locked") and not prev[1]):
-        _by_ko[ko] = ({"ko": ko, "anno": _build_anno(en, e),
-                       "coin": bool(e.get("coinage")), "done": False}, bool(e.get("locked")))
-marks = [v[0] for v in _by_ko.values()]
-# 긴 ko 부터(짧은 ko 가 긴 ko 안에 잘못 박히는 것 방지: '벤'⊂'빅 벤' 등)
-marks.sort(key=lambda m: len(m["ko"]), reverse=True)
+    aliases = e.get("aliases", [])
+    en_surf = {_strip_paren(en)} | {_strip_paren(a) for a in aliases if _has_latin(a)}
+    en_surf = {s for s in en_surf if s}
+    ko_forms = {ko} | {a for a in aliases if _has_hangul(a)}
+    locked = bool(e.get("locked"))
+    cur = _gloss.get(ko)
+    if cur is None:
+        _gloss[ko] = {"ko": ko, "en": _strip_paren(en), "note": note,
+                      "ty": e.get("type", ""), "first_seen": e.get("first_seen"),
+                      "surfaces": set(en_surf), "ko_forms": set(ko_forms),
+                      "coin": bool(e.get("coinage")), "anno": _build_anno(en, e),
+                      "locked": locked, "first_done": False}
+    else:
+        cur["surfaces"] |= en_surf
+        cur["ko_forms"] |= ko_forms
+        cur["coin"] = cur["coin"] or bool(e.get("coinage"))
+        if locked and not cur["locked"]:   # locked 항목의 en/note/병기를 우선 채택
+            cur.update(en=_strip_paren(en), note=note, ty=e.get("type", ""),
+                       first_seen=e.get("first_seen"), anno=_build_anno(en, e), locked=True)
+
+gloss_list = list(_gloss.values())
+for i, g in enumerate(gloss_list, 1):
+    g["id"] = f"g{i}"
+    g["skip_overlay"] = (g["ko"] in OVERLAY_SKIP) or (len(g["ko"]) == 1 and _has_hangul(g["ko"]))
+_by_id = {g["id"]: g for g in gloss_list}
+
+
+def _variants(s):
+    """문장 첫머리 대문자화 대응 — 첫 글자만 대소문자 관용(나머지는 case-sensitive)."""
+    return {s[0].lower() + s[1:], s[0].upper() + s[1:]} if s else set()
+
+
+_surface_ids = {}
+for g in gloss_list:
+    for s in g["surfaces"]:
+        for v in _variants(s):
+            _surface_ids.setdefault(v, set()).add(g["id"])
+_surf_sorted = sorted(_surface_ids, key=len, reverse=True)
+GATE_RE = (re.compile(r"(?<![A-Za-z])(?:" + "|".join(re.escape(s) for s in _surf_sorted) + r")(?![A-Za-z])")
+           if _surf_sorted else None)
+
+
+def gate_ids(src):
+    """이 세그먼트의 원문 영어에 표면형이 등장하는 glossary id 집합."""
+    if not GATE_RE:
+        return set()
+    en_text = "".join(r["t"] for r in src.get("runs", []))
+    ids = set()
+    for m in GATE_RE.finditer(en_text):
+        ids |= _surface_ids.get(m.group(0), set())
+    return ids
+
+
+# JS 로 내보낼 맵(전체 — 용어집 패널이 모든 용어를 보여주므로). span 은 data-g 로 참조.
+gloss_map = {g["id"]: {"en": g["en"], "ko": g["ko"], "note": g["note"],
+                       "ty": g["ty"], "fs": g["first_seen"]} for g in gloss_list}
 
 
 def _in_tag(s, idx):
@@ -134,31 +204,63 @@ def _in_tag(s, idx):
     return s.rfind("<", 0, idx) > s.rfind(">", 0, idx)
 
 
-def apply_marks(html_str, ko_text):
-    """이 segment 의 렌더 HTML 에 첫 등장 병기/coinage 를 1회씩 적용.
-    겹침·태그 내부를 피하고, 같은 ko 는 marks 단계에서 이미 1개로 합쳐져 중복되지 않는다."""
-    claimed = []   # 이번 segment 에서 이미 병기한 (start,end) 구간(원본 html_str 좌표)
-    placements = []
-    for m in marks:
-        if m["done"] or m["ko"] not in ko_text:
-            continue
-        term = m["ko"]
+def _occurrences(html_str, g):
+    """이 세그먼트 렌더 HTML 에서 g 의 ko_forms 가 경계·태그 조건을 만족하는 (idx,end) 목록."""
+    occ = []
+    for form in sorted(g["ko_forms"], key=len, reverse=True):
+        latin = _has_latin(form)
         start = 0
         while True:
-            idx = html_str.find(term, start)
+            idx = html_str.find(form, start)
             if idx == -1:
                 break
-            end = idx + len(term)
-            overlap = any(not (end <= cs or idx >= ce) for cs, ce in claimed)
-            if overlap or _in_tag(html_str, idx):
-                start = idx + 1
+            start = idx + 1
+            end = idx + len(form)
+            if idx > 0:                                   # 좌측 경계
+                pc = html_str[idx - 1]
+                if _HANGUL(pc) or (latin and pc.isalnum()):
+                    continue
+            if latin and end < len(html_str) and html_str[end].isalnum():
                 continue
-            rep = (f'<span class="coinage">{term}</span>' if m["coin"] else term) + m["anno"]
+            if _in_tag(html_str, idx):
+                continue
+            occ.append((idx, end))
+    occ.sort()
+    return occ
+
+
+def apply_gloss(html_str, gated_ids):
+    """게이트 통과 용어의 한국어 등장을 전부 span.gl 로 감싼다.
+    각 용어의 전역 첫 등장엔 기존 first_mark 병기(.anno)와 coinage 클래스를 합쳐 붙인다.
+    skip_overlay 용어는 첫 등장 병기만 하고 본문 밑줄(.gl)은 달지 않는다."""
+    active = [_by_id[i] for i in gated_ids if i in _by_id]
+    active.sort(key=lambda g: max(len(f) for f in g["ko_forms"]), reverse=True)
+    claimed, placements = [], []
+    for g in active:
+        wrappable = not g["skip_overlay"]
+        first = not g["first_done"]
+        if not wrappable and not first:           # 더 할 일 없음
+            continue
+        used = False
+        for idx, end in _occurrences(html_str, g):
+            if any(not (end <= cs or idx >= ce) for cs, ce in claimed):
+                continue
+            term = html_str[idx:end]
+            is_first = first and not used
+            if is_first:
+                if wrappable:
+                    cls = "gl coinage" if g["coin"] else "gl"
+                    rep = f'<span class="{cls}" data-g="{g["id"]}" data-ty="{g["ty"]}">{term}</span>' + g["anno"]
+                else:
+                    rep = (f'<span class="coinage">{term}</span>' if g["coin"] else term) + g["anno"]
+                g["first_done"] = True
+            elif wrappable:
+                rep = f'<span class="gl" data-g="{g["id"]}" data-ty="{g["ty"]}">{term}</span>'
+            else:
+                continue                          # skip_overlay: 첫 등장 외 미표시
             placements.append((idx, end, rep))
             claimed.append((idx, end))
-            m["done"] = True
-            break
-    # 오른쪽부터 적용(앞쪽 인덱스 보존)
+            used = True
     for s, e, rep in sorted(placements, reverse=True):
         html_str = html_str[:s] + rep + html_str[e:]
     return html_str
@@ -169,8 +271,7 @@ def seg_html(tr):
     if src["kind"] == "scene-break":
         return '<hr class="scene">'
     ko_runs = tr.get("runs", [])
-    ko_text = "".join(r["t"] for r in ko_runs)
-    body = apply_marks(render_runs(ko_runs), ko_text)
+    body = apply_gloss(render_runs(ko_runs), gate_ids(src))
     cls = {"right": "ta-right", "center": "ta-center"}.get(src["align"], "")
     orig = render_orig(src["runs"])
     return (
@@ -218,7 +319,27 @@ def build_toc(snips):
     return "\n".join(items)
 
 
+def _self_check():
+    """게이팅·래핑 핵심 동작 자가검증(상태 보존). 실패 시 빌드 중단."""
+    def gate_text(t):
+        return gate_ids({"runs": [{"t": t}]})
+
+    scr = next((g for g in gloss_list if g["ko"] == "스크램블러"), None)
+    if scr:
+        assert scr["id"] in gate_text("The scrambler moved."), "gate 실패: 소문자 단수"
+        assert scr["id"] in gate_text("Two scramblers attacked."), "gate 실패: 복수"
+        saved, scr["first_done"] = scr["first_done"], True   # 첫등장 분기 회피, 순수 .gl 확인
+        out = apply_gloss("스크램블러를 보았다", {scr["id"]})
+        scr["first_done"] = saved
+        assert 'class="gl"' in out and "스크램블러" in out, "wrap 실패: 스크램블러를"
+        # 게이트: 원문 영어에 표제어가 없으면 한국어가 있어도 미표시
+        out = apply_gloss("스크램블러를 보았다", gate_text("Nothing relevant in this sentence."))
+        assert 'class="gl"' not in out, "게이트 실패: 비게이트 세그먼트에 표시됨"
+    print("self-check OK | glossary terms:", len(gloss_list))
+
+
 def main():
+    _self_check()
     cids = sys.argv[1:] or [c for c in order if (TR / f"{c}.jsonl").exists()]
     cids = [c for c in cids if (TR / f"{c}.jsonl").exists()]
 
@@ -230,8 +351,10 @@ def main():
     toc = build_toc(snips)
     built_info = f"{len(cids)}개 청크"
     # CSS/JS 는 HTML 주석 마커로 인라인(에디터 포매터가 <style>{{..}}</style> 를 깨뜨리는 것 방지)
+    gloss_js = "<script>window.__GL__=" + json.dumps(gloss_map, ensure_ascii=False) + ";</script>"
     out_html = (template
                 .replace("<!--{{STYLES}}-->", f"<style>\n{styles}\n</style>")
+                .replace("<!--{{GLOSSARY}}-->", gloss_js)
                 .replace("<!--{{SCRIPT}}-->", f"<script>\n{script}\n</script>")
                 .replace("{{BUILT_INFO}}", built_info)
                 .replace("{{TOTAL}}", str(len(segs)))
@@ -239,7 +362,7 @@ def main():
                 .replace("{{BODY}}", body))  # BODY 마지막: 본문에 {{...}} 가 있어도 안전
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(out_html, encoding="utf-8")
-    print("built", OUT, "| chunks:", len(cids))
+    print("built", OUT, "| chunks:", len(cids), "| .gl spans:", body.count("data-g="))
 
 
 if __name__ == "__main__":

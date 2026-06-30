@@ -20,6 +20,7 @@
   --i-comm-ink: #2c4a63;
   --i-comm-bg: #e7eef4;
   --accent: #b4541a;
+  --gl-c: #8a94a0;   /* 용어 해설 점선 밑줄(단일 색) */
   --fs: 16px;   /* 글자 크기(메뉴에서 조절) */
   --lh: 1.8;    /* 줄 간격(메뉴에서 조절) */
 }
@@ -38,6 +39,7 @@
   --i-comm-ink: #bcd4e6;
   --i-comm-bg: #22303a;
   --accent: #e58a4e;
+  --gl-c: #7c8893;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -55,6 +57,7 @@
     --i-comm-ink: #bcd4e6;
     --i-comm-bg: #22303a;
     --accent: #e58a4e;
+    --gl-c: #7c8893;
   }
 }
 
@@ -266,6 +269,85 @@ hr.scene::before {
 
 body.hide-anno .anno {
   display: none;
+}
+
+/* ── 용어 해설(.gl) — 단일 점선 밑줄, 평소 투명 → 뷰 진입/hover 때만 잠깐 노출 ── */
+.gl {
+  border-bottom: 1px dotted transparent;
+  transition: border-color .55s ease;
+  cursor: help;
+}
+
+/* 스크롤 중에는(JS 가 body.gl-reveal 부여) 밑줄이 보이고, 멈추면 클래스 제거로 fade out */
+body.gl-reveal .gl:not(.coinage) {
+  border-bottom-color: var(--gl-c);
+}
+
+/* 데스크톱 hover 재노출 */
+@media (hover: hover) {
+  .gl:hover {
+    border-bottom-color: var(--gl-c);
+  }
+}
+
+/* 용어 해설 끄기 */
+body.gloss-off .gl {
+  border-bottom-color: transparent !important;
+  cursor: inherit;
+}
+
+/* 모션 최소화: 자동 깜빡임 대신 옅은 상시 밑줄로 발견 가능성만 유지 */
+@media (prefers-reduced-motion: reduce) {
+  .gl {
+    transition: none;
+  }
+
+  .gl:not(.coinage) {
+    border-bottom-color: color-mix(in srgb, var(--gl-c) 45%, transparent);
+  }
+
+  body.gloss-off .gl {
+    border-bottom-color: transparent !important;
+  }
+}
+
+/* 용어 해설 팝오버(JS 가 클릭된 용어 위치로 옮겨 띄움) */
+#gnote {
+  display: none;
+  position: absolute;
+  z-index: 16;
+  width: min(280px, 86vw);
+  padding: 9px 12px;
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.55;
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, .18);
+}
+
+#gnote.show {
+  display: block;
+}
+
+#gnote .gn-head {
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+#gnote .gn-en {
+  color: var(--ink);
+  font-style: italic;
+}
+
+#gnote .gn-tag {
+  color: var(--gl-c);
+  font-size: .9em;
+}
+
+#gnote .gn-note {
+  color: var(--ink);
 }
 
 /* ── 이탤릭 목적별 스타일 ────────────────────────────────────────── */
@@ -486,6 +568,59 @@ body.show-orig .orig {
 .empty {
   color: var(--muted);
   font-size: 13px;
+}
+
+/* 용어집 검색 + 목록 */
+#gl-search {
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 7px 10px;
+  font: inherit;
+  font-size: 13px;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
+
+#gl-search:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+#gl-list li {
+  display: block;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--rule);
+  line-height: 1.5;
+}
+
+#gl-list .gl-ko {
+  color: var(--ink);
+}
+
+#gl-list .gl-en {
+  color: var(--muted);
+  font-style: italic;
+  font-size: .92em;
+  margin-left: 5px;
+}
+
+#gl-list .gl-tag {
+  color: var(--gl-c);
+  font-size: .82em;
+  margin-left: 5px;
+}
+
+#gl-list .gl-note {
+  display: block;
+  color: var(--muted);
+  font-size: .9em;
+  margin-top: 2px;
+}
+
+#gl-list a:hover .gl-ko {
+  color: var(--accent);
 }
 
 /* 목차 */
