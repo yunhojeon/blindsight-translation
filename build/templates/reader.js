@@ -141,10 +141,13 @@
   function openPMenu(seg, handle) {
     if (curSeg === seg) { closePMenu(); return; }
     closePMenu(); curSeg = seg; seg.classList.add('menu-open');
-    seg.appendChild(pmenu);
-    pmenu.style.top = handle.offsetTop + 'px';
-    pmenu.style.left = handle.offsetLeft + 'px';
+    document.body.appendChild(pmenu);    // .seg 밖으로(paint containment 클리핑 방지)
     pmenu.classList.add('show');
+    var r = handle.getBoundingClientRect(), w = pmenu.offsetWidth, h = pmenu.offsetHeight;
+    var left = Math.max(6, Math.min(r.left, window.innerWidth - w - 6));
+    var top = (r.bottom + h + 6 > window.innerHeight) ? r.top - h - 4 : r.bottom + 4;
+    pmenu.style.left = left + 'px';
+    pmenu.style.top = Math.max(6, top) + 'px';
     var o = seg.querySelector('.orig');
     pmenu.querySelector('[data-act="orig"]').classList.toggle('on', !!(o && o.classList.contains('open')));
     pmenu.querySelector('[data-act="bm"]').classList.toggle('on', bmHas(seg.id));
@@ -154,6 +157,7 @@
     if (h) { e.preventDefault(); openPMenu(h.parentNode, h); return; }
     if (curSeg && !e.target.closest('#pmenu') && !e.target.closest('.seg-handle')) closePMenu();
   });
+  window.addEventListener('scroll', function () { if (curSeg) closePMenu(); }, { passive: true });
   pmenu.addEventListener('click', function (e) {
     var btn = e.target.closest('button'); if (!btn || !curSeg) return;
     var act = btn.dataset.act, id = curSeg.id;

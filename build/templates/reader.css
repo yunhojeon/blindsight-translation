@@ -77,7 +77,8 @@ body {
 .wrap {
   max-width: 680px;
   margin: 0 auto;
-  padding: 48px 22px 120px;
+  /* 좌측 패딩 축소: 핸들 거터가 .seg 내부(padding-left)로 옮겨졌으므로. */
+  padding: 48px 22px 120px 8px;
 }
 
 /* ── 헤더 ────────────────────────────────────────────────────────── */
@@ -128,6 +129,7 @@ header b {
   font-size: 1.5em;
   color: var(--ink);
   margin: 0 0 1.6em;
+  padding-left: 1.5em;   /* 본문 문단(.seg) 좌측 거터와 정렬 */
 }
 
 body.paged .chapter {
@@ -301,6 +303,9 @@ body.paged #pager {
 .seg {
   position: relative;
   margin: 0 0 1.05em;
+  /* 핸들(⋮) 거터를 박스 '안쪽'에 둔다 — content-visibility 의 paint containment 가
+     박스 밖(예전 left:-1.5em)을 잘라내 핸들이 사라졌기 때문. */
+  padding-left: 1.5em;
   text-align: justify;
   border-radius: 4px;
   transition: background-color .6s ease;
@@ -481,7 +486,7 @@ body.gloss-off .gl {
 /* ── 문단 핸들(⋮) ────────────────────────────────────────────────── */
 .seg-handle {
   position: absolute;
-  left: -1.5em;
+  left: 0;
   top: .15em;
   border: none;
   background: none;
@@ -508,26 +513,21 @@ body.gloss-off .gl {
 @media (hover:none) {
   .seg-handle {
     opacity: .28;
-    left: -1.1em;
     padding: .2em .4em;
   }
 }
 
 @media (max-width:520px) {
   .wrap {
-    padding-left: 30px;
-  }
-
-  .seg-handle {
-    left: -26px;
+    padding-left: 4px;
   }
 }
 
-/* ── 문단 액션 팝오버(핸들 위치에 겹침) ──────────────────────────── */
+/* ── 문단 액션 팝오버 ─ body 직속 + fixed(.seg paint containment 클리핑 회피) ── */
 #pmenu {
   display: none;
-  position: absolute;
-  z-index: 15;
+  position: fixed;
+  z-index: 25;
   gap: 4px;
   padding: 4px;
   font-family: var(--sans);
