@@ -22,8 +22,15 @@
       <span class="toggle ico" id="t-menu" title="메뉴" aria-label="메뉴">☰</span>
     </header>
 
-    <!-- 번역 본문이 빌드 시 여기에 들어간다 -->
+    <!-- 번역 본문이 빌드 시 여기에 들어간다(챕터별 <section class="chapter">) -->
     {{BODY}}
+
+    <!-- 챕터 페이징 내비게이션(JS 가 페이징 활성 시 노출) -->
+    <nav id="pager" aria-label="페이지 이동">
+      <button id="pg-prev" class="pg-btn" aria-label="이전 챕터">‹ 이전</button>
+      <button id="pg-mid" class="pg-mid" aria-label="목차 열기">— / —</button>
+      <button id="pg-next" class="pg-btn" aria-label="다음 챕터">다음 ›</button>
+    </nav>
   </div>
 
   <!-- 헤더 설정 메뉴(드롭다운) -->

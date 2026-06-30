@@ -85,6 +85,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 20;
+  /* 별도 합성 레이어로 승격 → sticky 헤더가 매 스크롤 프레임 repaint 되는 것 방지. */
+  transform: translateZ(0);
   background: var(--bg);
   padding: 10px 0;
   border-bottom: 1px solid var(--rule);
@@ -107,6 +109,78 @@ header b {
   font-size: 12px;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+}
+
+/* ── 챕터 페이징 ──────────────────────────────────────────────────
+   기본(JS 없음): 모든 챕터 표시 → 한 페이지로도 읽힘(graceful degradation).
+   JS 가 body.paged 를 붙이면 활성 챕터만 표시. */
+/* 챕터 시작(에피그래프) 위 여백 — 헤더와 떨어뜨려 새 장이 시작되는 느낌. */
+.chapter {
+  padding-top: clamp(2.8em, 7vh, 5em);
+}
+
+/* 파트 제목(프롤로그·테세우스…) — 각 파트 첫 챕터, 에피그래프 위.
+   원문 이탤릭 제목을 한글로는 살릴 수 없어 Noto Sans KR Bold + 좌측 정렬로 대체. */
+.part-title {
+  font-family: var(--sans);
+  font-weight: 700;
+  text-align: left;
+  font-size: 1.5em;
+  color: var(--ink);
+  margin: 0 0 1.6em;
+}
+
+body.paged .chapter {
+  display: none;
+}
+
+body.paged .chapter.active {
+  display: block;
+}
+
+#pager {
+  display: none;
+  align-items: center;
+  gap: 10px;
+  margin: 3em 0 1.5em;
+  padding-top: 1.4em;
+  border-top: 1px solid var(--rule);
+}
+
+body.paged #pager {
+  display: flex;
+}
+
+.pg-btn,
+.pg-mid {
+  font: inherit;
+  cursor: pointer;
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  color: var(--ink);
+  padding: 8px 14px;
+}
+
+.pg-mid {
+  flex: 1;
+  text-align: center;
+  color: var(--muted);
+  font-size: .92em;
+  font-variant-numeric: tabular-nums;
+}
+
+.pg-btn:disabled {
+  opacity: .32;
+  cursor: default;
+}
+
+@media (hover: hover) {
+
+  .pg-btn:not(:disabled):hover,
+  .pg-mid:hover {
+    border-color: var(--muted);
+  }
 }
 
 .toggle {
@@ -230,6 +304,10 @@ header b {
   text-align: justify;
   border-radius: 4px;
   transition: background-color .6s ease;
+  /* 화면 밖 문단의 렌더/래스터를 브라우저가 스킵 → 긴 페이지 스크롤 비용 감소.
+     auto <length> = 첫 렌더 후 실제 높이를 기억, 그 전엔 추정치로 자리 확보(스크롤바 튐 방지). */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 4em;
 }
 
 .ta-right {
@@ -324,8 +402,10 @@ body.gloss-off .gl {
 /* 용어 해설 팝오버(JS 가 클릭된 용어 위치로 옮겨 띄움) */
 #gnote {
   display: none;
-  position: absolute;
-  z-index: 16;
+  /* body 직속 + 뷰포트 기준 고정. .seg(content-visibility:auto = paint containment)
+     안에 두면 문단 박스 밖으로 잘리므로 .seg 밖에서 fixed 로 띄운다. */
+  position: fixed;
+  z-index: 25;
   width: min(280px, 86vw);
   padding: 9px 12px;
   font-family: var(--sans);

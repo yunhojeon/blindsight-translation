@@ -89,7 +89,7 @@
     entries.forEach(function (e) { if (e.isIntersecting) visible.add(e.target); else visible.delete(e.target); });
     schedulePos();
   }, { threshold: 0 });
-  document.querySelectorAll('.seg').forEach(function (s) { io.observe(s); });
+  // 관찰 대상은 활성 챕터의 .seg 로 한정한다(showChapter 가 io.observe). 초기화는 맨 아래 페이징 블록.
 
   // ── 용어 해설 밑줄: 스크롤하는 동안 '보이는 문단'에만 노출 → 멈추면 fade out ──
   // border-color 는 합성(composite) 대상이 아니라 트랜지션이 메인스레드 paint 를 쓰므로,
@@ -123,7 +123,8 @@
     if (!best) visible.forEach(function (s) { var t = s.getBoundingClientRect().top; if (t < bestTop) { bestTop = t; best = s; } });
     if (!best || best.id === lastPosId) return;
     lastPosId = best.id;
-    posEl.textContent = num(best.id) + ' / ' + TOTAL;
+    // 전체 진행률(%)만 표시 — 하단 페이저의 "N / 24"(챕터)와 단위가 겹쳐 헷갈리지 않도록.
+    posEl.textContent = Math.min(100, Math.round(num(best.id) / TOTAL * 100)) + '%';
   }
   window.addEventListener('scroll', schedulePos, { passive: true });
 
@@ -176,16 +177,19 @@
   function closeGnote() { gnote.classList.remove('show'); gOpen = null; }
   function openGnote(span) {
     if (b.classList.contains('gloss-off')) return;
-    var g = GL[span.dataset.g], seg = span.closest('.seg');
-    if (!g || !seg) return;
+    var g = GL[span.dataset.g];
+    if (!g) return;
     gnote.querySelector('.gn-en').textContent = g.en;
     gnote.querySelector('.gn-tag').textContent = TY_LBL[g.ty] ? ', ' + TY_LBL[g.ty] : '';
     gnote.querySelector('.gn-note').textContent = g.note || '';
-    seg.appendChild(gnote); gnote.classList.add('show'); gOpen = span;
-    var left = Math.max(0, Math.min(span.offsetLeft, seg.clientWidth - gnote.offsetWidth));
+    document.body.appendChild(gnote);    // .seg 밖으로(paint containment 클리핑 방지)
+    gnote.classList.add('show'); gOpen = span;
+    var r = span.getBoundingClientRect(), w = gnote.offsetWidth, h = gnote.offsetHeight;
+    var left = Math.max(8, Math.min(r.left, window.innerWidth - w - 8));
+    var above = r.bottom + h + 8 > window.innerHeight;        // 아래 공간 부족하면 위로 플립
+    var top = Math.max(8, above ? r.top - h - 4 : r.bottom + 4);  // 위로 띄워도 화면 밖 방지
     gnote.style.left = left + 'px';
-    var r = span.getBoundingClientRect(), above = r.bottom + gnote.offsetHeight + 8 > window.innerHeight;
-    gnote.style.top = (above ? span.offsetTop - gnote.offsetHeight - 4 : span.offsetTop + span.offsetHeight + 4) + 'px';
+    gnote.style.top = top + 'px';
   }
   document.addEventListener('click', function (e) {
     var gl = e.target.closest && e.target.closest('.gl');
@@ -261,17 +265,85 @@
     });
   }
 
-  // ── 해시(#id) 이동 시 스크롤 + 잠깐 플래시 ──────────────────
+  // ── 챕터 페이징 ──────────────────────────────────────────────
+  var chapters = [].slice.call(document.querySelectorAll('.chapter'));
+  var curChap = -1;
+  var pgPrev = $('pg-prev'), pgNext = $('pg-next'), pgMid = $('pg-mid');
+
+  function observeChapter(ch) {
+    io.disconnect();
+    visible.clear();
+    clearReveal();                       // 이전 챕터의 밑줄 잔여 제거
+    ch.querySelectorAll('.seg').forEach(function (s) { io.observe(s); });
+  }
+
+  function showChapter(idx) {            // 표시만 토글(스크롤·URL 은 호출자 담당)
+    idx = clamp(idx, 0, chapters.length - 1);
+    var ch = chapters[idx];
+    if (!ch || idx === curChap) return ch;
+    if (chapters[curChap]) chapters[curChap].classList.remove('active');
+    ch.classList.add('active');
+    curChap = idx;
+    localStorage.setItem('bs_chap', idx);
+    observeChapter(ch);
+    if (pgPrev) pgPrev.disabled = idx === 0;
+    if (pgNext) pgNext.disabled = idx === chapters.length - 1;
+    if (pgMid) pgMid.textContent = (idx + 1) + ' / ' + chapters.length;
+    lastPosId = null; schedulePos();
+    return ch;
+  }
+
+  function gotoChapter(idx) {            // 이전/다음/화살표: 맨 위로 + URL 을 #chap-N 으로
+    var prev = curChap;
+    showChapter(idx);
+    if (curChap !== prev) {
+      window.scrollTo(0, 0);
+      history.replaceState(null, '', location.pathname + location.search + '#' + chapters[curChap].id);
+    }
+  }
+  if (pgPrev) pgPrev.onclick = function () { gotoChapter(curChap - 1); };
+  if (pgNext) pgNext.onclick = function () { gotoChapter(curChap + 1); };
+  if (pgMid) pgMid.onclick = function () { openPanel('toc-panel'); };
+
+  document.addEventListener('keydown', function (e) {   // 데스크톱 좌우 화살표
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+    var t = e.target.tagName;
+    if (t === 'INPUT' || t === 'TEXTAREA') return;
+    if (e.key === 'ArrowRight') gotoChapter(curChap + 1);
+    else if (e.key === 'ArrowLeft') gotoChapter(curChap - 1);
+  });
+
+  // ── 해시(#id) 이동: 대상이 속한 챕터를 먼저 펼친 뒤 스크롤 + 플래시 ──
   var flashTimer;
   function goHash() {
-    if (!location.hash) return;
-    var el = document.getElementById(location.hash.slice(1));
+    var h = location.hash.slice(1);
+    if (!h) return;
+    var el = document.getElementById(h);
     if (!el) return;
+    var chap = el.classList.contains('chapter') ? el : el.closest('.chapter');
+    if (chap) showChapter(chapters.indexOf(chap));
+    if (el.classList.contains('chapter')) { window.scrollTo(0, 0); return; }
     el.scrollIntoView({ block: 'center' });
+    // content-visibility:auto 로 위쪽 문단 높이가 추정치였다가 렌더되며 보정되므로 한 프레임 뒤 재정렬
+    requestAnimationFrame(function () { el.scrollIntoView({ block: 'center' }); });
     el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
     clearTimeout(flashTimer);
     flashTimer = setTimeout(function () { el.classList.remove('flash'); }, 1500);
   }
-  if (location.hash) setTimeout(goHash, 300);
+
+  // ── 초기 표시 ────────────────────────────────────────────────
+  if (chapters.length) {
+    document.body.classList.add('paged');               // 페이징 활성(없으면 전체가 한 페이지로 보임)
+    if (location.hash && document.getElementById(location.hash.slice(1))) {
+      goHash();
+    } else {
+      var saved = parseInt(localStorage.getItem('bs_chap'), 10);
+      showChapter((isNaN(saved) || saved < 0) ? 0 : saved);
+      window.scrollTo(0, 0);
+    }
+  } else {                                                // 폴백: 챕터 없음 → 전체 관찰 + 해시 이동만
+    document.querySelectorAll('.seg').forEach(function (s) { io.observe(s); });
+    if (location.hash) setTimeout(goHash, 300);
+  }
   window.addEventListener('hashchange', goHash);
 })();

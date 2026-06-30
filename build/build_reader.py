@@ -282,40 +282,98 @@ def seg_html(tr):
     )
 
 
-def build_body(cids):
-    parts, snips = [], {}
+_PART_KO_FALLBACK = {"Prologue": "프롤로그"}
+
+
+def part_ko(name):
+    """파트 이름의 한글 표기. 글로서리(정본) ko 우선, 없으면 폴백, 그것도 없으면 원문."""
+    if not name:
+        return ""
+    g = gl.get(name)
+    if g and g.get("ko"):
+        return g["ko"]
+    return _PART_KO_FALLBACK.get(name, name)
+
+
+def build_body(cids, meta):
+    """본문을 챕터 단위 <section class="chapter" id="chap-N"> 로 묶는다(리더의 페이징 단위).
+    경계는 chapter_meta() 와 동일. 청크 경계와 무관하게 세그먼트 순서대로 연속 분할."""
+    trs_all = []
     for cid in cids:
         f = TR / f"{cid}.jsonl"
         if not f.exists():
             continue
-        trs = [json.loads(l) for l in f.read_text(encoding="utf-8").splitlines() if l.strip()]
-        parts.append(f'<section data-chunk="{cid}">')
-        for tr in trs:
-            parts.append(seg_html(tr))
-            if segs[tr["id"]]["kind"] != "scene-break":
-                snips[tr["id"]] = "".join(r["t"] for r in tr.get("runs", [])).strip()
+        trs_all += [json.loads(l) for l in f.read_text(encoding="utf-8").splitlines() if l.strip()]
+    snips = {}
+    for tr in trs_all:
+        if segs[tr["id"]]["kind"] != "scene-break":
+            snips[tr["id"]] = "".join(r["t"] for r in tr.get("runs", [])).strip()
+    start_idx = {c["start"]: i for i, c in enumerate(meta)}
+    parts = []
+    open_ch = None
+    prev_part = None
+    for tr in trs_all:
+        sid = tr["id"]
+        if sid in start_idx:                              # 새 챕터 시작
+            if open_ch is not None:
+                parts.append('</section>')
+            ci = start_idx[sid]
+            title = html.escape(snips.get(meta[ci]["body"], "")[:40])
+            raw_part = meta[ci]["part"]
+            part = html.escape(str(raw_part or ""))
+            parts.append(f'<section class="chapter" id="chap-{ci}" '
+                         f'data-part="{part}" data-title="{title}">')
+            if raw_part != prev_part:                     # 파트의 첫 챕터: 파트 제목(한글)을 에피그래프 위에 표시
+                parts.append(f'<h2 class="part-title">{html.escape(part_ko(raw_part))}</h2>')
+                prev_part = raw_part
+            open_ch = ci
+        parts.append(seg_html(tr))
+    if open_ch is not None:
         parts.append('</section>')
     return "\n".join(parts), snips
 
 
-def build_toc(snips):
-    """파트(헤더) + 장면(첫 문장 스니펫) 목차. 앵커는 실제 문단 id(scene-break 제외)."""
-    items = []
-    cur_part = cur_scene = None
-    scene_no = 0
-    for sid, s in segs.items():
-        if s["kind"] == "scene-break" or sid not in snips:
+def chapter_meta():
+    """챕터 경계 = 우측 정렬 에피그래프(인용문) 블록. 각 챕터의 시작/본문/파트를 순서대로.
+    build_toc(목차)와 build_body(섹션 분할)가 동일 경계를 쓰도록 단일 소스."""
+    seq = list(segs.items())
+    n = len(seq)
+    meta = []
+    i = 0
+    while i < n:
+        s = seq[i][1]
+        if not (s["kind"] == "para" and s["align"] == "right"):
+            i += 1
             continue
-        part, scene = s.get("part"), s.get("scene")
+        start = seq[i][0]                          # 에피그래프 블록 시작(파트 헤더 앵커)
+        j = i
+        while j < n and seq[j][1]["kind"] == "para" and seq[j][1]["align"] == "right":
+            j += 1                                  # 연속 우측 정렬 = 인용문 블록(여러 줄 포함)
+        k = j
+        while k < n and seq[k][1]["kind"] == "scene-break":
+            k += 1                                  # 블록 다음 첫 본문 문단 = 챕터 제목·앵커
+        body = seq[k][0] if k < n else start
+        meta.append({"start": start, "body": body, "part": s.get("part")})
+        i = j
+    return meta
+
+
+def build_toc(snips, meta):
+    """파트(헤더) + 챕터 목차. 챕터 제목 = 에피그래프 직후 첫 본문 문단의 번역 스니펫."""
+    items = []
+    cur_part = None
+    chap_no = 0
+    for c in meta:
+        part = c["part"]
         if part != cur_part:
-            cur_part, cur_scene, scene_no = part, scene, 1
-            items.append(f'<li class="toc-part"><a href="#{sid}">{html.escape(str(part))}</a></li>')
-        elif scene != cur_scene:
-            cur_scene = scene
-            scene_no += 1
-            snip = html.escape(snips.get(sid, "")[:24])
-            items.append(f'<li class="toc-scene"><a href="#{sid}">'
-                         f'<span class="toc-n">{scene_no}</span>{snip}…</a></li>')
+            cur_part = part
+            chap_no = 0
+            items.append(f'<li class="toc-part"><a href="#{c["start"]}">'
+                         f'{html.escape(part_ko(part))}</a></li>')
+        chap_no += 1
+        snip = html.escape(snips.get(c["body"], "")[:30])
+        items.append(f'<li class="toc-scene"><a href="#{c["body"]}">'
+                     f'<span class="toc-n">{chap_no}</span>{snip}…</a></li>')
     return "\n".join(items)
 
 
@@ -347,8 +405,9 @@ def main():
     styles = (TPL / "reader.css").read_text(encoding="utf-8")
     script = (TPL / "reader.js").read_text(encoding="utf-8")
 
-    body, snips = build_body(cids)
-    toc = build_toc(snips)
+    meta = chapter_meta()
+    body, snips = build_body(cids, meta)
+    toc = build_toc(snips, meta)
     built_info = f"{len(cids)}개 청크"
     # CSS/JS 는 HTML 주석 마커로 인라인(에디터 포매터가 <style>{{..}}</style> 를 깨뜨리는 것 방지)
     gloss_js = "<script>window.__GL__=" + json.dumps(gloss_map, ensure_ascii=False) + ";</script>"
