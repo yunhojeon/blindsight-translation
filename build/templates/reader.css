@@ -178,6 +178,11 @@ header b {
   color: var(--accent);
 }
 
+.mi-val {
+  color: var(--muted);
+  font-size: .92em;
+}
+
 .mi-row {
   display: flex;
   align-items: center;
@@ -278,8 +283,13 @@ body.hide-anno .anno {
   cursor: help;
 }
 
-/* 스크롤 중에는(JS 가 body.gl-reveal 부여) 밑줄이 보이고, 멈추면 클래스 제거로 fade out */
-body.gl-reveal .gl:not(.coinage) {
+/* 스크롤시 모드: JS 가 '보이는 문단'에만 .gl-reveal 을 부여(트랜지션 대상 최소화), 멈추면 제거 → fade out */
+.seg.gl-reveal .gl:not(.coinage) {
+  border-bottom-color: var(--gl-c);
+}
+
+/* 켜기 모드: 밑줄 상시 표시 */
+body.gloss-on .gl:not(.coinage) {
   border-bottom-color: var(--gl-c);
 }
 

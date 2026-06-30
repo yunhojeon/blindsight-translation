@@ -192,6 +192,11 @@ header b {
   color: var(--accent);
 }
 
+.mi-val {
+  color: var(--muted);
+  font-size: .92em;
+}
+
 .mi-row {
   display: flex;
   align-items: center;
@@ -292,8 +297,13 @@ body.hide-anno .anno {
   cursor: help;
 }
 
-/* 스크롤 중에는(JS 가 body.gl-reveal 부여) 밑줄이 보이고, 멈추면 클래스 제거로 fade out */
-body.gl-reveal .gl:not(.coinage) {
+/* 스크롤시 모드: JS 가 '보이는 문단'에만 .gl-reveal 을 부여(트랜지션 대상 최소화), 멈추면 제거 → fade out */
+.seg.gl-reveal .gl:not(.coinage) {
+  border-bottom-color: var(--gl-c);
+}
+
+/* 켜기 모드: 밑줄 상시 표시 */
+body.gloss-on .gl:not(.coinage) {
   border-bottom-color: var(--gl-c);
 }
 
@@ -4525,7 +4535,7 @@ body.show-orig .orig {
     <div class="mi-sep"></div>
     <button class="mi" data-act="orig"><span class="lbl">원문</span></button>
     <button class="mi" data-act="anno"><span class="lbl">원어 병기</span></button>
-    <button class="mi" data-act="gloss"><span class="lbl">용어 해설</span></button>
+    <button class="mi" data-act="gloss"><span class="lbl">용어 해설</span><span class="mi-val" id="gloss-val">스크롤시</span></button>
     <div class="mi-sep"></div>
     <button class="mi" data-act="toc"><span class="lbl">목차</span></button>
     <button class="mi" data-act="glossary"><span class="lbl">용어집</span></button>
@@ -4652,15 +4662,16 @@ body.show-orig .orig {
     <h3>About <span class="x" data-close>✕</span></h3>
     <div class="about">
       <p>피터 와츠 『Blindsight』의 한국어 번역 · 51개 청크.</p>
-      <p>원작 © Peter Watts, <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/" target="_blank"
-          rel="noopener">CC BY-NC-SA 2.5</a>. 본 번역도 동일 라이선스로 공유됩니다.</p>
+      <p>번역은 Anthropic의 <b>Claude</b>를 활용해 진행했고, 사람이 용어·말투·문체를 검토·정리했습니다.</p>
       <h4>읽는 법</h4>
       <p>· 고유명사 첫 등장은 <b>청록색</b>, ⓘ·괄호는 첫 등장 원어·한자 병기입니다.</p>
-      <p>· 용어에 <b>점선 밑줄</b>이 잠깐 비치면 해설이 있다는 표시입니다. 탭/클릭하면 영어 표제어와 해설이 그 자리에 뜹니다. 전체 목록은 <b>☰ → 용어집</b>.</p>
-      <p>· 이탤릭은 목적별로 다르게: 강조=방점, 생각=흐린 색, 외국어·통신=고딕체, 함선·작품명=청록색.</p>
+      <p>· 용어에 <b>점선 밑줄</b>이 비치면 해설이 있다는 표시입니다. 탭/클릭하면 영어 표제어와 해설이 그 자리에 뜹니다. 전체 목록은 <b>☰ → 용어집</b>.</p>
       <p>· 문단 왼쪽 <b>⋮</b> → 원문 보기 · 링크 복사 · 북마크.</p>
       <p>· 상단 <b>☰</b> → 글자 크기 · 줄 간격 · 밝기 · 원문 · 원어 병기 · 용어 해설 · 목차 · 용어집 · 북마크.</p>
-      <p>· 스크롤하면 상단에 현재 위치(문단 번호)가 표시됩니다.</p>
+      <h4>라이선스 · 연락</h4>
+      <p>원작 © Peter Watts, <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/" target="_blank"
+          rel="noopener">CC BY-NC-SA 2.5</a>. 본 번역도 동일 라이선스로 공유됩니다.</p>
+      <p>번역 · 편집: 전윤호 &lt;<a href="mailto:yunho.jeon@gmail.com">yunho.jeon@gmail.com</a>&gt;. 오역·제안 환영합니다.</p>
     </div>
   </aside>
 
@@ -4706,11 +4717,20 @@ body.show-orig .orig {
   // ── 원문 / 원어 병기 / 용어 해설 토글(상태) ──────────────────
   var showOrig = localStorage.getItem('bs_orig') === '1';
   var showAnno = localStorage.getItem('bs_anno') !== '0';
-  var showGloss = localStorage.getItem('bs_gloss') !== '0';
+  // 용어 해설: 스크롤시 → 켜기 → 끄기 3상태 순환
+  var GLOSS_MODES = ['scroll', 'on', 'off'];
+  var GLOSS_LBL = { scroll: '스크롤시', on: '켜기', off: '끄기' };
+  var glossMode = localStorage.getItem('bs_gloss');
+  if (glossMode === '0') glossMode = 'off';                 // 구버전 값 마이그레이션
+  else if (GLOSS_MODES.indexOf(glossMode) === -1) glossMode = 'scroll';  // '1'/없음/이상값 → 기본
   function miEl(act) { return document.querySelector('#menu .mi[data-act="' + act + '"]'); }
   function applyOrig() { b.classList.toggle('show-orig', showOrig); var e = miEl('orig'); if (e) e.classList.toggle('on', showOrig); }
   function applyAnno() { b.classList.toggle('hide-anno', !showAnno); var e = miEl('anno'); if (e) e.classList.toggle('on', showAnno); }
-  function applyGloss() { b.classList.toggle('gloss-off', !showGloss); var e = miEl('gloss'); if (e) e.classList.toggle('on', showGloss); }
+  function applyGloss() {
+    b.classList.toggle('gloss-off', glossMode === 'off');
+    b.classList.toggle('gloss-on', glossMode === 'on');
+    var v = $('gloss-val'); if (v) v.textContent = GLOSS_LBL[glossMode];
+  }
   applyOrig(); applyAnno(); applyGloss();
 
   // ── 설정 메뉴 열고닫기 ───────────────────────────────────────
@@ -4731,7 +4751,13 @@ body.show-orig .orig {
     else if (act === 'theme') { theme = THEME_NEXT[theme]; localStorage.setItem('bs_theme', theme); applyTheme(); }
     else if (act === 'orig') { showOrig = !showOrig; localStorage.setItem('bs_orig', showOrig ? '1' : '0'); applyOrig(); }
     else if (act === 'anno') { showAnno = !showAnno; localStorage.setItem('bs_anno', showAnno ? '1' : '0'); applyAnno(); }
-    else if (act === 'gloss') { showGloss = !showGloss; localStorage.setItem('bs_gloss', showGloss ? '1' : '0'); applyGloss(); if (!showGloss) closeGnote(); }
+    else if (act === 'gloss') {
+      glossMode = GLOSS_MODES[(GLOSS_MODES.indexOf(glossMode) + 1) % GLOSS_MODES.length];
+      localStorage.setItem('bs_gloss', glossMode);
+      applyGloss();
+      if (glossMode !== 'scroll') clearReveal();   // 스크롤 잔여 밑줄 정리
+      if (glossMode === 'off') closeGnote();
+    }
     else if (act === 'toc') { closeMenu(); openPanel('toc-panel'); }
     else if (act === 'glossary') { closeMenu(); renderGloss(); openPanel('gl-panel'); }
     else if (act === 'bm') { closeMenu(); renderBM(); openPanel('bm-panel'); }
@@ -4748,15 +4774,27 @@ body.show-orig .orig {
   }, { threshold: 0 });
   document.querySelectorAll('.seg').forEach(function (s) { io.observe(s); });
 
-  // ── 용어 해설 밑줄: 스크롤하는 동안 노출 → 멈추면 fade out ────
+  // ── 용어 해설 밑줄: 스크롤하는 동안 '보이는 문단'에만 노출 → 멈추면 fade out ──
+  // border-color 는 합성(composite) 대상이 아니라 트랜지션이 메인스레드 paint 를 쓰므로,
+  // 대상을 화면에 보이는 .seg 로만 한정해 전역 style 재계산/대량 트랜지션을 피한다.
   var REVEAL_IDLE_MS = 2200;   // 스크롤이 멈춘 뒤 밑줄 유지 시간
   var reduceMo = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var revealTimer;
+  var revealTimer, revealPending = false, lit = new Set();
+  function clearReveal() {
+    lit.forEach(function (s) { s.classList.remove('gl-reveal'); });
+    lit.clear();
+  }
   function pokeReveal() {
-    if (reduceMo || b.classList.contains('gloss-off')) return;   // 모션최소화는 CSS 상시 옅은 밑줄로 대체
-    b.classList.add('gl-reveal');
+    if (reduceMo || glossMode !== 'scroll') return;   // 켜기/끄기는 CSS 가 처리, 모션최소화는 상시 옅은 밑줄
+    if (!revealPending) {                                        // 프레임당 1회로 합침
+      revealPending = true;
+      requestAnimationFrame(function () {
+        revealPending = false;
+        visible.forEach(function (s) { if (!lit.has(s)) { s.classList.add('gl-reveal'); lit.add(s); } });
+      });
+    }
     clearTimeout(revealTimer);
-    revealTimer = setTimeout(function () { b.classList.remove('gl-reveal'); }, REVEAL_IDLE_MS);
+    revealTimer = setTimeout(clearReveal, REVEAL_IDLE_MS);
   }
   window.addEventListener('scroll', pokeReveal, { passive: true });
   setTimeout(pokeReveal, 300);   // 초기 로드 때도 한 번 보여줌

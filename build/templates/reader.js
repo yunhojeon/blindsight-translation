@@ -34,11 +34,20 @@
   // ── 원문 / 원어 병기 / 용어 해설 토글(상태) ──────────────────
   var showOrig = localStorage.getItem('bs_orig') === '1';
   var showAnno = localStorage.getItem('bs_anno') !== '0';
-  var showGloss = localStorage.getItem('bs_gloss') !== '0';
+  // 용어 해설: 스크롤시 → 켜기 → 끄기 3상태 순환
+  var GLOSS_MODES = ['scroll', 'on', 'off'];
+  var GLOSS_LBL = { scroll: '스크롤시', on: '켜기', off: '끄기' };
+  var glossMode = localStorage.getItem('bs_gloss');
+  if (glossMode === '0') glossMode = 'off';                 // 구버전 값 마이그레이션
+  else if (GLOSS_MODES.indexOf(glossMode) === -1) glossMode = 'scroll';  // '1'/없음/이상값 → 기본
   function miEl(act) { return document.querySelector('#menu .mi[data-act="' + act + '"]'); }
   function applyOrig() { b.classList.toggle('show-orig', showOrig); var e = miEl('orig'); if (e) e.classList.toggle('on', showOrig); }
   function applyAnno() { b.classList.toggle('hide-anno', !showAnno); var e = miEl('anno'); if (e) e.classList.toggle('on', showAnno); }
-  function applyGloss() { b.classList.toggle('gloss-off', !showGloss); var e = miEl('gloss'); if (e) e.classList.toggle('on', showGloss); }
+  function applyGloss() {
+    b.classList.toggle('gloss-off', glossMode === 'off');
+    b.classList.toggle('gloss-on', glossMode === 'on');
+    var v = $('gloss-val'); if (v) v.textContent = GLOSS_LBL[glossMode];
+  }
   applyOrig(); applyAnno(); applyGloss();
 
   // ── 설정 메뉴 열고닫기 ───────────────────────────────────────
@@ -59,7 +68,13 @@
     else if (act === 'theme') { theme = THEME_NEXT[theme]; localStorage.setItem('bs_theme', theme); applyTheme(); }
     else if (act === 'orig') { showOrig = !showOrig; localStorage.setItem('bs_orig', showOrig ? '1' : '0'); applyOrig(); }
     else if (act === 'anno') { showAnno = !showAnno; localStorage.setItem('bs_anno', showAnno ? '1' : '0'); applyAnno(); }
-    else if (act === 'gloss') { showGloss = !showGloss; localStorage.setItem('bs_gloss', showGloss ? '1' : '0'); applyGloss(); if (!showGloss) closeGnote(); }
+    else if (act === 'gloss') {
+      glossMode = GLOSS_MODES[(GLOSS_MODES.indexOf(glossMode) + 1) % GLOSS_MODES.length];
+      localStorage.setItem('bs_gloss', glossMode);
+      applyGloss();
+      if (glossMode !== 'scroll') clearReveal();   // 스크롤 잔여 밑줄 정리
+      if (glossMode === 'off') closeGnote();
+    }
     else if (act === 'toc') { closeMenu(); openPanel('toc-panel'); }
     else if (act === 'glossary') { closeMenu(); renderGloss(); openPanel('gl-panel'); }
     else if (act === 'bm') { closeMenu(); renderBM(); openPanel('bm-panel'); }
@@ -76,15 +91,27 @@
   }, { threshold: 0 });
   document.querySelectorAll('.seg').forEach(function (s) { io.observe(s); });
 
-  // ── 용어 해설 밑줄: 스크롤하는 동안 노출 → 멈추면 fade out ────
+  // ── 용어 해설 밑줄: 스크롤하는 동안 '보이는 문단'에만 노출 → 멈추면 fade out ──
+  // border-color 는 합성(composite) 대상이 아니라 트랜지션이 메인스레드 paint 를 쓰므로,
+  // 대상을 화면에 보이는 .seg 로만 한정해 전역 style 재계산/대량 트랜지션을 피한다.
   var REVEAL_IDLE_MS = 2200;   // 스크롤이 멈춘 뒤 밑줄 유지 시간
   var reduceMo = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var revealTimer;
+  var revealTimer, revealPending = false, lit = new Set();
+  function clearReveal() {
+    lit.forEach(function (s) { s.classList.remove('gl-reveal'); });
+    lit.clear();
+  }
   function pokeReveal() {
-    if (reduceMo || b.classList.contains('gloss-off')) return;   // 모션최소화는 CSS 상시 옅은 밑줄로 대체
-    b.classList.add('gl-reveal');
+    if (reduceMo || glossMode !== 'scroll') return;   // 켜기/끄기는 CSS 가 처리, 모션최소화는 상시 옅은 밑줄
+    if (!revealPending) {                                        // 프레임당 1회로 합침
+      revealPending = true;
+      requestAnimationFrame(function () {
+        revealPending = false;
+        visible.forEach(function (s) { if (!lit.has(s)) { s.classList.add('gl-reveal'); lit.add(s); } });
+      });
+    }
     clearTimeout(revealTimer);
-    revealTimer = setTimeout(function () { b.classList.remove('gl-reveal'); }, REVEAL_IDLE_MS);
+    revealTimer = setTimeout(clearReveal, REVEAL_IDLE_MS);
   }
   window.addEventListener('scroll', pokeReveal, { passive: true });
   setTimeout(pokeReveal, 300);   // 초기 로드 때도 한 번 보여줌
