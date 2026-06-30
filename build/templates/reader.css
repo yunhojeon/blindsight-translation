@@ -303,6 +303,8 @@ body.paged #pager {
 .seg {
   position: relative;
   margin: 0 0 1.05em;
+  /* sticky 헤더에 가리지 않게 — 위치 복원/앵커 스크롤 시 헤더 아래에 정렬. */
+  scroll-margin-top: 56px;
   /* 핸들(⋮) 거터를 박스 '안쪽'에 둔다 — content-visibility 의 paint containment 가
      박스 밖(예전 left:-1.5em)을 잘라내 핸들이 사라졌기 때문. */
   padding-left: 1.5em;

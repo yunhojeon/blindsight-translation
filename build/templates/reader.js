@@ -123,6 +123,7 @@
     if (!best) visible.forEach(function (s) { var t = s.getBoundingClientRect().top; if (t < bestTop) { bestTop = t; best = s; } });
     if (!best || best.id === lastPosId) return;
     lastPosId = best.id;
+    if (best.id) localStorage.setItem('bs_pos', best.id);   // 마지막 읽던 문단 기억(닫았다 열 때 복원)
     // 전체 진행률(%)만 표시 — 하단 페이저의 "N / 24"(챕터)와 단위가 겹쳐 헷갈리지 않도록.
     posEl.textContent = Math.min(100, Math.round(num(best.id) / TOTAL * 100)) + '%';
   }
@@ -317,6 +318,16 @@
     else if (e.key === 'ArrowLeft') gotoChapter(curChap - 1);
   });
 
+  // content-visibility:auto 는 화면 밖 문단 높이를 추정치로 두므로, 깊은 위치로 한 번에
+  // 스크롤하면 어긋난다. 여러 프레임에 걸쳐 재정렬해 콘텐츠가 렌더되며 위치를 수렴시킨다.
+  function scrollToSeg(el, align) {
+    var tries = 0;
+    (function step() {
+      el.scrollIntoView({ block: align });
+      if (++tries < 8) requestAnimationFrame(step);
+    })();
+  }
+
   // ── 해시(#id) 이동: 대상이 속한 챕터를 먼저 펼친 뒤 스크롤 + 플래시 ──
   var flashTimer;
   function goHash() {
@@ -327,24 +338,31 @@
     var chap = el.classList.contains('chapter') ? el : el.closest('.chapter');
     if (chap) showChapter(chapters.indexOf(chap));
     if (el.classList.contains('chapter')) { window.scrollTo(0, 0); return; }
-    el.scrollIntoView({ block: 'center' });
-    // content-visibility:auto 로 위쪽 문단 높이가 추정치였다가 렌더되며 보정되므로 한 프레임 뒤 재정렬
-    requestAnimationFrame(function () { el.scrollIntoView({ block: 'center' }); });
+    scrollToSeg(el, 'center');
     el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
     clearTimeout(flashTimer);
     flashTimer = setTimeout(function () { el.classList.remove('flash'); }, 1500);
   }
 
   // ── 초기 표시 ────────────────────────────────────────────────
+  function restoreReading() {                            // 마지막으로 읽던 문단으로 복원
+    var posId = localStorage.getItem('bs_pos');
+    var el = posId && document.getElementById(posId);
+    if (el) {
+      var chap = el.closest('.chapter');
+      if (chap) showChapter(chapters.indexOf(chap));
+      scrollToSeg(el, 'start');
+      return true;
+    }
+    var saved = parseInt(localStorage.getItem('bs_chap'), 10);   // 위치 기록 없으면 챕터만
+    showChapter((isNaN(saved) || saved < 0) ? 0 : saved);
+    window.scrollTo(0, 0);
+    return false;
+  }
   if (chapters.length) {
     document.body.classList.add('paged');               // 페이징 활성(없으면 전체가 한 페이지로 보임)
-    if (location.hash && document.getElementById(location.hash.slice(1))) {
-      goHash();
-    } else {
-      var saved = parseInt(localStorage.getItem('bs_chap'), 10);
-      showChapter((isNaN(saved) || saved < 0) ? 0 : saved);
-      window.scrollTo(0, 0);
-    }
+    if (location.hash && document.getElementById(location.hash.slice(1))) goHash();
+    else restoreReading();
   } else {                                                // 폴백: 챕터 없음 → 전체 관찰 + 해시 이동만
     document.querySelectorAll('.seg').forEach(function (s) { io.observe(s); });
     if (location.hash) setTimeout(goHash, 300);
