@@ -1,0 +1,55 @@
+Blindsight — Korean Translation Project
+=======================================
+
+This work is licensed under the
+Creative Commons Attribution-NonCommercial-ShareAlike 2.5 Generic License
+(CC BY-NC-SA 2.5).
+
+Full legal code: https://creativecommons.org/licenses/by-nc-sa/2.5/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-nc-sa/2.5/
+
+
+Attribution
+-----------
+
+Original work:
+  "Blindsight" © Peter Watts, 2006.
+  Published under CC BY-NC-SA 2.5 at https://www.rifters.com/real/Blindsight.htm
+
+This work:
+  Korean translation and translation pipeline © Yunho Jeon.
+  A derivative work of the above, distributed under the same license.
+  https://github.com/yunhojeon/blindsight-translation
+
+
+Scope
+-----
+
+This license applies to the ENTIRE repository, including but not limited to:
+  - the Korean translation text and reader output (data/, dist/, docs/);
+  - the translation pipeline source code (build/, Python scripts);
+  - the per-chunk translation results, glossary, character data, and design docs.
+
+
+You are free to:
+
+  Share  — copy and redistribute the material in any medium or format.
+  Adapt  — remix, transform, and build upon the material.
+
+Under the following terms:
+
+  Attribution  — You must give appropriate credit to Peter Watts (original
+    author) and to this translation project, provide a link to the license,
+    and indicate if changes were made.
+
+  NonCommercial — You may not use the material for commercial purposes.
+
+  ShareAlike — If you remix, transform, or build upon the material, you must
+    distribute your contributions under the same license as the original.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. See the full legal
+code linked above for the complete and legally binding terms.

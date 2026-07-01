@@ -40,6 +40,7 @@ python3 build/build_reader.py     # 번역 → dist/preview.html (templates/ 인
 ## 표현 규칙 (build_reader.py + build/templates/)
 - HTML/CSS/JS 는 `build/templates/`의 `reader.html`·`reader.css`·`reader.js`. 빌드가 이를 dist/preview.html 에 **인라인 합성**(단일 파일 산출). 표현을 바꾸려면 이 파일들을 편집하고 재빌드.
 - 이탤릭 → 목적별 `.ital.i-<kind>`(생각/강조/외국어/이름/통신/기타·미분류), coinage 첫 등장 → `.coinage`, first_mark → 첫 등장 `한글(English[, 漢字])` 자동 병기.
+- 용어 해설(`.gl` 밑줄 오버레이): **세그먼트 원문 영어에 glossary 키/aliases(영어 표면형)가 등장할 때만**(게이트) 그 세그먼트의 한국어 ko/aliases를 밑줄. ⚠️ 따라서 **glossary 키는 원문(segments.jsonl)의 정확한 영어 철자와 일치해야** 한다 — 키가 원문과 다르면 해당 용어는 조용히 밑줄이 안 붙는다(원문 오타 변형은 `aliases`에 추가해 커버). 예: 원문 정본은 `Burns-Caulfield`, 원문 오타 1곳(s0314)은 `Burns-Caufield`를 alias로.
 - 문단별 인라인 원문 토글, 전역 원문/병기 토글(localStorage 기억), 정렬·scene-break 보존.
 
 ## 진행 상황
