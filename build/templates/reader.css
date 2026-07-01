@@ -20,9 +20,12 @@
   --i-comm-ink: #2c4a63;
   --i-comm-bg: #e7eef4;
   --accent: #b4541a;
-  --gl-c: #8a94a0;   /* 용어 해설 점선 밑줄(단일 색) */
-  --fs: 16px;   /* 글자 크기(메뉴에서 조절) */
-  --lh: 1.8;    /* 줄 간격(메뉴에서 조절) */
+  --gl-c: #8a94a0;
+  /* 용어 해설 점선 밑줄(단일 색) */
+  --fs: 16px;
+  /* 글자 크기(메뉴에서 조절) */
+  --lh: 1.8;
+  /* 줄 간격(메뉴에서 조절) */
 }
 
 /* 다크 팔레트(한 곳에서 관리하기 위해 동일 값을 수동 dark / 시스템 dark 양쪽에 적용) */
@@ -43,6 +46,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   /* 미설정 또는 system → OS 따라 다크 (light/dark 명시 시 제외) */
   :root:not([data-theme="light"]):not([data-theme="dark"]) {
     --bg: #1a1916;
@@ -129,7 +133,8 @@ header b {
   font-size: 1.5em;
   color: var(--ink);
   margin: 0 0 1.6em;
-  padding-left: 1.5em;   /* 본문 문단(.seg) 좌측 거터와 정렬 */
+  padding-left: 1.5em;
+  /* 본문 문단(.seg) 좌측 거터와 정렬 */
 }
 
 body.paged .chapter {
@@ -366,7 +371,7 @@ hr.scene::before {
 
 /* ── 고유명사(coinage) / 병기(anno) ──────────────────────────────── */
 .coinage {
-  color: var(--coinage);
+  /* color: var(--coinage); */
   border-bottom: 1px dotted var(--coinage);
 }
 
@@ -491,7 +496,8 @@ body.gloss-off .gl {
 }
 
 .i-title {
-  color: var(--i-title);
+  /* color: var(--i-title); */
+  /* font-family: var(--sans); */
 }
 
 .i-comm {

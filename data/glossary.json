@@ -307,16 +307,17 @@
     "first_seen": "s0079",
     "locked": true
   },
-  "Burns-Caufield": {
-    "ko": "번스-카우필드",
+  "Burns-Caulfield": {
+    "ko": "번스-콜필드",
     "strategy": "transliterate",
     "type": "proper",
+    "aliases": ["Burns-Caufield"],
     "first_mark": {
       "en": true
     },
     "note": "카이퍼 벨트에서 접근하는 혜성.",
     "note_level": "spoiler-safe",
-    "first_seen": "s0314",
+    "first_seen": "s0275",
     "locked": true
   },
   "Jack": {
@@ -1449,7 +1450,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "번스-카우필드의 친근한 약칭. 탐침 서술 특유의 감정이입 표현.",
+    "note": "번스-콜필드의 친근한 약칭. 탐침 서술 특유의 감정이입 표현.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,

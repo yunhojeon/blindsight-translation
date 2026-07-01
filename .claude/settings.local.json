@@ -13,7 +13,8 @@
       "Bash(python3 build/build_reader.py)",
       "Bash(node --check build/templates/reader.js)",
       "Bash(command -v deno bun esbuild)",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(grep -oP '번스-콜필드.{0,80}' dist/preview.html)"
     ]
   }
 }
