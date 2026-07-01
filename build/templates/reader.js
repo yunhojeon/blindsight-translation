@@ -422,7 +422,7 @@
   }
 
   var pendingPos = null;
-  function applyMerged(merged, remote) {
+  function applyMerged(merged, remote, firstSync) {
     var local = syncLocalGet();
     // 표시 설정: pull 시 자동 적용(화면이 튀지 않음)
     if (merged.prefs) {
@@ -439,11 +439,14 @@
     local.bookmarks = merged.bookmarks;
     bmSet(Object.keys(merged.bookmarks).filter(function (k) { return !merged.bookmarks[k].d; }));
     if ($('bm-panel').classList.contains('show')) renderBM();
-    // 위치: 원격이 더 최신일 때만
+    // 위치
     var lp = local.position, rp = remote.position, cur = localStorage.getItem('bs_pos');
-    if (rp && rp.seg_id && tsOf(rp) > tsOf(lp)) {
-      if (!lp || !cur) { adoptPosition(rp); local.position = rp; }   // 로컬 위치 없으면 자동 이동
-      else if (rp.seg_id !== cur) showBanner(rp);                    // 있으면 배너만(화면 유지)
+    if (rp && rp.seg_id) {
+      if (firstSync) { adoptPosition(rp); local.position = rp; }        // 이 기기 첫 동기화 → 서버 위치 받아옴
+      else if (tsOf(rp) > tsOf(lp)) {
+        if (!lp || !cur) { adoptPosition(rp); local.position = rp; }    // 로컬 위치 없으면 자동 이동
+        else if (rp.seg_id !== cur) showBanner(rp);                     // 있으면 배너만(화면 유지)
+      }
     }
     syncLocalSet(local);
   }
@@ -465,11 +468,14 @@
     if (!SB || !sbUser) return;
     clearTimeout(pushTimer);
     var local = syncLocalGet();
+    var firstSync = localStorage.getItem('bs_synced') !== sbUser.id;   // 이 기기에서 이 계정 첫 동기화?
     SB.from('user_state').select('position,bookmarks,prefs').eq('user_id', sbUser.id).maybeSingle()
       .then(function (res) {
         var remote = (res && res.data) || {};
         var merged = mergeStates(remote, local);
-        applyMerged(merged, remote);
+        if (firstSync && remote.position) merged.position = remote.position;  // 첫 동기화: 서버 위치 우선(로컬 임시 스크롤이 서버를 덮어쓰지 않게)
+        applyMerged(merged, remote, firstSync);
+        localStorage.setItem('bs_synced', sbUser.id);
         var remoteNorm = { position: remote.position || null, prefs: remote.prefs || null, bookmarks: remote.bookmarks || {} };
         if (JSON.stringify(merged) !== JSON.stringify(remoteNorm)) {
           SB.from('user_state').upsert({
