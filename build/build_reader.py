@@ -16,6 +16,7 @@ HTML/CSS/JS 는 build/templates/ 의 reader.html · reader.css · reader.js 에 
 """
 import html
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -25,6 +26,11 @@ DATA = ROOT / "data"
 TR = DATA / "translations"
 TPL = ROOT / "build" / "templates"
 OUT = ROOT / "dist" / "preview.html"
+
+# Supabase 공개 설정 — publishable(anon) 키는 공개 값이라 커밋/산출물 포함 안전(보안은 RLS 담당).
+# 환경변수 SUPABASE_URL·SUPABASE_ANON_KEY 로 덮어쓸 수 있다.
+SUPABASE_URL_DEFAULT = "https://dulglsafijcemldsgieh.supabase.co"
+SUPABASE_ANON_DEFAULT = "sb_publishable_yadLju8vgGWStKJEcvPWLQ_W6ZWQNea"
 
 # ── 이탤릭 목적 분류 ────────────────────────────────────────────────────
 # run.i 값 → CSS 클래스. i:true(불리언)는 미분류 → i-default.
@@ -411,8 +417,15 @@ def main():
     built_info = f"{len(cids)}개 청크"
     # CSS/JS 는 HTML 주석 마커로 인라인(에디터 포매터가 <style>{{..}}</style> 를 깨뜨리는 것 방지)
     gloss_js = "<script>window.__GL__=" + json.dumps(gloss_map, ensure_ascii=False) + ";</script>"
+    # Supabase 설정: 환경변수(SUPABASE_URL·SUPABASE_ANON_KEY)로 주입. 없으면 null → 동기화 비활성.
+    # anon 키는 공개 값(RLS 가 보안 담당)이라 산출물 포함 무방. 비밀 아님.
+    sb_url = os.environ.get("SUPABASE_URL") or SUPABASE_URL_DEFAULT
+    sb_key = os.environ.get("SUPABASE_ANON_KEY") or SUPABASE_ANON_DEFAULT
+    sb_cfg = json.dumps({"url": sb_url, "anonKey": sb_key}) if (sb_url and sb_key) else "null"
+    sb_js = "<script>window.__SB__=" + sb_cfg + ";</script>"
     out_html = (template
                 .replace("<!--{{STYLES}}-->", f"<style>\n{styles}\n</style>")
+                .replace("<!--{{SUPABASE_CONFIG}}-->", sb_js)
                 .replace("<!--{{GLOSSARY}}-->", gloss_js)
                 .replace("<!--{{SCRIPT}}-->", f"<script>\n{script}\n</script>")
                 .replace("{{BUILT_INFO}}", built_info)

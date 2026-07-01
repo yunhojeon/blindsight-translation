@@ -249,6 +249,15 @@ body.paged #pager {
   flex: 1;
 }
 
+/* 아이콘 열: 고정폭으로 라벨 시작점을 정렬(버튼·설정 행 공통) */
+.mi .ic,
+.mi-row .ic {
+  flex: 0 0 1.5em;
+  text-align: center;
+  font-size: .98em;
+  opacity: .9;
+}
+
 .mi.on .lbl::after {
   content: " ✓";
   color: var(--accent);
@@ -802,4 +811,90 @@ body.show-orig .orig {
 #toast.show {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
+}
+
+/* ── 동기화 패널 · 배너 ──────────────────────────────────────────── */
+#sync-content .sync-btn {
+  display: block;
+  width: 100%;
+  margin: 8px 0 0;
+  padding: 10px 14px;
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: none;
+  color: var(--ink);
+}
+
+#sync-content .sync-btn:hover {
+  border-color: var(--muted);
+}
+
+#sync-content .sync-btn.danger {
+  color: var(--accent);
+}
+
+#sync-email {
+  margin: 0 0 4px;
+  font-weight: 500;
+  color: var(--ink);
+  word-break: break-all;
+}
+
+#sync-content .sync-note {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: .85em;
+  line-height: 1.6;
+}
+
+/* 이어 읽기 스낵바 — #toast 패턴, 액션 버튼 포함 */
+#sync-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%) translateY(20px);
+  display: none;
+  align-items: center;
+  gap: 12px;
+  max-width: min(520px, 92vw);
+  background: var(--ink);
+  color: var(--bg);
+  padding: 10px 12px 10px 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, .28);
+  font-family: var(--sans);
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity .2s, transform .2s;
+  z-index: 41;
+}
+
+#sync-banner.show {
+  display: flex;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+#sync-banner button {
+  font: inherit;
+  cursor: pointer;
+  border: 0;
+  border-radius: 7px;
+  padding: 6px 10px;
+  background: none;
+  color: var(--bg);
+  white-space: nowrap;
+}
+
+#sync-banner #sync-go {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 500;
+}
+
+#sync-banner #sync-x {
+  opacity: .7;
+  padding: 6px 8px;
 }

@@ -66,25 +66,34 @@
     else if (act === 'lh+') { lh = clamp(+(lh + 0.1).toFixed(2), 1.3, 2.4); localStorage.setItem('bs_lh', lh); applyLh(); }
     else if (act === 'lh-') { lh = clamp(+(lh - 0.1).toFixed(2), 1.3, 2.4); localStorage.setItem('bs_lh', lh); applyLh(); }
     else if (act === 'theme') { theme = THEME_NEXT[theme]; localStorage.setItem('bs_theme', theme); applyTheme(); }
-    else if (act === 'orig') { showOrig = !showOrig; localStorage.setItem('bs_orig', showOrig ? '1' : '0'); applyOrig(); }
-    else if (act === 'anno') { showAnno = !showAnno; localStorage.setItem('bs_anno', showAnno ? '1' : '0'); applyAnno(); }
+    else if (act === 'orig') { showOrig = !showOrig; localStorage.setItem('bs_orig', showOrig ? '1' : '0'); applyOrig(); notePrefs(); }
+    else if (act === 'anno') { showAnno = !showAnno; localStorage.setItem('bs_anno', showAnno ? '1' : '0'); applyAnno(); notePrefs(); }
     else if (act === 'gloss') {
       glossMode = GLOSS_MODES[(GLOSS_MODES.indexOf(glossMode) + 1) % GLOSS_MODES.length];
       localStorage.setItem('bs_gloss', glossMode);
       applyGloss();
       if (glossMode !== 'scroll') clearReveal();   // 스크롤 잔여 밑줄 정리
       if (glossMode === 'off') closeGnote();
+      notePrefs();
     }
     else if (act === 'toc') { closeMenu(); openPanel('toc-panel'); }
     else if (act === 'glossary') { closeMenu(); renderGloss(); openPanel('gl-panel'); }
     else if (act === 'bm') { closeMenu(); renderBM(); openPanel('bm-panel'); }
     else if (act === 'about') { closeMenu(); openPanel('about-panel'); }
+    else if (act === 'sync') { closeMenu(); openPanel('sync-panel'); }
   });
 
   // ── 현재 위치 + URL 동기화 ───────────────────────────────────
   var header = document.querySelector('header'), posEl = $('pos');
   function num(id) { return parseInt((id || '').replace(/\D/g, ''), 10) || 0; }
   var visible = new Set(), posPending = false, lastPosId = null;
+  // 실제 사용자 스크롤 입력 이후에만 위치를 '동기화' 한다.
+  // (로드·복원·이어보기의 프로그램적 스크롤이 로드시점 0% 를 새 타임스탬프로 push 해
+  //  다른 기기의 실제 위치를 덮어쓰는 것을 막는다.)
+  var userMoved = false;
+  ['wheel', 'touchmove', 'keydown'].forEach(function (ev) {
+    window.addEventListener(ev, function () { userMoved = true; }, { passive: true });
+  });
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) visible.add(e.target); else visible.delete(e.target); });
     schedulePos();
@@ -123,7 +132,7 @@
     if (!best) visible.forEach(function (s) { var t = s.getBoundingClientRect().top; if (t < bestTop) { bestTop = t; best = s; } });
     if (!best || best.id === lastPosId) return;
     lastPosId = best.id;
-    if (best.id) localStorage.setItem('bs_pos', best.id);   // 마지막 읽던 문단 기억(닫았다 열 때 복원)
+    if (best.id) { localStorage.setItem('bs_pos', best.id); if (userMoved) notePosition(best.id); }   // 로컬 저장 항상 / 동기화는 사용자 스크롤 후
     // 전체 진행률(%)만 표시 — 하단 페이저의 "N / 24"(챕터)와 단위가 겹쳐 헷갈리지 않도록.
     posEl.textContent = Math.min(100, Math.round(num(best.id) / TOTAL * 100)) + '%';
   }
@@ -133,7 +142,7 @@
   function bmGet() { try { return JSON.parse(localStorage.getItem('bs_bm') || '[]'); } catch (e) { return []; } }
   function bmSet(a) { localStorage.setItem('bs_bm', JSON.stringify(a)); var c = $('bm-count'); if (c) c.textContent = a.length; }
   function bmHas(id) { return bmGet().indexOf(id) !== -1; }
-  function bmToggle(id) { var a = bmGet(), i = a.indexOf(id); if (i === -1) a.push(id); else a.splice(i, 1); bmSet(a); return i === -1; }
+  function bmToggle(id) { var a = bmGet(), i = a.indexOf(id); if (i === -1) a.push(id); else a.splice(i, 1); bmSet(a); noteBookmark(id, i === -1); return i === -1; }
   (function () { var c = $('bm-count'); if (c) c.textContent = bmGet().length; })();
 
   // ── 문단 액션 팝오버 ───────────────────────────────────────
@@ -368,4 +377,178 @@
     if (location.hash) setTimeout(goHash, 300);
   }
   window.addEventListener('hashchange', goHash);
+
+  // ── 크로스-디바이스 동기화(Supabase) ─────────────────────────────
+  //  동기화 대상: 읽은 위치 / 북마크 / 읽기 표시 설정(원문·원어 병기·용어 해설).
+  //  단말기별(미동기화): 글자 크기·줄 간격·밝기.
+  //  로컬 정본은 bs_sync(JSON). 필드별 LWW, 북마크는 키별 LWW+tombstone.
+  //  위치 충돌: 원격이 더 최신이면 자동 이동하지 않고 '이어 읽기' 배너만.
+  var SB = null, sbUser = null, pushTimer = null;
+  var deviceId = localStorage.getItem('bs_device');
+  if (!deviceId) { deviceId = 'd' + Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem('bs_device', deviceId); }
+
+  function syncLocalGet() { try { return JSON.parse(localStorage.getItem('bs_sync') || '{}'); } catch (e) { return {}; } }
+  function syncLocalSet(o) { localStorage.setItem('bs_sync', JSON.stringify(o)); }
+  function tsOf(x) { return (x && x.ts) || 0; }
+
+  // 로컬 변경 기록(+push 예약) — 로그인 여부와 무관하게 로컬 정본은 항상 최신 유지
+  function notePosition(id) {
+    var l = syncLocalGet();
+    l.position = { seg_id: id, chap: (typeof curChap === 'number' ? curChap : 0),
+                   pct: Math.min(100, Math.round(num(id) / TOTAL * 100)), ts: Date.now(), device: deviceId };
+    syncLocalSet(l); syncSchedule();
+  }
+  function notePrefs() {
+    var l = syncLocalGet();
+    l.prefs = { orig: showOrig, anno: showAnno, gloss: glossMode, ts: Date.now() };
+    syncLocalSet(l); syncSchedule();
+  }
+  function noteBookmark(id, added) {
+    var l = syncLocalGet(); if (!l.bookmarks) l.bookmarks = {};
+    l.bookmarks[id] = { t: Date.now(), d: !added };
+    syncLocalSet(l); syncSchedule();
+  }
+
+  function mergeStates(remote, local) {
+    var position = tsOf(remote.position) > tsOf(local.position) ? remote.position : local.position;
+    var prefs = tsOf(remote.prefs) > tsOf(local.prefs) ? remote.prefs : local.prefs;
+    var rb = remote.bookmarks || {}, lb = local.bookmarks || {}, bookmarks = {};
+    Object.keys(rb).concat(Object.keys(lb)).forEach(function (k) {
+      var r = rb[k], l = lb[k];
+      var win = (!l || ((r && r.t) || 0) > ((l && l.t) || 0)) ? r : l;
+      if (win) bookmarks[k] = win;
+    });
+    return { position: position || null, prefs: prefs || null, bookmarks: bookmarks };
+  }
+
+  var pendingPos = null;
+  function applyMerged(merged, remote) {
+    var local = syncLocalGet();
+    // 표시 설정: pull 시 자동 적용(화면이 튀지 않음)
+    if (merged.prefs) {
+      var p = merged.prefs;
+      showOrig = !!p.orig; showAnno = !!p.anno;
+      if (GLOSS_MODES.indexOf(p.gloss) !== -1) glossMode = p.gloss;
+      localStorage.setItem('bs_orig', showOrig ? '1' : '0');
+      localStorage.setItem('bs_anno', showAnno ? '1' : '0');
+      localStorage.setItem('bs_gloss', glossMode);
+      applyOrig(); applyAnno(); applyGloss();
+      local.prefs = p;
+    }
+    // 북마크: 병합 결과를 UI 배열(bs_bm)로 반영
+    local.bookmarks = merged.bookmarks;
+    bmSet(Object.keys(merged.bookmarks).filter(function (k) { return !merged.bookmarks[k].d; }));
+    if ($('bm-panel').classList.contains('show')) renderBM();
+    // 위치: 원격이 더 최신일 때만
+    var lp = local.position, rp = remote.position, cur = localStorage.getItem('bs_pos');
+    if (rp && rp.seg_id && tsOf(rp) > tsOf(lp)) {
+      if (!lp || !cur) { adoptPosition(rp); local.position = rp; }   // 로컬 위치 없으면 자동 이동
+      else if (rp.seg_id !== cur) showBanner(rp);                    // 있으면 배너만(화면 유지)
+    }
+    syncLocalSet(local);
+  }
+
+  function adoptPosition(rp) {
+    var el = document.getElementById(rp.seg_id);
+    if (el) {
+      var chap = el.closest('.chapter');
+      if (chap && chapters.length) showChapter(chapters.indexOf(chap));
+      scrollToSeg(el, 'start');
+    }
+    localStorage.setItem('bs_pos', rp.seg_id);
+    if (rp.chap != null) localStorage.setItem('bs_chap', rp.chap);
+  }
+
+  function syncSchedule() { if (!SB || !sbUser) return; clearTimeout(pushTimer); pushTimer = setTimeout(syncNow, 3000); }
+
+  function syncNow() {
+    if (!SB || !sbUser) return;
+    clearTimeout(pushTimer);
+    var local = syncLocalGet();
+    SB.from('user_state').select('position,bookmarks,prefs').eq('user_id', sbUser.id).maybeSingle()
+      .then(function (res) {
+        var remote = (res && res.data) || {};
+        var merged = mergeStates(remote, local);
+        applyMerged(merged, remote);
+        var remoteNorm = { position: remote.position || null, prefs: remote.prefs || null, bookmarks: remote.bookmarks || {} };
+        if (JSON.stringify(merged) !== JSON.stringify(remoteNorm)) {
+          SB.from('user_state').upsert({
+            user_id: sbUser.id, position: merged.position, bookmarks: merged.bookmarks,
+            prefs: merged.prefs, updated_at: new Date().toISOString()
+          }).then(function () { }, function () { });
+        }
+      }, function () { /* 네트워크 실패 무시 */ });
+  }
+
+  // 배너
+  function showBanner(rp) {
+    pendingPos = rp; var el = $('sync-banner'); if (!el) return;
+    var pct = $('sync-banner-pct'); if (pct) pct.textContent = (rp.pct != null ? rp.pct : '?') + '%';
+    el.classList.add('show');
+  }
+  function hideBanner() { var el = $('sync-banner'); if (el) el.classList.remove('show'); pendingPos = null; }
+  function acceptBanner() {
+    if (pendingPos) { adoptPosition(pendingPos); var l = syncLocalGet(); l.position = pendingPos; syncLocalSet(l); }
+    hideBanner();
+  }
+  (function () {
+    var go = $('sync-go'), x = $('sync-x');
+    if (go) go.onclick = acceptBanner;
+    if (x) x.onclick = hideBanner;
+  })();
+
+  // 로그인/패널 UI
+  function updateSyncUI() {
+    var v = $('sync-val'), c = $('sync-content');
+    var configured = !!(window.__SB__ && window.supabase);
+    if (v) v.textContent = !configured ? '미설정' : (sbUser ? '켜짐' : '로그인');
+    if (!c) return;
+    if (!configured) {
+      c.innerHTML = '<p class="sync-note">동기화가 아직 설정되지 않았습니다.</p>';
+    } else if (!sbUser) {
+      c.innerHTML =
+        '<p class="sync-note">Google 계정으로 로그인하면 읽던 위치·북마크·읽기 표시 설정이 기기 간에 동기화됩니다. ' +
+        '글자 크기·줄 간격·밝기는 기기별로 유지됩니다.</p>' +
+        '<button class="sync-btn" data-sync="login">Google로 로그인</button>';
+    } else {
+      c.innerHTML =
+        '<p id="sync-email">' + (sbUser.email || '로그인됨') + '</p>' +
+        '<button class="sync-btn" data-sync="now">지금 동기화</button>' +
+        '<button class="sync-btn" data-sync="logout">로그아웃</button>' +
+        '<button class="sync-btn danger" data-sync="del">내 데이터 삭제</button>' +
+        '<p class="sync-note">저장 항목: 읽은 위치·북마크·읽기 표시 설정과 계정 식별자. ' +
+        '본인만 접근할 수 있으며, ‘내 데이터 삭제’로 원격 기록을 지울 수 있습니다.</p>';
+    }
+  }
+  (function () {
+    var panel = $('sync-panel'); if (!panel) return;
+    panel.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-sync]'); if (!btn) return;
+      var a = btn.dataset.sync;
+      if (a === 'login') { if (SB) SB.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: location.href.split('#')[0] } }); }
+      else if (a === 'logout') { if (SB) SB.auth.signOut(); }
+      else if (a === 'now') { syncNow(); toast('동기화 중…'); }
+      else if (a === 'del') {
+        if (SB && sbUser && confirm('원격에 저장된 내 읽기 데이터를 삭제할까요?')) {
+          SB.from('user_state').delete().eq('user_id', sbUser.id).then(function () { toast('원격 데이터 삭제됨'); }, function () { });
+        }
+      }
+    });
+  })();
+
+  function onAuth(session) {
+    sbUser = session ? session.user : null;
+    updateSyncUI();
+    if (sbUser) syncNow();   // 로그인/세션 복원 직후 pull+merge
+  }
+  function initSync() {
+    if (!window.__SB__ || !window.supabase) { updateSyncUI(); return; }
+    SB = window.supabase.createClient(window.__SB__.url, window.__SB__.anonKey);
+    SB.auth.getSession().then(function (r) { onAuth(r.data.session); });
+    SB.auth.onAuthStateChange(function (_e, session) { onAuth(session); });
+    // 숨김(다른 기기로 전환) 때 flush-push, 복귀 때 pull — 둘 다 syncNow 가 read-merge-write 로 처리.
+    document.addEventListener('visibilitychange', function () { syncNow(); });
+    window.addEventListener('focus', syncNow);
+  }
+  initSync();
 })();

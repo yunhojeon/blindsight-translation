@@ -33,28 +33,31 @@
     </nav>
   </div>
 
-  <!-- 헤더 설정 메뉴(드롭다운) -->
+  <!-- 헤더 설정 메뉴(드롭다운). 아이콘 + 그룹 구분선으로 스캔성↑ -->
   <div id="menu">
-    <div class="mi-row"><span class="lbl">글자 크기</span>
+    <button class="mi" data-act="sync"><span class="ic">☁️</span><span class="lbl">동기화</span><span class="mi-val" id="sync-val">로그인</span></button>
+    <div class="mi-sep"></div>
+    <button class="mi" data-act="toc"><span class="ic">📑</span><span class="lbl">목차</span></button>
+    <button class="mi" data-act="glossary"><span class="ic">📖</span><span class="lbl">용어집</span></button>
+    <button class="mi" data-act="bm"><span class="ic">🔖</span><span class="lbl">북마크</span><span class="mi-val" id="bm-count">0</span></button>
+    <div class="mi-sep"></div>
+    <button class="mi" data-act="orig"><span class="ic">🌐</span><span class="lbl">원문</span></button>
+    <button class="mi" data-act="anno"><span class="ic">🏷️</span><span class="lbl">원어 병기</span></button>
+    <button class="mi" data-act="gloss"><span class="ic">💡</span><span class="lbl">용어 해설</span><span class="mi-val" id="gloss-val">스크롤시</span></button>
+    <div class="mi-sep"></div>
+    <div class="mi-row"><span class="ic">🔠</span><span class="lbl">글자 크기</span>
       <span class="mi-step"><button data-act="fs-" aria-label="작게">A−</button><button data-act="fs+"
           aria-label="크게">A＋</button></span>
     </div>
-    <div class="mi-row"><span class="lbl">줄 간격</span>
+    <div class="mi-row"><span class="ic">↕️</span><span class="lbl">줄 간격</span>
       <span class="mi-step"><button data-act="lh-" aria-label="좁게">−</button><button data-act="lh+"
           aria-label="넓게">＋</button></span>
     </div>
-    <div class="mi-row"><span class="lbl">밝기</span>
+    <div class="mi-row"><span class="ic">🌓</span><span class="lbl">밝기</span>
       <button class="mi-theme" data-act="theme"><span id="theme-val">시스템</span></button>
     </div>
     <div class="mi-sep"></div>
-    <button class="mi" data-act="orig"><span class="lbl">원문</span></button>
-    <button class="mi" data-act="anno"><span class="lbl">원어 병기</span></button>
-    <button class="mi" data-act="gloss"><span class="lbl">용어 해설</span><span class="mi-val" id="gloss-val">스크롤시</span></button>
-    <div class="mi-sep"></div>
-    <button class="mi" data-act="toc"><span class="lbl">목차</span></button>
-    <button class="mi" data-act="glossary"><span class="lbl">용어집</span></button>
-    <button class="mi" data-act="bm"><span class="lbl">북마크 <span id="bm-count">0</span></span></button>
-    <button class="mi" data-act="about"><span class="lbl">About</span></button>
+    <button class="mi" data-act="about"><span class="ic">ℹ️</span><span class="lbl">About</span></button>
   </div>
 
   <!-- 문단 액션 팝오버(JS 가 클릭된 문단의 핸들 위치로 옮겨 띄움) -->
@@ -107,8 +110,24 @@
     </div>
   </aside>
 
+  <aside id="sync-panel" class="panel" aria-label="동기화">
+    <h3>동기화 <span class="x" data-close>✕</span></h3>
+    <div id="sync-content"></div>
+  </aside>
+
+  <!-- 다른 기기에서 더 읽었을 때 뜨는 '이어 읽기' 배너(스낵바) -->
+  <div id="sync-banner" role="status">
+    <span>다른 기기에서 <b id="sync-banner-pct">—</b>까지 읽었어요</span>
+    <button id="sync-go">이어보기</button>
+    <button id="sync-x" aria-label="닫기">✕</button>
+  </div>
+
   <div id="toast"></div>
 
+  <!-- Supabase 클라이언트(공개 CDN). 오프라인/차단 시 동기화만 비활성, 읽기는 정상. -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <!-- 빌드가 Supabase 설정을 window.__SB__ 로 주입(환경변수 없으면 null). -->
+  <!--{{SUPABASE_CONFIG}}-->
   <!-- 빌드가 glossary 맵을 window.__GL__ 로 주입(별도 <script>). -->
   <!--{{GLOSSARY}}-->
   <!-- 빌드가 reader.js 를 <script> 로 인라인(아래 마커 치환). -->
