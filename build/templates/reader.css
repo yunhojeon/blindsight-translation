@@ -1073,3 +1073,266 @@ mark.s-hit {
   padding: 4px 6px;
   font-size: 14px;
 }
+
+/* ── 하이라이트 + 메모(노트) ─────────────────────────────────────── */
+/* 본문 하이라이트는 은은하게(투명도), 스와치/점은 선명하게 */
+:root {
+  --hl-y: rgba(240, 200, 70, .42);
+  --hl-g: rgba(120, 200, 140, .40);
+  --hl-b: rgba(120, 180, 240, .38);
+  --hl-p: rgba(240, 150, 190, .38);
+}
+
+:root[data-theme="dark"] {
+  --hl-y: rgba(210, 175, 70, .34);
+  --hl-g: rgba(110, 190, 140, .32);
+  --hl-b: rgba(110, 165, 235, .32);
+  --hl-p: rgba(230, 140, 185, .32);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    --hl-y: rgba(210, 175, 70, .34);
+    --hl-g: rgba(110, 190, 140, .32);
+    --hl-b: rgba(110, 165, 235, .32);
+    --hl-p: rgba(230, 140, 185, .32);
+  }
+}
+
+::highlight(note-y) {
+  background-color: var(--hl-y);
+}
+
+::highlight(note-g) {
+  background-color: var(--hl-g);
+}
+
+::highlight(note-b) {
+  background-color: var(--hl-b);
+}
+
+::highlight(note-p) {
+  background-color: var(--hl-p);
+}
+
+/* 색 스와치(선택 툴바 · 메모 편집 공용) */
+.sw {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.sw-y {
+  background: #f2c84b;
+}
+
+.sw-g {
+  background: #79c98a;
+}
+
+.sw-b {
+  background: #6fa8ec;
+}
+
+.sw-p {
+  background: #ec7fb0;
+}
+
+.sw.on {
+  border-color: var(--ink);
+}
+
+/* 선택 툴바 ─ body 직속 + fixed(.seg paint containment 클리핑 회피) */
+#sel-toolbar {
+  display: none;
+  position: fixed;
+  z-index: 45;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 9px;
+  font-family: var(--sans);
+  font-size: 13px;
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, .2);
+}
+
+#sel-toolbar.show {
+  display: flex;
+}
+
+#sel-toolbar .stb-sep {
+  width: 1px;
+  align-self: stretch;
+  margin: 2px 1px;
+  background: var(--rule);
+}
+
+#sel-toolbar .stb-b {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--ink);
+  font: inherit;
+  padding: 3px 5px;
+  border-radius: 7px;
+}
+
+#sel-toolbar .stb-b:hover {
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+}
+
+#sel-toolbar .stb-b svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#sel-toolbar.no-hl .sw,
+#sel-toolbar.no-hl .stb-sep,
+#sel-toolbar.no-hl [data-act="memo"] {
+  display: none;
+}
+
+/* 메모 편집 팝오버 */
+#note-edit {
+  display: none;
+  position: fixed;
+  z-index: 46;
+  width: min(300px, 88vw);
+  padding: 11px 12px;
+  font-family: var(--sans);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, .22);
+}
+
+#note-edit.show {
+  display: block;
+}
+
+#note-edit .ne-sw {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 9px;
+}
+
+#note-edit textarea {
+  width: 100%;
+  resize: vertical;
+  font: inherit;
+  font-size: 13px;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 7px 9px;
+  line-height: 1.5;
+}
+
+#note-edit textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+#note-edit .ne-act {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+}
+
+#note-edit .ne-act button {
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 6px 16px;
+  background: none;
+  color: var(--ink);
+}
+
+#note-edit .ne-save {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+#note-edit .ne-del {
+  color: var(--muted);
+}
+
+/* 메모 패널 목록 */
+#note-list li {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+#note-list a {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+#note-list .note-dot {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin-top: 4px;
+  flex: 0 0 auto;
+}
+
+#note-list .note-dot.c-y {
+  background: #f2c84b;
+}
+
+#note-list .note-dot.c-g {
+  background: #79c98a;
+}
+
+#note-list .note-dot.c-b {
+  background: #6fa8ec;
+}
+
+#note-list .note-dot.c-p {
+  background: #ec7fb0;
+}
+
+#note-list .note-body {
+  flex: 1;
+}
+
+#note-list .note-q {
+  display: block;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+#note-list .note-tx {
+  display: block;
+  color: var(--muted);
+  font-size: .92em;
+  margin-top: 2px;
+  white-space: pre-wrap;
+}
+
+#note-list .note-orphan {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: .82em;
+  color: var(--accent);
+  opacity: .85;
+}

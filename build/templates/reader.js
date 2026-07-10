@@ -82,6 +82,7 @@
     else if (act === 'toc') { closeMenu(); openPanel('toc-panel'); }
     else if (act === 'glossary') { closeMenu(); renderGloss(); openPanel('gl-panel'); }
     else if (act === 'bm') { closeMenu(); renderBM(); openPanel('bm-panel'); }
+    else if (act === 'notes') { closeMenu(); renderNotes(); openPanel('note-panel'); }
     else if (act === 'about') { closeMenu(); openPanel('about-panel'); }
     else if (act === 'sync') { closeMenu(); openPanel('sync-panel'); }
   });
@@ -509,6 +510,278 @@
   }
   window.addEventListener('hashchange', goHash);
 
+  // ── 하이라이트 + 메모(노트) ──────────────────────────────────────
+  //  선택 → 색 하이라이트/메모, 본문 하이라이트 탭 편집, 메모 패널.
+  //  앵커: 세그먼트 .ko 의 '보이는 텍스트'(원어 병기 .anno 제외) 문자 오프셋 + 인용문(quote)
+  //        + 앞뒤 문맥(pre/post) → 재빌드로 오프셋이 밀려도 재앵커. 실패해도 삭제 안 함(orphan 보존).
+  //  칠하기: CSS Custom Highlight API(DOM 무변형). 미지원 브라우저는 패널·동기화만.
+  //  저장: bs_sync.notes = { <id>: {id,seg,s,e,quote,pre,post,color,text,ts,d} } (키별 ts-LWW + tombstone).
+  var NOTE_COLORS = ['y', 'g', 'b', 'p'];
+  function noteGet() { var l = syncLocalGet(); return l.notes || {}; }
+  function noteUpsert(rec) {
+    var l = syncLocalGet(); if (!l.notes) l.notes = {};
+    rec.ts = Date.now(); rec.d = false; l.notes[rec.id] = rec;
+    syncLocalSet(l); syncSchedule();
+  }
+  function noteDelete(id) {                                     // 확인 후 삭제 → tombstone(전파)
+    var l = syncLocalGet(); if (!l.notes) l.notes = {};
+    var r = l.notes[id] || { id: id }; r.d = true; r.ts = Date.now(); l.notes[id] = r;
+    syncLocalSet(l); syncSchedule();
+  }
+  function newNoteId() { return 'n' + Math.random().toString(36).slice(2, 9) + Date.now().toString(36); }
+  function notesActive() {
+    var m = noteGet(), a = [];
+    Object.keys(m).forEach(function (k) { var r = m[k]; if (r && !r.d) a.push(r); });
+    a.sort(function (x, y) { return (num(x.seg) - num(y.seg)) || ((x.s || 0) - (y.s || 0)); });
+    return a;
+  }
+
+  // 앵커 유틸 — .ko 의 '보이는' 텍스트 노드만(원어 병기 .anno 서브트리 제외)
+  function elOf(n) { return n ? (n.nodeType === 3 ? n.parentElement : n) : null; }
+  function koNodes(ko) {
+    var w = document.createTreeWalker(ko, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        return (n.parentElement && n.parentElement.closest('.anno')) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var a = [], n; while ((n = w.nextNode())) a.push(n); return a;
+  }
+  function koVisText(ko) { return koNodes(ko).map(function (n) { return n.nodeValue; }).join(''); }
+  function offToRange(ko, s, e) {
+    var nodes = koNodes(ko), acc = 0, r = document.createRange(), setS = false, setE = false;
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i], len = n.nodeValue.length;
+      if (!setS && s <= acc + len) { r.setStart(n, Math.max(0, s - acc)); setS = true; }
+      if (!setE && e <= acc + len) { r.setEnd(n, Math.max(0, e - acc)); setE = true; break; }
+      acc += len;
+    }
+    if (!setS) return null;
+    if (!setE) { var last = nodes[nodes.length - 1]; if (!last) return null; r.setEnd(last, last.nodeValue.length); }
+    return r;
+  }
+  function domToOff(ko, node, offset) {                         // Selection/caret DOM 위치 → 보이는-텍스트 오프셋
+    if (!node || node.nodeType !== 3) return -1;
+    var nodes = koNodes(ko), acc = 0;
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i] === node) return acc + offset;
+      acc += nodes[i].nodeValue.length;
+    }
+    return -1;
+  }
+  function reanchor(rec, ko) {                                  // 오프셋 우선, 어긋나면 quote+문맥으로 재탐색
+    var vis = koVisText(ko);
+    if (rec.s != null && rec.e != null && rec.e <= vis.length && vis.slice(rec.s, rec.e) === rec.quote) return { s: rec.s, e: rec.e };
+    if (!rec.quote) return null;
+    var idx = vis.indexOf(rec.quote), best = -1;
+    while (idx !== -1) {
+      var preOk = !rec.pre || vis.slice(Math.max(0, idx - rec.pre.length), idx) === rec.pre;
+      var postOk = !rec.post || vis.slice(idx + rec.quote.length, idx + rec.quote.length + rec.post.length) === rec.post;
+      if (preOk && postOk) { best = idx; break; }
+      if (best === -1) best = idx;                              // 문맥 불일치 시 첫 등장 폴백
+      idx = vis.indexOf(rec.quote, idx + 1);
+    }
+    return best === -1 ? null : { s: best, e: best + rec.quote.length };
+  }
+
+  // 칠하기(CSS Custom Highlight API — 미지원이면 조용히 스킵)
+  var HL_OK = !!(window.CSS && CSS.highlights && window.Highlight);
+  var hlObjs = {}, noteOrphan = {};
+  if (HL_OK) NOTE_COLORS.forEach(function (c) { hlObjs[c] = new Highlight(); CSS.highlights.set('note-' + c, hlObjs[c]); });
+  function paintNotes() {
+    noteOrphan = {};
+    if (HL_OK) NOTE_COLORS.forEach(function (c) { hlObjs[c].clear(); });
+    notesActive().forEach(function (rec) {
+      var seg = document.getElementById(rec.seg), ko = seg && seg.querySelector('.ko');
+      if (!ko) { noteOrphan[rec.id] = true; return; }
+      var off = reanchor(rec, ko);
+      if (!off) { noteOrphan[rec.id] = true; return; }          // 재앵커 실패 → orphan(패널에만, 삭제 안 함)
+      if (HL_OK) { var r = offToRange(ko, off.s, off.e); if (r) (hlObjs[rec.color] || hlObjs.y).add(r); else noteOrphan[rec.id] = true; }
+    });
+  }
+  function noteCount() { var c = $('note-count'); if (c) c.textContent = notesActive().length; }
+  function afterNoteChange() { paintNotes(); noteCount(); if ($('note-panel').classList.contains('show')) renderNotes(); }
+
+  // 선택 툴바(#sel-toolbar): 색 · 메모 · 복사 · 검색
+  var selbar = $('sel-toolbar'), selCtx = null;
+  function captureSel() {
+    var sel = window.getSelection();
+    if (!sel || !sel.rangeCount || sel.isCollapsed) return null;
+    var r = sel.getRangeAt(0), txt = sel.toString();
+    if (!txt.trim()) return null;
+    var anc = elOf(r.commonAncestorContainer);                 // UI 영역(패널·헤더·팝오버) 선택은 무시
+    if (anc && anc.closest('#note-edit,.panel,header,#sel-toolbar,#pmenu,#gnote')) return null;
+    var ctx = { text: txt, range: r, ko: null };
+    var ks = elOf(r.startContainer), ke = elOf(r.endContainer);
+    ks = ks && ks.closest('.ko'); ke = ke && ke.closest('.ko');
+    if (ks && ks === ke && r.startContainer.nodeType === 3 && r.endContainer.nodeType === 3) {  // 하이라이트/메모는 단일 .ko 만
+      var s = domToOff(ks, r.startContainer, r.startOffset), e = domToOff(ks, r.endContainer, r.endOffset);
+      if (s >= 0 && e >= 0) {
+        if (s > e) { var t = s; s = e; e = t; }
+        if (e > s) {
+          var vis = koVisText(ks), seg = ks.closest('.seg');
+          ctx.ko = { ko: ks, seg: seg, s: s, e: e, quote: vis.slice(s, e), pre: vis.slice(Math.max(0, s - 20), s), post: vis.slice(e, e + 20) };
+        }
+      }
+    }
+    return ctx;
+  }
+  function hideSelbar() { if (selbar) selbar.classList.remove('show'); selCtx = null; }
+  function showSelbar() {
+    if (!selbar) return;
+    var ctx = captureSel();
+    if (!ctx) { hideSelbar(); return; }
+    selCtx = ctx;
+    selbar.classList.toggle('no-hl', !ctx.ko);                 // .ko 밖 선택(영문 등)은 복사·검색만
+    document.body.appendChild(selbar);
+    selbar.classList.add('show');
+    var r = ctx.range.getBoundingClientRect(), w = selbar.offsetWidth, h = selbar.offsetHeight;
+    var left = Math.max(6, Math.min(r.left + r.width / 2 - w / 2, window.innerWidth - w - 6));
+    var top = r.bottom + 8;                                     // 기본 아래(모바일 OS 말풍선은 대개 위 → 충돌 회피)
+    if (top + h > window.innerHeight - 6) top = r.top - h - 8;
+    selbar.style.left = left + 'px';
+    selbar.style.top = Math.max(6, top) + 'px';
+  }
+  function newRec(k, color, text) {
+    return { id: newNoteId(), seg: k.seg.id, s: k.s, e: k.e, quote: k.quote, pre: k.pre, post: k.post, color: color, text: text, ts: 0, d: false };
+  }
+  function clearSelectionAndBar() {                            // 선택 해제 + 툴바 숨김(디바운스 재등장 방지)
+    clearTimeout(selShowTimer);
+    var s = window.getSelection(); if (s) s.removeAllRanges();
+    hideSelbar();
+  }
+  if (selbar) selbar.addEventListener('click', function (e) {
+    var btn = e.target.closest('button'); if (!btn) return;
+    var hl = btn.dataset.hl, act = btn.dataset.act;
+    if (hl) {                                                   // 색 → 하이라이트 노트 생성
+      if (!selCtx || !selCtx.ko) return;
+      noteUpsert(newRec(selCtx.ko, hl, '')); afterNoteChange();
+      clearSelectionAndBar();
+    } else if (act === 'memo') {                                // 메모 → 에디터 열기(새 앵커)
+      if (!selCtx || !selCtx.ko) return;
+      var k = selCtx.ko, rect = selCtx.range.getBoundingClientRect(), rec = newRec(k, 'y', '');
+      clearSelectionAndBar();
+      openNoteEdit(rec, true, rect);
+    } else if (act === 'copy') {                                // 복사 → 현재 선택을 복사(권한 팝업·프롬프트 회피)
+      var okc = false;
+      try { okc = !!(document.execCommand && document.execCommand('copy')); } catch (e2) { okc = false; }
+      var txt = selCtx ? selCtx.text : '';
+      if (!okc && navigator.clipboard && txt) navigator.clipboard.writeText(txt).then(function () { }, function () { });
+      toast('복사됨');
+      clearSelectionAndBar();
+    } else if (act === 'search') {                              // 검색 → 결과 패널 즉시
+      var q = (selCtx ? selCtx.text : '').trim();
+      clearSelectionAndBar();
+      if (!q) return;
+      if (searchInput) searchInput.value = q;
+      openPanel('search-panel'); runSearch(q);
+    }
+  });
+  // 선택이 '멈췄을 때'만 툴바 표시 — 데스크톱/모바일 공통으로 selectionchange 를 디바운스.
+  //  (모바일은 롱프레스·핸들 조정이 mouseup/touchend 로 안 잡히고 selectionchange 로만 옴.)
+  var selShowTimer = null;
+  function scheduleSelbar() { clearTimeout(selShowTimer); selShowTimer = setTimeout(showSelbar, 220); }
+  document.addEventListener('selectionchange', function () {
+    var s = window.getSelection();
+    if (!s || s.isCollapsed || !String(s).trim()) { clearTimeout(selShowTimer); hideSelbar(); return; }
+    scheduleSelbar();
+  });
+  document.addEventListener('mouseup', function (e) {           // 데스크톱: 즉시(스냅)
+    if (e.target.closest && e.target.closest('#sel-toolbar,#note-edit')) return;
+    setTimeout(showSelbar, 10);
+  });
+  window.addEventListener('scroll', function () {              // 스크롤 시 숨기지 말고 선택을 따라 재배치
+    if (!selbar || !selbar.classList.contains('show')) return; //  (모바일에서 선택 중 스크롤이 툴바를 없애던 문제)
+    var s = window.getSelection();
+    if (!s || s.isCollapsed) { hideSelbar(); return; }
+    showSelbar();
+  }, { passive: true });
+
+  // 메모 편집 팝오버(#note-edit)
+  var noteEdit = $('note-edit'), editRec = null, editIsNew = false;
+  function openNoteEdit(rec, isNew, rect) {
+    if (!noteEdit) return;
+    editRec = rec; editIsNew = isNew;
+    noteEdit.querySelectorAll('[data-hl]').forEach(function (sw) { sw.classList.toggle('on', sw.dataset.hl === rec.color); });
+    var ta = noteEdit.querySelector('textarea'); ta.value = rec.text || '';
+    var del = noteEdit.querySelector('[data-ne="del"]'); if (del) del.textContent = isNew ? '취소' : '삭제';
+    document.body.appendChild(noteEdit);
+    noteEdit.classList.add('show');
+    var w = noteEdit.offsetWidth, h = noteEdit.offsetHeight, cx = rect.left + (rect.width || 0) / 2;
+    var left = Math.max(8, Math.min(cx - w / 2, window.innerWidth - w - 8));
+    var top = rect.bottom + 8; if (top + h > window.innerHeight - 8) top = Math.max(8, rect.top - h - 8);
+    noteEdit.style.left = left + 'px'; noteEdit.style.top = top + 'px';
+    setTimeout(function () { ta.focus(); }, 50);
+  }
+  function closeNoteEdit() { if (noteEdit) noteEdit.classList.remove('show'); editRec = null; }
+  if (noteEdit) noteEdit.addEventListener('click', function (e) {
+    var sw = e.target.closest('[data-hl]');
+    if (sw && editRec) {
+      editRec.color = sw.dataset.hl;
+      noteEdit.querySelectorAll('[data-hl]').forEach(function (x) { x.classList.toggle('on', x === sw); });
+      return;
+    }
+    var btn = e.target.closest('[data-ne]'); if (!btn || !editRec) return;
+    if (btn.dataset.ne === 'save') {
+      editRec.text = noteEdit.querySelector('textarea').value.trim();
+      noteUpsert(editRec); afterNoteChange(); closeNoteEdit();
+    } else if (btn.dataset.ne === 'del') {
+      if (editIsNew) { closeNoteEdit(); }                       // 새 메모 취소 = 폐기(아직 저장 안 됨)
+      else if (confirm('이 메모를 삭제할까요?')) { noteDelete(editRec.id); afterNoteChange(); closeNoteEdit(); }
+    }
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeNoteEdit(); hideSelbar(); } });
+
+  // 본문 하이라이트 탭 → 편집(Custom Highlight 는 히트테스트 불가 → caret 로 역산)
+  function caretPos(x, y) {
+    if (document.caretPositionFromPoint) { var p = document.caretPositionFromPoint(x, y); return p ? { node: p.offsetNode, offset: p.offset } : null; }
+    if (document.caretRangeFromPoint) { var r = document.caretRangeFromPoint(x, y); return r ? { node: r.startContainer, offset: r.startOffset } : null; }
+    return null;
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest && e.target.closest('#sel-toolbar,#note-edit,#pmenu,#gnote,.seg-handle,a')) return;
+    var sel = window.getSelection(); if (sel && !sel.isCollapsed) return;   // 선택 중이면 무시
+    var ko = e.target.closest && e.target.closest('.ko'); if (!ko) return;
+    var pos = caretPos(e.clientX, e.clientY); if (!pos) return;
+    var pe = elOf(pos.node); if (!pe || pe.closest('.anno') || pe.closest('.ko') !== ko) return;
+    var off = domToOff(ko, pos.node, pos.offset); if (off < 0) return;
+    var seg = ko.closest('.seg');
+    var hit = notesActive().filter(function (r) { return r.seg === seg.id && off >= r.s && off < r.e; });
+    if (!hit.length) return;                                    // 노트 없으면 통과(용어 해설 등 기존 동작 유지)
+    e.stopPropagation(); e.preventDefault();                    // 노트가 있으면 용어 해설(.gl)보다 우선
+    closeGnote();
+    openNoteEdit(hit[hit.length - 1], false, { left: e.clientX, width: 0, top: e.clientY - 10, bottom: e.clientY + 10 });
+  }, true);   // 캡처 단계 — .gl 의 용어 해설(버블) 핸들러보다 먼저 실행
+
+  // 메모 패널(#note-panel)
+  function renderNotes() {
+    var ul = $('note-list'); if (!ul) return; ul.innerHTML = '';
+    var arr = notesActive(), em = $('note-empty');
+    if (em) em.style.display = arr.length ? 'none' : 'block';
+    arr.forEach(function (rec) {
+      var li = document.createElement('li'); li.className = 'note-item';
+      var link = document.createElement('a'); link.href = 'javascript:void(0)'; link.dataset.note = rec.id;
+      var dot = document.createElement('span'); dot.className = 'note-dot c-' + rec.color; link.appendChild(dot);
+      var body = document.createElement('span'); body.className = 'note-body';
+      var q = document.createElement('span'); q.className = 'note-q'; q.textContent = rec.quote || snippet(rec.seg);
+      body.appendChild(q);
+      if (rec.text) { var tx = document.createElement('span'); tx.className = 'note-tx'; tx.textContent = rec.text; body.appendChild(tx); }
+      if (noteOrphan[rec.id]) { var o = document.createElement('span'); o.className = 'note-orphan'; o.textContent = '위치 확인 필요'; body.appendChild(o); }
+      link.appendChild(body); li.appendChild(link); ul.appendChild(li);
+    });
+  }
+  (function () {
+    var ul = $('note-list'); if (!ul) return;
+    ul.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[data-note]'); if (!a) return;
+      var rec = noteGet()[a.dataset.note]; if (!rec) return;
+      var seg = document.getElementById(rec.seg);
+      closePanels();
+      if (seg) jumpTo(seg);                                     // 위치로 이동만 — 편집은 본문 하이라이트 탭으로
+    });
+  })();
+
+  noteCount(); paintNotes();
+
   // ── 크로스-디바이스 동기화(Supabase) ─────────────────────────────
   //  동기화 대상: 읽은 위치 / 북마크 / 읽기 표시 설정(원문·원어 병기·용어 해설).
   //  단말기별(미동기화): 글자 크기·줄 간격·밝기.
@@ -549,7 +822,14 @@
       var win = (!l || ((r && r.t) || 0) > ((l && l.t) || 0)) ? r : l;
       if (win) bookmarks[k] = win;
     });
-    return { position: position || null, prefs: prefs || null, bookmarks: bookmarks };
+    // 메모: 키별 ts-LWW + tombstone 보존(북마크와 동일 — 한쪽에만 있는 메모도 union 으로 살아남음)
+    var rn = remote.notes || {}, ln = local.notes || {}, notes = {};
+    Object.keys(rn).concat(Object.keys(ln)).forEach(function (k) {
+      var r = rn[k], l = ln[k];
+      var win = (!l || ((r && r.ts) || 0) > ((l && l.ts) || 0)) ? r : l;
+      if (win) notes[k] = win;
+    });
+    return { position: position || null, prefs: prefs || null, bookmarks: bookmarks, notes: notes };
   }
 
   var pendingPos = null;
@@ -570,6 +850,8 @@
     local.bookmarks = merged.bookmarks;
     bmSet(Object.keys(merged.bookmarks).filter(function (k) { return !merged.bookmarks[k].d; }));
     if ($('bm-panel').classList.contains('show')) renderBM();
+    // 메모: 병합 결과 반영 → 재칠 + 카운트(+패널 열려있으면 목록 갱신)
+    local.notes = merged.notes || {};
     // 위치
     var lp = local.position, rp = remote.position, cur = localStorage.getItem('bs_pos');
     if (rp && rp.seg_id) {
@@ -580,6 +862,7 @@
       }
     }
     syncLocalSet(local);
+    noteCount(); paintNotes(); if ($('note-panel').classList.contains('show')) renderNotes();
   }
 
   function adoptPosition(rp) {
@@ -600,18 +883,18 @@
     clearTimeout(pushTimer);
     var local = syncLocalGet();
     var firstSync = localStorage.getItem('bs_synced') !== sbUser.id;   // 이 기기에서 이 계정 첫 동기화?
-    SB.from('user_state').select('position,bookmarks,prefs').eq('user_id', sbUser.id).maybeSingle()
+    SB.from('user_state').select('position,bookmarks,prefs,notes').eq('user_id', sbUser.id).maybeSingle()
       .then(function (res) {
         var remote = (res && res.data) || {};
         var merged = mergeStates(remote, local);
         if (firstSync && remote.position) merged.position = remote.position;  // 첫 동기화: 서버 위치 우선(로컬 임시 스크롤이 서버를 덮어쓰지 않게)
         applyMerged(merged, remote, firstSync);
         localStorage.setItem('bs_synced', sbUser.id);
-        var remoteNorm = { position: remote.position || null, prefs: remote.prefs || null, bookmarks: remote.bookmarks || {} };
+        var remoteNorm = { position: remote.position || null, prefs: remote.prefs || null, bookmarks: remote.bookmarks || {}, notes: remote.notes || {} };
         if (JSON.stringify(merged) !== JSON.stringify(remoteNorm)) {
           SB.from('user_state').upsert({
             user_id: sbUser.id, position: merged.position, bookmarks: merged.bookmarks,
-            prefs: merged.prefs, updated_at: new Date().toISOString()
+            prefs: merged.prefs, notes: merged.notes, updated_at: new Date().toISOString()
           }).then(function () { }, function () { });
         }
       }, function () { /* 네트워크 실패 무시 */ });
