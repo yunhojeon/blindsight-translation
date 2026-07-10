@@ -52,7 +52,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "반물질의 정보(specs)를 전송해 연료의 기초(template)로 사용하는 방식",
+    "note": "반물질의 정보(specs)를 전송해 물질을 반물질로 바꾸는 가상의 기술",
     "note_level": "spoiler-safe",
     "first_seen": "s0088",
     "locked": true
@@ -80,7 +80,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "전방향(omnidirectional)은 오역. 네커 큐브의 경우처럼, 여러가지를 동시에 생각할 수 있는 천재성을 의미하는 듯",
+    "note": "네커 큐브의 경우처럼, 동시에 여러가지를 생각할 수 있는 천재성",
     "note_level": "spoiler-safe",
     "first_seen": "s0930",
     "locked": false
@@ -302,7 +302,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "태양 에너지로 반물질을 만드는 시설.",
+    "note": "태양 에너지로 반물질을 만드는 우주 시설.",
     "note_level": "spoiler-safe",
     "first_seen": "s0079",
     "locked": true
@@ -311,7 +311,9 @@
     "ko": "번스-콜필드",
     "strategy": "transliterate",
     "type": "proper",
-    "aliases": ["Burns-Caufield"],
+    "aliases": [
+      "Burns-Caufield"
+    ],
     "first_mark": {
       "en": true
     },
@@ -355,7 +357,7 @@
       "hanja": "盲視",
       "title_link": true
     },
-    "note": "V1 손상으로 생기는 시각장애. 보이지 않는다고 보고하면서도 물체 위치·운동을 맞힌다. 이 작품의 제목(국내 통용 '블라인드사이트').",
+    "note": "V1 손상으로 생기는 시각장애. 보이지 않는다고 보고하면서도 물체 위치·운동을 맞힌다. 이 작품의 제목.",
     "note_level": "science",
     "first_seen": "s1637",
     "locked": true
@@ -382,7 +384,7 @@
       "en": true,
       "hanja": "認知圈"
     },
-    "note": "인류의 지적 활동 전체의 권역. 작중에선 거대 네트워크의 의미.",
+    "note": "인류의 지적 활동 전체의 권역. 작중에선 인터넷을 의미.",
     "note_level": "science",
     "first_seen": "s0170",
     "locked": true
@@ -462,7 +464,7 @@
       "en": true,
       "hanja": "共感覺"
     },
-    "note": "한 감각 자극이 다른 감각을 동시에 일으키는 신경 현상(소리에서 색을 느낌).",
+    "note": "한 감각 자극이 다른 감각을 동시에 일으키는 신경 현상(예: 소리에서 색을 느낌).",
     "note_level": "science",
     "first_seen": "s2161",
     "locked": true
@@ -498,7 +500,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "자기복제가 가능한 기계.",
+    "note": "자기복제가 가능한 기계. 원래는 현대 컴퓨터의 기본 구조(von Neumann architecture)를 의미하지만, 이 작품에서는 자기복제 우주선(von Neumann Probe)의 의미로 사용되었음.",
     "note_level": "science",
     "first_seen": "s0088",
     "locked": true
@@ -510,7 +512,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "해왕성 궤도 밖의 천체 띠.",
+    "note": "해왕성 궤도 밖의 소행성 띠.",
     "note_level": "science",
     "first_seen": "s0056",
     "locked": true
@@ -696,7 +698,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "사후경직(rigor mortis)에 빗댄 라틴어 말장난, '삶의 경직'.",
+    "note": "사후경직(rigor mortis)에 빗댄 라틴어 말장난, '생전경직'.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -800,7 +802,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "소설 핵심 존재인 재창조 아종(호모 플레보트리부스). 표준 한국어 어휘 유지.",
+    "note": "소설 핵심 존재인 재창조 아종(호모 플레보트리부스)",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -839,7 +841,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "신호 분석 수학 기법. 표준 한국어 과학 용어.",
+    "note": "신호 분석 수학 기법",
     "note_level": "science",
     "first_seen": null,
     "locked": false,
@@ -852,7 +854,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "geostationary orbit의 구어 약칭. 표준 용어로 풀어씀.",
+    "note": "geostationary orbit의 구어 약칭",
     "note_level": "science",
     "first_seen": null,
     "locked": false,
@@ -878,7 +880,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "와츠 신조어. blather(잡담·허튼소리)+node 합성어. 추측·잡설이 난무하는 온라인 노드들을 가리킴",
+    "note": "blather(잡담·허튼소리)+node 합성어. 추측·잡설이 난무하는 온라인 노드들을 가리킴",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -898,7 +900,7 @@
     "review": true
   },
   "telepresence": {
-    "ko": "원격현존",
+    "ko": "원격현실",
     "strategy": "translate",
     "type": "science",
     "first_mark": {
@@ -930,7 +932,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "19세기 기술 반대 운동에서 유래한 고유명사. 첼시의 反기술 성향을 수식하는 형용사적 용법. 음차 처리.",
+    "note": "19세기 기술 반대 운동에서 유래한 고유명사. 첼시의 反기술 성향을 수식하는 형용사적 용법.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -950,13 +952,13 @@
     "review": true
   },
   "tightbeam": {
-    "ko": "집속 전파",
+    "ko": "타이트빔",
     "strategy": "transliterate",
     "type": "neologism",
     "first_mark": {
       "en": true
     },
-    "note": "고도로 방향을 집속한 빔 형태의 전파. '타이트빔' 음차도 가능하나 '집속 전파'가 맥락상 더 자연스러움.",
+    "note": "고도로 방향을 집속한 빔 형태의 전파.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -1008,7 +1010,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "레이 커즈와일의 이름을 딴 AI·특이점 연구 기관. 커즈와일 음차.",
+    "note": "레이 커즈와일의 이름을 딴 AI·특이점 연구 기관.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -1034,7 +1036,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "인간 수준 AI 초월 이후의 기술적 가속 임계점. SF 장르 표준 번역어.",
+    "note": "AGI 이후의 기술적 가속 임계점.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -1047,7 +1049,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "의식·인격을 디지털 환경으로 이전하는 기술. 직역.",
+    "note": "의식·인격을 디지털 환경으로 이전하는 기술.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -5597,7 +5599,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "로르샤흐가 침입자를 차단하기 위해 순간적으로 전개하는 봉쇄 기제. 4인방을 가뒀던 장치로 처음 언급됨. '낙하 차단문' 의역도 검토 가능.",
+    "note": "로르샤흐가 침입자를 차단하기 위해 순간적으로 전개하는 봉쇄 기제. 4인방을 가뒀던 장치로 처음 언급됨.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -5623,7 +5625,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "4인방 언어학자. HUD 레이블에서 성만 'James'→'제임스'로 표시됨. glossary에 개인 항목 추가 권장.",
+    "note": "4인방 (다중인격) 언어학자",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
