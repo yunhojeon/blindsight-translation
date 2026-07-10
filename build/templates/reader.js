@@ -76,6 +76,9 @@
       if (glossMode === 'off') closeGnote();
       notePrefs();
     }
+    else if (act === 'search') { closeMenu(); openPanel('search-panel'); setTimeout(function () { var s = $('search-input'); if (s) s.focus(); }, 60); }
+    else if (act === 'prev') { closeMenu(); gotoChapter(curChap - 1); }
+    else if (act === 'next') { closeMenu(); gotoChapter(curChap + 1); }
     else if (act === 'toc') { closeMenu(); openPanel('toc-panel'); }
     else if (act === 'glossary') { closeMenu(); renderGloss(); openPanel('gl-panel'); }
     else if (act === 'bm') { closeMenu(); renderBM(); openPanel('bm-panel'); }
@@ -133,6 +136,8 @@
     if (!best || best.id === lastPosId) return;
     lastPosId = best.id;
     if (best.id) { localStorage.setItem('bs_pos', best.id); if (userMoved) notePosition(best.id); }   // 로컬 저장 항상 / 동기화는 사용자 스크롤 후
+    // 스크롤로 스스로 '읽던 곳'까지 돌아왔으면 백스택을 정리(pill 숨김).
+    if (typeof navStack !== 'undefined' && navStack.length && best.id === navStack[navStack.length - 1]) { navStack.pop(); renderBackpill(); }
     // 전체 진행률(%)만 표시 — 하단 페이저의 "N / 24"(챕터)와 단위가 겹쳐 헷갈리지 않도록.
     posEl.textContent = Math.min(100, Math.round(num(best.id) / TOTAL * 100)) + '%';
   }
@@ -249,6 +254,86 @@
     });
   })();
 
+  // ── 본문 검색(번역문 + 원문 영어) — 질의 시점 선형 스캔, 별도 인덱스 없음 ──
+  var searchInput = $('search-input'), searchList = $('search-list'), searchHint = $('search-hint');
+  var SR_MAX = 200, searchTimer = null, lastQuery = '', hiTimer = null;
+  var HI_FADE_MS = 4500;                     // 검색어 강조를 이 시간 뒤 자동 해제
+  function clearSearchHi() {
+    clearTimeout(hiTimer);
+    document.querySelectorAll('mark.s-hit').forEach(function (m) {
+      var p = m.parentNode; p.replaceChild(document.createTextNode(m.textContent), m); p.normalize();
+    });
+  }
+  function hiInSeg(seg, q) {                 // 이동한 세그먼트 안에서 검색어를 <mark> 로 강조(잠시 후 자동 해제)
+    if (!q) return;
+    var ql = q.toLowerCase(), walker = document.createTreeWalker(seg, NodeFilter.SHOW_TEXT, null), nodes = [], n;
+    while ((n = walker.nextNode())) nodes.push(n);
+    nodes.forEach(function (node) {
+      var txt = node.nodeValue, low = txt.toLowerCase(), idx = low.indexOf(ql);
+      if (idx === -1) return;
+      var frag = document.createDocumentFragment(), pos = 0;
+      while (idx !== -1) {
+        if (idx > pos) frag.appendChild(document.createTextNode(txt.slice(pos, idx)));
+        var m = document.createElement('mark'); m.className = 's-hit'; m.textContent = txt.slice(idx, idx + q.length);
+        frag.appendChild(m); pos = idx + q.length; idx = low.indexOf(ql, pos);
+      }
+      if (pos < txt.length) frag.appendChild(document.createTextNode(txt.slice(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+    clearTimeout(hiTimer);
+    hiTimer = setTimeout(clearSearchHi, HI_FADE_MS);
+  }
+  function srSnippet(a, text, hit, len) {   // 매치 주변만 잘라 스니펫(검색어 <mark>)
+    var pad = 28, start = Math.max(0, hit - pad);
+    var snip = document.createElement('span'); snip.className = 'sr-snip';
+    snip.appendChild(document.createTextNode((start > 0 ? '…' : '') + text.slice(start, hit)));
+    var m = document.createElement('mark'); m.textContent = text.slice(hit, hit + len); snip.appendChild(m);
+    var end = hit + len + pad * 2;
+    snip.appendChild(document.createTextNode(text.slice(hit + len, end) + (end < text.length ? '…' : '')));
+    a.appendChild(snip);
+  }
+  function runSearch(q) {
+    clearSearchHi(); lastQuery = q; if (searchList) searchList.innerHTML = '';
+    if (!searchList) return;
+    if (q.length < 2) { searchHint.style.display = 'block'; searchHint.textContent = q ? '두 글자 이상 입력하세요.' : '번역문과 원문(영어)을 함께 검색합니다.'; return; }
+    var ql = q.toLowerCase(), count = 0, capped = false, frag = document.createDocumentFragment();
+    var groups = chapters.length ? chapters : [b];
+    for (var ci = 0; ci < groups.length && !capped; ci++) {
+      var segs = groups[ci].querySelectorAll('.seg');
+      for (var i = 0; i < segs.length; i++) {
+        var seg = segs[i], koEl = seg.querySelector('.ko'), enEl = seg.querySelector('.orig');
+        var koT = koEl ? koEl.textContent : '', enT = enEl ? enEl.textContent : '';
+        var src = null;
+        if (koT.toLowerCase().indexOf(ql) !== -1) src = koT;
+        else if (enT.toLowerCase().indexOf(ql) !== -1) src = enT;
+        if (src === null) continue;
+        var norm = src.replace(/\s+/g, ' ').trim(), nhit = norm.toLowerCase().indexOf(ql);
+        if (nhit === -1) nhit = 0;
+        var li = document.createElement('li'); li.className = 'sr-item';
+        var a = document.createElement('a'); a.href = 'javascript:void(0)'; a.dataset.goto = seg.id;
+        if (chapters.length) { var ns = document.createElement('span'); ns.className = 'sr-n'; ns.textContent = ci + 1; a.appendChild(ns); }
+        srSnippet(a, norm, nhit, q.length);
+        li.appendChild(a); frag.appendChild(li);
+        if (++count >= SR_MAX) { capped = true; break; }
+      }
+    }
+    searchList.appendChild(frag);
+    searchHint.style.display = 'block';
+    searchHint.textContent = count ? (count + (capped ? '+ (상위 ' + SR_MAX + '개)' : '개') + ' 결과') : '결과 없음';
+  }
+  if (searchInput) searchInput.addEventListener('input', function () {
+    var q = this.value.trim();
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function () { runSearch(q); }, 120);
+  });
+  if (searchList) searchList.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[data-goto]'); if (!a) return;
+    var seg = document.getElementById(a.dataset.goto); if (!seg) return;
+    closePanels();
+    jumpTo(seg);
+    hiInSeg(seg, lastQuery);
+  });
+
   // ── 패널(목차·북마크·About) 공용 ───────────────────────────
   var backdrop = $('backdrop');
   function closePanels() {
@@ -283,6 +368,7 @@
   var chapters = [].slice.call(document.querySelectorAll('.chapter'));
   var curChap = -1;
   var pgPrev = $('pg-prev'), pgNext = $('pg-next'), pgMid = $('pg-mid');
+  var miPrev = document.querySelector('#menu [data-act="prev"]'), miNext = document.querySelector('#menu [data-act="next"]');
 
   function observeChapter(ch) {
     io.disconnect();
@@ -300,20 +386,20 @@
     curChap = idx;
     localStorage.setItem('bs_chap', idx);
     observeChapter(ch);
-    if (pgPrev) pgPrev.disabled = idx === 0;
-    if (pgNext) pgNext.disabled = idx === chapters.length - 1;
+    var atFirst = idx === 0, atLast = idx === chapters.length - 1;
+    if (pgPrev) pgPrev.disabled = atFirst;
+    if (pgNext) pgNext.disabled = atLast;
+    if (miPrev) miPrev.disabled = atFirst;
+    if (miNext) miNext.disabled = atLast;
     if (pgMid) pgMid.textContent = (idx + 1) + ' / ' + chapters.length;
     lastPosId = null; schedulePos();
     return ch;
   }
 
-  function gotoChapter(idx) {            // 이전/다음/화살표: 맨 위로 + URL 을 #chap-N 으로
+  function gotoChapter(idx) {            // 이전/다음/화살표: 맨 위로 (URL 은 바꾸지 않음)
     var prev = curChap;
     showChapter(idx);
-    if (curChap !== prev) {
-      window.scrollTo(0, 0);
-      history.replaceState(null, '', location.pathname + location.search + '#' + chapters[curChap].id);
-    }
+    if (curChap !== prev) window.scrollTo(0, 0);
   }
   if (pgPrev) pgPrev.onclick = function () { gotoChapter(curChap - 1); };
   if (pgNext) pgNext.onclick = function () { gotoChapter(curChap + 1); };
@@ -337,13 +423,10 @@
     })();
   }
 
-  // ── 해시(#id) 이동: 대상이 속한 챕터를 먼저 펼친 뒤 스크롤 + 플래시 ──
+  // ── 세그먼트로 이동: 대상이 속한 챕터를 먼저 펼친 뒤 스크롤 + 플래시 ──
+  //  (URL 은 건드리지 않는다 — 마지막 위치는 별도 동기화, 공유는 ⋮ 링크 복사로.)
   var flashTimer;
-  function goHash() {
-    var h = location.hash.slice(1);
-    if (!h) return;
-    var el = document.getElementById(h);
-    if (!el) return;
+  function revealSeg(el) {
     var chap = el.classList.contains('chapter') ? el : el.closest('.chapter');
     if (chap) showChapter(chapters.indexOf(chap));
     if (el.classList.contains('chapter')) { window.scrollTo(0, 0); return; }
@@ -351,6 +434,54 @@
     el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
     clearTimeout(flashTimer);
     flashTimer = setTimeout(function () { el.classList.remove('flash'); }, 1500);
+  }
+  function goHash() {                     // 최초 로드/공유 링크 진입: URL 해시로 이동
+    var h = location.hash.slice(1);
+    if (!h) return;
+    var el = document.getElementById(h);
+    if (el) revealSeg(el);
+  }
+  // 내부 앵커(#id) 클릭은 URL 을 바꾸지 않고 직접 '점프'시킨다(목차·북마크·용어집 링크).
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a[href^="#"]') : null;
+    if (!a) return;
+    var id = a.getAttribute('href').slice(1);
+    var el = id && document.getElementById(id);
+    if (!el) return;
+    e.preventDefault();
+    jumpTo(el);
+  });
+
+  // ── 내비 백스택: 점프 전 '읽던 곳'을 기억 → 좌하단 '↩ 읽던 곳으로' pill 로 복귀 ──
+  //  (검색·목차·북마크·용어집 링크로 지나간 챕터를 잠깐 보고 원위치로 돌아오는 흐름.
+  //   페이저/화살표의 순차 이동은 스택에 쌓지 않는다.)
+  var navStack = [], backpill = $('backpill'), backpillPct = $('backpill-pct');
+  function curReadId() { return lastPosId || localStorage.getItem('bs_pos'); }
+  function renderBackpill() {
+    if (!backpill) return;
+    if (!navStack.length) { backpill.classList.remove('show'); return; }
+    var id = navStack[navStack.length - 1];
+    backpillPct.textContent = '(' + Math.min(100, Math.round(num(id) / TOTAL * 100)) + '%)';
+    backpill.classList.add('show');
+  }
+  function jumpTo(el) {                    // 링크/검색 결과로 이동(점프 = 백스택에 push)
+    var from = curReadId();
+    var toId = el.id || (el.querySelector && (el.querySelector('.seg') || {}).id);
+    if (from && from !== toId && navStack[navStack.length - 1] !== from) navStack.push(from);
+    revealSeg(el);
+    renderBackpill();
+  }
+  if (backpill) {
+    backpill.querySelector('.bp-go').onclick = function () {   // 되돌아가기: 스택 pop
+      var id = navStack.pop();
+      var el = id && document.getElementById(id);
+      if (el) revealSeg(el);
+      renderBackpill();
+    };
+    backpill.querySelector('.bp-x').onclick = function () {     // 닫기: 스택 비우고 숨김
+      navStack.length = 0;
+      renderBackpill();
+    };
   }
 
   // ── 초기 표시 ────────────────────────────────────────────────

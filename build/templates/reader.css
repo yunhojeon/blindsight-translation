@@ -264,7 +264,8 @@ body.paged #pager {
   color: var(--muted);
 }
 
-.ic svg {
+.ic svg,
+.mi-nb svg {
   width: 1.15em;
   height: 1.15em;
   fill: none;
@@ -272,6 +273,50 @@ body.paged #pager {
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+/* 목차 행에 이전·다음(아이콘) 버튼을 오른쪽에 나란히 */
+.mi-navrow {
+  display: flex;
+  align-items: center;
+}
+
+.mi-navrow .mi {
+  flex: 1;
+  width: auto;
+}
+
+.mi-nb {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 11px;
+  border: none;
+  background: none;
+  color: var(--muted);
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.mi-nb:hover {
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+  color: var(--ink);
+}
+
+.mi-nb:disabled {
+  opacity: .35;
+  cursor: default;
+}
+
+.mi-nb:disabled:hover {
+  background: none;
+  color: var(--muted);
+}
+
+.mi-nb svg {
+  width: 1.25em;
+  height: 1.25em;
 }
 
 .mi.on .lbl::after {
@@ -688,8 +733,9 @@ body.show-orig .orig {
   font-size: 13px;
 }
 
-/* 용어집 검색 + 목록 */
-#gl-search {
+/* 용어집·본문 검색 입력 + 목록 */
+#gl-search,
+#search-input {
   width: 100%;
   margin: 0 0 10px;
   padding: 7px 10px;
@@ -701,9 +747,50 @@ body.show-orig .orig {
   border-radius: 8px;
 }
 
-#gl-search:focus {
+#gl-search:focus,
+#search-input:focus {
   outline: none;
   border-color: var(--accent);
+}
+
+/* 본문 검색 결과 */
+#search-hint {
+  margin: 0 0 8px;
+}
+
+#search-list .sr-item {
+  display: block;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+#search-list a {
+  display: block;
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+#search-list .sr-n {
+  display: inline-block;
+  min-width: 1.6em;
+  margin-right: 6px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  opacity: .7;
+  font-size: .9em;
+}
+
+#search-list .sr-snip {
+  color: var(--muted);
+  font-size: .95em;
+}
+
+#search-list mark,
+mark.s-hit {
+  background: color-mix(in srgb, var(--accent) 28%, transparent);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
 }
 
 #gl-list li {
@@ -828,6 +915,67 @@ body.show-orig .orig {
 #toast.show {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
+}
+
+/* ── '읽던 곳으로' 되돌아가기 pill(내비 백스택) — 좌하단(중앙 하단 배너와 겹치지 않게) ── */
+#backpill {
+  position: fixed;
+  left: 16px;
+  bottom: 24px;
+  display: none;
+  align-items: stretch;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--bg);
+  background: var(--ink);
+  border-radius: 22px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, .28);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .2s, transform .2s;
+  z-index: 40;
+}
+
+#backpill.show {
+  display: inline-flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#backpill button {
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+#backpill .bp-go {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 6px 9px 15px;
+  border-radius: 22px 0 0 22px;
+}
+
+#backpill .bp-arrow {
+  font-size: 1.05em;
+}
+
+#backpill .bp-pct {
+  color: color-mix(in srgb, var(--bg) 62%, transparent);
+  font-variant-numeric: tabular-nums;
+}
+
+#backpill .bp-x {
+  padding: 0 13px 0 9px;
+  border-radius: 0 22px 22px 0;
+  color: color-mix(in srgb, var(--bg) 62%, transparent);
+  font-size: 12px;
+}
+
+#backpill .bp-x:hover {
+  color: var(--bg);
 }
 
 /* ── 동기화 패널 · 배너 ──────────────────────────────────────────── */

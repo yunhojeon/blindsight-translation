@@ -42,14 +42,28 @@
           <path d="M8 16H3v5" />
         </svg></span><span class="lbl">동기화</span><span class="mi-val" id="sync-val">로그인</span></button>
     <div class="mi-sep"></div>
-    <button class="mi" data-act="toc"><span class="ic"><svg viewBox="0 0 24 24">
-          <path d="M3 5h.01" />
-          <path d="M3 12h.01" />
-          <path d="M3 19h.01" />
-          <path d="M8 5h13" />
-          <path d="M8 12h13" />
-          <path d="M8 19h13" />
-        </svg></span><span class="lbl">목차</span></button>
+    <button class="mi" data-act="search"><span class="ic"><svg viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg></span><span class="lbl">검색</span></button>
+    <div class="mi-navrow">
+      <button class="mi" data-act="toc"><span class="ic"><svg viewBox="0 0 24 24">
+            <path d="M3 5h.01" />
+            <path d="M3 12h.01" />
+            <path d="M3 19h.01" />
+            <path d="M8 5h13" />
+            <path d="M8 12h13" />
+            <path d="M8 19h13" />
+          </svg></span><span class="lbl">목차</span></button>
+      <button class="mi-nb" data-act="prev" title="이전 챕터" aria-label="이전 챕터"><svg viewBox="0 0 24 24">
+          <path d="M19 12H5" />
+          <path d="m12 19-7-7 7-7" />
+        </svg></button>
+      <button class="mi-nb" data-act="next" title="다음 챕터" aria-label="다음 챕터"><svg viewBox="0 0 24 24">
+          <path d="M5 12h14" />
+          <path d="m12 5 7 7-7 7" />
+        </svg></button>
+    </div>
     <button class="mi" data-act="glossary"><span class="ic"><svg viewBox="0 0 24 24">
           <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
           <path d="m8 13 4-7 4 7" />
@@ -144,6 +158,13 @@
     <ul id="toc-list" class="navlist">{{TOC}}</ul>
   </aside>
 
+  <aside id="search-panel" class="panel" aria-label="검색">
+    <h3>검색 <span class="x" data-close>✕</span></h3>
+    <input id="search-input" type="search" placeholder="본문 검색 (한글·영어)" autocomplete="off">
+    <p id="search-hint" class="empty">번역문과 원문(영어)을 함께 검색합니다.</p>
+    <ul id="search-list" class="navlist"></ul>
+  </aside>
+
   <aside id="gl-panel" class="panel" aria-label="용어집">
     <h3>용어집 <span class="x" data-close>✕</span></h3>
     <input id="gl-search" type="search" placeholder="용어 검색 (한글·영어)" autocomplete="off">
@@ -160,7 +181,8 @@
       <p>· 작중 조어는 가급적 원작의 뉘앙스를 살리기 위하여 의역보다는 음차하되, 원어 병기 및 용어 해설로 보완하였습니다.</p>
       <p>· <b>점선 밑줄</b>은 해설이 있다는 표시입니다(메뉴/용어 해설). 탭/클릭하면 영어 표제어와 해설이 보여집니다. 전체 목록은 <b>☰ → 용어집</b>.</p>
       <p>· 문단 왼쪽 <b>⋮</b> → 원문 보기 · 링크 복사 · 북마크.</p>
-      <p>· 상단 <b>☰</b> → 동기화 · 목차 · 용어집 · 북마크 · 원문 · 원어 병기 · 용어 해설 · 글자 크기 · 줄 간격 · 밝기.</p>
+      <p>· 상단 <b>☰</b> → 동기화 · 검색 · 목차 · 용어집 · 북마크 · 원문 · 원어 병기 · 용어 해설 · 글자 크기 · 줄 간격 · 밝기.</p>
+      <p>· <b>검색</b> 후 지나간 챕터를 잠깐 봤다면, 좌측 하단 <b>↩ 읽던 곳으로</b> 버튼으로 원위치로 돌아옵니다.</p>
       <p>· <b>동기화</b>: Google 로그인 시 읽던 위치·북마크·표시 설정이 기기 간에 이어집니다(글자 크기·밝기는 기기별).</p>
       <h4>라이선스·연락</h4>
       <p><a href="https://www.rifters.com/real/Blindsight.htm">원작</a> © Peter Watts, <a
@@ -180,6 +202,14 @@
     <span>다른 기기에서 <b id="sync-banner-pct">—</b>까지 읽었어요</span>
     <button id="sync-go">이어보기</button>
     <button id="sync-x" aria-label="닫기">✕</button>
+  </div>
+
+  <!-- 점프(검색·목차·북마크·용어집 링크) 후 '읽던 곳으로' 되돌아가는 플로팅 버튼(내비 백스택) -->
+  <div id="backpill" role="group" aria-label="읽던 곳으로 돌아가기">
+    <button class="bp-go" aria-label="읽던 곳으로 돌아가기">
+      <span class="bp-arrow" aria-hidden="true">↩</span><span class="bp-lbl">읽던 곳으로</span><span class="bp-pct" id="backpill-pct"></span>
+    </button>
+    <button class="bp-x" aria-label="닫기">✕</button>
   </div>
 
   <div id="toast"></div>

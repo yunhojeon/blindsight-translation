@@ -278,7 +278,8 @@ body.paged #pager {
   color: var(--muted);
 }
 
-.ic svg {
+.ic svg,
+.mi-nb svg {
   width: 1.15em;
   height: 1.15em;
   fill: none;
@@ -286,6 +287,50 @@ body.paged #pager {
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+/* 목차 행에 이전·다음(아이콘) 버튼을 오른쪽에 나란히 */
+.mi-navrow {
+  display: flex;
+  align-items: center;
+}
+
+.mi-navrow .mi {
+  flex: 1;
+  width: auto;
+}
+
+.mi-nb {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 11px;
+  border: none;
+  background: none;
+  color: var(--muted);
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.mi-nb:hover {
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+  color: var(--ink);
+}
+
+.mi-nb:disabled {
+  opacity: .35;
+  cursor: default;
+}
+
+.mi-nb:disabled:hover {
+  background: none;
+  color: var(--muted);
+}
+
+.mi-nb svg {
+  width: 1.25em;
+  height: 1.25em;
 }
 
 .mi.on .lbl::after {
@@ -702,8 +747,9 @@ body.show-orig .orig {
   font-size: 13px;
 }
 
-/* 용어집 검색 + 목록 */
-#gl-search {
+/* 용어집·본문 검색 입력 + 목록 */
+#gl-search,
+#search-input {
   width: 100%;
   margin: 0 0 10px;
   padding: 7px 10px;
@@ -715,9 +761,50 @@ body.show-orig .orig {
   border-radius: 8px;
 }
 
-#gl-search:focus {
+#gl-search:focus,
+#search-input:focus {
   outline: none;
   border-color: var(--accent);
+}
+
+/* 본문 검색 결과 */
+#search-hint {
+  margin: 0 0 8px;
+}
+
+#search-list .sr-item {
+  display: block;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+#search-list a {
+  display: block;
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+#search-list .sr-n {
+  display: inline-block;
+  min-width: 1.6em;
+  margin-right: 6px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  opacity: .7;
+  font-size: .9em;
+}
+
+#search-list .sr-snip {
+  color: var(--muted);
+  font-size: .95em;
+}
+
+#search-list mark,
+mark.s-hit {
+  background: color-mix(in srgb, var(--accent) 28%, transparent);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
 }
 
 #gl-list li {
@@ -842,6 +929,67 @@ body.show-orig .orig {
 #toast.show {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
+}
+
+/* ── '읽던 곳으로' 되돌아가기 pill(내비 백스택) — 좌하단(중앙 하단 배너와 겹치지 않게) ── */
+#backpill {
+  position: fixed;
+  left: 16px;
+  bottom: 24px;
+  display: none;
+  align-items: stretch;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--bg);
+  background: var(--ink);
+  border-radius: 22px;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, .28);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity .2s, transform .2s;
+  z-index: 40;
+}
+
+#backpill.show {
+  display: inline-flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#backpill button {
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+#backpill .bp-go {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 6px 9px 15px;
+  border-radius: 22px 0 0 22px;
+}
+
+#backpill .bp-arrow {
+  font-size: 1.05em;
+}
+
+#backpill .bp-pct {
+  color: color-mix(in srgb, var(--bg) 62%, transparent);
+  font-variant-numeric: tabular-nums;
+}
+
+#backpill .bp-x {
+  padding: 0 13px 0 9px;
+  border-radius: 0 22px 22px 0;
+  color: color-mix(in srgb, var(--bg) 62%, transparent);
+  font-size: 12px;
+}
+
+#backpill .bp-x:hover {
+  color: var(--bg);
 }
 
 /* ── 동기화 패널 · 배너 ──────────────────────────────────────────── */
@@ -998,7 +1146,7 @@ body.show-orig .orig {
 <p class="seg " id="s0043" data-id="s0043"><button class="seg-handle" aria-label="문단 도구" tabindex="-1">⋮</button><span class="ko">물론 어른들이 결국 나타났다. 약이 발라지고, 구급차가 불려 왔다. 부모들은 분개했고 외교적 설전이 오갔지만, 놀이터 감시 영상이 세 각도에서 그 귀한 자식이—그리고 친구 다섯이—장애가 있는 아이의 갈비뼈를 걷어차는 장면을 보여 주는 마당에, 다친 자기 아기를 위해 동네의 공분을 끌어내기란 어려운 일이다. 내 어머니는 어머니대로 문제아와 부재한 아버지에 대한 늘 하던 불평을 되풀이했지만—아버지는 또 어딘가 다른 반구에 나가 있었다—소동은 꽤 빨리 가라앉았다. 팩과 나는 친구로도 남았다. 서로 뭉치지 않는 운동장의 따돌림받는 아이들에게 열려 있는 사회적 전망이 얼마나 빈약한지 둘 다 새삼 깨닫게 한 짧은 공백기를 지나서.</span><span class="orig">The grownups showed up eventually, of course. Medicine was bestowed, ambulances called. Parents were outraged, diplomatic volleys exchanged, but it&#x27;s tough to drum up neighborhood outrage on behalf of your injured baby when playground surveillance from three angles shows the little darling—and five of his buddies— kicking in the ribs of a disabled boy. My mother, for her part, recycled the usual complaints about problem children and absentee fathers—Dad was off again in some other hemisphere—but the dust settled pretty quickly. Pag and I even stayed friends, after a short hiatus that reminded us both of the limited social prospects open to schoolyard rejects who don&#x27;t stick together.</span></p>
 <p class="seg " id="s0044" data-id="s0044"><button class="seg-handle" aria-label="문단 도구" tabindex="-1">⋮</button><span class="ko">그렇게 나는 그 일과 그 밖의 수많은 어린 시절 경험을 견뎌 냈다. 자라났고, 그럭저럭 어울려 지냈다. 끼어드는 법을 배웠다. 관찰하고, 기록하고, 알고리즘을 도출하고, 적절한 행동을 흉내 냈다. 그중 많은 것이—진심에서 우러난, 그게 맞는 말이겠지—그런 건 아니었다. 남들처럼 나도 친구와 적이 있었다. 여러 해의 관찰로 작성한 행동과 정황의 점검표를 훑어 가며 그들을 골랐다.</span><span class="orig">So I survived that and a million other childhood experiences. I grew up and I got along. I learned to fit in. I observed, recorded, derived the algorithms and mimicked appropriate behaviors. Not much of it was—heartfelt, I guess the word is. I had friends and enemies, like everyone else. I chose them by running through checklists of behaviors and circumstances compiled from years of observation.</span></p>
 <p class="seg " id="s0045" data-id="s0045"><button class="seg-handle" aria-label="문단 도구" tabindex="-1">⋮</button><span class="ko">나는 거리를 둔 채 자랐을지 몰라도 <span class="ital i-emphasis">객관적</span>으로 자랐고, 그건 <span class="gl" data-g="g140" data-ty="proper">로버트 파글리노</span> 덕분이다. 그의 결정적인 관찰이 모든 것을 움직이게 했다. 그것이 나를 <span class="gl" data-g="g45" data-ty="neologism">종합학</span><span class="anno" data-anno>(Synthesis)</span>으로 이끌었고, <span class="gl" data-g="g1" data-ty="neologism">스크램블러</span>와의 참담한 조우를 내 운명으로 정해 놓았으며, 지구에 닥친 더 나쁜 운명을 면하게 해 주었다. 아니, 관점에 따라서는 더 나은 운명이겠지. 관점은 <span class="ital i-emphasis">중요하다</span>. 이제야 그게 보인다. 눈먼 채, 혼잣말을 하며, 태양계 가장자리를 지나 떨어지는 관에 갇힌 채로. 어린 시절 전장에서 피투성이로 두들겨 맞은 친구가 내 관점을 내던지도록 나를 설득한 그 이후로, 처음으로 그게 보인다.</span><span class="orig">I may have grown up distant but I grew up <i>objective</i>, and I have Robert Paglino to thank for that. His seminal observation set everything in motion. It led me into Synthesis, fated me to our disastrous encounter with the Scramblers, spared me the worse fate befalling Earth. Or the better one, I suppose, depending on your point of view. Point of view <i>matters</i>: I see that now, blind, talking to myself, trapped in a coffin falling past the edge of the solar system. I see it for the first time since some beaten bloody friend on a childhood battlefield convinced me to throw my own point of view away.</span></p>
-<p class="seg " id="s0046" data-id="s0046"><button class="seg-handle" aria-label="문단 도구" tabindex="-1">⋮</button><span class="ko">그가 틀렸는지도 모른다. <span class="ital i-emphasis">나</span>가 틀렸는지도. 하지만 그, 그 <span class="ital i-emphasis">거리감</span>—제 동족 사이에서 이방인이라는 그 만성적인 감각—그게 전적으로 나쁜 것만은 아니다.</span><span class="orig">He may have been wrong. <i>I</i> may have been. But that, that <i>distance</i>—that chronic sense of being an alien among your own kind—it&#x27;s not entirely a bad thing.</span></p>
+<p class="seg " id="s0046" data-id="s0046"><button class="seg-handle" aria-label="문단 도구" tabindex="-1">⋮</button><span class="ko">그가 틀렸는지도 모른다. <span class="ital i-emphasis">내</span>가 틀렸는지도. 하지만 그, 그 <span class="ital i-emphasis">거리감</span>—제 동족 사이에서 이방인이라는 그 만성적인 감각—그게 전적으로 나쁜 것만은 아니다.</span><span class="orig">He may have been wrong. <i>I</i> may have been. But that, that <i>distance</i>—that chronic sense of being an alien among your own kind—it&#x27;s not entirely a bad thing.</span></p>
 <p class="seg " id="s0047" data-id="s0047"><button class="seg-handle" aria-label="문단 도구" tabindex="-1">⋮</button><span class="ko">진짜 외계인이 찾아왔을 때, 그것은 특히나 요긴했다.</span><span class="orig">It came in especially handy when the real aliens came calling.</span></p>
 </section>
 <section class="chapter" id="chap-1" data-part="Theseus" data-title="당신이 시리 키튼이라고 상상해 보라.">
@@ -4688,14 +4836,28 @@ body.show-orig .orig {
           <path d="M8 16H3v5" />
         </svg></span><span class="lbl">동기화</span><span class="mi-val" id="sync-val">로그인</span></button>
     <div class="mi-sep"></div>
-    <button class="mi" data-act="toc"><span class="ic"><svg viewBox="0 0 24 24">
-          <path d="M3 5h.01" />
-          <path d="M3 12h.01" />
-          <path d="M3 19h.01" />
-          <path d="M8 5h13" />
-          <path d="M8 12h13" />
-          <path d="M8 19h13" />
-        </svg></span><span class="lbl">목차</span></button>
+    <button class="mi" data-act="search"><span class="ic"><svg viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg></span><span class="lbl">검색</span></button>
+    <div class="mi-navrow">
+      <button class="mi" data-act="toc"><span class="ic"><svg viewBox="0 0 24 24">
+            <path d="M3 5h.01" />
+            <path d="M3 12h.01" />
+            <path d="M3 19h.01" />
+            <path d="M8 5h13" />
+            <path d="M8 12h13" />
+            <path d="M8 19h13" />
+          </svg></span><span class="lbl">목차</span></button>
+      <button class="mi-nb" data-act="prev" title="이전 챕터" aria-label="이전 챕터"><svg viewBox="0 0 24 24">
+          <path d="M19 12H5" />
+          <path d="m12 19-7-7 7-7" />
+        </svg></button>
+      <button class="mi-nb" data-act="next" title="다음 챕터" aria-label="다음 챕터"><svg viewBox="0 0 24 24">
+          <path d="M5 12h14" />
+          <path d="m12 5 7 7-7 7" />
+        </svg></button>
+    </div>
     <button class="mi" data-act="glossary"><span class="ic"><svg viewBox="0 0 24 24">
           <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
           <path d="m8 13 4-7 4 7" />
@@ -4817,6 +4979,13 @@ body.show-orig .orig {
 <li class="toc-scene"><a href="#s3626"><span class="toc-n">1</span>&quot;불쌍하긴,&quot; 각자의 길로 나뉘며 첼시가 말했다. &quot;가…</a></li></ul>
   </aside>
 
+  <aside id="search-panel" class="panel" aria-label="검색">
+    <h3>검색 <span class="x" data-close>✕</span></h3>
+    <input id="search-input" type="search" placeholder="본문 검색 (한글·영어)" autocomplete="off">
+    <p id="search-hint" class="empty">번역문과 원문(영어)을 함께 검색합니다.</p>
+    <ul id="search-list" class="navlist"></ul>
+  </aside>
+
   <aside id="gl-panel" class="panel" aria-label="용어집">
     <h3>용어집 <span class="x" data-close>✕</span></h3>
     <input id="gl-search" type="search" placeholder="용어 검색 (한글·영어)" autocomplete="off">
@@ -4833,7 +5002,8 @@ body.show-orig .orig {
       <p>· 작중 조어는 가급적 원작의 뉘앙스를 살리기 위하여 의역보다는 음차하되, 원어 병기 및 용어 해설로 보완하였습니다.</p>
       <p>· <b>점선 밑줄</b>은 해설이 있다는 표시입니다(메뉴/용어 해설). 탭/클릭하면 영어 표제어와 해설이 보여집니다. 전체 목록은 <b>☰ → 용어집</b>.</p>
       <p>· 문단 왼쪽 <b>⋮</b> → 원문 보기 · 링크 복사 · 북마크.</p>
-      <p>· 상단 <b>☰</b> → 동기화 · 목차 · 용어집 · 북마크 · 원문 · 원어 병기 · 용어 해설 · 글자 크기 · 줄 간격 · 밝기.</p>
+      <p>· 상단 <b>☰</b> → 동기화 · 검색 · 목차 · 용어집 · 북마크 · 원문 · 원어 병기 · 용어 해설 · 글자 크기 · 줄 간격 · 밝기.</p>
+      <p>· <b>검색</b> 후 지나간 챕터를 잠깐 봤다면, 좌측 하단 <b>↩ 읽던 곳으로</b> 버튼으로 원위치로 돌아옵니다.</p>
       <p>· <b>동기화</b>: Google 로그인 시 읽던 위치·북마크·표시 설정이 기기 간에 이어집니다(글자 크기·밝기는 기기별).</p>
       <h4>라이선스·연락</h4>
       <p><a href="https://www.rifters.com/real/Blindsight.htm">원작</a> © Peter Watts, <a
@@ -4853,6 +5023,14 @@ body.show-orig .orig {
     <span>다른 기기에서 <b id="sync-banner-pct">—</b>까지 읽었어요</span>
     <button id="sync-go">이어보기</button>
     <button id="sync-x" aria-label="닫기">✕</button>
+  </div>
+
+  <!-- 점프(검색·목차·북마크·용어집 링크) 후 '읽던 곳으로' 되돌아가는 플로팅 버튼(내비 백스택) -->
+  <div id="backpill" role="group" aria-label="읽던 곳으로 돌아가기">
+    <button class="bp-go" aria-label="읽던 곳으로 돌아가기">
+      <span class="bp-arrow" aria-hidden="true">↩</span><span class="bp-lbl">읽던 곳으로</span><span class="bp-pct" id="backpill-pct"></span>
+    </button>
+    <button class="bp-x" aria-label="닫기">✕</button>
   </div>
 
   <div id="toast"></div>
@@ -4943,6 +5121,9 @@ body.show-orig .orig {
       if (glossMode === 'off') closeGnote();
       notePrefs();
     }
+    else if (act === 'search') { closeMenu(); openPanel('search-panel'); setTimeout(function () { var s = $('search-input'); if (s) s.focus(); }, 60); }
+    else if (act === 'prev') { closeMenu(); gotoChapter(curChap - 1); }
+    else if (act === 'next') { closeMenu(); gotoChapter(curChap + 1); }
     else if (act === 'toc') { closeMenu(); openPanel('toc-panel'); }
     else if (act === 'glossary') { closeMenu(); renderGloss(); openPanel('gl-panel'); }
     else if (act === 'bm') { closeMenu(); renderBM(); openPanel('bm-panel'); }
@@ -5000,6 +5181,8 @@ body.show-orig .orig {
     if (!best || best.id === lastPosId) return;
     lastPosId = best.id;
     if (best.id) { localStorage.setItem('bs_pos', best.id); if (userMoved) notePosition(best.id); }   // 로컬 저장 항상 / 동기화는 사용자 스크롤 후
+    // 스크롤로 스스로 '읽던 곳'까지 돌아왔으면 백스택을 정리(pill 숨김).
+    if (typeof navStack !== 'undefined' && navStack.length && best.id === navStack[navStack.length - 1]) { navStack.pop(); renderBackpill(); }
     // 전체 진행률(%)만 표시 — 하단 페이저의 "N / 24"(챕터)와 단위가 겹쳐 헷갈리지 않도록.
     posEl.textContent = Math.min(100, Math.round(num(best.id) / TOTAL * 100)) + '%';
   }
@@ -5116,6 +5299,86 @@ body.show-orig .orig {
     });
   })();
 
+  // ── 본문 검색(번역문 + 원문 영어) — 질의 시점 선형 스캔, 별도 인덱스 없음 ──
+  var searchInput = $('search-input'), searchList = $('search-list'), searchHint = $('search-hint');
+  var SR_MAX = 200, searchTimer = null, lastQuery = '', hiTimer = null;
+  var HI_FADE_MS = 4500;                     // 검색어 강조를 이 시간 뒤 자동 해제
+  function clearSearchHi() {
+    clearTimeout(hiTimer);
+    document.querySelectorAll('mark.s-hit').forEach(function (m) {
+      var p = m.parentNode; p.replaceChild(document.createTextNode(m.textContent), m); p.normalize();
+    });
+  }
+  function hiInSeg(seg, q) {                 // 이동한 세그먼트 안에서 검색어를 <mark> 로 강조(잠시 후 자동 해제)
+    if (!q) return;
+    var ql = q.toLowerCase(), walker = document.createTreeWalker(seg, NodeFilter.SHOW_TEXT, null), nodes = [], n;
+    while ((n = walker.nextNode())) nodes.push(n);
+    nodes.forEach(function (node) {
+      var txt = node.nodeValue, low = txt.toLowerCase(), idx = low.indexOf(ql);
+      if (idx === -1) return;
+      var frag = document.createDocumentFragment(), pos = 0;
+      while (idx !== -1) {
+        if (idx > pos) frag.appendChild(document.createTextNode(txt.slice(pos, idx)));
+        var m = document.createElement('mark'); m.className = 's-hit'; m.textContent = txt.slice(idx, idx + q.length);
+        frag.appendChild(m); pos = idx + q.length; idx = low.indexOf(ql, pos);
+      }
+      if (pos < txt.length) frag.appendChild(document.createTextNode(txt.slice(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+    clearTimeout(hiTimer);
+    hiTimer = setTimeout(clearSearchHi, HI_FADE_MS);
+  }
+  function srSnippet(a, text, hit, len) {   // 매치 주변만 잘라 스니펫(검색어 <mark>)
+    var pad = 28, start = Math.max(0, hit - pad);
+    var snip = document.createElement('span'); snip.className = 'sr-snip';
+    snip.appendChild(document.createTextNode((start > 0 ? '…' : '') + text.slice(start, hit)));
+    var m = document.createElement('mark'); m.textContent = text.slice(hit, hit + len); snip.appendChild(m);
+    var end = hit + len + pad * 2;
+    snip.appendChild(document.createTextNode(text.slice(hit + len, end) + (end < text.length ? '…' : '')));
+    a.appendChild(snip);
+  }
+  function runSearch(q) {
+    clearSearchHi(); lastQuery = q; if (searchList) searchList.innerHTML = '';
+    if (!searchList) return;
+    if (q.length < 2) { searchHint.style.display = 'block'; searchHint.textContent = q ? '두 글자 이상 입력하세요.' : '번역문과 원문(영어)을 함께 검색합니다.'; return; }
+    var ql = q.toLowerCase(), count = 0, capped = false, frag = document.createDocumentFragment();
+    var groups = chapters.length ? chapters : [b];
+    for (var ci = 0; ci < groups.length && !capped; ci++) {
+      var segs = groups[ci].querySelectorAll('.seg');
+      for (var i = 0; i < segs.length; i++) {
+        var seg = segs[i], koEl = seg.querySelector('.ko'), enEl = seg.querySelector('.orig');
+        var koT = koEl ? koEl.textContent : '', enT = enEl ? enEl.textContent : '';
+        var src = null;
+        if (koT.toLowerCase().indexOf(ql) !== -1) src = koT;
+        else if (enT.toLowerCase().indexOf(ql) !== -1) src = enT;
+        if (src === null) continue;
+        var norm = src.replace(/\s+/g, ' ').trim(), nhit = norm.toLowerCase().indexOf(ql);
+        if (nhit === -1) nhit = 0;
+        var li = document.createElement('li'); li.className = 'sr-item';
+        var a = document.createElement('a'); a.href = 'javascript:void(0)'; a.dataset.goto = seg.id;
+        if (chapters.length) { var ns = document.createElement('span'); ns.className = 'sr-n'; ns.textContent = ci + 1; a.appendChild(ns); }
+        srSnippet(a, norm, nhit, q.length);
+        li.appendChild(a); frag.appendChild(li);
+        if (++count >= SR_MAX) { capped = true; break; }
+      }
+    }
+    searchList.appendChild(frag);
+    searchHint.style.display = 'block';
+    searchHint.textContent = count ? (count + (capped ? '+ (상위 ' + SR_MAX + '개)' : '개') + ' 결과') : '결과 없음';
+  }
+  if (searchInput) searchInput.addEventListener('input', function () {
+    var q = this.value.trim();
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function () { runSearch(q); }, 120);
+  });
+  if (searchList) searchList.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[data-goto]'); if (!a) return;
+    var seg = document.getElementById(a.dataset.goto); if (!seg) return;
+    closePanels();
+    jumpTo(seg);
+    hiInSeg(seg, lastQuery);
+  });
+
   // ── 패널(목차·북마크·About) 공용 ───────────────────────────
   var backdrop = $('backdrop');
   function closePanels() {
@@ -5150,6 +5413,7 @@ body.show-orig .orig {
   var chapters = [].slice.call(document.querySelectorAll('.chapter'));
   var curChap = -1;
   var pgPrev = $('pg-prev'), pgNext = $('pg-next'), pgMid = $('pg-mid');
+  var miPrev = document.querySelector('#menu [data-act="prev"]'), miNext = document.querySelector('#menu [data-act="next"]');
 
   function observeChapter(ch) {
     io.disconnect();
@@ -5167,20 +5431,20 @@ body.show-orig .orig {
     curChap = idx;
     localStorage.setItem('bs_chap', idx);
     observeChapter(ch);
-    if (pgPrev) pgPrev.disabled = idx === 0;
-    if (pgNext) pgNext.disabled = idx === chapters.length - 1;
+    var atFirst = idx === 0, atLast = idx === chapters.length - 1;
+    if (pgPrev) pgPrev.disabled = atFirst;
+    if (pgNext) pgNext.disabled = atLast;
+    if (miPrev) miPrev.disabled = atFirst;
+    if (miNext) miNext.disabled = atLast;
     if (pgMid) pgMid.textContent = (idx + 1) + ' / ' + chapters.length;
     lastPosId = null; schedulePos();
     return ch;
   }
 
-  function gotoChapter(idx) {            // 이전/다음/화살표: 맨 위로 + URL 을 #chap-N 으로
+  function gotoChapter(idx) {            // 이전/다음/화살표: 맨 위로 (URL 은 바꾸지 않음)
     var prev = curChap;
     showChapter(idx);
-    if (curChap !== prev) {
-      window.scrollTo(0, 0);
-      history.replaceState(null, '', location.pathname + location.search + '#' + chapters[curChap].id);
-    }
+    if (curChap !== prev) window.scrollTo(0, 0);
   }
   if (pgPrev) pgPrev.onclick = function () { gotoChapter(curChap - 1); };
   if (pgNext) pgNext.onclick = function () { gotoChapter(curChap + 1); };
@@ -5204,13 +5468,10 @@ body.show-orig .orig {
     })();
   }
 
-  // ── 해시(#id) 이동: 대상이 속한 챕터를 먼저 펼친 뒤 스크롤 + 플래시 ──
+  // ── 세그먼트로 이동: 대상이 속한 챕터를 먼저 펼친 뒤 스크롤 + 플래시 ──
+  //  (URL 은 건드리지 않는다 — 마지막 위치는 별도 동기화, 공유는 ⋮ 링크 복사로.)
   var flashTimer;
-  function goHash() {
-    var h = location.hash.slice(1);
-    if (!h) return;
-    var el = document.getElementById(h);
-    if (!el) return;
+  function revealSeg(el) {
     var chap = el.classList.contains('chapter') ? el : el.closest('.chapter');
     if (chap) showChapter(chapters.indexOf(chap));
     if (el.classList.contains('chapter')) { window.scrollTo(0, 0); return; }
@@ -5218,6 +5479,54 @@ body.show-orig .orig {
     el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
     clearTimeout(flashTimer);
     flashTimer = setTimeout(function () { el.classList.remove('flash'); }, 1500);
+  }
+  function goHash() {                     // 최초 로드/공유 링크 진입: URL 해시로 이동
+    var h = location.hash.slice(1);
+    if (!h) return;
+    var el = document.getElementById(h);
+    if (el) revealSeg(el);
+  }
+  // 내부 앵커(#id) 클릭은 URL 을 바꾸지 않고 직접 '점프'시킨다(목차·북마크·용어집 링크).
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a[href^="#"]') : null;
+    if (!a) return;
+    var id = a.getAttribute('href').slice(1);
+    var el = id && document.getElementById(id);
+    if (!el) return;
+    e.preventDefault();
+    jumpTo(el);
+  });
+
+  // ── 내비 백스택: 점프 전 '읽던 곳'을 기억 → 좌하단 '↩ 읽던 곳으로' pill 로 복귀 ──
+  //  (검색·목차·북마크·용어집 링크로 지나간 챕터를 잠깐 보고 원위치로 돌아오는 흐름.
+  //   페이저/화살표의 순차 이동은 스택에 쌓지 않는다.)
+  var navStack = [], backpill = $('backpill'), backpillPct = $('backpill-pct');
+  function curReadId() { return lastPosId || localStorage.getItem('bs_pos'); }
+  function renderBackpill() {
+    if (!backpill) return;
+    if (!navStack.length) { backpill.classList.remove('show'); return; }
+    var id = navStack[navStack.length - 1];
+    backpillPct.textContent = '(' + Math.min(100, Math.round(num(id) / TOTAL * 100)) + '%)';
+    backpill.classList.add('show');
+  }
+  function jumpTo(el) {                    // 링크/검색 결과로 이동(점프 = 백스택에 push)
+    var from = curReadId();
+    var toId = el.id || (el.querySelector && (el.querySelector('.seg') || {}).id);
+    if (from && from !== toId && navStack[navStack.length - 1] !== from) navStack.push(from);
+    revealSeg(el);
+    renderBackpill();
+  }
+  if (backpill) {
+    backpill.querySelector('.bp-go').onclick = function () {   // 되돌아가기: 스택 pop
+      var id = navStack.pop();
+      var el = id && document.getElementById(id);
+      if (el) revealSeg(el);
+      renderBackpill();
+    };
+    backpill.querySelector('.bp-x').onclick = function () {     // 닫기: 스택 비우고 숨김
+      navStack.length = 0;
+      renderBackpill();
+    };
   }
 
   // ── 초기 표시 ────────────────────────────────────────────────
