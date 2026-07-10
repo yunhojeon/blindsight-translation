@@ -876,15 +876,24 @@
     if (rp.chap != null) localStorage.setItem('bs_chap', rp.chap);
   }
 
-  function syncSchedule() { if (!SB || !sbUser) return; clearTimeout(pushTimer); pushTimer = setTimeout(syncNow, 3000); }
+  function syncSchedule() { if (!SB || !sbUser) return; clearTimeout(pushTimer); pushTimer = setTimeout(function () { syncNow(); }, 3000); }
 
-  function syncNow() {
+  //  Supabase JS 는 DB 오류를 reject 가 아니라 res.error 로 돌려준다 → 반드시 res.error 를 검사.
+  //  수동('지금 동기화')일 때만 토스트로 노출하고, 배경 동기화는 콘솔에만 남긴다.
+  function reportSyncErr(where, err, manual) {
+    if (!err) return false;
+    console.warn('[sync] ' + where + ' 실패:', err.message || err.code || err, err);
+    if (manual) toast('동기화 오류(' + where + '): ' + (err.message || err.code || '알 수 없음'));
+    return true;
+  }
+  function syncNow(manual) {
     if (!SB || !sbUser) return;
     clearTimeout(pushTimer);
     var local = syncLocalGet();
     var firstSync = localStorage.getItem('bs_synced') !== sbUser.id;   // 이 기기에서 이 계정 첫 동기화?
     SB.from('user_state').select('position,bookmarks,prefs,notes').eq('user_id', sbUser.id).maybeSingle()
       .then(function (res) {
+        if (res && res.error) { reportSyncErr('불러오기', res.error, manual); return; }
         var remote = (res && res.data) || {};
         var merged = mergeStates(remote, local);
         if (firstSync && remote.position) merged.position = remote.position;  // 첫 동기화: 서버 위치 우선(로컬 임시 스크롤이 서버를 덮어쓰지 않게)
@@ -895,9 +904,12 @@
           SB.from('user_state').upsert({
             user_id: sbUser.id, position: merged.position, bookmarks: merged.bookmarks,
             prefs: merged.prefs, notes: merged.notes, updated_at: new Date().toISOString()
-          }).then(function () { }, function () { });
-        }
-      }, function () { /* 네트워크 실패 무시 */ });
+          }).then(function (r2) {
+            if (r2 && r2.error) { reportSyncErr('저장', r2.error, manual); return; }
+            if (manual) toast('동기화 완료');
+          }, function (e2) { reportSyncErr('저장', e2, manual); });
+        } else if (manual) { toast('동기화 완료'); }
+      }, function (err) { reportSyncErr('불러오기', err, manual); });
   }
 
   // 배너
@@ -947,7 +959,7 @@
       var a = btn.dataset.sync;
       if (a === 'login') { if (SB) SB.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: location.href.split('#')[0] } }); }
       else if (a === 'logout') { if (SB) SB.auth.signOut(); }
-      else if (a === 'now') { syncNow(); toast('동기화 중…'); }
+      else if (a === 'now') { toast('동기화 중…'); syncNow(true); }
       else if (a === 'del') {
         if (SB && sbUser && confirm('원격에 저장된 내 읽기 데이터를 삭제할까요?')) {
           SB.from('user_state').delete().eq('user_id', sbUser.id).then(function () { toast('원격 데이터 삭제됨'); }, function () { });
@@ -968,7 +980,7 @@
     SB.auth.onAuthStateChange(function (_e, session) { onAuth(session); });
     // 숨김(다른 기기로 전환) 때 flush-push, 복귀 때 pull — 둘 다 syncNow 가 read-merge-write 로 처리.
     document.addEventListener('visibilitychange', function () { syncNow(); });
-    window.addEventListener('focus', syncNow);
+    window.addEventListener('focus', function () { syncNow(); });   // 이벤트 객체가 manual 로 새지 않게 래핑
   }
   initSync();
 })();
