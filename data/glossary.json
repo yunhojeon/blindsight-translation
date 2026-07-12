@@ -688,7 +688,7 @@
     "note": "종합가 시리를 빗댄 승무원들의 별명(지구에 보고하는 역할).",
     "note_level": "spoiler-safe",
     "first_seen": null,
-    "locked": false,
+    "locked": true,
     "review": true
   },
   "rigor vitae": {
@@ -1316,16 +1316,19 @@
     "review": true
   },
   "jargonaut": {
-    "ko": "은어꾼",
-    "strategy": "transliterate",
+    "ko": "전문어쟁이",
+    "strategy": "translate",
     "type": "neologism",
+    "aliases": [
+      "jargonauts"
+    ],
     "first_mark": {
       "en": true
     },
-    "note": "Argonaut 패러디. 전문 용어를 항해하듯 다루는 종합가를 비꼬는 거리 속어.",
+    "note": "jargon+Argonaut 합성 신조어. 종합가(시리)를 부르는 약간 비하적인 거리 속어.",
     "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
+    "first_seen": "s0300",
+    "locked": true,
     "review": true
   },
   "poppy": {
@@ -1459,13 +1462,13 @@
     "review": true
   },
   "microprobes": {
-    "ko": "마이크로탐침",
+    "ko": "마이크로탐사정",
     "strategy": "transliterate",
     "type": "neologism",
     "first_mark": {
       "en": true
     },
-    "note": "탐침 본체에서 독립 운용되는 소형 자율 탐사체.",
+    "note": "탐사정 본체에서 독립 운용되는 소형 자율 탐사체.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -1624,7 +1627,7 @@
     "note": "테세우스 함 내 공용 공간 명칭. 음차.",
     "note_level": "spoiler-safe",
     "first_seen": null,
-    "locked": false,
+    "locked": true,
     "review": true
   },
   "Sascha": {
@@ -3707,19 +3710,6 @@
     "locked": false,
     "review": true
   },
-  "grunts": {
-    "ko": "보병",
-    "strategy": "transliterate",
-    "type": "neologism",
-    "first_mark": {
-      "en": true
-    },
-    "note": "군사 속어. 여기서는 자동화 전투 드론을 가리킴. 인간 병사 어휘를 기계에 적용한 아이러니.",
-    "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
   "spinelight": {
     "ko": "척추등",
     "strategy": "transliterate",
@@ -3742,19 +3732,6 @@
     },
     "note": "진화생물학 표준 번역어. 혈연 관계에 기반한 이타적 행동 선택 이론.",
     "note_level": "science",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
-  "jargonauts": {
-    "ko": "전문어쟁이들",
-    "strategy": "transliterate",
-    "type": "neologism",
-    "first_mark": {
-      "en": true
-    },
-    "note": "jargon + Argonauts 합성 신조어. 전문용어를 구사하는 직종(종합가 등)을 약간 비하적으로 지칭. 음차보다 의미 번역이 자연스럽다고 판단.",
-    "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
     "review": true
@@ -3787,15 +3764,20 @@
   },
   "grunt": {
     "ko": "전투봇",
-    "strategy": "transliterate",
+    "strategy": "translate",
     "type": "neologism",
+    "aliases": [
+      "grunts",
+      "battlebot",
+      "battlebots"
+    ],
     "first_mark": {
       "en": true
     },
-    "note": "'battlebot'의 군사 구어체 속어. 보병을 뜻하는 'grunt'에서 파생된 전투용 드론/로봇 지칭어.",
+    "note": "베이츠가 운용하는 자동 전투 드론/로봇. 군사 속어 'grunt'(보병)와 'battlebot'에서 온 지칭어 — 인간 병사 어휘를 기계에 적용한 아이러니.",
     "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
+    "first_seen": "s1195",
+    "locked": true,
     "review": true
   },
   "informational topologies": {
@@ -5849,7 +5831,7 @@
     "note": "하인라인 단편 'Waldo'(1942) 유래. 원격 조종 기계 팔/매니퓰레이터. 음차.",
     "note_level": "spoiler-safe",
     "first_seen": null,
-    "locked": false,
+    "locked": true,
     "review": true
   },
   "anaerobe": {
@@ -5888,7 +5870,7 @@
     "note": "원격 조종 로봇 팔. Heinlein 단편 「Waldo」(1942)에서 유래한 SF 용어.",
     "note_level": "spoiler-safe",
     "first_seen": null,
-    "locked": false,
+    "locked": true,
     "review": true
   },
   "neurotrope": {
@@ -7647,7 +7629,7 @@
     "review": true
   },
   "ampsat": {
-    "ko": "암프샛",
+    "ko": "앰프샛",
     "strategy": "transliterate",
     "type": "neologism",
     "first_mark": {
@@ -7656,7 +7638,7 @@
     "note": "반물질 위성(antimatter satellite)의 조어로 추정. 음차 처리.",
     "note_level": "spoiler-safe",
     "first_seen": null,
-    "locked": false,
+    "locked": true,
     "review": true
   },
   "cosmic rays": {
@@ -8372,6 +8354,31 @@
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
+    "review": true
+  },
+  "probe": {
+    "ko": "탐사정",
+    "strategy": "translate",
+    "type": "science",
+    "aliases": [
+      "probes",
+      "probe's"
+    ],
+    "note": "테세우스가 사출하는 소형 무인 탐사정(우주 탐사 드론). 고유명 '잭(Jack)'. 물리적 探針(바늘)이 아니라 정찰·탐사용 무인정.",
+    "first_seen": "s0272",
+    "locked": true,
+    "review": true
+  },
+  "scout": {
+    "ko": "정찰정",
+    "strategy": "translate",
+    "type": "science",
+    "aliases": [
+      "scouts"
+    ],
+    "note": "테세우스가 앞서 보내는 선발 정찰용 무인정. 종종 주 탐사정(잭)을 가리킨다.",
+    "first_seen": "s0527",
+    "locked": true,
     "review": true
   }
 }

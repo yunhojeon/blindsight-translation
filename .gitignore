@@ -4,6 +4,9 @@ CLAUDE_CODE_OAUTH_TOKEN
 # 작업 임시 파일
 data/.work/
 
+# 감수 원본 백업(git 히스토리에 원본이 이미 있어 중복 — 파생 데이터)
+data/review_backup/
+
 # 빌드 산출물(데이터에서 재생성 가능)
 dist/
 
