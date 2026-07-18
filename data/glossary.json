@@ -2936,6 +2936,22 @@
     "locked": false,
     "review": true
   },
+  "visor": {
+    "ko": "바이저",
+    "strategy": "transliterate",
+    "type": "science",
+    "aliases": [
+      "visored"
+    ],
+    "first_mark": {
+      "en": true
+    },
+    "note": "사라스티가 눈을 가리려 쓰는 검은 곡면 안면 가리개. 부활한 흡혈귀인 그의 포식자 같은 눈매가 인간 승무원에게 주는 위압감을 덜기 위해, '인간의 신경과민을 배려해' 착용한다. 테이블 그래픽이 반사되어 눈이 있어야 할 자리에 다색의 왜곡된 빛 띠로 어른거린다.",
+    "note_level": "science",
+    "first_seen": "s0099",
+    "locked": false,
+    "review": true
+  },
   "subvocal command": {
     "ko": "아음 명령",
     "strategy": "transliterate",
