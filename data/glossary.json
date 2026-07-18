@@ -2894,6 +2894,19 @@
     "locked": false,
     "review": true
   },
+  "Porcupine": {
+    "ko": "호저",
+    "strategy": "translate",
+    "type": "science",
+    "first_mark": {
+      "en": true
+    },
+    "note": "긴 가시로 몸을 덮은 설치류. 먼저 공격하지 않고 위협을 받으면 가시를 세워 방어한다.",
+    "note_level": "science",
+    "first_seen": null,
+    "locked": false,
+    "review": true
+  },
   "subvocal command": {
     "ko": "아음 명령",
     "strategy": "transliterate",
