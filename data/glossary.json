@@ -2923,6 +2923,19 @@
     "locked": false,
     "review": true
   },
+  "Weapons muzzles": {
+    "ko": "무기 포구",
+    "strategy": "translate",
+    "type": "science",
+    "first_mark": {
+      "en": true
+    },
+    "note": "총열·포신 끝의, 총알이나 포탄이 발사되어 나오는 구멍. 본문에선 테세우스가 출산하듯 찍어내는 무장 드론의 표면에 안테나·광학 포트·접이식 실톱과 함께 박혀 있는 무기의 발사구로 등장한다.",
+    "note_level": "science",
+    "first_seen": null,
+    "locked": false,
+    "review": true
+  },
   "subvocal command": {
     "ko": "아음 명령",
     "strategy": "transliterate",
