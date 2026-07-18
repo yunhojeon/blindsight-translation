@@ -4245,28 +4245,22 @@
     "review": true
   },
   "MCC": {
-    "ko": "멀티코어 복합체",
-    "strategy": "transliterate",
-    "type": "neologism",
-    "first_mark": {
-      "en": true
-    },
-    "note": "Multi-Core Complex. 다중인격을 가리키는 현대적 공식 용어(MPD의 후신).",
+    "ko": "MCC",
+    "strategy": "keep",
+    "type": "science",
+    "note": "Multiple Core Complex(다중핵심복합체). 한 사람 안에 복수의 인격핵을 의도적으로 만들어 공존시키는 현대의 공식 시술·진단명. 과거 자연발생적 병리였던 MPD의 후신으로, '장애(Disorder)'가 아니라 '복합체(Complex)'로 재규정됐다. 번역문은 원문처럼 약어 그대로 표기.",
     "note_level": "spoiler-safe",
-    "first_seen": null,
+    "first_seen": "s1447",
     "locked": false,
     "review": true
   },
   "MPD": {
-    "ko": "다중인격장애",
-    "strategy": "translate",
+    "ko": "MPD",
+    "strategy": "keep",
     "type": "science",
-    "first_mark": {
-      "en": true
-    },
-    "note": "Multiple Personality Disorder. 과거 진단명. 소설 내 현재 시점에서는 MCC로 대체.",
+    "note": "Multiple Personality Disorder(다중인격장애). 극심한 학대 등으로 하나의 정신이 여러 인격으로 자연 분열하던 옛 병리. 시냅스 재연결 기술이 나오기도 전에 반쯤 잊힌 유행이 되었고, 훗날 의도적으로 유발하는 MCC(복합체)로 재구성된다. 번역문은 원문처럼 약어 그대로 표기.",
     "note_level": "science",
-    "first_seen": null,
+    "first_seen": "s1447",
     "locked": false,
     "review": true
   },
