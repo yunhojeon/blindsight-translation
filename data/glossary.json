@@ -2907,6 +2907,22 @@
     "locked": false,
     "review": true
   },
+  "cyclotron": {
+    "ko": "사이클로트론",
+    "strategy": "transliterate",
+    "type": "science",
+    "aliases": [
+      "cyclotrons"
+    ],
+    "first_mark": {
+      "en": true
+    },
+    "note": "강한 자기장으로 하전 입자를 나선 궤도에 가두고 고주파 전기장으로 반복 가속하는 원형 입자가속기. 본문에선 강렬한 방사선·자기장 속에서 하전 입자가 상대론적 속도로 궤도를 도는 로르샤흐의 내부 환경을 '반쯤 노출된 사이클로트론들의 둥지'에 빗대는 데 쓰인다.",
+    "note_level": "science",
+    "first_seen": null,
+    "locked": false,
+    "review": true
+  },
   "subvocal command": {
     "ko": "아음 명령",
     "strategy": "transliterate",
