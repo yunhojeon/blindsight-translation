@@ -2881,6 +2881,19 @@
     "locked": false,
     "review": true
   },
+  "harmonic spectra": {
+    "ko": "배음 스펙트럼",
+    "strategy": "translate",
+    "type": "science",
+    "first_mark": {
+      "en": true
+    },
+    "note": "신호를 기본 주파수의 정수배(배음) 성분으로 분해해 보여주는 스펙트럼. 본문에선 주파수 히스토그램과 함께 로르샤흐 신호를 시각화한 표시로 등장('가시광선의 합창').",
+    "note_level": "science",
+    "first_seen": null,
+    "locked": false,
+    "review": true
+  },
   "subvocal command": {
     "ko": "아음 명령",
     "strategy": "transliterate",
