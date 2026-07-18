@@ -2952,6 +2952,19 @@
     "locked": false,
     "review": true
   },
+  "HUD": {
+    "ko": "HUD",
+    "strategy": "keep",
+    "type": "science",
+    "aliases": [
+      "HUDs"
+    ],
+    "note": "Heads-Up Display(헤드업 디스플레이). 시야를 가리지 않도록 헬멧 페이스플레이트(또는 조종석 유리)에 정보를 겹쳐 띄우는 표시장치. 본문에선 EVA 슈트 착용자의 시야에 팀원 영상 창, 소나 3D 모델, 방사선·자기장 수치, 링크 상태 등을 겹쳐 보여주는 헬멧 내부 디스플레이로 등장한다. 번역문은 원문처럼 약어 그대로 표기.",
+    "note_level": "science",
+    "first_seen": "s1463",
+    "locked": false,
+    "review": true
+  },
   "subvocal command": {
     "ko": "아음 명령",
     "strategy": "transliterate",
