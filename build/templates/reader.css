@@ -515,6 +515,7 @@ body.gloss-off .gl {
 
 #gnote .gn-note {
   color: var(--ink);
+  white-space: pre-line;   /* note 내 개행(\n) 보존 — 단계별 예문 줄바꿈 */
 }
 
 /* ── 이탤릭 목적별 스타일 ────────────────────────────────────────── */
@@ -822,6 +823,7 @@ mark.s-hit {
   color: var(--muted);
   font-size: .9em;
   margin-top: 2px;
+  white-space: pre-line;   /* note 내 개행(\n) 보존 — 단계별 예문 줄바꿈 */
 }
 
 #gl-list a:hover .gl-ko {
