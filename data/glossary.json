@@ -2843,6 +2843,9 @@
     "ko": "호만 전이",
     "strategy": "translate",
     "type": "science",
+    "aliases": [
+      "Hohmann transfers"
+    ],
     "first_mark": {
       "en": true
     },
