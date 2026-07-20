@@ -2843,6 +2843,9 @@
     "ko": "호만 전이",
     "strategy": "translate",
     "type": "science",
+    "aliases": [
+      "Hohmann transfers"
+    ],
     "first_mark": {
       "en": true
     },
@@ -2875,6 +2878,90 @@
     "note": "로르샤흐가 테세우스의 접근 직후 발신한 광 통신 신호. 이후 등장 시 동일 용어 사용 권장.",
     "note_level": "science",
     "first_seen": null,
+    "locked": false,
+    "review": true
+  },
+  "harmonic spectra": {
+    "ko": "배음 스펙트럼",
+    "strategy": "translate",
+    "type": "science",
+    "first_mark": {
+      "en": true
+    },
+    "note": "신호를 기본 주파수의 정수배(배음) 성분으로 분해해 보여주는 스펙트럼. 본문에선 주파수 히스토그램과 함께 로르샤흐 신호를 시각화한 표시로 등장('가시광선의 합창').",
+    "note_level": "science",
+    "first_seen": null,
+    "locked": false,
+    "review": true
+  },
+  "Porcupine": {
+    "ko": "호저",
+    "strategy": "translate",
+    "type": "science",
+    "first_mark": {
+      "en": true
+    },
+    "note": "긴 가시로 몸을 덮은 설치류. 먼저 공격하지 않고 위협을 받으면 가시를 세워 방어한다.",
+    "note_level": "science",
+    "first_seen": null,
+    "locked": false,
+    "review": true
+  },
+  "cyclotron": {
+    "ko": "사이클로트론",
+    "strategy": "transliterate",
+    "type": "science",
+    "aliases": [
+      "cyclotrons"
+    ],
+    "first_mark": {
+      "en": true
+    },
+    "note": "강한 자기장으로 하전 입자를 나선 궤도에 가두고 고주파 전기장으로 반복 가속하는 원형 입자가속기. 본문에선 강렬한 방사선·자기장 속에서 하전 입자가 상대론적 속도로 궤도를 도는 로르샤흐의 내부 환경을 '반쯤 노출된 사이클로트론들의 둥지'에 빗대는 데 쓰인다.",
+    "note_level": "science",
+    "first_seen": null,
+    "locked": false,
+    "review": true
+  },
+  "Weapons muzzles": {
+    "ko": "무기 포구",
+    "strategy": "translate",
+    "type": "science",
+    "first_mark": {
+      "en": true
+    },
+    "note": "총열·포신 끝의, 총알이나 포탄이 발사되어 나오는 구멍. 본문에선 테세우스가 출산하듯 찍어내는 무장 드론의 표면에 안테나·광학 포트·접이식 실톱과 함께 박혀 있는 무기의 발사구로 등장한다.",
+    "note_level": "science",
+    "first_seen": null,
+    "locked": false,
+    "review": true
+  },
+  "visor": {
+    "ko": "바이저",
+    "strategy": "transliterate",
+    "type": "science",
+    "aliases": [
+      "visored"
+    ],
+    "first_mark": {
+      "en": true
+    },
+    "note": "사라스티가 눈을 가리려 쓰는 검은 곡면 안면 가리개. 부활한 흡혈귀인 그의 포식자 같은 눈매가 인간 승무원에게 주는 위압감을 덜기 위해, '인간의 신경과민을 배려해' 착용한다. 테이블 그래픽이 반사되어 눈이 있어야 할 자리에 다색의 왜곡된 빛 띠로 어른거린다.",
+    "note_level": "science",
+    "first_seen": "s0099",
+    "locked": false,
+    "review": true
+  },
+  "HUD": {
+    "ko": "HUD",
+    "strategy": "keep",
+    "type": "science",
+    "aliases": [
+      "HUDs"
+    ],
+    "note": "Heads-Up Display(헤드업 디스플레이). 시야를 가리지 않도록 헬멧 페이스플레이트(또는 조종석 유리)에 정보를 겹쳐 띄우는 표시장치. 본문에선 EVA 슈트 착용자의 시야에 팀원 영상 창, 소나 3D 모델, 방사선·자기장 수치, 링크 상태 등을 겹쳐 보여주는 헬멧 내부 디스플레이로 등장한다. 번역문은 원문처럼 약어 그대로 표기.",
+    "note_level": "science",
+    "first_seen": "s1463",
     "locked": false,
     "review": true
   },
@@ -2989,7 +3076,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "Faculty of Language Narrow(협의의 언어 능력). Hauser·Chomsky·Fitch(2002). 약어 FLN 유지.",
+    "note": "구 안에 구를 겹겹이 중첩하는 능력.\n1단계: 로르샤흐가 말했다.\n2단계: [주카가 의심한] 로르샤흐가 말했다.\n3단계: [시리가 [주카가 의심한] 것을 기록한] 로르샤흐가 말했다.\n4단계: [수전이 [시리가 [주카가 의심한] 것을 기록한] 줄 몰랐던] 로르샤흐가 말했다.",
     "note_level": "science",
     "first_seen": null,
     "locked": false,
@@ -4171,28 +4258,22 @@
     "review": true
   },
   "MCC": {
-    "ko": "멀티코어 복합체",
-    "strategy": "transliterate",
-    "type": "neologism",
-    "first_mark": {
-      "en": true
-    },
-    "note": "Multi-Core Complex. 다중인격을 가리키는 현대적 공식 용어(MPD의 후신).",
+    "ko": "MCC",
+    "strategy": "keep",
+    "type": "science",
+    "note": "Multiple Core Complex(다중핵심복합체). 한 사람 안에 복수의 인격핵을 의도적으로 만들어 공존시키는 현대의 공식 시술·진단명. 과거 자연발생적 병리였던 MPD의 후신으로, '장애(Disorder)'가 아니라 '복합체(Complex)'로 재규정됐다. 번역문은 원문처럼 약어 그대로 표기.",
     "note_level": "spoiler-safe",
-    "first_seen": null,
+    "first_seen": "s1447",
     "locked": false,
     "review": true
   },
   "MPD": {
-    "ko": "다중인격장애",
-    "strategy": "translate",
+    "ko": "MPD",
+    "strategy": "keep",
     "type": "science",
-    "first_mark": {
-      "en": true
-    },
-    "note": "Multiple Personality Disorder. 과거 진단명. 소설 내 현재 시점에서는 MCC로 대체.",
+    "note": "Multiple Personality Disorder(다중인격장애). 극심한 학대 등으로 하나의 정신이 여러 인격으로 자연 분열하던 옛 병리. 시냅스 재연결 기술이 나오기도 전에 반쯤 잊힌 유행이 되었고, 훗날 의도적으로 유발하는 MCC(복합체)로 재구성된다. 번역문은 원문처럼 약어 그대로 표기.",
     "note_level": "science",
-    "first_seen": null,
+    "first_seen": "s1447",
     "locked": false,
     "review": true
   },

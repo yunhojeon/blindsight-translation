@@ -214,7 +214,11 @@ def _occurrences(html_str, g):
     """이 세그먼트 렌더 HTML 에서 g 의 ko_forms 가 경계·태그 조건을 만족하는 (idx,end) 목록."""
     occ = []
     for form in sorted(g["ko_forms"], key=len, reverse=True):
-        latin = _has_latin(form)
+        # 경계 검사는 form의 실제 양 끝 문자 기준(ASCII 영숫자일 때만 영어 단어경계).
+        # 끝이 한글인 form(예: "FLN 재귀")은 뒤에 조사가 붙어도 매치되어야 하므로
+        # 우측을 latin 규칙으로 막지 않는다.
+        head_latin = form[0].isascii() and form[0].isalnum()
+        tail_latin = form[-1].isascii() and form[-1].isalnum()
         start = 0
         while True:
             idx = html_str.find(form, start)
@@ -224,9 +228,9 @@ def _occurrences(html_str, g):
             end = idx + len(form)
             if idx > 0:                                   # 좌측 경계
                 pc = html_str[idx - 1]
-                if _HANGUL(pc) or (latin and pc.isalnum()):
+                if _HANGUL(pc) or (head_latin and pc.isascii() and pc.isalnum()):
                     continue
-            if latin and end < len(html_str) and html_str[end].isalnum():
+            if tail_latin and end < len(html_str) and html_str[end].isascii() and html_str[end].isalnum():
                 continue
             if _in_tag(html_str, idx):
                 continue
