@@ -222,12 +222,16 @@ def _occurrences(html_str, g):
                 break
             start = idx + 1
             end = idx + len(form)
+            # 라틴 포함 형태(r-선택자 등)는 "영어 단어 중간" 매칭만 막는다.
+            # 주의: 한글도 isalnum()==True 이므로 ASCII 로 한정해야 조사·어미("r-선택자야")가 붙어도 매칭된다.
             if idx > 0:                                   # 좌측 경계
                 pc = html_str[idx - 1]
-                if _HANGUL(pc) or (latin and pc.isalnum()):
+                if _HANGUL(pc) or (latin and pc.isascii() and pc.isalnum()):
                     continue
-            if latin and end < len(html_str) and html_str[end].isalnum():
-                continue
+            if latin and end < len(html_str):
+                nc = html_str[end]
+                if nc.isascii() and nc.isalnum():
+                    continue
             if _in_tag(html_str, idx):
                 continue
             occ.append((idx, end))
