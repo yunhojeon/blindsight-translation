@@ -98,6 +98,25 @@
   ['wheel', 'touchmove', 'keydown'].forEach(function (ev) {
     window.addEventListener(ev, function () { userMoved = true; }, { passive: true });
   });
+  // ── 프로그램적 스크롤 게이트 ────────────────────────────────────
+  //  복원·이어보기·점프의 중간 프레임이 notePosition() 으로 새 타임스탬프를
+  //  push 해 다른 기기의 실제 위치를 덮어쓰는 것을 막는다.
+  //   · 목표 도달(progTarget) → 즉시 해제('start' 정렬은 헤더 아래에 안착해 best 로 선택됨)
+  //   · 정착 타이머          → 확정 해제('center' 정렬·조기반환 대비의 권위 있는 해제)
+  //   · progRecord=true(사용자 내비게이션) 일 때만 해제 시점에 lastPosId 로 1회 기록
+  var PROG_SETTLE_MS = 600;   // 8프레임(~130ms) + IO 재관찰 + content-visibility 리플로우 여유
+  var progTarget = null, progRecord = false, progTimer = null;
+  function beginProg(id, record) {
+    clearTimeout(progTimer);                 // 연타는 이전 게이트를 커밋 없이 대체
+    progTarget = id || null; progRecord = !!record;
+    progTimer = setTimeout(function () { endProg(true); }, PROG_SETTLE_MS);
+  }
+  function endProg(commit) {
+    clearTimeout(progTimer); progTimer = null;
+    var rec = progRecord; progTarget = null; progRecord = false;
+    if (commit && rec && userMoved && lastPosId) notePosition(lastPosId);
+  }
+  function firstSegId(ch) { var s = ch && ch.querySelector('.seg'); return s ? s.id : null; }
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) { if (e.isIntersecting) visible.add(e.target); else visible.delete(e.target); });
     schedulePos();
@@ -136,7 +155,14 @@
     if (!best) visible.forEach(function (s) { var t = s.getBoundingClientRect().top; if (t < bestTop) { bestTop = t; best = s; } });
     if (!best || best.id === lastPosId) return;
     lastPosId = best.id;
-    if (best.id) { localStorage.setItem('bs_pos', best.id); if (userMoved) notePosition(best.id); }   // 로컬 저장 항상 / 동기화는 사용자 스크롤 후
+    if (best.id) {
+      localStorage.setItem('bs_pos', best.id);              // 로컬 저장은 항상(기존 동작 유지)
+      if (progTimer) {                                       // 프로그램적 스크롤 진행 중 — 동기화 억제
+        if (progTarget && best.id === progTarget) endProg(true);   // 목표 도달 → 즉시 확정
+      } else if (userMoved) {
+        notePosition(best.id);                              // 사용자 스크롤 → 동기화 기록
+      }
+    }
     // 스크롤로 스스로 '읽던 곳'까지 돌아왔으면 백스택을 정리(pill 숨김).
     if (typeof navStack !== 'undefined' && navStack.length && best.id === navStack[navStack.length - 1]) { navStack.pop(); renderBackpill(); }
     // 전체 진행률(%)만 표시 — 하단 페이저의 "N / 24"(챕터)와 단위가 겹쳐 헷갈리지 않도록.
@@ -399,8 +425,8 @@
 
   function gotoChapter(idx) {            // 이전/다음/화살표: 맨 위로 (URL 은 바꾸지 않음)
     var prev = curChap;
-    showChapter(idx);
-    if (curChap !== prev) window.scrollTo(0, 0);
+    var ch = showChapter(idx);
+    if (curChap !== prev) { beginProg(firstSegId(ch), true); window.scrollTo(0, 0); }   // 새 챕터 첫 문단을 의도적으로 기록
   }
   if (pgPrev) pgPrev.onclick = function () { gotoChapter(curChap - 1); };
   if (pgNext) pgNext.onclick = function () { gotoChapter(curChap + 1); };
@@ -427,10 +453,12 @@
   // ── 세그먼트로 이동: 대상이 속한 챕터를 먼저 펼친 뒤 스크롤 + 플래시 ──
   //  (URL 은 건드리지 않는다 — 마지막 위치는 별도 동기화, 공유는 ⋮ 링크 복사로.)
   var flashTimer;
-  function revealSeg(el) {
-    var chap = el.classList.contains('chapter') ? el : el.closest('.chapter');
+  function revealSeg(el, record) {         // record !== false → 사용자 내비게이션(도착점 1회 기록)
+    var isChap = el.classList.contains('chapter');
+    beginProg(isChap ? firstSegId(el) : el.id, record !== false);
+    var chap = isChap ? el : el.closest('.chapter');
     if (chap) showChapter(chapters.indexOf(chap));
-    if (el.classList.contains('chapter')) { window.scrollTo(0, 0); return; }
+    if (isChap) { window.scrollTo(0, 0); return; }
     scrollToSeg(el, 'center');
     el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash');
     clearTimeout(flashTimer);
@@ -490,13 +518,15 @@
     var posId = localStorage.getItem('bs_pos');
     var el = posId && document.getElementById(posId);
     if (el) {
+      beginProg(el.id, false);                              // 복원은 기록하지 않음(중간 프레임 억제)
       var chap = el.closest('.chapter');
       if (chap) showChapter(chapters.indexOf(chap));
       scrollToSeg(el, 'start');
       return true;
     }
     var saved = parseInt(localStorage.getItem('bs_chap'), 10);   // 위치 기록 없으면 챕터만
-    showChapter((isNaN(saved) || saved < 0) ? 0 : saved);
+    var ch = showChapter((isNaN(saved) || saved < 0) ? 0 : saved);
+    beginProg(firstSegId(ch), false);                      // 챕터만 복원 — 첫 문단 기록 억제
     window.scrollTo(0, 0);
     return false;
   }
@@ -788,6 +818,7 @@
   //  로컬 정본은 bs_sync(JSON). 필드별 LWW, 북마크는 키별 LWW+tombstone.
   //  위치 충돌: 원격이 더 최신이면 자동 이동하지 않고 '이어 읽기' 배너만.
   var SB = null, sbUser = null, pushTimer = null;
+  var sbToken = null, sbExp = 0, flushedTs = 0;   // 백그라운드 flush 용: 동기 접근 가능한 토큰 + 중복 발행 방지
   var deviceId = localStorage.getItem('bs_device');
   if (!deviceId) { deviceId = 'd' + Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem('bs_device', deviceId); }
 
@@ -866,6 +897,7 @@
   }
 
   function adoptPosition(rp) {
+    beginProg(rp.seg_id, false);            // 원격 위치 채택 — 기록 억제(el 이 null 이어도 게이트 필요)
     var el = document.getElementById(rp.seg_id);
     if (el) {
       var chap = el.closest('.chapter');
@@ -877,6 +909,28 @@
   }
 
   function syncSchedule() { if (!SB || !sbUser) return; clearTimeout(pushTimer); pushTimer = setTimeout(function () { syncNow(); }, 3000); }
+
+  // ── 백그라운드 전환(잠금·앱 전환) 시 '위치만' 즉시 push ──────────────
+  //  syncNow 는 SELECT→UPSERT 체인이라 페이지가 얼면 UPSERT 가 발행되지 않는다.
+  //  keepalive fetch 는 문서가 파기돼도 브라우저가 요청을 끝까지 보낸다(sendBeacon 은
+  //  Authorization 헤더를 못 실어 불가). RPC 는 position 컬럼만, ts 가 더 클 때만 쓴다
+  //  → 북마크·메모 손실 불가, 위치 역행 불가. 드롭돼도 다음 로드의 syncNow 가 복구.
+  function flushPosition() {
+    if (!window.__SB__ || !sbUser || !sbToken) return;             // 미설정·로그아웃 → no-op
+    if (localStorage.getItem('bs_synced') !== sbUser.id) return;   // 이 계정 첫 동기화 전엔 push 금지(계정 전환 오염 방지)
+    if (sbExp && sbExp * 1000 <= Date.now() + 5000) return;        // 만료(임박) 토큰 → 다음 로드의 syncNow 에 위임
+    var p = syncLocalGet().position;
+    if (!p || !p.seg_id || !p.ts || p.ts <= flushedTs) return;     // 위치 없음·미변경 → 중복 발행 방지
+    flushedTs = p.ts;
+    try {
+      fetch(window.__SB__.url + '/rest/v1/rpc/push_position', {
+        method: 'POST', keepalive: true, mode: 'cors', cache: 'no-store',
+        headers: { apikey: window.__SB__.anonKey, Authorization: 'Bearer ' + sbToken,
+                   'Content-Type': 'application/json' },
+        body: JSON.stringify({ p: p })
+      }).then(function (r) { if (!r.ok) flushedTs = 0; }, function () { flushedTs = 0; });
+    } catch (e) { flushedTs = 0; }   // 페이지가 살아있을 때만 롤백 — 얼면 안 돌아도 무방(다음 로드가 백스톱)
+  }
 
   //  Supabase JS 는 DB 오류를 reject 가 아니라 res.error 로 돌려준다 → 반드시 res.error 를 검사.
   //  수동('지금 동기화')일 때만 토스트로 노출하고, 배경 동기화는 콘솔에만 남긴다.
@@ -970,6 +1024,9 @@
 
   function onAuth(session) {
     sbUser = session ? session.user : null;
+    sbToken = session ? (session.access_token || null) : null;   // 동기 flush 용 — getSession 은 pagehide 에서 못 씀
+    sbExp = session ? (session.expires_at || 0) : 0;             // onAuthStateChange 가 TOKEN_REFRESHED 로 갱신
+    if (!sbUser) flushedTs = 0;
     updateSyncUI();
     if (sbUser) syncNow();   // 로그인/세션 복원 직후 pull+merge
   }
@@ -978,8 +1035,13 @@
     SB = window.supabase.createClient(window.__SB__.url, window.__SB__.anonKey);
     SB.auth.getSession().then(function (r) { onAuth(r.data.session); });
     SB.auth.onAuthStateChange(function (_e, session) { onAuth(session); });
-    // 숨김(다른 기기로 전환) 때 flush-push, 복귀 때 pull — 둘 다 syncNow 가 read-merge-write 로 처리.
-    document.addEventListener('visibilitychange', function () { syncNow(); });
+    // 숨김(잠금·앱 전환) 때: 먼저 keepalive 로 위치만 즉시 flush(얼기 전에 발행) → 이어서 syncNow.
+    //  복귀(visible)·focus 때: syncNow 가 pull+merge. syncNow 는 오늘과 동일하게 양방향 무조건 호출.
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'hidden') flushPosition();
+      syncNow();
+    });
+    window.addEventListener('pagehide', flushPosition);            // bfcache/언로드 — iOS 에서 신뢰 가능한 종료 신호
     window.addEventListener('focus', function () { syncNow(); });   // 이벤트 객체가 manual 로 새지 않게 래핑
   }
   initSync();
