@@ -185,7 +185,10 @@ for g in gloss_list:
         for v in _variants(s):
             _surface_ids.setdefault(v, set()).add(g["id"])
 _surf_sorted = sorted(_surface_ids, key=len, reverse=True)
-GATE_RE = (re.compile(r"(?<![A-Za-z])(?:" + "|".join(re.escape(s) for s in _surf_sorted) + r")(?![A-Za-z])")
+# 표면형을 캡처 그룹으로 감싸고, 뒤에 영어 복수 어미(s/es)를 선택적으로 허용한다.
+# "Quanticle computer"(표제어)가 원문 "Quanticle computers"(복수)에도 매칭되도록.
+# 매칭 후 lookup 은 어미를 뺀 group(1) 로 하므로 표제어 키와 그대로 일치한다.
+GATE_RE = (re.compile(r"(?<![A-Za-z])(" + "|".join(re.escape(s) for s in _surf_sorted) + r")(?:es|s)?(?![A-Za-z])")
            if _surf_sorted else None)
 
 
@@ -196,7 +199,7 @@ def gate_ids(src):
     en_text = "".join(r["t"] for r in src.get("runs", []))
     ids = set()
     for m in GATE_RE.finditer(en_text):
-        ids |= _surface_ids.get(m.group(0), set())
+        ids |= _surface_ids.get(m.group(1), set())
     return ids
 
 

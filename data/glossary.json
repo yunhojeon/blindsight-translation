@@ -187,7 +187,10 @@
     "strategy": "transliterate",
     "type": "proper",
     "aliases": [
-      "Keeton"
+      "Keeton",
+      "Siri",
+      "키튼",
+      "시리"
     ],
     "first_mark": {
       "en": true
@@ -202,7 +205,10 @@
     "strategy": "transliterate",
     "type": "proper",
     "aliases": [
-      "Szpindel"
+      "Szpindel",
+      "Isaac",
+      "스핀델",
+      "아이작"
     ],
     "first_mark": {
       "en": true
@@ -217,7 +223,10 @@
     "strategy": "transliterate",
     "type": "proper",
     "aliases": [
-      "Sarasti"
+      "Sarasti",
+      "Jukka",
+      "사라스티",
+      "주카"
     ],
     "first_mark": {
       "en": true
@@ -233,11 +242,16 @@
     "type": "proper",
     "aliases": [
       "amanda Bates",
-      "Bates"
+      "Bates",
+      "Amanda",
+      "베이츠",
+      "어맨다"
     ],
     "first_mark": {
       "en": true
     },
+    "note": "군인. 임무의 전투 분견대를 지휘하는 소령.",
+    "note_level": "spoiler-safe",
     "first_seen": "s0067",
     "locked": true
   },
@@ -246,7 +260,8 @@
     "strategy": "transliterate",
     "type": "proper",
     "aliases": [
-      "Cunningham"
+      "Cunningham",
+      "커닝햄"
     ],
     "first_mark": {
       "en": true
@@ -3457,7 +3472,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "로르샤흐 주변 암석류에 섞여 낙하하는 물체들을 일컫는 작중 조어. 복수형 '고공 다이버들'로 사용.",
+    "note": "로르샤흐 주변 암석 흐름에 섞여 낙하하는 물체들을 일컫는 작중 조어. 복수형 '고공 다이버들'로 사용.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -3833,7 +3848,7 @@
     "review": true
   },
   "torpor": {
-    "ko": "혼수 상태",
+    "ko": "휴면 상태",
     "strategy": "translate",
     "type": "science",
     "first_mark": {
@@ -3872,7 +3887,7 @@
     "review": true
   },
   "Pleistocene": {
-    "ko": "플라이스토세",
+    "ko": "홍적세",
     "strategy": "translate",
     "type": "science",
     "first_mark": {
@@ -5604,6 +5619,12 @@
     "ko": "수잔 제임스",
     "strategy": "transliterate",
     "type": "proper",
+    "aliases": [
+      "James",
+      "Susan",
+      "제임스",
+      "수잔"
+    ],
     "first_mark": {
       "en": true
     },
