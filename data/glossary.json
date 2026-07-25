@@ -614,7 +614,7 @@
     "review": true
   },
   "TMS": {
-    "ko": "경두개 자기자극",
+    "ko": "Transcranial Magnetic Stimulation. 경두개 자기자극",
     "strategy": "translate",
     "type": "science",
     "aliases": [
@@ -4257,7 +4257,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "로르샤흐 내부 진입로의 해부학적 비유 명칭. 표준 의학 용어 그대로 사용.",
+    "note": "의학 용어. 신체 내부의 장기, 혈관, 또는 조직 사이에 비정상적인 통로나 구멍이 생겨 서로 연결된 상태. 로르샤흐 내부 진입로의 해부학적 비유.",
     "note_level": "science",
     "first_seen": null,
     "locked": false,
@@ -4465,7 +4465,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "문맥상 기분·정서 조절을 위한 약물 또는 처치. 짐 무어가 처방 없이 투여에 강하게 반대하는 것으로 보아 정신약리학적 개입으로 추정. mu-는 그리스어 μ 또는 mood의 약어 가능.",
+    "note": "문맥상 μ-오피오이드 관련 약물로 추정. 뮤(μ)-오피오이드 수용체는 뇌와 척수에 있는 세포 수용체로, 강력한 통증 완화, 기분 조절, 그리고 강한 중독 작용을 일으킴.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,

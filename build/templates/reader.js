@@ -79,7 +79,7 @@
     else if (act === 'search') { closeMenu(); openPanel('search-panel'); setTimeout(function () { var s = $('search-input'); if (s) s.focus(); }, 60); }
     else if (act === 'prev') { closeMenu(); gotoChapter(curChap - 1); }
     else if (act === 'next') { closeMenu(); gotoChapter(curChap + 1); }
-    else if (act === 'toc') { closeMenu(); openPanel('toc-panel'); }
+    else if (act === 'toc') { closeMenu(); markToc(); openPanel('toc-panel'); }
     else if (act === 'glossary') { closeMenu(); renderGloss(); openPanel('gl-panel'); }
     else if (act === 'bm') { closeMenu(); renderBM(); openPanel('bm-panel'); }
     else if (act === 'notes') { closeMenu(); renderNotes(); openPanel('note-panel'); }
@@ -404,6 +404,15 @@
     ch.querySelectorAll('.seg').forEach(function (s) { io.observe(s); });
   }
 
+  function markToc() {                   // ToC 에서 현재 챕터 줄에 표식(.toc-current)
+    var list = $('toc-list'); if (!list) return;
+    var prev = list.querySelector('.toc-current');
+    if (prev) { prev.classList.remove('toc-current'); prev.removeAttribute('aria-current'); }
+    if (curChap < 0) return;
+    var li = list.querySelector('.toc-scene[data-chap="' + curChap + '"]');
+    if (li) { li.classList.add('toc-current'); li.setAttribute('aria-current', 'true'); }
+  }
+
   function showChapter(idx) {            // 표시만 토글(스크롤·URL 은 호출자 담당)
     idx = clamp(idx, 0, chapters.length - 1);
     var ch = chapters[idx];
@@ -412,6 +421,7 @@
     ch.classList.add('active');
     curChap = idx;
     localStorage.setItem('bs_chap', idx);
+    markToc();
     observeChapter(ch);
     var atFirst = idx === 0, atLast = idx === chapters.length - 1;
     if (pgPrev) pgPrev.disabled = atFirst;
@@ -430,7 +440,7 @@
   }
   if (pgPrev) pgPrev.onclick = function () { gotoChapter(curChap - 1); };
   if (pgNext) pgNext.onclick = function () { gotoChapter(curChap + 1); };
-  if (pgMid) pgMid.onclick = function () { openPanel('toc-panel'); };
+  if (pgMid) pgMid.onclick = function () { markToc(); openPanel('toc-panel'); };
 
   document.addEventListener('keydown', function (e) {   // 데스크톱 좌우 화살표
     if (e.altKey || e.ctrlKey || e.metaKey) return;

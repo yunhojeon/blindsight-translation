@@ -861,6 +861,29 @@ mark.s-hit {
   margin-right: 4px;
 }
 
+/* 현재 읽는 챕터: 줄 전체 강조색 + 번호 왼쪽에 ▸ 표식 */
+#toc-list .toc-scene {
+  position: relative;
+}
+
+#toc-list .toc-current > a,
+#toc-list .toc-current .toc-n {
+  color: var(--accent);
+  opacity: 1;
+}
+
+#toc-list .toc-current > a {
+  font-weight: 600;
+}
+
+#toc-list .toc-current > a::before {
+  content: "▸";
+  position: absolute;
+  left: 1px;
+  color: var(--accent);
+  font-weight: 700;
+}
+
 /* About 본문 */
 .about {
   font-size: 13px;

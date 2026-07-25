@@ -67,26 +67,35 @@ def esc(s):
 
 
 # 직선 큰따옴표(") → 둥근 따옴표(“ ”). 데이터는 원문처럼 직선 유지, 번역 표시에서만 변환.
-_OPENERS = "([{<‘“‹«—–-\n\r\t "
+# 판정은 앞 문자 맥락이 아니라 문단 내 여/닫 상태(inside)로 한다 — 큰따옴표는 문단 안에서 여닫이 교대하므로
+# 견고하다. 앞 문자 휴리스틱(‘— 뒤=여는 따옴표’)은 끊긴 말("어떻게—")의 닫는 따옴표를 여는 것으로 오판했다.
+# 짝 없는 닫힘(에피그래프 꼬리 등, 여는 짝이 없는 데이터)만 앞 문자로 보정한다.
+_TERMINAL = set(".?!,’”")   # inside=False 인데 공백 없이 이 부호가 바로 앞이면 닫는 따옴표로 본다
 
 
-def _smart_quotes(text, prev):
-    """직선 " 를 앞 문자 맥락으로 여는/닫는 둥근따옴표로. (변환문, 마지막 문자) 반환(run 경계 넘어 상태 유지)."""
+def _smart_quotes(text, prev, inside):
+    """직선 " 를 문단 내 여/닫 상태로 둥근따옴표 변환. (변환문, 마지막 문자, inside) 반환.
+    prev·inside 는 run 경계를 넘어 유지되고, render_runs 가 문단(세그먼트)마다 리셋한다."""
     out = []
     for ch in text:
         if ch == '"':
-            opening = prev is None or prev.isspace() or prev in _OPENERS
-            ch = "“" if opening else "”"   # “ / ”
+            if inside:                                    # 이미 열려 있으면 닫음
+                ch, inside = "”", False
+            elif prev is not None and prev in _TERMINAL:  # 여는 짝 없는 닫힘(꼬리) 방어
+                ch = "”"
+            else:                                         # 새로 엶
+                ch, inside = "“", True
         out.append(ch)
         prev = ch
-    return "".join(out), prev
+    return "".join(out), prev, inside
 
 
 def render_runs(runs):
     out = []
     prev = None
+    inside = False        # 여/닫 상태는 문단(세그먼트) 단위 — 오류가 다음 문단으로 번지지 않게
     for r in runs:
-        t, prev = _smart_quotes(r["t"], prev)
+        t, prev, inside = _smart_quotes(r["t"], prev, inside)
         t = esc(t)
         iv = r.get("i")
         out.append(f'<span class="{italic_class(iv)}">{t}</span>' if iv else t)
@@ -376,16 +385,15 @@ def build_toc(snips, meta):
     items = []
     cur_part = None
     chap_no = 0
-    for c in meta:
+    for ci, c in enumerate(meta):                  # ci = 전역 챕터 인덱스 (body 의 chap-{ci}·chapters[] 와 일치)
         part = c["part"]
-        if part != cur_part:
+        if part != cur_part:                       # 파트 헤더(장 구분)는 유지, 챕터 번호는 리셋하지 않음
             cur_part = part
-            chap_no = 0
             items.append(f'<li class="toc-part"><a href="#{c["start"]}">'
                          f'{html.escape(part_ko(part))}</a></li>')
-        chap_no += 1
+        chap_no += 1                                # 전역 일련번호 1–24 (하단 페이저·검색결과와 일치)
         snip = html.escape(snips.get(c["body"], "")[:30])
-        items.append(f'<li class="toc-scene"><a href="#{c["body"]}">'
+        items.append(f'<li class="toc-scene" data-chap="{ci}"><a href="#{c["body"]}">'
                      f'<span class="toc-n">{chap_no}</span>{snip}…</a></li>')
     return "\n".join(items)
 
