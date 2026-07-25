@@ -987,10 +987,17 @@
     if (pendingPos) { adoptPosition(pendingPos); var l = syncLocalGet(); l.position = pendingPos; syncLocalSet(l); }
     hideBanner();
   }
+  //  배너 닫기(X) = "여기 그대로 볼게" → 현 위치를 latest 로 기록(+push).
+  //  이렇게 안 하면 로컬 위치 ts 가 원격보다 과거로 남아 다음 pull 마다 배너가 재등장한다.
+  function dismissBanner() {
+    var cur = curReadId();
+    if (cur) notePosition(cur);   // ts=now 로 갱신 → 원격보다 최신 → 배너 조건(tsOf(rp)>tsOf(lp)) 해제
+    hideBanner();
+  }
   (function () {
     var go = $('sync-go'), x = $('sync-x');
     if (go) go.onclick = acceptBanner;
-    if (x) x.onclick = hideBanner;
+    if (x) x.onclick = dismissBanner;
   })();
 
   // 로그인/패널 UI

@@ -90,16 +90,18 @@
     "strategy": "translate",
     "type": "neologism",
     "aliases": [
-      "baselines"
+      "baselines",
+      "baseline human",
+      "baseline humans",
+      "Human baseline"
     ],
     "first_mark": {
       "en": true
     },
-    "note": "흡혈귀·개조인을 제외한 보통 인간.",
+    "note": "유전 개조·신경 확장 없이 태어난 보통 인간. 흡혈귀·트랜스휴먼과 대비되는 표준 인간. 원문 'baseline (human)'을 통일해 '기본형'으로 옮긴다(human 명시 시 '기본형 인간').",
     "note_level": "spoiler-safe",
     "first_seen": "s0076",
-    "locked": false,
-    "review": true
+    "locked": true
   },
   "Transient Attitudinal Tweak": {
     "ko": "일시적 태도 조정",
@@ -687,11 +689,10 @@
     "first_mark": {
       "en": true
     },
-    "note": "테세우스호의 제작실(fabrication).",
+    "note": "테세우스호 선내의 제작·제조 시설(fabrication)의 약칭. 원자재로 부품·드론 등을 찍어내는 공장. 대문자 Fab은 이 시설의 고유 약칭.",
     "note_level": "spoiler-safe",
     "first_seen": null,
-    "locked": false,
-    "review": true
+    "locked": true
   },
   "commissar": {
     "ko": "감시관",
@@ -1736,19 +1737,6 @@
     "locked": false,
     "review": true
   },
-  "baseline human": {
-    "ko": "기준선 인간",
-    "strategy": "transliterate",
-    "type": "neologism",
-    "first_mark": {
-      "en": true
-    },
-    "note": "유전 개조·신경 확장 없이 태어난 표준 인간. 향후 glossary 확정 필요",
-    "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
   "Pod-man": {
     "ko": "포드맨",
     "strategy": "transliterate",
@@ -1957,19 +1945,6 @@
     "locked": false,
     "review": true
   },
-  "baselines": {
-    "ko": "기준인",
-    "strategy": "transliterate",
-    "type": "neologism",
-    "first_mark": {
-      "en": true
-    },
-    "note": "유전·사이버네틱 개조 없는 표준 인간. '기준선 인간'의 줄임.",
-    "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
   "fuckcubbies": {
     "ko": "밀회 칸",
     "strategy": "transliterate",
@@ -1984,13 +1959,13 @@
     "review": true
   },
   "Body Economic": {
-    "ko": "경제 유기체",
-    "strategy": "transliterate",
+    "ko": "경제적 통일체",
+    "strategy": "translate",
     "type": "neologism",
     "first_mark": {
       "en": true
     },
-    "note": "사회·경제 체제를 생물학적 유기체에 빗댄 표현.",
+    "note": "'body politic'(정치적 통일체)을 경제 영역으로 비튼 조어. 단순 은유가 아니라 하나의 집합적 세력을 가리킨다 — 탈희소성 자동화 경제를 떠받치고 그 혜택을 누리는 주류 경제 공동체·기득권층. 가상 '천국' 이주 같은 체제 정당화 담론을 퍼뜨린다. 첼시는 자신을 여기에 '기생하는 존재'라 부른다.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -4654,17 +4629,20 @@
     "review": true
   },
   "crypt": {
-    "ko": "납골당",
-    "strategy": "transliterate",
+    "ko": "동면 구역",
+    "strategy": "translate",
     "type": "neologism",
+    "aliases": [
+      "the crypt",
+      "crypts"
+    ],
     "first_mark": {
       "en": true
     },
-    "note": "동면 캡슐 구역을 지칭하는 은유적 표현. 관(coffin)과 짝을 이뤄 죽음의 분위기를 조성.",
+    "note": "테세우스 선내 크라이오수면 구역. 관(coffin) 형태의 포드(pod)들이 늘어서 있어 원문은 무덤·납골당을 뜻하는 'crypt'로 불러 죽음의 분위기를 자아낸다. 개별 장치는 포드.",
     "note_level": "spoiler-safe",
     "first_seen": null,
-    "locked": false,
-    "review": true
+    "locked": true
   },
   "fight-flight": {
     "ko": "투쟁-도피",
@@ -4922,19 +4900,6 @@
     },
     "note": "피부 아래(subcutaneous) 삽입된 무선 안테나 이식물",
     "note_level": "science",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
-  "baseline (human)": {
-    "ko": "기준선 인간",
-    "strategy": "transliterate",
-    "type": "neologism",
-    "first_mark": {
-      "en": true
-    },
-    "note": "유전적·신체적 개조 없이 태어난 표준 인간. 트랜스휴먼과 대비되는 개념",
-    "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
     "review": true
@@ -6323,19 +6288,6 @@
     "locked": false,
     "review": true
   },
-  "the crypt": {
-    "ko": "동면 캡슐",
-    "strategy": "transliterate",
-    "type": "neologism",
-    "first_mark": {
-      "en": true
-    },
-    "note": "테세우스 선내 크라이오수면 장치. 관(棺) 형태로 묘사됨. 선원들이 동면하는 공간.",
-    "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
   "electrophoresis": {
     "ko": "전기영동",
     "strategy": "translate",
@@ -6831,7 +6783,7 @@
     "review": true
   },
   "wireless prosthetics": {
-    "ko": "무선 보철 장치",
+    "ko": "무선 의체",
     "strategy": "transliterate",
     "type": "neologism",
     "first_mark": {
@@ -8112,19 +8064,6 @@
       "en": true
     },
     "note": "미확인 군사·센서 약어. 원문 유지 권장. 확정 시 glossary 갱신 필요.",
-    "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
-  "Fab plant": {
-    "ko": "제조 플랜트",
-    "strategy": "transliterate",
-    "type": "proper",
-    "first_mark": {
-      "en": true
-    },
-    "note": "테세우스 선내 제조·조립 시설(Fabrication plant 약칭).",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
