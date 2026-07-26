@@ -414,6 +414,31 @@ hr.scene::before {
   font-size: .9em;
 }
 
+/* ── 원문 삽화(figure) ──────────────────────────────────────────── */
+.fig {
+  margin: 1.6em auto;
+  text-align: center;
+}
+
+.fig img {
+  display: inline-block;
+  max-width: 160px;
+  width: 40%;
+  min-width: 96px;
+  height: auto;
+  /* 원본은 검은 선/흰 배경 그레이스케일 → 다크 테마에서도 읽히도록 흰 패딩 박스로 감싼다 */
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .18);
+}
+
+.fig figcaption {
+  margin-top: .5em;
+  color: var(--muted);
+  font-size: .82em;
+}
+
 /* ── 고유명사(coinage) / 병기(anno) ──────────────────────────────── */
 .coinage {
   /* color: var(--coinage); */
@@ -647,6 +672,16 @@ body.gloss-off .gl {
   line-height: 1.6;
   font-family: Georgia, serif;
   text-align: left;
+}
+
+/* 원문(.orig)도 세그먼트 정렬을 따른다 — .orig 의 기본 text-align:left 를 덮어씀
+   (한글 .ko 는 인라인이라 부모 .seg 의 정렬을 상속받지만, .orig 는 자체 정렬을 가지므로 별도 지정) */
+.seg.ta-right .orig {
+  text-align: right;
+}
+
+.seg.ta-center .orig {
+  text-align: center;
 }
 
 .orig.open {

@@ -58,6 +58,9 @@ def italic_class(i):
 segs = {json.loads(l)["id"]: json.loads(l)
         for l in (DATA / "segments.jsonl").read_text(encoding="utf-8").splitlines()}
 gl = json.loads((DATA / "glossary.json").read_text(encoding="utf-8"))
+# 원문에 포함된 삽화(현재 Necker cube 1개). {세그먼트id: {src(data URI), alt, caption}} — 해당 세그먼트 뒤에 삽입.
+_figpath = DATA / "figures.json"
+figures = json.loads(_figpath.read_text(encoding="utf-8")) if _figpath.exists() else {}
 manifest = json.loads((DATA / "chunks_manifest.json").read_text(encoding="utf-8"))
 order = [m["chunk_id"] for m in manifest]
 
@@ -317,6 +320,14 @@ def part_ko(name):
     return _PART_KO_FALLBACK.get(name, name)
 
 
+def render_figure(fig):
+    """원문 삽화를 <figure> 로 렌더(이미지는 data URI 임베드 → 단일 파일 유지)."""
+    alt = html.escape(fig.get("alt", ""))
+    cap = fig.get("caption", "")
+    cap_html = f'<figcaption>{html.escape(cap)}</figcaption>' if cap else ""
+    return f'<figure class="fig"><img src="{fig["src"]}" alt="{alt}" loading="lazy">{cap_html}</figure>'
+
+
 def build_body(cids, meta):
     """본문을 챕터 단위 <section class="chapter" id="chap-N"> 로 묶는다(리더의 페이징 단위).
     경계는 chapter_meta() 와 동일. 청크 경계와 무관하게 세그먼트 순서대로 연속 분할."""
@@ -350,6 +361,8 @@ def build_body(cids, meta):
                 prev_part = raw_part
             open_ch = ci
         parts.append(seg_html(tr))
+        if sid in figures:                                # 이 세그먼트 뒤에 원문 삽화
+            parts.append(render_figure(figures[sid]))
     if open_ch is not None:
         parts.append('</section>')
     return "\n".join(parts), snips
