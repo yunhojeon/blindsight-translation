@@ -6146,7 +6146,7 @@
     "review": true
   },
   "vestibule": {
-    "ko": "전실",
+    "ko": "연결 통로",
     "strategy": "transliterate",
     "type": "neologism",
     "first_mark": {
@@ -6191,7 +6191,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "막(膜) 우주론. 플랫랜드 비유와 대구를 이루는 고차원 물리학 이론. 음차.",
+    "note": "3차원 우주를 다차원 시공간의 막(膜)으로 보는 우주론. 플랫랜드 비유와 대구를 이루는 고차원 물리학 이론. 음차.",
     "note_level": "science",
     "first_seen": null,
     "locked": false,
@@ -6224,13 +6224,13 @@
     "review": true
   },
   "squeezebulb": {
-    "ko": "짜개 용기",
+    "ko": "압착 벌브",
     "strategy": "transliterate",
     "type": "neologism",
     "first_mark": {
       "en": true
     },
-    "note": "미세중력 환경에서 액체를 담는 유연한 짜개식 용기.",
+    "note": "미세중력 환경에서 액체를 담는 유연한 압착식 용기.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -6393,13 +6393,13 @@
     "review": true
   },
   "Fourth Wave": {
-    "ko": "4파",
+    "ko": "제4차 탐사대",
     "strategy": "transliterate",
     "type": "proper",
     "first_mark": {
       "en": true
     },
-    "note": "지구 측 정치·군사 파벌로 추정되는 집단. 원문 'the Fourth Wave'.",
+    "note": "",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,

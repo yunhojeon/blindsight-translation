@@ -55,13 +55,49 @@ def italic_class(i):
         kind = re.sub(r"[^a-z0-9-]", "", kind) or "default"
     return f"ital i-{kind}"
 
-segs = {json.loads(l)["id"]: json.loads(l)
-        for l in (DATA / "segments.jsonl").read_text(encoding="utf-8").splitlines()}
-gl = json.loads((DATA / "glossary.json").read_text(encoding="utf-8"))
+def _json_fail(path, msg, colno, line_no, line_text):
+    """JSON 파싱 실패를 파일·줄·열·문제 지점과 함께 알려주고 빌드를 중단한다."""
+    a = max(0, colno - 31)
+    near = line_text[a:colno - 1] + "  ⟪⟪ 여기 ⟫⟫  " + line_text[colno - 1:colno - 1 + 30]
+    m = re.match(r'\{\s*"id"\s*:\s*"([^"]+)"', line_text.strip())
+    seg = f" · 세그먼트 {m.group(1)}" if m else ""
+    sys.exit(f"\n❌ JSON 파싱 실패 — {path}\n"
+             f"   줄 {line_no} · 열(column) {colno}{seg}\n"
+             f"   {msg}\n"
+             f"   …{near}…\n")
+
+
+def load_jsonl(path):
+    """jsonl 을 줄 단위로 로드. 파싱 실패 시 어느 파일·줄·세그먼트·열인지 알려주고 중단."""
+    rows = []
+    for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        s = line.strip()
+        if not s:
+            continue
+        try:
+            rows.append(json.loads(s))
+        except json.JSONDecodeError as e:
+            _json_fail(path, e.msg, e.colno, n, line)   # jsonl 은 한 줄=한 객체 → e.colno 가 그 줄의 열
+    return rows
+
+
+def load_json(path):
+    """단일 JSON 파일 로드. 파싱 실패 시 파일·줄·열 위치를 알려주고 중단."""
+    txt = path.read_text(encoding="utf-8")
+    try:
+        return json.loads(txt)
+    except json.JSONDecodeError as e:
+        lines = txt.splitlines()
+        line_text = lines[e.lineno - 1] if 0 <= e.lineno - 1 < len(lines) else ""
+        _json_fail(path, e.msg, e.colno, e.lineno, line_text)
+
+
+segs = {d["id"]: d for d in load_jsonl(DATA / "segments.jsonl")}
+gl = load_json(DATA / "glossary.json")
 # 원문에 포함된 삽화(현재 Necker cube 1개). {세그먼트id: {src(data URI), alt, caption}} — 해당 세그먼트 뒤에 삽입.
 _figpath = DATA / "figures.json"
-figures = json.loads(_figpath.read_text(encoding="utf-8")) if _figpath.exists() else {}
-manifest = json.loads((DATA / "chunks_manifest.json").read_text(encoding="utf-8"))
+figures = load_json(_figpath) if _figpath.exists() else {}
+manifest = load_json(DATA / "chunks_manifest.json")
 order = [m["chunk_id"] for m in manifest]
 
 
@@ -336,7 +372,7 @@ def build_body(cids, meta):
         f = TR / f"{cid}.jsonl"
         if not f.exists():
             continue
-        trs_all += [json.loads(l) for l in f.read_text(encoding="utf-8").splitlines() if l.strip()]
+        trs_all += load_jsonl(f)
     snips = {}
     for tr in trs_all:
         if segs[tr["id"]]["kind"] != "scene-break":
