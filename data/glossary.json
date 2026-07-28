@@ -589,19 +589,6 @@
     "locked": false,
     "review": true
   },
-  "Turing Morphogen": {
-    "ko": "튜링 모르포겐",
-    "strategy": "translate",
-    "type": "science",
-    "first_mark": {
-      "en": true
-    },
-    "note": "세포의 증식·분화를 제어해 형태를 만드는 요소.",
-    "note_level": "science",
-    "first_seen": "s2651",
-    "locked": false,
-    "review": true
-  },
   "Proprioreceptive polyneuropathy": {
     "ko": "고유수용성 다발신경병증",
     "strategy": "translate",
@@ -6464,7 +6451,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "돌고래 음파탐지에서 방출하는 연속 클릭 신호 열차; 여기서는 스크램블러의 통신 방식으로 재맥락화됨",
+    "note": "돌고래 음파탐지에서 방출하는 연속 클릭 신호 열차",
     "note_level": "science",
     "first_seen": null,
     "locked": false,
@@ -6639,32 +6626,20 @@
     "locked": false,
     "review": true
   },
-  "Turing morphogens": {
+  "Turing morphogen": {
     "ko": "튜링 모르포겐",
     "strategy": "translate",
     "type": "science",
     "first_mark": {
       "en": true
     },
-    "note": "앨런 튜링의 반응-확산 이론에서 생물학적 패턴 형성을 유도하는 물질. 여기서는 외부에서 세포 과정을 매개하는 대체 유전 메커니즘을 지칭.",
+    "note": "앨런 튜링의 반응-확산 이론에서 세포의 증식·분화를 제어해 생물학적 패턴 형성을 유도하는 물질. 여기서는 외부에서 세포 과정을 매개하는 대체 유전 메커니즘을 지칭.",
     "note_level": "science",
     "first_seen": null,
     "locked": false,
     "review": true
   },
-  "Turing morphogen": {
-    "ko": "튜링 형태발생소",
-    "strategy": "translate",
-    "type": "science",
-    "first_mark": {
-      "en": true
-    },
-    "note": "앨런 튜링이 제안한 반응-확산 기반 형태형성 물질. 유전자 없이 생물학적 패턴을 생성.",
-    "note_level": "science",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
+
   "mitotic spindle": {
     "ko": "분열 방추사",
     "strategy": "translate",
