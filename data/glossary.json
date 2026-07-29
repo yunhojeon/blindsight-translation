@@ -6849,13 +6849,13 @@
     "review": true
   },
   "bow shock": {
-    "ko": "활 충격파",
+    "ko": "활모양 충격파",
     "strategy": "translate",
     "type": "science",
     "first_mark": {
       "en": true
     },
-    "note": "천체의 자기권이 태양풍·항성풍과 충돌할 때 형성되는 충격파 전면. 로르샤흐의 자기권 외곽 구조를 지칭.",
+    "note": "태양풍·항성풍이 천체의 자기권에 충돌할 때 형성되는 충격파 전면. 로르샤흐의 자기권 외곽 구조를 지칭.",
     "note_level": "science",
     "first_seen": null,
     "locked": false,
@@ -6881,7 +6881,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "흡혈귀 신경계의 비유클리드적 공간 인지를 보정하는 장치. 음차+의역 혼합.",
+    "note": "십자가 결함 반응 억제제를 자동으로 주입하는 펌프.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -6914,7 +6914,7 @@
     "review": true
   },
   "extended phenotype": {
-    "ko": "확장 표현형",
+    "ko": "확장된 표현형",
     "strategy": "translate",
     "type": "science",
     "first_mark": {
