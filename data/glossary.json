@@ -722,16 +722,15 @@
   },
   "Heaven": {
     "ko": "천국",
-    "strategy": "transliterate",
+    "strategy": "translate",
     "type": "neologism",
     "first_mark": {
       "en": true
     },
-    "note": "의식을 업로드한 자들이 머무는 가상 사후세계.",
+    "note": "육체를 보존·격납한 채 그 생물학적 뇌로 VR 가상세계에서 살아가는 '사후세계' 플랫폼. 의식을 몸에서 스캔·업로드하는 것이 아님(작중 미발명 기술).",
     "note_level": "spoiler-safe",
     "first_seen": null,
-    "locked": false,
-    "review": true
+    "locked": true
   },
   "ascendant": {
     "ko": "승천자",
@@ -2530,19 +2529,6 @@
     "locked": false,
     "review": true
   },
-  "Heaven (VR afterlife)": {
-    "ko": "헤븐",
-    "strategy": "transliterate",
-    "type": "proper",
-    "first_mark": {
-      "en": true
-    },
-    "note": "작중 가상현실 내세 플랫폼의 고유명칭.",
-    "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
   "cervical socket": {
     "ko": "경추 소켓",
     "strategy": "transliterate",
@@ -3291,7 +3277,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "수잔 제임스(4인방)의 인격 중 하나. 계산적·무뚝뚝한 성향. 원문 표기 그대로 음차.",
+    "note": "수잔 제임스(4인방)의 인격 중 하나. 계산적·무뚝뚝한 성향. 남성적.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -7174,7 +7160,7 @@
     "review": true
   },
   "visual timestream": {
-    "ko": "시각 시간류",
+    "ko": "시각 정보흐름",
     "strategy": "transliterate",
     "type": "neologism",
     "first_mark": {
@@ -8314,6 +8300,19 @@
     "note": "테세우스가 앞서 보내는 선발 정찰용 무인정. 종종 주 탐사정(잭)을 가리킨다.",
     "first_seen": "s0527",
     "locked": true,
+    "review": true
+  },
+  "undead metabolism": {
+    "ko": "언데드 신진대사",
+    "strategy": "transliterate",
+    "type": "neologism",
+    "first_mark": {
+      "en": true
+    },
+    "note": "동면 상태의 신진대사",
+    "note_level": "spoiler-safe",
+    "first_seen": null,
+    "locked": false,
     "review": true
   }
 }
