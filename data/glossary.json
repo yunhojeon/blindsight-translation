@@ -4902,7 +4902,7 @@
     "review": true
   },
   "Realist franchise": {
-    "ko": "현실주의자 프랜차이즈",
+    "ko": "리얼리스트 프랜차이즈",
     "strategy": "transliterate",
     "type": "neologism",
     "first_mark": {
@@ -8025,7 +8025,7 @@
     "first_mark": {
       "en": true
     },
-    "note": "미확인 군사·센서 약어. 원문 유지 권장. 확정 시 glossary 갱신 필요.",
+    "note": "미확인 군사·센서 약어.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
@@ -8058,7 +8058,7 @@
     "review": true
   },
   "Public Address": {
-    "ko": "전내 방송",
+    "ko": "전체 방송",
     "strategy": "transliterate",
     "type": "neologism",
     "first_mark": {
@@ -8103,6 +8103,9 @@
     "first_mark": {
       "en": true
     },
+    "aliases": [
+      "chemical light"
+    ],
     "note": "chemical light stick. 군용 화학 발광 야광봉. 전투 상황에서 전원 없이 사용하는 조명.",
     "note_level": "spoiler-safe",
     "first_seen": null,
