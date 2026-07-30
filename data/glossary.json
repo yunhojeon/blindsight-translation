@@ -7335,6 +7335,9 @@
     "first_mark": {
       "en": true
     },
+    "aliases": [
+      "ampsat"
+    ],
     "note": "amplification satellite relay의 약칭으로 추정. 이카루스 어레이의 반물질 흐름을 포착·중계하기 위해 함선에서 발사하는 위성.",
     "note_level": "spoiler-safe",
     "first_seen": null,
@@ -7560,19 +7563,6 @@
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
-    "review": true
-  },
-  "ampsat": {
-    "ko": "앰프샛",
-    "strategy": "transliterate",
-    "type": "neologism",
-    "first_mark": {
-      "en": true
-    },
-    "note": "반물질 위성(antimatter satellite)의 조어로 추정. 음차 처리.",
-    "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": true,
     "review": true
   },
   "cosmic rays": {
