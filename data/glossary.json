@@ -1944,6 +1944,18 @@
     "locked": false,
     "review": true
   },
+  "BioMed": {
+    "ko": "바이오메드",
+    "strategy": "transliterate",
+    "type": "proper",
+    "first_mark": {
+      "en": true
+    },
+    "note": "테세우스 드럼 내 생의학 구획. 자체 베어링으로 도는 고리(서브드럼)로, 진단 침상·검사 장비를 갖춰 스핀델·커닝햄이 일하는 선내 구역.",
+    "note_level": "spoiler-safe",
+    "first_seen": "s0101",
+    "locked": true
+  },
   "Body Economic": {
     "ko": "경제적 통일체",
     "strategy": "translate",
@@ -2244,17 +2256,16 @@
     "review": true
   },
   "observation blister": {
-    "ko": "관측 기포",
+    "ko": "관측 블리스터",
     "strategy": "transliterate",
-    "type": "neologism",
+    "type": "proper",
     "first_mark": {
       "en": true
     },
-    "note": "우주선 선체에 돌출된 반구형 관측 공간. blister(물집·기포)의 형태에서 따온 항공우주 용어.",
+    "note": "테세우스 선수(prow)에 돌출된 반구형 관측 공간. blister(물집·기포 모양)에서 따온 항공우주 용어로, 조개뚜껑(clamshell)을 닫아 별을 차단할 수 있다. 작중 단독으로 '블리스터(the Blister)'로도 불림. (일반 명사 blister=물집·기포는 별개)",
     "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
-    "review": true
+    "first_seen": "s0106",
+    "locked": true
   },
   "clamshells": {
     "ko": "조개뚜껑",
@@ -8106,19 +8117,6 @@
       "en": true
     },
     "note": "테세우스 선내 원통형 격벽 해치. 음차 처리.",
-    "note_level": "spoiler-safe",
-    "first_seen": null,
-    "locked": false,
-    "review": true
-  },
-  "Blister": {
-    "ko": "블리스터",
-    "strategy": "transliterate",
-    "type": "proper",
-    "first_mark": {
-      "en": true
-    },
-    "note": "선체의 돔형 돌출 구획(관측창 또는 포탑 구역). 음차 처리.",
     "note_level": "spoiler-safe",
     "first_seen": null,
     "locked": false,
